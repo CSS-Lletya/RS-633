@@ -1,0 +1,27 @@
+void script_4589() {
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(1110,14));
+	clearExtraChildren(new WidgetPointer(1110,12));
+	clearExtraChildren(new WidgetPointer(1110,15));
+	clearExtraChildren(new WidgetPointer(1110,17));
+	clearExtraChildren(new WidgetPointer(1110,18));
+	clearExtraChildren(new WidgetPointer(1110,16));
+	setWidgetIsHidden(true, new WidgetPointer(1110,28));
+	setWidgetIsHidden(false, new WidgetPointer(1110,67));
+	setWidgetText(new WidgetPointer(1110,62), (object)"You are not currently in a Clan Chat channel.");
+	setWidgetIsHidden(true, new WidgetPointer(1110,30));
+	setWidgetIsHidden(false, new WidgetPointer(1110,22));
+	setWidgetIsHidden(false, new WidgetPointer(1110,24));
+	script_4469();
+	script_5396();
+	cs2method_10467(6256, 72745043);
+	setWidgetIsHidden(true, new WidgetPointer(1110,13));
+	cs2method_10893(1, 19, 0, 0, 72744980);
+	globalint_1518 = -1;
+	globalstring_126 = "";
+	setWidgetText(new WidgetPointer(1110,27), (object)"");
+	ovar0 = (object)"Join your clan chat channel.";
+	cs2method_20835(4538, new WidgetPointer(1110,124), new WidgetPointer(-32768,3), -1, (string)ovar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1110,82));
+	cs2method_10375(1, 72745042, (object)"Join Clan Chat channel");
+	return;
+}

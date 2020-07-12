@@ -1,0 +1,17 @@
+void script_4141(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 0;
+	ivar3 = 0;
+	if (cs2method_10551(arg1, 0) == 1) {
+		ivar2 = subtract(arg0, cs2method_10878());
+		if (ivar2 <= 0) {
+			cs2method_20745(-1, "");
+			cs2method_10714();
+			return;
+		}
+		ivar3 = subtract(255, cs2method_10354());
+		cs2method_10305(cs2method_10586(add(cs2method_10354(), divide(ivar3, ivar2)), 254));
+	}
+	return;
+}

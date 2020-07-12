@@ -1,0 +1,60 @@
+void script_4621(int arg0) {
+	switch (standart_config_2128) {
+		case 1:
+			if (bitconfig_9261 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 2:
+			if (bitconfig_9262 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 3:
+			if (bitconfig_9263 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 4:
+			if (bitconfig_9264 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 5:
+			if (bitconfig_9265 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 6:
+			if (bitconfig_9266 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 7:
+			if (bitconfig_9267 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+			break;
+		case 8:
+			if (bitconfig_9268 == 0) {
+				cs2method_10467(5920, arg0);
+			} else {
+				cs2method_10467(5916, arg0);
+			}
+	}
+	return;
+}

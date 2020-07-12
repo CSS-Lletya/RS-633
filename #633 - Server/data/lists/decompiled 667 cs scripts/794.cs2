@@ -1,0 +1,26 @@
+void script_794(int arg0,int arg1,int arg2,int arg3,object arg4,object arg5,object arg6,object arg7,object arg8) {
+	if (cs2method_10551(arg2, arg3) == 1) {
+		if (arg0 != -1) {
+			setItemOnWidget_10672(arg0, -1);
+			cs2method_11002(getItemName(arg1));
+			setWidgetContextMenuOption(1, arg4);
+			setWidgetContextMenuOption(2, arg5);
+			setWidgetContextMenuOption(3, arg6);
+			setWidgetContextMenuOption(4, arg7);
+			setWidgetContextMenuOption(5, arg8);
+			setWidgetContextMenuOption(6, (object)("Examine" + "<col=ff9040>"));
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+		} else {
+			setItemOnWidget_10672(-1, 0);
+			cs2method_11002((object)"");
+			setWidgetContextMenuOption(1, (object)"");
+			setWidgetContextMenuOption(2, (object)"");
+			setWidgetContextMenuOption(3, (object)"");
+			setWidgetContextMenuOption(4, (object)"");
+			setWidgetContextMenuOption(5, (object)"");
+			setWidgetContextMenuOption(6, (object)"");
+		}
+	}
+	return;
+}

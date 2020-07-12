@@ -1,0 +1,100 @@
+void script_186(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,int arg12,int arg13) {
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	ivar14 = cs2method_10919(arg1);
+	ivar15 = cs2method_10090(arg0);
+	ivar16 = subtract(ivar15, 32);
+	ivar17 = 0;
+	if (ivar14 > 0) {
+		ivar17 = cs2method_10542(ivar15, ivar14, ivar16);
+	} else {
+		ivar17 = ivar16;
+	}
+	ivar17 = cs2method_10004(ivar17, 20);
+	ivar18 = cs2method_10424(arg1);
+	ivar19 = 0;
+	ivar20 = 0;
+	if (ivar18 > 0) {
+		ivar19 = subtract(ivar14, cs2method_10090(arg1));
+		if (ivar19 == 0) {
+			ivar19 = 1;
+		}
+		if (ivar18 > ivar19) {
+			cs2method_10085(0, ivar19, arg1);
+			ivar18 = ivar19;
+		}
+		ivar20 = cs2method_10542(ivar18, ivar19, subtract(ivar16, ivar17));
+		ivar20 = cs2method_10586(cs2method_10004(ivar20, 0), subtract(ivar16, ivar17));
+	}
+	createChildWidget(arg0, 5, 0);
+	setWidgetPosition(0, 21, 0, 0);
+	setWidgetSize(16, 42, 0, 1);
+	cs2method_10469(arg3);
+	cs2method_10470(1);
+	cs2method_20723(720, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, "IIi");
+	createChildWidget(arg0, 5, 1);
+	setWidgetPosition(0, 16, 0, 0);
+	setWidgetSize(16, 5, 0, 0);
+	cs2method_10469(arg2);
+	cs2method_10361(1);
+	cs2method_20723(720, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, "IIi");
+	createChildWidget(arg0, 5, 2);
+	setWidgetPosition(0, 16, 0, 2);
+	setWidgetSize(16, 5, 0, 0);
+	cs2method_10469(arg4);
+	cs2method_10361(1);
+	cs2method_20723(720, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, "IIi");
+	createChildWidget(arg0, 5, 3);
+	setWidgetPosition(0, add(add(16, ivar20), 5), 0, 0);
+	cs2method_10469(arg6);
+	cs2method_10470(1);
+	cs2method_10460(arg0, 0);
+	cs2method_10895(1);
+	setWidgetSize(16, subtract(ivar17, 10), 0, 0);
+	cs2method_20857(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, 0, 0, "IIii1");
+	cs2method_20191(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, 0, 1, "IIii1");
+	createChildWidget(arg0, 5, 4);
+	setWidgetPosition(0, add(16, ivar20), 0, 0);
+	setWidgetSize(16, 5, 0, 0);
+	cs2method_10469(arg5);
+	cs2method_10470(0);
+	cs2method_10361(1);
+	cs2method_20857(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, -5, 0, "IIii1");
+	cs2method_20191(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, -5, 1, "IIii1");
+	createChildWidget(arg0, 5, 5);
+	setWidgetPosition(0, subtract(add(add(16, ivar20), ivar17), 5), 0, 0);
+	setWidgetSize(16, 5, 0, 0);
+	cs2method_10469(arg7);
+	cs2method_10470(0);
+	cs2method_10361(1);
+	cs2method_20857(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, ivar17, 0, "IIii1");
+	cs2method_20191(5505, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, ivar17, 1, "IIii1");
+	createChildWidget(arg0, 5, 6);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(16, 16, 0, 0);
+	cs2method_10469(arg8);
+	cs2method_10470(0);
+	cs2method_10361(1);
+	cs2method_20668(187, new WidgetPointer(arg0), new WidgetPointer(arg1), "II");
+	cs2method_20211(5336, new WidgetPointer(-32768,3), 6, arg10, "Iid");
+	cs2method_20139(5336, new WidgetPointer(-32768,3), 6, arg8, "Iid");
+	cs2method_20723(5336, new WidgetPointer(-32768,3), 6, arg12, "Iid");
+	createChildWidget(arg0, 5, 7);
+	setWidgetPosition(0, 0, 0, 2);
+	setWidgetSize(16, 16, 0, 0);
+	cs2method_10469(arg9);
+	cs2method_10470(0);
+	cs2method_10361(1);
+	cs2method_20668(189, new WidgetPointer(arg0), new WidgetPointer(arg1), "II");
+	cs2method_20211(5336, new WidgetPointer(-32768,3), 7, arg11, "Iid");
+	cs2method_20139(5336, new WidgetPointer(-32768,3), 7, arg9, "Iid");
+	cs2method_20723(5336, new WidgetPointer(-32768,3), 7, arg13, "Iid");
+	cs2method_20715(5506, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, "IIi", new WidgetPointer(arg0));
+	cs2method_20715(5506, new WidgetPointer(arg0), new WidgetPointer(arg1), -2147483646, "IIi", new WidgetPointer(arg1));
+	return;
+}

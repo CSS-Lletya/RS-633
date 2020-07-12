@@ -1,0 +1,6 @@
+void script_2804(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	setWidgetRGB(arg5, arg0);
+	cs2method_10149(arg4, arg0);
+	cs2method_20219(2805, new WidgetPointer(arg0), subtract(0, arg2), arg1, arg3, arg4, "Iiiii", new WidgetPointer(arg0));
+	return;
+}

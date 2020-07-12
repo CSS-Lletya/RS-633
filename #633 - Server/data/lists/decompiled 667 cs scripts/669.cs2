@@ -1,0 +1,19 @@
+int script_669(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = 0;
+	ivar4 = 0;
+	if (arg1 == 0) {
+		return 0;
+	}
+	if (arg0 == 0 || arg2 == 0) {
+		return 0;
+	}
+	if (divide(arg0, arg1) >= divide(2147483647, arg2)) {
+		return 2147483647;
+	}
+	if (cs2method_10620(multiply(cs2method_10620(arg0, arg1), cs2method_10620(arg2, arg1)), arg1) > divide(arg1, 2)) {
+		return add(cs2method_10542(arg0, arg1, arg2), 1);
+	}
+	return cs2method_10542(arg0, arg1, arg2);
+}

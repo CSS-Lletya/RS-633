@@ -1,0 +1,35 @@
+void script_6137(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	ivar6 = 80;
+	ivar7 = 40;
+	ivar8 = 20;
+	ovar0 = (object)"Place beacon";
+	createChildWidget(83230842, 3, 0);
+	setWidgetSize(ivar6, ivar6, 0, 0);
+	setWidgetPosition(subtract(arg0, ivar7), subtract(arg1, ivar7), 0, 0);
+	script_6136(ovar0);
+	createChildWidget(83230842, 3, 1);
+	setWidgetSize(ivar7, ivar7, 0, 0);
+	setWidgetPosition(subtract(arg0, ivar8), subtract(arg1, ivar8), 0, 0);
+	script_6136(ovar0);
+	createChildWidget(83230843, 3, 0);
+	setWidgetSize(ivar6, ivar6, 0, 0);
+	setWidgetPosition(subtract(arg2, ivar7), subtract(arg3, ivar7), 0, 0);
+	script_6136(ovar0);
+	createChildWidget(83230843, 3, 1);
+	setWidgetSize(ivar7, ivar7, 0, 0);
+	setWidgetPosition(subtract(arg2, ivar8), subtract(arg3, ivar8), 0, 0);
+	script_6136(ovar0);
+	createChildWidget(83230844, 3, 0);
+	setWidgetSize(ivar6, ivar6, 0, 0);
+	setWidgetPosition(subtract(arg4, ivar7), subtract(arg5, ivar7), 0, 0);
+	script_6136(ovar0);
+	createChildWidget(83230844, 3, 1);
+	setWidgetSize(ivar7, ivar7, 0, 0);
+	setWidgetPosition(subtract(arg4, ivar8), subtract(arg5, ivar8), 0, 0);
+	script_6136(ovar0);
+	return;
+}

@@ -1,0 +1,9 @@
+void script_634(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = subtract(cs2method_10964(arg0), arg3);
+	cs2method_10149(ivar4, arg0);
+	if (ivar4 <= arg1) {
+		cs2method_20219(633, new WidgetPointer(arg0), arg1, arg2, arg3, "Iiii", new WidgetPointer(arg0));
+	}
+	return;
+}

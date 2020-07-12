@@ -1,0 +1,6 @@
+void script_696() {
+	script_675();
+	cs2method_10998((object)"Cancelled.");
+	cs2method_10508(1042, 1, 0);
+	return;
+}

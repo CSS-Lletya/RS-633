@@ -1,0 +1,12 @@
+void script_189(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = add(cs2method_10424(arg1), 4);
+	switch (arg1) {
+		case 38666248:
+			ivar2 = script_191(arg1, ivar2, 0);
+	}
+	if (cs2method_10551(arg0, 3) == 1) {
+		script_5507(arg0, arg1, ivar2, 1);
+	}
+	return;
+}

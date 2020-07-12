@@ -1,0 +1,8 @@
+void script_709(int arg0) {
+	if (cs2method_10842() >= 2) {
+		cs2method_10893(cs2method_10956(48889867), cs2method_10090(48889867), 0, 0, arg0);
+	} else {
+		cs2method_10893(cs2method_10956(35913761), cs2method_10090(35913761), 0, 0, arg0);
+	}
+	return;
+}

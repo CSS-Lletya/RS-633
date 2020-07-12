@@ -1,0 +1,8 @@
+void script_3377() {
+	if (cs2method_10416(48758832) == 0 || cs2method_10416(48758833) == 0) {
+		script_2206();
+	} else {
+		cs2method_10464();
+	}
+	return;
+}

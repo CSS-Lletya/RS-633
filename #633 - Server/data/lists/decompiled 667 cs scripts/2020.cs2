@@ -1,0 +1,37 @@
+void script_2020(int arg0,int arg1,int arg2,object arg3) {
+	clearExtraChildren(new WidgetPointer(arg2));
+	createChildWidget(arg2, 5, 0);
+	setWidgetSize(10, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(3859);
+	createChildWidget(arg2, 5, 1);
+	setWidgetSize(6, 0, 0, 1);
+	setWidgetPosition(0, 0, 0, 1);
+	cs2method_10469(3857);
+	createChildWidget(arg2, 5, 2);
+	setWidgetSize(6, 0, 0, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	cs2method_10469(3858);
+	createChildWidget(arg2, 4, 3);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetFont(494);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetRGB(new Color(255, 152, 31));
+	cs2method_10320(1);
+	setWidgetText(arg3);
+	cs2method_10893(arg1, 26, 0, 0, arg2);
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	cs2method_20333(2021, new WidgetPointer(-32768,3), 1, "I1", new WidgetPointer(arg2));
+	cs2method_20295(2021, new WidgetPointer(-32768,3), 0, "I1", new WidgetPointer(arg2));
+	if (arg0 == -1) {
+		cs2method_10831(arg2);
+		cs2method_10938(arg2, arg3);
+		setScriptCallOnMousePressed(2022, 1, arg0, "ii", new WidgetPointer(arg2));
+	} else {
+		cs2method_10375(1, arg2, arg3);
+		cs2method_10938(arg2, (object)"");
+		cs2method_20000(2022, -2147483644, arg0, "ii", new WidgetPointer(arg2));
+	}
+	return;
+}

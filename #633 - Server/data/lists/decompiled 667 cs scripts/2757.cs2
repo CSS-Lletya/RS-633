@@ -1,0 +1,11 @@
+void script_2757(int arg0) {
+	if (globalint_173 == 1 || bitconfig_542 == 1 || arg0 != 1) {
+		return;
+	}
+	if (cs2method_10947() < 150) {
+		cs2method_10924(150, 0);
+	} else {
+		cs2method_10924(149, 0);
+	}
+	return;
+}

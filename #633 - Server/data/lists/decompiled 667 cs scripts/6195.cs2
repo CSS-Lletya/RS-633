@@ -1,0 +1,21 @@
+void script_6195() {
+	int ivar0;
+	ivar0 = 0;
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(137,56));
+	if (globalint_1920 == 1) {
+		setScriptCallOnKeyPress(6196, -2147483640, false, new WidgetPointer(-32768,3), ivar0, "izIi", new WidgetPointer(906,361));
+		globalint_1921 = 0;
+		setScriptCallOnMousePressed(6197, -2147483647, -2147483646, new WidgetPointer(906,361), new WidgetPointer(906,362), "iiII", new WidgetPointer(906,361));
+		script_6199(59375977, 59375978, (object)"");
+		setWidgetIsHidden(true, new WidgetPointer(906,362));
+	} else {
+		if (globalint_1920 == 2) {
+			setScriptCallOnKeyPress(6196, -2147483640, false, new WidgetPointer(-32768,3), ivar0, "izIi", new WidgetPointer(906,368));
+			globalint_1922 = 0;
+			setScriptCallOnMousePressed(6197, -2147483647, -2147483646, new WidgetPointer(906,368), new WidgetPointer(906,369), "iiII", new WidgetPointer(906,368));
+			script_6199(59375984, 59375985, (object)"");
+			setWidgetIsHidden(true, new WidgetPointer(906,369));
+		}
+	}
+	return;
+}

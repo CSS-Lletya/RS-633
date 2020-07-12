@@ -1,0 +1,6 @@
+void script_3293(int arg0,int arg1,int arg2,int arg3) {
+	if (cs2method_10551(arg0, 1) == 1) {
+		cs2method_10195(0, divide(cs2method_10630(), 2));
+	}
+	return;
+}

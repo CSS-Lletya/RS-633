@@ -1,0 +1,7 @@
+void script_1524() {
+	if (cs2method_10551(18022408, 0) == 1) {
+		clearExtraChildren(new WidgetPointer(275,8));
+		cs2method_10375(1, 18022408, (object)"null");
+	}
+	return;
+}

@@ -1,0 +1,6 @@
+int script_1466() {
+	if (cs2method_10669() == 1) {
+		return script_1248();
+	}
+	return script_1329();
+}

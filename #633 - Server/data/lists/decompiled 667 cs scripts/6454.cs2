@@ -1,0 +1,143 @@
+void script_6454() {
+	flow_0:
+		if (bitconfig_11826 < 1) {
+			cs2method_10998((object)"You need to select a category before you can submit your bug");
+			return;
+		}
+		if (cs2method_10366((object)globalstring_377) < 1) {
+			cs2method_10998((object)"You need to enter bug information before you can submit your bug");
+			return;
+		}
+		if (cs2method_10366((object)globalstring_378) < 1) {
+			cs2method_10998((object)"You need to enter bug reproduction steps before you can submit your bug");
+			return;
+		}
+		if (cs2method_10366(cs2method_10222((object)globalstring_377)) > 500 || cs2method_10366(cs2method_10222((object)globalstring_378)) > 500) {
+			cs2method_10998((object)"Your bug information and reproduction steps can only be 500 characters long");
+			return;
+		}
+		SWITCH (bitconfig_11826) {
+			case 11:
+				 GOTO flow_9
+			case 12:
+				 GOTO flow_10
+			case 13:
+				 GOTO flow_11
+			case 14:
+				 GOTO flow_12
+			case 15:
+				 GOTO flow_13
+			case 20:
+				 GOTO flow_14
+			case 31:
+				 GOTO flow_15
+			case 32:
+				 GOTO flow_16
+			case 41:
+				 GOTO flow_17
+			case 42:
+				 GOTO flow_18
+			case 43:
+				 GOTO flow_19
+			case 44:
+				 GOTO flow_20
+			case 45:
+				 GOTO flow_21
+			case 46:
+				 GOTO flow_22
+			case 47:
+				 GOTO flow_23
+			case 50:
+				 GOTO flow_24
+			case 60:
+				 GOTO flow_25
+			case 70:
+				 GOTO flow_26
+			case 80:
+				 GOTO flow_27
+			case 90:
+				 GOTO flow_28
+			case 101:
+				 GOTO flow_29
+			case 102:
+				 GOTO flow_30
+			case 103:
+				 GOTO flow_31
+		}
+		return;
+	flow_9:
+		cs2method_10428(1, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_10:
+		cs2method_10428(2, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_11:
+		cs2method_10428(3, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_12:
+		cs2method_10428(4, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_13:
+		cs2method_10428(5, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_14:
+		cs2method_10428(6, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_15:
+		cs2method_10428(7, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_16:
+		cs2method_10428(8, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_17:
+		cs2method_10428(9, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_18:
+		cs2method_10428(10, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_19:
+		cs2method_10428(11, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_20:
+		cs2method_10428(12, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_21:
+		cs2method_10428(13, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_22:
+		cs2method_10428(14, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_23:
+		cs2method_10428(15, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_24:
+		cs2method_10428(16, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_25:
+		cs2method_10428(17, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_26:
+		cs2method_10428(18, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_27:
+		cs2method_10428(19, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_28:
+		cs2method_10428(20, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_29:
+		cs2method_10428(21, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_30:
+		cs2method_10428(22, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+		GOTO	flow_32
+	flow_31:
+		cs2method_10428(23, cs2method_10222((object)globalstring_377), cs2method_10222((object)globalstring_378));
+	flow_32:
+		globalstring_377 = "";
+		globalstring_378 = "";
+		bitconfig_11826 = 0;
+		cs2method_10450();
+		cs2method_10998((object)"Thankyou for submitting your bug report.");
+		return;
+}

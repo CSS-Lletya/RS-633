@@ -1,0 +1,15 @@
+void script_4501(int arg0,object arg1) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetText(arg1);
+	if (arg0 == 12451867) {
+		setWidgetFont(494);
+	} else {
+		setWidgetFont(3793);
+	}
+	setWidgetPosition(5, 0, 0, 1);
+	setWidgetSize(5, 16384, 1, 2);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(239, 176, 99));
+	return;
+}

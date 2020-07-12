@@ -1,0 +1,27 @@
+void script_5594(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 240;
+	ivar3 = 20;
+	if (cs2method_10366(cs2method_10100(arg1)) > 0) {
+		ivar2 = add(cs2method_10242(500, 3793, cs2method_10100(arg1)), 80);
+		ivar3 = multiply(cs2method_10004(1, getLineCount(500, 3793, cs2method_10100(arg1))), 18);
+		if (ivar3 > 18 && cs2method_10366(cs2method_10100(77856782)) == 0) {
+			cs2method_10444(0, 35, 1, 0, 77856779);
+			cs2method_10444(0, 80, 1, 0, 77856781);
+		}
+		if (ivar2 > cs2method_10956(arg0)) {
+			cs2method_10893(ivar2, ivar3, 0, 0, 77856779);
+			cs2method_10893(ivar2, ivar3, 0, 0, 77856781);
+			cs2method_10893(ivar2, ivar3, 0, 0, 77856782);
+			cs2method_10893(ivar2, ivar3, 0, 0, 77856783);
+			cs2method_10893(ivar2, ivar3, 0, 0, 77856784);
+		}
+		ivar2 = add(cs2method_10242(500, 4040, cs2method_10100(77856788)), 80);
+		if (ivar2 > cs2method_10956(77856773)) {
+			cs2method_10893(ivar2, 30, 0, 0, 77856773);
+		}
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

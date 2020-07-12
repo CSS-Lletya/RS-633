@@ -1,0 +1,6 @@
+void script_4252(int arg0) {
+	if (script_3487(6) == 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)("Congratulations on creating your RuneScape account." + "<br>" + "<br>" + "Check your email to activate your free trial now and enter the exclusive world of RuneScape members today!"));
+	}
+	return;
+}

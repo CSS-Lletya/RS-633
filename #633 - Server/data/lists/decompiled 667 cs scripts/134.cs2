@@ -1,0 +1,26 @@
+void script_134() {
+	if (cs2method_10071() == 5 || cs2method_10071() == 6) {
+		setWidgetText(new WidgetPointer(594,49), (object)"Suggest to mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,11), (object)"Suggest to mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,32), (object)"Suggest to mute this player for 48 hours");
+	} else {
+		setWidgetText(new WidgetPointer(594,49), (object)"Mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,11), (object)"Mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,32), (object)"Mute this player for 48 hours");
+	}
+	if (globalint_6 == 1) {
+		globalint_6 = 0;
+	} else {
+		globalint_6 = 1;
+	}
+	if (globalint_6 == 0) {
+		cs2method_10467(8364, 38928432);
+		cs2method_10467(8364, 38928394);
+		cs2method_10467(8364, 38928415);
+	} else {
+		cs2method_10467(8366, 38928432);
+		cs2method_10467(8366, 38928394);
+		cs2method_10467(8366, 38928415);
+	}
+	return;
+}

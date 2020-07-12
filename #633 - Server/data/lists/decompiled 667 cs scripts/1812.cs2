@@ -1,0 +1,12 @@
+void script_1812(int arg0,object arg1) {
+	if (cs2method_10366(arg1) == 0) {
+		setWidgetText(new WidgetPointer(arg0), (object)"");
+		globalstring_39 = "";
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	setWidgetText(new WidgetPointer(arg0), arg1);
+	globalstring_39 = (string)arg1;
+	cs2method_20219(1813, add(cs2method_10878(), 1000), new WidgetPointer(arg0), "iI", new WidgetPointer(arg0));
+	return;
+}

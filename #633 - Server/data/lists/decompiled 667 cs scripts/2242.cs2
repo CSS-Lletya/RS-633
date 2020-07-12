@@ -1,0 +1,56 @@
+void script_2242() {
+	int ivar0;
+	cs2method_10508(8727, 3, 0);
+	setWidgetText(new WidgetPointer(927,22), (object)("Turns taken score: " + toString(standart_config_1674) + " x 101 = " + toString(multiply(standart_config_1674, 101))));
+	setWidgetText(new WidgetPointer(927,26), (object)("Resources spare: " + toString(add(standart_config_1688, add(standart_config_1687, standart_config_1686))) + " x -10 = -" + toString(multiply(add(standart_config_1688, add(standart_config_1687, standart_config_1686)), 10))));
+	if (standart_config_1674 < 16) {
+		setWidgetText(new WidgetPointer(927,27), (object)"Completed within turn limit: -100");
+	} else {
+		setWidgetText(new WidgetPointer(927,27), (object)"Not completed within turn limit: 0");
+	}
+	setWidgetText(new WidgetPointer(927,28), (object)("Workers employed: " + toString(standart_config_1681) + " x -10 = -" + toString(multiply(standart_config_1681, 10))));
+	setWidgetText(new WidgetPointer(927,32), (object)("Turns taken: " + toString(standart_config_1674)));
+	if (bitconfig_7324 == 0) {
+		setWidgetText(new WidgetPointer(927,23), (object)"Oven not repaired: 50");
+	} else {
+		setWidgetText(new WidgetPointer(927,23), (object)"Oven repaired: 0");
+	}
+	if (bitconfig_7326 == 0) {
+		setWidgetText(new WidgetPointer(927,24), (object)"Conveyor not repaired: 50");
+	} else {
+		setWidgetText(new WidgetPointer(927,24), (object)"Conveyor repaired: 0");
+	}
+	if (bitconfig_7325 == 0) {
+		setWidgetText(new WidgetPointer(927,25), (object)"Painter not repaired: 50");
+	} else {
+		setWidgetText(new WidgetPointer(927,25), (object)"Painter repaired: 0");
+	}
+	ivar0 = 0;
+	ivar0 = multiply(standart_config_1674, 101);
+	if (bitconfig_7325 == 0) {
+		ivar0 = add(ivar0, 50);
+	}
+	if (bitconfig_7324 == 0) {
+		ivar0 = add(ivar0, 50);
+	}
+	if (bitconfig_7326 == 0) {
+		ivar0 = add(ivar0, 50);
+	}
+	ivar0 = subtract(ivar0, multiply(add(standart_config_1688, add(standart_config_1687, standart_config_1686)), 10));
+	if (standart_config_1674 < 16) {
+		ivar0 = subtract(ivar0, 100);
+	}
+	ivar0 = subtract(ivar0, multiply(standart_config_1681, 10));
+	if (ivar0 < 0) {
+		ivar0 = 0;
+	}
+	if (ivar0 > 32768) {
+		ivar0 = 32768;
+	}
+	if (ivar0 == bitconfig_7339) {
+		setWidgetText(new WidgetPointer(927,31), (object)("Final score: " + toString(ivar0) + " (New best score)"));
+	} else {
+		setWidgetText(new WidgetPointer(927,31), (object)("Final score: " + toString(ivar0)));
+	}
+	return;
+}

@@ -1,0 +1,21 @@
+void script_5622() {
+	if (bitconfig_10419 == 0) {
+		script_5623(78577672);
+	}
+	if (bitconfig_10421 == 0) {
+		script_5623(78577670);
+	}
+	if (bitconfig_10420 == 0) {
+		script_5623(78577666);
+	}
+	if (bitconfig_10425 == 0) {
+		script_5623(78577674);
+	}
+	if (bitconfig_10422 == 0) {
+		script_5623(78577668);
+	}
+	if (bitconfig_10423 == 0) {
+		script_5623(78577676);
+	}
+	return;
+}

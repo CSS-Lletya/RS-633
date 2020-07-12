@@ -1,0 +1,132 @@
+void script_129() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	int stack_dump0;
+	opc_struct10024(0,2,0) structdump_1;
+	clearExtraChildren(new WidgetPointer(550,4));
+	ivar0 = cs2method_10790();
+	if (ivar0 < 0) {
+		setWidgetText(new WidgetPointer(550,45), (object)("Loading Ignore List." + "<br>" + "Please wait."));
+		setWidgetIsHidden(false, new WidgetPointer(550,45));
+		setWidgetText(new WidgetPointer(550,34), (object)"");
+		return;
+	}
+	setWidgetText(new WidgetPointer(550,34), (object)(toString(ivar0) + " / " + toString(100)));
+	setWidgetText(new WidgetPointer(550,45), (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(550,45));
+	ivar1 = 36044804;
+	ivar2 = 36044802;
+	ivar3 = 36044803;
+	ivar4 = 36044830;
+	ivar5 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar6 = 0;
+	ivar7 = 0;
+	ovar3 = (object)"";
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 15;
+	ivar11 = divide(cs2method_10090(ivar3), ivar10);
+	clearExtraChildren(new WidgetPointer(ivar1));
+	clearExtraChildren(new WidgetPointer(ivar2));
+	while (ivar5 < ivar0) {
+		ivar8 = multiply(ivar5, 2);
+		ivar9 = multiply(ivar5, ivar10);
+		stack_dump0 = ivar5;
+		structdump_1 = cs2method_10024(stack_dump0);
+		ovar1 = structdump_1.objectpart_1;
+		ovar0 = structdump_1.objectpart_0;
+		if (compareTo(ovar1, (object)"") != 0) {
+			ivar6 = 1;
+		} else {
+			ivar6 = 0;
+		}
+		if (ivar6 == 1) {
+			ovar2 = (object)("      " + (string)ovar0);
+		} else {
+			ovar2 = ovar0;
+		}
+		createChildWidget(36044804, 4, ivar8);
+		setWidgetSize(168, ivar10, 0, 0);
+		setWidgetPosition(0, ivar9, 0, 0);
+		setWidgetRGB(new Color(164, 153, 125));
+		setWidgetFont(3793);
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 0, 0);
+		if (ivar6 == 1) {
+			setWidgetText((object)("      " + (string)ovar2));
+		} else {
+			setWidgetText(ovar2);
+		}
+		setWidgetText(ovar2);
+		cs2method_11002((object)("<col=ffffff>" + (string)ovar0));
+		setWidgetContextMenuOption(1, (object)"Remove");
+		cs2method_20115(130, (string)cs2method_10432(ivar5), "s");
+		if (ivar6 == 1) {
+			ivar7 = add(cs2method_10355(3793, (object)("Last known as: " + (string)ovar1)), 8);
+			if (ivar7 > cs2method_10956(36044804)) {
+				ovar3 = (object)("Last known as:" + "<br>" + (string)ovar1);
+			} else {
+				ovar3 = (object)("Last known as: " + (string)ovar1);
+			}
+			cs2method_20930(1594, new WidgetPointer(550,51), new WidgetPointer(-32768,3), -2147483643, (string)ovar3, -2147483647, -2147483646, "IIisii");
+			cs2method_20139(40, new WidgetPointer(550,51), "I");
+		}
+		createChildWidget(36044804, 5, add(ivar8, 1));
+		cs2method_10469(2313);
+		setWidgetSize(14, 14, 0, 0);
+		setWidgetPosition(0, ivar9, 0, 0);
+		if (ivar6 == 0) {
+			cs2method_10692(1);
+		}
+		if (cs2method_10620(ivar5, 2) != 0) {
+			createChildWidget(36044802, 3, cs2method_10860(ivar2));
+			setWidgetSize(16384, ivar10, 2, 0);
+			setWidgetPosition(0, ivar9, 0, 0);
+			setWidgetRGB(new Color(35, 34, 32));
+			setWidgetFilled(1);
+			cs2method_10305(128);
+		}
+		ivar5 = add(ivar5, 1);
+	}
+	while (ivar5 < ivar11) {
+		ivar9 = multiply(ivar5, ivar10);
+		if (cs2method_10620(ivar5, 2) != 0) {
+			createChildWidget(36044802, 3, cs2method_10860(ivar2));
+			setWidgetSize(16384, ivar10, 2, 0);
+			setWidgetPosition(0, ivar9, 0, 0);
+			setWidgetRGB(new Color(35, 34, 32));
+			setWidgetFilled(1);
+			cs2method_10305(128);
+		}
+		ivar5 = add(ivar5, 1);
+	}
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar12 = cs2method_10424(ivar3);
+	ivar13 = multiply(ivar5, ivar10);
+	setWidgetScrollMax(cs2method_10956(ivar3), ivar13, ivar3);
+	if (ivar12 > ivar13) {
+		ivar12 = ivar13;
+	}
+	script_72(ivar4, ivar3, ivar12);
+	return;
+}

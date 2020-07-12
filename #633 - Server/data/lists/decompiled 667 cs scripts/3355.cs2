@@ -1,0 +1,340 @@
+cs2func_script_3355_struct(2,2,0) script_3355(int arg0,int arg1) {
+	switch (arg0) {
+		flow_1:
+			case 0:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_3355_struct(1, 18619, (object)"Gluttonous behemoth", (object)("You can now fight " + "<col=000080>" + "gluttonous behemoths" + "</col>" + " in Daemonheim."));
+				case 1:
+					return newstruct cs2func_script_3355_struct(1, 18617, (object)"Astea Frostweb", (object)("You can now fight " + "<col=000080>" + "Astea Frostweb" + "</col>" + " in Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_3355_struct(1, 18625, (object)"Icy Bones", (object)("You can now fight " + "<col=000080>" + "Icy Bones" + "</col>" + " in Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_3355_struct(5, 18628, (object)"Luminescent icefiend", (object)("You can now fight " + "<col=000080>" + "luminescent icefiends" + "</col>" + " in Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_3355_struct(11, 18621, (object)"Plane-freezer Lakhrahnaz", (object)("You can now fight " + "<col=000080>" + "Plane-freezer Lakhrahnaz" + "</col>" + " in Daemonheim."));
+				case 5:
+					return newstruct cs2func_script_3355_struct(17, 18623, (object)"To'Kash the Bloodchiller", (object)("You can now fight " + "<col=000080>" + "To'Kash the Bloodchiller" + "</col>" + " in Daemonheim."));
+				case 6:
+					return newstruct cs2func_script_3355_struct(23, 18618, (object)"Skeletal Horde", (object)("You can now fight " + "<col=000080>" + "skeletal hordes" + "</col>" + " in Daemonheim."));
+				case 7:
+					return newstruct cs2func_script_3355_struct(23, 18624, (object)"Hobgoblin Geomancer", (object)("You can now fight the " + "<col=000080>" + "Geomancer Shaman" + "</col>" + " in Daemonheim."));
+				case 8:
+					return newstruct cs2func_script_3355_struct(23, 19699, (object)"Bulwark beast", (object)("You can now fight " + "<col=000080>" + "bulwark beasts" + "</col>" + " in Daemonheim."));
+				case 9:
+					return newstruct cs2func_script_3355_struct(29, 18632, (object)"Unholy cursebearer", (object)("You can now fight " + "<col=000080>" + "unholy cursebearers" + "</col>" + " in Daemonheim."));
+				case 10:
+					return newstruct cs2func_script_3355_struct(35, 18622, (object)"Rammernaut", (object)("You can now fight " + "<col=000080>" + "rammernauts" + "</col>" + " in Daemonheim."));
+				case 11:
+					return newstruct cs2func_script_3355_struct(35, 18633, (object)"Stomp", (object)("You can now fight " + "<col=000080>" + "stomps" + "</col>" + " in Daemonheim."));
+				case 12:
+					return newstruct cs2func_script_3355_struct(35, 19697, (object)"Har'Lakk the Riftsplitter", (object)("You can now fight " + "<col=000080>" + "Har'Lakk the Riftsplitter" + "</col>" + " in Daemonheim."));
+				case 13:
+					return newstruct cs2func_script_3355_struct(39, 18627, (object)"Lexicus Runewright", (object)("You can now fight " + "<col=000080>" + "Lexicus Runewright" + "</col>" + " in Daemonheim."));
+				case 14:
+					return newstruct cs2func_script_3355_struct(45, 18630, (object)"Sagittare", (object)("You can now fight " + "<col=000080>" + "sagittares" + "</col>" + " in Daemonheim."));
+				case 15:
+					return newstruct cs2func_script_3355_struct(51, 18631, (object)"Night-gazer Khighorahk", (object)("You can now fight " + "<col=000080>" + "Night-gazer Khighorahk" + "</col>" + " in Daemonheim."));
+				case 16:
+					return newstruct cs2func_script_3355_struct(59, 18626, (object)"Shadow-forger Ihlakhizan", (object)("You can now fight " + "<col=000080>" + "Shadow-forger Ihlakhizan" + "</col>" + " in Daemonheim."));
+				case 17:
+					return newstruct cs2func_script_3355_struct(65, 19696, (object)"Bal'Lak the Pummeller", (object)("You can now fight " + "<col=000080>" + "Bal'Lak the Pummeller" + "</col>" + " in Daemonheim."));
+				case 18:
+					return newstruct cs2func_script_3355_struct(71, 19694, (object)"Members: Skeletal trio", (object)("Members can now fight the " + "<col=000080>" + "skeletal trio" + "</col>" + " in Daemonheim."));
+				case 19:
+					return newstruct cs2func_script_3355_struct(71, 19695, (object)"Members: Runebound behemoth", (object)("Members can now fight " + "<col=000080>" + "runebound behemoths" + "</col>" + " in Daemonheim."));
+				case 20:
+					return newstruct cs2func_script_3355_struct(71, 19692, (object)"Members: Gravecreeper", (object)("Members can now fight " + "<col=000080>" + "Grave Creeper" + "</col>" + " in Daemonheim."));
+				case 21:
+					return newstruct cs2func_script_3355_struct(77, 19691, (object)"Members: Necrolord", (object)("Members can now fight " + "<col=000080>" + "necrolords" + "</col>" + " in Daemonheim."));
+				case 22:
+					return newstruct cs2func_script_3355_struct(83, 19693, (object)"Members: Flesh-spoiler Haasghenahk", (object)("Members can now fight " + "<col=000080>" + "Flesh-spoiler Haasghenahk" + "</col>" + " in Daemonheim."));
+				case 23:
+					return newstruct cs2func_script_3355_struct(89, 19698, (object)"Members: Yk'Lagor the Thunderous", (object)("Members can now fight " + "<col=000080>" + "Yk'Lagor the Thunderous" + "</col>" + " in Daemonheim."));
+				case 24:
+					return newstruct cs2func_script_3355_struct(95, 19885, (object)"Members: Blink", (object)("Members can now fight " + "<col=000080>" + "Blink" + "</col>" + " in Daemonheim."));
+				case 25:
+					return newstruct cs2func_script_3355_struct(95, 19883, (object)"Members: Warped gulega", (object)("Members can now fight " + "<col=000080>" + "warped gulega" + "</col>" + " in Daemonheim."));
+				case 26:
+					return newstruct cs2func_script_3355_struct(95, 19884, (object)"Members: Dreadnaut", (object)("Members can now fight " + "<col=000080>" + "dreadnauts" + "</col>" + " in Daemonheim."));
+				case 27:
+					return newstruct cs2func_script_3355_struct(101, 19882, (object)"Members: Hope devourer", (object)("Members can now fight " + "<col=000080>" + "hope devourers" + "</col>" + " in Daemonheim."));
+				case 28:
+					return newstruct cs2func_script_3355_struct(107, 19881, (object)"Members: World-gorger Shukarhazh", (object)("Members can now fight " + "<col=000080>" + "World-gorger Shukarhazh" + "</col>" + " in Daemonheim."));
+				case 29:
+					return newstruct cs2func_script_3355_struct(113, 19880, (object)"Members: Kal'Ger the Warmonger", (object)("Members can now fight " + "<col=000080>" + "Kal'Ger the Warmonger" + "</col>" + " in Daemonheim."));
+			}
+			break;
+			case 1:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_3355_struct(1, 18579, (object)"Floor 1", (object)("You can now access floor " + "<col=000080>" + "1" + "</col>" + " of Daemonheim."));
+				case 1:
+					return newstruct cs2func_script_3355_struct(3, 18579, (object)"Floor 2", (object)("You can now access floor " + "<col=000080>" + "2" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 2:
+					return newstruct cs2func_script_3355_struct(5, 18579, (object)"Floor 3", (object)("You can now access floor " + "<col=000080>" + "3" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 3:
+					return newstruct cs2func_script_3355_struct(7, 18579, (object)"Floor 4", (object)("You can now access floor " + "<col=000080>" + "4" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 4:
+					return newstruct cs2func_script_3355_struct(9, 18579, (object)"Floor 5", (object)("You can now access floor " + "<col=000080>" + "5" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 5:
+					return newstruct cs2func_script_3355_struct(11, 18579, (object)"Floor 6", (object)("You can now access floor " + "<col=000080>" + "6" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 6:
+					return newstruct cs2func_script_3355_struct(13, 18579, (object)"Floor 7", (object)("You can now access floor " + "<col=000080>" + "7" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 7:
+					return newstruct cs2func_script_3355_struct(15, 18579, (object)"Floor 8", (object)("You can now access floor " + "<col=000080>" + "8" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 8:
+					return newstruct cs2func_script_3355_struct(17, 18579, (object)"Floor 9", (object)("You can now access floor " + "<col=000080>" + "9" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 9:
+					return newstruct cs2func_script_3355_struct(19, 18579, (object)"Floor 10", (object)("You can now access floor " + "<col=000080>" + "10" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 10:
+					return newstruct cs2func_script_3355_struct(21, 18579, (object)"Floor 11", (object)("You can now access floor " + "<col=000080>" + "11" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 11:
+					return newstruct cs2func_script_3355_struct(23, 18578, (object)"Floor 12", (object)("You can now access floor " + "<col=000080>" + "12" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 12:
+					return newstruct cs2func_script_3355_struct(25, 18578, (object)"Floor 13", (object)("You can now access floor " + "<col=000080>" + "13" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 13:
+					return newstruct cs2func_script_3355_struct(27, 18578, (object)"Floor 14", (object)("You can now access floor " + "<col=000080>" + "14" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 14:
+					return newstruct cs2func_script_3355_struct(29, 18578, (object)"Floor 15", (object)("You can now access floor " + "<col=000080>" + "15" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 15:
+					return newstruct cs2func_script_3355_struct(31, 18578, (object)"Floor 16", (object)("You can now access floor " + "<col=000080>" + "16" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 16:
+					return newstruct cs2func_script_3355_struct(33, 18578, (object)"Floor 17", (object)("You can now access floor " + "<col=000080>" + "17" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 17:
+					return newstruct cs2func_script_3355_struct(35, 18577, (object)"Floor 18", (object)("You can now access floor " + "<col=000080>" + "18" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 18:
+					return newstruct cs2func_script_3355_struct(37, 18577, (object)"Floor 19", (object)("You can now access floor " + "<col=000080>" + "19" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 19:
+					return newstruct cs2func_script_3355_struct(39, 18577, (object)"Floor 20", (object)("You can now access floor " + "<col=000080>" + "20" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 20:
+					return newstruct cs2func_script_3355_struct(41, 18577, (object)"Floor 21", (object)("You can now access floor " + "<col=000080>" + "21" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 21:
+					return newstruct cs2func_script_3355_struct(43, 18577, (object)"Floor 22", (object)("You can now access floor " + "<col=000080>" + "22" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 22:
+					return newstruct cs2func_script_3355_struct(45, 18577, (object)"Floor 23", (object)("You can now access floor " + "<col=000080>" + "23" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 23:
+					return newstruct cs2func_script_3355_struct(47, 18577, (object)"Floor 24", (object)("You can now access floor " + "<col=000080>" + "24" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 24:
+					return newstruct cs2func_script_3355_struct(49, 18577, (object)"Floor 25", (object)("You can now access floor " + "<col=000080>" + "25" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 25:
+					return newstruct cs2func_script_3355_struct(51, 18577, (object)"Floor 26", (object)("You can now access floor " + "<col=000080>" + "26" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 26:
+					return newstruct cs2func_script_3355_struct(53, 18577, (object)"Floor 27", (object)("You can now access floor " + "<col=000080>" + "27" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 27:
+					return newstruct cs2func_script_3355_struct(55, 18577, (object)"Floor 28", (object)("You can now access floor " + "<col=000080>" + "28" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 28:
+					return newstruct cs2func_script_3355_struct(57, 18577, (object)"Floor 29", (object)("You can now access floor " + "<col=000080>" + "29" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 29:
+					return newstruct cs2func_script_3355_struct(59, 18578, (object)"Floor 30", (object)("You can now access floor " + "<col=000080>" + "30" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 30:
+					return newstruct cs2func_script_3355_struct(61, 18578, (object)"Floor 31", (object)("You can now access floor " + "<col=000080>" + "31" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 31:
+					return newstruct cs2func_script_3355_struct(63, 18578, (object)"Floor 32", (object)("You can now access floor " + "<col=000080>" + "32" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 32:
+					return newstruct cs2func_script_3355_struct(65, 18578, (object)"Floor 33", (object)("You can now access floor " + "<col=000080>" + "33" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 33:
+					return newstruct cs2func_script_3355_struct(67, 18578, (object)"Floor 34", (object)("You can now access floor " + "<col=000080>" + "34" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 34:
+					return newstruct cs2func_script_3355_struct(69, 18578, (object)"Floor 35", (object)("You can now access floor " + "<col=000080>" + "35" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 35:
+					return newstruct cs2func_script_3355_struct(71, 19690, (object)"Members: Floor 36", (object)("Members can now access floor " + "<col=000080>" + "36" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 36:
+					return newstruct cs2func_script_3355_struct(73, 19690, (object)"Members: Floor 37", (object)("Members can now access floor " + "<col=000080>" + "37" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 37:
+					return newstruct cs2func_script_3355_struct(75, 19690, (object)"Members: Floor 38", (object)("Members can now access floor " + "<col=000080>" + "38" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 38:
+					return newstruct cs2func_script_3355_struct(77, 19690, (object)"Members: Floor 39", (object)("Members can now access floor " + "<col=000080>" + "39" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 39:
+					return newstruct cs2func_script_3355_struct(79, 19690, (object)"Members: Floor 40", (object)("Members can now access floor " + "<col=000080>" + "40" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 40:
+					return newstruct cs2func_script_3355_struct(81, 19690, (object)"Members: Floor 41", (object)("Members can now access floor " + "<col=000080>" + "41" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 41:
+					return newstruct cs2func_script_3355_struct(83, 19690, (object)"Members: Floor 42", (object)("Members can now access floor " + "<col=000080>" + "42" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 42:
+					return newstruct cs2func_script_3355_struct(85, 19690, (object)"Members: Floor 43", (object)("Members can now access floor " + "<col=000080>" + "43" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 43:
+					return newstruct cs2func_script_3355_struct(87, 19690, (object)"Members: Floor 44", (object)("Members can now access floor " + "<col=000080>" + "44" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 44:
+					return newstruct cs2func_script_3355_struct(89, 19690, (object)"Members: Floor 45", (object)("Members can now access floor " + "<col=000080>" + "45" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 45:
+					return newstruct cs2func_script_3355_struct(91, 19690, (object)"Members: Floor 46", (object)("Members can now access floor " + "<col=000080>" + "46" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 46:
+					return newstruct cs2func_script_3355_struct(93, 19690, (object)"Members: Floor 47", (object)("Members can now access floor " + "<col=000080>" + "47" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 47:
+					return newstruct cs2func_script_3355_struct(95, 19896, (object)"Members: Floor 48", (object)("Members can now access floor " + "<col=000080>" + "48" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 48:
+					return newstruct cs2func_script_3355_struct(97, 19896, (object)"Members: Floor 49", (object)("Members can now access floor " + "<col=000080>" + "49" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 49:
+					return newstruct cs2func_script_3355_struct(99, 19896, (object)"Members: Floor 50", (object)("Members can now access floor " + "<col=000080>" + "50" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 50:
+					return newstruct cs2func_script_3355_struct(101, 19896, (object)"Members: Floor 51", (object)("Members can now access floor " + "<col=000080>" + "51" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 51:
+					return newstruct cs2func_script_3355_struct(103, 19896, (object)"Members: Floor 52", (object)("Members can now access floor " + "<col=000080>" + "52" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 52:
+					return newstruct cs2func_script_3355_struct(105, 19896, (object)"Members: Floor 53", (object)("Members can now access floor " + "<col=000080>" + "53" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 53:
+					return newstruct cs2func_script_3355_struct(107, 19896, (object)"Members: Floor 54", (object)("Members can now access floor " + "<col=000080>" + "54" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 54:
+					return newstruct cs2func_script_3355_struct(109, 19896, (object)"Members: Floor 55", (object)("Members can now access floor " + "<col=000080>" + "55" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 55:
+					return newstruct cs2func_script_3355_struct(111, 19896, (object)"Members: Floor 56", (object)("Members can now access floor " + "<col=000080>" + "56" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 56:
+					return newstruct cs2func_script_3355_struct(113, 19896, (object)"Members: Floor 57", (object)("Members can now access floor " + "<col=000080>" + "57" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 57:
+					return newstruct cs2func_script_3355_struct(115, 19896, (object)"Members: Floor 58", (object)("Members can now access floor " + "<col=000080>" + "58" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 58:
+					return newstruct cs2func_script_3355_struct(117, 19896, (object)"Members: Floor 59", (object)("Members can now access floor " + "<col=000080>" + "59" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+				case 59:
+					return newstruct cs2func_script_3355_struct(119, 19896, (object)"Members: Floor 60", (object)("Members can now access floor " + "<col=000080>" + "60" + "</col>" + " of Daemonheim (once the previous floors are complete)."));
+			}
+			break;
+			case 2:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_3355_struct(1, 16405, (object)"Bind one item", (object)("You can now bind " + "<col=000080>" + "one item" + "</col>" + " within Daemonheim."));
+				case 1:
+					return newstruct cs2func_script_3355_struct(1, 16405, (object)"Bind rune or ammo item", (object)("You can now bind " + "<col=000080>" + "up to 125 of one type of rune or ammunition" + "</col>" + " within Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_3355_struct(50, 16415, (object)"Bind two items", (object)("You can now bind " + "<col=000080>" + "two items" + "</col>" + " within Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_3355_struct(100, 16423, (object)"Bind three items", (object)("You can now bind " + "<col=000080>" + "three items" + "</col>" + " within Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_3355_struct(120, 16425, (object)"Bind four items", (object)("You can now bind " + "<col=000080>" + "four items" + "</col>" + " within Daemonheim."));
+			}
+			break;
+			case 3:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_3355_struct(21, 18337, (object)("Members: Bonecrusher" + "<br>" + " (with 21 Prayer)"), (object)("Members can now use " + "<col=000080>" + "bonecrushers" + "</col>" + ". (They also need level 21 Prayer.)"));
+				case 1:
+					return newstruct cs2func_script_3355_struct(21, 19675, (object)("Members: Herbicide" + "<br>" + " (with 21 Herblore)"), (object)("Members can now use " + "<col=000080>" + "herbicide" + "</col>" + ". (They also need level 21 Herblore.)"));
+				case 2:
+					return newstruct cs2func_script_3355_struct(25, 18338, (object)("Gem bag" + "<br>" + " (with 25 Crafting)"), (object)("You can now use " + "<col=000080>" + "gem bags" + "</col>" + ". (You also need level 25 Crafting.)"));
+				case 3:
+					return newstruct cs2func_script_3355_struct(25, 18336, (object)("Members: Scroll of life" + "<br>" + " (with 25 Farming)"), (object)("Members can now use the " + "<col=000080>" + "scroll of life" + "</col>" + ". (They also need level 25 Farming.)"));
+				case 4:
+					return newstruct cs2func_script_3355_struct(30, 18333, (object)("Arcane pulse necklace" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "arcane pulse necklaces" + "</col>" + ". (You also need level 30 Magic.)"));
+				case 5:
+					return newstruct cs2func_script_3355_struct(30, 19671, (object)("Magical blastbox" + "<br>" + " (with 30 Magic and 30 Runecrafting)"), (object)("You can now use " + "<col=000080>" + "magical blastboxes" + "</col>" + ". (You also need level 30 Magic and 30 Runecrafting.)"));
+				case 6:
+					return newstruct cs2func_script_3355_struct(30, 19886, (object)("Twisted bird skull necklace" + "<br>" + " (with 30 Prayer)"), (object)("You can now wear " + "<col=000080>" + "twisted bird skull necklaces" + "</col>" + ". (You also need level 30 Prayer.)"));
+				case 7:
+					return newstruct cs2func_script_3355_struct(35, 18339, (object)("Coal bag" + "<br>" + " (with 35 Mining)"), (object)("You can now use " + "<col=000080>" + "coal bags" + "</col>" + ". (You also need level 35 Mining.)"));
+				case 8:
+					return newstruct cs2func_script_3355_struct(45, 18330, (object)("Longbow sight" + "<br>" + " (with 45 Ranged)"), (object)("You can now use " + "<col=000080>" + "longbow sights" + "</col>" + ". (You also need level 45 Ranged.)"));
+				case 9:
+					return newstruct cs2func_script_3355_struct(45, 18367, (object)("Gravite longsword" + "<br>" + " (with 45 Attack)"), (object)("You can now wield " + "<col=000080>" + "gravite longswords" + "</col>" + ". (You also need level 45 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_3355_struct(45, 18365, (object)("Gravite rapier" + "<br>" + " (with 45 Attack)"), (object)("You can now wield " + "<col=000080>" + "gravite rapiers" + "</col>" + ". (You also need level 45 Attack.)"));
+				case 11:
+					return newstruct cs2func_script_3355_struct(45, 18373, (object)("Gravite shortbow" + "<br>" + " Ammo: Arrows up to rune" + "<br>" + " (with 45 Ranged)"), (object)("You can now wield " + "<col=000080>" + "gravite shortbows" + "</col>" + ". (You also need level 45 Ranged.)"));
+				case 12:
+					return newstruct cs2func_script_3355_struct(45, 18371, (object)("Gravite staff" + "<br>" + " (with 45 Magic)"), (object)("You can now wield " + "<col=000080>" + "gravite staves" + "</col>" + ". (You also need level 45 Magic.)"));
+				case 13:
+					return newstruct cs2func_script_3355_struct(45, 18369, (object)("Gravite two-handed sword" + "<br>" + " (with 45 Attack)"), (object)("You can now wield " + "<col=000080>" + "gravite two-handed swords" + "</col>" + ". (You also need level 45 Attack.)"));
+				case 14:
+					return newstruct cs2func_script_3355_struct(45, 18342, (object)("Law staff" + "<br>" + " (with 40 Attack and 45 Magic)"), (object)("You can now use " + "<col=000080>" + "law staves" + "</col>" + ". (You also need level 40 Attack and level 45 Magic.)"));
+				case 15:
+					return newstruct cs2func_script_3355_struct(48, 18346, (object)("Tome of frost" + "<br>" + " (with 48 Magic)"), (object)("You can now use " + "<col=000080>" + "tomes of frost" + "</col>" + ". (You also need level 48 Magic.)"));
+				case 16:
+					return newstruct cs2func_script_3355_struct(48, 19892, (object)("Amulet of zealots" + "<br>" + " (with 48 Prayer)"), (object)("You now have the Dungeoneering level required to wear " + "<col=000080>" + "Amulet of zealots" + "</col>" + ". (You also need level 48 Prayer.)"));
+				case 17:
+					return newstruct cs2func_script_3355_struct(49, 19890, (object)("Members: Wasteless Herblore" + "<br>" + " (with 49 Herblore)"), (object)("Members can now learn the " + "<col=000080>" + "wasteless herblore" + "</col>" + " ability (you also need 49 Herblore.)"));
+				case 18:
+					return newstruct cs2func_script_3355_struct(50, 18334, (object)("Arcane blast necklace" + "<br>" + " (with 50 Magic)"), (object)("You can now wear " + "<col=000080>" + "arcane blast necklaces" + "</col>" + ". (You also need level 50 Magic.)"));
+				case 19:
+					return newstruct cs2func_script_3355_struct(50, 19893, (object)("Members: Spirit cape" + "<br>" + " (with 50 Defence and 50 Summoning)"), (object)("Members can now wear " + "<col=000080>" + "spirit capes" + "</col>" + " (You also need level 50 Defence and 50 Summoning.)"));
+				case 20:
+					return newstruct cs2func_script_3355_struct(53, 18341, (object)("Nature staff" + "<br>" + " (with 40 Attack and 53 Magic)"), (object)("You can now use " + "<col=000080>" + "nature staves" + "</col>" + ". (You also need level 40 Attack and level 53 Magic.)"));
+				case 21:
+					return newstruct cs2func_script_3355_struct(55, 19670, (object)("Scroll of efficiency" + "<br>" + " (with 55 Smithing)"), (object)("You can now use " + "<col=000080>" + "scrolls of efficiency" + "</col>" + ". (You also need level 55 Smithing.)"));
+				case 22:
+					return newstruct cs2func_script_3355_struct(60, 18340, (object)("Members: Anti-poison totem" + "<br>" + " (with 60 Defence and 70 Herblore)"), (object)("Members can now wield " + "<col=000080>" + "anti-poison totems" + "</col>" + ". (They also need level 60 Defence and level 70 Herblore.)"));
+				case 23:
+					return newstruct cs2func_script_3355_struct(60, 19887, (object)("Members: Split dragon tooth necklace" + "<br>" + " (with 60 Prayer)"), (object)("Members now have the Dungeoneering level required to wear " + "<col=000080>" + "Split dragon tooth necklaces" + "</col>" + ". (They also need level 60 Prayer.)"));
+				case 24:
+					return newstruct cs2func_script_3355_struct(62, 19669, (object)("Members: Ring of vigour" + "<br>" + " (with 62 Attack)"), (object)("Members can now wear " + "<col=000080>" + "rings of vigour" + "</col>" + ". (They also need level 62 Attack.)"));
+				case 25:
+					return newstruct cs2func_script_3355_struct(65, 18343, (object)("Members: Rapid Renewal" + "<br>" + " (with 65 Prayer)"), (object)("Members can now use the " + "<col=000080>" + "Rapid Renewal" + "</col>" + " prayer (bought from Daemonheim). (They also need level 65 Prayer.)"));
+				case 26:
+					return newstruct cs2func_script_3355_struct(70, 18335, (object)("Members: Arcane stream necklace" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "arcane stream necklaces" + "</col>" + ". (They also need level 70 Magic.)"));
+				case 27:
+					return newstruct cs2func_script_3355_struct(70, 19889, (object)("Members: Celestial surgebox" + "<br>" + " (with 70 Magic and 70 Runecrafting)"), (object)("Members can now use " + "<col=000080>" + "celestial surgeboxes" + "</col>" + ". (They also need level 70 Magic and level 70 Runecrafting.)"));
+				case 28:
+					return newstruct cs2func_script_3355_struct(73, 18347, (object)("Members: Mercenary's gloves" + "<br>" + " (with 73 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "mercenary's gloves" + "</col>" + ". (They also need level 73 Ranged.)"));
+				case 29:
+					return newstruct cs2func_script_3355_struct(74, 18839, (object)("Members: Rigour" + "<br>" + " (with 74 Prayer)"), (object)("Members can now use the " + "<col=000080>" + "Rigour" + "</col>" + " prayer (bought from Daemonheim). (They also need level 74 Prayer.)"));
+				case 30:
+					return newstruct cs2func_script_3355_struct(77, 18344, (object)("Members: Augury" + "<br>" + " (with 77 Prayer)"), (object)("Members can now use the " + "<col=000080>" + "Augury" + "</col>" + " prayer (bought from Daemonheim). (They also need level 77 Prayer.)"));
+				case 31:
+					return newstruct cs2func_script_3355_struct(80, 18358, (object)("Members: Chaotic crossbow" + "<br>" + "  Ammo: Bolts up to rune" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wield " + "<col=000080>" + "chaotic crossbows" + "</col>" + ". (They also need level 80 Ranged.)"));
+				case 32:
+					return newstruct cs2func_script_3355_struct(80, 18359, (object)("Members: Chaotic kiteshield" + "<br>" + " (with 80 Defence)"), (object)("Members can now wield " + "<col=000080>" + "chaotic kiteshields" + "</col>" + ". (They also need level 80 Defence.)"));
+				case 33:
+					return newstruct cs2func_script_3355_struct(80, 18351, (object)("Members: Chaotic longsword" + "<br>" + " (with 80 Attack)"), (object)("Members can now wield " + "<col=000080>" + "chaotic longswords" + "</col>" + ". (They also need level 80 Attack.)"));
+				case 34:
+					return newstruct cs2func_script_3355_struct(80, 18353, (object)("Members: Chaotic maul" + "<br>" + " (with 80 Attack)"), (object)("Members can now wield " + "<col=000080>" + "chaotic mauls" + "</col>" + ". (They also need level 80 Attack.)"));
+				case 35:
+					return newstruct cs2func_script_3355_struct(80, 18349, (object)("Members: Chaotic rapier" + "<br>" + " (with 80 Attack)"), (object)("Members can now wield " + "<col=000080>" + "chaotic rapiers" + "</col>" + ". (They also need level 80 Attack.)"));
+				case 36:
+					return newstruct cs2func_script_3355_struct(80, 18355, (object)("Members: Chaotic staff" + "<br>" + " (with 80 Magic)"), (object)("Members can now wield " + "<col=000080>" + "chaotic staves" + "</col>" + ". (They also need level 80 Magic.)"));
+				case 37:
+					return newstruct cs2func_script_3355_struct(80, 18361, (object)("Members: Eagle-eye kiteshield" + "<br>" + " (with 80 Defence)"), (object)("Members can now wield " + "<col=000080>" + "eagle-eye kiteshields" + "</col>" + ". (They also need level 80 Defence.)"));
+				case 38:
+					return newstruct cs2func_script_3355_struct(80, 18363, (object)("Members: Farseer kiteshield" + "<br>" + " (with 80 Defence)"), (object)("Members can now wield " + "<col=000080>" + "farseer kiteshields" + "</col>" + ". (They also need level 80 Defence.)"));
+				case 39:
+					return newstruct cs2func_script_3355_struct(80, 19894, (object)("Members: Seeker pet" + "<br>" + " (with 80 Summoning)"), (object)("Members can now raise " + "<col=000080>" + "Seekers" + "</col>" + ". (They also need level 80 Summoning.)"));
+				case 40:
+					return newstruct cs2func_script_3355_struct(90, 19888, (object)("Members: Demon horn necklace" + "<br>" + " (with 90 Prayer)"), (object)("Members now have the Dungeoneering level required to wear " + "<col=000080>" + "Demon horn necklaces" + "</col>" + ". (They also need level 90 Prayer.)"));
+			}
+			break;
+			case 4:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_3355_struct(10, 562, (object)"Members: Edgeville Dungeon chaos druids", (object)"Members can now pass the mysterious entrance in Edgeville Dungeon to reach the chaos druids.");
+				case 1:
+					return newstruct cs2func_script_3355_struct(15, 453, (object)"Dwarven Mine hidden mine", (object)"You can now pass the mysterious entrance in the Dwarven Mine to reach the hidden mine.");
+				case 2:
+					return newstruct cs2func_script_3355_struct(20, 532, (object)"Edgeville Dungeon hill giants", (object)"You can now pass the mysterious entrance in Edgeville Dungeon to reach the hill giants.");
+				case 3:
+					return newstruct cs2func_script_3355_struct(25, 9952, (object)"Karamja Volcano lesser demons", (object)"You can now pass the mysterious entrance in Karamja Volcano to reach the lesser demons.");
+				case 4:
+					return newstruct cs2func_script_3355_struct(30, 1517, (object)"Daemonheim woodcutting island", (object)"You can now pass the mysterious entrance in Daemonheim to reach the woodcutting island.");
+				case 5:
+					return newstruct cs2func_script_3355_struct(35, 554, (object)"Members: Waterfall fire giants", (object)"Members can now pass the Baxtorian Waterfall mysterious entrance to reach the fire giants.");
+				case 6:
+					return newstruct cs2func_script_3355_struct(45, 451, (object)"Mining Guild hidden mine", (object)"You can now pass the mysterious entrance in the Mining Guild to reach the hidden mine.");
+				case 7:
+					return newstruct cs2func_script_3355_struct(55, 8137, (object)"Members: Taverley hellhounds", (object)"Members can now pass the mysterious entrance in Taverley Dungeon to reach the hellhounds.");
+				case 8:
+					return newstruct cs2func_script_3355_struct(60, 1751, (object)"Members: Taverley blue dragons", (object)"Members can now pass the mysterious entrance in Taverley Dungeon to reach the blue dragons.");
+				case 9:
+					return newstruct cs2func_script_3355_struct(65, 8179, (object)"Members: Varrock moss giants", (object)"Members can now pass the mysterious entrance in Varrock Sewers to reach the moss giants.");
+				case 10:
+					return newstruct cs2func_script_3355_struct(70, 592, (object)"Members: Chaos Tunnels black demons", (object)"Members can now pass the mysterious entrance in the Chaos Tunnels to reach the black demons.");
+				case 11:
+					return newstruct cs2func_script_3355_struct(75, 11254, (object)"Members: Al Kharid hidden mine", (object)"Members can now pass the mysterious entrance in Al Kharid scorpion pit to reach the hidden mine.");
+				case 12:
+					return newstruct cs2func_script_3355_struct(80, 8142, (object)"Members: Brimhaven metal dragons", (object)"Members can now pass the mysterious entrance in Brimhaven Dungeon to reach the metal dragons.");
+				case 13:
+					return newstruct cs2func_script_3355_struct(82, 3244, (object)"Members: Polypore dungeon", (object)"Members can now pass the mysterious entrance in the Polypore dungeon.");
+				case 14:
+					return newstruct cs2func_script_3355_struct(85, 18796, (object)"Members: Ice Dungeon frost dragons", (object)"Members can now pass the mysterious entrance in the Asgarnian Ice Dungeon to reach the frost dragons.");
+			}
+			break;
+			case 5:
+			SWITCH (arg1) {
+				case 0:
+					 GOTO flow_163
+				case 1:
+					 GOTO flow_164
+			}
+			break;
+		flow_163:
+			return newstruct cs2func_script_3355_struct(99, 18508, (object)"Skill Mastery", (object)("You have achieved " + "<col=000080>" + "level 99" + "</col>" + " in the " + "<col=000080>" + "Dungeoneering" + "</col>" + " skill." + "<br>" + "What are you waiting for? Keep going!"));
+		flow_164:
+			return newstruct cs2func_script_3355_struct(120, 18509, (object)"True Skill Mastery", (object)("You have achieved " + "<col=000080>" + "level 120" + "</col>" + " in the " + "<col=000080>" + "Dungeoneering" + "</col>" + " skill." + "<br>" + "This is the highest level for this skill: for real, this time!"));
+	}
+	return newstruct cs2func_script_3355_struct(0, -1, (object)"", (object)"");
+}

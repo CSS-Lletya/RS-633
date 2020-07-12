@@ -1,0 +1,12 @@
+void script_3079(int arg0) {
+	if (cs2method_10551(arg0, 3) == 1) {
+		cs2method_10692(0);
+	}
+	if (cs2method_10551(arg0, 4) == 1) {
+		cs2method_10692(0);
+	}
+	if (cs2method_10551(arg0, 5) == 1) {
+		cs2method_10692(0);
+	}
+	return;
+}

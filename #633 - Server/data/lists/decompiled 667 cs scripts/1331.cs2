@@ -1,0 +1,50 @@
+void script_1331(int arg0) {
+	int ivar1;
+	ivar1 = 1777;
+	if (bitconfig_6090 == 2) {
+		cs2method_10467(7435, arg0);
+		cs2method_20333(5115, new WidgetPointer(-32768,3), 1, "Ii", new WidgetPointer(arg0));
+		cs2method_20295(5115, new WidgetPointer(-32768,3), 0, "Ii", new WidgetPointer(arg0));
+		cs2method_10831(arg0);
+		cs2method_10375(1, arg0, (object)"Citadel Interface");
+	} else if (bitconfig_6090 == 1) {
+		if (cs2method_10842() >= 2) {
+			ivar1 = 8663;
+		} else {
+			ivar1 = 3047;
+		}
+		cs2method_20333(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+		if (cs2method_10842() >= 2) {
+			ivar1 = 8662;
+		} else {
+			ivar1 = 3046;
+		}
+		cs2method_10467(ivar1, arg0);
+		cs2method_20295(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+		cs2method_10831(arg0);
+		if (bitconfig_10304 > 0) {
+			cs2method_10375(1, arg0, (object)"Factory Layout");
+		} else {
+			cs2method_10375(1, arg0, (object)"Daemonheim Map");
+		}
+	} else {
+		if (cs2method_10842() >= 2) {
+			ivar1 = 8660;
+			cs2method_10467(ivar1, arg0);
+			cs2method_20295(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+			ivar1 = 8661;
+			cs2method_20333(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+		} else {
+			cs2method_10467(1776, arg0);
+			cs2method_20333(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+			ivar1 = 1776;
+			cs2method_20295(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+		}
+		cs2method_10831(arg0);
+		cs2method_10375(1, arg0, (object)"World Map");
+		if (standart_config_1159 != -1 && standart_config_1159 != 0) {
+			cs2method_10375(2, arg0, (object)"Clear your marker");
+		}
+	}
+	return;
+}

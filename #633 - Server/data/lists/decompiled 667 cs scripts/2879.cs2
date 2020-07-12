@@ -1,0 +1,36 @@
+int script_2879(int arg0,int arg1,int arg2) {
+	object ovar0;
+	int stack_dump0;
+	int stack_dump1;
+	ovar0 = (object)"Remove from Playlist";
+	if (cs2method_10551(12255241, arg0) == 1 && cs2method_10551(12255241, add(arg0, 12)) == 1) {
+		if (arg1 == 32767) {
+			cs2method_10692(1);
+			cs2method_10692(1);
+			return arg2;
+		}
+		setWidgetPosition(15, arg2, 0, 0);
+		setWidgetTextAlignment(0, 1, 0);
+		if (bitconfig_4388 == arg1 && bitconfig_7078 == 1) {
+			setWidgetRGB(new Color(255, 255, 102));
+			cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 16777062, "Iii");
+		} else {
+			setWidgetRGB(new Color(0, 255, 255));
+			cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 65535, "Iii");
+		}
+		cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+		stack_dump0 = 1345;
+		stack_dump1 = arg1;
+		/* 
+			mgi.tools.jagdecs2.DecompilerException: TODO Special opcode:30372
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:461)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	return add(arg2, 15);
+}

@@ -1,0 +1,10 @@
+void script_3181() {
+	setWidgetText(new WidgetPointer(914,27), (object)"");
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(914,27));
+	cs2method_20000(-1, "", new WidgetPointer(914,16));
+	setWidgetIsHidden(true, new WidgetPointer(914,21));
+	cs2method_10467(4084, 59899927);
+	globalstring_277 = "";
+	globalint_1094 = 0;
+	return;
+}

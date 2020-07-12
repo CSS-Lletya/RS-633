@@ -1,0 +1,38 @@
+void script_5489() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = cs2method_10956(48890069);
+	ivar5 = cs2method_10090(48890069);
+	ivar6 = cs2method_10956(48889906);
+	ivar7 = cs2method_10090(48889906);
+	switch (cs2method_10083()) {
+		case 40:
+		case 38:
+		case 39:
+		case 36:
+		case 37:
+			ivar2 = 15;
+			ivar3 = 22;
+			break;
+		default:
+			ivar2 = 30;
+			ivar3 = 32;
+	}
+	ivar0 = cs2method_10586(add(cs2method_10987(), ivar2), subtract(ivar6, ivar4));
+	ivar1 = add(cs2method_10193(), ivar3);
+	if (add(ivar1, ivar5) > ivar7) {
+		ivar1 = subtract(cs2method_10193(), ivar5);
+	}
+	cs2method_10444(ivar0, ivar1, 0, 0, 48890069);
+	return;
+}

@@ -1,0 +1,13 @@
+void script_554() {
+	int ivar0;
+	if (bitconfig_4111 == 0) {
+		cs2method_10508(4020, 1, 0);
+		return;
+	}
+	bitconfig_4111 = subtract(bitconfig_4111, 1);
+	ivar0 = multiply(subtract(15, bitconfig_4111), 6);
+	cs2method_10444(0, ivar0, 0, 0, 40894483);
+	setWidgetText(new WidgetPointer(624,72), (object)toString(bitconfig_4111));
+	cs2method_10508(4026, 1, 0);
+	return;
+}

@@ -1,0 +1,84 @@
+void script_5511() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int stack_dump0;
+	opc_struct10833(3,0,0) structdump_1;
+	opc_struct10936(5,0,0) structdump_2;
+	if (cs2method_10842() == 1) {
+		return;
+	}
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = cs2method_10509(77135872);
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	if (cs2method_10403(77135872) == 1) {
+		if (compareTo((object)globalstring_306, (object)"") != 0) {
+			setWidgetSize(cs2method_10586(200, add(20, cs2method_10242(180, 496, (object)globalstring_306))), add(22, multiply(15, getLineCount(180, 496, (object)globalstring_306))), 0, 0);
+		}
+		if (globalint_1695 == 1) {
+			script_5499();
+		}
+	}
+	if (globalint_1696 == -1) {
+		globalint_1696 = cs2method_10754();
+	}
+	stack_dump0 = globalint_1696;
+	structdump_1 = cs2method_10833(stack_dump0);
+	ivar2 = structdump_1.intpart_2;
+	ivar1 = structdump_1.intpart_1;
+	ivar0 = structdump_1.intpart_0;
+	structdump_2 = cs2method_10936();
+	ivar10 = structdump_2.intpart_4;
+	ivar9 = structdump_2.intpart_3;
+	ivar8 = structdump_2.intpart_2;
+	ivar7 = structdump_2.intpart_1;
+	ivar6 = structdump_2.intpart_0;
+	if (cs2method_10403(77135872) == 1 && ivar6 == 0) {
+		script_5500();
+	}
+	if (ivar5 != -1) {
+		ivar3 = cs2method_10956(ivar5);
+		ivar4 = cs2method_10090(ivar5);
+	}
+	if (cs2method_10403(77135872) == 1) {
+		ivar0 = subtract(ivar0, divide(cs2method_10040(), 2));
+		ivar1 = subtract(subtract(ivar1, divide(cs2method_10630(), 2)), 20);
+		if (ivar0 < 0) {
+			ivar0 = 0;
+		}
+		if (subtract(ivar3, ivar0) < cs2method_10040()) {
+			ivar0 = subtract(ivar3, cs2method_10040());
+		}
+		if (ivar1 < 0) {
+			ivar1 = 0;
+		}
+		if (subtract(ivar4, ivar1) < cs2method_10630()) {
+			ivar1 = subtract(ivar4, cs2method_10630());
+		}
+		setWidgetPosition(ivar0, ivar1, 0, 0);
+	}
+	if (cs2method_10403(77135872) == 1 && globalint_1695 == 1) {
+		globalint_1695 = 0;
+		cs2method_20745(5497, add(globalint_1694, multiply(cs2method_10366((object)globalstring_306), 2)), "i");
+	}
+	if (cs2method_10551(77135872, 9) == 1) {
+		setWidgetText((object)globalstring_306);
+	}
+	return;
+}

@@ -1,0 +1,22 @@
+int script_5638(int arg0) {
+	globalstring_327 = globalstring_326;
+	if (cs2method_10366((object)globalstring_326) <= 0) {
+		script_3213(44105840, (object)"Please enter your Email address again here.");
+		return 0;
+	}
+	if (compareTo((object)globalstring_122, (object)globalstring_326) != 0) {
+		script_3213(44105840, (object)"Please ensure both Email addresses match.");
+		return 0;
+	}
+	if (cs2method_10825(44105821) == 4061) {
+		script_3213(44105840, cs2method_10100(44105864));
+		return 0;
+	}
+	cs2method_10467(4059, 44105840);
+	setWidgetIsHidden(true, new WidgetPointer(673,117));
+	setWidgetIsHidden(true, new WidgetPointer(673,30));
+	if (arg0 == 1) {
+		script_2714(7, 1);
+	}
+	return 1;
+}

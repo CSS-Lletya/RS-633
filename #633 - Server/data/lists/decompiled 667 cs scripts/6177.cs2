@@ -1,0 +1,145 @@
+void script_6177(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	createChildWidget(arg0, 5, 0);
+	if (globalint_1910 < 1) {
+		cs2method_10469(10695);
+		ivar1 = 10685;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10695;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 0, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10685);
+	}
+	setWidgetPosition(28, 258, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 1);
+	if (globalint_1910 < 2) {
+		cs2method_10469(10696);
+		ivar1 = 10686;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10696;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 1, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10686);
+	}
+	setWidgetPosition(174, 258, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 2);
+	if (globalint_1910 < 3) {
+		cs2method_10469(10697);
+		ivar1 = 10687;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10697;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 2, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10687);
+	}
+	setWidgetPosition(314, 258, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 3);
+	if (globalint_1910 < 4) {
+		cs2method_10469(10698);
+		ivar1 = 10688;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10698;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 3, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10688);
+	}
+	setWidgetPosition(453, 258, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 4);
+	if (globalint_1910 < 5) {
+		cs2method_10469(10699);
+		ivar1 = 10689;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10699;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 4, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10689);
+	}
+	setWidgetPosition(99, 177, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 5);
+	if (globalint_1910 < 6) {
+		cs2method_10469(10700);
+		ivar1 = 10690;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10700;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 5, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10690);
+	}
+	setWidgetPosition(243, 177, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 6);
+	if (globalint_1910 < 7) {
+		cs2method_10469(10701);
+		ivar1 = 10691;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10701;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 6, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10691);
+	}
+	setWidgetPosition(382, 177, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 7);
+	if (globalint_1910 < 8) {
+		cs2method_10469(10702);
+		ivar1 = 10692;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10702;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 7, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10692);
+	}
+	setWidgetPosition(159, 88, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 8);
+	if (globalint_1910 < 9) {
+		cs2method_10469(10703);
+		ivar1 = 10693;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10703;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 8, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10693);
+	}
+	setWidgetPosition(323, 88, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	createChildWidget(arg0, 5, 9);
+	if (globalint_1910 < 10) {
+		cs2method_10469(10704);
+		ivar1 = 10694;
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		ivar1 = 10704;
+		cs2method_20139(6176, new WidgetPointer(-32768,3), -2147483643, ivar1, "Iid");
+		setWidgetContextMenuOption(1, (object)"Buy Rank");
+		cs2method_20115(6175, 9, new WidgetPointer(arg0), "iI");
+	} else {
+		cs2method_10469(10694);
+	}
+	setWidgetPosition(243, 13, 0, 0);
+	setWidgetSize(75, 75, 0, 0);
+	return;
+}

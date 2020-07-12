@@ -1,0 +1,9 @@
+void script_1938() {
+	globalint_556 = add(cs2method_10878(), multiply(2000, 30));
+	globalint_559 = 255;
+	globalint_560 = 0;
+	globalint_561 = 0;
+	globalint_562 = 0;
+	cs2method_10747(0, 53018639);
+	return;
+}

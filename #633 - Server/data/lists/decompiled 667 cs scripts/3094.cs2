@@ -1,0 +1,44 @@
+void script_3094() {
+	int ivar0;
+	ivar0 = cs2method_10486();
+	if (ivar0 != -3 && globalint_1322 == 0) {
+		cs2method_20219(-1, "", new WidgetPointer(906,251));
+		return;
+	}
+	if (globalint_1322 == 1 && ivar0 == -3) {
+		globalint_1322 = 0;
+	}
+	if (cs2method_10878() < globalint_1092) {
+		return;
+	}
+	globalint_1092 = add(cs2method_10878(), 5);
+	switch (cs2method_10825(59375867)) {
+		case 4107:
+			cs2method_10467(4108, 59375867);
+			break;
+		case 4108:
+			cs2method_10467(4109, 59375867);
+			break;
+		case 4109:
+			cs2method_10467(4110, 59375867);
+			break;
+		case 4110:
+			cs2method_10467(4111, 59375867);
+			break;
+		case 4111:
+			cs2method_10467(4112, 59375867);
+			break;
+		case 4112:
+			cs2method_10467(4113, 59375867);
+			break;
+		case 4113:
+			cs2method_10467(4114, 59375867);
+			break;
+		case 4114:
+			cs2method_10467(4107, 59375867);
+			break;
+		default:
+			cs2method_10467(4107, 59375867);
+	}
+	return;
+}

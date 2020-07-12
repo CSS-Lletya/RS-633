@@ -1,0 +1,124 @@
+void script_5065(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int stack_dump0;
+	int stack_dump1;
+	flow_0:
+		ivar1 = cs2method_10090(72810561);
+		cs2method_10893(0, ivar1, 1, 0, 72810562);
+		cs2method_10893(0, ivar1, 1, 0, 72810563);
+		cs2method_10893(0, ivar1, 1, 0, 72810564);
+		ivar2 = cs2method_10090(72810548);
+		ivar3 = 0;
+		ivar4 = 0;
+		ivar5 = 0;
+		SWITCH (globalint_768) {
+			case 2:
+				 GOTO flow_1
+			case 3:
+				 GOTO flow_2
+			case 4:
+				 GOTO flow_3
+		}
+		globalint_768 = 1;
+		ivar3 = subtract(ivar2, multiply(ivar1, 3));
+		ivar4 = subtract(ivar2, multiply(ivar1, 2));
+		ivar5 = subtract(ivar2, ivar1);
+		script_5056(72810561, 1);
+		script_5056(72810562, 0);
+		script_5056(72810563, 0);
+		script_5056(72810564, 0);
+		GOTO	flow_4
+	flow_1:
+		ivar3 = ivar1;
+		ivar4 = subtract(ivar2, multiply(ivar1, 2));
+		ivar5 = subtract(ivar2, ivar1);
+		script_5056(72810561, 0);
+		script_5056(72810562, 1);
+		script_5056(72810563, 0);
+		script_5056(72810564, 0);
+		GOTO	flow_4
+	flow_2:
+		ivar3 = ivar1;
+		ivar4 = multiply(ivar1, 2);
+		ivar5 = subtract(ivar2, ivar1);
+		script_5056(72810561, 0);
+		script_5056(72810562, 0);
+		script_5056(72810563, 1);
+		script_5056(72810564, 0);
+		GOTO	flow_4
+	flow_3:
+		ivar3 = ivar1;
+		ivar4 = multiply(ivar1, 2);
+		ivar5 = multiply(ivar1, 3);
+		script_5056(72810561, 0);
+		script_5056(72810562, 0);
+		script_5056(72810563, 0);
+		script_5056(72810564, 1);
+	flow_4:
+		ivar6 = 0;
+		ivar7 = 0;
+		ivar8 = 0;
+		ivar9 = 0;
+		ivar10 = 0;
+		if (arg0 == 1) {
+			stack_dump0 = ivar3;
+			stack_dump1 = ivar4;
+			ivar8 = ivar5;
+			stack_dump0 = stack_dump0;
+			ivar7 = stack_dump1;
+			ivar6 = stack_dump0;
+		} else {
+			ivar9 = cs2method_10826(72810562);
+			if (ivar9 != ivar3) {
+				ivar6 = add(ivar9, cs2method_10004(cs2method_10586(subtract(ivar3, ivar9), 3), -3));
+				ivar10 = 1;
+			} else {
+				ivar6 = ivar3;
+			}
+			ivar9 = cs2method_10826(72810563);
+			if (ivar9 != ivar4) {
+				ivar7 = add(ivar9, cs2method_10004(cs2method_10586(subtract(ivar4, ivar9), 3), -3));
+				ivar10 = 1;
+			} else {
+				ivar7 = ivar4;
+			}
+			ivar9 = cs2method_10826(72810564);
+			if (ivar9 != ivar5) {
+				ivar8 = add(ivar9, cs2method_10004(cs2method_10586(subtract(ivar5, ivar9), 3), -3));
+				ivar10 = 1;
+			} else {
+				ivar8 = ivar5;
+			}
+		}
+		cs2method_10444(0, 0, 1, 0, 72810561);
+		cs2method_10444(0, ivar6, 1, 0, 72810562);
+		cs2method_10444(0, ivar7, 1, 0, 72810563);
+		cs2method_10444(0, ivar8, 1, 0, 72810564);
+		cs2method_10444(0, ivar1, 1, 0, 72810549);
+		cs2method_10444(0, add(ivar6, ivar1), 1, 0, 72810552);
+		cs2method_10444(0, add(ivar7, ivar1), 1, 0, 72810555);
+		cs2method_10444(0, add(ivar8, ivar1), 1, 0, 72810558);
+		cs2method_10893(0, subtract(ivar6, ivar1), 1, 0, 72810549);
+		cs2method_10893(0, subtract(ivar7, add(ivar6, ivar1)), 1, 0, 72810552);
+		cs2method_10893(0, subtract(ivar8, add(ivar7, ivar1)), 1, 0, 72810555);
+		cs2method_10893(0, add(ivar8, ivar1), 1, 1, 72810558);
+		script_72(72810551, 72810550, cs2method_10424(72810550));
+		script_72(72810554, 72810553, cs2method_10424(72810553));
+		script_72(72810557, 72810556, cs2method_10424(72810556));
+		script_72(72810560, 72810559, cs2method_10424(72810559));
+		if (ivar10 == 1) {
+			cs2method_20219(5064, -1, "i", new WidgetPointer(1111,52));
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(1111,52));
+		}
+		return;
+}

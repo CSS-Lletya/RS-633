@@ -1,0 +1,12 @@
+void script_4659(int arg0) {
+	int ivar1;
+	ivar1 = divide(standart_config_2202, 3);
+	script_4542(ivar1, 1441856, 1441861);
+	setWidgetText(new WidgetPointer(arg0), (object)toString(standart_config_2202));
+	if (standart_config_2202 <= 100) {
+		cs2method_10535(9777, 1441862);
+	} else {
+		cs2method_10535(9804, 1441862);
+	}
+	return;
+}

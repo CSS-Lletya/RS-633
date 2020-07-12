@@ -1,0 +1,13 @@
+void script_5164(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar5 = cs2method_10090(arg0);
+	ivar6 = divide(multiply(subtract(ivar5, arg4), 8), ivar5);
+	ivar7 = divide(multiply(arg3, 128), cs2method_10956(arg0));
+	bitconfig_9643 = cs2method_10620(ivar6, 8);
+	bitconfig_9644 = cs2method_10620(ivar7, 128);
+	script_5167(arg3, arg4);
+	setWidgetRGB(cs2method_10489(standart_config_2347), arg2);
+	return;
+}

@@ -1,0 +1,82 @@
+void script_4183(int arg0) {
+	if (arg0 == 70254730) {
+		setWidgetIsHidden(false, new WidgetPointer(1072,135));
+		setWidgetIsHidden(true, new WidgetPointer(1072,147));
+		setWidgetIsHidden(true, new WidgetPointer(1072,159));
+		setWidgetIsHidden(true, new WidgetPointer(1072,171));
+		cs2method_10461(63848, 70254640);
+		cs2method_10461(63838, 70254666);
+		cs2method_10461(63824, 70254672);
+		cs2method_10461(63837, 70254680);
+		cs2method_10461(63823, 70254685);
+		setWidgetText(new WidgetPointer(1072,46), (object)toString(1));
+		setWidgetText(new WidgetPointer(1072,71), (object)toString(1));
+		setWidgetText(new WidgetPointer(1072,72), (object)toString(2));
+		setWidgetText(new WidgetPointer(1072,12), (object)toString(1));
+		setWidgetText(new WidgetPointer(1072,13), (object)toString(4));
+		setWidgetText(new WidgetPointer(1072,6), (object)toString(1));
+		setWidgetText(new WidgetPointer(1072,7), (object)toString(6));
+		setWidgetText(new WidgetPointer(1072,2), (object)toString(1));
+		setWidgetText(new WidgetPointer(1072,3), (object)toString(8));
+	} else if (arg0 == 70254742) {
+		setWidgetIsHidden(true, new WidgetPointer(1072,135));
+		setWidgetIsHidden(false, new WidgetPointer(1072,147));
+		setWidgetIsHidden(true, new WidgetPointer(1072,159));
+		setWidgetIsHidden(true, new WidgetPointer(1072,171));
+		cs2method_10461(63835, 70254640);
+		cs2method_10461(63825, 70254666);
+		cs2method_10461(63845, 70254672);
+		cs2method_10461(63828, 70254680);
+		cs2method_10461(63841, 70254685);
+		setWidgetText(new WidgetPointer(1072,46), (object)toString(9));
+		setWidgetText(new WidgetPointer(1072,71), (object)toString(4));
+		setWidgetText(new WidgetPointer(1072,72), (object)toString(7));
+		setWidgetText(new WidgetPointer(1072,12), (object)toString(3));
+		setWidgetText(new WidgetPointer(1072,13), (object)toString(12));
+		setWidgetText(new WidgetPointer(1072,6), (object)toString(3));
+		setWidgetText(new WidgetPointer(1072,7), (object)toString(14));
+		setWidgetText(new WidgetPointer(1072,2), (object)toString(2));
+		setWidgetText(new WidgetPointer(1072,3), (object)toString(16));
+	} else if (arg0 == 70254754) {
+		setWidgetIsHidden(true, new WidgetPointer(1072,135));
+		setWidgetIsHidden(true, new WidgetPointer(1072,147));
+		setWidgetIsHidden(false, new WidgetPointer(1072,159));
+		setWidgetIsHidden(true, new WidgetPointer(1072,171));
+		cs2method_10461(63827, 70254640);
+		cs2method_10461(63833, 70254666);
+		cs2method_10461(63831, 70254672);
+		cs2method_10461(63842, 70254680);
+		cs2method_10461(63856, 70254685);
+		setWidgetText(new WidgetPointer(1072,46), (object)toString(12));
+		setWidgetText(new WidgetPointer(1072,71), (object)toString(9));
+		setWidgetText(new WidgetPointer(1072,72), (object)toString(17));
+		setWidgetText(new WidgetPointer(1072,12), (object)toString(6));
+		setWidgetText(new WidgetPointer(1072,13), (object)toString(24));
+		setWidgetText(new WidgetPointer(1072,6), (object)toString(4));
+		setWidgetText(new WidgetPointer(1072,7), (object)toString(22));
+		setWidgetText(new WidgetPointer(1072,2), (object)toString(4));
+		setWidgetText(new WidgetPointer(1072,3), (object)toString(30));
+	} else {
+		if (arg0 == 70254766) {
+			setWidgetIsHidden(true, new WidgetPointer(1072,135));
+			setWidgetIsHidden(true, new WidgetPointer(1072,147));
+			setWidgetIsHidden(true, new WidgetPointer(1072,159));
+			setWidgetIsHidden(false, new WidgetPointer(1072,171));
+			cs2method_10461(63836, 70254640);
+			cs2method_10461(63851, 70254666);
+			cs2method_10461(63855, 70254672);
+			cs2method_10461(63832, 70254680);
+			cs2method_10461(63834, 70254685);
+			setWidgetText(new WidgetPointer(1072,46), (object)toString(75));
+			setWidgetText(new WidgetPointer(1072,71), (object)toString(40));
+			setWidgetText(new WidgetPointer(1072,72), (object)toString(80));
+			setWidgetText(new WidgetPointer(1072,12), (object)toString(30));
+			setWidgetText(new WidgetPointer(1072,13), (object)toString(120));
+			setWidgetText(new WidgetPointer(1072,6), (object)toString(25));
+			setWidgetText(new WidgetPointer(1072,7), (object)toString(150));
+			setWidgetText(new WidgetPointer(1072,2), (object)toString(18));
+			setWidgetText(new WidgetPointer(1072,3), (object)toString(144));
+		}
+	}
+	return;
+}

@@ -1,0 +1,10 @@
+void script_3953(int arg0) {
+	int ivar1;
+	ivar1 = script_5638(arg0);
+	if (ivar1 == 1) {
+		cs2method_10060(6);
+	} else {
+		cs2method_10060(7);
+	}
+	return;
+}

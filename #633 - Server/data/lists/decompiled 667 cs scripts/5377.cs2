@@ -1,0 +1,18 @@
+void script_5377() {
+	if (cs2method_10403(75366456) == 1) {
+		cs2method_10692(1);
+	}
+	if (cs2method_10403(75366457) == 1) {
+		cs2method_10692(0);
+	}
+	if (cs2method_10403(75366458) == 1) {
+		cs2method_10692(1);
+	}
+	if (cs2method_10403(75366450) == 1) {
+		setWidgetText((object)"Page 3");
+	}
+	if (cs2method_10403(75366451) == 1) {
+		setWidgetText((object)"Page 4");
+	}
+	return;
+}

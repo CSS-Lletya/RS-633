@@ -1,0 +1,70 @@
+void script_5794(int arg0) {
+	int ivar1;
+	flow_0:
+		script_5796(arg0, 1, 80084993, 80084994, 80085041, -1, -1, -1);
+		ivar1 = script_5795(arg0);
+		cs2method_10085(0, 0, 80085019);
+		cs2method_10893(cs2method_10956(80085000), 330, 0, 0, 80085000);
+		cs2method_10893(512, 334, 0, 0, 48889866);
+		SWITCH (arg0) {
+			case 584:
+				 GOTO flow_1
+			case 585:
+				 GOTO flow_2
+			case 586:
+				 GOTO flow_3
+			case 587:
+				 GOTO flow_4
+			case 588:
+				 GOTO flow_5
+			case 589:
+				 GOTO flow_6
+			case 590:
+				 GOTO flow_7
+			case 591:
+				 GOTO flow_8
+			case 592:
+				 GOTO flow_9
+			case 593:
+				 GOTO flow_10
+		}
+		GOTO	flow_10
+	flow_1:
+		cs2method_10467(9457, 80084998);
+		cs2method_10467(9456, 80085030);
+		GOTO	flow_10
+	flow_2:
+		cs2method_10467(9482, 80084998);
+		cs2method_10467(9483, 80085030);
+		GOTO	flow_10
+	flow_3:
+		cs2method_10467(9467, 80084998);
+		cs2method_10467(9468, 80085030);
+		GOTO	flow_10
+	flow_4:
+		cs2method_10467(9464, 80084998);
+		cs2method_10467(9465, 80085030);
+		GOTO	flow_10
+	flow_5:
+		cs2method_10467(9470, 80084998);
+		cs2method_10467(9471, 80085030);
+		GOTO	flow_10
+	flow_6:
+		cs2method_10467(9473, 80084998);
+		cs2method_10467(9474, 80085030);
+		GOTO	flow_10
+	flow_7:
+		cs2method_10467(9458, 80084998);
+		cs2method_10467(9459, 80085030);
+		GOTO	flow_10
+	flow_8:
+		cs2method_10467(9461, 80084998);
+		cs2method_10467(9462, 80085030);
+		GOTO	flow_10
+	flow_9:
+		cs2method_10467(9476, 80084998);
+		cs2method_10467(9477, 80085030);
+		GOTO	flow_10
+	flow_10:
+		return;
+}

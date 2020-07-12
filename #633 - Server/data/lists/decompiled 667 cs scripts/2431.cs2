@@ -1,0 +1,5 @@
+void script_2431(int arg0) {
+	script_2410(cs2method_10192(arg0, 2), cs2method_10192(arg0, 1), cs2method_10192(arg0, 3), cs2method_10192(arg0, 4), cs2method_10192(arg0, 5), getItemOption(arg0, 2), getItemOption(arg0, 1), getItemOption(arg0, 3), getItemOption(arg0, 4), getItemOption(arg0, 5), getItemName(arg0));
+	cs2method_20003(-1, "");
+	return;
+}

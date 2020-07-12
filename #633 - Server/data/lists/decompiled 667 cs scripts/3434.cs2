@@ -1,0 +1,23 @@
+void script_3434(int arg0) {
+	if (globalint_1280 == 1) {
+		return;
+	}
+	if (globalint_1278 != arg0) {
+		cs2method_10508(9439, 1, 0);
+	}
+	globalint_1278 = arg0;
+	cs2method_10467(1134, 3538960);
+	cs2method_10467(1134, 3538961);
+	cs2method_10467(1134, 3538962);
+	if (globalint_1278 == 1) {
+		cs2method_10467(1135, 3538960);
+	} else if (globalint_1278 == 2) {
+		cs2method_10467(1135, 3538961);
+	} else if (globalint_1278 == 3) {
+		cs2method_10467(1135, 3538962);
+	} else {
+		globalint_1278 = 1;
+		cs2method_10467(1135, 3538960);
+	}
+	return;
+}

@@ -1,0 +1,18 @@
+void script_1213(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (arg0 == 0) {
+		while (ivar1 < 10) {
+			script_5498(ivar1, 48889900);
+			ivar1 = add(ivar1, 1);
+		}
+		if (cs2method_10551(48889900, 9) == 1 && cs2method_10354() == 255) {
+			script_5500();
+		}
+	} else {
+		if (cs2method_10403(48889900) == 1) {
+			cs2method_20745(1213, subtract(arg0, 1), "i");
+		}
+	}
+	return;
+}

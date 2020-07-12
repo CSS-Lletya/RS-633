@@ -1,0 +1,51 @@
+void script_6326(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = -1;
+	switch (arg0) {
+		case 85196842:
+			ivar2 = standart_config_2757;
+			break;
+		case 85196871:
+			ivar2 = standart_config_2758;
+			break;
+		case 85196875:
+			ivar2 = standart_config_2759;
+			break;
+		case 85196879:
+			ivar2 = standart_config_2760;
+			break;
+		case 85196883:
+			ivar2 = standart_config_2761;
+			break;
+		case 85196887:
+			ivar2 = standart_config_2762;
+			break;
+		case 85196891:
+			ivar2 = standart_config_2763;
+			break;
+		case 85196895:
+			ivar2 = standart_config_2764;
+			break;
+		case 85196899:
+			ivar2 = standart_config_2765;
+			break;
+		case 85196903:
+			ivar2 = standart_config_2766;
+			break;
+		case 85196907:
+			ivar2 = standart_config_2767;
+			break;
+		case 85196911:
+			ivar2 = standart_config_2768;
+	}
+	if (ivar2 == arg1) {
+		if (add(add(getItemAmtInContainer(93, arg1), getItemAmtInContainer(94, arg1)), getItemAmtInContainer(530, arg1)) > 0) {
+			setWidgetRGB(16777215, arg0);
+		} else {
+			setWidgetRGB(3355443, arg0);
+		}
+	} else {
+		cs2method_20572(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

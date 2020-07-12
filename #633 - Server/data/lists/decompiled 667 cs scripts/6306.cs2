@@ -1,0 +1,28 @@
+void script_6306() {
+	int ivar0;
+	object ovar0;
+	script_3097();
+	ovar0 = (object)"";
+	ivar0 = subtract(standart_config_2644, 1);
+	switch (ivar0) {
+		case 0:
+			ovar0 = (object)"Congratulations your saved game has been updated.";
+			break;
+		case 1:
+			ovar0 = (object)"The login server timed out while trying to update your saved game. Please try again later.";
+			break;
+		case 2:
+			ovar0 = (object)"Source save game file does not exist. Please check that your accounts are synched correctly.";
+			break;
+		case 3:
+			ovar0 = (object)"There was an error contacting the login server. Please try again later";
+			break;
+		case 4:
+			ovar0 = (object)"There was an error converting your saved game. Please try again later.";
+			break;
+		default:
+			return;
+	}
+	script_3093(-3, 1, 0, 2611, 0, 0, 1, ovar0, (object)"", (object)"", (object)"OK", (object)"OK");
+	return;
+}

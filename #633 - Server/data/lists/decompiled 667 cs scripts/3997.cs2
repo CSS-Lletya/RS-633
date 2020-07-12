@@ -1,0 +1,11 @@
+void script_3997() {
+	int ivar0;
+	setWidgetText(new WidgetPointer(917,73), (object)toString(globalint_1424));
+	setWidgetText(new WidgetPointer(917,75), (object)toString(globalint_1423));
+	setWidgetText(new WidgetPointer(917,82), (object)toString(bitconfig_8601));
+	setWidgetText(new WidgetPointer(917,84), (object)toString(534));
+	setWidgetText(new WidgetPointer(917,76), (object)"Progress:");
+	ivar0 = divide(multiply(globalint_1424, subtract(cs2method_10956(60096634), 4)), cs2method_10004(globalint_1423, 1));
+	cs2method_10893(ivar0, 16, 0, 0, 60096584);
+	return;
+}

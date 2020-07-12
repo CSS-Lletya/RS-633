@@ -1,0 +1,9 @@
+void script_941(int arg0) {
+	if (arg0 != 10) {
+		return;
+	}
+	globalint_1954 = 13;
+	cs2method_10998((object)"Please press the modifier key you wish to use from either CTRL, ALT or SHIFT...");
+	script_6328(0);
+	return;
+}

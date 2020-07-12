@@ -1,0 +1,31 @@
+int script_5795(int arg0) {
+	int ivar1;
+	int ivar2;
+	flow_0:
+		ivar1 = getDataByKey('i', 'J', 3483, arg0);
+		ivar2 = -1;
+		IF (getDataByKey('i', 'i', 5479, arg0) == 1 && cs2method_10417(48889866, 1222) == 0) 
+			GOTO	flow_2
+		GOTO	flow_3
+	flow_2:
+		ivar2 = getDataByKey('J', 'J', 5911, ivar1);
+		GOTO	flow_7
+	flow_3:
+		IF (isMember() == 1) 
+			GOTO	flow_4
+		GOTO	flow_5
+	flow_4:
+		IF (bitconfig_9030 == 1) 
+			GOTO	flow_6
+	flow_5:
+		IF (bitconfig_10700 == arg0) 
+			GOTO	flow_6
+		GOTO	flow_7
+	flow_6:
+		ivar2 = getDataByKey('J', 'J', 5483, ivar1);
+	flow_7:
+		if (ivar2 != -1) {
+			ivar1 = ivar2;
+		}
+		return ivar1;
+}

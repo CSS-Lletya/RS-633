@@ -1,0 +1,32 @@
+int script_6329(int arg0) {
+	if (arg0 != -1) {
+		if (cs2method_10366(getItemOption(arg0, 1)) > 0) {
+			return 1;
+		}
+		if (cs2method_10366(getItemOption(arg0, 2)) > 0) {
+			return 2;
+		}
+		if (cs2method_10366(getItemOption(arg0, 3)) > 0) {
+			return 3;
+		}
+		if (cs2method_10366(getItemOption(arg0, 4)) > 0) {
+			return 4;
+		}
+		if (cs2method_10366(getItemOption(arg0, 5)) > 0) {
+			return 5;
+		}
+		if (cs2method_10366(getItemOption(arg0, 6)) > 0) {
+			return 6;
+		}
+		if (cs2method_10366(getItemOption(arg0, 7)) > 0) {
+			return 7;
+		}
+		if (cs2method_10366(getItemOption(arg0, 8)) > 0) {
+			return 8;
+		}
+		if (cs2method_10366(getItemOption(arg0, 9)) > 0) {
+			return 9;
+		}
+	}
+	return 1;
+}

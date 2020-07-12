@@ -1,0 +1,43 @@
+object script_5909(int arg0,int arg1,int arg2,int arg3) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (script_5907(arg0, arg1)) {
+		flow_1:
+			case 0:
+			if (arg3 > 1) {
+				ovar0 = (object)("You won: " + toString(arg3) + " x " + script_5908(arg2));
+			} else {
+				ovar0 = (object)("You won: " + script_5908(arg2) + "<br>");
+			}
+			if (isMembersItem(arg2) == 1 && isMember() == 0) {
+				ovar0 = (object)((string)ovar0 + " This is a members item. Subscribe now to claim it!");
+			}
+			break;
+			case 1:
+			if (arg3 > 1) {
+				ovar0 = (object)("Not bad! You won: " + toString(arg3) + " x " + script_5908(arg2) + "<br>");
+			} else {
+				ovar0 = (object)("Not bad! You won: " + script_5908(arg2) + "<br>");
+			}
+			IF (isMembersItem(arg2) == 1 || arg0 == 1 || arg0 == 2) 
+				GOTO	flow_12
+			IF (arg0 == 4 && isMember() == 0) 
+				GOTO	flow_13
+			GOTO	flow_14
+		flow_12:
+		flow_13:
+			ovar0 = (object)((string)ovar0 + " This is a members item. Subscribe now to claim it!");
+		flow_14:
+			break;
+			case 2:
+			if (arg3 > 1) {
+				ovar0 = (object)("Congratulations! You won: " + toString(arg3) + " x " + script_5908(arg2) + "<br>" + getDataByKey('o', 's', 5704, arg2));
+			} else {
+				ovar0 = (object)("Congratulations! You won: " + script_5908(arg2) + "<br>" + getDataByKey('o', 's', 5704, arg2));
+			}
+			if (isMember() == 0) {
+				ovar0 = (object)((string)ovar0 + " This is a members item. Subscribe now to claim it!");
+			}
+	}
+	return ovar0;
+}

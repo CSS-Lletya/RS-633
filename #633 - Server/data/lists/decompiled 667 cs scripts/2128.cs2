@@ -1,0 +1,23 @@
+void script_2128(int arg0,int arg1) {
+	switch (arg1) {
+		case 1:
+			cs2method_10461(16036, arg0);
+			cs2method_10158(0, 0, script_686(globalint_680, 2048), globalint_681, script_686(globalint_682, 2048), 800, arg0);
+			break;
+		case 2:
+			cs2method_10461(16025, arg0);
+			cs2method_10158(0, 17, script_686(globalint_683, 2048), globalint_684, script_686(globalint_685, 2048), 800, arg0);
+			break;
+		case 3:
+			cs2method_10461(16022, arg0);
+			cs2method_10158(0, 0, script_686(globalint_686, 2048), globalint_687, script_686(globalint_688, 2048), 800, arg0);
+			break;
+		case 4:
+			cs2method_10461(16034, arg0);
+			cs2method_10158(0, 0, script_686(globalint_689, 2048), globalint_690, script_686(globalint_691, 2048), 800, arg0);
+			break;
+		default:
+			cs2method_10461(-1, arg0);
+	}
+	return;
+}

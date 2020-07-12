@@ -1,0 +1,15 @@
+void script_1423(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11) {
+	cs2method_10467(181, arg0);
+	cs2method_10467(180, arg1);
+	cs2method_10467(180, arg2);
+	cs2method_10467(180, arg3);
+	cs2method_10467(180, arg4);
+	cs2method_10467(180, arg5);
+	cs2method_10467(180, arg6);
+	cs2method_10467(180, arg7);
+	cs2method_10467(180, arg8);
+	cs2method_10467(180, arg9);
+	cs2method_10467(180, arg10);
+	cs2method_10467(180, arg11);
+	return;
+}

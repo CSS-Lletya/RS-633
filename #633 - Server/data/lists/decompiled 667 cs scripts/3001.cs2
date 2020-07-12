@@ -1,0 +1,57 @@
+void script_3001() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	opc_struct10388(3,0,0) structdump_0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ovar0 = (object)"";
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	structdump_0 = cs2method_10388();
+	ivar0 = structdump_0.intpart_2;
+	ivar2 = structdump_0.intpart_1;
+	ivar1 = structdump_0.intpart_0;
+	if (ivar0 == 0 && cs2method_10669() == 1) {
+		ovar0 = cs2method_10075(ivar1);
+		ivar3 = divide(ivar2, 1440);
+		ivar4 = divide(cs2method_10620(ivar2, 1440), 60);
+		ivar5 = cs2method_10620(ivar2, 60);
+		if (add(add(ivar3, ivar4), ivar5) != 0) {
+			ovar1 = (object)(" (in " + script_4582(ivar3, ivar4, ivar5) + ")");
+		}
+		ovar2 = (object)("Your membership will expire on " + (string)ovar0 + (string)ovar1 + ". Renew now to avoid losing member status. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to renew.");
+		ovar3 = (object)("Your membership will expire on " + (string)ovar0 + (string)ovar1 + ". Renew now to avoid losing member status. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to renew.");
+		setWidgetText(new WidgetPointer(907,54), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,54));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,54));
+	}
+	ivar6 = cs2method_10326();
+	if (ivar6 == 0) {
+		setWidgetText(new WidgetPointer(907,1), (object)"Welcome to RuneScape!");
+		return;
+	}
+	ivar7 = subtract(cs2method_10516(), ivar6);
+	if (ivar7 < 1) {
+		setWidgetText(new WidgetPointer(907,1), (object)("You last logged in earlier today from: " + (string)cs2method_10239()));
+	} else if (ivar7 == 1) {
+		setWidgetText(new WidgetPointer(907,1), (object)("You last logged in yesterday from: " + (string)cs2method_10239()));
+	} else {
+		setWidgetText(new WidgetPointer(907,1), (object)("You last logged in " + toString(ivar7) + " days ago from: " + (string)cs2method_10239()));
+	}
+	return;
+}

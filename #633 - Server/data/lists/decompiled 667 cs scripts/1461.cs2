@@ -1,0 +1,19 @@
+void script_1461(int arg0) {
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	ivar1 = (int)getDataByKey('i', 'I', 1614, arg0);
+	ivar2 = (int)getDataByKey('i', 'I', 1615, arg0);
+	setWidgetIsHidden(false, new WidgetPointer(ivar1));
+	setWidgetIsHidden(false, new WidgetPointer(ivar2));
+	cs2method_10380(-1, -1, ivar2);
+	cs2method_10467(1435, ivar2);
+	cs2method_10163(0, ivar2);
+	cs2method_10550(0, ivar2);
+	cs2method_10831(ivar1);
+	setScriptCallOnMousePressed(1481, "", new WidgetPointer(ivar1));
+	ovar0 = (object)"Drag an item here to create a new tab";
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(762,121), (string)ovar0, 25, 150, "IIsii", new WidgetPointer(ivar1));
+	cs2method_20295(40, new WidgetPointer(762,121), "I", new WidgetPointer(ivar1));
+	return;
+}

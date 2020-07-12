@@ -1,0 +1,101 @@
+void script_421(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int stack_dump0;
+	int stack_dump1;
+	cs2func_script_422_struct(2,0,0) structdump_2;
+	cs2func_script_422_struct(2,0,0) structdump_3;
+	cs2func_script_422_struct(2,0,0) structdump_4;
+	cs2func_script_422_struct(2,0,0) structdump_5;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 5;
+	ivar6 = 5;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	if (cs2method_10947() < arg0) {
+		ivar9 = subtract(arg0, cs2method_10947());
+	} else {
+		if (cs2method_10947() > arg0) {
+			ivar9 = subtract(cs2method_10947(), arg0);
+		}
+	}
+	if (cs2method_10832() < arg1) {
+		ivar8 = subtract(arg1, cs2method_10832());
+		ivar7 = add(subtract(2047, arg1), cs2method_10832());
+		if (ivar7 > ivar8) {
+			ivar10 = ivar8;
+			stack_dump0 = ivar9;
+			stack_dump1 = ivar10;
+			structdump_2 = script_422(stack_dump0, stack_dump1);
+			ivar6 = structdump_2.intpart_1;
+			ivar5 = structdump_2.intpart_0;
+			cs2method_10924(cs2method_10947(), cs2method_10586(add(cs2method_10832(), ivar6), arg1));
+		} else {
+			ivar10 = ivar7;
+			stack_dump0 = ivar9;
+			stack_dump1 = ivar10;
+			structdump_3 = script_422(stack_dump0, stack_dump1);
+			ivar6 = structdump_3.intpart_1;
+			ivar5 = structdump_3.intpart_0;
+			if (arg2 == 0) {
+				cs2method_10924(cs2method_10947(), cs2method_10004(subtract(cs2method_10832(), ivar6), 0));
+			} else {
+				cs2method_10924(cs2method_10947(), cs2method_10004(subtract(cs2method_10832(), ivar6), arg1));
+			}
+			if (cs2method_10832() == 0 && arg2 == 0) {
+				cs2method_10924(cs2method_10947(), 2047);
+				cs2method_20219(421, arg0, arg1, 1, "iii", new WidgetPointer(1013,0));
+			}
+		}
+	} else if (cs2method_10832() > arg1) {
+		ivar8 = add(subtract(2047, cs2method_10832()), arg1);
+		ivar7 = subtract(cs2method_10832(), arg1);
+		if (ivar7 > ivar8) {
+			ivar10 = ivar8;
+			stack_dump0 = ivar9;
+			stack_dump1 = ivar10;
+			structdump_4 = script_422(stack_dump0, stack_dump1);
+			ivar6 = structdump_4.intpart_1;
+			ivar5 = structdump_4.intpart_0;
+			if (arg2 == 0) {
+				cs2method_10924(cs2method_10947(), cs2method_10586(add(cs2method_10832(), ivar6), 2047));
+			} else {
+				cs2method_10924(cs2method_10947(), cs2method_10586(add(cs2method_10832(), ivar6), arg1));
+			}
+			if (cs2method_10832() == 2047 && arg2 == 0) {
+				cs2method_10924(cs2method_10947(), 0);
+				cs2method_20219(421, arg0, arg1, 1, "iii", new WidgetPointer(1013,0));
+			}
+		} else {
+			ivar10 = ivar7;
+			stack_dump0 = ivar9;
+			stack_dump1 = ivar10;
+			structdump_5 = script_422(stack_dump0, stack_dump1);
+			ivar6 = structdump_5.intpart_1;
+			ivar5 = structdump_5.intpart_0;
+			cs2method_10924(cs2method_10947(), cs2method_10004(subtract(cs2method_10832(), ivar6), arg1));
+		}
+	} else {
+		ivar4 = 1;
+	}
+	if (cs2method_10947() < arg0) {
+		cs2method_10924(cs2method_10586(add(cs2method_10947(), ivar5), arg0), cs2method_10832());
+	} else if (cs2method_10947() > arg0) {
+		cs2method_10924(cs2method_10004(subtract(cs2method_10947(), ivar5), arg0), cs2method_10832());
+	} else {
+		ivar3 = 1;
+	}
+	if (ivar3 == 1 && ivar4 == 1) {
+		cs2method_20219(-1, "", new WidgetPointer(1013,0));
+	}
+	return;
+}

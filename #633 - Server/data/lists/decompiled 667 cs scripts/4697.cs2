@@ -1,0 +1,110 @@
+void script_4697(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	ivar1 = cs2method_10878();
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 1;
+	if (ivar1 >= add(arg0, 200) || arg0 == 0) {
+		arg0 = ivar1;
+		if (globalint_1540 < 1) {
+			ovar0 = (object)"Destroyed";
+		} else if (globalint_1540 < divide(5, 2)) {
+			ovar0 = (object)"Under attack";
+		} else if (globalint_1540 < 5) {
+			ovar0 = (object)"Unlit ammo";
+		} else {
+			ovar0 = (object)"Fine";
+		}
+		if (globalint_1541 < 1) {
+			ovar1 = (object)"Empty";
+		} else if (globalint_1541 < divide(10, 2)) {
+			ovar1 = (object)"Low";
+		} else if (globalint_1541 < 10) {
+			ovar1 = (object)"Almost full";
+		} else {
+			ovar1 = (object)"Full";
+		}
+		if (globalint_1542 == 1) {
+			ovar2 = (object)"1 broken";
+		} else if (globalint_1542 > 0) {
+			ovar2 = (object)(toString(globalint_1542) + " broken");
+		} else {
+			ovar2 = (object)"Repaired";
+		}
+		if (globalint_1543 == 1) {
+			ovar3 = (object)(toString(ivar5) + " broken");
+		} else if (globalint_1543 > 0) {
+			ovar3 = (object)(toString(globalint_1543) + " broken");
+		} else {
+			ovar3 = (object)"Repaired";
+		}
+		ivar2 = divide(globalint_1545, 2);
+		cs2method_10893(divide(multiply(ivar2, 16384), 100), cs2method_10090(32768012), 2, 0, 32768012);
+		if (ivar2 < 97) {
+			setWidgetIsHidden(true, new WidgetPointer(500,13));
+		}
+		ovar4 = (object)toString(multiply(globalint_1544, 10));
+		setWidgetText(new WidgetPointer(500,29), (object)(toString(globalint_1546) + " min"));
+		if (globalint_1547 != 0) {
+			setWidgetIsHidden(false, new WidgetPointer(500,10));
+			cs2method_10893(cs2method_10956(32768002), 253, 0, 0, 32768002);
+			switch (globalint_1547) {
+				case 1:
+					ovar5 = (object)"Clobbering Time!";
+					break;
+				case 2:
+					ovar5 = (object)"Slow-mo";
+					break;
+				case 3:
+					ovar5 = (object)"No Well";
+					break;
+				case 4:
+					ovar5 = (object)"Oil Spill";
+					break;
+				case 5:
+					ovar5 = (object)"Fire in the Hole!";
+					break;
+				case 6:
+					ovar5 = (object)"Armoured Trolls";
+			}
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(500,10));
+			cs2method_10893(cs2method_10956(32768002), 225, 0, 0, 32768002);
+		}
+		ivar3 = script_4699(32768008, 32768021, 32768022, (object)"Ballista", ovar0);
+		ivar4 = script_4699(32768005, 32768019, 32768020, (object)"Oil", ovar1);
+		ivar3 = cs2method_10004(ivar3, ivar4);
+		ivar4 = script_4699(32768006, 32768039, 32768040, (object)"Barricades", ovar2);
+		ivar3 = cs2method_10004(ivar3, ivar4);
+		ivar4 = script_4699(32768007, 32768017, 32768018, (object)"Walls", ovar3);
+		ivar3 = cs2method_10004(ivar3, ivar4);
+		ivar4 = script_4699(32768009, 32768041, 32768042, (object)"Trolls", ovar4);
+		ivar3 = cs2method_10004(ivar3, ivar4);
+		if (globalint_1547 != 0) {
+			ivar4 = script_4699(32768010, 32768015, 32768016, (object)"Troll Attack", ovar5);
+			ivar3 = cs2method_10004(ivar3, ivar4);
+		}
+		if (add(ivar3, 15) > cs2method_10956(32768002)) {
+			cs2method_10893(add(ivar3, 15), cs2method_10090(32768002), 0, 0, 32768002);
+		}
+	}
+	cs2method_20219(4697, arg0, "i", new WidgetPointer(500,8));
+	return;
+}

@@ -1,0 +1,6 @@
+void script_2455(int arg0,int arg1) {
+	if (cs2method_10416(2228240) == 1 && cs2method_10416(2228268) == 1) {
+		cs2method_10467(arg1, arg0);
+	}
+	return;
+}

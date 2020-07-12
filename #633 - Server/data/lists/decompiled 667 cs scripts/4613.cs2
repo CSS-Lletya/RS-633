@@ -1,0 +1,10 @@
+void script_4613(int arg0) {
+	if (bitconfig_9254 == 0 && bitconfig_9255 == 0 && bitconfig_9256 == 0 && bitconfig_9257 == 0) {
+		return;
+	}
+	cs2method_10408(0, 65214, bitconfig_9254, arg0);
+	cs2method_10408(1, 65200, bitconfig_9255, arg0);
+	cs2method_10408(3, 65186, bitconfig_9256, arg0);
+	cs2method_10408(4, 62995, bitconfig_9257, arg0);
+	return;
+}

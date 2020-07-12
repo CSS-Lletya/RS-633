@@ -1,0 +1,48 @@
+void script_363(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,object arg9,object arg10) {
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	clearExtraChildren(new WidgetPointer(arg0));
+	if (arg3 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		cs2method_10831(arg0);
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(0, cs2method_10090(arg0), 1, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	ivar9 = cs2method_10630();
+	ivar10 = subtract(ivar9, 10);
+	if (arg6 > 90) {
+		cs2method_10469(10551);
+	} else {
+		cs2method_10469(10549);
+	}
+	ivar11 = cs2method_10261();
+	ivar12 = 0;
+	if (arg3 != -1) {
+		createChildWidget(arg0, 5, cs2method_10860(arg0));
+		setWidgetSize(arg5, arg6, 0, 0);
+		if (arg7 == 2) {
+			ivar12 = subtract(ivar9, add(arg6, 2));
+		} else {
+			ivar12 = divide(subtract(ivar9, arg6), 2);
+		}
+		setWidgetPosition(0, ivar12, 1, 0);
+		cs2method_10470(0);
+		cs2method_10469(arg3);
+	}
+	if (arg8 == 1) {
+		script_365(arg0, ivar11, 1);
+		cs2method_20835(366, new WidgetPointer(-1,65535), arg1, arg2, ivar11, ivar9, 1, arg4, new WidgetPointer(-32768,3), (string)arg10, -2147483647, "Iigii11Isi", new WidgetPointer(arg0));
+		cs2method_20295(366, new WidgetPointer(-1,65535), arg1, arg2, ivar11, ivar9, 0, arg4, new WidgetPointer(-32768,3), (string)arg10, -1, "Iigii11Isi", new WidgetPointer(arg0));
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		script_365(arg0, ivar11, 0);
+		cs2method_20835(366, new WidgetPointer(arg0), arg1, arg2, ivar11, ivar9, 1, arg4, new WidgetPointer(-32768,3), (string)arg10, -2147483647, "Iigii11Isi", new WidgetPointer(arg0));
+		cs2method_20295(366, new WidgetPointer(arg0), arg1, arg2, ivar11, ivar9, 0, arg4, new WidgetPointer(-32768,3), (string)arg10, -1, "Iigii11Isi", new WidgetPointer(arg0));
+	}
+	return;
+}

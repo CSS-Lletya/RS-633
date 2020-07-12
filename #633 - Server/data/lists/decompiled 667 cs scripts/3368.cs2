@@ -1,0 +1,12 @@
+void script_3368(int arg0,int arg1,object arg2) {
+	if (cs2method_10551(79691779, arg0) == 1 && cs2method_10366(cs2method_10775()) == 0 && cs2method_10878() > arg1) {
+		arg2 = cs2method_10445((object)"New: ", arg2);
+		setWidgetText(arg2);
+		setWidgetFont(3795);
+		cs2method_10320(1);
+		setWidgetRGB(new Color(245, 178, 65));
+		setWidgetTextAlignment(1, 1, 15);
+	}
+	script_3370(arg0, arg1);
+	return;
+}

@@ -1,0 +1,168 @@
+void script_5499() {
+	int ivar0;
+	script_5500();
+	createChildWidget(77135872, 5, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetSize(20, 22, 1, 1);
+	cs2method_10470(1);
+	createChildWidget(77135872, 5, 1);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 0, 1);
+	cs2method_10470(1);
+	createChildWidget(77135872, 5, 2);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	cs2method_10470(1);
+	createChildWidget(77135872, 5, 3);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	cs2method_10470(1);
+	createChildWidget(77135872, 5, 4);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 2);
+	cs2method_10470(1);
+	createChildWidget(77135872, 5, 5);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 0);
+	createChildWidget(77135872, 5, 6);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	createChildWidget(77135872, 5, 7);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 2);
+	createChildWidget(77135872, 5, 8);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 2);
+	createChildWidget(77135872, 4, 9);
+	setWidgetSize(20, 22, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetFont(496);
+	setWidgetRGB(new Color(globalint_1699));
+	setWidgetTextAlignment(1, 1, 15);
+	cs2method_10320(0);
+	createChildWidget(77135872, 5, 10);
+	setWidgetSize(50, 50, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	ivar0 = 0;
+	while (ivar0 < 11) {
+		if (globalint_1700 == -1 || globalint_1700 == 0) {
+			switch (ivar0) {
+				case 0:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8515);
+					}
+					break;
+				case 1:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8514);
+					}
+					break;
+				case 2:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8516);
+					}
+					break;
+				case 3:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8512);
+					}
+					break;
+				case 4:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8518);
+					}
+					break;
+				case 5:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8513);
+					}
+					break;
+				case 6:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8511);
+					}
+					break;
+				case 7:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8517);
+					}
+					break;
+				case 8:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(8519);
+					}
+					break;
+				case 9:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						setWidgetText((object)globalstring_306);
+					}
+					break;
+				case 10:
+					if (cs2method_10551(77135872, ivar0) == 1) {
+						cs2method_10469(globalint_1697);
+					}
+			}
+		} else {
+			if (globalint_1700 == 1) {
+				switch (ivar0) {
+					case 0:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8524);
+						}
+						break;
+					case 1:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8523);
+						}
+						break;
+					case 2:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8525);
+						}
+						break;
+					case 3:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8521);
+						}
+						break;
+					case 4:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8527);
+						}
+						break;
+					case 5:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8522);
+						}
+						break;
+					case 6:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8520);
+						}
+						break;
+					case 7:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8526);
+						}
+						break;
+					case 8:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(8528);
+						}
+						break;
+					case 9:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							setWidgetText((object)globalstring_306);
+						}
+						break;
+					case 10:
+						if (cs2method_10551(77135872, ivar0) == 1) {
+							cs2method_10469(globalint_1697);
+						}
+				}
+			}
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

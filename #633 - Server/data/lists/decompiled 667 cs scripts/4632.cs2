@@ -1,0 +1,107 @@
+void script_4632(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	ivar1 = -1;
+	ivar2 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	if (globalint_1520 > 2000000) {
+		ovar1 = (object)("over " + (string)cs2method_10595(2000000, 1));
+	} else {
+		ovar1 = cs2method_10595(globalint_1520, 1);
+	}
+	ivar1 = cs2method_10586(2147483647, divide(divide(multiply(1000, globalint_1520), cs2method_10004(1, globalint_1521)), 1000));
+	ivar2 = cs2method_10620(divide(multiply(1000, globalint_1520), cs2method_10004(1, globalint_1521)), 1000);
+	if (ivar2 == 0) {
+		ovar0 = (object)toString(ivar1);
+	} else {
+		ovar0 = cs2method_10445((object)toString(ivar1), (object)".");
+		if (ivar2 < 100) {
+			ovar0 = cs2method_10445(ovar0, (object)"0");
+		}
+		if (ivar2 < 10) {
+			ovar0 = cs2method_10445(ovar0, (object)"0");
+		}
+		ovar0 = cs2method_10445(ovar0, (object)toString(ivar2));
+		if (cs2method_10620(ivar2, 10) == 0) {
+			ovar0 = cs2method_10547(0, subtract(cs2method_10366(ovar0), 2), ovar0);
+		}
+		if (cs2method_10620(ivar2, 100) == 0) {
+			ovar0 = cs2method_10547(0, subtract(cs2method_10366(ovar0), 2), ovar0);
+		}
+	}
+	ovar3 = cs2method_10595(globalint_1522, 1);
+	if (arg0 == 0) {
+		if (globalint_1520 > 2000) {
+			ovar5 = (object)("Behold " + globalstring_127 + ", champion of " + (string)ovar1 + " bouts in the Duel Arena!");
+		} else if (globalint_1520 == 1) {
+			ovar5 = (object)("Here stands " + globalstring_127 + ", once victor of a duel.");
+		} else {
+			ovar5 = (object)("Here stands " + globalstring_127 + ", victor of " + (string)ovar1 + " duels.");
+		}
+		ovar2 = (object)(globalstring_127 + " defeats " + (string)ovar0 + " opponents for every loss!");
+		if (globalint_1522 > 250) {
+			ovar3 = (object)("over " + (string)cs2method_10595(250, 1));
+		}
+		ovar4 = (object)(globalstring_127 + " has vanquished " + (string)cs2method_10595(globalint_1522, 1) + " opponents in a row.");
+	} else {
+		if (arg0 == 1) {
+			if (globalint_1520 > 2000) {
+				ovar5 = (object)("Behold " + globalstring_127 + ", taker of " + (string)ovar1 + " heads in the Wilderness!");
+			} else {
+				ovar5 = (object)("Here stands " + globalstring_127 + ", who has killed " + (string)ovar1 + " opponents in the Wilderness.");
+			}
+			ovar2 = (object)("Vanquisher of " + (string)ovar0 + " foes for every fall!");
+			if (globalint_1522 > 250) {
+				ovar3 = (object)("Over " + (string)cs2method_10595(250, 1));
+			}
+			ovar4 = (object)((string)ovar3 + " victims in succession have rendered their souls to " + globalstring_127 + ".");
+		}
+	}
+	setWidgetText(new WidgetPointer(21,1), ovar5);
+	setWidgetText(new WidgetPointer(21,3), ovar4);
+	setWidgetText(new WidgetPointer(21,2), ovar2);
+	setWidgetText(new WidgetPointer(21,4), (object)("Highest value Wilderness kill:" + "<br>" + (string)cs2method_10595(standart_config_2185, 1) + " coins."));
+	setWidgetIsHidden(false, new WidgetPointer(21,18));
+	setWidgetIsHidden(false, new WidgetPointer(21,49));
+	setWidgetIsHidden(true, new WidgetPointer(21,2));
+	setWidgetIsHidden(true, new WidgetPointer(21,3));
+	if (globalint_1524 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(21,2));
+		if (globalint_1522 > 1) {
+			setWidgetIsHidden(false, new WidgetPointer(21,3));
+		}
+	}
+	setWidgetIsHidden(true, new WidgetPointer(21,4));
+	if (arg0 == 1 && standart_config_2185 > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(21,4));
+	}
+	ivar3 = cs2method_10090(1376273);
+	cs2method_10444(cs2method_10111(1376274), cs2method_10826(1376260), 0, 0, 1376274);
+	if (cs2method_10416(1376260) == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(21,18));
+		cs2method_10444(cs2method_10111(1376259), 0, 0, 2, 1376259);
+		cs2method_10444(cs2method_10111(1376258), cs2method_10090(1376259), 0, 2, 1376258);
+	} else {
+		ivar3 = subtract(ivar3, cs2method_10090(1376260));
+	}
+	cs2method_10444(cs2method_10111(1376274), cs2method_10826(1376258), 0, 0, 1376305);
+	if (cs2method_10416(1376259) == 0) {
+		ivar3 = subtract(ivar3, add(cs2method_10090(1376259), cs2method_10090(1376258)));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(21,49));
+	}
+	cs2method_10893(cs2method_10956(1376257), ivar3, 0, 0, 1376257);
+	return;
+}

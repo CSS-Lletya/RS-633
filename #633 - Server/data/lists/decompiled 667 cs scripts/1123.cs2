@@ -1,0 +1,19 @@
+void script_1123(int arg0) {
+	switch (bitconfig_804) {
+		case 1:
+			cs2method_10380(6090, 300, arg0);
+			break;
+		case 2:
+			cs2method_10380(6092, 300, arg0);
+			break;
+		case 3:
+			cs2method_10380(6089, 300, arg0);
+			break;
+		case 4:
+			cs2method_10380(6091, 300, arg0);
+			break;
+		default:
+			cs2method_10380(-1, 300, arg0);
+	}
+	return;
+}

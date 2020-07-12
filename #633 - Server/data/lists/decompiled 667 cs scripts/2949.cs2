@@ -1,0 +1,10 @@
+object script_2949(object arg0) {
+	int ivar0;
+	ivar0 = cs2method_10366(arg0);
+	arg0 = (object)"";
+	while (ivar0 > 0) {
+		arg0 = (object)((string)arg0 + "*");
+		ivar0 = subtract(ivar0, 1);
+	}
+	return arg0;
+}

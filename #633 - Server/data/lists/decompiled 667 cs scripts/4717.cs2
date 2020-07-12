@@ -1,0 +1,71 @@
+void script_4717(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	object ovar0;
+	object ovar1;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar4 = 48;
+	ivar5 = 48;
+	ivar6 = 0;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar10 = 1;
+	ivar11 = -1;
+	ivar12 = 0;
+	setWidgetText(new WidgetPointer(590,20), (object)"1");
+	switch (arg3) {
+		case 3874:
+			ivar11 = 3873;
+			break;
+		default:
+			ivar11 = 3873;
+	}
+	while (ivar6 < cs2method_10624(arg3)) {
+		ivar7 = getDataByKey('i', 'J', arg3, ivar6);
+		ivar8 = getGeneralRequirementAttribute(ivar7, 1420);
+		ivar10 = script_4718(ivar7);
+		ovar0 = (object)getGeneralRequirementAttribute(ivar7, 1419);
+		createChildWidget(arg0, 5, ivar6);
+		setWidgetSize(ivar4, ivar5, 0, 0);
+		setWidgetPosition(0, 0, 0, 0);
+		if (ivar10 == 0) {
+			ivar8 = getGeneralRequirementAttribute(ivar7, 1421);
+		}
+		if (ivar7 == 1783) {
+			if (cs2method_10855() > 0) {
+				ivar7 = 1789;
+				ivar8 = getGeneralRequirementAttribute(ivar7, 1420);
+				ovar0 = (object)getGeneralRequirementAttribute(ivar7, 1419);
+				ovar1 = (object)"Curtsy";
+				setWidgetContextMenuOption(1, (object)"Curtsy");
+				setWidgetContextMenuOption(2, (object)"Bow");
+				cs2method_20930(568, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(arg2), (string)ovar1, 25, 190, "IiIsii");
+			} else {
+				setWidgetContextMenuOption(1, (object)"Bow");
+				setWidgetContextMenuOption(2, (object)"Curtsy");
+				ovar1 = (object)"Bow";
+				cs2method_20930(568, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(arg2), (string)ovar1, 25, 190, "IiIsii");
+			}
+		} else {
+			setWidgetContextMenuOption(1, ovar0);
+			cs2method_20930(568, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(arg2), (string)ovar0, 25, 190, "IiIsii");
+		}
+		cs2method_10469(ivar8);
+		cs2method_20139(40, new WidgetPointer(arg2), "I");
+		cs2method_20191(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI");
+		ivar6 = add(ivar6, 1);
+	}
+	script_4716(38666248, 38666247, arg3, -5, 10, ivar12);
+	script_4709(arg3, ivar11, ivar12, 0, cs2method_10624(ivar11), 38666254, 38666252, 38666253, 38666255, 897, 788, 788, 1040, 16777215, 16711680, 16776960, 494, 792, 789, 790, 791, 773, 788);
+	return;
+}

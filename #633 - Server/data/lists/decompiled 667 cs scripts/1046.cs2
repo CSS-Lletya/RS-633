@@ -1,0 +1,114 @@
+void script_1046(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	ivar7 = 1;
+	ivar8 = 0;
+	ivar9 = 1000;
+	ivar10 = -1;
+	if (cs2method_10202(arg1) == 1) {
+		while (ivar8 < arg6) {
+			if (cs2method_10551(arg3, add(script_1844(ivar8), 1)) == 1 && cs2method_10466(cs2method_10816(arg1), 0, lower(cs2method_10775())) == 0 && cs2method_10551(arg3, 0) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetRGB(new Color(87, 126, 69));
+				setWidgetFilled(1);
+				if (ivar8 < globalint_128) {
+					if (cs2method_10207() < cs2method_10424(arg3)) {
+						script_72(arg4, arg3, cs2method_10207());
+					}
+				} else {
+					if (ivar8 > globalint_128 && add(cs2method_10207(), cs2method_10630()) > add(cs2method_10090(arg3), cs2method_10424(arg3))) {
+						script_72(arg4, arg3, subtract(add(cs2method_10207(), cs2method_10630()), cs2method_10090(arg3)));
+					}
+				}
+				globalint_128 = ivar8;
+				return;
+			}
+			ivar8 = add(ivar8, 1);
+		}
+		return;
+	}
+	if (arg0 == 104) {
+		if (arg6 == 0) {
+			return;
+		}
+		if (globalint_128 <= 0) {
+			globalint_128 = subtract(arg6, 1);
+		} else {
+			globalint_128 = subtract(globalint_128, 1);
+		}
+		if (cs2method_10551(arg3, add(script_1844(globalint_128), 1)) == 1) {
+			if (cs2method_10551(arg3, 0) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetRGB(new Color(87, 126, 69));
+				setWidgetFilled(1);
+			}
+			if (cs2method_10207() < cs2method_10424(arg3)) {
+				script_72(arg4, arg3, subtract(cs2method_10424(arg3), cs2method_10630()));
+			} else {
+				if (add(cs2method_10207(), cs2method_10630()) > add(cs2method_10090(arg3), cs2method_10424(arg3))) {
+					script_72(arg4, arg3, cs2method_10919(arg3));
+				}
+			}
+		}
+		return;
+	}
+	if (arg0 == 105) {
+		if (arg6 == 0) {
+			return;
+		}
+		if (globalint_128 == subtract(arg6, 1)) {
+			globalint_128 = 0;
+		} else {
+			globalint_128 = add(globalint_128, 1);
+		}
+		if (cs2method_10551(arg3, add(script_1844(globalint_128), 1)) == 1) {
+			if (cs2method_10551(arg3, 0) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetRGB(new Color(87, 126, 69));
+				setWidgetFilled(1);
+			}
+			if (add(cs2method_10207(), cs2method_10630()) > add(cs2method_10090(arg3), cs2method_10424(arg3))) {
+				script_72(arg4, arg3, add(cs2method_10424(arg3), cs2method_10630()));
+			} else {
+				if (cs2method_10207() < cs2method_10424(arg3)) {
+					script_72(arg4, arg3, 0);
+				}
+			}
+		}
+		return;
+	}
+	if (arg0 == 102) {
+		script_1050(globalint_126, (object)globalstring_27);
+		return;
+	}
+	if (arg0 == 13) {
+		script_1054();
+		return;
+	}
+	if (arg0 == 84) {
+		if (globalint_128 >= 0 && cs2method_10551(arg3, add(globalint_128, 1)) == 1) {
+			script_1074(arg2, arg5, script_1844(globalint_128));
+		}
+		return;
+	}
+	if (arg0 == 85) {
+		if (globalint_127 == 0) {
+			script_1054();
+		} else {
+			globalint_128 = -1;
+			setWidgetIsHidden(true, new WidgetPointer(137,7));
+			setWidgetIsHidden(true, new WidgetPointer(137,9));
+			setWidgetIsHidden(true, new WidgetPointer(137,13));
+			setWidgetIsHidden(false, new WidgetPointer(137,17));
+			setWidgetIsHidden(false, new WidgetPointer(137,1));
+			setWidgetIsHidden(true, new WidgetPointer(137,3));
+		}
+		return;
+	}
+	return;
+}

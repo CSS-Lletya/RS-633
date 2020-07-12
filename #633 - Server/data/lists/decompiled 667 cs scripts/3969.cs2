@@ -1,0 +1,61 @@
+void script_3969() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar0 = cs2method_10964(69140483);
+	ivar1 = -1;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = -1;
+	if (cs2method_10416(69140480) == 1) {
+		if (ivar0 > 0) {
+			ivar2 = cs2method_10542(ivar0, 255, 100);
+			ivar2 = subtract(100, ivar2);
+			ivar3 = add(cs2method_10542(270, 100, ivar2), 10);
+			ivar4 = add(cs2method_10542(100, 100, ivar2), 10);
+			cs2method_10893(cs2method_10586(ivar3, 270), cs2method_10586(ivar4, 100), 0, 0, 69140483);
+			ivar0 = cs2method_10004(subtract(ivar0, 8), 0);
+			cs2method_10149(ivar0, 69140483);
+		} else if (ivar1 != -1) {
+			cs2method_10770(1, 69140483);
+			cs2method_10149(0, 69140484);
+			cs2method_10149(0, 69140493);
+			cs2method_10149(0, 69140494);
+			cs2method_10149(0, 69140495);
+			cs2method_10149(0, 69140485);
+			cs2method_10149(0, 69140490);
+			cs2method_10149(0, 69140486);
+			cs2method_10149(0, 69140487);
+			cs2method_10149(0, 69140489);
+			cs2method_10149(0, 69140488);
+			cs2method_10149(0, 69140492);
+			setWidgetText(new WidgetPointer(1055,15), (object)getGeneralRequirementAttribute(ivar1, 1266));
+			if (getGeneralRequirementAttribute(ivar1, 1270) != 4094) {
+				ivar5 = getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(ivar1, 1270)), 952);
+			} else {
+				ivar5 = getGeneralRequirementAttribute(ivar1, 1271);
+			}
+			cs2method_10467(ivar5, 69140493);
+			cs2method_20219(3970, "", new WidgetPointer(1055,1));
+			setWidgetIsHidden(false, new WidgetPointer(1055,0));
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(1055,2));
+			cs2method_20219(-1, "", new WidgetPointer(1055,1));
+			setWidgetIsHidden(true, new WidgetPointer(1055,0));
+			setWidgetIsHidden(true, new WidgetPointer(1055,2));
+		}
+		ivar1 = script_5795(globalint_1425);
+	} else if (ivar0 < 255) {
+		ivar0 = cs2method_10586(add(ivar0, 8), 255);
+		cs2method_10149(ivar0, 69140483);
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(1055,2));
+		cs2method_10770(0, 69140483);
+		setWidgetIsHidden(true, new WidgetPointer(1055,2));
+	}
+	return;
+}

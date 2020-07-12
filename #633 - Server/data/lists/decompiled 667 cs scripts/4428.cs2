@@ -1,0 +1,41 @@
+void script_4428() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 72745014;
+	cs2method_20219(4431, new WidgetPointer(-32768,3), "I", new WidgetPointer(ivar0));
+	if (cs2method_10309() == 1) {
+		globalint_53 = 0;
+		cs2method_20636(4449, new WidgetPointer(-32768,3), "I", new WidgetPointer(ivar0));
+		cs2method_20694(4449, new WidgetPointer(-32768,3), "I", new WidgetPointer(ivar0));
+		setWidgetScrollMax(0, 0, ivar0);
+		cs2method_10085(0, 0, ivar0);
+		cs2method_10686(149, 72744988);
+		setWidgetIsHidden(false, new WidgetPointer(1110,22));
+		setWidgetIsHidden(false, new WidgetPointer(1110,24));
+		script_4470();
+		script_5395();
+		script_4436(ivar0, globalint_1035);
+		script_4447();
+	}
+	clearExtraChildren(new WidgetPointer(1110,12));
+	clearExtraChildren(new WidgetPointer(1110,4));
+	ivar1 = 0;
+	ivar2 = divide(add(500, 100), 2);
+	while (ivar1 < ivar2) {
+		createChildWidget(72744972, 3, ivar1);
+		createChildWidget(72744964, 3, ivar1);
+		setWidgetSize(0, 19, 1, 0);
+		setWidgetSize(0, 19, 1, 0);
+		setWidgetPosition(0, multiply(multiply(ivar1, 2), 19), 1, 0);
+		setWidgetPosition(0, cs2method_10207(), 1, 0);
+		setWidgetRGB(new Color(35, 34, 32));
+		setWidgetRGB(new Color(35, 34, 32));
+		setWidgetFilled(1);
+		setWidgetFilled(1);
+		cs2method_10305(128);
+		cs2method_10305(128);
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

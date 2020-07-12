@@ -1,0 +1,28 @@
+void script_1251(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_1898_struct(2,0,0) structdump_3;
+	stack_dump0 = 0;
+	stack_dump1 = arg0;
+	stack_dump2 = arg0;
+	structdump_3 = script_1898(stack_dump2);
+	cs2method_10767(stack_dump0, stack_dump1, structdump_3.intpart_0, structdump_3.intpart_1, 1, arg0);
+	if (cs2method_10800(0) <= add(arg0, 2)) {
+		setWidgetRGB(arg4, arg3);
+		cs2method_10149(255, arg3);
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_20219(1253, new WidgetPointer(arg3), "I", new WidgetPointer(arg3));
+		cs2method_20219(1249, new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), "III", new WidgetPointer(arg1));
+		cs2method_20808(-1, "", new WidgetPointer(arg1));
+		if (globalint_176 == 2) {
+			globalint_176 = add(add(globalint_176, 8), multiply(10, add(cs2method_10869(subtract(5, 1)), 1)));
+		} else {
+			globalint_176 = add(globalint_176, 8);
+		}
+		globalint_177 = add(cs2method_10878(), 30);
+		return;
+	}
+	cs2method_20808(1250, add(arg0, 1), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), arg4, "iIIIi", new WidgetPointer(arg1));
+	return;
+}

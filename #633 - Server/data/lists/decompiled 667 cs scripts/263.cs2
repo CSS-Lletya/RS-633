@@ -1,0 +1,61 @@
+void script_263() {
+	object ovar0;
+	setWidgetIsHidden(true, new WidgetPointer(923,15));
+	setWidgetIsHidden(true, new WidgetPointer(923,17));
+	setWidgetIsHidden(true, new WidgetPointer(923,19));
+	setWidgetIsHidden(true, new WidgetPointer(923,21));
+	setWidgetIsHidden(true, new WidgetPointer(923,23));
+	setWidgetIsHidden(true, new WidgetPointer(923,25));
+	setWidgetIsHidden(true, new WidgetPointer(923,27));
+	setWidgetIsHidden(true, new WidgetPointer(923,29));
+	setWidgetIsHidden(true, new WidgetPointer(923,16));
+	setWidgetIsHidden(true, new WidgetPointer(923,18));
+	setWidgetIsHidden(true, new WidgetPointer(923,20));
+	setWidgetIsHidden(true, new WidgetPointer(923,22));
+	setWidgetIsHidden(true, new WidgetPointer(923,24));
+	setWidgetIsHidden(true, new WidgetPointer(923,26));
+	setWidgetIsHidden(true, new WidgetPointer(923,28));
+	setWidgetIsHidden(true, new WidgetPointer(923,30));
+	ovar0 = (object)"Bait: None";
+	switch (globalint_1109) {
+		case 1:
+			ovar0 = (object)"Bait: worm";
+			setWidgetIsHidden(false, new WidgetPointer(923,16));
+			break;
+		case 2:
+			ovar0 = (object)"Bait: maggot";
+			setWidgetIsHidden(false, new WidgetPointer(923,18));
+			break;
+		case 4:
+			ovar0 = (object)"Bait: locust";
+			setWidgetIsHidden(false, new WidgetPointer(923,20));
+			break;
+		case 3:
+			ovar0 = (object)"Bait: cricket";
+			setWidgetIsHidden(false, new WidgetPointer(923,22));
+			break;
+		case 5:
+			ovar0 = (object)"Bait: cray";
+			setWidgetIsHidden(false, new WidgetPointer(923,24));
+			break;
+		case 6:
+			ovar0 = (object)"Bait: shrimp";
+			setWidgetIsHidden(false, new WidgetPointer(923,26));
+			break;
+		case 7:
+			ovar0 = (object)"Bait: green moth";
+			setWidgetIsHidden(false, new WidgetPointer(923,28));
+			break;
+		case 8:
+			ovar0 = (object)"Bait: grey moth";
+			setWidgetIsHidden(false, new WidgetPointer(923,30));
+	}
+	setWidgetText(new WidgetPointer(923,112), ovar0);
+	if (globalint_1109 == 0) {
+		cs2method_20219(6252, "", new WidgetPointer(923,105));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(923,105));
+		setWidgetIsHidden(false, new WidgetPointer(923,64));
+	}
+	return;
+}

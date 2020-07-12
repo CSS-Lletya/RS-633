@@ -1,0 +1,74 @@
+void script_6175(int arg0,int arg1) {
+	globalint_1911 = arg0;
+	if (globalint_1910 < 1 && cs2method_10551(arg1, 0) == 1) {
+		if (arg0 == 0) {
+			cs2method_10469(10685);
+		} else {
+			cs2method_10469(10695);
+		}
+	}
+	if (globalint_1910 < 2 && cs2method_10551(arg1, 1) == 1) {
+		if (arg0 == 1) {
+			cs2method_10469(10686);
+		} else {
+			cs2method_10469(10696);
+		}
+	}
+	if (globalint_1910 < 3 && cs2method_10551(arg1, 2) == 1) {
+		if (arg0 == 2) {
+			cs2method_10469(10687);
+		} else {
+			cs2method_10469(10697);
+		}
+	}
+	if (globalint_1910 < 4 && cs2method_10551(arg1, 3) == 1) {
+		if (arg0 == 3) {
+			cs2method_10469(10688);
+		} else {
+			cs2method_10469(10698);
+		}
+	}
+	if (globalint_1910 < 5 && cs2method_10551(arg1, 4) == 1) {
+		if (arg0 == 4) {
+			cs2method_10469(10689);
+		} else {
+			cs2method_10469(10699);
+		}
+	}
+	if (globalint_1910 < 6 && cs2method_10551(arg1, 5) == 1) {
+		if (arg0 == 5) {
+			cs2method_10469(10690);
+		} else {
+			cs2method_10469(10700);
+		}
+	}
+	if (globalint_1910 < 7 && cs2method_10551(arg1, 6) == 1) {
+		if (arg0 == 6) {
+			cs2method_10469(10691);
+		} else {
+			cs2method_10469(10701);
+		}
+	}
+	if (globalint_1910 < 8 && cs2method_10551(arg1, 7) == 1) {
+		if (arg0 == 7) {
+			cs2method_10469(10692);
+		} else {
+			cs2method_10469(10702);
+		}
+	}
+	if (globalint_1910 < 9 && cs2method_10551(arg1, 8) == 1) {
+		if (arg0 == 8) {
+			cs2method_10469(10693);
+		} else {
+			cs2method_10469(10703);
+		}
+	}
+	if (globalint_1910 < 10 && cs2method_10551(arg1, 9) == 1) {
+		if (arg0 == 9) {
+			cs2method_10469(10694);
+		} else {
+			cs2method_10469(10704);
+		}
+	}
+	return;
+}

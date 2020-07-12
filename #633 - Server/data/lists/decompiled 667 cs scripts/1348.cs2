@@ -1,0 +1,50 @@
+void script_1348(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,int arg12,int arg13,int arg14,int arg15,int arg16,int arg17,int arg18) {
+	int ivar19;
+	int ivar20;
+	object ovar0;
+	if (cs2method_10551(arg6, arg12) == 1) {
+		cs2method_10949(1);
+	}
+	createChildWidget(arg2, 5, cs2method_10860(arg2));
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+	cs2method_10469(arg3);
+	cs2method_10470(1);
+	createChildWidget(arg2, 3, cs2method_10860(arg2));
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+	setWidgetRGB(new Color(0, 0, 0));
+	setWidgetScrollMax(cs2method_10956(arg4), multiply(arg1, 15), arg4);
+	ivar19 = 0;
+	ivar20 = -1;
+	ovar0 = (object)"";
+	while (ivar19 <= arg1) {
+		ivar20 = cs2method_10860(arg4);
+		ovar0 = (object)getDataByKey('i', 's', arg0, ivar19);
+		createChildWidget(arg4, 4, ivar20);
+		setWidgetText(ovar0);
+		setWidgetTextAlignment(0, 1, 0);
+		setWidgetPosition(5, multiply(ivar19, 15), 0, 0);
+		setWidgetSize(subtract(cs2method_10956(arg4), 16), 15, 0, 0);
+		cs2method_10320(0);
+		setWidgetFont(arg10);
+		if (ivar19 >= arg1) {
+			setWidgetRGB(new Color(arg8));
+			cs2method_20139(1354, new WidgetPointer(arg4), ivar20, arg8, "Iii");
+			cs2method_20723(1350, new WidgetPointer(arg2), new WidgetPointer(arg4), new WidgetPointer(arg5), new WidgetPointer(arg6), arg11, arg12, (string)ovar0, arg8, "IIIIiisi");
+		} else {
+			setWidgetRGB(new Color(arg7));
+			cs2method_20139(1354, new WidgetPointer(arg4), ivar20, arg7, "Iii");
+			cs2method_20723(1350, new WidgetPointer(arg2), new WidgetPointer(arg4), new WidgetPointer(arg5), new WidgetPointer(arg6), arg11, arg12, (string)ovar0, arg7, "IIIIiisi");
+		}
+		cs2method_20211(1353, new WidgetPointer(arg4), ivar20, arg9, "Iii");
+		ivar19 = add(ivar19, 1);
+	}
+	if (arg5 != -1) {
+		script_31(arg5, arg4, arg13, arg14, arg15, arg16, arg17, arg18);
+		setWidgetIsHidden(false, new WidgetPointer(arg5));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	setWidgetIsHidden(false, new WidgetPointer(arg4));
+	return;
+}

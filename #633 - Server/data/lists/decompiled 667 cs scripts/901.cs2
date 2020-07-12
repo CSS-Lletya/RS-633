@@ -1,0 +1,5 @@
+void script_901() {
+	cs2method_10158(0, 0, 0, 0, 1024, 400, 46989326);
+	cs2method_10444(subtract(cs2method_10111(46989326), 2), subtract(cs2method_10826(46989326), 2), 0, 0, 46989326);
+	return;
+}

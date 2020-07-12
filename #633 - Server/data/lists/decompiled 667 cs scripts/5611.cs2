@@ -1,0 +1,11 @@
+void script_5611(int arg0,int arg1) {
+	int ivar2;
+	arg0 = cs2method_10586(100, arg0);
+	arg0 = cs2method_10004(0, arg0);
+	if (arg1 == -1) {
+		return;
+	}
+	ivar2 = divide(multiply(arg0, 16384), 100);
+	cs2method_10893(ivar2, cs2method_10090(arg1), 2, 0, arg1);
+	return;
+}

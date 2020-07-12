@@ -1,0 +1,14 @@
+void script_5985(int arg0) {
+	int ivar1;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar1 = cs2method_10860(arg0);
+	createChildWidget(arg0, 3, cs2method_10860(arg0));
+	setWidgetRGB(new Color(255, 255, 255));
+	setWidgetFilled(1);
+	setWidgetPosition(2, 2, 0, 0);
+	setWidgetSize(4, 4, 1, 1);
+	cs2method_10305(255);
+	cs2method_20211(2140, new WidgetPointer(arg0), ivar1, 180, "Iii");
+	cs2method_20139(2140, new WidgetPointer(arg0), ivar1, 255, "Iii");
+	return;
+}

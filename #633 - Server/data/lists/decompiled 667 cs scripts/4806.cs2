@@ -1,0 +1,188 @@
+void script_4806(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int stack_dump0;
+	int stack_dump1;
+	cs2func_script_4818_struct(11,0,0) structdump_2;
+	ivar5 = -1;
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	ivar14 = -1;
+	ivar15 = -1;
+	stack_dump0 = arg1;
+	stack_dump1 = arg2;
+	structdump_2 = script_4818(stack_dump0, stack_dump1);
+	ivar15 = structdump_2.intpart_10;
+	ivar14 = structdump_2.intpart_9;
+	ivar13 = structdump_2.intpart_8;
+	ivar12 = structdump_2.intpart_7;
+	ivar11 = structdump_2.intpart_6;
+	ivar10 = structdump_2.intpart_5;
+	ivar9 = structdump_2.intpart_4;
+	ivar8 = structdump_2.intpart_3;
+	ivar7 = structdump_2.intpart_2;
+	ivar6 = structdump_2.intpart_1;
+	ivar5 = structdump_2.intpart_0;
+	switch (arg2) {
+		case 1:
+			setWidgetText(new WidgetPointer(ivar15), (object)getDataByKey('i', 's', 4044, arg4));
+			break;
+		case 2:
+			setWidgetText(new WidgetPointer(ivar15), (object)getDataByKey('i', 's', 4045, arg4));
+			break;
+		case 3:
+			setWidgetText(new WidgetPointer(ivar15), (object)getDataByKey('i', 's', 4046, arg4));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(ivar5));
+	ivar16 = 0;
+	ivar17 = 1;
+	ivar18 = -1;
+	ivar19 = 0;
+	switch (bitconfig_9558) {
+		flow_5:
+			case 1:
+			switch (arg2) {
+				case 1:
+					ivar19 = bitconfig_9567;
+					break;
+				case 2:
+					ivar19 = bitconfig_9568;
+					break;
+				case 3:
+					ivar19 = bitconfig_9569;
+			}
+			break;
+			case 2:
+			switch (arg2) {
+				case 1:
+					ivar19 = bitconfig_9576;
+					break;
+				case 2:
+					ivar19 = bitconfig_9577;
+					break;
+				case 3:
+					ivar19 = bitconfig_9578;
+			}
+			break;
+			case 3:
+			SWITCH (arg2) {
+				case 1:
+					 GOTO flow_16
+				case 2:
+					 GOTO flow_17
+				case 3:
+					 GOTO flow_18
+			}
+			break;
+		flow_16:
+			ivar19 = bitconfig_9585;
+			break;
+		flow_17:
+			ivar19 = bitconfig_9586;
+			break;
+		flow_18:
+			ivar19 = bitconfig_9587;
+	}
+	while (ivar17 <= cs2method_10624(arg0)) {
+		ivar18 = getDataByKey('i', 'J', arg0, ivar17);
+		if (ivar18 != -1) {
+			createChildWidget(ivar14, 3, ivar16);
+			setWidgetSize(0, 26, 1, 0);
+			setWidgetPosition(0, multiply(ivar16, 27), 0, 0);
+			setWidgetFilled(1);
+			setWidgetRGB(new Color(44, 40, 32));
+			createChildWidget(ivar6, 5, ivar16);
+			cs2method_10469(getGeneralRequirementAttribute(ivar18, 1565));
+			setWidgetSize(22, 22, 0, 0);
+			setWidgetPosition(0, add(2, multiply(ivar16, 27)), 0, 0);
+			cs2method_20930(4812, getGeneralRequirementAttribute(ivar18, 1566), getGeneralRequirementAttribute(ivar18, 1565), getGeneralRequirementAttribute(ivar18, 1567), 25, "sdii");
+			cs2method_20139(4813, "");
+			createChildWidget(ivar7, 5, ivar16);
+			cs2method_10469(getGeneralRequirementAttribute(ivar18, 1572));
+			setWidgetSize(20, 20, 0, 0);
+			setWidgetPosition(1, add(2, multiply(ivar16, 27)), 0, 0);
+			cs2method_20139(40, new WidgetPointer(1258,484), "I");
+			cs2method_20930(4538, new WidgetPointer(1258,484), new WidgetPointer(-32768,3), -2147483643, getGeneralRequirementAttribute(ivar18, 1570), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+			createChildWidget(ivar10, 4, ivar16);
+			setWidgetText((object)toString(getGeneralRequirementAttribute(ivar18, 1573)));
+			setWidgetSize(0, 26, 1, 0);
+			setWidgetPosition(0, multiply(ivar16, 27), 0, 0);
+			cs2method_10320(0);
+			setWidgetFont(494);
+			setWidgetTextAlignment(1, 1, 0);
+			setWidgetRGB(new Color(255, 255, 255));
+			if (ivar8 != -1) {
+				createChildWidget(ivar8, 5, ivar16);
+				cs2method_10469(getGeneralRequirementAttribute(ivar18, 1576));
+				setWidgetSize(20, 20, 0, 0);
+				setWidgetPosition(1, add(2, multiply(ivar16, 27)), 0, 0);
+				cs2method_20139(40, new WidgetPointer(1258,484), "I");
+				cs2method_20930(4538, new WidgetPointer(1258,484), new WidgetPointer(-32768,3), -2147483643, getGeneralRequirementAttribute(ivar18, 1574), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+			}
+			if (ivar11 != -1) {
+				createChildWidget(ivar11, 4, ivar16);
+				setWidgetText((object)toString(getGeneralRequirementAttribute(ivar18, 1577)));
+				setWidgetSize(0, 26, 1, 0);
+				setWidgetPosition(0, multiply(ivar16, 27), 0, 0);
+				cs2method_10320(0);
+				setWidgetFont(494);
+				setWidgetTextAlignment(1, 1, 0);
+				setWidgetRGB(new Color(255, 255, 255));
+			}
+			if (ivar9 != -1) {
+				createChildWidget(ivar9, 5, ivar16);
+				cs2method_10469(getGeneralRequirementAttribute(ivar18, 1580));
+				setWidgetSize(20, 20, 0, 0);
+				setWidgetPosition(0, add(2, multiply(ivar16, 27)), 0, 0);
+				cs2method_20139(40, new WidgetPointer(1258,484), "I");
+				cs2method_20930(4538, new WidgetPointer(1258,484), new WidgetPointer(-32768,3), -2147483643, getGeneralRequirementAttribute(ivar18, 1578), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+			}
+			if (ivar12 != -1) {
+				createChildWidget(ivar12, 4, ivar16);
+				setWidgetText((object)toString(getGeneralRequirementAttribute(ivar18, 1581)));
+				setWidgetSize(0, 26, 1, 0);
+				setWidgetPosition(0, multiply(ivar16, 27), 0, 0);
+				cs2method_10320(0);
+				setWidgetFont(494);
+				setWidgetTextAlignment(1, 1, 0);
+				setWidgetRGB(new Color(255, 255, 255));
+			}
+			createChildWidget(ivar13, 5, ivar16);
+			setWidgetSize(16, 16, 0, 0);
+			setWidgetPosition(1, add(5, multiply(ivar16, 27)), 0, 0);
+			if (arg3 == 0) {
+				setWidgetContextMenuOption(1, (object)"Select");
+				cs2method_20115(4832, new WidgetPointer(-32768,3), -2147483643, "Ii");
+			}
+			if (ivar19 == add(ivar16, 1)) {
+				cs2method_10469(6004);
+			} else {
+				cs2method_10469(6009);
+			}
+			ivar16 = add(ivar16, 1);
+		}
+		ivar17 = add(ivar17, 1);
+		ivar18 = -1;
+	}
+	cs2method_10578(1564, multiply(ivar16, 27), ivar5);
+	return;
+}

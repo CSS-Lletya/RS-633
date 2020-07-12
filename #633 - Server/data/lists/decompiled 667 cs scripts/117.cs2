@@ -1,0 +1,13 @@
+void script_117() {
+	if (bitconfig_3756 < 1 || bitconfig_3756 > 20) {
+		cs2method_20219(-1, "", new WidgetPointer(746,55));
+		cs2method_20219(-1, "", new WidgetPointer(548,113));
+		script_736(-1, -1, -1, -1);
+		script_1364();
+		return;
+	}
+	script_2756();
+	cs2method_20219(1420, "", new WidgetPointer(746,55));
+	cs2method_20219(1420, "", new WidgetPointer(548,113));
+	return;
+}

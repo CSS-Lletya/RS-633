@@ -1,0 +1,202 @@
+void script_4883(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar1;
+	ivar2 = script_4964(arg0);
+	ivar3 = script_4971(ivar2);
+	ivar4 = cs2method_10509(arg0);
+	ivar5 = cs2method_10509(ivar4);
+	ivar6 = script_5216(ivar2);
+	if (ivar6 == -1) {
+		ivar6 = arg0;
+	}
+	ovar1 = (object)"";
+	ivar7 = 0;
+	if (cs2method_10575() == 1) {
+		switch (arg0) {
+			case 82444846:
+				arg1 = 1;
+				arg2 = (object)"Build a new party room chair customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444854:
+				arg1 = 1;
+				arg2 = (object)"Build a new party room table customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444850:
+				arg1 = 1;
+				arg2 = (object)"Build a new flag customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444858:
+				arg1 = 1;
+				arg2 = (object)"Build a new potted plant customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444862:
+				arg1 = 1;
+				arg2 = (object)"Build a new sundial customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444866:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep flag customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444870:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep tapestry customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444874:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep banner customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444878:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep shield customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444882:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep fireplace customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444886:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep lower window customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444890:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep upper window customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444894:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep door customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 82444898:
+				arg1 = 1;
+				arg2 = (object)"Build a new keep wall pattern customisation.";
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+		}
+		arg2 = (object)("Build over: " + (string)script_4914(ivar3));
+		if (ivar7 == 1) {
+			arg2 = (object)("Build over " + (string)script_4914(ivar3));
+		}
+		if (cs2method_10111(ivar4) < subtract(divide(cs2method_10956(ivar5), 2), 30)) {
+			arg1 = 1;
+		}
+	}
+	cs2method_20835(4538, new WidgetPointer(1258,119), new WidgetPointer(arg0), -1, (string)arg2, 120, 3793, 3793, 16777215, 13, 4, arg1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(arg0));
+	cs2method_20835(4538, new WidgetPointer(1258,119), new WidgetPointer(arg0), -1, (string)arg2, 120, 3793, 3793, 16777215, 13, 4, arg1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(ivar6));
+	cs2method_20295(40, new WidgetPointer(1258,119), "I", new WidgetPointer(arg0));
+	return;
+}

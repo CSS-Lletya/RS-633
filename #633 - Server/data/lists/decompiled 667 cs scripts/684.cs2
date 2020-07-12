@@ -1,0 +1,4 @@
+void script_684(int arg0,int arg1) {
+	setWidgetPosition(add(cs2method_10646(), arg0), add(cs2method_10207(), arg1), 0, 0);
+	return;
+}

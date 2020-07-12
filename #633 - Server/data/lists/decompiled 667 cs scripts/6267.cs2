@@ -1,0 +1,276 @@
+int script_6267(int arg0) {
+	int ivar1;
+	ivar1 = arg0;
+	if (globalint_1928 == 0) {
+		switch (arg0) {
+			case 9962:
+			case 12275:
+				ivar1 = 9962;
+				break;
+			case 9963:
+			case 12276:
+				ivar1 = 9963;
+				break;
+			case 12244:
+			case 9823:
+				ivar1 = 9823;
+				break;
+			case 9824:
+			case 12245:
+				ivar1 = 9824;
+				break;
+			case 9825:
+			case 12246:
+				ivar1 = 9825;
+				break;
+			case 9826:
+			case 12247:
+				ivar1 = 9826;
+				break;
+			case 9827:
+			case 12248:
+				ivar1 = 9827;
+				break;
+			case 9828:
+			case 12249:
+				ivar1 = 9828;
+				break;
+			case 9829:
+			case 12250:
+				ivar1 = 9829;
+				break;
+			case 9830:
+			case 12251:
+				ivar1 = 9830;
+				break;
+			case 9831:
+			case 12252:
+				ivar1 = 9831;
+				break;
+			case 9832:
+			case 12253:
+				ivar1 = 9832;
+				break;
+			case 9833:
+			case 12254:
+				ivar1 = 9833;
+				break;
+			case 9834:
+			case 12255:
+				ivar1 = 9834;
+				break;
+			case 12256:
+			case 9835:
+				ivar1 = 9835;
+				break;
+			case 12257:
+			case 9836:
+				ivar1 = 9836;
+				break;
+			case 12258:
+			case 9837:
+				ivar1 = 9837;
+				break;
+			case 12259:
+			case 9838:
+				ivar1 = 9838;
+				break;
+			case 12260:
+			case 9839:
+				ivar1 = 9839;
+				break;
+			case 12261:
+			case 9840:
+				ivar1 = 9840;
+				break;
+			case 12262:
+			case 9841:
+				ivar1 = 9841;
+				break;
+			case 12263:
+			case 9842:
+				ivar1 = 9842;
+				break;
+			case 12264:
+			case 9853:
+				ivar1 = 9853;
+				break;
+			case 9885:
+			case 12268:
+				ivar1 = 9885;
+				break;
+			case 12265:
+			case 9855:
+				ivar1 = 9855;
+				break;
+			case 9856:
+			case 12266:
+				ivar1 = 9856;
+				break;
+			case 10240:
+			case 12278:
+				ivar1 = 10240;
+				break;
+			case 9872:
+			case 12267:
+				ivar1 = 9872;
+				break;
+			case 12277:
+			case 10219:
+				ivar1 = 10219;
+				break;
+			case 9908:
+			case 12270:
+				ivar1 = 9908;
+				break;
+			case 9909:
+			case 12271:
+				ivar1 = 9909;
+				break;
+			case 9910:
+			case 12272:
+				ivar1 = 9910;
+				break;
+			case 9911:
+			case 12273:
+				ivar1 = 9911;
+		}
+	} else {
+		if (globalint_1928 == 1) {
+			switch (arg0) {
+				case 9962:
+				case 12275:
+					ivar1 = 12275;
+					break;
+				case 9963:
+				case 12276:
+					ivar1 = 12276;
+					break;
+				case 12244:
+				case 9823:
+					ivar1 = 12244;
+					break;
+				case 9824:
+				case 12245:
+					ivar1 = 12245;
+					break;
+				case 9825:
+				case 12246:
+					ivar1 = 12246;
+					break;
+				case 9826:
+				case 12247:
+					ivar1 = 12247;
+					break;
+				case 9827:
+				case 12248:
+					ivar1 = 12248;
+					break;
+				case 9828:
+				case 12249:
+					ivar1 = 12249;
+					break;
+				case 9829:
+				case 12250:
+					ivar1 = 12250;
+					break;
+				case 9830:
+				case 12251:
+					ivar1 = 12251;
+					break;
+				case 9831:
+				case 12252:
+					ivar1 = 12252;
+					break;
+				case 9832:
+				case 12253:
+					ivar1 = 12253;
+					break;
+				case 9833:
+				case 12254:
+					ivar1 = 12254;
+					break;
+				case 9834:
+				case 12255:
+					ivar1 = 12255;
+					break;
+				case 12256:
+				case 9835:
+					ivar1 = 12256;
+					break;
+				case 12257:
+				case 9836:
+					ivar1 = 12257;
+					break;
+				case 12258:
+				case 9837:
+					ivar1 = 12258;
+					break;
+				case 12259:
+				case 9838:
+					ivar1 = 12259;
+					break;
+				case 12260:
+				case 9839:
+					ivar1 = 12260;
+					break;
+				case 12261:
+				case 9840:
+					ivar1 = 12261;
+					break;
+				case 12262:
+				case 9841:
+					ivar1 = 12262;
+					break;
+				case 12263:
+				case 9842:
+					ivar1 = 12263;
+					break;
+				case 12264:
+				case 9853:
+					ivar1 = 12264;
+					break;
+				case 9885:
+				case 12268:
+					ivar1 = 12268;
+					break;
+				case 12265:
+				case 9855:
+					ivar1 = 12265;
+					break;
+				case 9856:
+				case 12266:
+					ivar1 = 12266;
+					break;
+				case 10240:
+				case 12278:
+					ivar1 = 12278;
+					break;
+				case 9872:
+				case 12267:
+					ivar1 = 12267;
+					break;
+				case 12277:
+				case 10219:
+					ivar1 = 12277;
+					break;
+				case 9908:
+				case 12270:
+					ivar1 = 12270;
+					break;
+				case 9909:
+				case 12271:
+					ivar1 = 12271;
+					break;
+				case 9910:
+				case 12272:
+					ivar1 = 12272;
+					break;
+				case 9911:
+				case 12273:
+					ivar1 = 12273;
+			}
+		}
+	}
+	return ivar1;
+}

@@ -1,0 +1,23 @@
+void script_5568(int arg0) {
+	flow_0:
+		SWITCH (globalint_1727) {
+			case 1:
+				 GOTO flow_1
+			case 2:
+				 GOTO flow_2
+			case 3:
+				 GOTO flow_3
+		}
+		cs2method_10467(-1, arg0);
+		GOTO	flow_4
+	flow_1:
+		cs2method_10467(8962, arg0);
+		GOTO	flow_4
+	flow_2:
+		cs2method_10467(8963, arg0);
+		GOTO	flow_4
+	flow_3:
+		cs2method_10467(8964, arg0);
+	flow_4:
+		return;
+}

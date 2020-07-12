@@ -1,0 +1,13 @@
+void script_573() {
+	clearExtraChildren(new WidgetPointer(389,4));
+	setWidgetIsHidden(false, new WidgetPointer(752,8));
+	setWidgetIsHidden(true, new WidgetPointer(752,3));
+	setWidgetIsHidden(true, new WidgetPointer(752,7));
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(389,9));
+	cs2method_20590(-1, "", new WidgetPointer(389,9));
+	cs2method_20219(-1, "", new WidgetPointer(389,9));
+	if (cs2method_10842() >= 2) {
+		script_1364();
+	}
+	return;
+}

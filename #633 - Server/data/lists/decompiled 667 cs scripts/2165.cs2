@@ -1,0 +1,11 @@
+void script_2165() {
+	int ivar0;
+	ivar0 = cs2method_10004(cs2method_10355(cs2method_10894(12451846), cs2method_10100(12451846)), cs2method_10355(cs2method_10894(12451850), cs2method_10100(12451850)));
+	ivar0 = add(add(ivar0, cs2method_10956(12451843)), 1);
+	cs2method_10893(ivar0, cs2method_10090(12451842), 0, 0, 12451842);
+	cs2method_10893(add(add(ivar0, 1), multiply(cs2method_10111(12451866), 2)), cs2method_10090(12451866), 1, 0, 12451866);
+	script_2160(1);
+	cs2method_20889(2169, 1384, 1, "Y", new WidgetPointer(190,15));
+	cs2method_20914(2169, 695, 1, "Y", new WidgetPointer(190,15));
+	return;
+}

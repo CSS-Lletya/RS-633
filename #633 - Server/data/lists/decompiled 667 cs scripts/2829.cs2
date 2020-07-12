@@ -1,0 +1,39 @@
+void script_2829() {
+	if (cs2method_10878() < globalint_1092) {
+		return;
+	}
+	globalint_1092 = add(cs2method_10878(), 5);
+	switch (cs2method_10825(59376082)) {
+		case 4107:
+			cs2method_10467(4108, 59376082);
+			break;
+		case 4108:
+			cs2method_10467(4109, 59376082);
+			break;
+		case 4109:
+			cs2method_10467(4110, 59376082);
+			break;
+		case 4110:
+			cs2method_10467(4111, 59376082);
+			break;
+		case 4111:
+			cs2method_10467(4112, 59376082);
+			break;
+		case 4112:
+			cs2method_10467(4113, 59376082);
+			break;
+		case 4113:
+			cs2method_10467(4114, 59376082);
+			break;
+		case 4114:
+			cs2method_10467(4107, 59376082);
+			break;
+		default:
+			cs2method_10467(4107, 59376082);
+	}
+	globalint_1773 = add(globalint_1773, 1);
+	if (globalint_1773 >= 2000) {
+		script_4015();
+	}
+	return;
+}

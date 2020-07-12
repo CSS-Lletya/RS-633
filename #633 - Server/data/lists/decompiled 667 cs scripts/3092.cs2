@@ -1,0 +1,8 @@
+void script_3092(int arg0) {
+	globalint_547 = arg0;
+	setWidgetIsHidden(true, new WidgetPointer(906,58));
+	if (globalint_547 == 1) {
+		script_3062(59375802);
+	}
+	return;
+}

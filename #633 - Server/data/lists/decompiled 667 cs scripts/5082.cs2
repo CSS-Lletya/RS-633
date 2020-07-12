@@ -1,0 +1,38 @@
+void script_5082(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int stack_dump0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	if (globalint_160 != -1 && cs2method_10551(arg0, add(multiply(globalint_160, 10), 2)) == 1) {
+		ivar1 = subtract(add(script_4405(), cs2method_10630()), script_3366(73007126));
+		if (ivar1 >= cs2method_10090(arg0)) {
+			setWidgetIsHidden(true, new WidgetPointer(1114,23));
+		} else if (ivar1 <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1114,23));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(1114,23));
+			cs2method_10444(subtract(script_1815(), script_3365(73007126)), ivar1, 0, 0, 73007127);
+			if (cs2method_10403(73007127) == 1) {
+				stack_dump0 = 1477;
+				/* 
+					java.lang.RuntimeException: Stack underflow
+						at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			}
+			cs2method_20219(5083, new WidgetPointer(-32768,3), globalint_160, add(cs2method_10878(), 2), "Iii", new WidgetPointer(1114,23));
+		}
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1114,23));
+	}
+	return;
+}

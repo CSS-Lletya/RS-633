@@ -1,0 +1,59 @@
+void script_4677() {
+	switch (bitconfig_9306) {
+		case 1:
+			if (bitconfig_9298 == 10) {
+				if (cs2method_10453(6) >= 30 && cs2method_10453(4) >= 30 && cs2method_10453(0) >= 30) {
+					setWidgetText(new WidgetPointer(102,54), (object)"Carn is no more, his behemoth has been dealt with, and Linza has her ore. The tales of Great Ozan can continue!");
+				} else {
+					setWidgetText(new WidgetPointer(102,54), (object)"Carn has been defeated and Linza appreciates her new ore. The story still feels incomplete, somehow.");
+				}
+			} else {
+				setWidgetText(new WidgetPointer(102,54), (object)"Carn's defeated, but the story still feels incomplete somehow.");
+			}
+			break;
+		case 2:
+			if (bitconfig_9298 == 10) {
+				if (cs2method_10453(16) >= 55 && cs2method_10453(17) >= 55) {
+					setWidgetText(new WidgetPointer(102,54), (object)"I have become Vengeance: death to those who callously disregard life. They, and everyone like them, will pay for what they have done.");
+				} else {
+					setWidgetText(new WidgetPointer(102,54), (object)"Am I done now? No, there's more that must be done. Vengeance has not yet been satisfied.");
+				}
+			} else {
+				setWidgetText(new WidgetPointer(102,54), (object)"I killed them...but in doing so I never thought to check for survivors. Am I a monster?");
+			}
+			break;
+		case 4:
+			if (bitconfig_9298 == 10) {
+				if (cs2method_10453(2) >= 70) {
+					setWidgetText(new WidgetPointer(102,54), (object)"Ha! Thok stronger than squishy monsters in dungeon! None are as mighty as Thok.");
+				} else {
+					setWidgetText(new WidgetPointer(102,54), (object)"Odd... Thok remember being much stronger in dungeon.");
+				}
+			} else {
+				setWidgetText(new WidgetPointer(102,54), (object)"Thok save Marm, but Thok not show how mighty Thok is. Thok need to do more.");
+			}
+			break;
+		case 3:
+			if (cs2method_10453(0) >= 60 && cs2method_10453(17) >= 45 && cs2method_10453(24) >= 55) {
+				if (bitconfig_9298 == 10) {
+					setWidgetText(new WidgetPointer(102,54), (object)"I finally completed my task; the perfect spy, the perfect assassin.");
+				} else {
+					setWidgetText(new WidgetPointer(102,54), (object)"I completed my task, but...I made mistakes, left things undone...");
+				}
+			} else {
+				setWidgetText(new WidgetPointer(102,54), (object)"My task is incomplete, this story still unfinished. I remember there was...more...");
+			}
+			break;
+		case 6:
+			if (cs2method_10453(2) >= 75) {
+				if (bitconfig_9298 == 10) {
+					setWidgetText(new WidgetPointer(102,54), (object)"A mighty adventure for Thok and Marmaros! Thok have best adventures.");
+				} else {
+					setWidgetText(new WidgetPointer(102,54), (object)"Thok smash bone face good...but Thok still have more to do!");
+				}
+			} else {
+				setWidgetText(new WidgetPointer(102,54), (object)"Thok enjoy smashing foes...but Thok remember being stronger before.");
+			}
+	}
+	return;
+}

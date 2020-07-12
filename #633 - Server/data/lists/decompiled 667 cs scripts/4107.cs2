@@ -1,0 +1,12 @@
+string script_4107(int arg0,int arg1) {
+	if (arg1 >= 10000000) {
+		return "<col=ff981f>" + (string)getItemName(arg0) + "</col>" + " x " + (string)cs2method_10595(divide(arg1, 1000000), 1) + "M (" + (string)cs2method_10595(arg1, 1) + ")";
+	}
+	if (arg1 >= 10000) {
+		return "<col=ff981f>" + (string)getItemName(arg0) + "</col>" + " x " + (string)cs2method_10595(divide(arg1, 1000), 1) + "K (" + (string)cs2method_10595(arg1, 1) + ")";
+	}
+	if (arg1 > 1) {
+		return "<col=ff981f>" + (string)getItemName(arg0) + "</col>" + " x " + (string)cs2method_10595(arg1, 1);
+	}
+	return "<col=ff981f>" + (string)getItemName(arg0) + "</col>";
+}

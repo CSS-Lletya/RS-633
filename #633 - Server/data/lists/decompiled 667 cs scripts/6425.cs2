@@ -1,0 +1,12 @@
+int script_6425(int arg0,int arg1) {
+	if (arg1 == 1) {
+		return divide(getItemAttribute(arg0, 641), 10);
+	}
+	if (arg1 == 2 || arg1 == 4) {
+		return divide(getItemAttribute(arg0, 643), 10);
+	}
+	if (arg1 == 3) {
+		return divide(getItemAttribute(arg0, 965), 10);
+	}
+	return 0;
+}

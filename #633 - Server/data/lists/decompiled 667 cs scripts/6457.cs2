@@ -1,0 +1,8 @@
+void script_6457() {
+	if (cs2method_10905() == 1) {
+		script_6317();
+	} else {
+		cs2method_10760(-1);
+	}
+	return;
+}

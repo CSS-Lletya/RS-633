@@ -1,0 +1,17 @@
+void script_960() {
+	script_333(44957699, 0, 4537650, 0, 0);
+	script_333(44957700, 4537650, 6052707, 0, 0);
+	setWidgetIsHidden(true, new WidgetPointer(686,9));
+	script_680(44957710);
+	cs2method_20333(95, new WidgetPointer(-32768,3), "I", new WidgetPointer(686,14));
+	cs2method_20295(93, new WidgetPointer(-32768,3), "I", new WidgetPointer(686,14));
+	cs2method_20000(69, 1, new WidgetPointer(686,9), "1I", new WidgetPointer(686,14));
+	script_680(44957712);
+	cs2method_20333(95, new WidgetPointer(-32768,3), "I", new WidgetPointer(686,16));
+	cs2method_20295(93, new WidgetPointer(-32768,3), "I", new WidgetPointer(686,16));
+	cs2method_20000(69, 1, new WidgetPointer(686,9), "1I", new WidgetPointer(686,16));
+	script_2003();
+	cs2method_20889(961, 1195, 1, "Y", new WidgetPointer(686,1));
+	cs2method_20870(961, 19, 1, "Y", new WidgetPointer(686,1));
+	return;
+}

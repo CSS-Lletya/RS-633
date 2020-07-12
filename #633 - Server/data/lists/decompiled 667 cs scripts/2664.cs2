@@ -1,0 +1,12 @@
+void script_2664() {
+	int ivar0;
+	int ivar1;
+	ivar0 = (int)getDataByKey('i', 'I', 2566, bitconfig_6297);
+	ivar1 = (int)getDataByKey('i', 'I', 2565, bitconfig_6297);
+	if (cs2method_10111(ivar0) < 353) {
+		cs2method_10677(7570, 1, 0, 50);
+		cs2method_10444(add(cs2method_10111(ivar0), 2), cs2method_10826(ivar0), 0, 0, ivar0);
+		cs2method_10444(add(cs2method_10111(ivar1), 2), cs2method_10826(ivar1), 0, 0, ivar1);
+	}
+	return;
+}

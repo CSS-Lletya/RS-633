@@ -1,0 +1,4 @@
+void script_4103() {
+	clearExtraChildren(new WidgetPointer(746,41));
+	return;
+}

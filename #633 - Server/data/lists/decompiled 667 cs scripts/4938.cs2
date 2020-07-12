@@ -1,0 +1,24 @@
+void script_4938(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 82640941;
+	if (arg0 == 0 && bitconfig_9552 == 1) {
+		ivar1 = add(cs2method_10111(ivar3), 12);
+		ivar2 = 0;
+		ivar1 = cs2method_10586(ivar1, ivar2);
+		ivar1 = cs2method_10004(ivar1, -226);
+	} else {
+		ivar1 = subtract(cs2method_10111(ivar3), 12);
+		ivar2 = -226;
+		ivar1 = cs2method_10004(ivar1, ivar2);
+	}
+	cs2method_10444(ivar1, cs2method_10826(ivar3), 0, 0, ivar3);
+	if (ivar1 == ivar2) {
+		cs2method_20219(-1, "", new WidgetPointer(ivar3));
+		script_5220();
+	}
+	return;
+}

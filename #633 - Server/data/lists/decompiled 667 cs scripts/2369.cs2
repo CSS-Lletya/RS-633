@@ -1,0 +1,10 @@
+void script_2369(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = cs2method_10774(59310093);
+	cs2method_10085(add(cs2method_10774(59310093), arg2), 0, 59310093);
+	if (ivar3 != cs2method_10774(59310093)) {
+		cs2method_10467(arg1, arg0);
+	}
+	script_2370();
+	return;
+}

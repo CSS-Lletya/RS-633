@@ -1,0 +1,11 @@
+void script_1656() {
+	if (bitconfig_6673 == 0) {
+		cs2method_20000(29, "", new WidgetPointer(767,10));
+		setWidgetIsHidden(true, new WidgetPointer(767,54));
+	} else {
+		cs2method_20000(-1, "", new WidgetPointer(767,10));
+		setWidgetIsHidden(false, new WidgetPointer(767,54));
+		script_679(50266167);
+	}
+	return;
+}

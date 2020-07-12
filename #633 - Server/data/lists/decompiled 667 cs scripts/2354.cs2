@@ -1,0 +1,28 @@
+void script_2354() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = cs2method_10216();
+	ivar1 = cs2method_10229();
+	ivar2 = cs2method_10487();
+	ivar3 = cs2method_10490();
+	ivar4 = cs2method_10671();
+	if (bitconfig_10242 == 0) {
+		return;
+	}
+	if (bitconfig_10242 == 2) {
+		setWidgetIsHidden(false, new WidgetPointer(906,39));
+		setWidgetIsHidden(true, new WidgetPointer(906,31));
+		cs2method_20889(5521, 2411, 1, "Y", new WidgetPointer(906,39));
+	} else {
+		if (bitconfig_10242 == 1) {
+			setWidgetIsHidden(true, new WidgetPointer(906,39));
+			setWidgetIsHidden(false, new WidgetPointer(906,31));
+			setWidgetIsHidden(true, new WidgetPointer(906,56));
+			cs2method_20889(-1, "", new WidgetPointer(906,0));
+		}
+	}
+	return;
+}

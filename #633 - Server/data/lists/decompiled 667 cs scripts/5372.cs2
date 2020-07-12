@@ -1,0 +1,13 @@
+void script_5372(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 3;
+	ivar3 = subtract(add(cs2method_10111(arg0), divide(cs2method_10956(arg0), 2)), divide(cs2method_10956(62324750), 2));
+	if (ivar3 >= arg1) {
+		cs2method_10444(arg1, cs2method_10826(arg0), 1, 0, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		cs2method_10444(add(ivar3, ivar2), cs2method_10826(arg0), 1, 0, arg0);
+	}
+	return;
+}

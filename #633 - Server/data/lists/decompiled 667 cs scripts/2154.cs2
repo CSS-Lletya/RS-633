@@ -1,0 +1,5 @@
+int script_2154(int arg0) {
+	int ivar1;
+	ivar1 = getDataByKey('i', 'J', 2252, arg0);
+	return script_2155(ivar1);
+}

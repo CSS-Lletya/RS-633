@@ -1,0 +1,118 @@
+void script_676() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar2 = divide(subtract(cs2method_10956(42270736), multiply(36, 10)), subtract(10, 1));
+	ivar3 = divide(subtract(cs2method_10090(42270736), 128), 3);
+	while (ivar4 == 0) {
+		if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) != 11760) {
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11846) {
+				ivar5 = add(ivar5, 2);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11858) {
+				ivar5 = add(ivar5, 4);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11864) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11872) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 19520) {
+				ivar5 = add(ivar5, 5);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11902) {
+				ivar5 = add(ivar5, 8);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11908) {
+				ivar5 = add(ivar5, 7);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11926) {
+				ivar5 = add(ivar5, 8);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11942) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11967) {
+				ivar5 = add(ivar5, 7);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 14525) {
+				ivar5 = add(ivar5, 9);
+			}
+			createChildWidget(42270736, 5, ivar0);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(multiply(add(36, ivar2), cs2method_10620(ivar5, 10)), multiply(divide(ivar5, 10), add(32, ivar3)), 0, 0);
+			setItemOnWidget_10672(getDataByKey('i', 'O', 1087, add(ivar0, 1)), -1);
+			cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getDataByKey('i', 'O', 1087, add(ivar0, 1)))));
+			setWidgetContextMenuOption(1, (object)"Components");
+			setWidgetContextMenuOption(2, (object)"Exchange");
+			setWidgetContextMenuOption(3, (object)"Examine");
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+			ivar0 = add(ivar0, 1);
+			ivar5 = add(ivar5, 1);
+		} else {
+			ivar4 = 1;
+		}
+	}
+	ivar1 = ivar0;
+	ivar0 = 0;
+	ivar5 = 0;
+	ivar4 = 0;
+	while (ivar4 == 0) {
+		if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) != 11760) {
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11846) {
+				ivar5 = add(ivar5, 2);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11858) {
+				ivar5 = add(ivar5, 4);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11864) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11872) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 19520) {
+				ivar5 = add(ivar5, 5);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11902) {
+				ivar5 = add(ivar5, 8);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11908) {
+				ivar5 = add(ivar5, 7);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11926) {
+				ivar5 = add(ivar5, 8);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11942) {
+				ivar5 = add(ivar5, 6);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 11967) {
+				ivar5 = add(ivar5, 7);
+			}
+			if (getDataByKey('i', 'O', 1087, add(ivar0, 1)) == 14525) {
+				ivar5 = add(ivar5, 9);
+			}
+			createChildWidget(42270736, 5, ivar1);
+			setWidgetSize(12, 6, 0, 0);
+			setWidgetPosition(multiply(add(36, ivar2), cs2method_10620(ivar5, 10)), multiply(divide(ivar5, 10), add(32, ivar3)), 0, 0);
+			cs2method_10469(1066);
+		} else {
+			ivar4 = 1;
+		}
+		ivar0 = add(ivar0, 1);
+		ivar5 = add(ivar5, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

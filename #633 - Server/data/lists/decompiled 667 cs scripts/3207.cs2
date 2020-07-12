@@ -1,0 +1,27 @@
+void script_3207(int arg0) {
+	int ivar1;
+	script_3205();
+	ivar1 = 0;
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, 5)) == 0) {
+		ivar1 = 1;
+	}
+	if (arg0 == 1 && cs2method_10366((object)globalstring_279) > 0) {
+		if (cs2method_10028((object)globalstring_279) == 1) {
+			if (ivar1 == 0) {
+				cs2method_10986(26, 0, (object)"Sorry, you cannot ignore players in your Friends List.");
+			} else {
+				cs2method_10986(26, 0, (object)"Sorry, you cannot ignore players in your Friends List.");
+			}
+		} else if (ivar1 == 0) {
+			cs2method_10986(26, 0, (object)("You are ignoring " + globalstring_279 + " until you log out."));
+		} else {
+			cs2method_10986(26, 0, (object)("You are ignoring " + globalstring_279 + " until you log out."));
+		}
+		cs2method_10425((object)globalstring_279);
+	}
+	if (globalint_1094 == 1) {
+		script_3015(6, (object)"", (object)("Open a bug report form?" + "<br>" + "(opens a new window)"), (object)"", (object)"");
+		globalint_1094 = 0;
+	}
+	return;
+}

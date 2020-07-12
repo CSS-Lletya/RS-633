@@ -1,0 +1,21 @@
+void script_4391(int arg0) {
+	int ivar1;
+	int ivar2;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_4383_struct(2,0,0) structdump_3;
+	ivar1 = -1;
+	ivar2 = -1;
+	if (cs2method_10528() == 1) {
+		stack_dump0 = bitconfig_9086;
+		stack_dump1 = bitconfig_9087;
+		stack_dump2 = 0;
+		structdump_3 = script_4383(stack_dump0, stack_dump1, stack_dump2);
+		ivar2 = structdump_3.intpart_1;
+		ivar1 = structdump_3.intpart_0;
+		cs2method_10882(0, 1024, ivar1, arg0);
+		cs2method_10882(1, 1057, ivar2, arg0);
+	}
+	return;
+}

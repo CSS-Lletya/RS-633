@@ -1,0 +1,11 @@
+int script_1815() {
+	int ivar0;
+	int ivar1;
+	ivar0 = cs2method_10646();
+	ivar1 = cs2method_10168();
+	while (ivar1 != -1) {
+		ivar0 = subtract(add(ivar0, cs2method_10111(ivar1)), cs2method_10774(ivar1));
+		ivar1 = cs2method_10740(ivar1);
+	}
+	return ivar0;
+}

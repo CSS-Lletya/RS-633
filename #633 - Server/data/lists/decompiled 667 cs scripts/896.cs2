@@ -1,0 +1,13 @@
+void script_896() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = divide(116, 12);
+	ivar1 = multiply(ivar0, bitconfig_4527);
+	ivar2 = multiply(ivar0, bitconfig_4526);
+	cs2method_10444(cs2method_10111(46989320), add(122, subtract(116, ivar1)), 0, 0, 46989320);
+	cs2method_10444(cs2method_10111(46989319), add(122, subtract(116, ivar2)), 0, 0, 46989319);
+	cs2method_10893(27, ivar1, 0, 0, 46989320);
+	cs2method_10893(27, ivar2, 0, 0, 46989319);
+	return;
+}

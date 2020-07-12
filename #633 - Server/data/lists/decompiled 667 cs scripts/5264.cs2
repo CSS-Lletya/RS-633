@@ -1,0 +1,15 @@
+void script_5264(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	cs2method_10893(cs2method_10355(495, (object)(toString(script_5255()) + " / " + toString(script_5255()))), cs2method_10090(arg0), 0, 0, arg0);
+	ivar2 = 190;
+	ivar3 = 8;
+	ivar4 = add(add(cs2method_10956(arg0), cs2method_10956(arg1)), ivar3);
+	ivar5 = divide(subtract(ivar2, ivar4), 2);
+	cs2method_10444(ivar5, cs2method_10826(arg1), 0, 0, arg1);
+	ivar5 = add(add(ivar5, cs2method_10956(arg1)), ivar3);
+	cs2method_10444(ivar5, cs2method_10826(arg0), 0, 0, arg0);
+	return;
+}

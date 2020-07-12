@@ -1,0 +1,10 @@
+void script_2237() {
+	cs2method_10508(8729, 1, 0);
+	if (globalint_1132 == 0) {
+		globalint_1132 = 1;
+	} else {
+		globalint_1132 = 0;
+	}
+	script_2220();
+	return;
+}

@@ -1,0 +1,4 @@
+void script_3866(int arg0,int arg1) {
+	script_311(arg0, arg1, (object)getGeneralRequirementAttribute(483, 596));
+	return;
+}

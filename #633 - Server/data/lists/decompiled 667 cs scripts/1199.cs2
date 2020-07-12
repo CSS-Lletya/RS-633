@@ -1,0 +1,13 @@
+void script_1199() {
+	switch (globalint_1401) {
+		case 0:
+			setWidgetRGB(16757760, 61145415);
+			break;
+		case 1:
+			setWidgetRGB(65280, 61145415);
+			break;
+		case 2:
+			setWidgetRGB(16711680, 61145415);
+	}
+	return;
+}

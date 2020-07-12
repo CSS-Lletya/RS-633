@@ -1,0 +1,13 @@
+void script_273() {
+	cs2method_10893(cs2method_10956(60227627), 200, 0, 0, 60227627);
+	cs2method_20000(274, "", new WidgetPointer(919,108));
+	script_31(60227638, 60227639, 5666, 5663, 5664, 5665, 5686, 5685);
+	cs2method_10533(0, 60227648);
+	cs2method_10533(0, 60227649);
+	setWidgetIsHidden(false, new WidgetPointer(919,44));
+	setWidgetIsHidden(false, new WidgetPointer(919,49));
+	setWidgetIsHidden(false, new WidgetPointer(919,52));
+	setWidgetIsHidden(true, new WidgetPointer(919,82));
+	cs2method_10444(180, 13, 0, 2, 60227635);
+	return;
+}

@@ -1,0 +1,76 @@
+void script_5081(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	if (globalint_1095 == 0 || globalint_1095 == -1) {
+		script_5085(arg0);
+		return;
+	}
+	cs2method_10677(6185, 1, 0, 200);
+	setWidgetIsHidden(false, new WidgetPointer(1114,22));
+	globalint_160 = arg1;
+	ivar7 = multiply(arg1, 10);
+	if (cs2method_10551(arg0, ivar7) == 1) {
+		cs2method_20745(-1, "");
+	}
+	if (cs2method_10551(arg0, add(ivar7, 3)) == 1) {
+		cs2method_10469(6138);
+	}
+	if (cs2method_10551(arg0, add(ivar7, 5)) == 1) {
+		cs2method_10469(6137);
+	}
+	if (cs2method_10551(arg0, add(ivar7, 7)) == 1) {
+		cs2method_10469(6139);
+	}
+	if (cs2method_10551(arg0, add(ivar7, 4)) == 1) {
+		cs2method_10305(255);
+	}
+	if (cs2method_10551(arg0, add(ivar7, 6)) == 1) {
+		cs2method_10305(255);
+	}
+	if (cs2method_10551(arg0, add(ivar7, 8)) == 1) {
+		cs2method_10305(255);
+	}
+	clearExtraChildren(new WidgetPointer(1114,26));
+	ivar8 = 0;
+	while (ivar8 < arg3) {
+		createChildWidget(73007130, 3, cs2method_10860(73007130));
+		cs2method_10692(1);
+		ivar8 = add(ivar8, 1);
+	}
+	ivar9 = script_5089(arg2);
+	ivar10 = 0;
+	ivar8 = 0;
+	while (ivar8 < arg4) {
+		if (ivar9 != ivar8) {
+			createChildWidget(73007130, 4, cs2method_10860(73007130));
+			setWidgetSize(0, 12, 1, 0);
+			setWidgetPosition(0, ivar10, 0, 0);
+			setWidgetFont(494);
+			setWidgetTextAlignment(1, 1, 0);
+			setWidgetRGB(new Color(239, 176, 99));
+			cs2method_10320(0);
+			setWidgetText((object)getDataByKey('i', 's', arg2, ivar8));
+			cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+			cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 15708259, "Iii");
+			setWidgetContextMenuOption(1, (object)"Select");
+			cs2method_20115(5084, new WidgetPointer(arg0), "I");
+			ivar10 = add(ivar10, cs2method_10630());
+		} else {
+			createChildWidget(73007130, 3, cs2method_10860(73007130));
+			cs2method_10692(1);
+		}
+		ivar8 = add(ivar8, 1);
+	}
+	cs2method_10578(1476, arg6, 73007127);
+	cs2method_10578(1477, ivar10, 73007127);
+	setWidgetScrollMax(0, ivar10, 73007130);
+	script_5082(arg0);
+	if (arg4 > 4) {
+		script_31(73007131, 73007130, 6507, 6504, 6505, 6506, 6499, 6498);
+	} else {
+		clearExtraChildren(new WidgetPointer(1114,27));
+	}
+	return;
+}

@@ -1,0 +1,80 @@
+void script_1613(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	if (arg1 == 1) {
+		globalint_1031 = 0;
+		cs2method_20889(1613, new WidgetPointer(-32768,3), 0, 2083, 1, "I1Y", new WidgetPointer(arg0));
+	}
+	ivar2 = cs2method_10594(93);
+	ivar3 = subtract(multiply(ivar2, 2), 1);
+	ivar4 = 0;
+	while (ivar4 <= ivar3) {
+		if (cs2method_10551(arg0, ivar4) == 0) {
+			createChildWidget(arg0, 5, ivar4);
+			setWidgetSize(36, 32, 0, 0);
+			if (ivar4 < ivar2) {
+				cs2method_10167(3153952);
+				cs2method_20935(1615, 1, new WidgetPointer(-32768,3), -2147483643, "1Ii");
+				cs2method_20346(1615, 0, new WidgetPointer(-32768,3), -2147483643, "1Ii");
+				cs2method_10895(2);
+				cs2method_10979(5);
+				cs2method_10337(5);
+				cs2method_20191(1616, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), -2147483641, "IiIi");
+				cs2method_20115(1620, new WidgetPointer(-32768,3), -2147483643, 100, 0, 8, "Iiiii");
+			} else {
+				setWidgetRGB(new Color(0, 0, 0));
+				cs2method_10305(255);
+				cs2method_10692(0);
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	ivar5 = divide(ivar2, 4);
+	ivar6 = divide(subtract(cs2method_10956(arg0), multiply(4, 36)), 3);
+	ivar7 = divide(subtract(cs2method_10090(arg0), multiply(ivar5, 32)), 6);
+	ivar8 = -1;
+	ivar3 = subtract(globalint_1031, 1);
+	ivar4 = 0;
+	while (ivar4 < ivar2) {
+		if (cs2method_10551(arg0, ivar4) == 1) {
+			cs2method_10245();
+			setWidgetPosition(multiply(cs2method_10620(ivar4, 4), add(36, ivar6)), multiply(divide(ivar4, 4), add(32, ivar7)), 0, 0);
+			ivar8 = getItemIdInContainerSlot(93, ivar4);
+			if (ivar8 != -1) {
+				cs2method_10692(0);
+				setItemOnWidget_10672(ivar8, cs2method_10136(93, ivar4));
+				if (ivar4 == ivar3) {
+					cs2method_10253(2);
+				} else {
+					cs2method_10253(1);
+				}
+				script_2833(ivar8);
+				cs2method_10460(arg0, -1);
+				cs2method_20930(5495, ivar8, "o");
+				cs2method_20139(5495, -1, "o");
+			} else {
+				cs2method_10692(1);
+				cs2method_20003(-1, "");
+				setItemOnWidget_10672(-1, 0);
+				cs2method_10253(1);
+				if (ivar4 == ivar3) {
+					globalint_1031 = 0;
+				}
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	ivar4 = 0;
+	while (ivar4 < ivar2) {
+		if (cs2method_10551(arg0, add(ivar2, ivar4)) == 1) {
+			setWidgetPosition(multiply(cs2method_10620(ivar4, 4), add(36, ivar6)), multiply(divide(ivar4, 4), add(32, ivar7)), 0, 0);
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	return;
+}

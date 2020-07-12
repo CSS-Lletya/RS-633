@@ -1,0 +1,11 @@
+void script_1746(int arg0,int arg1) {
+	if (globalint_228 > 2) {
+		cs2method_10461(15678, arg0);
+		setWidgetRGB(3407616, arg1);
+	} else {
+		cs2method_10461(15677, arg0);
+		setWidgetRGB(9502720, arg1);
+	}
+	setWidgetText(new WidgetPointer(arg1), (object)toString(globalint_228));
+	return;
+}

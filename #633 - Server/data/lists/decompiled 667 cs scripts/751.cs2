@@ -1,0 +1,63 @@
+void script_751() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	ivar0 = -1;
+	ovar0 = (object)"";
+	ivar1 = -1;
+	if (standart_config_1174 != -1 && standart_config_1174 != 0) {
+		ovar0 = (object)getDataByKey('n', 's', 1279, standart_config_1174);
+		cs2method_10285(standart_config_1174, 43384833);
+	} else {
+		if (getDataByKey('o', 'n', 1320, standart_config_448) != 6988) {
+			standart_config_1174 = getDataByKey('o', 'n', 1320, standart_config_448);
+			ovar0 = (object)getDataByKey('n', 's', 1279, standart_config_1174);
+			cs2method_10285(standart_config_1174, 43384833);
+		}
+	}
+	if (compareTo(ovar0, (object)"Animal") == 0) {
+		setWidgetText(new WidgetPointer(662,54), getItemName(standart_config_448));
+	} else if (standart_config_448 == 23030) {
+		if (standart_config_2480 != -1) {
+			setWidgetText(new WidgetPointer(662,54), getItemName(standart_config_2480));
+		} else {
+			setWidgetText(new WidgetPointer(662,54), ovar0);
+		}
+	} else {
+		setWidgetText(new WidgetPointer(662,54), ovar0);
+	}
+	if (bitconfig_4282 > 50) {
+		bitconfig_4282 = subtract(bitconfig_4282, 50);
+		ivar0 = getDataByKey('i', 'A', 1275, bitconfig_4282);
+		cs2method_10535(ivar0, 43384833);
+	} else {
+		ivar0 = getDataByKey('i', 'A', 1276, bitconfig_4282);
+		cs2method_10535(ivar0, 43384833);
+	}
+	if (getDataByKey('o', 'o', 1283, standart_config_448) != 526) {
+		setWidgetIsHidden(true, new WidgetPointer(662,71));
+		if ((int)getDataByKey('n', 'I', 1282, standart_config_1174) != 43384877) {
+			setWidgetIsHidden(false, new WidgetPointer(662,72));
+			setWidgetIsHidden(false, new WidgetPointer(662,66));
+			setWidgetIsHidden(false, getDataByKey('n', 'I', 1282, standart_config_1174));
+			setWidgetIsHidden(false, getDataByKey('n', 'I', 1092, standart_config_1174));
+			if (cs2method_10842() >= 2) {
+				cs2method_10467(8652, 48955392);
+				cs2method_10467(8645, 48955393);
+			} else {
+				cs2method_10467(1802, 48955392);
+				cs2method_10467(1245, 48955393);
+			}
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(662,66));
+		}
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(662,71));
+		setWidgetIsHidden(true, new WidgetPointer(662,66));
+		if (standart_config_448 != -1 && getItemAttribute(standart_config_448, 394) != 0) {
+			setWidgetIsHidden(false, getDataByKey('n', 'I', 1092, standart_config_1174));
+		}
+	}
+	script_2671();
+	return;
+}

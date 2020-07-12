@@ -1,0 +1,4 @@
+void script_2072() {
+	setWidgetText(new WidgetPointer(276,59), (object)("Zeal: " + toString(bitconfig_5827)));
+	return;
+}

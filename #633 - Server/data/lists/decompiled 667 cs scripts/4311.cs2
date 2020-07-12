@@ -1,0 +1,122 @@
+void script_4311() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 0;
+	ivar1 = script_4293();
+	ivar2 = -1;
+	if (script_4309() == 1) {
+		ivar2 = globalint_1500;
+	}
+	setWidgetText(new WidgetPointer(1096,57), (object)("Settings for: " + globalstring_347));
+	setWidgetIsHidden(true, new WidgetPointer(1096,726));
+	setWidgetIsHidden(true, new WidgetPointer(1096,727));
+	setWidgetIsHidden(true, new WidgetPointer(1096,729));
+	setWidgetIsHidden(true, new WidgetPointer(1096,728));
+	setWidgetIsHidden(true, new WidgetPointer(1096,152));
+	setWidgetIsHidden(true, new WidgetPointer(1096,153));
+	setWidgetIsHidden(true, new WidgetPointer(1096,155));
+	setWidgetIsHidden(true, new WidgetPointer(1096,154));
+	setWidgetIsHidden(true, new WidgetPointer(1096,351));
+	setWidgetIsHidden(true, new WidgetPointer(1096,352));
+	setWidgetIsHidden(true, new WidgetPointer(1096,354));
+	setWidgetIsHidden(true, new WidgetPointer(1096,353));
+	setWidgetIsHidden(true, new WidgetPointer(1096,755));
+	setWidgetIsHidden(true, new WidgetPointer(1096,756));
+	setWidgetIsHidden(true, new WidgetPointer(1096,758));
+	setWidgetIsHidden(true, new WidgetPointer(1096,757));
+	setWidgetIsHidden(true, new WidgetPointer(1096,71));
+	setWidgetIsHidden(false, new WidgetPointer(1096,310));
+	setWidgetIsHidden(false, new WidgetPointer(1096,319));
+	setWidgetIsHidden(false, new WidgetPointer(1096,271));
+	setWidgetIsHidden(false, new WidgetPointer(1096,257));
+	ivar3 = 3720;
+	if (cs2method_10145() == 1) {
+		ivar3 = 3727;
+	} else if (cs2method_10145() == 2) {
+		ivar3 = 3728;
+	} else {
+		if (cs2method_10145() == 3) {
+			ivar3 = 3729;
+		}
+	}
+	if (script_4309() == 1) {
+		if (globalint_1568 == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1096,71));
+		}
+		if (script_4292() == 1) {
+			if (ivar1 > ivar2 || ivar1 == 126) {
+				setWidgetIsHidden(true, new WidgetPointer(1096,310));
+				setWidgetIsHidden(true, new WidgetPointer(1096,319));
+				setWidgetIsHidden(true, new WidgetPointer(1096,271));
+				setWidgetIsHidden(true, new WidgetPointer(1096,257));
+				if (ivar2 != 126) {
+					if (globalint_1565 == 1) {
+						setWidgetIsHidden(false, new WidgetPointer(1096,152));
+					} else {
+						setWidgetIsHidden(false, new WidgetPointer(1096,154));
+					}
+					if (globalint_1566 == 1) {
+						setWidgetIsHidden(false, new WidgetPointer(1096,351));
+					} else {
+						setWidgetIsHidden(false, new WidgetPointer(1096,353));
+					}
+					if (globalint_1567 == 1) {
+						setWidgetIsHidden(false, new WidgetPointer(1096,755));
+					} else {
+						setWidgetIsHidden(false, new WidgetPointer(1096,757));
+					}
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(1096,155));
+					setWidgetIsHidden(false, new WidgetPointer(1096,354));
+					setWidgetIsHidden(false, new WidgetPointer(1096,758));
+				}
+			} else {
+				if (globalint_1565 == 1) {
+					setWidgetIsHidden(false, new WidgetPointer(1096,153));
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(1096,155));
+				}
+				if (globalint_1566 == 1) {
+					setWidgetIsHidden(false, new WidgetPointer(1096,352));
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(1096,354));
+				}
+				if (globalint_1567 == 1) {
+					setWidgetIsHidden(false, new WidgetPointer(1096,756));
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(1096,758));
+				}
+			}
+		} else {
+			if (globalint_1564 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1096,727));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1096,729));
+			}
+			if (globalint_1565 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1096,153));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1096,155));
+			}
+			if (globalint_1566 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1096,352));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1096,354));
+			}
+			if (globalint_1567 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1096,756));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1096,758));
+			}
+		}
+		script_4501(71827721, (object)getDataByKey('i', 's', 3715, globalint_1500));
+		if (compareTo((object)"", (object)getDataByKey('i', 's', ivar3, globalint_1501)) == 0) {
+			script_4501(71827707, (object)getDataByKey('i', 's', ivar3, subtract(globalint_1501, 1)));
+		} else {
+			script_4501(71827707, (object)getDataByKey('i', 's', ivar3, globalint_1501));
+		}
+	}
+	return;
+}

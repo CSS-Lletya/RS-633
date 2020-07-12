@@ -1,0 +1,61 @@
+void script_4354(int arg0) {
+	switch (standart_config_2128) {
+		case 1:
+			if (bitconfig_9141 == 0) {
+				bitconfig_9141 = 1;
+			} else {
+				bitconfig_9141 = 0;
+			}
+			break;
+		case 2:
+			if (bitconfig_9142 == 0) {
+				bitconfig_9142 = 1;
+			} else {
+				bitconfig_9142 = 0;
+			}
+			break;
+		case 3:
+			if (bitconfig_9143 == 0) {
+				bitconfig_9143 = 1;
+			} else {
+				bitconfig_9143 = 0;
+			}
+			break;
+		case 4:
+			if (bitconfig_9144 == 0) {
+				bitconfig_9144 = 1;
+			} else {
+				bitconfig_9144 = 0;
+			}
+			break;
+		case 5:
+			if (bitconfig_9145 == 0) {
+				bitconfig_9145 = 1;
+			} else {
+				bitconfig_9145 = 0;
+			}
+			break;
+		case 6:
+			if (bitconfig_9146 == 0) {
+				bitconfig_9146 = 1;
+			} else {
+				bitconfig_9146 = 0;
+			}
+			break;
+		case 7:
+			if (bitconfig_9147 == 0) {
+				bitconfig_9147 = 1;
+			} else {
+				bitconfig_9147 = 0;
+			}
+			break;
+		case 8:
+			if (bitconfig_9148 == 0) {
+				bitconfig_9148 = 1;
+			} else {
+				bitconfig_9148 = 0;
+			}
+	}
+	script_4356(arg0);
+	return;
+}

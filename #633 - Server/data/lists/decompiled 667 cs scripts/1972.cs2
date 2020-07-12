@@ -1,0 +1,21 @@
+void script_1972(int arg0,int arg1,int arg2) {
+	if (arg2 != 1) {
+		return;
+	}
+	cs2method_10508(4911, 1, 0);
+	switch (arg0) {
+		case 0:
+			globalint_618 = cs2method_10620(add(globalint_618, 1), 26);
+			break;
+		case 1:
+			globalint_619 = cs2method_10620(add(globalint_619, 1), 26);
+			break;
+		case 2:
+			globalint_620 = cs2method_10620(add(globalint_620, 1), 26);
+			break;
+		case 3:
+			globalint_621 = cs2method_10620(add(globalint_621, 1), 26);
+	}
+	script_1971(arg0, arg1);
+	return;
+}

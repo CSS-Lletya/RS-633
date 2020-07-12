@@ -1,0 +1,130 @@
+int script_2582(int arg0,int arg1,int arg2) {
+	int stack_dump0;
+	opc_struct10485(2,0,0) structdump_1;
+	switch (arg0) {
+		case 830:
+			cs2method_10786(script_734(arg1));
+			break;
+		case 831:
+			cs2method_10423(script_734(arg1));
+			break;
+		case 833:
+			cs2method_10019(arg1);
+			break;
+		case 834:
+			cs2method_10170(script_734(arg1));
+			break;
+		case 836:
+			cs2method_10737(script_734(arg1));
+			break;
+		case 837:
+			if (arg1 > 0 && cs2method_10719() == 0) {
+				cs2method_10946(1);
+			}
+			cs2method_10131(arg1);
+			break;
+		case 838:
+			cs2method_10087(script_734(arg1));
+			break;
+		case 839:
+			cs2method_10755(script_734(arg1));
+			break;
+		case 840:
+			if (arg1 == 0 && (cs2method_10201() == 0 || cs2method_10201() == 2)) {
+				cs2method_10755(0);
+				cs2method_10281(0);
+			} else {
+				if (cs2method_10812() == 0) {
+					cs2method_10883(1);
+				}
+				cs2method_10281(script_734(arg1));
+			}
+			break;
+		case 841:
+			cs2method_10866(arg1);
+			if (arg1 > 0 && cs2method_10201() != 0 && cs2method_10201() != 2) {
+				script_2700(4, arg2, 0, 1);
+				return 2;
+			}
+			cs2method_10334(arg1);
+			break;
+		case 842:
+			if (cs2method_10056() == 0 || cs2method_10110(arg1) == 0) {
+				return 0;
+			}
+			cs2method_10324(arg1);
+			return 1;
+		case 843:
+			if (arg1 == 0 && (cs2method_10201() == 0 || cs2method_10201() == 2)) {
+				cs2method_10755(0);
+				cs2method_10281(0);
+				cs2method_10946(0);
+				cs2method_10883(0);
+			} else {
+				cs2method_10883(script_734(arg1));
+			}
+			break;
+		case 844:
+			globalint_987 = script_734(arg1);
+			cs2method_10189(globalint_987);
+			break;
+		case 845:
+			globalint_178 = arg1;
+			if (cs2method_10842() == 3) {
+				stack_dump0 = arg1;
+				structdump_1 = cs2method_10485(stack_dump0);
+				if (cs2method_10540(structdump_1.intpart_0, structdump_1.intpart_1) == 1) {
+					script_2700(2, arg2, 0, 0);
+					return 2;
+				}
+				return 0;
+			}
+			break;
+		case 908:
+			cs2method_10434(arg1);
+			break;
+		case 963:
+			if (arg1 == 0) {
+				cs2method_10131(0);
+			} else {
+				if (cs2method_10812() == 0) {
+					cs2method_10883(1);
+				}
+			}
+			cs2method_10946(script_734(arg1));
+			break;
+		case 1009:
+			if (cs2method_10055() == 1 && cs2method_10248(arg1) == 1) {
+				cs2method_10689(arg1);
+				return 1;
+			}
+			return 0;
+		case 2430:
+			if (cs2method_10264() == 1) {
+				if (cs2method_10035(arg1) == 3) {
+					return 0;
+				}
+				cs2method_10008(arg1);
+			} else {
+				return 0;
+			}
+			break;
+		case 2858:
+			cs2method_10703(arg1);
+			break;
+		case 2840:
+			globalint_1686 = script_734(arg1);
+			break;
+		case 2841:
+			globalint_1701 = arg1;
+			if (arg1 == 1) {
+				cs2method_10129(0, 48889878);
+			} else {
+				cs2method_10129(1, 48889878);
+			}
+			break;
+		default:
+			return 0;
+	}
+	return 1;
+}

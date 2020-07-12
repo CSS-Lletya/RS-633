@@ -1,0 +1,22 @@
+void script_249() {
+	globalint_799 = add(globalint_799, 1);
+	if (globalint_799 >= 30) {
+		globalint_799 = 0;
+		if (globalint_798 == 1) {
+			globalint_798 = 0;
+		} else {
+			globalint_798 = 1;
+		}
+	}
+	if (globalint_798 == 1) {
+		setWidgetText(new WidgetPointer(594,29), (object)((string)cs2method_10991((object)globalstring_24) + "<col=ffff00>" + " "));
+	} else {
+		setWidgetText(new WidgetPointer(594,29), (object)((string)cs2method_10991((object)globalstring_24) + "<col=ffff00>" + "|"));
+	}
+	if (compareTo((object)globalstring_24, (object)"") == 0) {
+		setWidgetRGB(12303291, 38928683);
+	} else {
+		setWidgetRGB(16777215, 38928683);
+	}
+	return;
+}

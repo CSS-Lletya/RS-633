@@ -1,0 +1,4 @@
+void script_1031() {
+	requestOpenURL(0, (object)"rswiki", (object)"en/Information_for_Parents");
+	return;
+}

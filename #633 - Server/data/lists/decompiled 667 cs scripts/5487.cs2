@@ -1,0 +1,10 @@
+void script_5487() {
+	globalint_1690 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(746,213));
+	cs2method_10893(0, 0, 0, 0, 48890069);
+	globalint_1688 = 0;
+	globalint_1691 = -1;
+	globalstring_305 = "";
+	globalint_1692 = -1;
+	return;
+}

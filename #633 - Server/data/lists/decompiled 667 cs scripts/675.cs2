@@ -1,0 +1,6 @@
+void script_675() {
+	cs2method_10450();
+	script_1364();
+	globalint_199 = -1;
+	return;
+}

@@ -1,0 +1,65 @@
+void script_2628() {
+	if (globalint_906 == 0) {
+		cs2method_10467(1868, 56295449);
+		setWidgetText(new WidgetPointer(859,11), (object)"Idle");
+	} else {
+		if (globalint_906 == 2) {
+			cs2method_10467(1867, 56295449);
+			switch (globalint_907) {
+				case 0:
+					globalint_906 = 0;
+					cs2method_10467(1868, 56295449);
+					setWidgetText(new WidgetPointer(859,11), (object)"Idle");
+					break;
+				case 1:
+				case 2:
+					setWidgetText(new WidgetPointer(859,11), (object)"Exploring");
+					break;
+				case 3:
+				case 4:
+					setWidgetText(new WidgetPointer(859,11), (object)"Attacking wall");
+					break;
+				case 5:
+				case 6:
+				case 7:
+					setWidgetText(new WidgetPointer(859,11), (object)"Rescuing TzHaar");
+					break;
+				case 8:
+				case 9:
+					setWidgetText(new WidgetPointer(859,11), (object)"Collecting gold");
+					break;
+				case 10:
+				case 11:
+				case 12:
+					setWidgetText(new WidgetPointer(859,11), (object)"Stealing TzHaar");
+					break;
+				case 13:
+				case 14:
+				case 15:
+					setWidgetText(new WidgetPointer(859,11), (object)"Collecting parts");
+					break;
+				case 17:
+				case 16:
+				case 18:
+					setWidgetText(new WidgetPointer(859,11), (object)"Collecting Rocks");
+					break;
+				case 19:
+				case 20:
+					setWidgetText(new WidgetPointer(859,11), (object)"Attacking catapult");
+					break;
+				case 21:
+					setWidgetText(new WidgetPointer(859,11), (object)"Retaliating");
+					break;
+				case 22:
+					setWidgetText(new WidgetPointer(859,11), (object)"Moving to destination");
+					break;
+				case 23:
+					setWidgetText(new WidgetPointer(859,11), (object)"Attacking");
+					break;
+				default:
+					setWidgetText(new WidgetPointer(859,11), (object)"Busy");
+			}
+		}
+	}
+	return;
+}

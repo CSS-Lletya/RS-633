@@ -1,0 +1,12 @@
+void script_4750() {
+	int ivar0;
+	int ivar1;
+	if (cs2method_10842() <= 1) {
+		cs2method_10444(0, 0, 1, 1, 61145089);
+		return;
+	}
+	ivar0 = divide(subtract(cs2method_10956(61145088), cs2method_10956(61145089)), 2);
+	ivar1 = divide(subtract(cs2method_10090(61145088), cs2method_10090(61145089)), 2);
+	cs2method_10444(cs2method_10004(ivar0, 223), cs2method_10004(ivar1, 165), 2, 2, 61145089);
+	return;
+}

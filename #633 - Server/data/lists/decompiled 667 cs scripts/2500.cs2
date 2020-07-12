@@ -1,0 +1,17 @@
+void script_2500(int arg0) {
+	int ivar1;
+	ivar1 = 1;
+	while (ivar1 <= 9 || (int)getDataByKey('i', 'I', 2400, ivar1) != 2949145) {
+		if ((int)getDataByKey('i', 'I', 2400, ivar1) != arg0) {
+			cs2method_10467(1134, (int)getDataByKey('i', 'I', 2400, ivar1));
+		} else {
+			cs2method_10467(1135, arg0);
+			globalint_837 = ivar1;
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	if (globalint_837 > 0 && globalint_837 <= 9) {
+		cs2method_10461(getDataByKey('i', 'm', 2399, globalint_837), 2949159);
+	}
+	return;
+}

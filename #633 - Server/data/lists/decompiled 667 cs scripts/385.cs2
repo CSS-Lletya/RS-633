@@ -1,0 +1,119 @@
+void script_385(int arg0) {
+	flow_0:
+		if (arg0 == globalint_543 && arg0 != -1) {
+			return;
+		}
+		globalint_543 = arg0;
+		SWITCH (arg0) {
+			case 1112:
+				 GOTO flow_4
+			case 1118:
+				 GOTO flow_5
+			case 1120:
+				 GOTO flow_6
+			case 1127:
+				 GOTO flow_7
+			case 1125:
+				 GOTO flow_8
+			case 1122:
+				 GOTO flow_9
+			case 1128:
+				 GOTO flow_10
+			case 1129:
+				 GOTO flow_11
+			case 1119:
+				 GOTO flow_12
+			case 1114:
+				 GOTO flow_13
+			case 1124:
+				 GOTO flow_14
+			case 1121:
+				 GOTO flow_15
+			case 1115:
+				 GOTO flow_16
+			case 1130:
+				 GOTO flow_17
+			case 1116:
+				 GOTO flow_18
+			case 1126:
+				 GOTO flow_19
+			case 1131:
+				 GOTO flow_20
+			case 1117:
+				 GOTO flow_21
+			case 1113:
+				 GOTO flow_22
+			case 1123:
+				 GOTO flow_23
+			case -1:
+				 GOTO flow_25
+		}
+		GOTO	flow_24
+	flow_4:
+		cs2method_10070(67371066, 1033);
+		GOTO	flow_26
+	flow_5:
+		cs2method_10070(67371066, 1043);
+		GOTO	flow_26
+	flow_6:
+		cs2method_10070(67371066, 1032);
+		GOTO	flow_26
+	flow_7:
+		cs2method_10070(67371066, 1038);
+		GOTO	flow_26
+	flow_8:
+		cs2method_10070(67371066, 1034);
+		GOTO	flow_26
+	flow_9:
+		cs2method_10070(67371066, 1036);
+		GOTO	flow_26
+	flow_10:
+		cs2method_10070(67371066, 1044);
+		GOTO	flow_26
+	flow_11:
+		cs2method_10070(67371066, 1042);
+		GOTO	flow_26
+	flow_12:
+		cs2method_10070(67371066, 1041);
+		GOTO	flow_26
+	flow_13:
+		cs2method_10070(67371066, 1029);
+		GOTO	flow_26
+	flow_14:
+		cs2method_10070(67371066, 1030);
+		GOTO	flow_26
+	flow_15:
+		cs2method_10070(67371066, 1031);
+		GOTO	flow_26
+	flow_16:
+		cs2method_10070(67371066, 1046);
+		GOTO	flow_26
+	flow_17:
+		cs2method_10070(67371066, 1047);
+		GOTO	flow_26
+	flow_18:
+		cs2method_10070(67371066, 1045);
+		GOTO	flow_26
+	flow_19:
+		cs2method_10070(67371066, 1049);
+		GOTO	flow_26
+	flow_20:
+		cs2method_10070(67371066, 1035);
+		GOTO	flow_26
+	flow_21:
+		cs2method_10070(67371066, 1039);
+		GOTO	flow_26
+	flow_22:
+		cs2method_10070(67371066, 1048);
+		GOTO	flow_26
+	flow_23:
+		cs2method_10070(67371066, 1037);
+		GOTO	flow_26
+	flow_24:
+		cs2method_10070(67371066, 1033);
+		GOTO	flow_26
+	flow_25:
+		cs2method_10256(67371066);
+	flow_26:
+		return;
+}

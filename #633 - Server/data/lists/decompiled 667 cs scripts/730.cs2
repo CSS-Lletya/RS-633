@@ -1,0 +1,13 @@
+void script_730(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = getItemAmtInContainer(93, 13650);
+	ivar4 = getDataByKey('o', 'i', 1680, arg0);
+	setWidgetText(new WidgetPointer(arg1), (object)(toString(ivar4) + " tokens"));
+	if (ivar4 > ivar3 || isMembersItem(arg0) == 1 && isMember() == 0) {
+		setWidgetRGB(16711680, arg2);
+	} else {
+		setWidgetRGB(112641, arg2);
+	}
+	return;
+}

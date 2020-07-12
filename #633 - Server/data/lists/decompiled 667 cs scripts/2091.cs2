@@ -1,0 +1,59 @@
+void script_2091(int arg0,int arg1) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (bitconfig_5835 == 1) {
+		return;
+	}
+	switch (arg0) {
+		case 54788124:
+		case 54788105:
+		case 54788109:
+			ovar0 = (object)"The number of times that the avatar has been killed.";
+			break;
+		case 54788121:
+		case 54788106:
+		case 54788110:
+			ovar0 = (object)"The Slayer level required to attack each avatar.";
+			break;
+		case 54788120:
+		case 54788107:
+		case 54788111:
+			ovar0 = (object)"The remaining health of each avatar.";
+			break;
+		case 54788122:
+		case 54788123:
+			ovar0 = (object)"How much time the game has remaining.";
+			break;
+		case 54788104:
+			ovar0 = (object)"This column displays the blue team's statistics.";
+			break;
+		case 54788108:
+			ovar0 = (object)"This column displays the red team's statistics.";
+			break;
+		case 54788125:
+			ovar0 = (object)"Shows which team controls the soul obelisk.";
+			break;
+		case 54788126:
+			ovar0 = (object)"Shows which team controls the western graveyard.";
+			break;
+		case 54788127:
+			ovar0 = (object)"Shows which team controls the eastern graveyard.";
+			break;
+		case 54788102:
+			ovar0 = (object)"Shows how much control a team has over the soul obelisk.";
+			break;
+		case 54788165:
+			ovar0 = (object)"Shows how much control a team has over the eastern graveyard.";
+			break;
+		case 54788158:
+			ovar0 = (object)"Shows how much control a team has over the western graveyard.";
+			break;
+		case 54788152:
+			ovar0 = (object)"Shows how active you have been during the game.";
+			break;
+		default:
+			return;
+	}
+	script_39(arg0, arg1, 25, cs2method_10956(cs2method_10740(arg1)), ovar0);
+	return;
+}

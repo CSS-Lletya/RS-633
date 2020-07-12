@@ -1,0 +1,15 @@
+void script_5427() {
+	globalint_1664 = 1;
+	globalint_1665 = 1;
+	globalint_1663 = 0;
+	globalint_1667 = 0;
+	globalint_1668 = 1;
+	globalint_2 = 0;
+	script_5433(0, 0);
+	script_5433(1, 90);
+	script_5433(2, 180);
+	cs2method_20219(5430, "", new WidgetPointer(1167,1));
+	setWidgetText(new WidgetPointer(1167,42), (object)toString(bitconfig_10013));
+	script_5434();
+	return;
+}

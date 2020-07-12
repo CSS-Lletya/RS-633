@@ -1,0 +1,14 @@
+void script_2026() {
+	setWidgetFont(496, 49283076);
+	setWidgetFont(496, 49283077);
+	cs2method_10893(20, 40, 1, 0, 49283076);
+	cs2method_10893(20, 20, 1, 0, 49283077);
+	cs2method_10444(0, 20, 1, 0, 49283076);
+	cs2method_10444(0, 60, 1, 0, 49283077);
+	cs2method_20835(-1, "", new WidgetPointer(752,5));
+	cs2method_20295(-1, "", new WidgetPointer(752,5));
+	cs2method_20807(-1, "", new WidgetPointer(752,5));
+	setWidgetRGB(128, 49283077);
+	clearExtraChildren(new WidgetPointer(752,3));
+	return;
+}

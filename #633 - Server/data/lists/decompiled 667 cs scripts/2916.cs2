@@ -1,0 +1,6 @@
+int script_2916() {
+	if (globalint_1533 == 1) {
+		return multiply(cs2method_10004(cs2method_10391(3), 0), 10);
+	}
+	return cs2method_10004(add(add(cs2method_10004(0, cs2method_10226(94, 1326)), multiply(cs2method_10453(3), 10)), cs2method_10004(0, bitconfig_11158)), 1);
+}

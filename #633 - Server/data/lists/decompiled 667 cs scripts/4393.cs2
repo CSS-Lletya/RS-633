@@ -1,0 +1,52 @@
+void script_4393(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 2;
+	ivar8 = 5;
+	ivar9 = 60;
+	ivar10 = 60;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = divide(subtract(cs2method_10956(arg0), ivar7), add(ivar7, ivar10));
+	ivar14 = 0;
+	ivar15 = cs2method_10624(arg4);
+	while (ivar5 < ivar15) {
+		ivar11 = multiply(add(ivar10, ivar7), subtract(ivar5, multiply(ivar6, ivar13)));
+		ivar12 = multiply(ivar6, add(ivar9, ivar8));
+		createChildWidget(arg1, 5, ivar5);
+		setWidgetSize(ivar10, ivar9, 0, 0);
+		setWidgetPosition(ivar11, ivar12, 0, 0);
+		cs2method_10469(5523);
+		cs2method_20003(4395, ivar15, 2093, 1, "iY");
+		cs2method_20211(4396, -2147483643, new WidgetPointer(arg1), "iI");
+		cs2method_20139(4397, -2147483643, new WidgetPointer(arg1), "iI");
+		ivar14 = add(add(cs2method_10207(), cs2method_10630()), ivar8);
+		createChildWidget(arg0, 5, ivar5);
+		setWidgetSize(subtract(ivar10, 10), subtract(ivar9, 10), 0, 0);
+		setWidgetPosition(add(ivar11, 5), add(ivar12, 5), 0, 0);
+		cs2method_10469(getDataByKey('i', 'd', arg4, add(ivar5, 1)));
+		setWidgetContextMenuOption(1, (object)"Select");
+		cs2method_20115(4394, -2147483643, new WidgetPointer(arg1), ivar15, "iIi");
+		ivar5 = add(ivar5, 1);
+		if (cs2method_10620(ivar5, ivar13) == 0) {
+			ivar6 = add(ivar6, 1);
+		}
+	}
+	cs2method_10085(0, 0, arg2);
+	setWidgetScrollMax(0, ivar14, arg2);
+	script_31(arg3, arg2, 5666, 5663, 5664, 5665, 5686, 5685);
+	return;
+}

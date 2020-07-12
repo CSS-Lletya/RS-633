@@ -1,0 +1,59 @@
+void script_4212(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	if (arg0 == -1) {
+		return;
+	}
+	ivar4 = cs2method_10111(arg0);
+	ivar5 = cs2method_10826(arg0);
+	ivar6 = cs2method_10740(arg0);
+	setWidgetText(new WidgetPointer(arg0), arg4);
+	setWidgetFont(arg1, arg0);
+	ivar7 = 0;
+	switch (arg1) {
+		case 4040:
+			ivar7 = 13;
+			break;
+		case 3795:
+			ivar7 = 15;
+	}
+	clearExtraChildren(new WidgetPointer(ivar6));
+	createChildWidget(ivar6, 4, cs2method_10860(ivar6));
+	setWidgetPosition(0, -1, 1, 1);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetTextAlignment(1, 1, ivar7);
+	setWidgetRGB(new Color(arg3));
+	setWidgetFont(arg1);
+	setWidgetText(arg4);
+	createChildWidget(ivar6, 4, cs2method_10860(ivar6));
+	setWidgetPosition(0, 1, 1, 1);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetTextAlignment(1, 1, ivar7);
+	setWidgetRGB(new Color(arg3));
+	setWidgetFont(arg1);
+	setWidgetText(arg4);
+	createChildWidget(ivar6, 4, cs2method_10860(ivar6));
+	setWidgetPosition(-1, 0, 1, 1);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetTextAlignment(1, 1, ivar7);
+	setWidgetRGB(new Color(arg3));
+	setWidgetFont(arg1);
+	setWidgetText(arg4);
+	createChildWidget(ivar6, 4, cs2method_10860(ivar6));
+	setWidgetPosition(1, 0, 1, 1);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetTextAlignment(1, 1, ivar7);
+	setWidgetRGB(new Color(arg3));
+	setWidgetFont(arg1);
+	setWidgetText(arg4);
+	createChildWidget(ivar6, 4, cs2method_10860(ivar6));
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetTextAlignment(1, 1, ivar7);
+	setWidgetRGB(new Color(arg2));
+	setWidgetFont(arg1);
+	setWidgetText(arg4);
+	return;
+}

@@ -1,0 +1,29 @@
+void script_1870(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = cs2method_10651();
+	ovar0 = (object)"0";
+	if (ivar3 > 0) {
+		ivar1 = cs2method_10620(divide(ivar3, 50), 60);
+		ivar2 = divide(ivar3, 3000);
+		if (ivar1 < 10) {
+			ovar0 = (object)("System update in: " + toString(ivar2) + ":0" + toString(ivar1));
+		} else {
+			ovar0 = (object)("System update in: " + toString(ivar2) + ":" + toString(ivar1));
+		}
+		setWidgetText(new WidgetPointer(arg0), ovar0);
+		if (cs2method_10366(ovar0) > 0) {
+			cs2method_10893(add(cs2method_10355(494, (object)"System update in: "), 40), cs2method_10090(59375660), 0, 0, 59375660);
+			setWidgetIsHidden(false, new WidgetPointer(906,44));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(906,44));
+		}
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

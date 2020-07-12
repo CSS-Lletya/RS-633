@@ -1,0 +1,12 @@
+void script_1624() {
+	if (cs2method_10145() == 1) {
+		cs2method_10467(7668, 33947654);
+	} else if (cs2method_10145() == 2) {
+		cs2method_10467(7667, 33947654);
+	} else {
+		if (cs2method_10145() == 3) {
+			cs2method_10467(7669, 33947654);
+		}
+	}
+	return;
+}

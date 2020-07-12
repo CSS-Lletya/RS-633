@@ -1,0 +1,87 @@
+void script_5402(int arg0) {
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar1 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	setWidgetRGB(16101953, 76677181);
+	setWidgetRGB(16101953, 76677182);
+	setWidgetRGB(16101953, 76677183);
+	setWidgetRGB(16101953, 76677184);
+	setWidgetRGB(16101953, 76677185);
+	setWidgetRGB(16101953, 76677186);
+	setWidgetRGB(16101953, 76677187);
+	setWidgetRGB(16101953, 76677188);
+	setWidgetRGB(16101953, 76677287);
+	setWidgetRGB(16101953, 76677366);
+	switch (arg0) {
+		case 1:
+			setWidgetRGB(16777215, 76677181);
+			break;
+		case 2:
+			setWidgetRGB(16777215, 76677182);
+			break;
+		case 3:
+			setWidgetRGB(16777215, 76677183);
+			break;
+		case 4:
+			setWidgetRGB(16777215, 76677184);
+			break;
+		case 5:
+			setWidgetRGB(16777215, 76677185);
+			break;
+		case 6:
+			setWidgetRGB(16777215, 76677186);
+			break;
+		case 7:
+			setWidgetRGB(16777215, 76677187);
+			break;
+		case 8:
+			setWidgetRGB(16777215, 76677188);
+			break;
+		case 9:
+			setWidgetRGB(16777215, 76677287);
+			break;
+		case 10:
+			setWidgetRGB(16777215, 76677366);
+	}
+	ivar1 = getDataByKey('i', 'J', 5332, arg0);
+	if (ivar1 == 7335 || ivar1 == 7336) {
+		if (cs2method_10551(76677261, 0) == 0) {
+			createChildWidget(76677261, 5, 0);
+			setWidgetSize(274, 96, 0, 0);
+			setWidgetPosition(4, 6, 0, 0);
+			cs2method_10469(9723);
+		}
+	} else {
+		if (cs2method_10551(76677261, 0) == 1) {
+			cs2method_10714();
+		}
+	}
+	ovar1 = (object)getGeneralRequirementAttribute(ivar1, 2184);
+	ovar2 = (object)("If you win you'll get a dominion factor of: " + "<col=f5b241>" + toString(getDataByKey('i', 'i', 5224, arg0)) + "</col>" + ". You will get no dominion factor for dying.");
+	if (getGeneralRequirementAttribute(ivar1, 2097) == 1) {
+		ovar3 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 2) {
+		ovar3 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 3) {
+		ovar3 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 4) {
+		ovar3 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.");
+	} else {
+		if (getGeneralRequirementAttribute(ivar1, 2097) == 5) {
+			ovar3 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums and small blocking pillars");
+		}
+	}
+	setWidgetText(new WidgetPointer(1170,142), (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar3 + "<br>" + "<br>" + (string)ovar2));
+	script_5475(76677262, 76677261, 76677260, (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar3 + "<br>" + "<br>" + (string)ovar2));
+	ovar0 = (object)getGeneralRequirementAttribute(ivar1, 2095);
+	setWidgetText(new WidgetPointer(1170,38), ovar0);
+	cs2method_10677(8088, 1, 0, 255);
+	return;
+}

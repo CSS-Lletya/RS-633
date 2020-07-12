@@ -1,0 +1,172 @@
+void script_2705(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_2692_struct(2,0,0) structdump_3;
+	cs2func_script_2692_struct(2,0,0) structdump_4;
+	cs2func_script_2692_struct(2,0,0) structdump_5;
+	cs2func_script_2692_struct(2,0,0) structdump_6;
+	cs2func_script_2692_struct(2,0,0) structdump_7;
+	cs2func_script_2692_struct(2,0,0) structdump_8;
+	cs2func_script_2692_struct(2,0,0) structdump_9;
+	cs2func_script_2692_struct(2,0,0) structdump_10;
+	cs2func_script_2692_struct(2,0,0) structdump_11;
+	if (arg2 == 1) {
+		cs2method_10256(48889891);
+		cs2method_10256(35913775);
+		cs2method_20219(-1, "", new WidgetPointer(746,35));
+		cs2method_20219(-1, "", new WidgetPointer(548,47));
+		setWidgetIsHidden(true, new WidgetPointer(548,169));
+		setWidgetIsHidden(true, new WidgetPointer(548,56));
+		setWidgetIsHidden(true, new WidgetPointer(548,20));
+		setWidgetIsHidden(true, new WidgetPointer(548,177));
+		setWidgetIsHidden(true, new WidgetPointer(548,147));
+		setWidgetIsHidden(true, new WidgetPointer(548,101));
+	} else if (arg2 == 2) {
+		cs2method_20219(-1, "", new WidgetPointer(906,0));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(744,17));
+	}
+	ivar6 = 0;
+	if (arg0 == 1) {
+		cs2method_10001(cs2method_10201(), 1);
+		if (cs2method_10842() != 3) {
+			cs2method_10698(cs2method_10842());
+		}
+		cs2method_10334(cs2method_10103());
+		if (cs2method_10184(arg1, 1) == 1) {
+			globalint_994 = 2;
+		}
+		globalint_1240 = 3;
+		globalint_1277 = 0;
+	} else {
+		if (cs2method_10184(arg1, 0) == 1) {
+			cs2method_10395();
+			if (arg4 == 0) {
+				ivar6 = cs2method_10839();
+				cs2method_10604(ivar6);
+				script_2593(ivar6);
+			}
+		} else {
+			ivar6 = cs2method_10201();
+		}
+		if (cs2method_10184(arg1, 1) == 1 && cs2method_10842() != cs2method_10932()) {
+			cs2method_10673(cs2method_10932());
+		}
+		if (cs2method_10184(arg1, 2) == 1) {
+			cs2method_10866(cs2method_10899());
+		}
+		if (cs2method_10184(arg1, 3) == 1) {
+			cs2method_10703(0);
+		}
+		if (arg2 == 3) {
+			script_1174(0);
+			script_3384(arg2);
+			return;
+		}
+		if (arg5 == 1) {
+			stack_dump0 = ivar6;
+			stack_dump1 = cs2method_10842();
+			stack_dump2 = ivar6;
+			structdump_3 = script_2692(stack_dump2);
+			script_3387(stack_dump0, stack_dump1, structdump_3.intpart_0, structdump_3.intpart_1, arg2);
+		} else if (cs2method_10184(arg1, 1) == 1 || arg4 == 1) {
+			stack_dump0 = ivar6;
+			stack_dump1 = cs2method_10842();
+			stack_dump2 = ivar6;
+			structdump_4 = script_2692(stack_dump2);
+			script_2596(stack_dump0, stack_dump1, structdump_4.intpart_0, structdump_4.intpart_1, arg2);
+		} else {
+			stack_dump0 = ivar6;
+			stack_dump1 = cs2method_10842();
+			stack_dump2 = ivar6;
+			structdump_5 = script_2692(stack_dump2);
+			script_3387(stack_dump0, stack_dump1, structdump_5.intpart_0, structdump_5.intpart_1, arg2);
+		}
+		if (arg2 == 1 && arg3 == 1) {
+			cs2method_10998((object)"The requested change has been cancelled.");
+		}
+	}
+	if (arg2 != 1) {
+		ivar6 = cs2method_10201();
+		if (arg2 == 2) {
+			setWidgetIsHidden(true, new WidgetPointer(906,57));
+			if (arg5 == 1) {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_6 = script_2692(stack_dump2);
+				script_3387(stack_dump0, stack_dump1, structdump_6.intpart_0, structdump_6.intpart_1, arg2);
+			} else if (cs2method_10184(arg1, 1) == 1 || arg4 == 1) {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_7 = script_2692(stack_dump2);
+				script_2596(stack_dump0, stack_dump1, structdump_7.intpart_0, structdump_7.intpart_1, arg2);
+			} else {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_8 = script_2692(stack_dump2);
+				script_3387(stack_dump0, stack_dump1, structdump_8.intpart_0, structdump_8.intpart_1, arg2);
+			}
+			if (arg4 == 0 && arg3 == 1) {
+				script_2190(0, -1, 0, (object)"", (object)("The change of detail mode has been cancelled." + "<br>" + "<br>" + "Perhaps different graphical settings would work better for you?"), (object)"", (object)"");
+			}
+		} else if (arg2 == 3) {
+			if (cs2method_10637() == 1) {
+				script_1174(5);
+				if (globalint_1273 == 1) {
+					return;
+				}
+				cs2method_20219(3381, new WidgetPointer(975,44), 0, "Ii", new WidgetPointer(975,44));
+			} else if (script_3487(3) == 1) {
+				script_1174(7);
+			} else {
+				script_1174(11);
+			}
+		} else {
+			if (arg5 == 1) {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_9 = script_2692(stack_dump2);
+				script_3387(stack_dump0, stack_dump1, structdump_9.intpart_0, structdump_9.intpart_1, arg2);
+			} else if (cs2method_10184(arg1, 1) == 1 || arg4 == 1) {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_10 = script_2692(stack_dump2);
+				script_2596(stack_dump0, stack_dump1, structdump_10.intpart_0, structdump_10.intpart_1, arg2);
+			} else {
+				stack_dump0 = ivar6;
+				stack_dump1 = cs2method_10842();
+				stack_dump2 = ivar6;
+				structdump_11 = script_2692(stack_dump2);
+				script_3387(stack_dump0, stack_dump1, structdump_11.intpart_0, structdump_11.intpart_1, arg2);
+			}
+			if (arg4 == 0 && arg3 == 1) {
+				setWidgetText(new WidgetPointer(744,76), (object)("The change of detail mode has been cancelled." + "<br>" + "<br>" + "Perhaps different graphical settings would work better for you?"));
+				if (arg5 == 1) {
+					setScriptCallOnMousePressed(3452, 6, 0, 1, "i11", new WidgetPointer(744,79));
+				} else if (cs2method_10184(arg1, 1) == 1 || arg4 == 1) {
+					setScriptCallOnMousePressed(1173, 6, "i", new WidgetPointer(744,79));
+				} else {
+					setScriptCallOnMousePressed(3452, 6, 0, 1, "i11", new WidgetPointer(744,79));
+				}
+				script_1174(9);
+			} else if (arg5 == 1) {
+				script_3239(6, 0, 1);
+			} else if (cs2method_10184(arg1, 1) == 1 || arg4 == 1) {
+				script_1174(6);
+			} else {
+				script_3239(6, 0, 1);
+			}
+		}
+	}
+	if (arg0 == 0 && arg4 == 1) {
+		script_3384(arg2);
+	}
+	return;
+}

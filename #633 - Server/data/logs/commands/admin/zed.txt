@@ -1,0 +1,26 @@
+[06 July 2020 at 12:02:43 EDT] - ::tele 3222 3222
+[06 July 2020 at 12:02:56 EDT] - ::item 11694
+[06 July 2020 at 12:03:00 EDT] - ::master 
+[06 July 2020 at 06:50:32 EDT] - ::object 2
+[06 July 2020 at 06:50:40 EDT] - ::item 11694 1
+[06 July 2020 at 06:50:58 EDT] - ::coords 
+[06 July 2020 at 06:51:23 EDT] - ::coords 
+[06 July 2020 at 06:51:31 EDT] - ::tele 0,51,50,3,27
+[06 July 2020 at 06:51:34 EDT] - ::tele 0,51,50,11,25
+[06 July 2020 at 06:51:35 EDT] - ::tele 0,51,50,15,17
+[06 July 2020 at 06:51:36 EDT] - ::tele 0,51,50,22,10
+[06 July 2020 at 06:51:37 EDT] - ::tele 0,51,49,28,63
+[06 July 2020 at 06:51:38 EDT] - ::tele 0,51,49,29,52
+[06 July 2020 at 06:51:41 EDT] - ::tele 0,51,49,31,40
+[06 July 2020 at 06:51:42 EDT] - ::tele 0,51,49,31,30
+[06 July 2020 at 06:51:43 EDT] - ::tele 0,51,49,22,30
+[06 July 2020 at 06:54:28 EDT] - ::tele 0,50,50,45,23
+[06 July 2020 at 06:54:29 EDT] - ::tele 0,50,50,59,27
+[06 July 2020 at 06:54:31 EDT] - ::tele 0,51,50,11,28
+[06 July 2020 at 06:54:32 EDT] - ::tele 0,51,50,17,18
+[06 July 2020 at 06:54:33 EDT] - ::tele 0,51,50,20,4
+[06 July 2020 at 06:54:36 EDT] - ::tele 0,51,50,25,7
+[06 July 2020 at 06:56:34 EDT] - ::npc 3
+[06 July 2020 at 06:57:18 EDT] - ::npc 3
+[06 July 2020 at 06:57:57 EDT] - ::tele 0,47,152,41,63
+[06 July 2020 at 06:58:33 EDT] - ::tele 0,47,152,37,21

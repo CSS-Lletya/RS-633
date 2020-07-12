@@ -1,0 +1,28 @@
+void script_6115(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 1;
+	ivar2 = 255;
+	if (arg0 == 1) {
+		ivar1 = 0;
+		ivar2 = 0;
+	}
+	switch (globalint_1884) {
+		case 0:
+		case 2:
+			script_6116(68812807, 0, 40);
+			script_6116(68812808, 10, 40);
+			script_6116(68812809, 20, 40);
+			script_6116(68812810, 30, 40);
+			script_6116(68812811, 40, 40);
+			break;
+		case 1:
+		case 3:
+			script_6116(68812812, 0, 40);
+			script_6116(68812813, 10, 40);
+			script_6116(68812814, 20, 40);
+			script_6116(68812815, 30, 40);
+			script_6116(68812816, 40, 40);
+	}
+	return;
+}

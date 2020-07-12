@@ -1,0 +1,50 @@
+void script_6312(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	flow_0:
+		ivar2 = -1;
+		SWITCH (bitconfig_11541) {
+			case 1:
+				 GOTO flow_1
+			case 2:
+				 GOTO flow_2
+			case 5:
+				 GOTO flow_3
+			case 6:
+				 GOTO flow_4
+			case 3:
+				 GOTO flow_5
+			case 4:
+				 GOTO flow_6
+		}
+		return;
+	flow_1:
+		ivar2 = 5961;
+		GOTO	flow_7
+	flow_2:
+		ivar2 = 5962;
+		GOTO	flow_7
+	flow_3:
+		ivar2 = 5963;
+		GOTO	flow_7
+	flow_4:
+		ivar2 = 5964;
+		GOTO	flow_7
+	flow_5:
+		ivar2 = 5965;
+		GOTO	flow_7
+	flow_6:
+		ivar2 = 5967;
+	flow_7:
+		ivar3 = getDataByKey('i', 'J', ivar2, arg1);
+		if (ivar3 == -1) {
+			return;
+		}
+		if (cs2method_10551(arg0, arg1) == 1) {
+			cs2method_10253(2);
+		}
+		if (getGeneralRequirementAttribute(ivar3, 2591) == 1) {
+			script_71(4);
+		}
+		return;
+}

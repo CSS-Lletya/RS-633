@@ -1,0 +1,39 @@
+void script_6157(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar1 = 0;
+	ivar2 = 120;
+	ivar3 = 75;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = -1;
+	ivar7 = -1;
+	while (ivar1 < 16) {
+		createChildWidget(arg0, 5, ivar1);
+		setWidgetSize(ivar2, ivar3, 0, 0);
+		ivar4 = multiply(ivar2, cs2method_10620(ivar1, 4));
+		ivar5 = multiply(ivar3, divide(ivar1, 4));
+		setWidgetPosition(ivar4, ivar5, 0, 0);
+		switch (cs2method_10145()) {
+			case 0:
+				ivar7 = 5760;
+				break;
+			case 2:
+				ivar7 = 5761;
+				break;
+			case 3:
+				ivar7 = 5763;
+				break;
+			case 1:
+				ivar7 = 5762;
+		}
+		cs2method_10469(getDataByKey('i', 'd', ivar7, ivar1));
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

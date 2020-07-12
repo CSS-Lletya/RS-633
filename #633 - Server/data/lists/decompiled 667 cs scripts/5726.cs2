@@ -1,0 +1,39 @@
+void script_5726(int arg0) {
+	int ivar1;
+	ivar1 = script_284(cs2method_10687());
+	switch (globalint_1007) {
+		case 1:
+			script_2766(0, 50, arg0);
+			break;
+		case 2:
+			script_2768(50, arg0);
+			cs2method_10155(0, 2);
+			cs2method_10155(1, 2);
+			cs2method_10105(0, 0, cs2method_10273(ivar1, 34, 0, 52), 300, cs2method_10273(ivar1, 34, 0, 52), 300, 0);
+			cs2method_10105(0, 1, cs2method_10273(ivar1, 34, 0, 52), 300, cs2method_10273(ivar1, 34, 0, 52), 300, 0);
+			cs2method_10105(1, 0, cs2method_10273(ivar1, 30, 0, 51), 150, cs2method_10273(ivar1, 30, 0, 51), 150, 0);
+			cs2method_10105(1, 1, cs2method_10273(ivar1, 30, 0, 51), 150, cs2method_10273(ivar1, 30, 0, 51), 150, 0);
+			cs2method_10767(0, 0, 50, 0, 1, 0);
+			break;
+		case 5:
+			script_2768(50, arg0);
+			cs2method_10155(0, 2);
+			cs2method_10155(1, 2);
+			cs2method_10105(0, 0, cs2method_10273(ivar1, 32, 0, 47), 350, cs2method_10273(ivar1, 32, 0, 47), 400, 0);
+			cs2method_10105(0, 1, cs2method_10273(ivar1, 32, 0, 47), 350, cs2method_10273(ivar1, 32, 0, 47), 400, 0);
+			cs2method_10105(1, 0, cs2method_10273(ivar1, 32, 0, 52), 200, cs2method_10273(ivar1, 32, 0, 52), 200, 0);
+			cs2method_10105(1, 1, cs2method_10273(ivar1, 32, 0, 52), 200, cs2method_10273(ivar1, 32, 0, 52), 200, 0);
+			cs2method_10767(0, 0, 50, 0, 1, 0);
+			break;
+		case 99:
+			script_2766(0, 50, arg0);
+			break;
+		case 100:
+			cs2method_10532();
+			script_2768(50, arg0);
+			break;
+		default:
+			cs2method_10532();
+	}
+	return;
+}

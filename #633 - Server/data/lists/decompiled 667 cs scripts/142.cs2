@@ -1,0 +1,203 @@
+void script_142() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	if (cs2method_10145() == 0) {
+		setWidgetFont(495, 21889074);
+		setWidgetFont(495, 21889076);
+		setWidgetTextAlignment(1, 1, 17, 21889074);
+		setWidgetTextAlignment(1, 1, 17, 21889076);
+	} else {
+		setWidgetFont(494, 21889074);
+		setWidgetFont(494, 21889076);
+		setWidgetTextAlignment(1, 1, 0, 21889074);
+		setWidgetTextAlignment(1, 1, 0, 21889076);
+	}
+	clearExtraChildren(new WidgetPointer(334,38));
+	clearExtraChildren(new WidgetPointer(334,39));
+	clearExtraChildren(new WidgetPointer(334,40));
+	ivar0 = 0;
+	ivar1 = -1;
+	if (getItemIdInContainerSlot(90, 14) != -1 || getItemIdInContainerSlot(90, 15) != -1 || getItemIdInContainerSlot(90, 16) != -1 || getItemIdInContainerSlot(90, 17) != -1 || getItemIdInContainerSlot(90, 18) != -1 || getItemIdInContainerSlot(90, 19) != -1 || getItemIdInContainerSlot(90, 20) != -1 || getItemIdInContainerSlot(90, 21) != -1 || getItemIdInContainerSlot(90, 22) != -1 || getItemIdInContainerSlot(90, 23) != -1 || getItemIdInContainerSlot(90, 24) != -1 || getItemIdInContainerSlot(90, 25) != -1 || getItemIdInContainerSlot(90, 26) != -1 || getItemIdInContainerSlot(90, 27) != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(334,39));
+		setWidgetIsHidden(false, new WidgetPointer(334,40));
+		setWidgetIsHidden(false, new WidgetPointer(334,41));
+		while (ivar0 < 14) {
+			ivar1 = getItemIdInContainerSlot(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889063, 4, cs2method_10860(21889063));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(0, 0, 0);
+				setWidgetFont(495);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10136(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+		while (ivar0 < 28) {
+			ivar1 = getItemIdInContainerSlot(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889064, 4, cs2method_10860(21889064));
+				setWidgetPosition(0, multiply(subtract(ivar0, 14), 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(0, 0, 0);
+				setWidgetFont(495);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10136(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+		script_4109(114, 21889062, 21889063, 21889064, 21889065, 21889066);
+		cs2method_20301(4108, -2147483647, new WidgetPointer(334,38), new WidgetPointer(334,39), new WidgetPointer(334,40), new WidgetPointer(334,41), new WidgetPointer(334,42), "iIIIII", new WidgetPointer(334,42));
+		cs2method_20921(4108, -2147483647, new WidgetPointer(334,38), new WidgetPointer(334,39), new WidgetPointer(334,40), new WidgetPointer(334,41), new WidgetPointer(334,42), "iIIIII", new WidgetPointer(334,42));
+		cs2method_10686(149, 21889066);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(334,39));
+		setWidgetIsHidden(true, new WidgetPointer(334,40));
+		setWidgetIsHidden(true, new WidgetPointer(334,41));
+		while (ivar0 < 14) {
+			ivar1 = getItemIdInContainerSlot(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889062, 4, cs2method_10860(21889062));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(1, 0, 0);
+				setWidgetFont(496);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10136(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+	}
+	clearExtraChildren(new WidgetPointer(334,49));
+	clearExtraChildren(new WidgetPointer(334,58));
+	clearExtraChildren(new WidgetPointer(334,59));
+	ivar0 = 0;
+	ivar2 = 0;
+	if (cs2method_10234(90, 14) != -1 || cs2method_10234(90, 15) != -1 || cs2method_10234(90, 16) != -1 || cs2method_10234(90, 17) != -1 || cs2method_10234(90, 18) != -1 || cs2method_10234(90, 19) != -1 || cs2method_10234(90, 20) != -1 || cs2method_10234(90, 21) != -1 || cs2method_10234(90, 22) != -1 || cs2method_10234(90, 23) != -1 || cs2method_10234(90, 24) != -1 || cs2method_10234(90, 25) != -1 || cs2method_10234(90, 26) != -1 || cs2method_10234(90, 27) != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(334,58));
+		setWidgetIsHidden(false, new WidgetPointer(334,59));
+		setWidgetIsHidden(false, new WidgetPointer(334,60));
+		while (ivar0 < 14) {
+			ivar2 = script_148(ivar0);
+			if (ivar2 > 0 && ivar2 > subtract(cs2method_10878(), 750)) {
+				setWidgetIsHidden(false, new WidgetPointer(334,55));
+				createChildWidget(21889082, 3, cs2method_10860(21889082));
+				createChildWidget(21889082, 3, cs2method_10860(21889082));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetRGB(new Color(255, 0, 0));
+				setWidgetRGB(new Color(153, 0, 0));
+				setWidgetFilled(1);
+				setWidgetFilled(0);
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+			}
+			ivar1 = cs2method_10234(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889082, 4, cs2method_10860(21889082));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(0, 0, 0);
+				setWidgetFont(495);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10925(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+		while (ivar0 < 28) {
+			ivar2 = script_148(ivar0);
+			if (ivar2 > 0 && ivar2 > subtract(cs2method_10878(), 750)) {
+				setWidgetIsHidden(false, new WidgetPointer(334,55));
+				createChildWidget(21889083, 3, cs2method_10860(21889083));
+				createChildWidget(21889083, 3, cs2method_10860(21889083));
+				setWidgetPosition(0, multiply(subtract(ivar0, 14), 12), 1, 0);
+				setWidgetPosition(0, multiply(subtract(ivar0, 14), 12), 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetRGB(new Color(255, 0, 0));
+				setWidgetRGB(new Color(153, 0, 0));
+				setWidgetFilled(1);
+				setWidgetFilled(0);
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+			}
+			ivar1 = cs2method_10234(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889083, 4, cs2method_10860(21889083));
+				setWidgetPosition(0, multiply(subtract(ivar0, 14), 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(0, 0, 0);
+				setWidgetFont(495);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10925(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+		script_4109(114, 21889073, 21889082, 21889083, 21889084, 21889085);
+		cs2method_20301(4108, -2147483647, new WidgetPointer(334,49), new WidgetPointer(334,58), new WidgetPointer(334,59), new WidgetPointer(334,60), new WidgetPointer(334,61), "iIIIII", new WidgetPointer(334,61));
+		cs2method_20921(4108, -2147483647, new WidgetPointer(334,49), new WidgetPointer(334,58), new WidgetPointer(334,59), new WidgetPointer(334,60), new WidgetPointer(334,61), "iIIIII", new WidgetPointer(334,61));
+		cs2method_10686(149, 21889085);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(334,58));
+		setWidgetIsHidden(true, new WidgetPointer(334,59));
+		setWidgetIsHidden(true, new WidgetPointer(334,60));
+		while (ivar0 < 14) {
+			ivar2 = script_148(ivar0);
+			if (ivar2 > 0 && ivar2 > subtract(cs2method_10878(), 750)) {
+				setWidgetIsHidden(false, new WidgetPointer(334,55));
+				createChildWidget(21889073, 3, cs2method_10860(21889073));
+				createChildWidget(21889073, 3, cs2method_10860(21889073));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetSize(0, 13, 1, 0);
+				setWidgetRGB(new Color(255, 0, 0));
+				setWidgetRGB(new Color(153, 0, 0));
+				setWidgetFilled(1);
+				setWidgetFilled(0);
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+				cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+			}
+			ivar1 = cs2method_10234(90, ivar0);
+			if (ivar1 != -1) {
+				createChildWidget(21889073, 4, cs2method_10860(21889073));
+				setWidgetPosition(0, multiply(ivar0, 12), 1, 0);
+				setWidgetSize(0, 12, 1, 0);
+				setWidgetTextAlignment(1, 0, 0);
+				setWidgetFont(496);
+				setWidgetRGB(new Color(255, 255, 255));
+				cs2method_10320(1);
+				setWidgetText((object)script_4107(ivar1, cs2method_10925(90, ivar0)));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+	}
+	ivar2 = script_148(-1);
+	if (ivar2 > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(334,55));
+		createChildWidget(21889075, 3, 0);
+		cs2method_10692(0);
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetRGB(new Color(255, 0, 0));
+		setWidgetFilled(1);
+		cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+		createChildWidget(21889075, 3, 1);
+		cs2method_10692(0);
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetRGB(new Color(153, 0, 0));
+		setWidgetFilled(0);
+		cs2method_20745(144, new WidgetPointer(-32768,3), -2147483643, ivar2, add(ivar2, 750), "Iiii");
+	}
+	return;
+}

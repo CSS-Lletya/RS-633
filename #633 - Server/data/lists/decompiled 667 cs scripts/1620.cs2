@@ -1,0 +1,8 @@
+void script_1620(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	arg4 = add(arg4, cs2method_10878());
+	if (cs2method_10551(arg0, arg1) == 1 || arg1 == -1 && cs2method_10403(arg0) == 1) {
+		cs2method_10305(arg2);
+		cs2method_20745(1621, new WidgetPointer(arg0), arg1, arg3, arg4, "Iiii");
+	}
+	return;
+}

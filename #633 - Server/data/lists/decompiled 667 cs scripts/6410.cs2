@@ -1,0 +1,55 @@
+void script_6410(int arg0) {
+	setWidgetRGB(11762223, arg0);
+	switch (arg0) {
+		case 85327899:
+			if (bitconfig_11550 == 0) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327903:
+			if (bitconfig_11550 == 1) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327907:
+			if (bitconfig_11550 == 2) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327911:
+			if (bitconfig_11550 == 3) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327920:
+			if (bitconfig_11552 == 0) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327925:
+			if (bitconfig_11552 == 1) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327930:
+			if (bitconfig_11552 == 2) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327935:
+			if (bitconfig_11551 == 0) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327940:
+			if (bitconfig_11551 == 1) {
+				setWidgetRGB(3328050, arg0);
+			}
+			break;
+		case 85327945:
+			if (bitconfig_11551 == 2) {
+				setWidgetRGB(3328050, arg0);
+			}
+	}
+	return;
+}

@@ -1,0 +1,48 @@
+void script_2289(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar3 = 5982;
+	if (bitconfig_6840 == 1) {
+		ivar3 = 5981;
+	}
+	ivar4 = getDataByKey('i', 'J', ivar3, arg2);
+	ivar5 = 1;
+	if (getGeneralRequirementAttribute(ivar4, 2668) == 1) {
+		if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar4, 2672)) {
+			ivar5 = 2;
+		}
+		if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar4, 2674)) {
+			ivar5 = 3;
+		}
+		switch (ivar5) {
+			case 1:
+				ivar4 = getGeneralRequirementAttribute(ivar4, 2671);
+				break;
+			case 2:
+				ivar4 = getGeneralRequirementAttribute(ivar4, 2673);
+				break;
+			case 3:
+				ivar4 = getGeneralRequirementAttribute(ivar4, 2675);
+		}
+	}
+	if (script_6430(ivar4) == 0) {
+		if (script_2295(arg2) == 0) {
+			return;
+		}
+		if (cs2method_10551(arg0, arg2) == 1) {
+			setWidgetContextMenuOption(1, (object)"Deactivate");
+		}
+		if (cs2method_10551(arg1, arg2) == 1) {
+			cs2method_10469(11965);
+		}
+	} else {
+		if (cs2method_10551(arg0, arg2) == 1) {
+			setWidgetContextMenuOption(1, (object)"Activate");
+		}
+		if (cs2method_10551(arg1, arg2) == 1) {
+			cs2method_10469(-1);
+		}
+	}
+	return;
+}

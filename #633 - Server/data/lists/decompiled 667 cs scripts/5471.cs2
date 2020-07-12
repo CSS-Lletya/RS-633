@@ -1,0 +1,56 @@
+void script_5471(int arg0) {
+	int ivar1;
+	ivar1 = script_284(cs2method_10687());
+	if (arg0 == 0) {
+		cs2method_10155(0, 4);
+		cs2method_10155(1, 4);
+		cs2method_10105(0, 0, cs2method_10273(ivar1, 38, 2, 41), 2300, cs2method_10273(ivar1, 35, 2, 41), 2300, 0);
+		cs2method_10105(1, 0, cs2method_10273(ivar1, 38, 2, 36), 1300, cs2method_10273(ivar1, 37, 2, 36), 1300, 0);
+		cs2method_10105(0, 1, cs2method_10273(ivar1, 31, 2, 36), 2200, cs2method_10273(ivar1, 30, 2, 34), 2200, 0);
+		cs2method_10105(1, 1, cs2method_10273(ivar1, 36, 2, 34), 1400, cs2method_10273(ivar1, 36, 2, 33), 1400, 0);
+		cs2method_10105(0, 2, cs2method_10273(ivar1, 31, 2, 28), 2100, cs2method_10273(ivar1, 32, 2, 26), 2100, 0);
+		cs2method_10105(1, 2, cs2method_10273(ivar1, 36, 2, 31), 1400, cs2method_10273(ivar1, 36, 2, 30), 1400, 0);
+		cs2method_10105(0, 3, cs2method_10273(ivar1, 38, 2, 24), 1900, cs2method_10273(ivar1, 40, 2, 24), 1900, 0);
+		cs2method_10105(1, 3, cs2method_10273(ivar1, 38, 2, 29), 1400, cs2method_10273(ivar1, 39, 2, 29), 1400, 0);
+	} else if (arg0 == 1) {
+		cs2method_10155(0, 4);
+		cs2method_10155(1, 4);
+		cs2method_10105(0, 0, cs2method_10273(ivar1, 34, 2, 41), 2400, cs2method_10273(ivar1, 32, 2, 40), 2400, 0);
+		cs2method_10105(1, 0, cs2method_10273(ivar1, 38, 2, 36), 1300, cs2method_10273(ivar1, 37, 2, 36), 1300, 0);
+		cs2method_10105(0, 1, cs2method_10273(ivar1, 30, 2, 36), 2300, cs2method_10273(ivar1, 29, 2, 34), 2300, 0);
+		cs2method_10105(1, 1, cs2method_10273(ivar1, 36, 2, 34), 1400, cs2method_10273(ivar1, 36, 2, 33), 1400, 0);
+		cs2method_10105(0, 2, cs2method_10273(ivar1, 30, 2, 29), 2200, cs2method_10273(ivar1, 31, 2, 27), 2200, 0);
+		cs2method_10105(1, 2, cs2method_10273(ivar1, 36, 2, 31), 1400, cs2method_10273(ivar1, 36, 2, 30), 1400, 0);
+		cs2method_10105(0, 3, cs2method_10273(ivar1, 34, 2, 25), 2000, cs2method_10273(ivar1, 35, 2, 25), 2000, 0);
+		cs2method_10105(1, 3, cs2method_10273(ivar1, 38, 2, 29), 1400, cs2method_10273(ivar1, 39, 2, 29), 1400, 0);
+	} else if (arg0 == 2) {
+		cs2method_10155(0, 6);
+		cs2method_10155(1, 6);
+		cs2method_10105(0, 0, cs2method_10273(ivar1, 32, 2, 45), 2000, cs2method_10273(ivar1, 28, 2, 45), 2000, 0);
+		cs2method_10105(1, 0, cs2method_10273(ivar1, 31, 2, 37), 1300, cs2method_10273(ivar1, 30, 2, 37), 1300, 0);
+		cs2method_10105(0, 1, cs2method_10273(ivar1, 21, 2, 40), 2000, cs2method_10273(ivar1, 18, 2, 37), 2000, 0);
+		cs2method_10105(1, 1, cs2method_10273(ivar1, 26, 2, 35), 1300, cs2method_10273(ivar1, 25, 2, 33), 1300, 0);
+		cs2method_10105(0, 2, cs2method_10273(ivar1, 20, 2, 25), 2000, cs2method_10273(ivar1, 23, 2, 21), 2000, 0);
+		cs2method_10105(1, 2, cs2method_10273(ivar1, 26, 2, 29), 1300, cs2method_10273(ivar1, 27, 2, 27), 1300, 0);
+		cs2method_10105(0, 3, cs2method_10273(ivar1, 32, 2, 20), 2000, cs2method_10273(ivar1, 37, 2, 20), 2000, 0);
+		cs2method_10105(1, 3, cs2method_10273(ivar1, 31, 2, 28), 1300, cs2method_10273(ivar1, 33, 2, 29), 1300, 0);
+		cs2method_10105(0, 4, cs2method_10273(ivar1, 41, 2, 27), 2000, cs2method_10273(ivar1, 42, 2, 30), 2000, 0);
+		cs2method_10105(1, 4, cs2method_10273(ivar1, 34, 2, 31), 1300, cs2method_10273(ivar1, 35, 2, 33), 1300, 0);
+		cs2method_10105(0, 5, cs2method_10273(ivar1, 40, 2, 40), 2000, cs2method_10273(ivar1, 37, 2, 43), 2000, 0);
+		cs2method_10105(1, 5, cs2method_10273(ivar1, 33, 2, 36), 1300, cs2method_10273(ivar1, 32, 2, 37), 1300, 0);
+	} else {
+		cs2method_10155(0, 4);
+		cs2method_10155(1, 4);
+		cs2method_10105(0, 0, cs2method_10273(ivar1, 37, 2, 41), 2200, cs2method_10273(ivar1, 35, 2, 40), 2200, 0);
+		cs2method_10105(1, 0, cs2method_10273(ivar1, 41, 2, 36), 1300, cs2method_10273(ivar1, 40, 2, 36), 1300, 0);
+		cs2method_10105(0, 1, cs2method_10273(ivar1, 33, 2, 36), 2100, cs2method_10273(ivar1, 32, 2, 34), 2100, 0);
+		cs2method_10105(1, 1, cs2method_10273(ivar1, 39, 2, 34), 1400, cs2method_10273(ivar1, 39, 2, 33), 1400, 0);
+		cs2method_10105(0, 2, cs2method_10273(ivar1, 33, 2, 29), 2000, cs2method_10273(ivar1, 34, 2, 27), 2000, 0);
+		cs2method_10105(1, 2, cs2method_10273(ivar1, 39, 2, 31), 1400, cs2method_10273(ivar1, 39, 2, 30), 1400, 0);
+		cs2method_10105(0, 3, cs2method_10273(ivar1, 37, 2, 25), 1800, cs2method_10273(ivar1, 38, 2, 25), 1800, 0);
+		cs2method_10105(1, 3, cs2method_10273(ivar1, 41, 2, 29), 1400, cs2method_10273(ivar1, 42, 2, 29), 1400, 0);
+	}
+	cs2method_10767(0, 0, 400, 400, 1, 0);
+	cs2method_20808(5474, 0, 400, "ii", new WidgetPointer(1172,9));
+	return;
+}

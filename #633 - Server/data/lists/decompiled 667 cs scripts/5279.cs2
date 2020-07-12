@@ -1,0 +1,55 @@
+void script_5279(int arg0) {
+	int ivar1;
+	ivar1 = script_734(bitconfig_9897);
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,17));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,30));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,43));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,56));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,69));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,102));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,116));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,130));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,143));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,158));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,172));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,186));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,200));
+	setWidgetIsHidden((boolean)ivar1, new WidgetPointer(388,84));
+	if (ivar1 == 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)"Theatre Options");
+		cs2method_20000(5293, -2147483644, 1, 0, "ii1", new WidgetPointer(388,99));
+		cs2method_20000(5293, -2147483644, 2, 0, "ii1", new WidgetPointer(388,112));
+		cs2method_20000(5293, -2147483644, 3, 0, "ii1", new WidgetPointer(388,126));
+		cs2method_20000(5293, -2147483644, 4, 0, "ii1", new WidgetPointer(388,140));
+		cs2method_20000(5293, -2147483644, 5, 0, "ii1", new WidgetPointer(388,154));
+		cs2method_20000(5293, -2147483644, 6, 0, "ii1", new WidgetPointer(388,168));
+		cs2method_20000(5293, -2147483644, 7, 0, "ii1", new WidgetPointer(388,182));
+		cs2method_20000(5293, -2147483644, 8, 0, "ii1", new WidgetPointer(388,196));
+		cs2method_20000(5293, -2147483644, 1, 1, "ii1", new WidgetPointer(388,14));
+		cs2method_20000(5293, -2147483644, 2, 1, "ii1", new WidgetPointer(388,27));
+		cs2method_20000(5293, -2147483644, 3, 1, "ii1", new WidgetPointer(388,40));
+		cs2method_20000(5293, -2147483644, 4, 1, "ii1", new WidgetPointer(388,53));
+		cs2method_20000(5293, -2147483644, 5, 1, "ii1", new WidgetPointer(388,66));
+	} else {
+		if (bitconfig_9887 == 0 || bitconfig_9896 == 0) {
+			setWidgetText(new WidgetPointer(arg0), (object)"Waiting on technician to select options...");
+		} else {
+			setWidgetText(new WidgetPointer(arg0), (object)"Waiting on technician to unlock theatre...");
+		}
+		cs2method_20000(-1, "", new WidgetPointer(388,99));
+		cs2method_20000(-1, "", new WidgetPointer(388,112));
+		cs2method_20000(-1, "", new WidgetPointer(388,126));
+		cs2method_20000(-1, "", new WidgetPointer(388,140));
+		cs2method_20000(-1, "", new WidgetPointer(388,154));
+		cs2method_20000(-1, "", new WidgetPointer(388,168));
+		cs2method_20000(-1, "", new WidgetPointer(388,182));
+		cs2method_20000(-1, "", new WidgetPointer(388,196));
+		cs2method_20000(-1, "", new WidgetPointer(388,14));
+		cs2method_20000(-1, "", new WidgetPointer(388,27));
+		cs2method_20000(-1, "", new WidgetPointer(388,40));
+		cs2method_20000(-1, "", new WidgetPointer(388,53));
+		cs2method_20000(-1, "", new WidgetPointer(388,66));
+	}
+	script_4532(arg0);
+	return;
+}

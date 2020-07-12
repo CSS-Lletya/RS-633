@@ -1,0 +1,15 @@
+void script_3984(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = -1;
+	if (arg0 != -1 && arg1 != -1) {
+		ivar2 = getGeneralRequirementAttribute(arg1, 2238);
+		ivar3 = getGeneralRequirementAttribute(arg1, 2239);
+		ivar4 = getGeneralRequirementAttribute(arg1, 2237);
+		script_4211(arg0, ivar4, ivar2, ivar3);
+	}
+	return;
+}

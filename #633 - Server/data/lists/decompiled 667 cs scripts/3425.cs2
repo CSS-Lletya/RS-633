@@ -1,0 +1,15 @@
+void script_3425(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = getDataByKey('I', 'O', 3058, arg1);
+	ivar3 = getDataByKey('O', 'i', 3059, ivar2);
+	if (ivar2 == 4055) {
+		setWidgetText(new WidgetPointer(arg0), (object)"Free!");
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)toString(ivar3));
+	}
+	cs2method_10380(ivar2, -1, arg1);
+	cs2method_10163(1, arg1);
+	cs2method_10550(3355443, arg1);
+	return;
+}

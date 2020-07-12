@@ -1,0 +1,5 @@
+void script_6044() {
+	cs2method_10998((object)"You must choose a skill first.");
+	cs2method_10508(2277, 1, 0);
+	return;
+}

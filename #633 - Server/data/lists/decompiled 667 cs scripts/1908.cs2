@@ -1,0 +1,160 @@
+void script_1908() {
+	int ivar0;
+	object ovar0;
+	ivar0 = 12;
+	ovar0 = (object)"";
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_564, 100), ivar0), 16384), 100), 0, 2, 52822154);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_565, 100), ivar0), 16384), 100), 0, 2, 52822155);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_566, 100), ivar0), 16384), 100), 0, 2, 52822156);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_567, 100), ivar0), 16384), 100), 0, 2, 52822160);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_568, 100), ivar0), 16384), 100), 0, 2, 52822164);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_569, 100), ivar0), 16384), 100), 0, 2, 52822098);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_570, 100), ivar0), 16384), 100), 0, 2, 52822102);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_571, 100), ivar0), 16384), 100), 0, 2, 52822106);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_572, 100), ivar0), 16384), 100), 0, 2, 52822110);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_573, 100), ivar0), 16384), 100), 0, 2, 52822077);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_574, 100), ivar0), 16384), 100), 0, 2, 52822081);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_575, 100), ivar0), 16384), 100), 0, 2, 52822085);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_576, 100), ivar0), 16384), 100), 0, 2, 52822089);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_577, 100), ivar0), 16384), 100), 0, 2, 52822119);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_578, 100), ivar0), 16384), 100), 0, 2, 52822123);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_579, 100), ivar0), 16384), 100), 0, 2, 52822127);
+	cs2method_10893(16, divide(multiply(divide(multiply(globalint_580, 100), ivar0), 16384), 100), 0, 2, 52822131);
+	if (globalint_564 == 0) {
+		ovar0 = (object)"There are no class 1 clay locations in the area.";
+	} else if (globalint_564 == 1) {
+		ovar0 = (object)"There is 1 class 1 clay location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_564) + " class 1 clay locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,138));
+	if (globalint_565 == 0) {
+		ovar0 = (object)"There are no class 2 fishing locations in the area.";
+	} else if (globalint_565 == 1) {
+		ovar0 = (object)"There is 1 class 2 fishing location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_565) + " class 2 fishing locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,139));
+	if (globalint_566 == 0) {
+		ovar0 = (object)"There are no class 3 fishing locations in the area.";
+	} else if (globalint_566 == 1) {
+		ovar0 = (object)"There is 1 class 3 fishing location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_566) + " class 3 fishing locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,140));
+	if (globalint_567 == 0) {
+		ovar0 = (object)"There are no class 4 fishing locations in the area.";
+	} else if (globalint_567 == 1) {
+		ovar0 = (object)"There is 1 class 4 fishing location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_567) + " class 4 fishing locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,144));
+	if (globalint_568 == 0) {
+		ovar0 = (object)"There are no class 5 fishing locations in the area.";
+	} else if (globalint_568 == 1) {
+		ovar0 = (object)"There is 1 class 5 fishing location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_568) + " class 5 fishing locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,148));
+	if (globalint_569 == 0) {
+		ovar0 = (object)"There are no class 2 mining locations in the area.";
+	} else if (globalint_569 == 1) {
+		ovar0 = (object)"There is 1 class 2 mining location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_569) + " class 2 mining locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,82));
+	if (globalint_570 == 0) {
+		ovar0 = (object)"There are no class 3 mining locations in the area.";
+	} else if (globalint_570 == 1) {
+		ovar0 = (object)"There is 1 class 3 mining location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_570) + " class 3 mining locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,86));
+	if (globalint_571 == 0) {
+		ovar0 = (object)"There are no class 4 mining locations in the area.";
+	} else if (globalint_571 == 1) {
+		ovar0 = (object)"There is 1 class 4 mining location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_571) + " class 4 mining locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,90));
+	if (globalint_572 == 0) {
+		ovar0 = (object)"There are no class 5 mining locations in the area.";
+	} else if (globalint_572 == 1) {
+		ovar0 = (object)"There is 1 class 5 mining location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_572) + " class 5 mining locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,94));
+	if (globalint_573 == 0) {
+		ovar0 = (object)"There are no class 2 woodcutting locations in the area.";
+	} else if (globalint_573 == 1) {
+		ovar0 = (object)"There is 1 class 2 woodcutting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_573) + " class 2 woodcutting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,61));
+	if (globalint_574 == 0) {
+		ovar0 = (object)"There are no class 3 woodcutting locations in the area.";
+	} else if (globalint_574 == 1) {
+		ovar0 = (object)"There is 1 class 3 woodcutting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_574) + " class 3 woodcutting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,65));
+	if (globalint_575 == 0) {
+		ovar0 = (object)"There are no class 4 woodcutting locations in the area.";
+	} else if (globalint_575 == 1) {
+		ovar0 = (object)"There is 1 class 4 woodcutting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_575) + " class 4 woodcutting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,69));
+	if (globalint_576 == 0) {
+		ovar0 = (object)"There are no class 5 woodcutting locations in the area.";
+	} else if (globalint_576 == 1) {
+		ovar0 = (object)"There is 1 class 5 woodcutting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_576) + " class 5 woodcutting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,73));
+	if (globalint_577 == 0) {
+		ovar0 = (object)"There are no class 2 hunting locations in the area.";
+	} else if (globalint_577 == 1) {
+		ovar0 = (object)"There is 1 class 2 hunting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_577) + " class 2 hunting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,103));
+	if (globalint_578 == 0) {
+		ovar0 = (object)"There are no class 3 hunting locations in the area.";
+	} else if (globalint_578 == 1) {
+		ovar0 = (object)"There is 1 class 3 hunting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_578) + " class 3 hunting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,107));
+	if (globalint_579 == 0) {
+		ovar0 = (object)"There are no class 4 hunting locations in the area.";
+	} else if (globalint_579 == 1) {
+		ovar0 = (object)"There is 1 class 4 hunting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_579) + " class 4 hunting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,111));
+	if (globalint_580 == 0) {
+		ovar0 = (object)"There are no class 5 hunting locations in the area.";
+	} else if (globalint_580 == 1) {
+		ovar0 = (object)"There is 1 class 5 hunting location in the area.";
+	} else {
+		ovar0 = (object)("There are " + toString(globalint_580) + " class 5 hunting locations in the area.");
+	}
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(806,49), (string)ovar0, 25, 100, "IIsii", new WidgetPointer(806,115));
+	return;
+}

@@ -1,0 +1,10 @@
+void script_4334(int arg0,int arg1) {
+	if (cs2method_10999() >= 5) {
+		setWidgetRGB(cs2method_10489(clanconfig_18), arg0);
+		setWidgetRGB(cs2method_10489(clanconfig_19), arg1);
+	} else {
+		setWidgetRGB(cs2method_10489(42550), arg0);
+		setWidgetRGB(cs2method_10489(39382), arg1);
+	}
+	return;
+}

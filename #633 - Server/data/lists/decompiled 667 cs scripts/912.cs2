@@ -1,0 +1,24 @@
+string script_912(int arg0) {
+	object ovar0;
+	ovar0 = (object)getDataByKey('o', 's', 1440, arg0);
+	if (compareTo(ovar0, (object)"") != 0) {
+		return "<br>" + (string)ovar0;
+	}
+	switch (globalint_746) {
+		case 0:
+			if (getItemAttribute(arg0, 1047) != 1) {
+				return "<br>" + getDataByKey('i', 's', 1437, getItemAttribute(arg0, 23));
+			}
+			break;
+		case 1:
+			return "<br>" + getDataByKey('i', 's', 1439, getItemAttribute(arg0, 23));
+		case 2:
+		case 5:
+			return "<br>" + getDataByKey('i', 's', 1436, getItemAttribute(arg0, 23));
+		case 3:
+			return "<br>" + getDataByKey('i', 's', 1438, getItemAttribute(arg0, 23));
+		case 4:
+			return "<br>" + "Requires an ogre composite bow.";
+	}
+	return "";
+}

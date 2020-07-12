@@ -1,0 +1,41 @@
+void script_1616(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	script_6331(arg0, arg1, arg2);
+	if (arg0 != arg2) {
+		return;
+	}
+	ivar4 = cs2method_10594(93);
+	arg1 = cs2method_10620(arg1, ivar4);
+	arg3 = cs2method_10620(arg3, ivar4);
+	ivar5 = -1;
+	ivar6 = 0;
+	if (cs2method_10551(arg0, arg1) == 1 && cs2method_10551(arg2, arg3) == 1) {
+		stack_dump0 = cs2method_10844();
+		ivar6 = cs2method_10054();
+		ivar5 = stack_dump0;
+		setItemOnWidget_10672(cs2method_10844(), cs2method_10054());
+		setItemOnWidget_10672(ivar5, ivar6);
+		cs2method_10245();
+		cs2method_10245();
+		if (cs2method_10844() != -1) {
+			cs2method_10692(0);
+			script_2833(cs2method_10844());
+		} else {
+			cs2method_20003(-1, "");
+			cs2method_10692(1);
+		}
+		if (cs2method_10551(arg2, arg3) == 1) {
+			if (cs2method_10844() != -1) {
+				cs2method_10692(0);
+				script_2833(cs2method_10844());
+			} else {
+				cs2method_20003(-1, "");
+				cs2method_10692(1);
+			}
+		}
+	}
+	return;
+}

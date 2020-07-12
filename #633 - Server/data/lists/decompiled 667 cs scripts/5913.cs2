@@ -1,0 +1,94 @@
+void script_5913(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	ivar1 = 82116688;
+	ivar2 = 82116689;
+	ivar3 = 82116645;
+	arg0 = add(arg0, 1);
+	if (arg0 >= 50) {
+		arg0 = 0;
+	}
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = -1;
+	ivar8 = cs2method_10685(ivar1);
+	if (arg0 > 25) {
+		ivar8 = cs2method_10004(61659, subtract(ivar8, 154));
+	} else {
+		ivar8 = cs2method_10586(65535, add(ivar8, 154));
+	}
+	cs2method_10641(ivar8, ivar1);
+	ivar9 = 0;
+	ivar10 = subtract(189, 151);
+	ivar11 = cs2method_10620(arg0, 25);
+	ivar12 = script_669(ivar11, 25, ivar10);
+	if (arg0 < 25) {
+		ivar9 = subtract(189, ivar12);
+		if (arg0 == 0 && cs2method_10416(82116646) == 1) {
+			cs2method_10677(14239, 1, 0, 30);
+		}
+	} else {
+		ivar9 = add(151, ivar12);
+		if (arg0 == 26 && cs2method_10416(82116646) == 1) {
+			cs2method_10677(9873, 1, 0, 30);
+		}
+	}
+	cs2method_10444(cs2method_10111(ivar2), ivar9, 0, 0, ivar2);
+	if (arg0 >= 0 && arg0 < 18) {
+		ivar5 = 1;
+		ivar5 = 7;
+		ivar7 = 9887;
+		if (arg0 == 0 && cs2method_10416(82116646) == 1 && cs2method_10416(82116645) == 0) {
+			switch (cs2method_10869(4)) {
+				case 0:
+					cs2method_10677(script_5925(5705), 1, 0, 25);
+					break;
+				case 1:
+					cs2method_10677(script_5925(5706), 1, 0, 25);
+					break;
+				case 2:
+					cs2method_10677(script_5925(5707), 1, 0, 25);
+					break;
+				case 3:
+					cs2method_10677(script_5925(5708), 1, 0, 25);
+			}
+		}
+	} else if (arg0 >= 18 && arg0 < 25) {
+		ivar5 = 19;
+		ivar6 = 90;
+		ivar7 = 9888;
+		if (arg0 == 19 && cs2method_10416(82116646) == 1 && cs2method_10416(82116645) == 0) {
+			cs2method_10677(script_5925(5710), 1, 0, 50);
+		}
+	} else if (arg0 >= 25 && arg0 < 37) {
+		ivar5 = 1;
+		ivar6 = 84;
+		ivar7 = 9889;
+		if (arg0 == 25 && cs2method_10416(82116646) == 1 && cs2method_10416(82116645) == 0) {
+			cs2method_10677(script_5925(5709), 1, 0, 50);
+		}
+	} else {
+		ivar5 = 19;
+		ivar6 = 90;
+		ivar7 = 9888;
+		if (arg0 == 37 && cs2method_10416(82116646) == 1 && cs2method_10416(82116645) == 0) {
+			cs2method_10677(script_5925(5710), 1, 0, 50);
+		}
+	}
+	cs2method_10444(ivar5, ivar6, 0, 2, ivar3);
+	cs2method_10467(script_6267(ivar7), ivar3);
+	cs2method_20219(5912, arg0, "i", new WidgetPointer(1253,52));
+	globalint_1802 = arg0;
+	return;
+}

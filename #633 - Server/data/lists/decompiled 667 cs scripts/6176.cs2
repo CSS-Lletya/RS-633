@@ -1,0 +1,6 @@
+void script_6176(int arg0,int arg1,int arg2) {
+	if (globalint_1911 != arg1 && cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10469(arg2);
+	}
+	return;
+}

@@ -1,0 +1,306 @@
+void script_759(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5,object arg6,object arg7,object arg8,object arg9,object arg10) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	int ivar27;
+	int ivar28;
+	int ivar29;
+	int ivar30;
+	int ivar31;
+	int ivar32;
+	int ivar33;
+	int ivar34;
+	int ivar35;
+	int ivar36;
+	int ivar37;
+	int ivar38;
+	object ovar6;
+	int stack_dump0;
+	cs2func_script_767_struct(20,0,0) structdump_1;
+	clearExtraChildren(new WidgetPointer(arg0));
+	setWidgetScrollMax(0, multiply(add(divide(subtract(arg4, arg3), arg1), 1), 57), arg0);
+	ivar5 = 0;
+	ivar6 = arg3;
+	ivar7 = 0;
+	ivar8 = arg4;
+	ivar9 = 0;
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	ivar14 = -1;
+	ivar15 = -1;
+	ivar16 = -1;
+	ivar17 = -1;
+	ivar18 = -1;
+	ivar19 = -1;
+	ivar20 = -1;
+	ivar21 = 0;
+	ivar22 = 0;
+	ivar23 = 0;
+	ivar24 = 0;
+	ivar25 = 0;
+	ivar26 = 0;
+	ivar27 = 0;
+	ivar28 = 0;
+	ivar29 = 0;
+	ivar30 = 0;
+	ovar6 = (object)"hello";
+	ivar31 = 0;
+	globalarray_0 = new int[10];
+	ivar32 = -1;
+	ivar33 = 0;
+	ivar34 = 0;
+	ivar35 = 0;
+	ivar36 = 1;
+	ivar37 = 9722;
+	ivar38 = 2205;
+	while (ivar5 <= subtract(arg4, arg3)) {
+		ivar36 = 1;
+		ivar32 = getDataByKey('i', 'o', 1182, ivar6);
+		if (bitconfig_8701 == 1) {
+			if (getItemAttribute(ivar32, 697) != -1) {
+				switch (getItemAttribute(ivar32, 697)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 698)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 698)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 698)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 697)) < getItemAttribute(ivar32, 698)) {
+							ivar36 = 0;
+						}
+				}
+			}
+			if (getItemAttribute(ivar32, 699) != -1 && ivar36 == 1) {
+				switch (getItemAttribute(ivar32, 699)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 700)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 700)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 700)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 699)) < getItemAttribute(ivar32, 700)) {
+							ivar36 = 0;
+						}
+				}
+			}
+			if (getItemAttribute(ivar32, 701) != -1 && ivar36 == 1) {
+				switch (getItemAttribute(ivar32, 701)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 702)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 702)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 702)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 701)) < getItemAttribute(ivar32, 702)) {
+							ivar36 = 0;
+						}
+				}
+			}
+			if (getItemAttribute(ivar32, 703) != -1 && ivar36 == 1) {
+				switch (getItemAttribute(ivar32, 703)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 704)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 704)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 704)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 703)) < getItemAttribute(ivar32, 704)) {
+							ivar36 = 0;
+						}
+				}
+			}
+			if (getItemAttribute(ivar32, 705) != -1 && ivar36 == 1) {
+				switch (getItemAttribute(ivar32, 705)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 706)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 706)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 706)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 705)) < getItemAttribute(ivar32, 706)) {
+							ivar36 = 0;
+						}
+				}
+			}
+			if (getItemAttribute(ivar32, 707) != -1 && ivar36 == 1) {
+				switch (getItemAttribute(ivar32, 707)) {
+					case 6287:
+						if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(ivar32, 708)) {
+							ivar36 = 0;
+						}
+						break;
+					case 6979:
+						if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(ivar32, 708)) {
+							ivar36 = 0;
+						}
+						break;
+					case 2462:
+						if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(ivar32, 708)) {
+							ivar36 = 0;
+						}
+						break;
+					default:
+						if (getItemAmtInContainer(93, getItemAttribute(ivar32, 707)) < getItemAttribute(ivar32, 708)) {
+							ivar36 = 0;
+						}
+				}
+			}
+		}
+		if (ivar36 == 1) {
+			ivar33 = add(add(16, multiply(cs2method_10620(ivar7, arg1), 48)), multiply(cs2method_10620(ivar7, arg1), 5));
+			ivar34 = add(multiply(divide(ivar7, arg1), 52), multiply(divide(ivar7, arg1), 5));
+			createChildWidget(arg0, 5, ivar35);
+			setWidgetSize(48, 52, 0, 0);
+			setWidgetPosition(ivar33, ivar34, 0, 0);
+			cs2method_10469(2205);
+			cs2method_20930(5336, new WidgetPointer(-32768,3), ivar35, ivar37, "Iid");
+			cs2method_20139(5336, new WidgetPointer(-32768,3), ivar35, ivar38, "Iid");
+			ivar35 = add(ivar35, 1);
+			createChildWidget(arg0, 5, ivar35);
+			ivar35 = add(ivar35, 1);
+			setWidgetSize(48, 52, 0, 0);
+			setWidgetPosition(ivar33, ivar34, 0, 0);
+			cs2method_10469(2206);
+			if (script_766(ivar32) == 1 && cs2method_10453(23) >= getDataByKey('o', 'i', 1185, ivar32)) {
+				cs2method_10692(0);
+			} else {
+				cs2method_10692(1);
+			}
+			createChildWidget(arg0, 5, ivar35);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(add(ivar33, 6), add(ivar34, 4), 0, 0);
+			if (ivar32 == 12292) {
+				script_760(ivar32, ivar32, arg0, ivar35, arg5, arg6, arg7, arg8, arg9, arg10);
+			} else if (script_766(ivar32) == 1 && cs2method_10453(23) >= getDataByKey('o', 'i', 1185, ivar32)) {
+				script_760(ivar32, ivar32, arg0, ivar35, arg5, arg6, arg7, arg8, arg9, arg10);
+			} else {
+				script_760(getDataByKey('i', 'o', 1183, ivar6), ivar32, arg0, ivar35, arg5, arg6, arg7, arg8, arg9, arg10);
+			}
+			if (ivar32 == 12292) {
+				cs2method_20930(782, -2147483643, new WidgetPointer(79,31), new WidgetPointer(79,16), ivar31, (string)ovar6, "iIIis");
+				cs2method_20139(40, new WidgetPointer(79,31), "I");
+			} else {
+				ovar6 = (object)getDataByKey('o', 's', 1187, ivar32);
+				ivar31 = getDataByKey('o', 'i', 1185, ivar32);
+				stack_dump0 = ivar32;
+				structdump_1 = script_767(stack_dump0);
+				ivar30 = structdump_1.intpart_19;
+				ivar29 = structdump_1.intpart_18;
+				ivar28 = structdump_1.intpart_17;
+				ivar27 = structdump_1.intpart_16;
+				ivar26 = structdump_1.intpart_15;
+				ivar25 = structdump_1.intpart_14;
+				ivar24 = structdump_1.intpart_13;
+				ivar23 = structdump_1.intpart_12;
+				ivar22 = structdump_1.intpart_11;
+				ivar21 = structdump_1.intpart_10;
+				ivar20 = structdump_1.intpart_9;
+				ivar19 = structdump_1.intpart_8;
+				ivar18 = structdump_1.intpart_7;
+				ivar17 = structdump_1.intpart_6;
+				ivar16 = structdump_1.intpart_5;
+				ivar15 = structdump_1.intpart_4;
+				ivar14 = structdump_1.intpart_3;
+				ivar13 = structdump_1.intpart_2;
+				ivar12 = structdump_1.intpart_1;
+				ivar11 = structdump_1.intpart_0;
+				cs2method_20930(770, -2147483643, new WidgetPointer(79,31), new WidgetPointer(79,16), ivar31, (string)ovar6, ivar11, 1, ivar12, ivar22, ivar13, ivar23, ivar14, ivar24, ivar15, ivar25, ivar16, ivar26, ivar17, ivar27, ivar18, ivar28, ivar19, ivar29, ivar20, ivar30, "iIIisoioioioioioioioioioi");
+				cs2method_20139(40, new WidgetPointer(79,31), "I");
+			}
+			ivar35 = add(ivar35, 1);
+			createChildWidget(arg0, 5, ivar35);
+			ivar35 = add(ivar35, 1);
+			setWidgetSize(12, 12, 0, 0);
+			setWidgetPosition(add(ivar33, 2), add(ivar34, 38), 0, 0);
+			cs2method_10814(12183, 1);
+			createChildWidget(arg0, 4, ivar35);
+			ivar35 = add(ivar35, 1);
+			setWidgetSize(31, 12, 0, 0);
+			setWidgetPosition(add(ivar33, 13), add(ivar34, 39), 0, 0);
+			setWidgetFont(494);
+			setWidgetRGB(new Color(255, 255, 255));
+			setWidgetTextAlignment(2, 1, 0);
+			if (getItemAttribute(ivar32, 541) < 1) {
+				setWidgetText((object)"--");
+			} else {
+				setWidgetText(script_940(getItemAttribute(ivar32, 541)));
+			}
+			cs2method_10320(1);
+			ivar7 = add(ivar7, 1);
+		}
+		ivar5 = add(ivar5, 1);
+		ivar6 = add(ivar6, 1);
+	}
+	return;
+}

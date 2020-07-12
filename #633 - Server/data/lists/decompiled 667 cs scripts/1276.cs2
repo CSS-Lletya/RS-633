@@ -1,0 +1,5 @@
+void script_1276(int arg0) {
+	globalint_814 = 0;
+	cs2method_10149(255, arg0);
+	return;
+}

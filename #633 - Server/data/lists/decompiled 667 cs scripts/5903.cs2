@@ -1,0 +1,74 @@
+void script_5903() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar0 = subtract(bitconfig_11155, 1);
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = -1;
+	ivar5 = -1;
+	while (ivar1 < 13) {
+		ivar2 = subtract(ivar1, ivar0);
+		if (ivar2 < 0) {
+			ivar2 = add(ivar2, 13);
+		}
+		ivar4 = script_5935(ivar1);
+		ivar5 = script_5933(ivar1);
+		cs2method_10467(9801, ivar5);
+		cs2method_10893(55, 55, 0, 0, ivar5);
+		cs2method_10444(0, 0, 0, 2, ivar5);
+		cs2method_10667(1, ivar5);
+		switch (ivar2) {
+			case 0:
+				ivar3 = 349;
+				cs2method_10467(9882, ivar5);
+				cs2method_10893(55, 77, 0, 0, ivar5);
+				globalint_1789 = ivar1;
+				cs2method_10444(ivar3, cs2method_10826(82116761), 0, 0, 82116761);
+				cs2method_10444(0, -3, 0, 2, ivar5);
+				break;
+			case 1:
+				ivar3 = 407;
+				break;
+			case 2:
+				ivar3 = 465;
+				break;
+			case 3:
+				ivar3 = 523;
+				break;
+			case 4:
+				ivar3 = 581;
+				break;
+			case 5:
+				ivar3 = 639;
+				break;
+			case 6:
+				ivar3 = 697;
+				break;
+			case 7:
+				ivar3 = -1;
+				break;
+			case 8:
+				ivar3 = 57;
+				break;
+			case 9:
+				ivar3 = 116;
+				break;
+			case 10:
+				ivar3 = 174;
+				break;
+			case 11:
+				ivar3 = 232;
+				break;
+			case 12:
+				ivar3 = 290;
+		}
+		cs2method_10444(ivar3, cs2method_10826(ivar4), 0, 0, ivar4);
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

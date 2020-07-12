@@ -1,0 +1,48 @@
+void script_3966(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar7 = 0;
+	globalint_1883 = arg0;
+	ivar8 = script_693(arg1, arg2, arg3);
+	ivar9 = script_693(arg4, arg5, arg6);
+	cs2method_10038(4, 68812802);
+	switch (arg0) {
+		case 0:
+			script_6118(ivar8, ivar9);
+			cs2method_10467(7526, 68812801);
+			setWidgetText(new WidgetPointer(1050,2), (object)"And so Thok made good on his word and made Bone Face pay for getting in the way of his next adventure.");
+			break;
+		case 1:
+			script_6118(ivar8, ivar9);
+			cs2method_10467(7526, 68812801);
+			setWidgetText(new WidgetPointer(1050,2), (object)"Thok returned Mini-Marm and Mrs Mini-Marm to their pool, where they made a start on building a mighty crab army.");
+			break;
+		case 2:
+			script_6118(ivar8, ivar9);
+			ivar7 = subtract(bitconfig_11074, bitconfig_11075);
+			if (ivar7 > 0) {
+				cs2method_10467(7526, 68812801);
+				setWidgetText(new WidgetPointer(1050,2), (object)("Thok triumphed over his brother Marmaros, beating him by a mighty " + toString(bitconfig_11074) + " kills to Marmaros's " + toString(bitconfig_11075) + "." + "<br>" + "Thok is the greatest brother! Marmaros never stood a chance."));
+			} else if (ivar7 < 0) {
+				cs2method_10467(7526, 68812801);
+				setWidgetText(new WidgetPointer(1050,2), (object)("Marmaros defeated his brother Thok, barely beating him with " + toString(bitconfig_11075) + " kills to Thok's " + toString(bitconfig_11074) + "." + "<br>" + "Marmaros is the greatest brother! Play again; maybe you can defeat him next time."));
+			} else {
+				cs2method_10467(7526, 68812801);
+				setWidgetText(new WidgetPointer(1050,2), (object)("Thok and Marmaros both killed the same number of enemies, each with a kill count of " + toString(bitconfig_11075) + "." + "<br>" + "Who can be the better brother? Play again to find out!"));
+			}
+			break;
+		case 3:
+			script_6118(ivar8, ivar9);
+			cs2method_10467(7526, 68812801);
+			setWidgetText(new WidgetPointer(1050,2), (object)"Pretty Lass is quietly waiting for Thok to ask her out on a date.");
+			break;
+		case 4:
+			script_6118(ivar8, ivar9);
+			cs2method_10467(7526, 68812801);
+			setWidgetText(new WidgetPointer(1050,2), (object)"Bone Face still hasn't woken up yet.");
+	}
+	globalint_1884 = cs2method_10620(add(globalint_1884, 1), 4);
+	script_6115(1);
+	return;
+}

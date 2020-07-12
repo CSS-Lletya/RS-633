@@ -1,0 +1,15 @@
+void script_5534() {
+	if (globalint_1724 == -1) {
+		globalint_1724 = 1;
+	}
+	if (globalint_1725 == -1) {
+		globalint_1725 = 1;
+	}
+	globalint_1726 = 0;
+	globalint_1808 = 0;
+	script_5536(globalint_1725);
+	script_5537();
+	script_5539();
+	script_5543();
+	return;
+}

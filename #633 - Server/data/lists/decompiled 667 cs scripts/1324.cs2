@@ -1,0 +1,27 @@
+void script_1324(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	cs2method_10461(getDataByKey('i', 'm', 1595, divide(bitconfig_2510, 10)), arg0);
+	cs2method_10461(getDataByKey('i', 'm', 1595, cs2method_10620(bitconfig_2510, 10)), arg1);
+	cs2method_10274(standart_config_849, 1, arg5);
+	if (bitconfig_2539 == 0) {
+		cs2method_10461(17219, arg3);
+		cs2method_10461(-1, arg2);
+		cs2method_10461(-1, arg4);
+		return;
+	}
+	if (bitconfig_2539 > bitconfig_2510) {
+		cs2method_10461(17219, arg3);
+		cs2method_10461(17221, arg2);
+		cs2method_10461(17217, arg4);
+		return;
+	}
+	if (bitconfig_2539 < bitconfig_2510) {
+		cs2method_10461(17219, arg3);
+		cs2method_10461(17220, arg2);
+		cs2method_10461(17218, arg4);
+		return;
+	}
+	cs2method_10461(17216, arg3);
+	cs2method_10461(-1, arg2);
+	cs2method_10461(-1, arg4);
+	return;
+}

@@ -1,0 +1,58 @@
+void script_5195() {
+	setWidgetIsHidden(true, new WidgetPointer(1122,61));
+	setWidgetIsHidden(true, new WidgetPointer(1122,162));
+	setWidgetIsHidden(true, new WidgetPointer(1122,163));
+	setWidgetIsHidden(true, new WidgetPointer(1122,164));
+	setWidgetRGB(11902313, 73531455);
+	setWidgetRGB(7890507, 73531541);
+	setWidgetRGB(7890507, 73531545);
+	setWidgetRGB(7890507, 73531549);
+	setWidgetRGB(7890507, 73531553);
+	cs2method_10467(7653, 73531417);
+	cs2method_10467(7652, 73531539);
+	cs2method_10467(7652, 73531543);
+	cs2method_10467(7652, 73531547);
+	cs2method_10467(7652, 73531551);
+	setWidgetIsHidden(true, new WidgetPointer(1122,26));
+	setWidgetIsHidden(true, new WidgetPointer(1122,148));
+	setWidgetIsHidden(true, new WidgetPointer(1122,152));
+	setWidgetIsHidden(true, new WidgetPointer(1122,156));
+	setWidgetIsHidden(true, new WidgetPointer(1122,160));
+	if (globalint_1595 >= 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,61));
+		cs2method_10467(7653, 73531539);
+		setWidgetRGB(11902313, 73531541);
+	}
+	if (globalint_1595 >= 2) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,162));
+		cs2method_10467(7653, 73531543);
+		setWidgetRGB(11902313, 73531545);
+	}
+	if (globalint_1595 >= 3) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,163));
+		cs2method_10467(7653, 73531547);
+		setWidgetRGB(11902313, 73531549);
+	}
+	if (globalint_1595 >= 4) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,164));
+		cs2method_10467(7653, 73531551);
+		setWidgetRGB(11902313, 73531553);
+	}
+	switch (globalint_1595) {
+		case 0:
+			setWidgetIsHidden(false, new WidgetPointer(1122,26));
+			break;
+		case 1:
+			setWidgetIsHidden(false, new WidgetPointer(1122,148));
+			break;
+		case 2:
+			setWidgetIsHidden(false, new WidgetPointer(1122,152));
+			break;
+		case 3:
+			setWidgetIsHidden(false, new WidgetPointer(1122,156));
+			break;
+		case 4:
+			setWidgetIsHidden(false, new WidgetPointer(1122,160));
+	}
+	return;
+}

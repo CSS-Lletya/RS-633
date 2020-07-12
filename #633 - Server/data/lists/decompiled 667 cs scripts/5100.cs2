@@ -1,0 +1,32 @@
+void script_5100(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,int arg12,int arg13,int arg14,int arg15,int arg16,int arg17,int arg18,int arg19,int arg20,object arg21) {
+	setWidgetIsHidden(true, new WidgetPointer(arg13));
+	setWidgetIsHidden(false, new WidgetPointer(arg12));
+	setWidgetIsHidden(true, new WidgetPointer(arg15));
+	cs2method_10375(1, arg14, (object)"Details");
+	setWidgetText(new WidgetPointer(arg16), arg21);
+	switch (arg7) {
+		case -2:
+			cs2method_10467(6194, arg10);
+			break;
+		case -1:
+			cs2method_10467(6195, arg10);
+			break;
+		case 0:
+			cs2method_10467(6196, arg10);
+			break;
+		case 1:
+			cs2method_10467(6197, arg10);
+			break;
+		case 2:
+			cs2method_10467(6198, arg10);
+	}
+	cs2method_10467(arg1, arg17);
+	cs2method_10467(arg2, arg18);
+	setWidgetRGB(cs2method_10489(arg3), arg17);
+	setWidgetRGB(cs2method_10489(arg4), arg18);
+	setWidgetRGB(cs2method_10489(arg5), arg19);
+	setWidgetRGB(cs2method_10489(arg6), arg20);
+	cs2method_20000(5111, arg0, arg8, "i1", new WidgetPointer(arg14));
+	setWidgetIsHidden(true, new WidgetPointer(arg13));
+	return;
+}

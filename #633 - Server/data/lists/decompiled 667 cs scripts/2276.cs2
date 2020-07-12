@@ -1,0 +1,25 @@
+void script_2276(int arg0,int arg1,int arg2) {
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)getDataByKey('i', 's', 2857, arg1);
+	ivar3 = getDataByKey('i', 'i', 2858, arg1);
+	ovar1 = (object)getDataByKey('i', 's', 2859, arg1);
+	if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(arg2), ovar0);
+		if (ivar3 == 2) {
+			setWidgetRGB(40960, arg2);
+		} else if (ivar3 == 1) {
+			setWidgetRGB(9474048, arg2);
+		} else {
+			if (ivar3 == 0) {
+				setWidgetRGB(10485760, arg2);
+			}
+		}
+		cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(933,254), (string)ovar1, 25, 200, "IIsii", new WidgetPointer(arg2));
+		cs2method_20295(40, new WidgetPointer(933,254), "I", new WidgetPointer(arg2));
+	} else {
+		setWidgetText(new WidgetPointer(arg2), (object)"");
+	}
+	return;
+}

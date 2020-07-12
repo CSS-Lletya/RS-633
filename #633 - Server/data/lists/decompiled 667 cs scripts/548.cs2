@@ -1,0 +1,87 @@
+void script_548(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9) {
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	cs2func_script_4037_struct(3,0,0) structdump_1;
+	if (globalint_80 == 0) {
+		return;
+	}
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	ivar17 = 0;
+	ivar18 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)(getDataByKey('S', 's', 680, arg7) + ": " + toString(cs2method_10391(arg7)) + "/" + toString(cs2method_10453(arg7)));
+	if (cs2method_10551(arg9, arg0) == 1 && cs2method_10242(190, 495, ovar1) < cs2method_10040() && globalint_80 == cs2method_10453(arg7)) {
+		setWidgetText(ovar1);
+		if (cs2method_10551(arg9, arg1) == 1) {
+			setWidgetText(script_46(cs2method_10011(arg7), (object)","));
+		}
+		if (cs2method_10453(arg7) < 99 && cs2method_10551(arg9, arg2) == 1) {
+			setWidgetText(script_46(subtract(getDataByKey('i', 'i', 716, add(cs2method_10453(arg7), 1)), cs2method_10011(arg7)), (object)","));
+		}
+		if (script_4036(getDataByKey('S', 'i', 1482, arg7)) == 1) {
+			stack_dump0 = getDataByKey('S', 'i', 1482, arg7);
+			structdump_1 = script_4037(stack_dump0);
+			ivar11 = structdump_1.intpart_2;
+			ivar10 = structdump_1.intpart_1;
+			ivar12 = structdump_1.intpart_0;
+			ivar17 = ivar10;
+			if (ivar12 == 1) {
+				ivar17 = getDataByKey('i', 'i', 716, ivar10);
+			}
+			ivar18 = cs2method_10004(0, subtract(ivar17, cs2method_10011(arg7)));
+			ovar0 = script_46(ivar18, (object)",");
+			if (cs2method_10551(arg9, arg5) == 1) {
+				if (ivar12 == 1) {
+					ivar15 = getDataByKey('i', 'i', 716, ivar11);
+					ivar16 = getDataByKey('i', 'i', 716, ivar10);
+					if (subtract(ivar16, ivar15) != 0) {
+						ivar13 = cs2method_10542(subtract(cs2method_10011(arg7), ivar15), subtract(ivar16, ivar15), 100);
+					} else {
+						ivar13 = -1;
+					}
+				} else if (subtract(ivar10, ivar11) != 0) {
+					ivar13 = cs2method_10542(subtract(cs2method_10011(arg7), ivar11), subtract(ivar10, ivar11), 100);
+				} else {
+					ivar13 = -1;
+				}
+				if (ivar13 > 100) {
+					ivar13 = 100;
+				}
+				ivar13 = cs2method_10004(ivar13, 0);
+				ivar14 = multiply(ivar13, subtract(arg6, 4));
+				ivar14 = divide(ivar14, 100);
+				setWidgetSize(ivar14, 16, 0, 0);
+				if (cs2method_10551(arg9, arg4) == 1) {
+					if (ivar13 > 47) {
+						setWidgetRGB(new Color(0, 0, 0));
+					}
+					setWidgetText((object)(toString(ivar13) + "%"));
+				}
+				if (cs2method_10551(arg9, arg3) == 1) {
+					setWidgetText(ovar0);
+				}
+			}
+		}
+		return;
+	}
+	clearExtraChildren(new WidgetPointer(arg9));
+	globalint_80 = cs2method_10453(arg7);
+	script_547(arg8, arg7, arg9);
+	return;
+}

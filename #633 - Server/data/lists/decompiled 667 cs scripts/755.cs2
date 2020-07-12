@@ -1,0 +1,4 @@
+void script_755() {
+	setWidgetText(new WidgetPointer(662,41), (object)(toString(cs2method_10391(23)) + "/" + toString(cs2method_10453(23))));
+	return;
+}

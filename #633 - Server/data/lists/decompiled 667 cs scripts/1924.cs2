@@ -1,0 +1,13 @@
+void script_1924() {
+	setWidgetText(new WidgetPointer(811,127), cs2method_10445((object)toString(20), (object)("<br>" + "points.")));
+	setWidgetText(new WidgetPointer(811,65), cs2method_10445((object)toString(20), (object)("<br>" + "points.")));
+	setWidgetText(new WidgetPointer(811,49), cs2method_10445((object)toString(30), (object)("<br>" + "points.")));
+	setWidgetText(new WidgetPointer(811,106), cs2method_10445((object)toString(28), (object)("<br>" + "points.")));
+	setWidgetText(new WidgetPointer(811,92), cs2method_10445((object)toString(24), (object)("<br>" + "points.")));
+	setWidgetText(new WidgetPointer(811,78), cs2method_10445((object)toString(26), (object)("<br>" + "points.")));
+	cs2method_10380(14385, 1, 53149770);
+	cs2method_10158(0, 0, 1274, 876, 625, 1715, 53149770);
+	script_1929();
+	globalint_544 = 0;
+	return;
+}

@@ -1,0 +1,25 @@
+void script_6189() {
+	globalint_1919 = 0;
+	switch (cs2method_10145()) {
+		case 0:
+			cs2method_10467(10940, 59376004);
+			break;
+		case 1:
+			cs2method_10467(10942, 59376004);
+			break;
+		case 2:
+			cs2method_10467(10941, 59376004);
+			break;
+		case 3:
+			cs2method_10467(10943, 59376004);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(906,33));
+	setWidgetIsHidden(true, new WidgetPointer(906,338));
+	setWidgetIsHidden(true, new WidgetPointer(906,409));
+	setWidgetIsHidden(false, new WidgetPointer(906,382));
+	setWidgetIsHidden(true, new WidgetPointer(906,30));
+	setWidgetText(new WidgetPointer(906,396), (object)"By validating your email you'll receive these great rewards:");
+	cs2method_10893(240, cs2method_10090(59376006), 0, 0, 59376041);
+	cs2method_20889(6214, 2611, 1, "Y", new WidgetPointer(906,382));
+	return;
+}

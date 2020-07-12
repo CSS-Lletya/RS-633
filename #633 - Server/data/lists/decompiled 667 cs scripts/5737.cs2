@@ -1,0 +1,31 @@
+int script_5737() {
+	int ivar0;
+	int ivar1;
+	ivar0 = standart_config_2501;
+	setWidgetIsHidden(true, new WidgetPointer(1237,35));
+	setWidgetIsHidden(true, new WidgetPointer(1237,36));
+	setWidgetIsHidden(true, new WidgetPointer(1237,37));
+	setWidgetIsHidden(true, new WidgetPointer(1237,38));
+	setWidgetIsHidden(true, new WidgetPointer(1237,39));
+	setWidgetIsHidden(true, new WidgetPointer(1237,40));
+	ivar1 = cs2method_10090(81068066);
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1274), (object)"") != 0) {
+		ivar1 = script_5739(1, ivar1, 81068067, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1274));
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1275), (object)"") != 0) {
+		ivar1 = script_5739(2, ivar1, 81068068, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1275));
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1276), (object)"") != 0) {
+		ivar1 = script_5739(3, ivar1, 81068069, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1276));
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1277), (object)"") != 0) {
+		ivar1 = script_5739(4, ivar1, 81068070, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1277));
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1278), (object)"") != 0) {
+		ivar1 = script_5739(5, ivar1, 81068071, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1278));
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar0, 1279), (object)"") != 0) {
+		ivar1 = script_5739(6, ivar1, 81068072, 81068065, (object)getGeneralRequirementAttribute(ivar0, 1279));
+	}
+	return ivar1;
+}

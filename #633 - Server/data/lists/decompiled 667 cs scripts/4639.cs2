@@ -1,0 +1,21 @@
+void script_4639() {
+	if (cs2method_10184(standart_config_2189, 1) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,104));
+	}
+	if (cs2method_10184(standart_config_2189, 2) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,117));
+	}
+	if (cs2method_10184(standart_config_2189, 3) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,206));
+	}
+	if (cs2method_10184(standart_config_2189, 4) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,130));
+	}
+	if (cs2method_10184(standart_config_2189, 5) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,173));
+	}
+	if (cs2method_10184(standart_config_2189, 6) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(153,190));
+	}
+	return;
+}

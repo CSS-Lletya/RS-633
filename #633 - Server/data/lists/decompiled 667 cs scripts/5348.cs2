@@ -1,0 +1,12 @@
+void script_5348(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (globalint_1648 > 0) {
+		ovar0 = cs2method_10595(globalint_1648, 1);
+	} else {
+		globalint_1648 = 0;
+		ovar0 = (object)"0";
+	}
+	setWidgetText(new WidgetPointer(arg0), ovar0);
+	return;
+}

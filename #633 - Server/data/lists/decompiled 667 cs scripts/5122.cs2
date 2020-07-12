@@ -1,0 +1,9 @@
+void script_5122(int arg0,int arg1,int arg2,int arg3) {
+	if (cs2method_10551(arg0, add(arg1, 1)) == 1) {
+		cs2method_10469(arg2);
+	}
+	if (cs2method_10551(arg0, add(arg1, 2)) == 1) {
+		setWidgetRGB(new Color(arg3));
+	}
+	return;
+}

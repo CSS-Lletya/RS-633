@@ -1,0 +1,49 @@
+void script_265() {
+	object ovar0;
+	setWidgetIsHidden(true, new WidgetPointer(923,3));
+	setWidgetIsHidden(true, new WidgetPointer(923,5));
+	setWidgetIsHidden(true, new WidgetPointer(923,7));
+	setWidgetIsHidden(true, new WidgetPointer(923,9));
+	setWidgetIsHidden(true, new WidgetPointer(923,11));
+	setWidgetIsHidden(true, new WidgetPointer(923,13));
+	setWidgetIsHidden(true, new WidgetPointer(923,4));
+	setWidgetIsHidden(true, new WidgetPointer(923,6));
+	setWidgetIsHidden(true, new WidgetPointer(923,8));
+	setWidgetIsHidden(true, new WidgetPointer(923,10));
+	setWidgetIsHidden(true, new WidgetPointer(923,12));
+	setWidgetIsHidden(true, new WidgetPointer(923,14));
+	ovar0 = (object)"Hook: None";
+	switch (globalint_1110) {
+		case 2:
+			ovar0 = (object)"Hook: slim";
+			setWidgetIsHidden(false, new WidgetPointer(923,4));
+			break;
+		case 1:
+			ovar0 = (object)"Hook: standard";
+			setWidgetIsHidden(false, new WidgetPointer(923,6));
+			break;
+		case 3:
+			ovar0 = (object)"Hook: large";
+			setWidgetIsHidden(false, new WidgetPointer(923,8));
+			break;
+		case 6:
+			ovar0 = (object)"Hook: double";
+			setWidgetIsHidden(false, new WidgetPointer(923,10));
+			break;
+		case 4:
+			ovar0 = (object)"Hook: bone";
+			setWidgetIsHidden(false, new WidgetPointer(923,12));
+			break;
+		case 5:
+			ovar0 = (object)"Hook: wooden";
+			setWidgetIsHidden(false, new WidgetPointer(923,14));
+	}
+	setWidgetText(new WidgetPointer(923,103), ovar0);
+	if (globalint_1110 == 0) {
+		cs2method_20219(6255, "", new WidgetPointer(923,107));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(923,107));
+		setWidgetIsHidden(false, new WidgetPointer(923,106));
+	}
+	return;
+}

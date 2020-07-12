@@ -1,0 +1,421 @@
+void script_6360(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	if (arg2 == -1) {
+		return;
+	}
+	ivar3 = 85262336;
+	ivar4 = 85262338;
+	ivar5 = -1;
+	ivar6 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar7 = 0;
+	ovar2 = (object)"";
+	ivar8 = 7;
+	ivar9 = 13;
+	ivar10 = 0;
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ovar6 = (object)"";
+	ivar11 = getItemIdInContainerSlot(94, 3);
+	if (cs2method_10403(arg0) == 1) {
+		setWidgetTextAlignment(1, 1, ivar9, ivar4);
+		if (getGeneralRequirementAttribute(arg2, 2528) == 0) {
+			if (getGeneralRequirementAttribute(arg2, 2533) == 4 && getGeneralRequirementAttribute(arg2, 2595) != 5) {
+				ovar3 = (object)("Spell" + "<br>");
+			} else if (getGeneralRequirementAttribute(arg2, 2533) != 1 && getGeneralRequirementAttribute(arg2, 2533) != 2 && getGeneralRequirementAttribute(arg2, 2533) != 5 && getGeneralRequirementAttribute(arg2, 2533) != 6 && getGeneralRequirementAttribute(arg2, 2533) != 3 && getGeneralRequirementAttribute(arg2, 2533) != 4) {
+			} else {
+				ovar3 = (object)("Basic Ability" + "<br>");
+			}
+		} else if (getGeneralRequirementAttribute(arg2, 2528) == 1) {
+			ovar3 = (object)("Threshold Ability" + "<br>");
+		} else {
+			if (getGeneralRequirementAttribute(arg2, 2528) == 2) {
+				ovar3 = (object)("Ultimate Ability" + "<br>");
+			}
+		}
+		ovar0 = cs2method_10445((object)("<u=b37a2f>" + getGeneralRequirementAttribute(arg2, 2523) + "</u>" + "<br>" + (string)ovar3 + "<br>"), (object)getGeneralRequirementAttribute(arg2, 2524));
+		if (arg2 == standart_config_2645 && bitconfig_357 == 2) {
+			ivar7 = getGeneralRequirementAttribute(10748, 2619);
+			if (ivar7 > 0 && script_19(9075, -1) < ivar7) {
+				ovar2 = (object)"<col=ff0000>";
+			} else {
+				ovar2 = (object)"<col=b37a2f>";
+			}
+			if (ivar7 == 1) {
+				ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Astral Rune" + "</col>");
+			} else {
+				if (ivar7 > 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Astral Runes" + "</col>");
+				}
+			}
+			if (getItemAmtInContainer(94, 21514) < 1) {
+				ovar2 = (object)"<col=ff0000>";
+			} else {
+				ovar2 = (object)"<col=b37a2f>";
+			}
+			ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "Arcane Capacitor Necklace" + "</col>");
+		} else {
+			if (getGeneralRequirementAttribute(arg2, 2533) == 4) {
+				ivar7 = getGeneralRequirementAttribute(arg2, 2609);
+				if (ivar7 > 0 && script_19(556, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)("<br>" + (string)ovar2 + "1 Air Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)("<br>" + (string)ovar2 + toString(ivar7) + " Air Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2613);
+				if (ivar7 > 0 && script_19(558, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Mind Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Mind Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2611);
+				if (ivar7 > 0 && script_19(555, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Water Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Water Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2610);
+				if (ivar7 > 0 && script_19(557, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Earth Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Earth Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2612);
+				if (ivar7 > 0 && script_19(554, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Fire Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Fire Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2614);
+				if (ivar7 > 0 && script_19(559, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Body Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Body Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2621);
+				if (ivar7 > 0 && script_19(564, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Cosmic Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Cosmic Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2615);
+				if (ivar7 > 0 && script_19(562, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Chaos Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Chaos Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2619);
+				if (ivar7 > 0 && script_19(9075, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Astral Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Astral Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2620);
+				if (ivar7 > 0 && script_19(561, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Nature Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Nature Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2622);
+				if (ivar7 > 0 && script_19(563, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Law Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Law Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2616);
+				if (ivar7 > 0 && script_19(560, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Death Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Death Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2617);
+				if (ivar7 > 0 && script_19(565, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Blood Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Blood Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2618);
+				if (ivar7 > 0 && script_19(566, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Soul Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Soul Runes" + "</col>");
+					}
+				}
+				ivar7 = getGeneralRequirementAttribute(arg2, 2623);
+				if (ivar7 > 0 && script_19(21773, -1) < ivar7) {
+					ovar2 = (object)"<col=ff0000>";
+				} else {
+					ovar2 = (object)"<col=b37a2f>";
+				}
+				if (ivar7 == 1) {
+					ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Armadyl Rune" + "</col>");
+				} else {
+					if (ivar7 > 1) {
+						ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + toString(ivar7) + " Armadyl Runes" + "</col>");
+					}
+				}
+				if (getGeneralRequirementAttribute(arg2, 2624) == 1) {
+					switch (arg2) {
+						case 10641:
+							if (getItemAmtInContainer(94, 4170) < 1 && script_6336() == 0) {
+								ovar2 = (object)"<col=ff0000>";
+							} else {
+								ovar2 = (object)"<col=b37a2f>";
+							}
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "Slayer Staff" + "</col>");
+							break;
+						case 10649:
+						case 10654:
+						case 10657:
+						case 10645:
+							if (getItemAmtInContainer(93, 567) < 1) {
+								ovar2 = (object)"<col=ff0000>";
+							} else {
+								ovar2 = (object)"<col=b37a2f>";
+							}
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Unpowered Orb" + "</col>");
+							break;
+						case 10655:
+							if (getItemAmtInContainer(93, 1963) < 1) {
+								ovar2 = (object)"<col=ff0000>";
+							} else {
+								ovar2 = (object)"<col=b37a2f>";
+							}
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Banana" + "</col>");
+							break;
+						case 10733:
+							ovar2 = (object)"<col=b37a2f>";
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "Also Requires Coins" + "</col>");
+							break;
+						case 10735:
+							if (getItemAmtInContainer(93, 21778) < 70) {
+								ovar2 = (object)"<col=ff0000>";
+							} else {
+								ovar2 = (object)"<col=b37a2f>";
+							}
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "1 Bane Ore" + "</col>");
+							break;
+						case 10748:
+							if (getItemAmtInContainer(94, 21514) < 1) {
+								ovar2 = (object)"<col=ff0000>";
+							} else {
+								ovar2 = (object)"<col=b37a2f>";
+							}
+							ovar1 = (object)((string)ovar1 + "<br>" + (string)ovar2 + "Arcane Capacitor Necklace" + "</col>");
+					}
+				}
+			}
+		}
+		if (getGeneralRequirementAttribute(arg2, 2536) == 1 && isMember() == 0) {
+			ovar5 = (object)("<br>" + "<col=ff0000>" + "Members Only" + "</col>");
+		}
+		if (getGeneralRequirementAttribute(arg2, 2534) > 1) {
+			if (cs2method_10391(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg2, 2533))) < getGeneralRequirementAttribute(arg2, 2534)) {
+				ovar2 = (object)"<col=ff0000>";
+			} else {
+				ovar2 = (object)"<col=b37a2f>";
+			}
+			switch (getGeneralRequirementAttribute(arg2, 2533)) {
+				case 1:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Attack" + "</col>");
+					break;
+				case 2:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Strength" + "</col>");
+					break;
+				case 5:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Defence" + "</col>");
+					break;
+				case 3:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Ranged" + "</col>");
+					break;
+				case 6:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Constitution" + "</col>");
+					break;
+				case 4:
+					ovar4 = (object)("<br>" + (string)ovar2 + "Level " + toString(getGeneralRequirementAttribute(arg2, 2534)) + " Magic" + "</col>");
+			}
+		}
+		if (getGeneralRequirementAttribute(arg2, 2537) == 1) {
+			if (cs2method_10226(94, 2548) == 2 && getGeneralRequirementAttribute(arg2, 2533) == 3) {
+				ovar2 = (object)"<col=b37a2f>";
+			} else if (cs2method_10226(94, 2547) == 2 && getGeneralRequirementAttribute(arg2, 2533) != 3) {
+				ovar2 = (object)"<col=b37a2f>";
+			} else {
+				ovar2 = (object)"<col=ff0000>";
+			}
+			if (getGeneralRequirementAttribute(arg2, 2533) == 3) {
+				ovar6 = (object)("<br>" + (string)ovar2 + "Dual-Wielded Ranged Weapons" + "</col>");
+			} else {
+				ovar6 = (object)("<br>" + (string)ovar2 + "Dual-Wielded Melee Weapons" + "</col>");
+			}
+		} else if (getGeneralRequirementAttribute(arg2, 2538) == 1) {
+			if (cs2method_10721(ivar11) > 0 && cs2method_10995(ivar11) > 0 && getGeneralRequirementAttribute(arg2, 2533) == 3 && getItemAttribute(ivar11, 2548) == 1) {
+				ovar2 = (object)"<col=b37a2f>";
+			} else if (cs2method_10721(ivar11) > 0 && cs2method_10995(ivar11) > 0 && getGeneralRequirementAttribute(arg2, 2533) != 3 && getItemAttribute(ivar11, 2547) == 1) {
+				ovar2 = (object)"<col=b37a2f>";
+			} else {
+				ovar2 = (object)"<col=ff0000>";
+			}
+			if (getGeneralRequirementAttribute(arg2, 2533) == 3) {
+				ovar6 = (object)("<br>" + (string)ovar2 + "Two-Handed Ranged Weapon" + "</col>");
+			} else {
+				ovar6 = (object)("<br>" + (string)ovar2 + "Two-Handed Melee Weapon" + "</col>");
+			}
+		} else {
+			if (getGeneralRequirementAttribute(arg2, 2539) == 1) {
+				if (cs2method_10226(94, 2551) > 0) {
+					ovar2 = (object)"<col=b37a2f>";
+				} else {
+					ovar2 = (object)"<col=ff0000>";
+				}
+				ovar6 = (object)("<br>" + (string)ovar2 + "Shield" + "</col>");
+			}
+		}
+		if (cs2method_10366(ovar1) > 0 || cs2method_10366(ovar4) > 0 || cs2method_10366(ovar5) > 0 || cs2method_10366(ovar6) > 0) {
+			ovar1 = (object)("<br>" + "<br>" + "<u=b37a2f>" + "Requires" + "</u>" + (string)ovar5 + (string)ovar4 + (string)ovar1 + (string)ovar6);
+		}
+		ovar0 = (object)((string)ovar0 + (string)ovar1);
+		if (getGeneralRequirementAttribute(arg2, 2525) > 1) {
+			ivar10 = cs2method_10004(divide(multiply(getGeneralRequirementAttribute(arg2, 2525), 6), 10), 2);
+			ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "<u=b37a2f>" + "Cooldown" + "</u>" + "<br>" + toString(ivar10) + " seconds");
+		} else {
+			if (getGeneralRequirementAttribute(arg2, 2525) == 1) {
+				ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "<u=b37a2f>" + "Cooldown" + "</u>" + "<br>" + "1 second");
+			}
+		}
+		ivar6 = add(multiply(getLineCount(cs2method_10956(ivar4), 3793, ovar0), ivar9), 10);
+		cs2method_10893(cs2method_10956(ivar3), ivar6, 0, 0, ivar3);
+		setWidgetText(new WidgetPointer(ivar4), ovar0);
+		if (arg0 == 85458978) {
+			if (cs2method_10842() >= 2) {
+				cs2method_10444(cs2method_10956(48889888), cs2method_10090(48889877), 2, 2, ivar3);
+			} else if (cs2method_10416(85196915) == 0) {
+				cs2method_10444(0, cs2method_10090(85196915), 2, 2, ivar3);
+			} else {
+				cs2method_10444(0, cs2method_10090(85196815), 2, 2, ivar3);
+			}
+		} else if (cs2method_10842() >= 2) {
+			cs2method_10444(cs2method_10004(30, cs2method_10586(subtract(cs2method_10111(cs2method_10740(arg0)), 2), 275)), subtract(cs2method_10826(48889880), cs2method_10090(ivar3)), 0, 0, ivar3);
+		} else if (cs2method_10416(85196915) == 0) {
+			cs2method_10444(cs2method_10004(30, cs2method_10586(subtract(cs2method_10111(cs2method_10740(arg0)), 2), 275)), cs2method_10090(85196915), 0, 2, ivar3);
+		} else {
+			cs2method_10444(cs2method_10004(30, cs2method_10586(subtract(cs2method_10111(cs2method_10740(arg0)), 2), 275)), cs2method_10090(85196815), 0, 2, ivar3);
+		}
+		setWidgetIsHidden(false, new WidgetPointer(ivar3));
+	}
+	return;
+}

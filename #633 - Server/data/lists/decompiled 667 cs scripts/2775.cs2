@@ -1,0 +1,8 @@
+void script_2775(int arg0,int arg1) {
+	if (cs2method_10878() < arg0) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg1));
+	setWidgetRGB(16724016, arg1);
+	return;
+}

@@ -1,0 +1,4 @@
+void script_6085(int arg0) {
+	script_6087(standart_config_118, standart_config_1496, arg0, bitconfig_11055);
+	return;
+}

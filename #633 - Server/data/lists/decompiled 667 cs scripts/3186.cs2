@@ -1,0 +1,7 @@
+void script_3186(int arg0,int arg1) {
+	cs2method_10893(cs2method_10355(2710, cs2method_10100(arg1)), 0, 0, 1, arg1);
+	cs2method_10444(40, 0, 2, 1, arg1);
+	cs2method_10893(38, 31, 0, 0, arg0);
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	return;
+}

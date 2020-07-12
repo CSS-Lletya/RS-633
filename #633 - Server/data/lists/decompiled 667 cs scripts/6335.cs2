@@ -1,0 +1,47 @@
+void script_6335(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 85196842:
+			ivar1 = 85196844;
+			break;
+		case 85196871:
+			ivar1 = 85196847;
+			break;
+		case 85196875:
+			ivar1 = 85196849;
+			break;
+		case 85196879:
+			ivar1 = 85196851;
+			break;
+		case 85196883:
+			ivar1 = 85196853;
+			break;
+		case 85196887:
+			ivar1 = 85196855;
+			break;
+		case 85196891:
+			ivar1 = 85196857;
+			break;
+		case 85196895:
+			ivar1 = 85196859;
+			break;
+		case 85196899:
+			ivar1 = 85196861;
+			break;
+		case 85196903:
+			ivar1 = 85196863;
+			break;
+		case 85196907:
+			ivar1 = 85196865;
+			break;
+		case 85196911:
+			ivar1 = 85196867;
+	}
+	if (ivar1 != -1) {
+		cs2method_10149(255, ivar1);
+		cs2method_20333(6344, new WidgetPointer(-32768,3), 1, "I1", new WidgetPointer(ivar1));
+		cs2method_20295(6344, new WidgetPointer(-32768,3), 0, "I1", new WidgetPointer(ivar1));
+	}
+	return;
+}

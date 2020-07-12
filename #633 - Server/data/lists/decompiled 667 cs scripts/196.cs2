@@ -1,0 +1,19 @@
+void script_196() {
+	if (compareTo(cs2method_10547(0, 1, cs2method_10664()), (object)"#") == 0) {
+		return;
+	}
+	if (standart_config_2522 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(906,34));
+		cs2method_10928(59375650);
+		if (standart_config_281 > 1000) {
+			setWidgetText(new WidgetPointer(906,436), (object)("Explore and enjoy the members' game for 14 days," + "<br>" + "absolutely free! Click below to activate your trial" + "<br>" + "and enjoy the following members' benefits:" + "<br>" + "<br>" + "- Over 150 extra Quests" + "<br>" + "- 9 Exclusive Skills" + "<br>" + "- Over 40 Minigames" + "<br>" + "- Join the Members' Loyalty Programme" + "<br>" + "- Extra spins on the Squeal of Fortune" + "<br>" + "- Unlock over 400 extra bank spaces" + "<br>" + "- And much more!"));
+			setWidgetText(new WidgetPointer(906,435), (object)"You're eligible for Free Members' Access!");
+			setWidgetIsHidden(true, new WidgetPointer(906,437));
+		} else {
+			setWidgetText(new WidgetPointer(906,436), (object)("You're eligible for a free trial of the members-only" + "<br>" + "features of RuneScape!" + "<br>" + "<br>" + "Click the button below to start your two weeks of" + "<br>" + "membership and explore the wider and fuller world " + "<br>" + "we offer."));
+			setWidgetText(new WidgetPointer(906,435), (object)"Your 14 days of free membership await...");
+			setWidgetIsHidden(false, new WidgetPointer(906,437));
+		}
+	}
+	return;
+}

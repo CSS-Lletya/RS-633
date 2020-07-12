@@ -1,0 +1,10 @@
+void script_5052(int arg0,int arg1) {
+	if (cs2method_10551(arg0, 3) == 1) {
+		if (arg1 == 1) {
+			cs2method_10195(0, divide(cs2method_10630(), 2));
+		} else {
+			cs2method_10195(divide(cs2method_10040(), 2), 0);
+		}
+	}
+	return;
+}

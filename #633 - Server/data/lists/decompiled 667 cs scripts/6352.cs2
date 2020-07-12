@@ -1,0 +1,127 @@
+void script_6352(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)getDataByKey('i', 's', 5972, arg0);
+	ivar1 = -1;
+	if (cs2method_10366(ovar0) > 0) {
+		flow_1:
+			SWITCH (globalint_1954) {
+				case 1:
+					 GOTO flow_2
+				case 2:
+					 GOTO flow_3
+				case 3:
+					 GOTO flow_4
+				case 4:
+					 GOTO flow_5
+				case 5:
+					 GOTO flow_6
+				case 6:
+					 GOTO flow_7
+				case 7:
+					 GOTO flow_8
+				case 8:
+					 GOTO flow_9
+				case 9:
+					 GOTO flow_10
+				case 10:
+					 GOTO flow_11
+				case 11:
+					 GOTO flow_12
+				case 12:
+					 GOTO flow_13
+			}
+			return;
+		flow_2:
+			globalint_1955 = arg0;
+			ivar1 = 85196842;
+			GOTO	flow_14
+		flow_3:
+			globalint_1956 = arg0;
+			ivar1 = 85196871;
+			GOTO	flow_14
+		flow_4:
+			globalint_1957 = arg0;
+			ivar1 = 85196875;
+			GOTO	flow_14
+		flow_5:
+			globalint_1958 = arg0;
+			ivar1 = 85196879;
+			GOTO	flow_14
+		flow_6:
+			globalint_1959 = arg0;
+			ivar1 = 85196883;
+			GOTO	flow_14
+		flow_7:
+			globalint_1960 = arg0;
+			ivar1 = 85196887;
+			GOTO	flow_14
+		flow_8:
+			globalint_1961 = arg0;
+			ivar1 = 85196891;
+			GOTO	flow_14
+		flow_9:
+			globalint_1962 = arg0;
+			ivar1 = 85196895;
+			GOTO	flow_14
+		flow_10:
+			globalint_1963 = arg0;
+			ivar1 = 85196899;
+			GOTO	flow_14
+		flow_11:
+			globalint_1964 = arg0;
+			ivar1 = 85196903;
+			GOTO	flow_14
+		flow_12:
+			globalint_1965 = arg0;
+			ivar1 = 85196907;
+			GOTO	flow_14
+		flow_13:
+			globalint_1966 = arg0;
+			ivar1 = 85196911;
+		flow_14:
+			if (script_6350(globalint_1955, 85196842) == arg0 && ivar1 != 85196842) {
+				globalint_1955 = 1337;
+			}
+			if (script_6350(globalint_1956, 85196871) == arg0 && ivar1 != 85196871) {
+				globalint_1956 = 1337;
+			}
+			if (script_6350(globalint_1957, 85196875) == arg0 && ivar1 != 85196875) {
+				globalint_1957 = 1337;
+			}
+			if (script_6350(globalint_1958, 85196879) == arg0 && ivar1 != 85196879) {
+				globalint_1958 = 1337;
+			}
+			if (script_6350(globalint_1959, 85196883) == arg0 && ivar1 != 85196883) {
+				globalint_1959 = 1337;
+			}
+			if (script_6350(globalint_1960, 85196887) == arg0 && ivar1 != 85196887) {
+				globalint_1960 = 1337;
+			}
+			if (script_6350(globalint_1961, 85196891) == arg0 && ivar1 != 85196891) {
+				globalint_1961 = 1337;
+			}
+			if (script_6350(globalint_1962, 85196895) == arg0 && ivar1 != 85196895) {
+				globalint_1962 = 1337;
+			}
+			if (script_6350(globalint_1963, 85196899) == arg0 && ivar1 != 85196899) {
+				globalint_1963 = 1337;
+			}
+			if (script_6350(globalint_1964, 85196903) == arg0 && ivar1 != 85196903) {
+				globalint_1964 = 1337;
+			}
+			if (script_6350(globalint_1965, 85196907) == arg0 && ivar1 != 85196907) {
+				globalint_1965 = 1337;
+			}
+			if (script_6350(globalint_1966, 85196911) == arg0 && ivar1 != 85196911) {
+				globalint_1966 = 1337;
+			}
+			script_6322(0, 1);
+			cs2method_10998((object)("Successfully bound key: " + (string)ovar0 + "."));
+	} else {
+		cs2method_10998((object)"That key cannot be bound to the action bar. Valid keys: A-Z, 0-9, -=][/\\#';,.");
+		cs2method_20219(6353, new WidgetPointer(-32768,3), 0, "Ii", new WidgetPointer(1300,41));
+	}
+	globalint_1954 = 0;
+	return;
+}

@@ -1,0 +1,41 @@
+int script_4643(int arg0) {
+	flow_0:
+		SWITCH (arg0) {
+			case 1:
+				 GOTO flow_1
+			case 4:
+				 GOTO flow_7
+			case 2:
+				 GOTO flow_11
+			case 3:
+				 GOTO flow_16
+			case 6:
+				 GOTO flow_22
+		}
+		return 0;
+	flow_1:
+		if (cs2method_10453(0) >= 30 && cs2method_10453(6) >= 30 && cs2method_10453(4) >= 30) {
+			return 1;
+		}
+		return 0;
+	flow_7:
+		if (cs2method_10453(2) >= 70) {
+			return 1;
+		}
+		return 0;
+	flow_11:
+		if (cs2method_10453(16) >= 55 && cs2method_10453(17) >= 55) {
+			return 1;
+		}
+		return 0;
+	flow_16:
+		if (cs2method_10453(17) >= 45 && cs2method_10453(0) >= 60 && cs2method_10453(24) >= 55) {
+			return 1;
+		}
+		return 0;
+	flow_22:
+		if (cs2method_10453(2) >= 75) {
+			return 1;
+		}
+		return 0;
+}

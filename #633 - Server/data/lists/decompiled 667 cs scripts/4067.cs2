@@ -1,0 +1,19 @@
+void script_4067(int arg0) {
+	switch (arg0) {
+		case 69337110:
+			cs2method_10444(-160, 13, 1, 0, arg0);
+			break;
+		case 69337111:
+			cs2method_10444(-80, 13, 1, 0, arg0);
+			break;
+		case 69337112:
+			cs2method_10444(0, 13, 1, 0, arg0);
+			break;
+		case 69337114:
+			cs2method_10444(80, 13, 1, 0, arg0);
+			break;
+		case 69337113:
+			cs2method_10444(160, 13, 1, 0, arg0);
+	}
+	return;
+}

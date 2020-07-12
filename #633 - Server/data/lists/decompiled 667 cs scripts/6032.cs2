@@ -1,0 +1,11 @@
+void script_6032() {
+	if (cs2method_10878() < add(globalint_1795, 200)) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(906,236));
+	cs2method_20889(5951, 2527, 1, "Y", new WidgetPointer(906,236));
+	script_3097();
+	script_3093(-3, 0, 0, 10150, 0, -1, 1, (object)"After you have completed your transaction, click continue to return to the game.", (object)"", (object)"", (object)"Continue", (object)"Continue");
+	cs2method_20000(5953, "", new WidgetPointer(906,258));
+	return;
+}

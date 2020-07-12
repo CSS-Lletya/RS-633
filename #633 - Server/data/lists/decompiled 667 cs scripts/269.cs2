@@ -1,0 +1,12 @@
+void script_269(int arg0,int arg1) {
+	if (arg0 <= subtract(cs2method_10800(0), 2)) {
+		cs2method_10767(0, arg0, 1500, 1500, 1, arg0);
+	} else {
+		cs2method_20808(-1, "", new WidgetPointer(arg1));
+		cs2method_10532();
+		script_675();
+		return;
+	}
+	cs2method_20808(269, cs2method_10586(subtract(cs2method_10800(0), 1), add(1, arg0)), new WidgetPointer(arg1), "iI", new WidgetPointer(arg1));
+	return;
+}

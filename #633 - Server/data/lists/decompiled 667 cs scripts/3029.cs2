@@ -1,0 +1,158 @@
+void script_3029(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	int stack_dump0;
+	opc_struct10644(0,2,0) structdump_1;
+	if (cs2method_10653(arg3, -1) == 1) {
+		cs2method_20219(3028, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), "IIIIII", new WidgetPointer(arg4));
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg4));
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	clearExtraChildren(new WidgetPointer(arg3));
+	ivar6 = cs2method_10223();
+	ivar7 = 0;
+	ivar8 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = 15;
+	ivar12 = 0;
+	ivar13 = 5;
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	ovar3 = (object)"";
+	if (ivar6 == -2) {
+		setWidgetText(new WidgetPointer(909,38), (object)"Name");
+		script_3038(arg3, (object)("Loading Friends List." + "<br>" + "<br>" + "Please wait."));
+		cs2method_10893(cs2method_10956(59572255), cs2method_10090(59572260), 0, 0, 59572255);
+	} else if (ivar6 == -1) {
+		setWidgetText(new WidgetPointer(909,38), (object)"Name");
+		script_3038(arg3, (object)("Connecting to server." + "<br>" + "<br>" + "Please wait."));
+		cs2method_10893(cs2method_10956(59572255), cs2method_10090(59572260), 0, 0, 59572255);
+	} else if (ivar6 > 0) {
+		setWidgetText(new WidgetPointer(909,38), (object)("Name (" + toString(ivar6) + "/200)"));
+		cs2method_10893(cs2method_10956(59572255), 4, 0, 1, 59572255);
+		while (ivar7 < ivar6) {
+			stack_dump0 = ivar7;
+			structdump_1 = cs2method_10644(stack_dump0);
+			ovar1 = structdump_1.objectpart_1;
+			ovar0 = structdump_1.objectpart_0;
+			ivar9 = cs2method_10617(ivar7);
+			script_2996(arg3, ivar7, cs2method_10956(arg3), ivar11, 0, ivar8, 0, 1, 0);
+			if (cs2method_10620(ivar7, 2) == 0) {
+				setWidgetRGB(new Color(32, 25, 17));
+			} else {
+				setWidgetRGB(new Color(41, 32, 22));
+			}
+			cs2method_20211(3030, new WidgetPointer(arg3), ivar7, "Ii");
+			cs2method_20139(3035, "");
+			if (cs2method_10366(ovar1) > 0) {
+				ivar16 = add(cs2method_10355(494, (object)("Last known as: " + (string)ovar1)), 8);
+				if (ivar16 > cs2method_10956(59572243)) {
+					ovar3 = (object)("Last known as:" + "<br>" + (string)ovar1);
+				} else {
+					ovar3 = (object)("Last known as: " + (string)ovar1);
+				}
+				cs2method_20930(2467, new WidgetPointer(-32768,3), -2147483643, (string)ovar3, -2147483647, -2147483646, new WidgetPointer(909,41), new WidgetPointer(909,32), new WidgetPointer(909,35), 494, "IisiiIIIf");
+			}
+			cs2method_11002(ovar0);
+			if (ivar9 > 0) {
+				setWidgetContextMenuOption(1, (object)"Message");
+				setWidgetContextMenuOption(2, (object)"Join");
+			} else {
+				setWidgetContextMenuOption(3, (object)"Message");
+				setWidgetContextMenuOption(4, (object)"Join");
+			}
+			setWidgetContextMenuOption(10, (object)"Delete");
+			cs2method_20115(3039, -2147483644, ivar9, (string)ovar0, ivar7, "iisi");
+			script_2994(arg1, ivar7, 14, 14, 5, add(ivar8, 1), -1, 0, 0, 0, 0);
+			if (compareTo(ovar1, (object)"") != 0) {
+				cs2method_10469(2313);
+				ivar13 = 20;
+			} else {
+				cs2method_10469(-1);
+				ivar13 = 5;
+			}
+			ovar2 = ovar0;
+			script_2995(arg0, ivar7, 0, ivar11, ivar13, ivar8, 16777215, 494, 0, 1, 0, 1, ovar2);
+			setWidgetSize(ivar13, ivar11, 1, 0);
+			cs2method_10037(1);
+			if (ivar9 == 0) {
+				ovar2 = (object)"Offline";
+				ivar14 = 16711680;
+			} else if (ivar9 >= 1149 && ivar9 < 1200) {
+				ovar2 = (object)"Beta lobby";
+			} else if (ivar9 >= 200 && ivar9 < 250) {
+				ovar2 = (object)("Beta " + toString(ivar9));
+			} else {
+				ovar2 = cs2method_10863(ivar7);
+			}
+			if (ivar9 > 0) {
+				if (ivar9 == cs2method_10847()) {
+					ivar14 = 65280;
+				} else {
+					ivar14 = 16776960;
+				}
+			}
+			script_2995(arg2, ivar7, 0, ivar11, 5, ivar8, ivar14, 494, 0, 1, 0, 1, ovar2);
+			setWidgetSize(5, ivar11, 1, 0);
+			cs2method_10037(1);
+			ivar8 = add(ivar8, ivar11);
+			ivar7 = add(ivar7, 1);
+		}
+		ivar10 = add(divide(cs2method_10090(arg4), ivar11), 1);
+		if (ivar10 > ivar6) {
+			while (ivar7 < ivar10) {
+				script_2996(arg3, ivar7, cs2method_10956(arg3), ivar11, 0, ivar8, 0, 1, 0);
+				if (cs2method_10620(ivar7, 2) == 0) {
+					setWidgetRGB(new Color(32, 25, 17));
+				} else {
+					setWidgetRGB(new Color(41, 32, 22));
+				}
+				ivar8 = add(ivar8, ivar11);
+				ivar7 = add(ivar7, 1);
+			}
+			ivar12 = cs2method_10090(arg4);
+		} else {
+			ivar12 = ivar8;
+		}
+		if (ivar10 <= ivar6) {
+			ivar15 = cs2method_10424(59572265);
+			setWidgetScrollMax(0, ivar12, 59572265);
+			if (ivar15 > ivar12) {
+				ivar15 = ivar12;
+			}
+			script_72(59572271, 59572265, ivar15);
+		} else {
+			setWidgetScrollMax(0, 0, 59572265);
+			cs2method_10085(0, 0, 59572265);
+			script_72(59572271, 59572265, 0);
+		}
+	} else {
+		if (ivar6 == 0) {
+			setWidgetText(new WidgetPointer(909,38), (object)"Name");
+			script_3038(arg3, (object)"You have not added any friends to your list.");
+			cs2method_10893(cs2method_10956(59572255), cs2method_10090(59572260), 0, 0, 59572255);
+		}
+	}
+	return;
+}

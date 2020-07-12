@@ -1,0 +1,7 @@
+void script_4575() {
+	if (script_1891() == 1) {
+		script_41(38600739);
+		script_3015(9, (object)"Kick/ban from chat channel", (object)"", (object)"", (object)"");
+	}
+	return;
+}

@@ -1,0 +1,18 @@
+void script_2299(int arg0) {
+	if (globalint_181 == 1) {
+		if (bitconfig_6840 == 1) {
+			cs2method_10375(2, arg0, (object)"Finish quick curse selection");
+			setWidgetText(new WidgetPointer(271,13), (object)"Select your quick curses:");
+		} else {
+			cs2method_10375(2, arg0, (object)"Finish quick prayer selection");
+			setWidgetText(new WidgetPointer(271,13), (object)"Select your quick prayers:");
+		}
+	} else if (bitconfig_6840 == 1) {
+		cs2method_10375(2, arg0, (object)"Select quick curses");
+	} else {
+		cs2method_10375(2, arg0, (object)"Select quick prayers");
+	}
+	script_817(5);
+	script_2303();
+	return;
+}

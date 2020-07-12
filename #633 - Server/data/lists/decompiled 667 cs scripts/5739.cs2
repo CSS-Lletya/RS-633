@@ -1,0 +1,14 @@
+int script_5739(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	setWidgetText(new WidgetPointer(arg2), arg4);
+	setWidgetFont(3793, arg2);
+	setWidgetTextAlignment(0, 1, 13, arg2);
+	ivar4 = subtract(cs2method_10956(arg3), 18);
+	ivar4 = add(ivar4, 9);
+	ivar5 = multiply(15, getLineCount(ivar4, 3793, arg4));
+	cs2method_10893(ivar4, ivar5, 0, 0, arg2);
+	cs2method_10444(9, arg1, 0, 0, arg2);
+	return add(arg1, ivar5);
+}

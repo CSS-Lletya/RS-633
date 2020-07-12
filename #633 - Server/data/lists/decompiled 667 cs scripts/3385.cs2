@@ -1,0 +1,34 @@
+void script_3385() {
+	object ovar0;
+	cs2method_10070(48758808, 976);
+	ovar0 = (object)"";
+	if (cs2method_10557() == 1) {
+		ovar0 = (object)"There was a problem with your current graphic settings, so you have been given default settings for safety. Click below to auto-choose best graphics settings.";
+		setWidgetText(new WidgetPointer(976,2), ovar0);
+		cs2method_10893(cs2method_10956(63963136), add(multiply(22, getLineCount(cs2method_10956(63963138), 3793, ovar0)), 86), 0, 0, 63963136);
+		cs2method_10893(cs2method_10355(3793, cs2method_10100(63963140)), cs2method_10090(63963140), 0, 0, 63963140);
+	} else if (globalint_1277 == 1 && globalint_1240 == -1) {
+		ovar0 = (object)"This is your first time playing. Click below to auto-choose best graphics settings. Choose 'Leave Alone' to continue with default settings.";
+		setWidgetText(new WidgetPointer(976,2), ovar0);
+		cs2method_10893(cs2method_10956(63963136), add(multiply(22, getLineCount(cs2method_10956(63963138), 3793, ovar0)), 86), 0, 0, 63963136);
+		cs2method_10893(cs2method_10355(3793, cs2method_10100(63963140)), cs2method_10090(63963140), 0, 0, 63963140);
+	} else if (globalint_1240 == -1) {
+		ovar0 = (object)"This is your first time playing, click below to auto choose best graphics settings.";
+		setWidgetText(new WidgetPointer(976,2), ovar0);
+		cs2method_10444(0, 10, 1, 0, 63963138);
+		cs2method_10893(cs2method_10956(63963138), 68, 0, 1, 63963138);
+		cs2method_10444(0, 17, 1, 2, 63963139);
+		cs2method_10893(cs2method_10956(63963136), add(multiply(22, getLineCount(cs2method_10956(63963138), 3793, ovar0)), 68), 0, 0, 63963136);
+		setWidgetIsHidden(true, new WidgetPointer(976,4));
+	} else {
+		ovar0 = (object)"Available graphics options have changed. Click below to auto choose best graphics settings.";
+		if (globalint_1277 == 1) {
+			ovar0 = (object)"Available graphics options have changed. Click below to auto-choose best graphics settings. Choose 'Leave Alone' to continue with your current settings.";
+		}
+		setWidgetText(new WidgetPointer(976,2), ovar0);
+		cs2method_10893(cs2method_10956(63963136), add(multiply(22, getLineCount(cs2method_10956(63963138), 3793, ovar0)), 86), 0, 0, 63963136);
+		cs2method_10893(cs2method_10355(3793, cs2method_10100(63963140)), cs2method_10090(63963140), 0, 0, 63963140);
+	}
+	globalint_1277 = 1;
+	return;
+}

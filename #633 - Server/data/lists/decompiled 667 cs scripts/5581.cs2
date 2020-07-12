@@ -1,0 +1,9 @@
+void script_5581() {
+	cs2method_10893(250, 30, 0, 0, 78184453);
+	cs2method_20219(5582, new WidgetPointer(1193,11), new WidgetPointer(1193,3), "II", new WidgetPointer(1193,11));
+	cs2method_20219(5582, new WidgetPointer(1193,13), new WidgetPointer(1193,23), "II", new WidgetPointer(1193,13));
+	cs2method_20219(5582, new WidgetPointer(1193,14), new WidgetPointer(1193,28), "II", new WidgetPointer(1193,14));
+	cs2method_20219(5582, new WidgetPointer(1193,15), new WidgetPointer(1193,33), "II", new WidgetPointer(1193,15));
+	setScriptCallOnKeyPress(5583, -2147483640, false, "iz", new WidgetPointer(1193,4));
+	return;
+}

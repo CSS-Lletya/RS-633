@@ -1,0 +1,9 @@
+int script_1504(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	ivar4 = 0;
+	if (cs2method_10551(arg2, arg3) == 1 || arg3 == -1 && cs2method_10403(arg2) == 1) {
+		ivar4 = divide(subtract(cs2method_10040(), cs2method_10355(arg1, script_1602(arg4))), 2);
+		return script_1401(arg0, arg1, ivar4, arg4);
+	}
+	return cs2method_10366(arg4);
+}

@@ -1,0 +1,18 @@
+void script_3139(int arg0) {
+	object ovar0;
+	if (globalint_998 == arg0) {
+		script_1857(script_1854());
+		script_1858(0);
+	} else {
+		if (globalint_999 == arg0) {
+			script_1858(0);
+		}
+	}
+	globalint_998 = script_1853();
+	globalint_999 = script_1854();
+	script_3113();
+	ovar0 = (object)("Your changes cannot be saved because" + "<br>" + "you are using the unsigned client.");
+	script_3143(0, (object)("World " + toString(arg0) + " has been removed from your favourites."));
+	script_3065(1);
+	return;
+}

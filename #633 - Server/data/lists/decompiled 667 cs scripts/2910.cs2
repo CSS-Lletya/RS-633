@@ -1,0 +1,12 @@
+void script_2910(int arg0,int arg1) {
+	if (compareTo(cs2method_10100(arg1), (object)"Hide") == 0) {
+		cs2method_20219(2911, 0, 20, subtract(cs2method_10090(cs2method_10740(arg0)), 20), 0, new WidgetPointer(arg0), "1iiiI", new WidgetPointer(arg0));
+		setWidgetText(new WidgetPointer(arg1), (object)"Show");
+		cs2method_10375(1, arg1, (object)"Show");
+	} else {
+		cs2method_20219(2911, 1, 20, subtract(cs2method_10090(cs2method_10740(arg0)), 20), 0, new WidgetPointer(arg0), "1iiiI", new WidgetPointer(arg0));
+		setWidgetText(new WidgetPointer(arg1), (object)"Hide");
+		cs2method_10375(1, arg1, (object)"Hide");
+	}
+	return;
+}

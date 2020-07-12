@@ -1,0 +1,8 @@
+void script_4625() {
+	if (compareTo((object)globalstring_353, (object)"") != 0 && compareTo((object)globalstring_353, (object)"null") != 0) {
+		globalstring_354 = globalstring_353;
+	} else {
+		globalstring_354 = "";
+	}
+	return;
+}

@@ -1,0 +1,205 @@
+void script_4704() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	opc_struct10950(3,0,0) structdump_0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = -1;
+	structdump_0 = cs2method_10950();
+	ivar2 = structdump_0.intpart_2;
+	ivar1 = structdump_0.intpart_1;
+	ivar0 = structdump_0.intpart_0;
+	switch (ivar0) {
+		case 0:
+			break;
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			cs2method_10998((object)"Your password has been updated. Please leave the world and log in again.");
+			break;
+		case 4:
+			cs2method_10998((object)"Your account has been disabled. Check your Message Centre for details.");
+			break;
+		case 5:
+			cs2method_10998((object)"Your account has not logged out from its last session. Try again in a few minutes.");
+			break;
+		case 6:
+			cs2method_10998((object)"RuneScape has been updated! Please try again in a few minutes.");
+			break;
+		case 7:
+			cs2method_10998((object)"This world is full. Please try back later.");
+			break;
+		case 8:
+			cs2method_10998((object)"Unable to connect: login server offline.");
+			break;
+		case 9:
+			cs2method_10998((object)"Login limit exceeded: too many connections from your address.");
+			break;
+		case 10:
+			cs2method_10998((object)"Unable to connect: bad session id.");
+			break;
+		case 11:
+			cs2method_10998((object)"Your password is an extremely common choice, and is not secure. You must change it.");
+			break;
+		case 12:
+			cs2method_10998((object)"You need a member's account to log in to this world.");
+			break;
+		case 13:
+			cs2method_10998((object)"Could not complete login. Please try back later.");
+			break;
+		case 14:
+			cs2method_10998((object)"The server is being updated. Please wait a few minutes and try again.");
+			break;
+		case 15:
+			break;
+		case 16:
+			cs2method_10998((object)"Too many incorrect logins from your address. Please wait 5 minutes before trying again.");
+			break;
+		case 17:
+			cs2method_10998((object)"You are standing in a members-only area. To play on this world, move to a free area first.");
+			break;
+		case 18:
+			cs2method_10998((object)"Your account has been locked. If you have not received an account recovery email, please select 'Recover Account'.");
+			break;
+		case 19:
+			cs2method_10998((object)"Fullscreen is currently a members-only feature. To log in, either exit fullscreen via the options menu or use a member's account.");
+			break;
+		case 20:
+			cs2method_10998((object)"Invalid loginserver requested. Please try back later.");
+			break;
+		case 21:
+			break;
+		case 22:
+			cs2method_10998((object)"Malformed login packet. Please try again.");
+			break;
+		case 23:
+			cs2method_10998((object)"No reply from login server. Please wait a minute and try again.");
+			break;
+		case 24:
+			cs2method_10998((object)"Error loading your profile. Please contact customer support.");
+			break;
+		case 25:
+			cs2method_10998((object)"Unexpected loginserver response. Please try back later.");
+			break;
+		case 26:
+			cs2method_10998((object)"This computer's address has been blocked, as it was used to break our rules.");
+			break;
+		case 27:
+			cs2method_10998((object)"Service unavailable.");
+			break;
+		case 28:
+			break;
+		case 29:
+			switch (cs2method_10336()) {
+				case 0:
+					cs2method_10998((object)"You must have a Combat Level of at least 20 (not including Summoning) to enter a PvP world.");
+					break;
+				case 1:
+					cs2method_10998((object)"You are currently carrying lent items and cannot enter a PvP world.");
+					break;
+				case 2:
+					cs2method_10998((object)"You must be standing in the Wilderness or Edgeville to enter this bounty world.");
+					break;
+				case 3:
+					cs2method_10998((object)"You must have a total skill level of 1,000 or greater to enter this world.");
+					break;
+				case 5:
+					cs2method_10998((object)"You must have a total skill level of 1,500 or greater to enter this world.");
+					break;
+				case 4:
+					cs2method_10998((object)"You must move to a safe area before you can log in to a PvP or bounty world.");
+					break;
+				default:
+					cs2method_10998((object)"Unexpected server response. Please try back later.");
+			}
+			break;
+		case 30:
+			cs2method_10998((object)"This is not a member's account. Please choose a 'free' world from the website to play on this account.");
+			break;
+		case 31:
+			break;
+		case 32:
+			cs2method_10998((object)"Your account has negative membership credit. Please log into the billing system to add credit to your account.");
+			break;
+		case 33:
+			break;
+		case 34:
+			break;
+		case 35:
+			break;
+		case 36:
+			break;
+		case 37:
+			cs2method_10998((object)"Your account is currently inaccessible. Please try again in a few minutes.");
+			break;
+		case 38:
+			break;
+		case 39:
+			cs2method_10998((object)"The instance you tried to join no longer exists. Please try back later.");
+			break;
+		case 40:
+			cs2method_10998((object)"You need a member's account to log in to this instance.");
+			break;
+		case 41:
+			cs2method_10998((object)"The instance you tried to join is full. Please try back later.");
+			break;
+		case 42:
+			break;
+		case 43:
+			break;
+		case 44:
+			cs2method_10998((object)"Our systems are currently unavailable. Please try again in a few minutes.");
+			break;
+		case 48:
+			cs2method_10998((object)"Client token failure - please reload this page.");
+			break;
+		case 45:
+			switch (ivar2) {
+				case 0:
+					switch (ivar1) {
+						case 0:
+							cs2method_10998((object)"You must be near the TzHaar Fight Pits entrance to enter a global match.");
+							break;
+						default:
+							cs2method_10998((object)"Unable to log in. Please try back later.");
+					}
+					break;
+				case 1:
+					switch (ivar1) {
+						case 1:
+							cs2method_10998((object)"There was an error connecting to your meeting room. Please try again.");
+							break;
+						case 2:
+							cs2method_10998((object)"You need a higher rank to enter that private tent.");
+							break;
+						case 3:
+							cs2method_10998((object)"You need an invitation to enter that private room.");
+							break;
+						default:
+							cs2method_10998((object)"Unable to log in. Please try back later.");
+					}
+					break;
+				case 4:
+					switch (ivar1) {
+						case 1:
+							cs2method_10998((object)"You need to clear some inventory space to enter a Flash Factory game.");
+							break;
+						case 2:
+							cs2method_10998((object)"You must dismiss your follower before entering a Flash Factory game.");
+					}
+					break;
+				default:
+					cs2method_10998((object)"Unable to log in. Please try back later.");
+			}
+			break;
+		case 46:
+			cs2method_10998((object)"This instance is marked for deletion/rebuild. Please try again in a few minutes.");
+			break;
+		case 47:
+			cs2method_10998((object)"You need to validate your email address to log in.");
+	}
+	return;
+}

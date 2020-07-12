@@ -1,0 +1,123 @@
+string script_4126(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	cs2func_script_2413_struct(3,0,0) structdump_1;
+	int stack_dump2;
+	int stack_dump3;
+	cs2func_script_4127_struct(3,0,0) structdump_4;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	stack_dump0 = arg0;
+	structdump_1 = script_2413(stack_dump0);
+	ivar3 = structdump_1.intpart_2;
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	stack_dump0 = ivar1;
+	stack_dump2 = ivar2;
+	stack_dump3 = ivar3;
+	structdump_4 = script_4127(stack_dump0, stack_dump2, stack_dump3);
+	ivar3 = structdump_4.intpart_2;
+	ivar2 = structdump_4.intpart_1;
+	ivar1 = structdump_4.intpart_0;
+	if (ivar3 == 0) {
+		return "Black";
+	}
+	if (ivar3 == 255) {
+		return "White";
+	}
+	if (ivar3 < 97) {
+		ovar0 = (object)"Dark ";
+	} else if (ivar3 == 127 && ivar2 >= 240) {
+		ovar0 = (object)"Vivid ";
+	} else if (ivar3 > 157) {
+		ovar0 = (object)"Light ";
+	} else {
+		ivar4 = 0;
+	}
+	switch (arg0) {
+		case 65535:
+		case 255:
+		case 65280:
+		case 16744448:
+		case 8388863:
+		case 4194559:
+		case 16711935:
+		case 16776960:
+		case 16711680:
+			ovar0 = (object)"Pure ";
+			ivar4 = 1;
+	}
+	if (ivar4 == 1) {
+		if (ivar2 == 0) {
+			ovar1 = (object)"grey";
+		}
+		if (ivar1 < 10) {
+			ovar1 = (object)"red";
+		} else if (ivar1 < 45) {
+			ovar1 = (object)"orange";
+		} else if (ivar1 < 75) {
+			ovar1 = (object)"yellow";
+		} else if (ivar1 < 140) {
+			ovar1 = (object)"green";
+		} else if (ivar1 < 160) {
+			ovar1 = (object)"turquoise";
+		} else if (ivar1 < 195) {
+			ovar1 = (object)"cyan";
+		} else if (ivar1 < 250) {
+			ovar1 = (object)"blue";
+		} else if (ivar1 < 265) {
+			ovar1 = (object)"indigo";
+		} else if (ivar1 < 280) {
+			ovar1 = (object)"violet";
+		} else if (ivar1 < 290) {
+			ovar1 = (object)"purple";
+		} else if (ivar1 < 305) {
+			ovar1 = (object)"magenta";
+		} else if (ivar1 < 345) {
+			ovar1 = (object)"pink";
+		} else {
+			ovar1 = (object)"red";
+		}
+	} else {
+		if (ivar2 == 0) {
+			ovar1 = (object)"Grey";
+		}
+		if (ivar1 < 10) {
+			ovar1 = (object)"Red";
+		} else if (ivar1 < 45) {
+			ovar1 = (object)"Orange";
+		} else if (ivar1 < 75) {
+			ovar1 = (object)"Yellow";
+		} else if (ivar1 < 140) {
+			ovar1 = (object)"Green";
+		} else if (ivar1 < 160) {
+			ovar1 = (object)"Turquoise";
+		} else if (ivar1 < 195) {
+			ovar1 = (object)"Cyan";
+		} else if (ivar1 < 250) {
+			ovar1 = (object)"Blue";
+		} else if (ivar1 < 265) {
+			ovar1 = (object)"Indigo";
+		} else if (ivar1 < 280) {
+			ovar1 = (object)"Violet";
+		} else if (ivar1 < 290) {
+			ovar1 = (object)"Purple";
+		} else if (ivar1 < 305) {
+			ovar1 = (object)"Magenta";
+		} else if (ivar1 < 345) {
+			ovar1 = (object)"Pink";
+		} else {
+			ovar1 = (object)"Red";
+		}
+	}
+	return (string)ovar0 + (string)ovar1 + ".";
+}

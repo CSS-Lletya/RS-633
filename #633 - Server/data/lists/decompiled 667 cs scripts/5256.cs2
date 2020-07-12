@@ -1,0 +1,6 @@
+int script_5256() {
+	if (bitconfig_9816 > 0 && bitconfig_9816 < 10) {
+		return 1;
+	}
+	return divide(bitconfig_9816, 10);
+}

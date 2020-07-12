@@ -1,0 +1,120 @@
+void script_4804() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	ivar0 = script_4828(bitconfig_9558);
+	if (ivar0 == 1) {
+		script_4842(1);
+		script_4842(2);
+		script_4842(3);
+		switch (bitconfig_9558) {
+			case 1:
+				script_4846(bitconfig_9563);
+				break;
+			case 2:
+				script_4846(bitconfig_9572);
+				break;
+			case 3:
+				script_4846(bitconfig_9581);
+		}
+	} else {
+		script_4843(1);
+		script_4843(2);
+		script_4843(3);
+	}
+	script_4807();
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = 0;
+	ivar6 = 1;
+	ivar7 = 1;
+	ivar8 = 0;
+	switch (bitconfig_9558) {
+		case 1:
+			ivar5 = bitconfig_9562;
+			ivar8 = bitconfig_9566;
+			break;
+		case 2:
+			ivar5 = bitconfig_9571;
+			ivar8 = bitconfig_9575;
+			break;
+		case 3:
+			ivar5 = bitconfig_9580;
+			ivar8 = bitconfig_9584;
+	}
+	if (ivar5 == 0 && ivar8 == 0) {
+		script_4940();
+		return;
+	}
+	script_4942();
+	ivar9 = script_4825(bitconfig_9558);
+	ivar10 = script_4822(bitconfig_9558);
+	if (ivar8 == 1) {
+		script_4846(1);
+		cs2method_10467(-1, 82444522);
+		setWidgetText(new WidgetPointer(1258,235), (object)"Reset Hotspot to its default state");
+		setWidgetText(new WidgetPointer(1258,391), (object)"");
+		setWidgetText(new WidgetPointer(1258,392), (object)"");
+		setWidgetText(new WidgetPointer(1258,393), (object)"");
+		setWidgetText(new WidgetPointer(1258,319), (object)"");
+		setWidgetText(new WidgetPointer(1258,320), (object)"");
+		setWidgetText(new WidgetPointer(1258,321), (object)"");
+		setWidgetText(new WidgetPointer(1258,241), (object)"");
+		setWidgetText(new WidgetPointer(1258,242), (object)"");
+		setWidgetText(new WidgetPointer(1258,243), (object)"");
+		script_4805(1, 1);
+		script_4805(2, 1);
+		script_4805(3, 1);
+		script_4805(1, 2);
+		script_4805(2, 2);
+		script_4805(3, 2);
+		script_4805(1, 3);
+		script_4805(2, 3);
+		script_4805(3, 3);
+	} else {
+		if (ivar9 != -1) {
+			cs2method_10467(getDataByKey('i', 'd', ivar9, ivar5), 82444522);
+		}
+		if (ivar10 != -1) {
+			setWidgetText(new WidgetPointer(1258,235), (object)getDataByKey('i', 's', ivar10, ivar5));
+		}
+		ivar1 = getDataByKey('i', 'g', 4043, ivar5);
+		if (ivar1 == -1 && ivar8 == 0) {
+			return;
+		}
+		while (ivar6 <= 3) {
+			ivar2 = getDataByKey('i', 'g', ivar1, ivar6);
+			if (ivar2 != -1) {
+				while (ivar7 <= 3) {
+					ivar3 = getDataByKey('i', 'g', ivar2, ivar7);
+					if (ivar3 != -1) {
+						script_4806(ivar3, ivar6, ivar7, ivar0, ivar5);
+					} else {
+						script_4805(ivar6, ivar7);
+					}
+					ivar3 = -1;
+					ivar7 = add(ivar7, 1);
+				}
+			} else {
+				script_4842(ivar6);
+			}
+			ivar7 = 1;
+			ivar6 = add(ivar6, 1);
+		}
+		script_4838();
+		script_4810();
+	}
+	script_4809();
+	script_4814();
+	return;
+}

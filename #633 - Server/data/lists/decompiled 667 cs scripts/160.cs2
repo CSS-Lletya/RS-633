@@ -1,0 +1,27 @@
+void script_160(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6,object arg7,object arg8,object arg9,object arg10,object arg11,object arg12,object arg13,object arg14) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar6 = 0;
+	ivar7 = 0;
+	if (cs2method_10916(arg0) > 0) {
+		ivar6 = divide(subtract(cs2method_10916(arg0), multiply(36, arg2)), subtract(arg2, 1));
+	} else {
+		ivar6 = divide(subtract(cs2method_10956(arg0), multiply(36, arg2)), subtract(arg2, 1));
+	}
+	if (cs2method_10919(arg0) > 0) {
+		ivar7 = divide(subtract(cs2method_10919(arg0), multiply(32, arg3)), subtract(arg3, 1));
+	} else {
+		ivar7 = divide(subtract(cs2method_10090(arg0), multiply(32, arg3)), subtract(arg3, 1));
+	}
+	ivar8 = 0;
+	while (ivar8 <= multiply(arg2, arg3)) {
+		createChildWidget(arg0, 5, ivar8);
+		setWidgetSize(36, 32, 0, 0);
+		setWidgetPosition(multiply(add(36, ivar6), cs2method_10620(ivar8, arg2)), multiply(divide(ivar8, arg2), add(32, ivar7)), 0, 0);
+		script_161(arg1, ivar8, arg0, ivar8, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14);
+		ivar8 = add(ivar8, 1);
+	}
+	return;
+}

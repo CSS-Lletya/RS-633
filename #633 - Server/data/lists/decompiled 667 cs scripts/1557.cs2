@@ -1,0 +1,10 @@
+void script_1557() {
+	cs2method_10444(script_1552(globalint_1029, 496, 49283077, -1, (object)globalstring_22), cs2method_10826(49283078), 0, 0, 49283078);
+	if (cs2method_10386() == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(752,6));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(752,6));
+	}
+	cs2method_20219(1400, cs2method_10878(), new WidgetPointer(752,6), "iI", new WidgetPointer(752,5));
+	return;
+}

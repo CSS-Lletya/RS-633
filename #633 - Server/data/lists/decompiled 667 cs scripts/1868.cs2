@@ -1,0 +1,8 @@
+void script_1868(int arg0) {
+	if (cs2method_10620(cs2method_10878(), 50) == 0 && cs2method_10651() > 0) {
+		cs2method_10444(0, -8, 1, 1, 59375647);
+		script_1870(59375664);
+		cs2method_20219(1869, new WidgetPointer(906,48), "I", new WidgetPointer(arg0));
+	}
+	return;
+}

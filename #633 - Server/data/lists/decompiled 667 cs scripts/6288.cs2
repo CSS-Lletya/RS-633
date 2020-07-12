@@ -1,0 +1,18 @@
+void script_6288(int arg0) {
+	createChildWidget(84934658, 4, 0);
+	setWidgetSize(65, 12, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetFont(494);
+	setWidgetTextAlignment(2, 1, 0);
+	globalint_1932 = 0;
+	if (arg0 < 1) {
+		setWidgetText((object)"- all rank pts");
+		setWidgetRGB(new Color(255, 0, 0));
+	} else {
+		setWidgetText((object)("+ " + toString(arg0) + " rank pt"));
+		setWidgetRGB(new Color(0, 255, 0));
+	}
+	cs2method_10320(1);
+	cs2method_20219(6289, "", new WidgetPointer(1296,2));
+	return;
+}

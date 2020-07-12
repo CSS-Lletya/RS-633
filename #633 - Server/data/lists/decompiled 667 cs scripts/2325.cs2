@@ -1,0 +1,26 @@
+void script_2325() {
+	if (globalint_766 == 1 || globalint_766 == 2) {
+		cs2method_10998((object)"You can't do that right now.");
+		return;
+	}
+	cs2method_10508(6421, 1, 0);
+	if (cs2method_10111(20054022) >= cs2method_10111(20054034) && cs2method_10111(20054022) < add(cs2method_10111(20054034), cs2method_10956(20054034))) {
+		globalint_765 = 1;
+		script_2326(globalint_761);
+	}
+	if (cs2method_10111(20054023) >= cs2method_10111(20054034) && cs2method_10111(20054023) < add(cs2method_10111(20054034), cs2method_10956(20054034))) {
+		globalint_765 = 2;
+		script_2326(globalint_762);
+	}
+	if (cs2method_10111(20054024) >= cs2method_10111(20054034) && cs2method_10111(20054024) < add(cs2method_10111(20054034), cs2method_10956(20054034))) {
+		globalint_765 = 3;
+		script_2326(globalint_763);
+	}
+	if (cs2method_10111(20054025) >= cs2method_10111(20054034) && cs2method_10111(20054025) < add(cs2method_10111(20054034), cs2method_10956(20054034))) {
+		globalint_765 = 4;
+		script_2326(globalint_764);
+	}
+	globalint_766 = 1;
+	cs2method_20219(2328, new WidgetPointer(-32768,3), "I", new WidgetPointer(306,10));
+	return;
+}

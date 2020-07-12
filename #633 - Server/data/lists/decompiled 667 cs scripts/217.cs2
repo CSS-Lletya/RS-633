@@ -1,0 +1,12 @@
+void script_217() {
+	flow_0:
+		setWidgetText(new WidgetPointer(594,63), (object)("Reporting: " + globalstring_24));
+		setWidgetText(new WidgetPointer(594,44), (object)globalstring_24);
+		IF (compareTo((object)globalstring_24, (object)"") != 0) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		GOTO	flow_2
+	flow_2:
+		return;
+}

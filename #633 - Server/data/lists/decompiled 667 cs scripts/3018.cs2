@@ -1,0 +1,21 @@
+void script_3018() {
+	setWidgetText(new WidgetPointer(906,164), (object)"");
+	setWidgetText(new WidgetPointer(906,166), (object)"");
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(906,166));
+	cs2method_20000(-1, "", new WidgetPointer(906,170));
+	setWidgetText(new WidgetPointer(906,174), (object)"Ok");
+	cs2method_10375(1, 59375790, (object)"Ok");
+	setWidgetText(new WidgetPointer(906,176), (object)"Close");
+	cs2method_10375(1, 59375792, (object)"Close");
+	cs2method_10893(265, 136, 0, 0, 59375778);
+	cs2method_10893(0, 0, 1, 1, 59375782);
+	cs2method_10893(8034, 0, 2, 1, 59375786);
+	cs2method_10893(8034, 0, 2, 1, 59375790);
+	cs2method_10893(8034, 0, 2, 1, 59375791);
+	cs2method_10893(8034, 0, 2, 1, 59375792);
+	setWidgetIsHidden(false, new WidgetPointer(906,175));
+	setWidgetIsHidden(false, new WidgetPointer(906,176));
+	globalstring_277 = "";
+	globalint_1650 = 0;
+	return;
+}

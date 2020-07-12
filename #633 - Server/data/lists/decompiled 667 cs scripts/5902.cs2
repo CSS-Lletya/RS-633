@@ -1,0 +1,20 @@
+void script_5902(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int stack_dump0;
+	cs2func_script_6188_struct(2,0,0) structdump_1;
+	ivar1 = -1;
+	ivar2 = 0;
+	stack_dump0 = arg0;
+	structdump_1 = script_6188(stack_dump0);
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	ivar3 = script_5934(arg0);
+	ivar4 = script_5936(arg0);
+	ivar5 = getGeneralRequirementAttribute(ivar4, 2268);
+	cs2method_10380(ivar1, ivar2, ivar3);
+	return;
+}

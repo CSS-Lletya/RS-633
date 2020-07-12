@@ -1,0 +1,231 @@
+void script_5438() {
+	int ivar0;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar0 = 0;
+	if (script_2158(bitconfig_7451, 2, 63) == 2) {
+		ovar0 = (object)("<str=f5af44>" + "<col=f5af44>" + "A Void Dance" + "<br>");
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = (object)("A Void Dance" + "<br>");
+	}
+	if (script_2157(bitconfig_1938, 110) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Chosen Commander" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Chosen Commander" + "<br>"));
+	}
+	if (script_2157(bitconfig_299, 110) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Between a Rock" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Between a Rock" + "<br>"));
+	}
+	if (script_2158(bitconfig_6883, 3, 147) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Blood Runs Deep" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Blood Runs Deep" + "<br>"));
+	}
+	if (script_2157(bitconfig_3274, 130) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Contact!" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Contact!" + "<br>"));
+	}
+	if (script_2157(bitconfig_6289, 240) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Curse of Arrav" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Curse of Arrav" + "<br>"));
+	}
+	if (script_2157(bitconfig_2561, 3) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Demon Slayer" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Demon Slayer" + "<br>"));
+	}
+	if (script_2157(bitconfig_358, 15) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Desert Treasure" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Desert Treasure" + "<br>"));
+	}
+	if (script_2158(bitconfig_8605, 10, 315) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Do No Evil" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Do No Evil" + "<br>"));
+	}
+	if (script_2157(standart_config_176, 10) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Dragon Slayer" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Dragon Slayer" + "<br>"));
+	}
+	if (script_2157(bitconfig_3618, 28) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Dream Mentor" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Dream Mentor" + "<br>"));
+	}
+	if (script_2157(standart_config_148, 11) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Family Crest" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Family Crest" + "<br>"));
+	}
+	if (script_2157(standart_config_17, 14) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Fight Arena" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Fight Arena" + "<br>"));
+	}
+	if (script_2157(standart_config_347, 10) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Fremennik Trials" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Fremennik Trials" + "<br>"));
+	}
+	if (script_2157(standart_config_382, 11) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Haunted Mine" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Haunted Mine" + "<br>"));
+	}
+	if (script_2157(standart_config_5, 10) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Holy Grail" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Holy Grail" + "<br>"));
+	}
+	if (script_2157(bitconfig_34, 10) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Horror from the Deep" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Horror from the Deep" + "<br>"));
+	}
+	if (script_2157(standart_config_139, 75) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Legend's Quest" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Legend's Quest" + "<br>"));
+	}
+	if (script_2157(standart_config_147, 6) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Lost City" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Lost City" + "<br>"));
+	}
+	if (script_2157(bitconfig_8045, 150) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Love Story" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Love Story" + "<br>"));
+	}
+	if (script_2157(bitconfig_6112, 60) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Missing my Mummy" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Missing my Mummy" + "<br>"));
+	}
+	if (script_2158(standart_config_365, 1, 9) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Monkey Madness" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Monkey Madness" + "<br>"));
+	}
+	if (script_2157(bitconfig_260, 70) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Mountain Daughter" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Mountain Daughter" + "<br>"));
+	}
+	if (script_2157(bitconfig_2790, 320) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "My Arm's Big Adventure" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("My Arm's Big Adventure" + "<br>"));
+	}
+	if (script_2157(bitconfig_6962, 12) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Nomad's Requiem" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Nomad's Requiem" + "<br>"));
+	}
+	if (script_2157(bitconfig_1850, 5) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Recipe for Disaster" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Recipe for Disaster" + "<br>"));
+	}
+	if (script_2157(bitconfig_1372, 125) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Shadow of the Storm" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Shadow of the Storm" + "<br>"));
+	}
+	if (script_2157(bitconfig_1444, 60) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Spirits of Elid" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Spirits of Elid" + "<br>"));
+	}
+	if (script_2157(standart_config_980, 130) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "The Great Brain Robbery" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("The Great Brain Robbery" + "<br>"));
+	}
+	if (script_2157(bitconfig_6775, 90) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "The Temple at Senntisten" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("The Temple at Senntisten" + "<br>"));
+	}
+	if (script_2157(bitconfig_8248, 40) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "The Void Stares Back" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("The Void Stares Back" + "<br>"));
+	}
+	if (script_2157(bitconfig_4700, 63) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "TokTz-Ket-Dill" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("TokTz-Ket-Dill" + "<br>"));
+	}
+	if (script_2157(standart_config_385, 45) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Troll Romance" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Troll Romance" + "<br>"));
+	}
+	if (script_2157(standart_config_317, 50) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Troll Stronghold" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Troll Stronghold" + "<br>"));
+	}
+	if (script_2157(bitconfig_6914, 3) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Vampyre Slayer" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Vampyre Slayer" + "<br>"));
+	}
+	if (script_2157(bitconfig_1051, 11) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "Wanted" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("Wanted" + "<br>"));
+	}
+	if (script_2157(bitconfig_5491, 910) == 2) {
+		ovar0 = cs2method_10445(ovar0, (object)("<str=f5af44>" + "<col=f5af44>" + "While Guthix Sleeps" + "<br>"));
+		ivar0 = add(ivar0, 1);
+	} else {
+		ovar0 = cs2method_10445(ovar0, (object)("While Guthix Sleeps" + "<br>"));
+	}
+	setWidgetText(new WidgetPointer(1166,1), ovar0);
+	setWidgetText(new WidgetPointer(1166,2), (object)("Quests completed: " + toString(ivar0) + ". You need at least: " + toString(20)));
+	return;
+}

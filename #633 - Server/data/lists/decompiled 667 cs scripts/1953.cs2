@@ -1,0 +1,187 @@
+void script_1953() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	ivar0 = getItemAmtInContainer(93, 2015);
+	ivar1 = getItemAmtInContainer(93, 2019);
+	ivar2 = getItemAmtInContainer(93, 2017);
+	ivar3 = getItemAmtInContainer(93, 2108);
+	ivar4 = getItemAmtInContainer(93, 2102);
+	ivar5 = getItemAmtInContainer(93, 2128);
+	ivar6 = getItemAmtInContainer(93, 2120);
+	ivar7 = getItemAmtInContainer(93, 1973);
+	ivar8 = getItemAmtInContainer(93, 2114);
+	ivar9 = getItemAmtInContainer(93, 2126);
+	ivar10 = getItemAmtInContainer(93, 1927);
+	ivar11 = getItemAmtInContainer(93, 2021);
+	if (ivar0 >= 2 && ivar1 >= 1 && ivar3 >= 1 && ivar6 >= 1 && ivar4 >= 1) {
+		setWidgetRGB(65280, 28573777);
+	} else {
+		setWidgetRGB(16711680, 28573777);
+	}
+	if (ivar0 >= 1 && ivar6 >= 3) {
+		setWidgetRGB(65280, 28573778);
+	} else {
+		setWidgetRGB(16711680, 28573778);
+	}
+	if (ivar8 >= 1 && ivar4 >= 1 && ivar3 >= 1) {
+		setWidgetRGB(65280, 28573779);
+	} else {
+		setWidgetRGB(16711680, 28573779);
+	}
+	if (ivar8 >= 2 && ivar4 >= 1 && ivar3 >= 1) {
+		setWidgetRGB(65280, 28573780);
+	} else {
+		setWidgetRGB(16711680, 28573780);
+	}
+	if (ivar0 >= 1 && ivar1 >= 1 && ivar9 >= 1) {
+		setWidgetRGB(65280, 28573781);
+	} else {
+		setWidgetRGB(16711680, 28573781);
+	}
+	if (ivar2 >= 1 && ivar5 >= 1 && ivar10 >= 1 && ivar7 >= 1) {
+		setWidgetRGB(65280, 28573782);
+	} else {
+		setWidgetRGB(16711680, 28573782);
+	}
+	if (ivar0 >= 1 && ivar1 >= 1 && ivar11 >= 1 && ivar4 >= 2 && ivar3 >= 1) {
+		setWidgetRGB(65280, 28573783);
+	} else {
+		setWidgetRGB(16711680, 28573783);
+	}
+	if (getItemAmtInContainer(93, 2114) > 0) {
+		cs2method_10380(2114, 100, 28573720);
+	} else {
+		cs2method_10380(9497, 100, 28573720);
+	}
+	if (getItemAmtInContainer(93, 2102) > 0) {
+		cs2method_10380(2102, 140, 28573721);
+	} else {
+		cs2method_10380(9492, 140, 28573721);
+	}
+	if (getItemAmtInContainer(93, 2108) > 0) {
+		cs2method_10380(2108, 140, 28573722);
+	} else {
+		cs2method_10380(9493, 140, 28573722);
+	}
+	if (getItemAmtInContainer(93, 2015) > 1) {
+		cs2method_10380(2015, 120, 28573700);
+	} else {
+		cs2method_10380(9491, 120, 28573700);
+	}
+	if (getItemAmtInContainer(93, 2019) > 0) {
+		cs2method_10380(2019, 120, 28573701);
+	} else {
+		cs2method_10380(9491, 120, 28573701);
+	}
+	if (getItemAmtInContainer(93, 2108) > 0) {
+		cs2method_10380(2108, 140, 28573702);
+	} else {
+		cs2method_10380(9493, 140, 28573702);
+	}
+	if (getItemAmtInContainer(93, 2120) > 0) {
+		cs2method_10380(2120, 140, 28573703);
+	} else {
+		cs2method_10380(9555, 140, 28573703);
+	}
+	if (getItemAmtInContainer(93, 2102) > 0) {
+		cs2method_10380(2102, 140, 28573704);
+	} else {
+		cs2method_10380(9492, 140, 28573704);
+	}
+	if (getItemAmtInContainer(93, 2015) > 0) {
+		cs2method_10380(2015, 120, 28573713);
+	} else {
+		cs2method_10380(9491, 120, 28573713);
+	}
+	if (getItemAmtInContainer(93, 2120) > 2) {
+		cs2method_10380(2120, 120, 28573714);
+	} else {
+		cs2method_10380(9555, 140, 28573714);
+	}
+	if (getItemAmtInContainer(93, 2015) > 0) {
+		cs2method_10380(2015, 120, 28573758);
+	} else {
+		cs2method_10380(9491, 120, 28573758);
+	}
+	if (getItemAmtInContainer(93, 2019) > 0) {
+		cs2method_10380(2019, 120, 28573760);
+	} else {
+		cs2method_10380(9491, 120, 28573760);
+	}
+	if (getItemAmtInContainer(93, 2021) > 0) {
+		cs2method_10380(2021, 120, 28573759);
+	} else {
+		cs2method_10380(9556, 120, 28573759);
+	}
+	if (getItemAmtInContainer(93, 2108) > 0) {
+		cs2method_10380(2108, 140, 28573761);
+	} else {
+		cs2method_10380(9493, 140, 28573761);
+	}
+	if (getItemAmtInContainer(93, 2102) > 1) {
+		cs2method_10380(2102, 140, 28573762);
+	} else {
+		cs2method_10380(9492, 140, 28573762);
+	}
+	if (getItemAmtInContainer(93, 2017) > 0) {
+		cs2method_10380(2017, 120, 28573747);
+	} else {
+		cs2method_10380(9491, 120, 28573747);
+	}
+	if (getItemAmtInContainer(93, 2128) > 0) {
+		cs2method_10380(2128, 120, 28573748);
+	} else {
+		cs2method_10380(9494, 120, 28573748);
+	}
+	if (getItemAmtInContainer(93, 1973) > 0) {
+		cs2method_10380(1973, 140, 28573750);
+	} else {
+		cs2method_10380(9507, 140, 28573750);
+	}
+	if (getItemAmtInContainer(93, 1927) > 0) {
+		cs2method_10380(1927, 100, 28573749);
+	} else {
+		cs2method_10380(9495, 100, 28573749);
+	}
+	if (getItemAmtInContainer(93, 2114) > 1) {
+		cs2method_10380(2114, 100, 28573729);
+	} else {
+		cs2method_10380(9497, 100, 28573729);
+	}
+	if (getItemAmtInContainer(93, 2102) > 0) {
+		cs2method_10380(2102, 140, 28573730);
+	} else {
+		cs2method_10380(9492, 140, 28573730);
+	}
+	if (getItemAmtInContainer(93, 2108) > 0) {
+		cs2method_10380(2108, 140, 28573731);
+	} else {
+		cs2method_10380(9493, 140, 28573731);
+	}
+	if (getItemAmtInContainer(93, 2015) > 0) {
+		cs2method_10380(2015, 120, 28573738);
+	} else {
+		cs2method_10380(9491, 120, 28573738);
+	}
+	if (getItemAmtInContainer(93, 2019) > 0) {
+		cs2method_10380(2019, 120, 28573739);
+	} else {
+		cs2method_10380(9491, 120, 28573739);
+	}
+	if (getItemAmtInContainer(93, 2126) > 0) {
+		cs2method_10380(2126, 140, 28573740);
+	} else {
+		cs2method_10380(9496, 140, 28573740);
+	}
+	return;
+}

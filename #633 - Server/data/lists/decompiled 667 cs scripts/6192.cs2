@@ -1,0 +1,39 @@
+void script_6192() {
+	switch (cs2method_10145()) {
+		case 0:
+			cs2method_10467(10787, 59376031);
+			cs2method_10467(10791, 59376040);
+			break;
+		case 1:
+			cs2method_10467(10789, 59376031);
+			cs2method_10467(10793, 59376040);
+			break;
+		case 2:
+			cs2method_10467(10788, 59376031);
+			cs2method_10467(10792, 59376040);
+			break;
+		case 3:
+			cs2method_10467(10790, 59376031);
+			cs2method_10467(10794, 59376040);
+	}
+	if (globalint_1919 < 1 && bitconfig_11162 < 1) {
+		if (standart_config_2611 == 1) {
+			script_6190();
+			standart_config_2522 = 1;
+			script_196();
+			return;
+		}
+		setWidgetText(new WidgetPointer(906,418), (object)(" - A unique Cape!" + "<br>" + "- An exclusive in-game title 'The Real'" + "<br>" + "- Up to 20 additional Bank Spaces" + "<br>" + "- An XP lamp in a skill of your choice"));
+		cs2method_10444(cs2method_10111(59376037), 390, 0, 0, 59376037);
+		cs2method_10444(cs2method_10111(59376041), 278, 0, 0, 59376041);
+		setWidgetIsHidden(true, new WidgetPointer(906,30));
+		setWidgetIsHidden(false, new WidgetPointer(906,33));
+		setWidgetIsHidden(true, new WidgetPointer(906,338));
+		setWidgetIsHidden(true, new WidgetPointer(906,382));
+		setWidgetIsHidden(false, new WidgetPointer(906,409));
+		cs2method_10893(240, cs2method_10090(59376041), 0, 0, 59376041);
+	} else {
+		script_6190();
+	}
+	return;
+}

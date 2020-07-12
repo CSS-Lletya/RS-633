@@ -1,0 +1,29 @@
+void script_6181() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = -1;
+	ivar1 = 0;
+	ivar2 = -1;
+	while (ivar1 < cs2method_10624(5840)) {
+		ivar2 = (int)getDataByKey('i', 'I', 5840, ivar1);
+		if (ivar2 != -1) {
+			createChildWidget(ivar2, 3, 0);
+			setWidgetPosition(2, 2, 0, 0);
+			setWidgetSize(2, 2, 1, 1);
+			ivar0 = getDataByKey('I', 'J', 5839, ivar2);
+			if (ivar0 != -1) {
+				setWidgetRGB(new Color(getGeneralRequirementAttribute(ivar0, 2395)));
+				ivar0 = -1;
+			}
+			setWidgetFilled(1);
+			createChildWidget(ivar2, 5, 1);
+			setWidgetPosition(0, 0, 0, 0);
+			setWidgetSize(20, 20, 0, 0);
+			cs2method_10469(2288);
+			ivar2 = -1;
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

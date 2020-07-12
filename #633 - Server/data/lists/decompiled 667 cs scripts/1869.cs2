@@ -1,0 +1,7 @@
+void script_1869(int arg0) {
+	if (cs2method_10620(cs2method_10878(), 50) != 0) {
+		return;
+	}
+	script_1870(arg0);
+	return;
+}

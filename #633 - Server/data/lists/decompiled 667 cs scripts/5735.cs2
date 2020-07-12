@@ -1,0 +1,118 @@
+int script_5735() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	ivar0 = 0;
+	ivar1 = standart_config_2501;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = add(cs2method_10826(81068033), cs2method_10090(81068033));
+	ivar6 = ivar5;
+	ivar7 = 0;
+	clearExtraChildren(new WidgetPointer(1237,18));
+	script_5740(81068053);
+	script_5740(81068054);
+	script_5740(81068055);
+	script_5740(81068056);
+	script_5740(81068057);
+	script_5740(81068058);
+	script_5740(81068059);
+	script_5740(81068060);
+	script_5740(81068061);
+	script_5740(81068062);
+	script_5740(81068063);
+	script_5740(81068064);
+	ivar8 = 1;
+	while (ivar8 < 13) {
+		ivar7 = subtract(ivar8, 1);
+		switch (ivar8) {
+			case 1:
+				ivar4 = 81068053;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1294);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1295);
+				break;
+			case 2:
+				ivar4 = 81068054;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1296);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1297);
+				break;
+			case 3:
+				ivar4 = 81068055;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1298);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1299);
+				break;
+			case 4:
+				ivar4 = 81068056;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1300);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1301);
+				break;
+			case 5:
+				ivar4 = 81068057;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1302);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1303);
+				break;
+			case 6:
+				ivar4 = 81068058;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1304);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1305);
+				break;
+			case 7:
+				ivar4 = 81068059;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1306);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1307);
+				break;
+			case 8:
+				ivar4 = 81068060;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1308);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1309);
+				break;
+			case 9:
+				ivar4 = 81068061;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1310);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1311);
+				break;
+			case 10:
+				ivar4 = 81068062;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 1312);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 1313);
+				break;
+			case 11:
+				ivar4 = 81068063;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 2227);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 2228);
+				break;
+			case 12:
+				ivar4 = 81068064;
+				ivar2 = getGeneralRequirementAttribute(ivar1, 2229);
+				ivar3 = getGeneralRequirementAttribute(ivar1, 2230);
+		}
+		if (ivar2 == 0) {
+			return ivar6;
+		}
+		ivar0 = script_5741(ivar1, ivar8);
+		ivar6 = script_5736(ivar5, getGeneralRequirementAttribute(ivar1, 1268), subtract(ivar8, 1), ivar4);
+		createChildWidget(81068050, 5, ivar7);
+		setWidgetSize(15, 15, 0, 0);
+		setWidgetPosition(add(add(cs2method_10111(ivar4), cs2method_10242(cs2method_10956(ivar4), 3793, cs2method_10100(ivar4))), 5), add(subtract(divide(cs2method_10090(ivar4), 2), divide(cs2method_10630(), 2)), cs2method_10826(ivar4)), 0, 0);
+		if (ivar0 == 1) {
+			cs2method_10469(9604);
+		} else {
+			cs2method_10469(9605);
+		}
+		if (ivar6 == ivar5) {
+			cs2method_10998((object)("Something went wrong; aborting at requirement " + toString(ivar8)));
+			script_5740(ivar4);
+			return ivar6;
+		}
+		ivar5 = ivar6;
+		ivar8 = add(ivar8, 1);
+	}
+	return ivar6;
+}

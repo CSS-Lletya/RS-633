@@ -1,0 +1,24 @@
+void script_2701(int arg0,int arg1,int arg2) {
+	if (cs2method_10842() == 1) {
+		cs2method_10070(35913775, 883);
+	} else {
+		cs2method_10070(48889891, 883);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(746,35));
+	setWidgetIsHidden(false, new WidgetPointer(548,47));
+	script_1151(57868306);
+	script_1151(57868309);
+	cs2method_20333(2702, 1, new WidgetPointer(883,18), new WidgetPointer(883,19), "1II", new WidgetPointer(883,17));
+	cs2method_20295(2702, 0, new WidgetPointer(883,18), new WidgetPointer(883,19), "1II", new WidgetPointer(883,17));
+	cs2method_20333(2702, 1, new WidgetPointer(883,21), new WidgetPointer(883,22), "1II", new WidgetPointer(883,20));
+	cs2method_20295(2702, 0, new WidgetPointer(883,21), new WidgetPointer(883,22), "1II", new WidgetPointer(883,20));
+	setScriptCallOnMousePressed(2704, 1, arg0, 1, arg1, arg2, "1ii11", new WidgetPointer(883,17));
+	setScriptCallOnMousePressed(2704, 0, arg0, 1, arg1, arg2, "1ii11", new WidgetPointer(883,20));
+	setWidgetIsHidden(false, new WidgetPointer(548,169));
+	setWidgetIsHidden(false, new WidgetPointer(548,56));
+	setWidgetIsHidden(false, new WidgetPointer(548,20));
+	setWidgetIsHidden(false, new WidgetPointer(548,177));
+	setWidgetIsHidden(false, new WidgetPointer(548,147));
+	setWidgetIsHidden(false, new WidgetPointer(548,101));
+	return;
+}

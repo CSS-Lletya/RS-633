@@ -1,0 +1,12 @@
+void script_2416(int arg0) {
+	if (globalint_805 == 2 || globalint_805 == 8) {
+		cs2method_10375(1, arg0, (object)"Cut wire");
+	} else if (globalint_805 == 3 || globalint_805 == 9) {
+		cs2method_10375(1, arg0, (object)"Replace wire");
+	} else if (globalint_805 == 4 || globalint_805 == 10) {
+		cs2method_10375(1, arg0, (object)"Repair wire");
+	} else {
+		cs2method_10375(1, arg0, (object)"Inspect");
+	}
+	return;
+}

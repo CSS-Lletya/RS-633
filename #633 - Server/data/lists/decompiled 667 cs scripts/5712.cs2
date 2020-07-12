@@ -1,0 +1,79 @@
+void script_5712(int arg0) {
+	switch (arg0) {
+		case 1:
+			globalint_1469 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 2:
+			globalint_1470 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 5:
+			globalint_1471 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 3:
+			globalint_1472 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 7:
+			globalint_1473 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 4:
+			globalint_1474 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 6:
+			globalint_1475 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 8:
+			globalint_1476 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 9:
+			globalint_1477 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 10:
+			globalint_1478 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 11:
+			globalint_1479 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 19:
+			globalint_1480 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 13:
+			globalint_1481 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 14:
+			globalint_1482 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 15:
+			globalint_1483 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 16:
+			globalint_1484 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 17:
+			globalint_1485 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 18:
+			globalint_1486 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 12:
+			globalint_1487 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 20:
+			globalint_1488 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 21:
+			globalint_1489 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 22:
+			globalint_1490 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 23:
+			globalint_1491 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 24:
+			globalint_1492 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+			break;
+		case 25:
+			globalint_1493 = cs2method_10453(getDataByKey('i', 'S', 681, arg0));
+	}
+	return;
+}

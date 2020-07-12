@@ -1,0 +1,11 @@
+void script_4509(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 535;
+	ivar2 = 536;
+	cs2method_10467(ivar1, arg0);
+	cs2method_20333(44, new WidgetPointer(-32768,3), ivar2, "Id", new WidgetPointer(arg0));
+	cs2method_20295(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+	cs2method_20000(29, "", new WidgetPointer(arg0));
+	return;
+}

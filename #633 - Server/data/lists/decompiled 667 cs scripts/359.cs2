@@ -1,0 +1,113 @@
+void script_359(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	cs2func_script_360_struct(3,0,0) structdump_1;
+	int stack_dump2;
+	ivar2 = -1;
+	if (arg1 == 1) {
+		cs2method_10031(2, -1);
+		cs2method_10031(3, -1);
+		cs2method_10031(4, -1);
+		cs2method_10031(5, -1);
+		cs2method_10031(6, -1);
+		cs2method_10031(8, -1);
+		cs2method_10031(14, -1);
+		cs2method_10031(15, -1);
+		globalint_1009 = -1;
+		ivar2 = getGeneralRequirementAttribute(arg0, 1182);
+		if (ivar2 != -1) {
+			globalint_1010 = ivar2;
+			cs2method_10031(9, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1183);
+		globalint_1011 = ivar2;
+		cs2method_10031(10, ivar2);
+		ivar2 = getGeneralRequirementAttribute(arg0, 1184);
+		if (ivar2 != -1) {
+			globalint_1012 = ivar2;
+			cs2method_10031(11, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1185);
+		if (ivar2 != -1) {
+			globalint_1013 = ivar2;
+			cs2method_10031(12, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1186);
+		if (ivar2 != -1) {
+			globalint_1014 = ivar2;
+			cs2method_10031(13, ivar2);
+		}
+	} else {
+		cs2method_10031(9, -1);
+		cs2method_10031(10, -1);
+		cs2method_10031(11, -1);
+		cs2method_10031(12, -1);
+		cs2method_10031(13, -1);
+		cs2method_10031(14, -1);
+		cs2method_10031(15, -1);
+		ivar2 = getGeneralRequirementAttribute(arg0, 1182);
+		if (ivar2 != -1) {
+			globalint_1010 = ivar2;
+			cs2method_10031(2, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1183);
+		globalint_1011 = ivar2;
+		cs2method_10031(3, ivar2);
+		ivar2 = getGeneralRequirementAttribute(arg0, 1184);
+		if (ivar2 != -1) {
+			globalint_1012 = ivar2;
+			cs2method_10031(4, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1185);
+		if (ivar2 != -1) {
+			globalint_1013 = ivar2;
+			cs2method_10031(5, ivar2);
+		}
+		ivar2 = getGeneralRequirementAttribute(arg0, 1186);
+		if (ivar2 != -1) {
+			cs2method_10031(6, ivar2);
+			globalint_1014 = ivar2;
+		}
+	}
+	stack_dump0 = arg0;
+	structdump_1 = script_360(stack_dump0);
+	stack_dump0 = structdump_1.intpart_0;
+	stack_dump2 = structdump_1.intpart_1;
+	globalint_1018 = structdump_1.intpart_2;
+	stack_dump0 = stack_dump0;
+	globalint_1017 = stack_dump2;
+	globalint_1016 = stack_dump0;
+	cs2method_10531(1, globalint_1016);
+	cs2method_10531(2, globalint_1017);
+	cs2method_10531(3, globalint_1018);
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = -1;
+	if (globalint_86 != 0) {
+		ivar4 = getDataByKey('i', 'J', 3278, subtract(globalint_197, 1));
+		if (ivar4 != -1) {
+			ivar3 = getGeneralRequirementAttribute(ivar4, 1163);
+			if (ivar3 != -1) {
+				if (cs2method_10594(ivar3) >= 2) {
+					ivar5 = getItemIdInContainerSlot(ivar3, 1);
+				}
+				if (cs2method_10594(ivar3) >= 3) {
+					ivar6 = getItemIdInContainerSlot(ivar3, 2);
+				}
+			}
+		}
+		script_392(ivar4, arg1);
+	} else {
+		script_392(-1, arg1);
+	}
+	cs2method_10931(2, 19713);
+	cs2method_10931(3, ivar5);
+	cs2method_10931(5, ivar6);
+	bitconfig_8092 = 0;
+	return;
+}

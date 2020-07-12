@@ -1,0 +1,19 @@
+void script_4739(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar3 = 0;
+	ivar4 = -1;
+	ivar5 = -1;
+	if (bitconfig_9903 != 0) {
+		ivar5 = getDataByKey('i', 'v', 3879, bitconfig_9903);
+		if (arg2 == 1 && cs2method_10551(74973184, arg1) == 1) {
+			ivar4 = getItemIdInContainerSlot(ivar5, arg1);
+			if (ivar4 != -1) {
+				bitconfig_9904 = arg1;
+				script_4741();
+			}
+		}
+	}
+	return;
+}

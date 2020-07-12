@@ -1,0 +1,4 @@
+void script_5946(int arg0) {
+	cs2method_20219(5948, new WidgetPointer(arg0), 0, 5, "Iii", new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,24 @@
+void script_663(int arg0,int arg1) {
+	setWidgetFont(764, arg1);
+	setWidgetTextAlignment(1, 1, 0, arg1);
+	if (bitconfig_4191 == 0) {
+		cs2method_10461(30184, arg0);
+		cs2method_10158(0, 0, 0, 0, 0, 365, arg0);
+		cs2method_10444(2, 84, 0, 0, arg0);
+		cs2method_10893(509, 156, 0, 0, arg0);
+		cs2method_10444(15, 89, 0, 0, arg1);
+		cs2method_10893(487, 143, 0, 0, arg1);
+		setWidgetRGB(script_693(43, 26, 11), arg1);
+	} else {
+		if (bitconfig_4191 == 1) {
+			cs2method_10461(30183, arg0);
+			cs2method_10158(0, 0, 0, 0, 0, 344, arg0);
+			cs2method_10444(3, 90, 0, 0, arg0);
+			cs2method_10893(509, 156, 0, 0, arg0);
+			cs2method_10444(4, 88, 0, 0, arg1);
+			cs2method_10893(506, 139, 0, 0, arg1);
+			setWidgetRGB(script_693(85, 85, 65), arg1);
+		}
+	}
+	return;
+}

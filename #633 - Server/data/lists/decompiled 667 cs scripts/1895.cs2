@@ -1,0 +1,144 @@
+void script_1895(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	int stack_dump0;
+	opc_struct10644(0,2,0) structdump_1;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar2 = cs2method_10223();
+	if (ivar2 == -2) {
+		createChildWidget(arg0, 4, 0);
+		setWidgetFont(496);
+		setWidgetText((object)"Loading Friends List - Please wait...");
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetSize(138, 100, 0, 0);
+		setWidgetRGB(new Color(255, 255, 100));
+		cs2method_10320(1);
+		return;
+	}
+	if (ivar2 == -1) {
+		createChildWidget(arg0, 4, 0);
+		setWidgetFont(496);
+		setWidgetText((object)"Connecting to Friend Server - Please wait...");
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetSize(138, 100, 0, 0);
+		setWidgetRGB(new Color(255, 255, 100));
+		cs2method_10320(1);
+		return;
+	}
+	ivar3 = 0;
+	ivar4 = subtract(subtract(add(add(cs2method_10111(72613909), cs2method_10111(72613917)), 14), cs2method_10242(2147483647, 496, (object)" ")), cs2method_10111(72613910));
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar5 = 0;
+	ovar3 = (object)"";
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	while (ivar3 < ivar2) {
+		ivar8 = multiply(ivar3, 3);
+		ivar9 = add(multiply(ivar3, 16), 2);
+		stack_dump0 = ivar3;
+		structdump_1 = cs2method_10644(stack_dump0);
+		ovar3 = structdump_1.objectpart_1;
+		ovar0 = structdump_1.objectpart_0;
+		if (compareTo(ovar3, (object)"") != 0) {
+			ivar6 = 1;
+		} else {
+			ivar6 = 0;
+		}
+		if (ivar6 == 1) {
+			ovar1 = (object)("    " + (string)ovar0);
+		} else {
+			ovar1 = ovar0;
+		}
+		createChildWidget(arg0, 4, ivar8);
+		setWidgetFont(496);
+		setWidgetPosition(0, ivar9, 0, 0);
+		setWidgetSize(ivar4, 15, 0, 0);
+		setWidgetRGB(new Color(255, 255, 100));
+		cs2method_10320(1);
+		if (cs2method_10242(2147483647, 496, ovar1) > ivar4) {
+			while (cs2method_10242(2147483647, 496, (object)((string)ovar1 + "...")) > ivar4 && cs2method_10366(ovar1) > 0) {
+				ovar1 = cs2method_10547(0, subtract(cs2method_10366(ovar1), 1), ovar1);
+			}
+			setWidgetText((object)((string)ovar1 + "..."));
+			if (ivar6 == 1) {
+				ivar5 = add(cs2method_10242(2147483647, 496, (object)("Last known as: " + (string)ovar3)), 8);
+				if (ivar5 > cs2method_10956(arg0)) {
+					ovar2 = (object)((string)ovar0 + "<br>" + "Last known as:" + "<br>" + (string)ovar3);
+				} else {
+					ovar2 = (object)((string)ovar0 + "<br>" + "Last known as: " + (string)ovar3);
+				}
+			} else {
+				ovar2 = ovar0;
+			}
+			cs2method_20930(4538, new WidgetPointer(1108,25), new WidgetPointer(-32768,3), -1, (string)ovar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+			cs2method_20139(40, new WidgetPointer(1108,25), "I");
+		} else if (ivar6 == 1) {
+			setWidgetText(ovar1);
+			ivar5 = add(cs2method_10242(2147483647, 496, (object)("Last known as: " + (string)ovar3)), 8);
+			if (ivar5 > cs2method_10956(arg0)) {
+				ovar2 = (object)("Last known as:" + "<br>" + (string)ovar3);
+			} else {
+				ovar2 = (object)("Last known as: " + (string)ovar3);
+			}
+			cs2method_20930(4538, new WidgetPointer(1108,25), new WidgetPointer(-32768,3), ivar3, (string)ovar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+			cs2method_20139(40, new WidgetPointer(1108,25), "I");
+		} else {
+			setWidgetText(ovar0);
+		}
+		createChildWidget(arg0, 5, add(ivar8, 1));
+		cs2method_10469(2313);
+		setWidgetSize(14, 14, 0, 0);
+		setWidgetPosition(0, ivar9, 0, 0);
+		if (ivar6 == 0) {
+			cs2method_10692(1);
+		}
+		createChildWidget(arg0, 4, add(ivar8, 2));
+		setWidgetFont(496);
+		setWidgetText((object)getDataByKey('i', 's', 5853, cs2method_10146(ivar3)));
+		setWidgetPosition(137, ivar9, 0, 0);
+		setWidgetSize(131, 15, 0, 0);
+		setWidgetRGB(new Color(255, 255, 255));
+		cs2method_10320(1);
+		setWidgetContextMenuOption(1, (object)getDataByKey('i', 's', 5853, 0));
+		setWidgetContextMenuOption(2, (object)getDataByKey('i', 's', 5853, 1));
+		setWidgetContextMenuOption(3, (object)getDataByKey('i', 's', 5853, 2));
+		setWidgetContextMenuOption(4, (object)getDataByKey('i', 's', 5853, 3));
+		setWidgetContextMenuOption(5, (object)getDataByKey('i', 's', 5853, 4));
+		setWidgetContextMenuOption(6, (object)getDataByKey('i', 's', 5853, 5));
+		setWidgetContextMenuOption(7, (object)getDataByKey('i', 's', 5853, 6));
+		cs2method_20115(197, ivar3, -2147483644, "ii");
+		ivar3 = add(ivar3, 1);
+	}
+	ivar10 = 0;
+	ivar11 = 0;
+	if (ivar3 > 12) {
+		ivar10 = cs2method_10424(arg0);
+		ivar11 = add(multiply(ivar3, 16), 4);
+		setWidgetScrollMax(0, ivar11, arg0);
+		if (ivar10 > ivar11) {
+			ivar10 = ivar11;
+		}
+		script_72(arg1, arg0, ivar10);
+	} else {
+		setWidgetScrollMax(0, 0, arg0);
+		cs2method_10085(0, 0, arg0);
+		script_72(arg1, arg0, 0);
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+void script_1617() {
+	setWidgetText(new WidgetPointer(63,7), (object)(toString(standart_config_620) + " Constitution XP"));
+	setWidgetText(new WidgetPointer(63,6), (object)(toString(standart_config_621) + " Slayer XP"));
+	return;
+}

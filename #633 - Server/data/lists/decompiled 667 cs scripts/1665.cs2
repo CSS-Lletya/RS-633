@@ -1,0 +1,28 @@
+void script_1665(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar4 = script_1329();
+	ivar5 = subtract(script_1248(), ivar4);
+	ivar6 = globalint_1038;
+	ivar7 = subtract(globalint_192, ivar6);
+	ivar8 = multiply(subtract(ivar4, ivar6), -1);
+	ivar9 = subtract(ivar7, subtract(469, 1));
+	if (ivar9 > 0) {
+		ivar6 = add(ivar6, ivar9);
+		ivar7 = subtract(469, 1);
+	} else {
+		if (ivar8 > 0) {
+			ivar7 = add(ivar7, ivar8);
+			ivar6 = ivar4;
+		}
+	}
+	setWidgetText(new WidgetPointer(arg0), (object)toString(ivar6));
+	setWidgetText(new WidgetPointer(arg2), (object)toString(ivar7));
+	setWidgetText(new WidgetPointer(arg1), (object)toString(ivar4));
+	setWidgetText(new WidgetPointer(arg3), (object)toString(ivar5));
+	return;
+}

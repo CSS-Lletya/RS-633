@@ -1,0 +1,24 @@
+string script_4582(int arg0,int arg1,int arg2) {
+	if (arg0 > 0) {
+		if (arg1 > 0) {
+			if (arg2 > 0) {
+				return toString(arg0) + " " + (string)script_4583(arg0, (object)"day", (object)"days") + ", " + toString(arg1) + " " + (string)script_4583(arg0, (object)"hour", (object)"hours") + " and " + toString(arg2) + " " + (string)script_4583(arg0, (object)"minute", (object)"minutes");
+			}
+			return toString(arg0) + " " + (string)script_4583(arg0, (object)"day", (object)"days") + " and " + toString(arg1) + " " + (string)script_4583(arg0, (object)"hour", (object)"hours");
+		}
+		if (arg2 > 0) {
+			return toString(arg0) + " " + (string)script_4583(arg0, (object)"day", (object)"days") + " and " + toString(arg2) + " " + (string)script_4583(arg0, (object)"minute", (object)"minutes");
+		}
+		return toString(arg0) + " " + (string)script_4583(arg0, (object)"day", (object)"days");
+	}
+	if (arg1 > 0) {
+		if (arg2 > 0) {
+			return toString(arg1) + " " + (string)script_4583(arg0, (object)"hour", (object)"hours") + " and " + toString(arg2) + " " + (string)script_4583(arg0, (object)"minute", (object)"minutes");
+		}
+		return toString(arg1) + " " + (string)script_4583(arg0, (object)"hour", (object)"hours");
+	}
+	if (arg2 > 0) {
+		return toString(arg2) + " " + (string)script_4583(arg0, (object)"minute", (object)"minutes");
+	}
+	return "";
+}

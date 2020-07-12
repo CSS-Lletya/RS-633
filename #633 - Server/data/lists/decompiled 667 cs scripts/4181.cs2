@@ -1,0 +1,13 @@
+void script_4181(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		ivar2 = add(cs2method_10354(), 1);
+		if (ivar2 >= 255) {
+			cs2method_10714();
+			return;
+		}
+		cs2method_10305(ivar2);
+	}
+	return;
+}

@@ -1,0 +1,9 @@
+void script_141() {
+	if (standart_config_1042 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(335,41));
+	}
+	if (standart_config_1043 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(335,42));
+	}
+	return;
+}

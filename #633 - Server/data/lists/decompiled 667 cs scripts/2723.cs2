@@ -1,0 +1,27 @@
+void script_2723(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar5 = 10285;
+	ivar6 = 10286;
+	ivar7 = 10287;
+	if (arg4 == 1) {
+		if (arg3 == 1) {
+			ivar5 = 10288;
+			ivar6 = 10289;
+			ivar7 = 10290;
+		}
+	} else if (arg3 == 1) {
+		ivar5 = 10781;
+		ivar6 = 10782;
+		ivar7 = 10783;
+	} else {
+		ivar5 = 10778;
+		ivar6 = 10779;
+		ivar7 = 10780;
+	}
+	cs2method_10467(ivar5, arg0);
+	cs2method_10467(ivar6, arg1);
+	cs2method_10467(ivar7, arg2);
+	return;
+}

@@ -1,0 +1,8 @@
+int script_1329() {
+	int ivar0;
+	ivar0 = add(subtract(556, 469), 1);
+	if (script_3287() == 0) {
+		ivar0 = subtract(ivar0, 20);
+	}
+	return ivar0;
+}

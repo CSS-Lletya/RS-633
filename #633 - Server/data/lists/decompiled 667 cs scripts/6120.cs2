@@ -1,0 +1,10 @@
+void script_6120(int arg0,int arg1,int arg2,int arg3) {
+	arg3 = add(arg3, 1);
+	if (arg3 > arg2) {
+		setWidgetIsHidden((boolean)arg1, new WidgetPointer(arg0));
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(6120, new WidgetPointer(-32768,3), arg1, arg2, arg3, "I1ii", new WidgetPointer(arg0));
+	}
+	return;
+}

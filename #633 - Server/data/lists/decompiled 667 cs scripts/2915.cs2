@@ -1,0 +1,3 @@
+int script_2915() {
+	return cs2method_10004(add(add(cs2method_10004(0, cs2method_10226(94, 1326)), multiply(cs2method_10391(3), 10)), cs2method_10004(0, bitconfig_11158)), 1);
+}

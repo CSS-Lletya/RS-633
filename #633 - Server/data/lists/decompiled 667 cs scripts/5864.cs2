@@ -1,0 +1,163 @@
+void script_5864() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	object ovar7;
+	object ovar8;
+	object ovar9;
+	object ovar10;
+	object ovar11;
+	object ovar12;
+	object ovar13;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	int stack_dump4;
+	int stack_dump5;
+	int stack_dump6;
+	int stack_dump7;
+	int stack_dump8;
+	int stack_dump9;
+	int stack_dump10;
+	cs2func_script_5865_struct(10,0,0) structdump_11;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 1;
+	while (ivar10 <= cs2method_10624(681)) {
+		stack_dump0 = cs2method_10011(getDataByKey('i', 'S', 681, ivar10));
+		stack_dump1 = ivar0;
+		stack_dump2 = ivar1;
+		stack_dump3 = ivar2;
+		stack_dump4 = ivar3;
+		stack_dump5 = ivar4;
+		stack_dump6 = ivar5;
+		stack_dump7 = ivar6;
+		stack_dump8 = ivar7;
+		stack_dump9 = ivar8;
+		stack_dump10 = ivar9;
+		structdump_11 = script_5865(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4, stack_dump5, stack_dump6, stack_dump7, stack_dump8, stack_dump9, stack_dump10);
+		ivar9 = structdump_11.intpart_9;
+		ivar8 = structdump_11.intpart_8;
+		ivar7 = structdump_11.intpart_7;
+		ivar6 = structdump_11.intpart_6;
+		ivar5 = structdump_11.intpart_5;
+		ivar4 = structdump_11.intpart_4;
+		ivar3 = structdump_11.intpart_3;
+		ivar2 = structdump_11.intpart_2;
+		ivar1 = structdump_11.intpart_1;
+		ivar0 = structdump_11.intpart_0;
+		ivar10 = add(ivar10, 1);
+	}
+	ovar0 = (object)toString(ivar0);
+	ovar1 = cs2method_10547(0, 1, (object)toString(ivar1));
+	ovar2 = cs2method_10547(0, 1, (object)toString(ivar2));
+	ovar3 = cs2method_10547(0, 1, (object)toString(ivar3));
+	ovar4 = cs2method_10547(0, 1, (object)toString(ivar4));
+	ovar5 = cs2method_10547(0, 1, (object)toString(ivar5));
+	ovar6 = cs2method_10547(0, 1, (object)toString(ivar6));
+	ovar7 = cs2method_10547(0, 1, (object)toString(ivar7));
+	ovar8 = cs2method_10547(0, 1, (object)toString(ivar8));
+	ovar9 = cs2method_10547(0, 1, (object)toString(ivar9));
+	ivar11 = 10;
+	if (ivar9 == 0) {
+		ovar9 = (object)"";
+		ivar11 = subtract(ivar11, 1);
+		if (ivar8 == 0) {
+			ovar8 = (object)"";
+			ivar11 = subtract(ivar11, 1);
+			if (ivar7 == 0) {
+				ovar7 = (object)"";
+				ivar11 = subtract(ivar11, 1);
+				if (ivar6 == 0) {
+					ovar6 = (object)"";
+					ivar11 = subtract(ivar11, 1);
+					if (ivar5 == 0) {
+						ovar5 = (object)"";
+						ivar11 = subtract(ivar11, 1);
+						if (ivar4 == 0) {
+							ovar4 = (object)"";
+							ivar11 = subtract(ivar11, 1);
+							if (ivar3 == 0) {
+								ovar3 = (object)"";
+								ivar11 = subtract(ivar11, 1);
+								if (ivar2 == 0) {
+									ovar2 = (object)"";
+									ivar11 = subtract(ivar11, 1);
+									if (ivar1 == 0) {
+										ovar1 = (object)"";
+										ivar11 = subtract(ivar11, 1);
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	ovar10 = (object)"";
+	if (ivar11 > 3) {
+		ovar10 = (object)",";
+	}
+	ovar11 = (object)"";
+	if (ivar11 > 6) {
+		ovar11 = (object)",";
+	}
+	ovar12 = (object)"";
+	if (ivar11 > 9) {
+		ovar12 = (object)",";
+	}
+	ovar13 = (object)("Total XP: " + (string)ovar9 + (string)ovar12 + (string)ovar8 + (string)ovar7 + (string)ovar6 + (string)ovar11 + (string)ovar5 + (string)ovar4 + (string)ovar3 + (string)ovar10 + (string)ovar2 + (string)ovar1 + (string)ovar0);
+	ivar12 = cs2method_10355(495, ovar13);
+	ivar13 = 3;
+	ivar14 = 30;
+	ivar15 = 20971672;
+	createChildWidget(ivar15, 3, 0);
+	setWidgetSize(add(ivar12, 4), 18, 0, 0);
+	setWidgetPosition(ivar13, ivar14, 2, 2);
+	setWidgetFilled(1);
+	setWidgetRGB(new Color(14, 14, 14));
+	createChildWidget(ivar15, 3, 1);
+	setWidgetSize(add(ivar12, 4), 18, 0, 0);
+	setWidgetPosition(ivar13, ivar14, 2, 2);
+	setWidgetFilled(0);
+	setWidgetRGB(new Color(235, 236, 230));
+	createChildWidget(ivar15, 4, 2);
+	setWidgetPosition(add(ivar13, 2), add(ivar14, 0), 2, 2);
+	setWidgetSize(ivar12, 16, 0, 0);
+	setWidgetFont(495);
+	setWidgetRGB(new Color(245, 178, 65));
+	setWidgetTextAlignment(0, 0, 0);
+	cs2method_10320(0);
+	setWidgetText(ovar13);
+	return;
+}

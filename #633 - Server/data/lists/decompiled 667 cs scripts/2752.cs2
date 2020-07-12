@@ -1,0 +1,11 @@
+void script_2752() {
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetFont(495);
+	setWidgetRGB(new Color(0, 0, 255));
+	cs2method_10320(0);
+	setWidgetSize(0, subtract(cs2method_10090(cs2method_10168()), add(cs2method_10826(49283077), cs2method_10090(49283077))), 1, 0);
+	setWidgetPosition(0, 0, 1, 2);
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 255, "Iii");
+	return;
+}

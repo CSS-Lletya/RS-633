@@ -1,0 +1,67 @@
+void script_481() {
+	flow_0:
+		cs2method_10467(3255, 66519183);
+		cs2method_10467(3255, 66519185);
+		cs2method_10467(3255, 66519187);
+		cs2method_10467(3255, 66519189);
+		cs2method_10467(3255, 66519191);
+		cs2method_10467(3255, 66519193);
+		cs2method_10467(3255, 66519195);
+		cs2method_10467(3255, 66519197);
+		cs2method_10467(3255, 66519199);
+		cs2method_10467(3255, 66519201);
+		SWITCH (bitconfig_7512) {
+			case 1:
+				 GOTO flow_1
+			case 2:
+				 GOTO flow_2
+			case 3:
+				 GOTO flow_3
+			case 4:
+				 GOTO flow_4
+			case 5:
+				 GOTO flow_5
+			case 6:
+				 GOTO flow_6
+			case 7:
+				 GOTO flow_7
+			case 8:
+				 GOTO flow_8
+			case 9:
+				 GOTO flow_9
+			case 10:
+				 GOTO flow_10
+		}
+		return;
+	flow_1:
+		cs2method_10467(3257, 66519183);
+		GOTO	flow_11
+	flow_2:
+		cs2method_10467(3257, 66519185);
+		GOTO	flow_11
+	flow_3:
+		cs2method_10467(3257, 66519187);
+		GOTO	flow_11
+	flow_4:
+		cs2method_10467(3257, 66519189);
+		GOTO	flow_11
+	flow_5:
+		cs2method_10467(3257, 66519191);
+		GOTO	flow_11
+	flow_6:
+		cs2method_10467(3257, 66519193);
+		GOTO	flow_11
+	flow_7:
+		cs2method_10467(3257, 66519195);
+		GOTO	flow_11
+	flow_8:
+		cs2method_10467(3257, 66519197);
+		GOTO	flow_11
+	flow_9:
+		cs2method_10467(3257, 66519199);
+		GOTO	flow_11
+	flow_10:
+		cs2method_10467(3257, 66519201);
+	flow_11:
+		return;
+}

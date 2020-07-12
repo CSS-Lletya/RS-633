@@ -1,0 +1,99 @@
+int script_5731(int arg0,int arg1) {
+	switch (arg0) {
+		case 347:
+			if (script_1432() < 15) {
+				return 0;
+			}
+			break;
+		case 907:
+			if (script_1432() < 20) {
+				return 0;
+			}
+			break;
+		case 850:
+			if (script_1432() < 30) {
+				return 0;
+			}
+			break;
+		case 510:
+			if (script_1432() < 45) {
+				return 0;
+			}
+			break;
+		case 519:
+			if (script_1432() < 50) {
+				return 0;
+			}
+			break;
+		case 851:
+			if (script_1432() < 70) {
+				return 0;
+			}
+			break;
+		case 513:
+			if (script_1432() < 70) {
+				return 0;
+			}
+			break;
+		case 476:
+			if (script_1432() < 85) {
+				return 0;
+			}
+			break;
+		case 670:
+			if (cs2method_10453(15) < 4) {
+				return 0;
+			}
+			break;
+		case 619:
+			if (cs2method_10453(arg1) < 40) {
+				return 0;
+			}
+			break;
+		case 847:
+			if (cs2method_10453(5) < 40 || cs2method_10453(22) < 45) {
+				return 0;
+			}
+			break;
+		case 515:
+			if (cs2method_10453(16) < 35) {
+				return 0;
+			}
+			break;
+		case 775:
+			if (cs2method_10453(12) < 15 || cs2method_10453(11) < 15 || cs2method_10453(22) < 15) {
+				return 0;
+			}
+			break;
+		case 461:
+			if (cs2method_10453(16) < 51) {
+				return 0;
+			}
+			break;
+		case 660:
+			if (cs2method_10453(10) < 48) {
+				return 0;
+			}
+			break;
+		case 449:
+			if (cs2method_10453(16) < 15) {
+				return 0;
+			}
+			break;
+		case 642:
+			if (standart_config_116 < 15) {
+				return 0;
+			}
+			break;
+		case 1008:
+			if (bitconfig_7238 < 60) {
+				return 0;
+			}
+			break;
+		case 776:
+			if (bitconfig_2187 == 0) {
+				return 0;
+			}
+	}
+	return 1;
+}

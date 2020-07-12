@@ -1,0 +1,87 @@
+int script_5741(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = 0;
+	switch (arg1) {
+		case 1:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1294);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1295);
+			break;
+		case 2:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1296);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1297);
+			break;
+		case 3:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1298);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1299);
+			break;
+		case 4:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1300);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1301);
+			break;
+		case 5:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1302);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1303);
+			break;
+		case 6:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1304);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1305);
+			break;
+		case 7:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1306);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1307);
+			break;
+		case 8:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1308);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1309);
+			break;
+		case 9:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1310);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1311);
+			break;
+		case 10:
+			ivar2 = getGeneralRequirementAttribute(arg0, 1312);
+			ivar3 = getGeneralRequirementAttribute(arg0, 1313);
+			break;
+		case 11:
+			ivar2 = getGeneralRequirementAttribute(arg0, 2227);
+			ivar3 = getGeneralRequirementAttribute(arg0, 2228);
+			break;
+		case 12:
+			ivar2 = getGeneralRequirementAttribute(arg0, 2229);
+			ivar3 = getGeneralRequirementAttribute(arg0, 2230);
+	}
+	if (ivar2 == 0) {
+		if (arg1 == 1) {
+			return 1;
+		}
+		return 1;
+	}
+	if (ivar2 < 60) {
+		ivar4 = getDataByKey('i', 'S', 681, ivar2);
+		if (ivar4 != -1) {
+			if (cs2method_10453(ivar4) >= ivar3) {
+				return 1;
+			}
+			return 0;
+		}
+	} else {
+		if (ivar2 == 61) {
+			ivar5 = getDataByKey('i', 'J', 2252, ivar3);
+			if (script_2193(ivar3) == 2) {
+				return 1;
+			}
+			return 0;
+		}
+		ivar6 = script_5812(getGeneralRequirementAttribute(arg0, 1268), arg1);
+		return ivar6;
+	}
+	return -1;
+}

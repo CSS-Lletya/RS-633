@@ -1,0 +1,28 @@
+void script_1130(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (arg0 == 1) {
+		ivar1 = add(multiply(getLineCount(cs2method_10956(85655560), 495, (object)globalstring_377), 12), 12);
+		if (ivar1 < 60) {
+			setWidgetIsHidden(true, new WidgetPointer(1307,33));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(1307,33));
+		}
+		setWidgetScrollMax(cs2method_10916(85655584), ivar1, 85655584);
+		script_31(85655585, 85655584, 7900, 7897, 7898, 7899, 7902, 7901);
+		script_6447(85655560, 85655587, (object)globalstring_377);
+	} else {
+		if (arg0 == 2) {
+			ivar1 = add(multiply(getLineCount(cs2method_10956(85655617), 495, (object)globalstring_378), 12), 12);
+			if (ivar1 < 60) {
+				setWidgetIsHidden(true, new WidgetPointer(1307,25));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1307,25));
+			}
+			setWidgetScrollMax(cs2method_10916(85655576), ivar1, 85655576);
+			script_31(85655577, 85655576, 7900, 7897, 7898, 7899, 7902, 7901);
+			script_6447(85655617, 85655618, (object)globalstring_378);
+		}
+	}
+	return;
+}

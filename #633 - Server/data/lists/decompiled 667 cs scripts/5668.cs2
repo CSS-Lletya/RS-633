@@ -1,0 +1,29 @@
+void script_5668() {
+	flow_0:
+		setWidgetRGB(15458492, 79560726);
+		setWidgetText(new WidgetPointer(1214,22), (object)("<u=ebe0bc>" + (string)cs2method_10222(cs2method_10100(79560726))));
+		setWidgetRGB(15458492, 79560727);
+		setWidgetText(new WidgetPointer(1214,23), (object)("<u=ebe0bc>" + (string)cs2method_10222(cs2method_10100(79560727))));
+		setWidgetRGB(15458492, 79560728);
+		setWidgetText(new WidgetPointer(1214,24), (object)("<u=ebe0bc>" + (string)cs2method_10222(cs2method_10100(79560728))));
+		SWITCH (standart_config_2478) {
+			case 2:
+				 GOTO flow_1
+			case 3:
+				 GOTO flow_2
+		}
+		setWidgetRGB(14182671, 79560726);
+		setWidgetText(new WidgetPointer(1214,22), (object)("<u=d8690f>" + (string)cs2method_10222(cs2method_10100(79560726))));
+		GOTO	flow_3
+	flow_1:
+		setWidgetRGB(14182671, 79560727);
+		setWidgetText(new WidgetPointer(1214,23), (object)("<u=d8690f>" + (string)cs2method_10222(cs2method_10100(79560727))));
+		GOTO	flow_3
+	flow_2:
+		setWidgetRGB(14182671, 79560728);
+		setWidgetText(new WidgetPointer(1214,24), (object)("<u=d8690f>" + (string)cs2method_10222(cs2method_10100(79560728))));
+	flow_3:
+		script_5666();
+		script_5675();
+		return;
+}

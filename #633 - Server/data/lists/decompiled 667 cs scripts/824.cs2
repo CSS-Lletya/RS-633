@@ -1,0 +1,111 @@
+string script_824(int arg0,object arg1) {
+	if (arg0 == 0) {
+		arg1 = cs2method_10445(arg1, (object)" ");
+		return arg1;
+	}
+	if (arg0 == 1) {
+		arg1 = cs2method_10445(arg1, (object)"a");
+		return arg1;
+	}
+	if (arg0 == 2) {
+		arg1 = cs2method_10445(arg1, (object)"b");
+		return arg1;
+	}
+	if (arg0 == 3) {
+		arg1 = cs2method_10445(arg1, (object)"c");
+		return arg1;
+	}
+	if (arg0 == 4) {
+		arg1 = cs2method_10445(arg1, (object)"d");
+		return arg1;
+	}
+	if (arg0 == 5) {
+		arg1 = cs2method_10445(arg1, (object)"e");
+		return arg1;
+	}
+	if (arg0 == 6) {
+		arg1 = cs2method_10445(arg1, (object)"f");
+		return arg1;
+	}
+	if (arg0 == 7) {
+		arg1 = cs2method_10445(arg1, (object)"g");
+		return arg1;
+	}
+	if (arg0 == 8) {
+		arg1 = cs2method_10445(arg1, (object)"h");
+		return arg1;
+	}
+	if (arg0 == 9) {
+		arg1 = cs2method_10445(arg1, (object)"i");
+		return arg1;
+	}
+	if (arg0 == 10) {
+		arg1 = cs2method_10445(arg1, (object)"j");
+		return arg1;
+	}
+	if (arg0 == 11) {
+		arg1 = cs2method_10445(arg1, (object)"k");
+		return arg1;
+	}
+	if (arg0 == 12) {
+		arg1 = cs2method_10445(arg1, (object)"l");
+		return arg1;
+	}
+	if (arg0 == 13) {
+		arg1 = cs2method_10445(arg1, (object)"m");
+		return arg1;
+	}
+	if (arg0 == 14) {
+		arg1 = cs2method_10445(arg1, (object)"n");
+		return arg1;
+	}
+	if (arg0 == 15) {
+		arg1 = cs2method_10445(arg1, (object)"o");
+		return arg1;
+	}
+	if (arg0 == 16) {
+		arg1 = cs2method_10445(arg1, (object)"p");
+		return arg1;
+	}
+	if (arg0 == 17) {
+		arg1 = cs2method_10445(arg1, (object)"q");
+		return arg1;
+	}
+	if (arg0 == 18) {
+		arg1 = cs2method_10445(arg1, (object)"r");
+		return arg1;
+	}
+	if (arg0 == 19) {
+		arg1 = cs2method_10445(arg1, (object)"s");
+		return arg1;
+	}
+	if (arg0 == 20) {
+		arg1 = cs2method_10445(arg1, (object)"t");
+		return arg1;
+	}
+	if (arg0 == 21) {
+		arg1 = cs2method_10445(arg1, (object)"u");
+		return arg1;
+	}
+	if (arg0 == 22) {
+		arg1 = cs2method_10445(arg1, (object)"v");
+		return arg1;
+	}
+	if (arg0 == 23) {
+		arg1 = cs2method_10445(arg1, (object)"w");
+		return arg1;
+	}
+	if (arg0 == 24) {
+		arg1 = cs2method_10445(arg1, (object)"x");
+		return arg1;
+	}
+	if (arg0 == 25) {
+		arg1 = cs2method_10445(arg1, (object)"y");
+		return arg1;
+	}
+	if (arg0 == 26) {
+		arg1 = cs2method_10445(arg1, (object)"z");
+		return arg1;
+	}
+	return "";
+}

@@ -1,0 +1,87 @@
+int script_5639(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ivar3 = -1;
+	switch (arg0) {
+		case 7:
+			ovar0 = (object)globalstring_124;
+			ivar3 = 44105811;
+			globalstring_328 = globalstring_124;
+			break;
+		case 8:
+			ovar0 = (object)globalstring_125;
+			ivar3 = 44105801;
+			globalstring_329 = globalstring_125;
+	}
+	ivar4 = cs2method_10366(ovar0);
+	if (ivar4 <= 0) {
+		switch (arg0) {
+			case 7:
+				script_3213(44105811, (object)"Please enter your desired password here.");
+				break;
+			case 8:
+				script_3213(44105801, (object)"Please enter your desired password again here.");
+		}
+		return 0;
+	}
+	if (arg1 == 1 && compareTo((object)globalstring_124, (object)globalstring_125) != 0 && (cs2method_10366((object)globalstring_124) > 0 || cs2method_10366((object)globalstring_125) > 0)) {
+		script_3213(44105801, (object)"Please ensure both passwords match.");
+		return 0;
+	}
+	if (ivar4 < 5) {
+		script_3213(ivar3, (object)"Passwords must be at least 5 characters long.");
+		return 0;
+	}
+	if (ivar4 > 20) {
+		script_3213(ivar3, (object)("Passwords must be no more than " + toString(20) + " characters long."));
+		return 0;
+	}
+	if (script_2202(ovar0) == 1) {
+		script_3213(ivar3, (object)"Passwords may only contain letters and numbers.");
+		return 0;
+	}
+	if (cs2method_10339(0, (object)globalstring_122, ovar0) != -1) {
+		script_3213(ivar3, (object)"Your password is too similar to your Email address.");
+		return 0;
+	}
+	ovar1 = cs2method_10547(0, 1, ovar0);
+	ivar5 = cs2method_10366(ovar0);
+	ivar6 = 0;
+	ivar7 = 0;
+	while (ivar6 < ivar5) {
+		if (cs2method_10339(ivar6, ovar0, ovar1) == ivar6) {
+			ivar7 = add(ivar7, 1);
+		}
+		ivar6 = add(ivar6, 1);
+	}
+	if (ivar7 == ivar5) {
+		script_3213(ivar3, (object)"Your password is too easy to guess.");
+		return 0;
+	}
+	switch (arg0) {
+		case 7:
+			cs2method_10467(4059, 44105811);
+			setWidgetIsHidden(true, new WidgetPointer(673,88));
+			break;
+		case 8:
+			cs2method_10467(4059, 44105801);
+			setWidgetIsHidden(true, new WidgetPointer(673,78));
+	}
+	setWidgetIsHidden(true, new WidgetPointer(673,30));
+	if (arg2 == 1) {
+		switch (arg0) {
+			case 7:
+				script_2714(8, 1);
+				break;
+			case 8:
+				script_2714(15, 1);
+		}
+	}
+	return 1;
+}

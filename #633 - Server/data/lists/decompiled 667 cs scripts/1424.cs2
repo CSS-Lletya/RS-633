@@ -1,0 +1,10 @@
+void script_1424() {
+	if (bitconfig_4456 == 0) {
+		setWidgetRGB(8960, 327683);
+		setWidgetRGB(16711680, 327682);
+	} else {
+		setWidgetRGB(65280, 327683);
+		setWidgetRGB(2293760, 327682);
+	}
+	return;
+}

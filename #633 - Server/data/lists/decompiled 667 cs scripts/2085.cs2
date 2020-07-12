@@ -1,0 +1,10 @@
+void script_2085() {
+	if (globalint_645 <= 5) {
+		setWidgetRGB(3368703, 54788125);
+	} else if (globalint_645 >= 25) {
+		setWidgetRGB(14754595, 54788125);
+	} else {
+		setWidgetRGB(6710886, 54788125);
+	}
+	return;
+}

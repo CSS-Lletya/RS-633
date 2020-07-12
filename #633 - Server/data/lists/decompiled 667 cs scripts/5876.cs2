@@ -1,0 +1,13 @@
+cs2func_script_5876_struct(2,0,0) script_5876(int arg0) {
+	switch (arg0) {
+		case 1:
+			return newstruct cs2func_script_5876_struct(995, 50);
+		case 2:
+			return newstruct cs2func_script_5876_struct(995, 10000);
+		case 3:
+			return newstruct cs2func_script_5876_struct(995, 10000000);
+		case 4:
+			return newstruct cs2func_script_5876_struct(24155, 1);
+	}
+	return newstruct cs2func_script_5876_struct(-1, 0);
+}

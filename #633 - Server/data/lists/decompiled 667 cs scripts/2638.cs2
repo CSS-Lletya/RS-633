@@ -1,0 +1,12 @@
+void script_2638() {
+	if (globalint_903 == 0) {
+		cs2method_10467(2023, 56295450);
+		setWidgetText(new WidgetPointer(859,10), (object)"Light");
+	} else {
+		if (globalint_903 == 1) {
+			cs2method_10467(2022, 56295450);
+			setWidgetText(new WidgetPointer(859,10), (object)"Heavy");
+		}
+	}
+	return;
+}

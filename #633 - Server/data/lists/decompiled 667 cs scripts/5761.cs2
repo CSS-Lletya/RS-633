@@ -1,0 +1,22 @@
+void script_5761(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	ovar0 = (object)("You're about to get a recommendation." + "<br>" + "<br>" + "These are suggestions for activities you might like to try." + "<br>" + "<br>" + "Most recommendations can't be 'completed' - just do them for as long as you want and stop whenever you want.");
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	if (cs2method_10403(arg0) == 1) {
+		script_5739(1, 0, arg0, cs2method_10331(), ovar0);
+		cs2method_10893(add(cs2method_10956(arg0), 10), add(cs2method_10090(arg0), 10), 0, 0, arg1);
+		cs2method_10893(cs2method_10956(arg1), cs2method_10090(arg1), 0, 0, cs2method_10331());
+		cs2method_10893(cs2method_10956(cs2method_10509(arg1)), add(add(add(cs2method_10090(arg1), cs2method_10090(arg3)), cs2method_10090(arg2)), 20), 0, 0, cs2method_10509(arg1));
+		ivar5 = add(cs2method_10826(arg2), cs2method_10090(arg2));
+		ivar6 = cs2method_10826(arg3);
+		cs2method_10444(0, subtract(add(divide(subtract(ivar6, ivar5), 2), ivar5), divide(cs2method_10090(cs2method_10331()), 2)), 1, 0, cs2method_10331());
+		cs2method_10444(0, 0, 1, 1, arg1);
+		cs2method_10444(0, 0, 1, 1, arg0);
+	}
+	return;
+}

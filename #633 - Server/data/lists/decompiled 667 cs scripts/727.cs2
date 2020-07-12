@@ -1,0 +1,10 @@
+void script_727(int arg0,int arg1) {
+	if (cs2method_10837(arg1) == 1 && globalint_199 != -1) {
+		return;
+	}
+	clearExtraChildren(new WidgetPointer(arg0));
+	globalint_199 = -1;
+	cs2method_20219(-1, "", new WidgetPointer(arg0));
+	cs2method_20374(-1, "", new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,72 @@
+void script_5477() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar0 = getDataByKey('i', 'J', 5213, globalint_1678);
+	ovar0 = (object)getGeneralRequirementAttribute(ivar0, 2095);
+	ovar1 = (object)getGeneralRequirementAttribute(ivar0, 2184);
+	ivar1 = getGeneralRequirementAttribute(ivar0, 2101);
+	ovar2 = (object)"";
+	ivar2 = 0;
+	if (cs2method_10620(cs2method_10878(), 4) == 0) {
+		if (getGeneralRequirementAttribute(ivar0, 2097) == 1) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.");
+		} else if (getGeneralRequirementAttribute(ivar0, 2097) == 2) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat.");
+		} else if (getGeneralRequirementAttribute(ivar0, 2097) == 3) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.");
+		} else if (getGeneralRequirementAttribute(ivar0, 2097) == 4) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.");
+		} else {
+			if (getGeneralRequirementAttribute(ivar0, 2097) == 5) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums and small blocking pillars");
+			}
+		}
+		setWidgetText(new WidgetPointer(1163,88), ovar0);
+		setWidgetText(new WidgetPointer(1163,40), (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+		script_5475(76218408, 76218411, 76218410, (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+		cs2method_10467(ivar1, 76218393);
+		cs2method_10677(8091, 1, 0, 255);
+		globalint_1678 = add(globalint_1678, 1);
+		if (globalint_1678 > 48) {
+			globalint_1678 = 1;
+		}
+		if (globalint_1678 == 1) {
+			globalint_1678 = 2;
+		}
+		globalint_1679 = subtract(globalint_1679, 1);
+		if (globalint_1679 < 1) {
+			ivar0 = getDataByKey('i', 'J', 5213, globalint_1677);
+			ovar0 = (object)getGeneralRequirementAttribute(ivar0, 2095);
+			ovar1 = (object)getGeneralRequirementAttribute(ivar0, 2184);
+			ivar1 = getGeneralRequirementAttribute(ivar0, 2101);
+			if (getGeneralRequirementAttribute(ivar0, 2097) == 1) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.");
+			} else if (getGeneralRequirementAttribute(ivar0, 2097) == 2) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multiway-combat.");
+			} else if (getGeneralRequirementAttribute(ivar0, 2097) == 3) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.");
+			} else if (getGeneralRequirementAttribute(ivar0, 2097) == 4) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.");
+			} else {
+				if (getGeneralRequirementAttribute(ivar0, 2097) == 5) {
+					ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums and small blocking pillars");
+				}
+			}
+			setWidgetText(new WidgetPointer(1163,88), ovar0);
+			setWidgetText(new WidgetPointer(1163,40), (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+			script_5475(76218408, 76218411, 76218410, (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+			cs2method_10467(ivar1, 76218393);
+			ivar2 = script_5459(1);
+			setWidgetText(new WidgetPointer(1163,36), (object)toString(ivar2));
+			cs2method_20219(5478, "", new WidgetPointer(1163,45));
+			setWidgetIsHidden(false, new WidgetPointer(1163,89));
+			globalint_1683 = -60;
+			cs2method_10444(0, globalint_1683, 1, 2, 76218457);
+		}
+	}
+	return;
+}

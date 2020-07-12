@@ -1,0 +1,24 @@
+void script_5560(int arg0) {
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	int stack_dump0;
+	cs2func_script_5564_struct(1,1,0) structdump_1;
+	ovar0 = (object)"null";
+	ivar1 = -1;
+	ivar2 = 0;
+	if (arg0 != -1) {
+		ivar2 = arg0;
+	} else {
+		ivar2 = getItemAmtInContainer(623, 995);
+	}
+	stack_dump0 = arg0;
+	structdump_1 = script_5564(stack_dump0);
+	ivar1 = structdump_1.intpart_0;
+	ovar0 = structdump_1.objectpart_0;
+	setWidgetRGB(ivar1, 48890061);
+	setWidgetRGB(ivar1, 35913930);
+	setWidgetText(new WidgetPointer(746,205), ovar0);
+	setWidgetText(new WidgetPointer(548,202), ovar0);
+	return;
+}

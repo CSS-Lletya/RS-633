@@ -1,0 +1,8 @@
+void script_1170() {
+	if (cs2method_10964(39387137) > globalint_1435) {
+		cs2method_10149(cs2method_10004(50, subtract(cs2method_10964(39387137), 1)), 39387137);
+	} else {
+		cs2method_10149(cs2method_10586(255, add(cs2method_10964(39387137), 1)), 39387137);
+	}
+	return;
+}

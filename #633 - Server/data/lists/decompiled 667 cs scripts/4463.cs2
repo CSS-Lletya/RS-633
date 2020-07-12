@@ -1,0 +1,36 @@
+void script_4463(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar2 = 0;
+	if (cs2method_10309() == 1) {
+		if (cs2method_10528() == 1) {
+			ovar0 = cs2method_10319(arg0);
+			if (arg1 == 1) {
+				if (cs2method_10028(ovar0) == 1) {
+					ivar2 = 1;
+				} else {
+					cs2method_10986(0, 0, (object)"You only message people on your Friends List.");
+				}
+			} else {
+				if (arg1 == 8) {
+					script_4466(ovar0);
+				}
+			}
+		} else {
+			cs2method_10998((object)"You must be in a clan to do that.");
+		}
+	} else {
+		cs2method_10998((object)"You must be in a clan to do that.");
+	}
+	if (ivar2 == 1) {
+		globalint_1650 = 1;
+		globalstring_23 = (string)ovar0;
+		globalint_2106 = 1;
+		script_6415();
+		script_6328(0);
+		script_1558(0);
+		return;
+	}
+	return;
+}

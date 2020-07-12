@@ -1,0 +1,339 @@
+void script_2430() {
+	if (bitconfig_1628 == 1) {
+		setWidgetRGB(16777215, 2818104);
+	}
+	if (bitconfig_1629 == 1) {
+		setWidgetRGB(16777215, 2818105);
+	}
+	if (bitconfig_1630 == 1) {
+		setWidgetRGB(16777215, 2818106);
+	}
+	if (bitconfig_1631 == 1) {
+		setWidgetRGB(16777215, 2818107);
+	}
+	if (bitconfig_1632 == 1) {
+		setWidgetRGB(16777215, 2818108);
+	}
+	if (bitconfig_1633 == 1) {
+		setWidgetRGB(16777215, 2818109);
+	}
+	if (bitconfig_1634 == 1) {
+		setWidgetRGB(16777215, 2818110);
+	}
+	if (bitconfig_1635 == 1) {
+		setWidgetRGB(16777215, 2818111);
+	}
+	if (bitconfig_1636 == 1) {
+		setWidgetRGB(16777215, 2818112);
+	}
+	if (bitconfig_1637 == 1) {
+		setWidgetRGB(16777215, 2818113);
+	}
+	if (bitconfig_1638 == 1) {
+		setWidgetRGB(16777215, 2818114);
+	}
+	if (bitconfig_1639 == 1) {
+		setWidgetRGB(16777215, 2818115);
+	}
+	if (bitconfig_1640 == 1) {
+		setWidgetRGB(16777215, 2818116);
+	}
+	if (bitconfig_1641 == 1) {
+		setWidgetRGB(16777215, 2818117);
+	}
+	if (bitconfig_1642 == 1) {
+		setWidgetRGB(16777215, 2818118);
+	}
+	if (bitconfig_1643 == 1) {
+		setWidgetRGB(16777215, 2818119);
+	}
+	if (bitconfig_1644 == 1) {
+		setWidgetRGB(16777215, 2818120);
+	}
+	if (bitconfig_1645 == 1) {
+		setWidgetRGB(16777215, 2818121);
+	}
+	if (bitconfig_1646 == 1) {
+		setWidgetRGB(16777215, 2818122);
+	}
+	if (bitconfig_1647 == 1) {
+		setWidgetRGB(16777215, 2818123);
+	}
+	if (bitconfig_1648 == 1) {
+		setWidgetRGB(16777215, 2818124);
+	}
+	if (bitconfig_1649 == 1) {
+		setWidgetRGB(16777215, 2818125);
+	}
+	if (bitconfig_1650 == 1) {
+		setWidgetRGB(16777215, 2818126);
+	}
+	if (bitconfig_1651 == 1) {
+		setWidgetRGB(16777215, 2818127);
+	}
+	if (bitconfig_1652 == 1) {
+		setWidgetRGB(16777215, 2818128);
+	}
+	if (bitconfig_1653 == 1) {
+		setWidgetRGB(16777215, 2818129);
+	}
+	if (bitconfig_1654 == 1) {
+		setWidgetRGB(16777215, 2818130);
+	}
+	if (bitconfig_1655 == 1) {
+		setWidgetRGB(16777215, 2818131);
+	}
+	if (bitconfig_1656 == 1) {
+		setWidgetRGB(16777215, 2818132);
+	}
+	if (bitconfig_1657 == 1) {
+		setWidgetRGB(16777215, 2818133);
+	}
+	if (bitconfig_1658 == 1) {
+		setWidgetRGB(16777215, 2818134);
+	}
+	if (bitconfig_1659 == 1) {
+		setWidgetRGB(16777215, 2818135);
+	}
+	if (bitconfig_1660 == 1) {
+		setWidgetRGB(16777215, 2818136);
+	}
+	if (bitconfig_1661 == 1) {
+		setWidgetRGB(16777215, 2818137);
+	}
+	if (bitconfig_1662 == 1) {
+		setWidgetRGB(16777215, 2818138);
+	}
+	if (bitconfig_1663 == 1) {
+		setWidgetRGB(16777215, 2818139);
+	}
+	if (bitconfig_1664 == 1) {
+		setWidgetRGB(16777215, 2818140);
+	}
+	if (bitconfig_1665 == 1) {
+		setWidgetRGB(16777215, 2818141);
+	}
+	if (bitconfig_1666 == 1) {
+		setWidgetRGB(16777215, 2818142);
+	}
+	if (bitconfig_1667 == 1) {
+		setWidgetRGB(16777215, 2818143);
+	}
+	if (bitconfig_1668 == 1) {
+		setWidgetRGB(16777215, 2818144);
+	}
+	if (bitconfig_1669 == 1) {
+		setWidgetRGB(16777215, 2818145);
+	}
+	if (bitconfig_1670 == 1) {
+		setWidgetRGB(16777215, 2818146);
+	}
+	if (bitconfig_1671 == 1) {
+		setWidgetRGB(16777215, 2818147);
+	}
+	if (bitconfig_1672 == 1) {
+		setWidgetRGB(16777215, 2818148);
+	}
+	if (bitconfig_1673 == 1) {
+		setWidgetRGB(16777215, 2818149);
+	}
+	if (bitconfig_1674 == 1) {
+		setWidgetRGB(16777215, 2818150);
+	}
+	if (bitconfig_1675 == 1) {
+		setWidgetRGB(16777215, 2818151);
+	}
+	if (bitconfig_1676 == 1) {
+		setWidgetRGB(16777215, 2818152);
+	}
+	if (bitconfig_1677 == 1) {
+		setWidgetRGB(16777215, 2818153);
+	}
+	if (bitconfig_1678 == 1) {
+		setWidgetRGB(16777215, 2818154);
+	}
+	if (bitconfig_1679 == 1) {
+		setWidgetRGB(16777215, 2818155);
+	}
+	if (bitconfig_1680 == 1) {
+		setWidgetRGB(16777215, 2818156);
+	}
+	if (bitconfig_1681 == 1) {
+		setWidgetRGB(16777215, 2818157);
+	}
+	if (bitconfig_1682 == 1) {
+		setWidgetRGB(16777215, 2818158);
+	}
+	if (bitconfig_1683 == 1) {
+		setWidgetRGB(16777215, 2818159);
+	}
+	if (bitconfig_1684 == 1) {
+		setWidgetRGB(16777215, 2818048);
+	}
+	if (bitconfig_1685 == 1) {
+		setWidgetRGB(16777215, 2818049);
+	}
+	if (bitconfig_1686 == 1) {
+		setWidgetRGB(16777215, 2818050);
+	}
+	if (bitconfig_1687 == 1) {
+		setWidgetRGB(16777215, 2818051);
+	}
+	if (bitconfig_1688 == 1) {
+		setWidgetRGB(16777215, 2818052);
+	}
+	if (bitconfig_1689 == 1) {
+		setWidgetRGB(16777215, 2818053);
+	}
+	if (bitconfig_1690 == 1) {
+		setWidgetRGB(16777215, 2818054);
+	}
+	if (bitconfig_1691 == 1) {
+		setWidgetRGB(16777215, 2818055);
+	}
+	if (bitconfig_1692 == 1) {
+		setWidgetRGB(16777215, 2818056);
+	}
+	if (bitconfig_1693 == 1) {
+		setWidgetRGB(16777215, 2818057);
+	}
+	if (bitconfig_1694 == 1) {
+		setWidgetRGB(16777215, 2818058);
+	}
+	if (bitconfig_1695 == 1) {
+		setWidgetRGB(16777215, 2818059);
+	}
+	if (bitconfig_1696 == 1) {
+		setWidgetRGB(16777215, 2818060);
+	}
+	if (bitconfig_1697 == 1) {
+		setWidgetRGB(16777215, 2818061);
+	}
+	if (bitconfig_1698 == 1) {
+		setWidgetRGB(16777215, 2818062);
+	}
+	if (bitconfig_1699 == 1) {
+		setWidgetRGB(16777215, 2818063);
+	}
+	if (bitconfig_1700 == 1) {
+		setWidgetRGB(16777215, 2818064);
+	}
+	if (bitconfig_1701 == 1) {
+		setWidgetRGB(16777215, 2818065);
+	}
+	if (bitconfig_1702 == 1) {
+		setWidgetRGB(16777215, 2818066);
+	}
+	if (bitconfig_1703 == 1) {
+		setWidgetRGB(16777215, 2818067);
+	}
+	if (bitconfig_1704 == 1) {
+		setWidgetRGB(16777215, 2818068);
+	}
+	if (bitconfig_1705 == 1) {
+		setWidgetRGB(16777215, 2818069);
+	}
+	if (bitconfig_1706 == 1) {
+		setWidgetRGB(16777215, 2818070);
+	}
+	if (bitconfig_1707 == 1) {
+		setWidgetRGB(16777215, 2818071);
+	}
+	if (bitconfig_1708 == 1) {
+		setWidgetRGB(16777215, 2818072);
+	}
+	if (bitconfig_1709 == 1) {
+		setWidgetRGB(16777215, 2818073);
+	}
+	if (bitconfig_1710 == 1) {
+		setWidgetRGB(16777215, 2818074);
+	}
+	if (bitconfig_1711 == 1) {
+		setWidgetRGB(16777215, 2818075);
+	}
+	if (bitconfig_1712 == 1) {
+		setWidgetRGB(16777215, 2818076);
+	}
+	if (bitconfig_1713 == 1) {
+		setWidgetRGB(16777215, 2818077);
+	}
+	if (bitconfig_1714 == 1) {
+		setWidgetRGB(16777215, 2818078);
+	}
+	if (bitconfig_1715 == 1) {
+		setWidgetRGB(16777215, 2818079);
+	}
+	if (bitconfig_1716 == 1) {
+		setWidgetRGB(16777215, 2818080);
+	}
+	if (bitconfig_1717 == 1) {
+		setWidgetRGB(16777215, 2818081);
+	}
+	if (bitconfig_1718 == 1) {
+		setWidgetRGB(16777215, 2818082);
+	}
+	if (bitconfig_1719 == 1) {
+		setWidgetRGB(16777215, 2818083);
+	}
+	if (bitconfig_1720 == 1) {
+		setWidgetRGB(16777215, 2818084);
+	}
+	if (bitconfig_1721 == 1) {
+		setWidgetRGB(16777215, 2818085);
+	}
+	if (bitconfig_1722 == 1) {
+		setWidgetRGB(16777215, 2818086);
+	}
+	if (bitconfig_1723 == 1) {
+		setWidgetRGB(16777215, 2818087);
+	}
+	if (bitconfig_1724 == 1) {
+		setWidgetRGB(16777215, 2818088);
+	}
+	if (bitconfig_1725 == 1) {
+		setWidgetRGB(16777215, 2818089);
+	}
+	if (bitconfig_1726 == 1) {
+		setWidgetRGB(16777215, 2818090);
+	}
+	if (bitconfig_1727 == 1) {
+		setWidgetRGB(16777215, 2818091);
+	}
+	if (bitconfig_1728 == 1) {
+		setWidgetRGB(16777215, 2818092);
+	}
+	if (bitconfig_1729 == 1) {
+		setWidgetRGB(16777215, 2818093);
+	}
+	if (bitconfig_1730 == 1) {
+		setWidgetRGB(16777215, 2818094);
+	}
+	if (bitconfig_1731 == 1) {
+		setWidgetRGB(16777215, 2818095);
+	}
+	if (bitconfig_1732 == 1) {
+		setWidgetRGB(16777215, 2818096);
+	}
+	if (bitconfig_1733 == 1) {
+		setWidgetRGB(16777215, 2818097);
+	}
+	if (bitconfig_1734 == 1) {
+		setWidgetRGB(16777215, 2818098);
+	}
+	if (bitconfig_1735 == 1) {
+		setWidgetRGB(16777215, 2818099);
+	}
+	if (bitconfig_1736 == 1) {
+		setWidgetRGB(16777215, 2818100);
+	}
+	if (bitconfig_1737 == 1) {
+		setWidgetRGB(16777215, 2818101);
+	}
+	if (bitconfig_1738 == 1) {
+		setWidgetRGB(16777215, 2818102);
+	}
+	if (bitconfig_1739 == 1) {
+		setWidgetRGB(16777215, 2818103);
+	}
+	return;
+}

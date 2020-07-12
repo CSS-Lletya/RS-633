@@ -1,0 +1,10 @@
+void script_4186(int arg0) {
+	if (arg0 == 70254623) {
+		cs2method_10467(3863, 70254623);
+	} else {
+		if (arg0 == 70254624) {
+			cs2method_10467(3864, 70254624);
+		}
+	}
+	return;
+}

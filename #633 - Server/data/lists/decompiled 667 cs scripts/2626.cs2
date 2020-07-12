@@ -1,0 +1,17 @@
+void script_2626() {
+	cs2method_10176(0, 1, 56295437);
+	cs2method_10176(2, 3, 56295438);
+	if (bitconfig_6357 == 2) {
+		cs2method_10176(4, 5, 56295440);
+		cs2method_10176(12, 13, 56295441);
+	} else if (bitconfig_6357 == 3) {
+		cs2method_10176(6, 7, 56295440);
+	} else {
+		if (bitconfig_6357 == 4) {
+			cs2method_10176(10, 11, 56295440);
+			cs2method_10176(8, 9, 56295441);
+		}
+	}
+	script_2628();
+	return;
+}

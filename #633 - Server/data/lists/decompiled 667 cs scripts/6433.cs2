@@ -1,0 +1,39 @@
+int script_6433(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = cs2method_10869(6);
+	ivar2 = 0;
+	if (ivar1 == 0) {
+		cs2method_10461(73323, arg0);
+		cs2method_10535(16984, arg0);
+		cs2method_10306(1000, arg0);
+		ivar2 = 1000;
+	} else if (ivar1 == 1) {
+		cs2method_10461(23854, arg0);
+		cs2method_10535(6077, arg0);
+		cs2method_10306(1500, arg0);
+		ivar2 = 1500;
+	} else if (ivar1 == 2) {
+		cs2method_10461(24613, arg0);
+		cs2method_10535(6248, arg0);
+		cs2method_10306(800, arg0);
+		ivar2 = 800;
+	} else if (ivar1 == 3) {
+		cs2method_10461(73324, arg0);
+		cs2method_10535(16984, arg0);
+		cs2method_10306(1200, arg0);
+		ivar2 = 1200;
+	} else if (ivar1 == 4) {
+		cs2method_10461(24591, arg0);
+		cs2method_10535(6221, arg0);
+		cs2method_10306(1000, arg0);
+		ivar2 = 1000;
+	} else {
+		cs2method_10461(31693, arg0);
+		cs2method_10535(2177, arg0);
+		cs2method_10306(2800, arg0);
+		ivar2 = 2800;
+	}
+	setScriptCallOnMousePressed(6434, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	return ivar2;
+}

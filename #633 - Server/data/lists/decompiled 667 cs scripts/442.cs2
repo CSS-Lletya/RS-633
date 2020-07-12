@@ -1,0 +1,28 @@
+void script_442(int arg0) {
+	cs2method_10467(1134, 66584600);
+	cs2method_10467(1134, 66584601);
+	cs2method_10467(1134, 66584602);
+	cs2method_10467(1134, 66584603);
+	cs2method_10467(1134, 66584604);
+	cs2method_10467(1134, 66584605);
+	switch (arg0) {
+		case 66584606:
+			cs2method_10467(1135, 66584600);
+			break;
+		case 66584607:
+			cs2method_10467(1135, 66584601);
+			break;
+		case 66584608:
+			cs2method_10467(1135, 66584602);
+			break;
+		case 66584609:
+			cs2method_10467(1135, 66584603);
+			break;
+		case 66584610:
+			cs2method_10467(1135, 66584604);
+			break;
+		case 66584611:
+			cs2method_10467(1135, 66584605);
+	}
+	return;
+}

@@ -1,0 +1,9 @@
+int script_6421(int arg0) {
+	switch (arg0) {
+		case 1:
+		case 2:
+		case 3:
+			return 1;
+	}
+	return 0;
+}

@@ -1,0 +1,153 @@
+void script_6108(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	flow_0:
+		if (standart_config_2561 == -1 || standart_config_2563 == -1) {
+			return;
+		}
+		setWidgetIsHidden(false, new WidgetPointer(1265,172));
+		setWidgetIsHidden(false, new WidgetPointer(1265,82));
+		setWidgetIsHidden(false, new WidgetPointer(1265,202));
+		ivar2 = getItemIdInContainerSlot(arg0, arg1);
+		if (ivar2 == -1 || getItemAmtInContainer(arg0, ivar2) == -1) {
+			setWidgetText(new WidgetPointer(1265,39), (object)"Select an item");
+			cs2method_10380(-1, -1, 82903081);
+			setWidgetText(new WidgetPointer(1265,205), (object)"N/A");
+			cs2method_10467(-1, 82903058);
+			setWidgetRGB(8552313, 82903244);
+			setWidgetText(new WidgetPointer(1265,204), (object)"N/A");
+			return;
+		}
+		setWidgetRGB(15052881, 82903244);
+		setWidgetText(new WidgetPointer(1265,39), getItemName(ivar2));
+		cs2method_10380(ivar2, -1, 82903081);
+		setWidgetText(new WidgetPointer(1265,40), (object)globalstring_362);
+		ivar3 = script_6075(ivar2, standart_config_2564);
+		if (arg0 == 93) {
+			setWidgetText(new WidgetPointer(1265,78), (object)"Value:");
+			setWidgetText(new WidgetPointer(1265,204), (object)"Sell");
+			ivar3 = script_6076(ivar2, standart_config_2564);
+			if (cs2method_10184(globalint_1879, arg1) == 0) {
+				ivar3 = -1;
+			}
+		} else if (arg0 == standart_config_1496) {
+			setWidgetText(new WidgetPointer(1265,78), (object)"Price:");
+			setWidgetText(new WidgetPointer(1265,204), (object)"Take");
+		} else {
+			setWidgetText(new WidgetPointer(1265,78), (object)"Price:");
+			setWidgetText(new WidgetPointer(1265,204), (object)"Buy");
+		}
+		ivar4 = getItemAmtInContainer(93, standart_config_532);
+		if (standart_config_532 == 995) {
+			ivar4 = add(ivar4, getItemAmtInContainer(623, standart_config_532));
+		}
+		if (ivar4 == 0) {
+			setWidgetText(new WidgetPointer(1265,207), (object)"None!");
+			cs2method_10467(2180, 82903246);
+		} else {
+			setWidgetText(new WidgetPointer(1265,207), script_940(ivar4));
+			cs2method_10467(getDataByKey('o', 'd', 200, standart_config_532), 82903246);
+		}
+		ivar5 = cs2method_10242(cs2method_10956(82903117), 3793, cs2method_10100(82903247));
+		ivar5 = add(add(ivar5, 2), cs2method_10956(82903246));
+		cs2method_10893(ivar5, 15, 0, 0, 82903056);
+		if (ivar3 == -1) {
+			setWidgetText(new WidgetPointer(1265,205), (object)"N/A");
+			cs2method_10467(2180, 82903058);
+		} else if (arg0 == standart_config_1496) {
+			setWidgetText(new WidgetPointer(1265,205), (object)"Free!");
+			cs2method_10467(-1, 82903058);
+		} else {
+			setWidgetText(new WidgetPointer(1265,205), script_940(ivar3));
+			cs2method_10467(getDataByKey('o', 'd', 200, standart_config_532), 82903058);
+		}
+		ivar5 = cs2method_10242(cs2method_10956(82903119), 3793, cs2method_10100(82903245));
+		if (arg0 != standart_config_1496) {
+			ivar5 = add(add(ivar5, 2), cs2method_10956(82903058));
+		}
+		cs2method_10893(ivar5, 15, 0, 0, 82903057);
+		if (ivar3 != -1) {
+			setWidgetIsHidden(true, new WidgetPointer(1265,82));
+			setWidgetIsHidden(true, new WidgetPointer(1265,202));
+		}
+		IF (isMembersItem(standart_config_2562) == 0 || isMember() == 1) 
+			GOTO	flow_26
+		GOTO	flow_30
+	flow_26:
+		IF (globalint_1876 >= 0) 
+			GOTO	flow_27
+		GOTO	flow_28
+	flow_27:
+		IF (globalint_1876 < 30) 
+			GOTO	flow_29
+	flow_28:
+		IF (globalint_1876 == 32 || standart_config_2562 == 1265 || standart_config_2562 == 1351) 
+			GOTO	flow_29
+		GOTO	flow_30
+	flow_29:
+		setWidgetIsHidden(true, new WidgetPointer(1265,172));
+	flow_30:
+		ivar6 = 82903060;
+		if (globalint_1881 != -1 && globalint_1880 != -1) {
+			setWidgetIsHidden(true, new WidgetPointer(1266,3));
+			if (globalint_1881 == standart_config_1496) {
+				ivar6 = 82903061;
+			}
+			if (cs2method_10551(ivar6, globalint_1880) == 1) {
+				cs2method_20211(6100, bitconfig_11055, 0, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+				cs2method_20139(6100, bitconfig_11055, 0, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+				if (bitconfig_11055 == 0) {
+					cs2method_10469(10448);
+				} else {
+					cs2method_10469(10453);
+				}
+			}
+		}
+		ivar6 = 82903060;
+		if (standart_config_2561 == standart_config_1496) {
+			ivar6 = 82903061;
+		}
+		if (arg0 == standart_config_2561) {
+			if (arg0 == 93 && cs2method_10551(82968576, arg1) == 1) {
+				cs2method_10444(subtract(add(cs2method_10646(), 2), 2), subtract(add(cs2method_10207(), 2), 2), 0, 0, 82968579);
+				setWidgetIsHidden(false, new WidgetPointer(1266,3));
+			}
+			if (cs2method_10551(ivar6, arg1) == 1 && (arg0 != 93 || standart_config_2565 == 1)) {
+				cs2method_20211(6100, bitconfig_11055, 1, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+				cs2method_20139(6100, bitconfig_11055, 1, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+				if (bitconfig_11055 == 0) {
+					cs2method_10469(10451);
+				} else {
+					cs2method_10469(10456);
+				}
+			}
+			globalint_1881 = arg0;
+			globalint_1880 = arg1;
+		}
+		ovar0 = (object)script_2706(ivar2);
+		script_41(82903129);
+		cs2method_20295(40, new WidgetPointer(1265,89), "I", new WidgetPointer(1265,42));
+		cs2method_20295(40, new WidgetPointer(1265,89), "I", new WidgetPointer(1265,41));
+		if (compareTo(ovar0, (object)"") != 0) {
+			if (compareTo((object)globalstring_26, (object)"") != 0) {
+				ovar0 = cs2method_10445(ovar0, (object)globalstring_26);
+			}
+			if (compareTo((object)globalstring_34, (object)"") != 0) {
+				ovar0 = cs2method_10445(ovar0, (object)("<br>" + globalstring_34));
+			}
+			cs2method_10467(2180, 82903082);
+			cs2method_20835(4538, new WidgetPointer(1265,89), new WidgetPointer(-32768,3), -1, (string)ovar0, 160, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1265,42));
+			cs2method_20835(4538, new WidgetPointer(1265,89), new WidgetPointer(-32768,3), -1, (string)ovar0, 160, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1265,41));
+			cs2method_20835(4538, new WidgetPointer(1265,89), new WidgetPointer(-32768,3), -1, (string)ovar0, 160, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1265,39));
+		} else {
+			cs2method_10467(-1, 82903082);
+			cs2method_20835(-1, "", new WidgetPointer(1265,42));
+			cs2method_20835(-1, "", new WidgetPointer(1265,41));
+			cs2method_20835(-1, "", new WidgetPointer(1265,39));
+		}
+		return;
+}

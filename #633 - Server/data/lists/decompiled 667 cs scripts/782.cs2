@@ -1,0 +1,56 @@
+void script_782(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	clearExtraChildren(new WidgetPointer(arg1));
+	ivar4 = add(2, multiply(13, getLineCount(177, 495, (object)"This space is reserved")));
+	ivar5 = add(2, multiply(13, getLineCount(177, 494, (object)"You cannot make this pouch.")));
+	ivar6 = add(add(add(add(add(2, ivar4), ivar5), 32), 14), 2);
+	ivar7 = 5;
+	ivar8 = 5;
+	ivar9 = 1;
+	ivar10 = 1;
+	if (cs2method_10551(arg2, arg0) == 1) {
+		ivar6 = subtract(subtract(ivar6, 32), 14);
+		ivar7 = add(subtract(cs2method_10207(), cs2method_10424(arg2)), 110);
+		if (ivar7 > 200) {
+			ivar7 = add(subtract(subtract(cs2method_10207(), cs2method_10424(arg2)), ivar6), 45);
+		}
+		ivar8 = subtract(cs2method_10646(), 60);
+		if (ivar8 < 0) {
+			ivar8 = 5;
+		}
+		if (ivar8 > 270) {
+			ivar8 = 285;
+		}
+		createChildWidget(arg1, 3, 0);
+		setWidgetPosition(ivar8, ivar7, 0, 0);
+		setWidgetSize(180, ivar6, 0, 0);
+		setWidgetFilled(1);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10305(42);
+		createChildWidget(arg1, 3, 1);
+		setWidgetPosition(add(ivar8, 1), add(ivar7, 1), 0, 0);
+		setWidgetSize(179, subtract(ivar6, 1), 0, 0);
+		setWidgetFilled(0);
+		setWidgetRGB(new Color(46, 43, 35));
+		createChildWidget(arg1, 3, 2);
+		setWidgetPosition(ivar8, ivar7, 0, 0);
+		setWidgetSize(179, subtract(ivar6, 1), 0, 0);
+		setWidgetFilled(0);
+		setWidgetRGB(new Color(114, 100, 81));
+		createChildWidget(arg1, 4, 3);
+		setWidgetPosition(add(ivar8, 2), add(ivar7, 2), 0, 0);
+		setWidgetSize(177, ivar4, 0, 0);
+		setWidgetTextAlignment(1, 1, 0);
+		setWidgetFont(495);
+		setWidgetRGB(new Color(255, 152, 31));
+		cs2method_10320(0);
+		setWidgetText((object)"This space is reserved.");
+	}
+	return;
+}

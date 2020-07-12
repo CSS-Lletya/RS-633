@@ -1,0 +1,84 @@
+void script_5486() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	opc_struct10876(1,3,0) structdump_0;
+	opc_struct10398(2,0,0) structdump_1;
+	opc_struct10269(1,2,0) structdump_2;
+	ivar0 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	if (globalint_1686 == 0) {
+		return;
+	}
+	structdump_0 = cs2method_10876();
+	ovar3 = structdump_0.objectpart_2;
+	ovar0 = structdump_0.objectpart_1;
+	ovar1 = structdump_0.objectpart_0;
+	ivar0 = structdump_0.intpart_0;
+	structdump_1 = cs2method_10398();
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	structdump_2 = cs2method_10269();
+	ovar4 = structdump_2.objectpart_1;
+	ovar5 = structdump_2.objectpart_0;
+	ivar3 = structdump_2.intpart_0;
+	if (ivar3 == 1 && ivar1 < 2) {
+		ovar0 = ovar5;
+		ovar1 = (object)("-> " + (string)ovar4);
+		ovar3 = (object)"";
+		ivar0 = -1;
+	}
+	if (globalint_1687 == -1) {
+		globalint_1687 = 20;
+	}
+	if (compareTo(ovar0, (object)globalstring_304) != 0 && globalint_1690 == -1) {
+		globalstring_304 = (string)ovar0;
+		globalint_1689 = cs2method_10878();
+		script_5487();
+	}
+	ovar2 = ovar1;
+	if (compareTo(ovar3, (object)"") == 0) {
+		if (compareTo(ovar0, (object)"") != 0) {
+			ovar2 = (object)((string)ovar2 + " " + (string)ovar0);
+		}
+	} else {
+		if (compareTo(ovar0, (object)"") != 0) {
+			ovar2 = (object)((string)ovar2 + " " + (string)ovar0 + " " + (string)ovar3);
+		}
+	}
+	switch (ivar0) {
+		case 2:
+		case 3:
+		case 4:
+		case 7:
+			script_6416(ovar2);
+			break;
+		case 1:
+			if (globalint_1691 != -1) {
+				script_6416(ovar2);
+			} else {
+				script_5487();
+			}
+			break;
+		default:
+			if (globalint_1688 == 1) {
+				script_5487();
+			}
+	}
+	return;
+}

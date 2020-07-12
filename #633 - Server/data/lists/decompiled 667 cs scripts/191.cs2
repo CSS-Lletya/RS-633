@@ -1,0 +1,22 @@
+int script_191(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = 0;
+	if (cs2method_10551(arg0, 3) == 1) {
+		ivar3 = cs2method_10630();
+	}
+	if (cs2method_10551(arg0, 4) == 1) {
+		ivar3 = add(ivar3, 5);
+	}
+	if (cs2method_10551(arg0, 5) == 1) {
+		ivar3 = add(ivar3, 5);
+	}
+	ivar4 = subtract(cs2method_10090(arg0), ivar3);
+	arg1 = multiply(ivar4, divide(arg1, ivar4));
+	if (arg2 == 0) {
+		arg1 = add(arg1, ivar4);
+	} else {
+		arg1 = subtract(arg1, ivar4);
+	}
+	return arg1;
+}

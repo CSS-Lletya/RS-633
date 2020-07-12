@@ -1,0 +1,3 @@
+void script_3221(object arg0,object arg1,object arg2,object arg3,object arg4) {
+	return;
+}

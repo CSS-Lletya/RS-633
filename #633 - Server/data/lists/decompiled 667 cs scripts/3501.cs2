@@ -1,0 +1,24 @@
+void script_3501(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	while (ivar1 < cs2method_10594(207)) {
+		createChildWidget(arg0, 6, ivar1);
+		setWidgetSize(49, 49, 0, 0);
+		setWidgetPosition(multiply(56, ivar2), multiply(56, ivar3), 0, 0);
+		if (getItemIdInContainerSlot(207, ivar1) != -1) {
+			setItemOnWidget_10672(getItemIdInContainerSlot(207, ivar1), cs2method_10136(207, ivar1));
+			cs2method_10021(0, 0, 512, 0, 0, 1340);
+			cs2method_10347(1);
+		} else {
+			cs2method_10692(1);
+		}
+		ivar1 = add(ivar1, 1);
+		ivar2 = cs2method_10620(ivar1, 5);
+		ivar3 = divide(ivar1, 5);
+	}
+	return;
+}

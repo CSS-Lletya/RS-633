@@ -1,0 +1,4 @@
+void script_2653() {
+	setWidgetText(new WidgetPointer(918,7), (object)(toString(standart_config_1652) + " " + getDataByKey('i', 's', 950, standart_config_1653) + " " + toString(standart_config_1654)));
+	return;
+}

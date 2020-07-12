@@ -1,0 +1,13 @@
+int script_6063() {
+	switch (cs2method_10145()) {
+		case 0:
+			return 10232;
+		case 1:
+			return 10234;
+		case 2:
+			return 10235;
+		case 3:
+			return 10233;
+	}
+	return -1;
+}

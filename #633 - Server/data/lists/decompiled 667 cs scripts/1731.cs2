@@ -1,0 +1,4 @@
+void script_1731(int arg0,object arg1) {
+	script_2197(arg0, -1, arg1);
+	return;
+}

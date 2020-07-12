@@ -1,0 +1,19 @@
+void script_6203() {
+	int ivar0;
+	int ivar1;
+	if (compareTo((object)globalstring_363, (object)globalstring_364) != 0 && (cs2method_10366((object)globalstring_363) > 0 || cs2method_10366((object)globalstring_364) > 0)) {
+		script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"Please ensure both email addresses are the same.", (object)"", (object)"", (object)"Back", (object)"Back");
+		return;
+	}
+	cs2method_20889(6204, 2411, 1, "Y", new WidgetPointer(906,235));
+	script_5522();
+	setWidgetText(new WidgetPointer(906,252), (object)"Please wait...");
+	ivar0 = 0;
+	ivar1 = 0;
+	if (globalint_1411 == 1) {
+		ivar0 = 1;
+		ivar1 = 1;
+	}
+	cs2method_10328(1, ivar0, ivar1, (object)globalstring_363);
+	return;
+}

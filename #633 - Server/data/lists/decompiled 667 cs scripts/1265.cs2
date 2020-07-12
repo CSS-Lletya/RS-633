@@ -1,0 +1,19 @@
+void script_1265() {
+	object ovar0;
+	ovar0 = (object)"null";
+	if (standart_config_171 == 1) {
+		cs2method_10467(761, 17104908);
+		ovar0 = (object)("Chat effects" + "<br>" + "(currently off)");
+		cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,12));
+		globalint_2 = 0;
+	} else {
+		if (standart_config_171 == 0) {
+			cs2method_10467(762, 17104908);
+			ovar0 = (object)("Chat effects" + "<br>" + "(currently on)");
+			cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,12));
+			globalint_2 = 0;
+		}
+	}
+	script_5641(17104908, cs2method_10620(add(standart_config_171, 1), 2));
+	return;
+}

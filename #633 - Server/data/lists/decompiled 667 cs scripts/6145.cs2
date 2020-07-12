@@ -1,0 +1,28 @@
+void script_6145(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	arg3 = add(arg3, 1);
+	if (arg3 < 100) {
+		cs2method_20219(6145, new WidgetPointer(-32768,3), arg1, arg2, arg3, arg4, "Iiiii", new WidgetPointer(arg0));
+	}
+	if (arg3 < 0) {
+		return;
+	}
+	ivar5 = 25;
+	ivar6 = cs2method_10542(arg4, 6, ivar5);
+	ivar6 = cs2method_10542(arg3, 100, ivar6);
+	ivar7 = cs2method_10869(ivar6);
+	ivar8 = cs2method_10869(ivar6);
+	if (cs2method_10869(2) == 0) {
+		ivar7 = subtract(0, ivar7);
+	}
+	if (cs2method_10869(2) == 0) {
+		ivar8 = subtract(0, ivar8);
+	}
+	if (cs2method_10551(arg0, 0) == 1) {
+		setWidgetPosition(add(arg1, ivar7), add(arg2, ivar8), 0, 0);
+	}
+	return;
+}

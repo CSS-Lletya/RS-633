@@ -1,0 +1,50 @@
+void script_366(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,object arg9) {
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	if (arg0 != -1) {
+		if (arg5 == 1) {
+			script_365(arg0, arg3, 1);
+		} else {
+			script_365(arg0, arg3, 0);
+		}
+		if (arg6 == 1) {
+			cs2method_20219(367, new WidgetPointer(arg0), arg4, arg5, "Ii1", new WidgetPointer(arg0));
+		}
+	} else {
+		script_365(arg7, arg3, 2);
+	}
+	if (cs2method_10403(arg7) == 1) {
+		if (arg5 == 1) {
+			if (cs2method_10366(arg9) > 0) {
+				script_379(script_3365(arg7), cs2method_10956(arg7), script_3366(arg7), arg8, arg9);
+			}
+		} else {
+			if (script_3365(arg7) == globalint_2 && cs2method_10956(arg7) == globalint_773) {
+				script_383();
+			}
+		}
+	}
+	if (arg2 == -1) {
+		return;
+	}
+	ivar9 = 0;
+	ivar10 = cs2method_10624(arg2);
+	ivar11 = -1;
+	if (arg5 == 1 && ivar9 < ivar10) {
+		while (true) {
+			if (ivar9 != arg1) {
+				ivar11 = (int)getDataByKey('i', 'I', arg2, ivar9);
+				if (ivar11 == -1) {
+					return;
+				}
+				if (ivar11 != arg0 && cs2method_10416(ivar11) == 0) {
+					cs2method_20219(367, new WidgetPointer(ivar11), arg4, 0, "Ii1", new WidgetPointer(ivar11));
+					script_365(ivar11, arg3, 0);
+				}
+			}
+			ivar9 = add(ivar9, 1);
+		}
+	}
+	return;
+}

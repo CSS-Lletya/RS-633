@@ -1,0 +1,18 @@
+void script_508() {
+	globalint_6 = 0;
+	if (cs2method_10071() == 5 || cs2method_10071() == 6) {
+		setWidgetText(new WidgetPointer(594,49), (object)"Suggest to mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,11), (object)"Suggest to mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,32), (object)"Suggest to mute this player for 48 hours");
+	} else {
+		setWidgetText(new WidgetPointer(594,49), (object)"Mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,11), (object)"Mute this player for 48 hours");
+		setWidgetText(new WidgetPointer(594,32), (object)"Mute this player for 48 hours");
+	}
+	globalint_11 = 1;
+	cs2method_20525(218, 24, 1, "Y", new WidgetPointer(594,17));
+	globalint_792 = -1;
+	script_224();
+	script_216();
+	return;
+}

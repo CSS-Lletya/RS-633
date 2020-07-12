@@ -1,0 +1,6 @@
+void script_280() {
+	cs2method_20914(281, 1118, 1119, 1120, 1121, 4, "Y", new WidgetPointer(925,26));
+	cs2method_20889(281, 1660, 1661, 1663, 1668, 4, "Y", new WidgetPointer(925,26));
+	bitconfig_11303 = 0;
+	return;
+}

@@ -1,0 +1,18 @@
+void script_1783(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	if (arg2 == -1) {
+		if (cs2method_10551(arg1, 1) == 1) {
+			script_157(arg1, arg0, 0, 1);
+		}
+		return;
+	}
+	ivar4 = 0;
+	if (cs2method_10551(arg2, arg3) == 1 || arg3 == -1 && cs2method_10403(arg2) == 1) {
+		ivar4 = add(cs2method_10207(), divide(cs2method_10630(), 2));
+		ivar4 = subtract(ivar4, divide(cs2method_10090(arg0), 2));
+		if (cs2method_10551(arg1, 1) == 1) {
+			script_157(arg1, arg0, ivar4, 1);
+		}
+	}
+	return;
+}

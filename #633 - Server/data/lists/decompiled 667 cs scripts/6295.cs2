@@ -1,0 +1,24 @@
+void script_6295(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar3 = cs2method_10004(subtract(divide(cs2method_10956(cs2method_10509(arg2)), 2), arg0), multiply(subtract(divide(cs2method_10956(cs2method_10509(arg2)), 2), arg0), -1));
+	ivar4 = cs2method_10004(subtract(divide(cs2method_10090(cs2method_10509(arg2)), 2), arg1), multiply(subtract(divide(cs2method_10090(cs2method_10509(arg2)), 2), arg1), -1));
+	ivar5 = cs2method_10004(subtract(divide(cs2method_10956(cs2method_10509(arg2)), 2), cs2method_10111(arg2)), multiply(subtract(divide(cs2method_10956(cs2method_10509(arg2)), 2), cs2method_10111(arg2)), -1));
+	ivar6 = cs2method_10004(subtract(divide(cs2method_10090(cs2method_10509(arg2)), 2), cs2method_10826(arg2)), multiply(subtract(divide(cs2method_10090(cs2method_10509(arg2)), 2), cs2method_10826(arg2)), -1));
+	if (ivar5 >= ivar3 || ivar6 >= ivar4) {
+		cs2method_10444(arg0, arg1, 0, 0, arg2);
+		return;
+	}
+	ivar7 = subtract(arg0, cs2method_10111(arg2));
+	ivar8 = subtract(arg1, cs2method_10826(arg2));
+	ivar9 = cs2method_10465(add(cs2method_10206(ivar7, 2), cs2method_10206(ivar8, 2)), 2);
+	ivar7 = divide(multiply(divide(multiply(ivar7, 100), ivar9), 25), 100);
+	ivar8 = divide(multiply(divide(multiply(ivar8, 100), ivar9), 25), 100);
+	cs2method_10444(add(cs2method_10111(arg2), ivar7), add(cs2method_10826(arg2), ivar8), 0, 0, arg2);
+	return;
+}

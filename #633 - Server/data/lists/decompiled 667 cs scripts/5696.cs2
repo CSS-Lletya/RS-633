@@ -1,0 +1,12 @@
+void script_5696(int arg0) {
+	if (cs2method_10551(79822878, arg0) == 1) {
+		setWidgetRGB(new Color(255, 255, 255));
+		if (cs2method_10119() == 9309) {
+			cs2method_10469(9308);
+		} else {
+			cs2method_10469(9310);
+		}
+	}
+	setWidgetIsHidden(true, new WidgetPointer(1218,80));
+	return;
+}

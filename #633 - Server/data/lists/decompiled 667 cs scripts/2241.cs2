@@ -1,0 +1,57 @@
+void script_2241() {
+	setWidgetText(new WidgetPointer(929,106), (object)("+ " + toString(standart_config_1693) + " ( " + toString(standart_config_1687) + " )" + "<br>" + "+ " + toString(standart_config_1692) + " ( " + toString(standart_config_1686) + " )" + "<br>" + "+ " + toString(standart_config_1694) + " ( " + toString(standart_config_1688) + " )" + "<br>"));
+	setWidgetText(new WidgetPointer(929,108), (object)("+ " + toString(standart_config_1695) + " ( " + toString(standart_config_1689) + " )" + "<br>" + "+ " + toString(standart_config_1697) + " ( " + toString(standart_config_1690) + " )" + "<br>" + "+ " + toString(standart_config_1696) + " ( " + toString(standart_config_1691) + " )" + "<br>"));
+	if (bitconfig_7324 == 1) {
+		setWidgetText(new WidgetPointer(929,113), (object)"WORKING");
+		setWidgetRGB(65280, 60883057);
+	} else {
+		cs2method_10508(8723, 10, 0);
+		setWidgetText(new WidgetPointer(929,113), (object)"NEEDS REPAIR");
+		setWidgetRGB(16711680, 60883057);
+	}
+	if (bitconfig_7326 == 1) {
+		setWidgetText(new WidgetPointer(929,112), (object)"WORKING");
+		setWidgetRGB(65280, 60883056);
+	} else {
+		cs2method_10508(8723, 10, 1);
+		setWidgetText(new WidgetPointer(929,112), (object)"NEEDS REPAIR");
+		setWidgetRGB(16711680, 60883056);
+	}
+	if (bitconfig_7325 == 1) {
+		setWidgetText(new WidgetPointer(929,114), (object)"WORKING");
+		setWidgetRGB(65280, 60883058);
+	} else {
+		cs2method_10508(8723, 10, 2);
+		setWidgetText(new WidgetPointer(929,114), (object)"NEEDS REPAIR");
+		setWidgetRGB(16711680, 60883058);
+	}
+	setWidgetText(new WidgetPointer(929,102), (object)toString(divide(globalint_1135, 5)));
+	switch (standart_config_1698) {
+		case 5:
+			setWidgetText(new WidgetPointer(929,104), (object)"Your workers uncover a hidden stash and you receive");
+			setWidgetText(new WidgetPointer(929,105), (object)"3 extra resources.");
+			cs2method_10508(8728, 1, 0);
+			break;
+		case 6:
+			setWidgetText(new WidgetPointer(929,104), (object)"An accident at work has taken place. As a result you have");
+			setWidgetText(new WidgetPointer(929,105), (object)"lost 3 resources.");
+			cs2method_10508(8723, 10, 0);
+			break;
+		case 7:
+			setWidgetText(new WidgetPointer(929,104), (object)"The paint machine is out of glaze and requires a repair to work at full efficiency.");
+			setWidgetText(new WidgetPointer(929,105), (object)"Painter needs repair.");
+			break;
+		case 8:
+			setWidgetText(new WidgetPointer(929,104), (object)"The conveyor team needs re-training in order to work at full efficiency.");
+			setWidgetText(new WidgetPointer(929,105), (object)"Conveyor needs repair.");
+			break;
+		case 9:
+			setWidgetText(new WidgetPointer(929,104), (object)"The oven is coated in soot. It requires a repair to work at full efficiency.");
+			setWidgetText(new WidgetPointer(929,105), (object)"Oven needs repair.");
+			break;
+		default:
+			setWidgetText(new WidgetPointer(929,104), (object)"");
+			setWidgetText(new WidgetPointer(929,105), (object)"Nothing unusual happened.");
+	}
+	return;
+}

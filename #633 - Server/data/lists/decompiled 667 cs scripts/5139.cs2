@@ -1,0 +1,6 @@
+void script_5139(int arg0,object arg1) {
+	int ivar1;
+	ivar1 = add(cs2method_10111(arg0), divide(cs2method_10956(arg0), 2));
+	script_4539(71827562, arg0, -1, 150, -1, -1, -1, 13, 4, 0, ivar1, cs2method_10826(arg0), arg1);
+	return;
+}

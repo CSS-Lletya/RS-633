@@ -1,0 +1,22 @@
+void script_3965(int arg0) {
+	flow_0:
+		IF (globalint_1885 < 5) 
+			GOTO	flow_1
+		IF (globalint_1885 > 9 && cs2method_10964(arg0) != 255) 
+			GOTO	flow_2
+		GOTO	flow_3
+	flow_1:
+	flow_2:
+		cs2method_10149(255, arg0);
+		setWidgetIsHidden(true, new WidgetPointer(1050,1));
+		setWidgetIsHidden(true, new WidgetPointer(1050,2));
+		GOTO	flow_7
+	flow_3:
+		if (globalint_1885 > 4 && globalint_1885 < 10 && cs2method_10964(arg0) != 0) {
+			cs2method_10149(0, arg0);
+			setWidgetIsHidden(false, new WidgetPointer(1050,1));
+			setWidgetIsHidden(false, new WidgetPointer(1050,2));
+		}
+	flow_7:
+		return;
+}

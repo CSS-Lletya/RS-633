@@ -1,0 +1,44 @@
+int script_5860(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	switch (cs2method_10145()) {
+		case 0:
+			ivar1 = 9927;
+			ivar2 = 9923;
+			ivar3 = 9919;
+			ivar4 = 9915;
+			break;
+		case 1:
+			ivar1 = 9924;
+			ivar2 = 9920;
+			ivar3 = 9916;
+			ivar4 = 9912;
+			break;
+		case 2:
+			ivar1 = 9926;
+			ivar2 = 9922;
+			ivar3 = 9918;
+			ivar4 = 9914;
+			break;
+		case 3:
+			ivar1 = 9925;
+			ivar2 = 9921;
+			ivar3 = 9917;
+			ivar4 = 9913;
+	}
+	switch (arg0) {
+		case 0:
+			return ivar1;
+		case 1:
+			return ivar3;
+		case 2:
+			return ivar4;
+	}
+	return -1;
+}

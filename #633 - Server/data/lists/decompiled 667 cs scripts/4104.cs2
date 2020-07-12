@@ -1,0 +1,4 @@
+void script_4104() {
+	cs2method_10332(1, (object)"golden_joystick.ws");
+	return;
+}

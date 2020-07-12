@@ -1,0 +1,105 @@
+void script_224() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar0 = cs2method_10416(38928417);
+	ovar0 = cs2method_10222(cs2method_10664());
+	ovar1 = (object)"";
+	if (ivar0 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(594,33));
+	}
+	ivar1 = 100;
+	ovar2 = (object)"";
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 1;
+	ovar3 = (object)"";
+	ivar5 = 0;
+	ivar6 = 0;
+	clearExtraChildren(new WidgetPointer(594,59));
+	clearExtraChildren(new WidgetPointer(594,58));
+	clearExtraChildren(new WidgetPointer(594,57));
+	setWidgetScrollMax(0, 0, 38928443);
+	cs2method_10085(0, 0, 38928443);
+	while (ivar1 >= 0) {
+		ivar3 = cs2method_10125(ivar1);
+		if (ivar3 != 0 && ivar3 != 4 && ivar3 != 27 && ivar3 != 28 && ivar3 != 29 && ivar3 != 43 && ivar3 != 103 && ivar3 != 104 && ivar3 != 26 && ivar3 != 30 && ivar3 != 31 && compareTo(cs2method_10279(ivar1), (object)"") != 0 && compareTo(cs2method_10367(ivar1), (object)"") != 0) {
+			if (ivar3 != 6 && ivar3 != 19) {
+				if (ivar3 == 41 || ivar3 == 44 || ivar3 == 9) {
+					if (compareTo(ovar0, ovar1) != 0 && ivar3 != 6 && ivar3 != 19) {
+						ivar5 = 0;
+					} else {
+						ivar5 = 14798;
+					}
+					ovar3 = (object)("<col=$text_colour>" + "[" + "</col>" + "<col=0000ff>" + (string)cs2method_10965(ivar1) + "</col>" + "<col=$text_colour>" + "]" + (string)cs2method_10279(ivar1) + ": " + (string)cs2method_10367(ivar1));
+				} else {
+					ovar3 = (object)(" " + (string)cs2method_10279(ivar1) + ": " + (string)cs2method_10367(ivar1));
+				}
+			} else {
+				ovar3 = (object)("To " + (string)cs2method_10279(ivar1) + ": " + (string)cs2method_10367(ivar1));
+			}
+			ivar4 = getLineCount(subtract(cs2method_10956(38928443), 5), 495, ovar3);
+			if (compareTo(cs2method_10222(cs2method_10279(ivar1)), cs2method_10758()) != 0 && ivar3 != 6 && ivar3 != 19) {
+				ivar6 = 1;
+				createChildWidget(38928442, 3, cs2method_10860(38928442));
+				setWidgetPosition(0, add(multiply(ivar2, 15), 2), 0, 0);
+				setWidgetSize(448, multiply(ivar4, 15), 0, 0);
+				setWidgetRGB(new Color(100, 100, 100));
+				cs2method_10305(255);
+				setWidgetFilled(1);
+				cs2method_20211(237, -2147483643, "i");
+				cs2method_20139(238, -2147483643, "i");
+				createChildWidget(38928441, 3, cs2method_10860(38928441));
+				setWidgetPosition(0, add(multiply(ivar2, 15), 2), 0, 0);
+				setWidgetSize(448, multiply(ivar4, 15), 0, 0);
+				setWidgetRGB(new Color(0, 0, 0));
+				cs2method_10305(255);
+				setWidgetFilled(1);
+				cs2method_20211(239, -2147483643, "i");
+			}
+			createChildWidget(38928443, 4, cs2method_10860(38928443));
+			setWidgetPosition(5, multiply(ivar2, 15), 0, 0);
+			setWidgetSize(5, multiply(15, ivar4), 1, 0);
+			setWidgetText(ovar3);
+			setWidgetRGB(new Color(119, 119, 119));
+			ovar1 = cs2method_10222(cs2method_10749(ivar1));
+			if (compareTo(ovar0, ovar1) != 0 && ivar3 != 6 && ivar3 != 19) {
+				cs2method_11002(ovar1);
+				setWidgetContextMenuOption(1, (object)"Report");
+				cs2method_20115(234, -2147483643, "i");
+				setWidgetRGB(new Color(0, 0, 0));
+			}
+			setWidgetFont(495);
+			setWidgetTextAlignment(0, 0, 15);
+			ivar2 = add(ivar2, ivar4);
+		}
+		ivar1 = subtract(ivar1, 1);
+	}
+	if (ivar6 == 0) {
+		createChildWidget(38928443, 4, cs2method_10860(38928443));
+		setWidgetPosition(5, multiply(ivar2, 15), 0, 0);
+		setWidgetSize(16384, 15, 2, 0);
+		setWidgetText((object)"There is no chat to report at the moment.");
+		setWidgetRGB(new Color(0, 0, 153));
+		setWidgetFont(495);
+		setWidgetTextAlignment(0, 0, 15);
+		ivar2 = add(ivar2, 1);
+	}
+	setWidgetScrollMax(cs2method_10956(38928440), add(2, multiply(ivar2, 15)), 38928440);
+	script_31(38928437, 38928440, 5666, 5663, 5664, 5665, 5686, 5685);
+	if (cs2method_10551(38928437, 1) == 1) {
+		script_37(38928437, 38928440, cs2method_10919(38928440), 1);
+	}
+	if (ivar0 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(594,33));
+	}
+	return;
+}

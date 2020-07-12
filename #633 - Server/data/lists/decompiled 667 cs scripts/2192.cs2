@@ -1,0 +1,10 @@
+void script_2192(int arg0,int arg1) {
+	if (arg0 == 1) {
+		setScriptCallOnMousePressed(2355, 1, arg1, "1i", new WidgetPointer(916,26));
+		cs2method_10967(0, 60031003);
+	} else {
+		setScriptCallOnMousePressed(2355, 0, arg1, "1i", new WidgetPointer(916,26));
+		cs2method_10967(1, 60031003);
+	}
+	return;
+}

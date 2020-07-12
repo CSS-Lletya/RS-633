@@ -1,0 +1,52 @@
+void script_6143(int arg0,int arg1) {
+	int ivar2;
+	switch (arg0) {
+		case 1:
+			setWidgetIsHidden(true, new WidgetPointer(1270,122));
+			break;
+		case 2:
+			setWidgetIsHidden(true, new WidgetPointer(1270,123));
+			break;
+		case 3:
+			setWidgetIsHidden(true, new WidgetPointer(1270,124));
+	}
+	ivar2 = 0;
+	if (cs2method_10416(83230727) == 0) {
+		ivar2 = add(ivar2, 1);
+	}
+	if (cs2method_10416(83230768) == 0) {
+		ivar2 = add(ivar2, 1);
+	}
+	if (cs2method_10416(83230770) == 0) {
+		ivar2 = add(ivar2, 1);
+	}
+	switch (ivar2) {
+		case 0:
+			setWidgetIsHidden(false, new WidgetPointer(1270,7));
+			if (arg1 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1270,61));
+				setWidgetIsHidden(false, new WidgetPointer(1270,8));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1270,58));
+			}
+			break;
+		case 1:
+			setWidgetIsHidden(false, new WidgetPointer(1270,48));
+			if (arg1 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1270,62));
+				setWidgetIsHidden(false, new WidgetPointer(1270,49));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1270,59));
+			}
+			break;
+		case 2:
+			setWidgetIsHidden(false, new WidgetPointer(1270,50));
+			if (arg1 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(1270,63));
+				setWidgetIsHidden(false, new WidgetPointer(1270,51));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(1270,60));
+			}
+	}
+	return;
+}

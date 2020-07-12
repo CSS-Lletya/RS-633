@@ -1,0 +1,7 @@
+void script_1204(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = 100;
+	globalint_1186 = cs2method_10620(add(globalint_1186, 1), 360);
+	cs2method_10158(cs2method_10182(arg0), cs2method_10529(arg0), arg1, cs2method_10620(add(arg2, cs2method_10542(ivar4, 10000, getDataByKey('i', 'i', 3384, globalint_1186))), 2048), cs2method_10620(add(arg3, cs2method_10542(ivar4, 10000, getDataByKey('i', 'i', 3385, globalint_1186))), 2048), cs2method_10656(arg0), arg0);
+	return;
+}

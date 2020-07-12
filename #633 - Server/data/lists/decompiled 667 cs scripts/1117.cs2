@@ -1,0 +1,24 @@
+void script_1117(int arg0) {
+	switch (arg0) {
+		case 81:
+			globalint_1967 = 4;
+			script_6322(0, 1);
+			cs2method_10998((object)"Successfully bound modifier key: SHIFT.");
+			break;
+		case 82:
+			globalint_1967 = 1;
+			script_6322(0, 1);
+			cs2method_10998((object)"Successfully bound modifier key: CTRL.");
+			break;
+		case 86:
+			globalint_1967 = 2;
+			script_6322(0, 1);
+			cs2method_10998((object)"Successfully bound modifier key: ALT.");
+			break;
+		default:
+			cs2method_10998((object)"That key cannot be used as a modifier key. Valid keys: CTRL, ALT or SHIFT.");
+			cs2method_20219(6353, new WidgetPointer(-32768,3), 0, "Ii", new WidgetPointer(1300,41));
+	}
+	globalint_1954 = 0;
+	return;
+}

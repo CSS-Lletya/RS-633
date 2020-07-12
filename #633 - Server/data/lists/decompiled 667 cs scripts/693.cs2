@@ -1,0 +1,24 @@
+int script_693(int arg0,int arg1,int arg2) {
+	if (arg0 > 255) {
+		arg0 = 255;
+	} else {
+		if (arg0 < 0) {
+			arg0 = 0;
+		}
+	}
+	if (arg1 > 255) {
+		arg1 = 255;
+	} else {
+		if (arg1 < 0) {
+			arg1 = 0;
+		}
+	}
+	if (arg2 > 255) {
+		arg2 = 255;
+	} else {
+		if (arg2 < 0) {
+			arg2 = 0;
+		}
+	}
+	return cs2method_10468(cs2method_10468(multiply(arg0, 65536), multiply(arg1, 256)), arg2);
+}

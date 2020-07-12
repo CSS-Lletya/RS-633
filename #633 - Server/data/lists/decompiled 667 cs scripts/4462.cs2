@@ -1,0 +1,78 @@
+void script_4462() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	object ovar0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 19;
+	ovar0 = (object)"";
+	ivar3 = 72744971;
+	ivar4 = 72745002;
+	ivar5 = 72745001;
+	ivar6 = 72744970;
+	ivar7 = divide(cs2method_10090(ivar4), 19);
+	ivar8 = 0;
+	clearExtraChildren(new WidgetPointer(ivar3));
+	clearExtraChildren(new WidgetPointer(ivar6));
+	if (cs2method_10528() == 1) {
+		setWidgetText(new WidgetPointer(1110,72), (object)"");
+		setWidgetIsHidden(true, new WidgetPointer(1110,43));
+		ivar1 = cs2method_10345();
+		while (ivar0 < ivar1) {
+			ivar8 = multiply(ivar0, 19);
+			ovar0 = cs2method_10606(ivar0);
+			createChildWidget(ivar3, 4, cs2method_10860(ivar3));
+			setWidgetText(ovar0);
+			setWidgetPosition(0, multiply(ivar0, ivar2), 0, 0);
+			setWidgetSize(16384, ivar2, 2, 0);
+			setWidgetRGB(new Color(164, 153, 125));
+			setWidgetFont(3793);
+			cs2method_10320(1);
+			cs2method_11002((object)("<col=ffffff>" + (string)ovar0));
+			setWidgetContextMenuOption(1, (object)"Remove ban");
+			cs2method_20115(4580, "");
+			setWidgetTextAlignment(0, 0, 0);
+			if (cs2method_10620(ivar0, 2) != 0) {
+				createChildWidget(ivar6, 3, cs2method_10860(ivar6));
+				setWidgetSize(16384, ivar2, 2, 0);
+				setWidgetPosition(0, multiply(ivar0, ivar2), 0, 0);
+				setWidgetRGB(new Color(35, 34, 32));
+				setWidgetFilled(1);
+				cs2method_10305(128);
+			}
+			ivar0 = add(ivar0, 1);
+		}
+		while (ivar0 < ivar7) {
+			ivar8 = multiply(ivar0, ivar2);
+			if (cs2method_10620(ivar0, 2) != 0) {
+				createChildWidget(ivar6, 3, cs2method_10860(ivar6));
+				setWidgetSize(16384, ivar2, 2, 0);
+				setWidgetPosition(0, ivar8, 0, 0);
+				setWidgetRGB(new Color(35, 34, 32));
+				setWidgetFilled(1);
+				cs2method_10305(128);
+			}
+			ivar0 = add(ivar0, 1);
+		}
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1110,43));
+		setWidgetText(new WidgetPointer(1110,72), (object)("You must be part of a clan to" + "<br>" + "view the ban list."));
+		clearExtraChildren(new WidgetPointer(ivar3));
+		clearExtraChildren(new WidgetPointer(ivar6));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(ivar5));
+	ivar9 = cs2method_10424(72745002);
+	setWidgetScrollMax(cs2method_10956(72745002), multiply(ivar2, cs2method_10004(ivar1, ivar7)), 72745002);
+	ivar9 = cs2method_10586(ivar9, cs2method_10919(72745002));
+	cs2method_10085(0, ivar9, 72745002);
+	script_31(72745001, 72745002, 5666, 5663, 5664, 5665, 5686, 5685);
+	return;
+}

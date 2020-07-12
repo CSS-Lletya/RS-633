@@ -1,0 +1,30 @@
+void script_6094() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 82903060;
+	ivar1 = 10448;
+	if (bitconfig_11055 == 1) {
+		ivar1 = 10453;
+	}
+	ivar2 = 0;
+	while (ivar2 < 40) {
+		if (cs2method_10551(ivar0, ivar2) == 1) {
+			cs2method_10469(ivar1);
+			cs2method_20211(6100, bitconfig_11055, 0, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+			cs2method_20139(6100, bitconfig_11055, 0, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	ivar2 = 0;
+	ivar0 = 82903061;
+	while (ivar2 < 40) {
+		if (cs2method_10551(ivar0, ivar2) == 1) {
+			cs2method_10469(ivar1);
+			cs2method_20211(6100, bitconfig_11055, 0, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+			cs2method_20139(6100, bitconfig_11055, 0, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+void script_801(int arg0,int arg1) {
+	setWidgetRGB(script_805(arg1), arg0);
+	if (arg1 == 5) {
+		setWidgetText(new WidgetPointer(arg0), (object)toString(script_5256()));
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)toString(cs2method_10391(arg1)));
+	}
+	if (arg1 == 23) {
+		script_810();
+	}
+	return;
+}

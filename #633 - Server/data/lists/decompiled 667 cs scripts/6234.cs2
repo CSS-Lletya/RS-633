@@ -1,0 +1,92 @@
+void script_6234() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	if (standart_config_2623 == -1) {
+		return;
+	}
+	ivar0 = -1;
+	ivar1 = 0;
+	ivar2 = -1;
+	ovar0 = (object)"";
+	ivar3 = 0;
+	while (ivar1 < cs2method_10624(5868)) {
+		ivar2 = (int)getDataByKey('i', 'I', 5868, ivar1);
+		if (ivar2 != -1) {
+			if (ivar1 == 0) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2483);
+			} else if (ivar1 == 1) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2484);
+			} else if (ivar1 == 2) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2485);
+			} else if (ivar1 == 3) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2486);
+			} else if (ivar1 == 4) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2487);
+			} else if (ivar1 == 5) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2488);
+			} else if (ivar1 == 6) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2489);
+			} else if (ivar1 == 7) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2490);
+			} else if (ivar1 == 8) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2491);
+			} else if (ivar1 == 9) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2492);
+			} else if (ivar1 == 10) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2493);
+			} else if (ivar1 == 11) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2494);
+			} else if (ivar1 == 12) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2495);
+			} else if (ivar1 == 13) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2496);
+			} else if (ivar1 == 14) {
+				ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2497);
+			} else {
+				if (ivar1 == 15) {
+					ivar0 = getGeneralRequirementAttribute(standart_config_2623, 2498);
+				}
+			}
+			if (ivar0 != -1) {
+				createChildWidget(ivar2, 3, ivar3);
+				setWidgetPosition(2, 2, 0, 0);
+				setWidgetSize(2, 2, 1, 1);
+				setWidgetRGB(new Color(getGeneralRequirementAttribute(ivar0, 2502)));
+				setWidgetFilled(1);
+				ivar3 = add(ivar3, 1);
+				if (bitconfig_11248 == ivar1) {
+					createChildWidget(ivar2, 3, ivar3);
+					setWidgetPosition(2, 2, 0, 0);
+					setWidgetSize(5, 5, 1, 1);
+					setWidgetRGB(new Color(58, 51, 43));
+					setWidgetFilled(0);
+					ivar3 = add(ivar3, 1);
+				}
+				createChildWidget(ivar2, 5, ivar3);
+				setWidgetPosition(0, 0, 0, 0);
+				setWidgetSize(20, 20, 0, 0);
+				ivar3 = add(ivar3, 1);
+				if (bitconfig_11247 == ivar1) {
+					cs2method_10469(2289);
+					ovar0 = (object)"This is the current colour for the set.";
+				} else {
+					cs2method_10469(2288);
+					ovar0 = (object)"Re-colour the set you currently have equipped to this colour.";
+				}
+				if (bitconfig_11248 == ivar1 && bitconfig_11247 != ivar1) {
+					ovar0 = (object)"This is your original colour for the set.";
+				}
+				cs2method_20930(5334, new WidgetPointer(ivar2), 0, new WidgetPointer(1283,1), (string)ovar0, 25, 500, "IiIsii");
+				cs2method_20139(40, new WidgetPointer(1283,1), "I");
+				ivar0 = -1;
+				ivar3 = 0;
+			}
+			ivar2 = -1;
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

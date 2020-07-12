@@ -1,0 +1,23 @@
+void script_3492(int arg0) {
+	switch (arg0) {
+		case 65077384:
+			setWidgetIsHidden(false, new WidgetPointer(993,137));
+			break;
+		case 65077291:
+			setWidgetIsHidden(false, new WidgetPointer(993,44));
+			break;
+		case 65077333:
+			setWidgetIsHidden(false, new WidgetPointer(993,86));
+			break;
+		case 65077526:
+			cs2method_10467(2568, 65077529);
+			cs2method_10467(2569, 65077530);
+			cs2method_10467(2568, 65077531);
+			break;
+		case 65077527:
+			cs2method_10467(2568, 65077532);
+			cs2method_10467(2569, 65077533);
+			cs2method_10467(2568, 65077534);
+	}
+	return;
+}

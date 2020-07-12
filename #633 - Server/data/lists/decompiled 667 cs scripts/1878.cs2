@@ -1,0 +1,5 @@
+void script_1878(int arg0,int arg1,int arg2) {
+	globalint_1097 = script_1401(add(arg0, cs2method_10111(arg1)), 3793, cs2method_10111(arg1), (object)globalstring_277);
+	script_1879(arg1, arg2, (object)globalstring_277);
+	return;
+}

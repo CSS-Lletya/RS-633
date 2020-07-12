@@ -1,0 +1,9 @@
+void script_2857() {
+	if (script_2869(cs2method_10273(globalint_1070, -1, 0, 0)) == 1) {
+		return;
+	}
+	if (script_2866(cs2method_10687(), cs2method_10273(globalint_1070, -1, 0, 0)) < 31) {
+		globalint_1070 = cs2method_10273(globalint_1070, -1, 0, 0);
+	}
+	return;
+}

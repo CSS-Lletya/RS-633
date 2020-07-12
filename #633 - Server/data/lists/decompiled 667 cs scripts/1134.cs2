@@ -1,0 +1,24 @@
+void script_1134(int arg0) {
+	switch (cs2method_10145()) {
+		case 0:
+			cs2method_10467(12168, 28180480);
+			cs2method_10467(12169, 28180481);
+			cs2method_10467(12170, 28180482);
+			break;
+		case 1:
+			cs2method_10467(12174, 28180480);
+			cs2method_10467(12175, 28180481);
+			cs2method_10467(12176, 28180482);
+			break;
+		case 2:
+			cs2method_10467(12177, 28180480);
+			cs2method_10467(12178, 28180481);
+			cs2method_10467(12179, 28180482);
+			break;
+		case 3:
+			cs2method_10467(12171, 28180480);
+			cs2method_10467(12172, 28180481);
+			cs2method_10467(12173, 28180482);
+	}
+	return;
+}

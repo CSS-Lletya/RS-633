@@ -1,0 +1,44 @@
+void script_3672() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ovar0 = (object)getDataByKey('i', 's', 3230, globalint_1327);
+	ovar1 = (object)getDataByKey('i', 's', 3230, globalint_1326);
+	ovar2 = (object)getDataByKey('i', 's', 3231, globalint_1330);
+	ovar3 = (object)(toString(globalint_1325) + "%");
+	ivar0 = getDataByKey('i', 'd', 3233, globalint_1328);
+	ivar1 = getDataByKey('i', 'd', 3233, globalint_1329);
+	setWidgetText(new WidgetPointer(1004,72), ovar0);
+	setWidgetRGB(getDataByKey('i', 'i', 3234, globalint_1327), 65798216);
+	setWidgetText(new WidgetPointer(1004,71), ovar1);
+	setWidgetRGB(getDataByKey('i', 'i', 3234, globalint_1326), 65798215);
+	cs2method_10467(ivar0, 65798212);
+	cs2method_10467(ivar1, 65798213);
+	setWidgetText(new WidgetPointer(1004,70), ovar2);
+	setWidgetRGB(getDataByKey('i', 'i', 3235, globalint_1330), 65798214);
+	setWidgetText(new WidgetPointer(1004,73), ovar3);
+	if (globalint_1327 != 3) {
+		setWidgetIsHidden(false, new WidgetPointer(1004,66));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1004,66));
+	}
+	if (globalint_1326 != 3) {
+		setWidgetIsHidden(false, new WidgetPointer(1004,63));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1004,63));
+	}
+	if (globalint_1331 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1004,65));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1004,65));
+	}
+	if (globalint_1330 > 66) {
+		setWidgetIsHidden(false, new WidgetPointer(1004,64));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1004,64));
+	}
+	return;
+}

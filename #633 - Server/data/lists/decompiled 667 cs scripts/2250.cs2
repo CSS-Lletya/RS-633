@@ -1,0 +1,70 @@
+void script_2250(int arg0) {
+	int ivar1;
+	int ivar2;
+	flow_0:
+		ivar1 = divide(arg0, 5);
+		ivar2 = 3016;
+		if (isMember() == 1) {
+			ivar2 = 3015;
+		}
+		IF (isMember() == 1) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_3:
+		IF (ivar1 == 37) 
+			GOTO	flow_6
+	flow_4:
+		IF (isMember() == 0 && ivar1 == 17) 
+			GOTO	flow_6
+		GOTO	flow_7
+	flow_6:
+		setWidgetIsHidden(true, new WidgetPointer(940,42));
+		setWidgetText(new WidgetPointer(940,40), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1078));
+		setWidgetIsHidden(false, new WidgetPointer(940,43));
+		setWidgetText(new WidgetPointer(940,43), getItemName(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070)));
+		setWidgetIsHidden(false, new WidgetPointer(940,44));
+		cs2method_10380(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070), -1, 61603884);
+		setWidgetIsHidden(false, new WidgetPointer(940,41));
+		setWidgetIsHidden(false, new WidgetPointer(940,66));
+		setWidgetIsHidden(false, new WidgetPointer(940,64));
+		setWidgetIsHidden(false, new WidgetPointer(940,62));
+		setWidgetIsHidden(false, new WidgetPointer(940,63));
+		setWidgetIsHidden(true, new WidgetPointer(940,67));
+		setWidgetIsHidden(true, new WidgetPointer(940,68));
+		setWidgetText(new WidgetPointer(940,62), (object)"1 : 1xp");
+		GOTO	flow_10
+	flow_7:
+		if (cs2method_10453(24) < getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1071)) {
+			setWidgetIsHidden(true, new WidgetPointer(940,42));
+			setWidgetText(new WidgetPointer(940,40), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1078));
+			setWidgetIsHidden(false, new WidgetPointer(940,43));
+			setWidgetText(new WidgetPointer(940,43), getItemName(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070)));
+			setWidgetIsHidden(false, new WidgetPointer(940,44));
+			cs2method_10380(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070), -1, 61603884);
+			setWidgetIsHidden(false, new WidgetPointer(940,41));
+			setWidgetIsHidden(true, new WidgetPointer(940,66));
+			setWidgetIsHidden(true, new WidgetPointer(940,64));
+			setWidgetIsHidden(true, new WidgetPointer(940,62));
+			setWidgetIsHidden(true, new WidgetPointer(940,63));
+			setWidgetIsHidden(false, new WidgetPointer(940,67));
+			setWidgetIsHidden(false, new WidgetPointer(940,68));
+			setWidgetText(new WidgetPointer(940,68), (object)("Dungeoneering " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1071)) + " required"));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(940,42));
+			setWidgetText(new WidgetPointer(940,40), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1078));
+			setWidgetIsHidden(false, new WidgetPointer(940,43));
+			setWidgetText(new WidgetPointer(940,43), getItemName(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070)));
+			setWidgetIsHidden(false, new WidgetPointer(940,44));
+			cs2method_10380(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1070), -1, 61603884);
+			setWidgetIsHidden(false, new WidgetPointer(940,41));
+			setWidgetIsHidden(false, new WidgetPointer(940,66));
+			setWidgetIsHidden(false, new WidgetPointer(940,64));
+			setWidgetIsHidden(false, new WidgetPointer(940,62));
+			setWidgetIsHidden(false, new WidgetPointer(940,63));
+			setWidgetIsHidden(true, new WidgetPointer(940,67));
+			setWidgetIsHidden(true, new WidgetPointer(940,68));
+			setWidgetText(new WidgetPointer(940,62), (object)toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar2, ivar1), 1072)));
+		}
+	flow_10:
+		return;
+}

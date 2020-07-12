@@ -1,0 +1,14 @@
+void script_4895() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	cs2method_20914(4902, 1800, 1, "Y", new WidgetPointer(1139,17));
+	cs2method_20889(4902, 2533, 1, "Y", new WidgetPointer(1139,17));
+	ivar0 = script_6064();
+	ivar1 = script_6063();
+	ivar2 = script_6065();
+	cs2method_10467(ivar0, 74645505);
+	cs2method_10467(ivar1, 74645526);
+	cs2method_10467(ivar2, 74645510);
+	return;
+}

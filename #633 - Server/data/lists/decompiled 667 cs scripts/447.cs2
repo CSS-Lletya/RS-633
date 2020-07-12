@@ -1,0 +1,17 @@
+void script_447(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ovar0 = cs2method_10100(arg2);
+	ivar3 = cs2method_10956(arg2);
+	ivar4 = getLineCount(ivar3, 494, ovar0);
+	ivar5 = add(multiply(ivar4, 10), 5);
+	if (ivar5 > cs2method_10090(arg1)) {
+		setWidgetScrollMax(0, ivar5, arg1);
+		script_31(arg0, arg1, 2598, 2595, 2596, 2597, 2593, 2594);
+		setWidgetTextAlignment(1, 0, 0, arg2);
+		cs2method_10893(cs2method_10956(arg2), ivar5, 0, 0, arg2);
+	}
+	return;
+}

@@ -1,0 +1,32 @@
+void script_5937() {
+	if (compareTo(cs2method_10547(0, 1, cs2method_10664()), (object)"#") == 0) {
+		return;
+	}
+	if (bitconfig_11162 != 0) {
+		cs2method_20889(-1, "", new WidgetPointer(906,235));
+		return;
+	}
+	switch (standart_config_2610) {
+		case 0:
+			script_5940();
+			break;
+		case 1:
+			script_6190();
+			break;
+		case 2:
+		case 5:
+			cs2method_20889(6204, 2411, 1, "Y", new WidgetPointer(906,235));
+			script_6189();
+			break;
+		case 3:
+			cs2method_20914(-1, "", new WidgetPointer(906,235));
+			script_6192();
+			break;
+		case 4:
+			script_5940();
+			break;
+		default:
+			script_6190();
+	}
+	return;
+}

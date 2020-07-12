@@ -1,0 +1,15 @@
+int script_5992() {
+	if (script_4550(1259) == 1) {
+		return 0;
+	}
+	if (script_4550(1261) == 1) {
+		return 1;
+	}
+	if (script_4550(1258) == 1) {
+		return 2;
+	}
+	if (script_4550(1260) == 1) {
+		return 3;
+	}
+	return -1;
+}

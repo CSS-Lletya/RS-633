@@ -1,0 +1,31 @@
+void script_2732(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	clearExtraChildren(new WidgetPointer(arg0));
+	createChildWidget(arg0, 3, 0);
+	setWidgetSize(2, 2, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetFilled(1);
+	if (arg3 == 1) {
+		setWidgetRGB(new Color(getDataByKey('i', 'i', 3724, arg1)));
+	} else if (arg3 == 2) {
+		setWidgetRGB(new Color(getDataByKey('i', 'i', 3723, arg1)));
+	} else if (arg3 == 3) {
+		setWidgetRGB(new Color(getDataByKey('i', 'i', 3726, arg1)));
+	} else {
+		setWidgetRGB(new Color(getDataByKey('i', 'i', 3056, arg1)));
+	}
+	createChildWidget(arg0, 5, 1);
+	setWidgetSize(20, 20, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	ivar4 = 2289;
+	ivar5 = 2288;
+	if (arg2 == arg1) {
+		cs2method_10469(ivar4);
+	} else {
+		cs2method_10469(ivar5);
+		cs2method_20333(688, new WidgetPointer(-32768,3), cs2method_10261(), ivar4, "Iid", new WidgetPointer(arg0));
+		cs2method_20295(688, new WidgetPointer(-32768,3), cs2method_10261(), ivar5, "Iid", new WidgetPointer(arg0));
+	}
+	return;
+}

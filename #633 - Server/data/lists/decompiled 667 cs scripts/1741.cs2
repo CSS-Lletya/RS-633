@@ -1,0 +1,49 @@
+void script_1741(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar1 = 1199;
+	ivar2 = 781;
+	ivar3 = 1794;
+	ivar4 = 1795;
+	ivar5 = 1210;
+	ivar6 = 783;
+	if (cs2method_10842() >= 2) {
+		ivar1 = 8655;
+		ivar2 = 8657;
+		ivar3 = 8658;
+		ivar4 = 8659;
+		ivar5 = 8643;
+		ivar6 = 8647;
+		cs2method_10893(67, 34, 0, 0, 49152003);
+		cs2method_10444(2, 2, 2, 0, 49152005);
+		cs2method_10467(8625, arg0);
+		cs2method_10444(3, 15, 0, 0, 49152006);
+		cs2method_10893(34, 14, 0, 0, 49152006);
+	} else {
+		cs2method_10893(57, 34, 0, 0, 49152003);
+		cs2method_10444(1, 1, 0, 0, 49152005);
+		cs2method_10467(1206, arg0);
+		cs2method_10444(31, 15, 0, 0, 49152006);
+		cs2method_10893(24, 14, 0, 0, 49152006);
+	}
+	if (globalint_119 == 1) {
+		cs2method_10467(ivar2, 49152002);
+		cs2method_10467(ivar6, 49152000);
+		cs2method_10375(1, arg0, (object)"Turn run mode off");
+	} else if (globalint_119 == 0) {
+		cs2method_10467(ivar1, 49152002);
+		cs2method_10467(ivar5, 49152000);
+		cs2method_10375(1, arg0, (object)"Turn run mode on");
+	} else if (globalint_119 == 3) {
+		cs2method_10467(ivar3, 49152002);
+	} else {
+		if (globalint_119 == 4) {
+			cs2method_10467(ivar4, 49152002);
+		}
+	}
+	return;
+}

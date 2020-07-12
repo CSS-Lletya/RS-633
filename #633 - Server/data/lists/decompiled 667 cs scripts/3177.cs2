@@ -1,0 +1,18 @@
+void script_3177(int arg0,int arg1,object arg2) {
+	int ivar2;
+	script_41(59768846);
+	script_41(59572283);
+	globalstring_279 = "";
+	globalint_6 = arg0;
+	globalint_1094 = 0;
+	ivar2 = 0;
+	if (cs2method_10974() == 1 || cs2method_10433() > 0) {
+		ivar2 = 1;
+	}
+	if (arg1 == 1) {
+		script_2920(ivar2, cs2method_10071(), arg2);
+	} else {
+		script_2921(ivar2, cs2method_10071(), cs2method_10222(arg2));
+	}
+	return;
+}

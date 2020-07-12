@@ -1,0 +1,84 @@
+void script_443() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	ivar0 = 5;
+	ivar1 = 5;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 1;
+	ivar5 = 0;
+	ivar6 = 1;
+	ivar7 = 0;
+	ivar8 = 0;
+	while (ivar0 < 270) {
+		while (ivar1 < 200) {
+			createChildWidget(66977811, 5, ivar2);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(ivar1, ivar0, 0, 0);
+			if (getItemIdInContainerSlot(583, ivar2) != -1) {
+				setItemOnWidget_10672(getItemIdInContainerSlot(583, ivar2), cs2method_10136(583, ivar2));
+				cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getItemIdInContainerSlot(583, ivar2))));
+				setWidgetContextMenuOption(1, (object)"Remove 1");
+				setWidgetContextMenuOption(2, (object)"Remove 5");
+				setWidgetContextMenuOption(3, (object)"Remove 10");
+				setWidgetContextMenuOption(4, (object)"Remove All");
+				setWidgetContextMenuOption(5, (object)"Remove X");
+				setWidgetContextMenuOption(10, (object)"Examine");
+				cs2method_10253(1);
+				ivar3 = add(ivar3, 1);
+				if (ivar3 > 5) {
+					ivar4 = add(ivar4, 1);
+					ivar3 = 1;
+				}
+			}
+			createChildWidget(66977806, 5, ivar2);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(ivar1, ivar0, 0, 0);
+			if (cs2method_10234(583, ivar2) != -1) {
+				setItemOnWidget_10672(cs2method_10234(583, ivar2), cs2method_10925(583, ivar2));
+				cs2method_11002((object)("<col=ff981f>" + (string)getItemName(cs2method_10234(583, ivar2))));
+				setWidgetContextMenuOption(1, (object)"Examine");
+				cs2method_10253(1);
+				ivar5 = add(ivar5, 1);
+				if (ivar5 > 5) {
+					ivar6 = add(ivar6, 1);
+					ivar5 = 1;
+				}
+			}
+			ivar1 = add(ivar1, 40);
+			ivar2 = add(ivar2, 1);
+		}
+		ivar0 = add(ivar0, 40);
+		ivar1 = 5;
+	}
+	ivar7 = add(multiply(ivar4, 40), 5);
+	if (ivar7 > cs2method_10090(66977811)) {
+		setWidgetScrollMax(0, ivar7, 66977811);
+		script_31(66977812, 66977811, 2598, 2595, 2596, 2597, 2593, 2594);
+		cs2method_10444(6, cs2method_10826(66977811), 0, 0, 66977811);
+	} else {
+		setWidgetScrollMax(0, 0, 66977811);
+		cs2method_10085(0, 0, 66977811);
+		clearExtraChildren(new WidgetPointer(1022,20));
+		cs2method_10444(16, cs2method_10826(66977811), 0, 0, 66977811);
+	}
+	ivar8 = add(multiply(ivar6, 40), 5);
+	if (ivar8 > cs2method_10090(66977806)) {
+		setWidgetScrollMax(0, ivar8, 66977806);
+		script_31(66977808, 66977806, 2598, 2595, 2596, 2597, 2593, 2594);
+		cs2method_10444(6, cs2method_10826(66977806), 0, 0, 66977806);
+	} else {
+		setWidgetScrollMax(0, 0, 66977806);
+		cs2method_10085(0, 0, 66977806);
+		clearExtraChildren(new WidgetPointer(1022,16));
+		cs2method_10444(16, cs2method_10826(66977806), 0, 0, 66977806);
+	}
+	return;
+}

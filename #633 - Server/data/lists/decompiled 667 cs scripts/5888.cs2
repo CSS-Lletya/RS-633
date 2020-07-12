@@ -1,0 +1,6 @@
+int script_5888(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = add(arg0, arg1);
+	ivar2 = cs2method_10620(ivar2, 360);
+	return ivar2;
+}

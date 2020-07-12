@@ -1,0 +1,6 @@
+void script_2053(int arg0,int arg1,int arg2) {
+	if (arg0 == 1) {
+		cs2method_20219(2054, add(cs2method_10878(), 3), new WidgetPointer(arg1), arg2, "iIc", new WidgetPointer(arg1));
+	}
+	return;
+}

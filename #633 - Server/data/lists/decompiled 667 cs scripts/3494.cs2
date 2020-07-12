@@ -1,0 +1,134 @@
+void script_3494(int arg0) {
+	int ivar1;
+	cs2method_10508(9499, 1, 0);
+	cs2method_10444(cs2method_10111(65077360), 52, 0, 0, 65077360);
+	cs2method_10444(cs2method_10111(65077275), 52, 0, 0, 65077275);
+	cs2method_10444(cs2method_10111(65077274), 52, 0, 0, 65077274);
+	cs2method_10893(0, 16384, 2, 2, 65077408);
+	cs2method_10893(0, 16384, 2, 2, 65077315);
+	cs2method_10893(0, 16384, 2, 2, 65077357);
+	setWidgetIsHidden(true, new WidgetPointer(993,254));
+	setWidgetIsHidden(true, new WidgetPointer(993,239));
+	setWidgetIsHidden(true, new WidgetPointer(993,224));
+	setWidgetIsHidden(true, new WidgetPointer(993,209));
+	cs2method_10149(255, 65077505);
+	cs2method_10149(255, 65077490);
+	cs2method_10149(255, 65077475);
+	cs2method_10149(255, 65077460);
+	setWidgetIsHidden(true, new WidgetPointer(993,194));
+	setWidgetIsHidden(true, new WidgetPointer(993,195));
+	setWidgetIsHidden(true, new WidgetPointer(993,196));
+	setWidgetIsHidden(true, new WidgetPointer(993,197));
+	setWidgetIsHidden(true, new WidgetPointer(993,261));
+	switch (globalint_1184) {
+		case 1:
+			if (bitconfig_8065 == 1) {
+				setWidgetText(new WidgetPointer(993,139), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,139), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 2) {
+				setWidgetText(new WidgetPointer(993,46), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,46), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 3) {
+				setWidgetText(new WidgetPointer(993,88), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,88), (object)"Switch-to");
+			}
+			break;
+		case 2:
+			if (bitconfig_8065 == 4) {
+				setWidgetText(new WidgetPointer(993,139), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,139), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 5) {
+				setWidgetText(new WidgetPointer(993,46), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,46), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 6) {
+				setWidgetText(new WidgetPointer(993,88), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,88), (object)"Switch-to");
+			}
+			break;
+		case 3:
+			if (bitconfig_8065 == 7) {
+				setWidgetText(new WidgetPointer(993,139), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,139), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 8) {
+				setWidgetText(new WidgetPointer(993,46), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,46), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 9) {
+				setWidgetText(new WidgetPointer(993,88), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,88), (object)"Switch-to");
+			}
+			break;
+		case 4:
+			if (bitconfig_8065 == 10) {
+				setWidgetText(new WidgetPointer(993,139), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,139), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 11) {
+				setWidgetText(new WidgetPointer(993,46), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,46), (object)"Switch-to");
+			}
+			if (bitconfig_8065 == 12) {
+				setWidgetText(new WidgetPointer(993,88), (object)"In use");
+			} else {
+				setWidgetText(new WidgetPointer(993,88), (object)"Switch-to");
+			}
+	}
+	switch (arg0) {
+		case 65077505:
+			setWidgetIsHidden(false, new WidgetPointer(993,254));
+			setWidgetIsHidden(false, new WidgetPointer(993,194));
+			globalint_1184 = 1;
+			setWidgetRGB(16724580, 65077382);
+			setWidgetRGB(16724580, 65077289);
+			setWidgetRGB(16724580, 65077331);
+			break;
+		case 65077490:
+			setWidgetIsHidden(false, new WidgetPointer(993,239));
+			setWidgetIsHidden(false, new WidgetPointer(993,195));
+			globalint_1184 = 2;
+			setWidgetRGB(9895830, 65077382);
+			setWidgetRGB(9895830, 65077289);
+			setWidgetRGB(9895830, 65077331);
+			break;
+		case 65077475:
+			setWidgetIsHidden(false, new WidgetPointer(993,224));
+			setWidgetIsHidden(false, new WidgetPointer(993,196));
+			globalint_1184 = 3;
+			setWidgetRGB(51455, 65077382);
+			setWidgetRGB(51455, 65077289);
+			setWidgetRGB(51455, 65077331);
+			break;
+		case 65077460:
+			setWidgetIsHidden(false, new WidgetPointer(993,209));
+			setWidgetIsHidden(false, new WidgetPointer(993,197));
+			globalint_1184 = 4;
+			setWidgetRGB(16777215, 65077382);
+			setWidgetRGB(16777215, 65077289);
+			setWidgetRGB(16777215, 65077331);
+	}
+	ivar1 = getDataByKey('i', 'g', 3088, globalint_1184);
+	setWidgetText(new WidgetPointer(993,132), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 1), 1089));
+	setWidgetText(new WidgetPointer(993,133), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 1), 1090));
+	setWidgetText(new WidgetPointer(993,39), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 2), 1089));
+	setWidgetText(new WidgetPointer(993,40), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 2), 1090));
+	setWidgetText(new WidgetPointer(993,81), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 3), 1089));
+	setWidgetText(new WidgetPointer(993,82), (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', ivar1, 3), 1090));
+	globalint_1186 = 0;
+	return;
+}

@@ -1,0 +1,34 @@
+void script_1079(int arg0) {
+	switch (arg0) {
+		case 0:
+			cs2method_10544(0, globalint_145);
+			break;
+		case 1:
+			cs2method_10544(1, globalint_146);
+			break;
+		case 2:
+			cs2method_10544(2, globalint_147);
+			break;
+		case 3:
+			cs2method_10544(3, globalint_148);
+			break;
+		case 4:
+			cs2method_10544(4, globalint_149);
+			break;
+		case 5:
+			cs2method_10544(5, globalint_150);
+			break;
+		case 6:
+			cs2method_10544(6, globalint_151);
+			break;
+		case 7:
+			cs2method_10544(7, globalint_152);
+			break;
+		case 8:
+			cs2method_10544(8, globalint_153);
+			break;
+		case 9:
+			cs2method_10544(9, globalint_154);
+	}
+	return;
+}

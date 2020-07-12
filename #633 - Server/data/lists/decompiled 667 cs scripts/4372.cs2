@@ -1,0 +1,8 @@
+void script_4372(int arg0) {
+	if (arg0 == 1) {
+		cs2method_10073((object)globalstring_346);
+	} else {
+		cs2method_10073((object)"");
+	}
+	return;
+}

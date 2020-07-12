@@ -1,0 +1,11 @@
+void script_4679() {
+	if (getDataByKey('i', 'i', 3839, globalint_1535) < 1) {
+		cs2method_10444(10, 26, 0, 0, 19791895);
+		setWidgetIsHidden(true, new WidgetPointer(302,24));
+		setWidgetText(new WidgetPointer(302,11), (object)("Difficulty: " + toString(globalint_1535) + "/10"));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(302,24));
+		setWidgetText(new WidgetPointer(302,11), (object)("Difficulty: " + toString(globalint_1535) + "/10"));
+	}
+	return;
+}

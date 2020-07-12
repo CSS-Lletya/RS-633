@@ -1,0 +1,111 @@
+void script_6387(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	flow_0:
+		ivar1 = 85393502;
+		ivar2 = 85393509;
+		ivar3 = 85393501;
+		ivar4 = 85393500;
+		setWidgetIsHidden(false, new WidgetPointer(ivar1));
+		ovar0 = (object)"0";
+		ivar5 = 0;
+		ivar6 = 0;
+		ivar7 = 0;
+		ivar8 = 20;
+		SWITCH (cs2method_10825(arg0)) {
+			case 197:
+				 GOTO flow_1
+			case 202:
+				 GOTO flow_2
+			case 200:
+				 GOTO flow_3
+			case 9286:
+				 GOTO flow_4
+			case 11621:
+				 GOTO flow_5
+			case 11622:
+				 GOTO flow_6
+			case 11623:
+				 GOTO flow_7
+			case 11624:
+				 GOTO flow_8
+			case 240:
+				 GOTO flow_9
+			case 234:
+				 GOTO flow_10
+			case 256:
+				 GOTO flow_11
+			case 11662:
+				 GOTO flow_12
+			case 11627:
+				 GOTO flow_13
+			case 251:
+				 GOTO flow_14
+		}
+		setWidgetIsHidden(true, new WidgetPointer(ivar1));
+		return;
+	flow_1:
+		ovar0 = (object)"Weakness: Melee";
+		GOTO	flow_15
+	flow_2:
+		ovar0 = (object)"Weakness: Magic";
+		GOTO	flow_15
+	flow_3:
+		ovar0 = (object)"Weakness: Ranged";
+		GOTO	flow_15
+	flow_4:
+		ovar0 = (object)"Weakness: None";
+		GOTO	flow_15
+	flow_5:
+		ovar0 = (object)"Weakness: Air Spells";
+		GOTO	flow_15
+	flow_6:
+		ovar0 = (object)"Weakness: Water Spells";
+		GOTO	flow_15
+	flow_7:
+		ovar0 = (object)"Weakness: Earth Spells";
+		GOTO	flow_15
+	flow_8:
+		ovar0 = (object)"Weakness: Fire Spells";
+		GOTO	flow_15
+	flow_9:
+		ovar0 = (object)"Weakness: Stab";
+		GOTO	flow_15
+	flow_10:
+		ovar0 = (object)"Weakness: Slash";
+		GOTO	flow_15
+	flow_11:
+		ovar0 = (object)"Weakness: Crush";
+		GOTO	flow_15
+	flow_12:
+		ovar0 = (object)"Weakness: Arrows";
+		GOTO	flow_15
+	flow_13:
+		ovar0 = (object)"Weakness: Bolts";
+		GOTO	flow_15
+	flow_14:
+		ovar0 = (object)"Weakness: Thrown";
+	flow_15:
+		setWidgetText(new WidgetPointer(ivar2), ovar0);
+		ivar7 = cs2method_10355(cs2method_10894(ivar2), ovar0);
+		ivar7 = add(ivar7, 8);
+		cs2method_10893(ivar7, ivar8, 0, 0, ivar1);
+		if (arg0 == 85393508) {
+			ivar5 = cs2method_10111(ivar4);
+			ivar5 = subtract(ivar5, cs2method_10956(ivar1));
+			ivar6 = cs2method_10826(ivar4);
+		} else {
+			ivar5 = cs2method_10111(ivar3);
+			ivar5 = add(ivar5, cs2method_10956(ivar3));
+			ivar6 = cs2method_10826(ivar3);
+		}
+		cs2method_10444(ivar5, ivar6, 0, 0, ivar1);
+		return;
+}

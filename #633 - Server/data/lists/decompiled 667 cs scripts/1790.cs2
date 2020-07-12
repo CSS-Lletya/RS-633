@@ -1,0 +1,17 @@
+void script_1790(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = cs2method_10542(3, 5, globalint_265);
+	if (ivar1 <= 3) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=ff0000>" + "GET READY!" + "</col>"));
+		return;
+	}
+	ivar2 = divide(ivar1, 60);
+	ivar1 = cs2method_10620(ivar1, 60);
+	if (ivar1 >= 10) {
+		setWidgetText(new WidgetPointer(arg0), (object)(toString(ivar2) + "m " + toString(ivar1) + "s"));
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)(toString(ivar2) + "m 0" + toString(ivar1) + "s"));
+	}
+	return;
+}

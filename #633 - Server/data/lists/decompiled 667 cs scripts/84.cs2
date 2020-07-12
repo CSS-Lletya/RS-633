@@ -1,0 +1,369 @@
+void script_84() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	ivar0 = -1;
+	ivar1 = -1;
+	ivar2 = 0;
+	ivar3 = 1;
+	ivar4 = 1;
+	if (globalint_41 == 3) {
+		ivar2 = 1;
+	}
+	clearExtraChildren(new WidgetPointer(137,58));
+	ivar5 = -1;
+	ivar6 = script_4467();
+	ivar7 = -1;
+	ivar8 = script_1891();
+	globalint_132 = -1;
+	ovar0 = (object)"<col=0000ff>";
+	ovar1 = (object)"<col=800000>";
+	ovar2 = (object)"<col=800080>";
+	ovar3 = (object)"<col=00ff00>";
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ovar4 = (object)"<col=000000>";
+	ivar13 = 0;
+	if (cs2method_10842() >= 2) {
+		ovar0 = (object)"<col=7fa9ff>";
+		ovar1 = (object)"<col=ff5256>";
+		ovar2 = (object)"<col=ff78d9>";
+		ovar3 = (object)"<col=96ff7d>";
+		ivar12 = 16777215;
+		ovar4 = (object)"<col=ffffff>";
+		ivar13 = 1;
+		ivar10 = getDataByKey('i', 'i', 3724, bitconfig_3612);
+		ivar9 = getDataByKey('i', 'i', 3723, bitconfig_9188);
+		ivar11 = getDataByKey('i', 'i', 3726, bitconfig_9191);
+	} else {
+		ivar10 = getDataByKey('i', 'i', 3724, bitconfig_3612);
+		ivar9 = getDataByKey('i', 'i', 3723, bitconfig_9188);
+		ivar11 = getDataByKey('i', 'i', 3726, bitconfig_9191);
+	}
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	ivar17 = 0;
+	ivar18 = 0;
+	ivar19 = 0;
+	ivar20 = 2;
+	ivar21 = 2;
+	cs2method_10129(script_734(globalint_1701), 48889878);
+	cs2method_10129(script_734(globalint_1701), 35913746);
+	while (ivar18 < 100) {
+		if (script_193(ivar18) == 1 && script_90(ivar18, ivar2) == 1) {
+			createChildWidget(8978490, 4, ivar14);
+			ivar15 = ivar14;
+			ivar16 = 1;
+			ivar14 = add(ivar14, 1);
+			ivar17 = cs2method_10125(ivar18);
+			setWidgetRGB(new Color(ivar12));
+			setWidgetFont(495);
+			setWidgetTextAlignment(0, 0, 14);
+			cs2method_10320(ivar13);
+			setWidgetPosition(3, ivar21, 0, 2);
+			switch (ivar17) {
+				case 0:
+				case 4:
+				case 11:
+				case 27:
+				case 26:
+				case 29:
+				case 28:
+				case 31:
+				case 30:
+				case 103:
+				case 110:
+				case 43:
+				case 109:
+				case 104:
+				case 119:
+				case 120:
+					setWidgetText(cs2method_10367(ivar18));
+					if (ivar3 == 1 && (ivar17 == 0 || ivar17 == 4 || ivar17 == 27 || ivar17 == 28 || ivar17 == 29 || ivar17 == 26 || ivar17 == 30 || ivar17 == 31)) {
+						globalint_1269 = cs2method_10571(ivar18);
+						ivar3 = 0;
+					}
+					break;
+				case 1:
+				case 2:
+					setWidgetText((object)((string)cs2method_10279(ivar18) + ": " + (string)ovar0 + (string)cs2method_10367(ivar18)));
+					break;
+				case 3:
+					setWidgetText((object)("From " + (string)cs2method_10279(ivar18) + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					break;
+				case 100:
+					setWidgetText((object)((string)ovar2 + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 5:
+					setWidgetText((object)((string)ovar1 + (string)cs2method_10367(ivar18)));
+					break;
+				case 6:
+					setWidgetText((object)("To " + (string)cs2method_10279(ivar18) + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					break;
+				case 7:
+					setWidgetText((object)("From " + (string)cs2method_10279(ivar18) + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					break;
+				case 101:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 41:
+					setWidgetRGB(new Color(ivar10));
+					setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					break;
+				case 9:
+					setWidgetRGB(new Color(ivar9));
+					setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					break;
+				case 44:
+					setWidgetRGB(new Color(ivar11));
+					setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					break;
+				case 117:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10367(ivar18)));
+					break;
+				case 102:
+					setWidgetText((object)("<col=8a2be2>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 105:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 106:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 107:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 118:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 17:
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) != 0 && cs2method_10214(cs2method_10674(ivar18)) > 0) {
+						setWidgetText((object)((string)cs2method_10279(ivar18) + "<img=3>" + ": " + (string)ovar0 + (string)cs2method_10367(ivar18)));
+					} else {
+						setWidgetText((object)((string)cs2method_10279(ivar18) + ": " + (string)ovar0 + (string)cs2method_10367(ivar18)));
+					}
+					break;
+				case 18:
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) != 0 && cs2method_10214(cs2method_10674(ivar18)) > 0) {
+						setWidgetText((object)("From " + (string)cs2method_10279(ivar18) + "<img=3>" + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					} else {
+						setWidgetText((object)("From " + (string)cs2method_10279(ivar18) + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					}
+					break;
+				case 19:
+					setWidgetText((object)("To " + (string)cs2method_10279(ivar18) + ": " + (string)ovar1 + (string)cs2method_10367(ivar18)));
+					break;
+				case 42:
+					setWidgetRGB(new Color(ivar10));
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) != 0 && cs2method_10214(cs2method_10674(ivar18)) > 0) {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + "<img=3>" + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					} else {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					}
+					break;
+				case 45:
+					setWidgetRGB(new Color(ivar11));
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) != 0 && cs2method_10214(cs2method_10674(ivar18)) > 0) {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + "<img=3>" + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					} else {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					}
+					break;
+				case 20:
+					setWidgetRGB(new Color(ivar9));
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) != 0 && cs2method_10214(cs2method_10674(ivar18)) > 0) {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + "<img=3>" + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					} else {
+						setWidgetText((object)((string)ovar4 + "[" + "</col>" + (string)ovar0 + (string)cs2method_10965(ivar18) + "</col>" + (string)ovar4 + "] " + (string)cs2method_10279(ivar18) + ": " + "</col>" + (string)cs2method_10367(ivar18)));
+					}
+					break;
+				case 108:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 111:
+				case 112:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 114:
+				case 113:
+					setWidgetText((object)("<col=7e3200>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 115:
+					setWidgetText((object)("<col=7f0000>" + (string)cs2method_10279(ivar18) + " " + (string)cs2method_10367(ivar18)));
+					break;
+				case 116:
+					setWidgetText(cs2method_10367(ivar18));
+			}
+			cs2method_10245();
+			cs2method_20115(86, -2147483644, (string)cs2method_10749(ivar18), ivar18, "isi");
+			cs2method_11002((object)("<col=ffffff>" + (string)cs2method_10222(cs2method_10279(ivar18))));
+			switch (ivar17) {
+				case 1:
+				case 2:
+				case 3:
+				case 6:
+				case 7:
+				case 9:
+				case 41:
+				case 44:
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) == 0 || compareTo(cs2method_10222(cs2method_10664()), cs2method_10222(cs2method_10279(ivar18))) == 0) {
+					} else {
+						if (cs2method_10028(cs2method_10749(ivar18)) == 1) {
+							if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+								setWidgetContextMenuOption(6, (object)"Message");
+							}
+						} else {
+							setWidgetContextMenuOption(6, (object)"Add friend");
+							setWidgetContextMenuOption(7, (object)"Add ignore");
+						}
+						if (bitconfig_9982 == 1) {
+							setWidgetContextMenuOption(8, (object)"Report");
+						}
+						if (ivar17 == 41 && ivar6 == 1) {
+							setWidgetContextMenuOption(10, (object)"Kick/ban");
+						}
+						if (ivar17 == 9 && ivar8 == 1) {
+							setWidgetContextMenuOption(10, (object)"Kick/ban");
+						}
+					}
+					break;
+				case 100:
+					setWidgetContextMenuOption(1, (object)"Accept trade");
+					break;
+				case 101:
+				case 106:
+				case 107:
+				case 105:
+				case 118:
+				case 114:
+				case 113:
+					setWidgetContextMenuOption(2, (object)"Accept challenge");
+					break;
+				case 102:
+					setWidgetContextMenuOption(3, (object)"Give assistance");
+					break;
+				case 111:
+					setWidgetContextMenuOption(4, (object)"Open invitation");
+					break;
+				case 112:
+					setWidgetContextMenuOption(3, (object)"Vote");
+					break;
+				case 17:
+				case 18:
+				case 20:
+				case 42:
+				case 45:
+					if (compareTo(cs2method_10222(cs2method_10758()), cs2method_10222(cs2method_10279(ivar18))) == 0 || compareTo(cs2method_10222(cs2method_10664()), cs2method_10222(cs2method_10279(ivar18))) == 0) {
+					} else {
+						if (cs2method_10028(cs2method_10749(ivar18)) == 1) {
+							if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+								setWidgetContextMenuOption(6, (object)"Message");
+							}
+						} else {
+							setWidgetContextMenuOption(6, (object)"Add friend");
+							setWidgetContextMenuOption(7, (object)"Add ignore");
+						}
+						if (ivar17 == 42 && ivar6 == 1) {
+							setWidgetContextMenuOption(10, (object)"Kick/ban");
+						}
+						if (ivar17 == 20 && ivar8 == 1) {
+							setWidgetContextMenuOption(10, (object)"Kick/ban");
+						}
+						if (cs2method_10214(cs2method_10674(ivar18)) > 0) {
+							if (globalint_132 == -1) {
+								globalint_132 = cs2method_10674(ivar18);
+								globalstring_29 = (string)cs2method_10279(ivar18);
+								if (ivar17 == 20) {
+									globalint_133 = 6;
+									setWidgetContextMenuOption(9, (object)"Quick Response");
+								}
+								if (ivar17 == 42) {
+									globalint_133 = 9;
+									setWidgetContextMenuOption(9, (object)"Quick Response");
+								}
+								if (ivar17 == 45) {
+									globalint_133 = 11;
+									setWidgetContextMenuOption(9, (object)"Quick Response");
+								} else if (ivar17 == 18) {
+									globalint_133 = 5;
+									if (cs2method_10028(cs2method_10749(ivar18)) == 1) {
+										setWidgetContextMenuOption(9, (object)"Quick Response");
+									}
+								} else {
+									globalint_133 = 4;
+									setWidgetContextMenuOption(9, (object)"Quick Response");
+								}
+							} else {
+								setWidgetContextMenuOption(9, (object)"Quick Response");
+							}
+						}
+					}
+					break;
+				case 108:
+					setWidgetContextMenuOption(10, (object)"Accept alliance");
+					break;
+				case 117:
+					setWidgetContextMenuOption(5, (object)"View invite from");
+			}
+		} else {
+			ivar16 = 0;
+		}
+		if (ivar4 == 1) {
+			switch (cs2method_10125(ivar18)) {
+				case 18:
+				case 7:
+				case 3:
+					globalstring_276 = (string)cs2method_10222(cs2method_10749(ivar18));
+					ivar4 = 0;
+			}
+		}
+		if (cs2method_10551(8978490, ivar15) == 1 && ivar16 == 1) {
+			ivar19 = cs2method_10004(getLineCount(484, cs2method_10778(), cs2method_10775()), 1);
+			setWidgetSize(cs2method_10004(cs2method_10586(cs2method_10242(484, cs2method_10778(), cs2method_10775()), 484), 1), multiply(14, ivar19), 0, 0);
+			ivar20 = add(ivar20, cs2method_10630());
+			ivar21 = add(ivar21, cs2method_10630());
+		}
+		ivar18 = add(ivar18, 1);
+	}
+	ivar20 = cs2method_10004(ivar20, cs2method_10090(8978490));
+	setWidgetScrollMax(463, ivar20, 8978490);
+	if (cs2method_10842() >= 2) {
+		script_5509(8978491, 8978490, subtract(add(globalint_7, cs2method_10919(8978490)), globalint_8));
+	} else {
+		script_72(8978491, 8978490, subtract(add(globalint_7, cs2method_10919(8978490)), globalint_8));
+	}
+	globalint_7 = cs2method_10424(8978490);
+	globalint_8 = cs2method_10919(8978490);
+	cs2method_10129(1, 48889878);
+	if (cs2method_10842() >= 2 && globalint_1701 == 1) {
+		cs2method_10129(0, 48889878);
+	}
+	return;
+}

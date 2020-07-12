@@ -1,0 +1,149 @@
+void script_5677(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	flow_0:
+		ivar1 = -1;
+		SWITCH (arg0) {
+			case 79495198:
+				 GOTO flow_1
+			case 79495199:
+				 GOTO flow_2
+			case 79495200:
+				 GOTO flow_3
+			case 79495201:
+				 GOTO flow_4
+			case 79495202:
+				 GOTO flow_5
+			case 79495203:
+				 GOTO flow_6
+			case 79495204:
+				 GOTO flow_7
+			case 79495205:
+				 GOTO flow_8
+			case 79495206:
+				 GOTO flow_9
+			case 79495207:
+				 GOTO flow_10
+			case 79495208:
+				 GOTO flow_11
+			case 79495209:
+				 GOTO flow_12
+			case 79495210:
+				 GOTO flow_13
+			case 79495211:
+				 GOTO flow_14
+			case 79495212:
+				 GOTO flow_15
+			case 79495213:
+				 GOTO flow_16
+			case 79495214:
+				 GOTO flow_17
+			case 79495215:
+				 GOTO flow_18
+			case 79495216:
+				 GOTO flow_19
+			case 79495217:
+				 GOTO flow_20
+			case 79495218:
+				 GOTO flow_21
+			case 79495219:
+				 GOTO flow_22
+			case 79495220:
+				 GOTO flow_23
+			case 79495221:
+				 GOTO flow_24
+			case 79495222:
+				 GOTO flow_25
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1213,4));
+		return;
+	flow_1:
+		ivar1 = 0;
+		GOTO	flow_26
+	flow_2:
+		ivar1 = 2;
+		GOTO	flow_26
+	flow_3:
+		ivar1 = 1;
+		GOTO	flow_26
+	flow_4:
+		ivar1 = 4;
+		GOTO	flow_26
+	flow_5:
+		ivar1 = 5;
+		GOTO	flow_26
+	flow_6:
+		ivar1 = 6;
+		GOTO	flow_26
+	flow_7:
+		ivar1 = 3;
+		GOTO	flow_26
+	flow_8:
+		ivar1 = 16;
+		GOTO	flow_26
+	flow_9:
+		ivar1 = 15;
+		GOTO	flow_26
+	flow_10:
+		ivar1 = 17;
+		GOTO	flow_26
+	flow_11:
+		ivar1 = 12;
+		GOTO	flow_26
+	flow_12:
+		ivar1 = 9;
+		GOTO	flow_26
+	flow_13:
+		ivar1 = 14;
+		GOTO	flow_26
+	flow_14:
+		ivar1 = 13;
+		GOTO	flow_26
+	flow_15:
+		ivar1 = 10;
+		GOTO	flow_26
+	flow_16:
+		ivar1 = 7;
+		GOTO	flow_26
+	flow_17:
+		ivar1 = 11;
+		GOTO	flow_26
+	flow_18:
+		ivar1 = 8;
+		GOTO	flow_26
+	flow_19:
+		ivar1 = 20;
+		GOTO	flow_26
+	flow_20:
+		ivar1 = 18;
+		GOTO	flow_26
+	flow_21:
+		ivar1 = 19;
+		GOTO	flow_26
+	flow_22:
+		ivar1 = 21;
+		GOTO	flow_26
+	flow_23:
+		ivar1 = 22;
+		GOTO	flow_26
+	flow_24:
+		ivar1 = 23;
+		GOTO	flow_26
+	flow_25:
+		ivar1 = 24;
+	flow_26:
+		ovar0 = cs2method_10445((object)getDataByKey('S', 's', 680, ivar1), (object)(": " + toString(cs2method_10391(ivar1)) + "/" + toString(cs2method_10453(ivar1)) + "<br>"));
+		ovar0 = cs2method_10445(ovar0, (object)("Current Xp: " + (string)cs2method_10595(cs2method_10011(ivar1), 1) + "<br>"));
+		ovar0 = cs2method_10445(ovar0, (object)("Next level: " + (string)cs2method_10595(getDataByKey('i', 'i', 716, add(cs2method_10453(ivar1), 1)), 1) + "<br>"));
+		ovar0 = cs2method_10445(ovar0, (object)("Remainder: " + (string)cs2method_10595(subtract(getDataByKey('i', 'i', 716, add(cs2method_10453(ivar1), 1)), cs2method_10011(ivar1)), 1)));
+		ivar2 = add(cs2method_10242(512, cs2method_10894(79495174), ovar0), 8);
+		ivar3 = add(multiply(getLineCount(512, cs2method_10894(79495174), ovar0), 12), 8);
+		cs2method_10893(ivar2, ivar3, 0, 0, 79495172);
+		setWidgetText(new WidgetPointer(1213,6), ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(1213,4));
+		cs2method_10444(add(add(cs2method_10111(79495170), cs2method_10111(arg0)), cs2method_10956(arg0)), add(cs2method_10826(arg0), cs2method_10090(arg0)), 0, 0, 79495172);
+		cs2method_20219(5679, new WidgetPointer(-32768,3), new WidgetPointer(arg0), "II", new WidgetPointer(1213,4));
+		return;
+}

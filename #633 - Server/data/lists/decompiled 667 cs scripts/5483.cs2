@@ -1,0 +1,97 @@
+void script_5483(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int stack_dump0;
+	flow_0:
+		ivar4 = getDataByKey('o', 'i', 5331, arg2);
+		ivar5 = 0;
+		ivar6 = 0;
+		ivar7 = 0;
+		ivar8 = 0;
+		ivar9 = -1;
+		SWITCH (arg2) {
+			case 5329:
+				 GOTO flow_1
+			case 6797:
+				 GOTO flow_6
+			case 22444:
+				 GOTO flow_19
+			case -1:
+				 GOTO flow_22
+		}
+		GOTO	flow_16
+	flow_1:
+		if (arg3 == 1) {
+			cs2method_20572(5483, new WidgetPointer(arg0), new WidgetPointer(arg1), arg2, 0, 93, 94, 2, "IIo1Y", new WidgetPointer(arg0));
+		}
+		ivar5 = add(getItemAmtInContainer(94, 7409), getItemAmtInContainer(93, 7409));
+		if (ivar5 > 0) {
+			arg2 = 7409;
+		}
+		ivar5 = add(ivar5, getItemAmtInContainer(93, 5329));
+		GOTO	flow_23
+	flow_6:
+		if (arg3 == 1) {
+			cs2method_20572(5483, new WidgetPointer(arg0), new WidgetPointer(arg1), arg2, 0, 93, 1, "IIo1Y", new WidgetPointer(arg0));
+		}
+		stack_dump0 = 1;
+		ivar8 = cs2method_10624(136);
+		ivar6 = stack_dump0;
+		while (ivar6 <= ivar8) {
+			ivar9 = getDataByKey('i', 'O', 136, ivar6);
+			if (ivar9 != -1 && ivar9 != 6797) {
+				ivar7 = getItemAmtInContainer(93, ivar9);
+				if (ivar7 > 0) {
+					stack_dump0 = ivar9;
+					ivar5 = add(ivar5, ivar7);
+					arg2 = stack_dump0;
+				}
+			}
+			ivar6 = add(ivar6, 1);
+		}
+		GOTO	flow_23
+	flow_16:
+		if (arg3 == 1) {
+			cs2method_20572(5483, new WidgetPointer(arg0), new WidgetPointer(arg1), arg2, 0, 93, 1, "IIo1Y", new WidgetPointer(arg0));
+		}
+		ivar5 = getItemAmtInContainer(93, arg2);
+		GOTO	flow_23
+	flow_19:
+		if (arg3 == 1) {
+			cs2method_20572(5483, new WidgetPointer(arg0), new WidgetPointer(arg1), arg2, 0, 93, 1, "IIo1Y", new WidgetPointer(arg0));
+		}
+		stack_dump0 = cs2method_10586(getItemAmtInContainer(93, 22444), 1);
+		ivar4 = 1;
+		ivar5 = stack_dump0;
+		GOTO	flow_23
+	flow_22:
+		return;
+	flow_23:
+		if (ivar4 > 1) {
+			cs2method_10194(arg2, ivar5, arg0);
+		} else if (ivar5 > 0) {
+			cs2method_10380(arg2, ivar5, arg0);
+		} else {
+			cs2method_10274(arg2, ivar5, arg0);
+		}
+		cs2method_10724(arg0, (object)("<col=ff9040>" + (string)getItemName(arg2)));
+		ivar10 = 6014;
+		ivar11 = 6015;
+		if (ivar5 > 0) {
+			cs2method_10149(0, arg0);
+			cs2method_10467(ivar10, arg1);
+			cs2method_20333(44, new WidgetPointer(-32768,3), ivar11, "Id", new WidgetPointer(arg1));
+			cs2method_20295(44, new WidgetPointer(-32768,3), ivar10, "Id", new WidgetPointer(arg1));
+		} else {
+			cs2method_10149(175, arg0);
+			cs2method_10467(6016, arg1);
+			cs2method_10773(arg1);
+		}
+		return;
+}

@@ -1,0 +1,106 @@
+cs2func_script_6150_struct(4,0,0) script_6150(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	while (arg0 < 0) {
+		arg0 = add(arg0, 8);
+	}
+	while (arg0 > 7) {
+		arg0 = subtract(arg0, 8);
+	}
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = -1;
+	switch (arg0) {
+		case 0:
+			ivar3 = cs2method_10273(arg2, 0, 0, 3);
+			ivar5 = cs2method_10273(arg2, 0, 0, -3);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, 1, 0, 0);
+				ivar6 = cs2method_10273(ivar5, -1, 0, 0);
+			} else {
+				ivar4 = cs2method_10273(ivar3, -1, 0, 0);
+				ivar6 = cs2method_10273(ivar5, 1, 0, 0);
+			}
+			break;
+		case 1:
+			ivar3 = cs2method_10273(arg2, 2, 0, 2);
+			ivar5 = cs2method_10273(arg2, -2, 0, -2);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, 1, 0, -1);
+				ivar6 = cs2method_10273(ivar5, -1, 0, 1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, -1, 0, 1);
+				ivar6 = cs2method_10273(ivar5, 1, 0, -1);
+			}
+			break;
+		case 2:
+			ivar3 = cs2method_10273(arg2, 3, 0, 0);
+			ivar5 = cs2method_10273(arg2, -3, 0, 0);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, 0, 0, -1);
+				ivar6 = cs2method_10273(ivar5, 0, 0, 1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, 0, 0, 1);
+				ivar6 = cs2method_10273(ivar5, 0, 0, -1);
+			}
+			break;
+		case 3:
+			ivar3 = cs2method_10273(arg2, 2, 0, -2);
+			ivar5 = cs2method_10273(arg2, -2, 0, 2);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, -1, 0, -1);
+				ivar6 = cs2method_10273(ivar5, 1, 0, 1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, 1, 0, 1);
+				ivar6 = cs2method_10273(ivar5, -1, 0, -1);
+			}
+			break;
+		case 4:
+			ivar3 = cs2method_10273(arg2, 0, 0, -3);
+			ivar5 = cs2method_10273(arg2, 0, 0, 3);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, -1, 0, 0);
+				ivar6 = cs2method_10273(ivar5, 1, 0, 0);
+			} else {
+				ivar4 = cs2method_10273(ivar3, 1, 0, 0);
+				ivar6 = cs2method_10273(ivar5, -1, 0, 0);
+			}
+			break;
+		case 5:
+			ivar3 = cs2method_10273(arg2, -2, 0, -2);
+			ivar5 = cs2method_10273(arg2, 2, 0, 2);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, -1, 0, 1);
+				ivar6 = cs2method_10273(ivar5, 1, 0, -1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, 1, 0, -1);
+				ivar6 = cs2method_10273(ivar5, -1, 0, 1);
+			}
+			break;
+		case 6:
+			ivar3 = cs2method_10273(arg2, -3, 0, 0);
+			ivar5 = cs2method_10273(arg2, 3, 0, 0);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, 0, 0, 1);
+				ivar6 = cs2method_10273(ivar5, 0, 0, -1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, 0, 0, -1);
+				ivar6 = cs2method_10273(ivar5, 0, 0, 1);
+			}
+			break;
+		case 7:
+			ivar3 = cs2method_10273(arg2, -2, 0, 2);
+			ivar5 = cs2method_10273(arg2, 2, 0, -2);
+			if (arg1 > 0) {
+				ivar4 = cs2method_10273(ivar3, 1, 0, 1);
+				ivar6 = cs2method_10273(ivar5, -1, 0, -1);
+			} else {
+				ivar4 = cs2method_10273(ivar3, -1, 0, -1);
+				ivar6 = cs2method_10273(ivar5, 1, 0, 1);
+			}
+	}
+	return newstruct cs2func_script_6150_struct(ivar3, ivar4, ivar5, ivar6);
+}

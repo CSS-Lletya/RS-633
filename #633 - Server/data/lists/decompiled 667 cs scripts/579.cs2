@@ -1,0 +1,11 @@
+void script_579(int arg0,int arg1) {
+	if (cs2method_10551(25493508, 0) == 1) {
+		setWidgetPosition(0, multiply(15, subtract(arg0, 1)), 0, 0);
+		setWidgetSize(cs2method_10956(25493508), 15, 0, 0);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10305(220);
+		setWidgetFilled(1);
+	}
+	cs2method_10380(arg1, -1, 25493519);
+	return;
+}

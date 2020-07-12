@@ -1,0 +1,44 @@
+void script_4641() {
+	script_4639();
+	if (cs2method_10184(standart_config_2189, 1) == 1) {
+		cs2method_10467(6268, 10027023);
+		cs2method_20000(4637, 1, "i", new WidgetPointer(153,100));
+		script_4645(1);
+	} else {
+		cs2method_10467(6271, 10027023);
+		cs2method_20000(6154, "", new WidgetPointer(153,100));
+	}
+	if (cs2method_10184(standart_config_2189, 2) == 1) {
+		cs2method_10467(6270, 10027020);
+		cs2method_20000(4637, 2, "i", new WidgetPointer(153,113));
+		script_4645(2);
+	} else {
+		cs2method_10467(6271, 10027020);
+		cs2method_20000(6154, "", new WidgetPointer(153,113));
+	}
+	if (cs2method_10184(standart_config_2189, 4) == 1) {
+		cs2method_10467(6269, 10027017);
+		cs2method_20000(4637, 4, "i", new WidgetPointer(153,126));
+		script_4645(4);
+	} else {
+		cs2method_10467(6271, 10027017);
+		cs2method_20000(6154, "", new WidgetPointer(153,126));
+	}
+	if (cs2method_10184(standart_config_2189, 3) == 1) {
+		cs2method_10467(10569, 10027208);
+		cs2method_20000(4637, 3, "i", new WidgetPointer(153,199));
+		script_4645(3);
+	} else {
+		cs2method_10467(6271, 10027208);
+		cs2method_20000(6154, "", new WidgetPointer(153,199));
+	}
+	if (cs2method_10184(standart_config_2189, 6) == 1) {
+		cs2method_10467(10568, 10027192);
+		cs2method_20000(4637, 6, "i", new WidgetPointer(153,183));
+		script_4645(6);
+	} else {
+		cs2method_10467(6271, 10027192);
+		cs2method_20000(6154, "", new WidgetPointer(153,183));
+	}
+	return;
+}

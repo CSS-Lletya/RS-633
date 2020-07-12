@@ -1,0 +1,16 @@
+void script_864(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10) {
+	int ivar11;
+	ivar11 = 0;
+	if (arg6 == 1) {
+		ivar11 = cs2method_10355(468, cs2method_10100(arg5));
+	} else {
+		ivar11 = cs2method_10956(arg5);
+	}
+	if (arg1 == 0 && subtract(cs2method_10956(arg0), ivar11) < arg7) {
+		cs2method_20219(2929, new WidgetPointer(arg0), arg1, new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), arg6, arg7, arg8, arg9, arg10, "I1IIII1iiii", new WidgetPointer(arg2));
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg2));
+	cs2method_20219(2930, new WidgetPointer(arg0), arg1, ivar11, new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), arg7, arg8, arg9, arg10, "I1iIIIiiii", new WidgetPointer(arg0));
+	return;
+}

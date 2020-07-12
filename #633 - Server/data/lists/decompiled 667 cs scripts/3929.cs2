@@ -1,0 +1,34 @@
+void script_3929(int arg0,int arg1,int arg2) {
+	if (arg2 == 1) {
+		if (cs2method_10551(arg0, 0) == 1) {
+			cs2method_10469(4038);
+		}
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(4032);
+		}
+		if (cs2method_10551(arg0, 2) == 1) {
+			cs2method_10469(4035);
+		}
+	} else if (cs2method_10658() == arg1) {
+		if (cs2method_10551(arg0, 0) == 1) {
+			cs2method_10469(4039);
+		}
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(4033);
+		}
+		if (cs2method_10551(arg0, 2) == 1) {
+			cs2method_10469(4036);
+		}
+	} else {
+		if (cs2method_10551(arg0, 0) == 1) {
+			cs2method_10469(4037);
+		}
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(4031);
+		}
+		if (cs2method_10551(arg0, 2) == 1) {
+			cs2method_10469(4034);
+		}
+	}
+	return;
+}

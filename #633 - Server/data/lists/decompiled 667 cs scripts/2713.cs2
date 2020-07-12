@@ -1,0 +1,46 @@
+void script_2713(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int stack_dump0;
+	cs2func_script_1239_struct(2,0,0) structdump_1;
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(arg3));
+	cs2method_20835(-1, "", new WidgetPointer(arg3));
+	cs2method_20835(-1, "", new WidgetPointer(arg3));
+	ivar6 = -1;
+	ivar7 = 0;
+	if (globalint_986 == 1) {
+		cs2method_10149(0, arg1);
+		setWidgetRGB(0, arg1);
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		cs2method_20219(-1, "", new WidgetPointer(arg1));
+		cs2method_20219(-1, "", new WidgetPointer(arg2));
+		globalint_176 = subtract(globalint_176, cs2method_10620(globalint_176, 10));
+		stack_dump0 = 0;
+		structdump_1 = script_1239(stack_dump0);
+		ivar7 = structdump_1.intpart_1;
+		ivar6 = structdump_1.intpart_0;
+		cs2method_10583(ivar6, 1000, 100, 100);
+		cs2method_10258(ivar6, 0, 100, 100);
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		cs2method_20219(2962, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), add(cs2method_10878(), 30), "IIIIIIi", new WidgetPointer(arg0));
+		globalint_986 = 0;
+		globalint_994 = 2;
+	} else {
+		cs2method_20808(-1, "", new WidgetPointer(arg0));
+		if (cs2method_10416(arg1) == 1) {
+			cs2method_10149(255, arg1);
+			setWidgetIsHidden(false, new WidgetPointer(arg1));
+		}
+		setWidgetRGB(0, arg1);
+		cs2method_20219(1253, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg1));
+		if (cs2method_10416(arg2) == 1) {
+			cs2method_10149(255, arg2);
+			setWidgetIsHidden(false, new WidgetPointer(arg2));
+		}
+		cs2method_20219(1253, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg2));
+		cs2method_20219(2963, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), add(cs2method_10878(), 30), "IIIIIIi", new WidgetPointer(arg0));
+		globalint_986 = 1;
+	}
+	script_3230();
+	return;
+}

@@ -1,0 +1,5 @@
+void script_5165() {
+	standart_config_2347 = cs2method_10004(0, cs2method_10586(standart_config_2347, 65535));
+	cs2method_10661(standart_config_2347);
+	return;
+}

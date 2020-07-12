@@ -1,0 +1,18 @@
+void script_5885(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 82116690;
+	ivar3 = cs2method_10685(ivar2);
+	ivar4 = script_669(ivar3, 65535, 360);
+	if (ivar4 >= arg0 && ivar4 <= arg1) {
+		cs2method_20219(5883, 1, 0, 0, ivar4, "iiii", new WidgetPointer(1253,82));
+		cs2method_20219(-1, "", new WidgetPointer(1253,52));
+	} else {
+		if (add(ivar4, 360) >= arg0 && add(ivar4, 360) <= arg1) {
+			cs2method_20219(5883, 1, 0, 0, ivar4, "iiii", new WidgetPointer(1253,82));
+			cs2method_20219(-1, "", new WidgetPointer(1253,52));
+		}
+	}
+	return;
+}

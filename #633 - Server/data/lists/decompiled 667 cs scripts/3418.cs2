@@ -1,0 +1,20 @@
+void script_3418(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = 2289;
+	ivar4 = 2288;
+	if (arg2 == arg1) {
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(ivar3);
+			cs2method_20333(-1, "", new WidgetPointer(arg0));
+			cs2method_20295(-1, "", new WidgetPointer(arg0));
+		}
+	} else {
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(ivar4);
+			cs2method_20333(688, new WidgetPointer(-32768,3), cs2method_10261(), ivar3, "Iid", new WidgetPointer(arg0));
+			cs2method_20295(688, new WidgetPointer(-32768,3), cs2method_10261(), ivar4, "Iid", new WidgetPointer(arg0));
+		}
+	}
+	return;
+}

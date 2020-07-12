@@ -1,0 +1,80 @@
+void script_6002(int arg0,object arg1) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar1 = subtract(cs2method_10111(arg0), 101);
+	ivar2 = cs2method_10826(arg0);
+	ivar3 = script_6003(cs2method_10825(arg0));
+	ivar1 = cs2method_10004(ivar1, 20);
+	ivar1 = cs2method_10586(ivar1, 230);
+	if (ivar2 <= 150) {
+		ivar2 = add(ivar2, 40);
+	} else {
+		ivar2 = subtract(ivar2, 50);
+	}
+	ivar4 = 0;
+	switch (arg0) {
+		case 71565319:
+			if (bitconfig_358 == 15) {
+				ivar4 = 1;
+			}
+			break;
+		case 71565351:
+			if (bitconfig_2448 == 190) {
+				ivar4 = 1;
+			}
+			break;
+		case 71565352:
+			ivar4 = bitconfig_10900;
+			break;
+		case 71565353:
+			ivar4 = bitconfig_10901;
+			break;
+		case 71565354:
+			ivar4 = bitconfig_10902;
+			break;
+		case 71565355:
+			ivar4 = bitconfig_10903;
+			break;
+		case 71565356:
+			ivar4 = bitconfig_10904;
+			break;
+		case 71565357:
+			ivar4 = bitconfig_10905;
+			break;
+		case 71565358:
+			ivar4 = bitconfig_10906;
+			break;
+		case 71565359:
+			ivar4 = bitconfig_10907;
+			break;
+		case 71565360:
+			ivar4 = bitconfig_10908;
+			break;
+		case 71565361:
+			ivar4 = bitconfig_10909;
+			break;
+		case 71565362:
+			ivar4 = bitconfig_10910;
+			break;
+		case 71565363:
+			ivar4 = bitconfig_10911;
+			break;
+		case 71565364:
+			ivar4 = bitconfig_10912;
+	}
+	if (ivar4 == 1) {
+		setWidgetText(new WidgetPointer(1092,66), (object)("Click to teleport" + "<br>" + "to this lodestone."));
+	} else {
+		setWidgetText(new WidgetPointer(1092,66), (object)("This lodestone" + "<br>" + "is not yet active."));
+	}
+	cs2method_10467(ivar3, 71565376);
+	setWidgetText(new WidgetPointer(1092,65), arg1);
+	cs2method_10444(ivar1, ivar2, 0, 0, 71565367);
+	setWidgetIsHidden(false, new WidgetPointer(1092,55));
+	cs2method_10467(ivar3, 71565366);
+	cs2method_10444(subtract(cs2method_10111(arg0), 5), subtract(cs2method_10826(arg0), 5), 0, 0, 71565365);
+	setWidgetIsHidden(false, new WidgetPointer(1092,53));
+	return;
+}

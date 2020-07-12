@@ -1,0 +1,129 @@
+void script_2568() {
+	if (cs2method_10551(55181329, 0) == 1) {
+		if (globalint_857 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 1) == 1) {
+		if (globalint_858 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 2) == 1) {
+		if (globalint_859 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 3) == 1) {
+		if (globalint_860 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 4) == 1) {
+		if (globalint_861 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 5) == 1) {
+		if (globalint_862 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 6) == 1) {
+		if (globalint_863 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 7) == 1) {
+		if (globalint_864 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 8) == 1) {
+		if (globalint_865 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 9) == 1) {
+		if (globalint_866 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 10) == 1) {
+		if (globalint_867 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 11) == 1) {
+		if (globalint_868 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 12) == 1) {
+		if (globalint_869 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 13) == 1) {
+		if (globalint_870 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 14) == 1) {
+		if (globalint_871 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 15) == 1) {
+		if (globalint_872 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 16) == 1) {
+		if (globalint_873 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	if (cs2method_10551(55181329, 17) == 1) {
+		if (globalint_874 == 0) {
+			cs2method_10305(190);
+		} else {
+			cs2method_10305(0);
+		}
+	}
+	return;
+}

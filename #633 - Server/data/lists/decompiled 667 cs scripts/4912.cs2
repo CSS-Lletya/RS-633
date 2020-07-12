@@ -1,0 +1,8 @@
+void script_4912(int arg0) {
+	globalint_1794 = 0;
+	script_5977();
+	script_4905();
+	script_4907();
+	script_4853();
+	return;
+}

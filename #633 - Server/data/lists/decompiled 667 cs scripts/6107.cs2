@@ -1,0 +1,25 @@
+void script_6107() {
+	int ivar0;
+	setWidgetIsHidden(false, new WidgetPointer(1265,172));
+	setWidgetText(new WidgetPointer(1265,39), (object)"Select an item");
+	cs2method_10380(-1, -1, 82903081);
+	setWidgetText(new WidgetPointer(1265,205), (object)"N/A");
+	ivar0 = cs2method_10242(cs2method_10956(82903119), 3793, cs2method_10100(82903245));
+	cs2method_10893(ivar0, 15, 0, 0, 82903057);
+	setWidgetText(new WidgetPointer(1265,40), (object)"");
+	setWidgetText(new WidgetPointer(1265,43), (object)"");
+	setWidgetText(new WidgetPointer(1265,44), (object)"");
+	setWidgetText(new WidgetPointer(1265,19), (object)"Transaction:");
+	setWidgetText(new WidgetPointer(1265,78), (object)"Price:");
+	cs2method_10467(-1, 82903058);
+	setWidgetIsHidden(true, new WidgetPointer(1266,3));
+	setWidgetIsHidden(false, new WidgetPointer(1265,82));
+	setWidgetIsHidden(false, new WidgetPointer(1265,202));
+	setWidgetRGB(8552313, 82903244);
+	setWidgetText(new WidgetPointer(1265,204), (object)"N/A");
+	setWidgetIsHidden(true, new WidgetPointer(1265,63));
+	cs2method_10467(-1, 82903082);
+	cs2method_20835(-1, "", new WidgetPointer(1265,42));
+	script_6094();
+	return;
+}

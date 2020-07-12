@@ -1,0 +1,15 @@
+void script_659(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,object arg12,object arg13) {
+	if (cs2method_10551(43384906, 0) == 1) {
+		cs2method_20935(657, new WidgetPointer(-32768,3), "I");
+		cs2method_20346(658, new WidgetPointer(-32768,3), "I");
+		cs2method_20560(660, new WidgetPointer(662,74), new WidgetPointer(arg0), arg1, arg2, arg3, (string)arg12, (string)arg13, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, 93, 1, "IIddissoioioioiY");
+		cs2method_20538(660, new WidgetPointer(662,74), new WidgetPointer(arg0), arg1, arg2, arg3, (string)arg12, (string)arg13, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, 23, 1, "IIddissoioioioiY");
+		cs2method_20003(660, new WidgetPointer(662,74), new WidgetPointer(arg0), arg1, arg2, arg3, (string)arg12, (string)arg13, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, 1175, 448, 2, "IIddissoioioioiY");
+		script_661(43384906, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13);
+	}
+	if (cs2method_10551(48955410, 0) == 1) {
+		cs2method_20935(697, new WidgetPointer(747,2), "I");
+		cs2method_20346(698, new WidgetPointer(747,2), "I");
+	}
+	return;
+}

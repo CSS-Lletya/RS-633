@@ -1,0 +1,98 @@
+void script_4831(int arg0) {
+	if (cs2method_10416(arg0) == 1) {
+		return;
+	}
+	script_4834(arg0);
+	switch (bitconfig_9558) {
+		flow_3:
+			case 1:
+			switch (arg0) {
+				case 82444572:
+				case 82444714:
+				case 82444646:
+					if (bitconfig_9567 > 0 && cs2method_10551(arg0, subtract(bitconfig_9567, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+					break;
+				case 82444632:
+				case 82444556:
+				case 82444702:
+					if (bitconfig_9568 > 0 && cs2method_10551(arg0, subtract(bitconfig_9568, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+					break;
+				case 82444618:
+				case 82444690:
+				case 82444540:
+					if (bitconfig_9569 > 0 && cs2method_10551(arg0, subtract(bitconfig_9569, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+			}
+			break;
+			case 2:
+			switch (arg0) {
+				case 82444572:
+				case 82444714:
+				case 82444646:
+					if (bitconfig_9576 > 0 && cs2method_10551(arg0, subtract(bitconfig_9576, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+					break;
+				case 82444632:
+				case 82444556:
+				case 82444702:
+					if (bitconfig_9577 > 0 && cs2method_10551(arg0, subtract(bitconfig_9577, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+					break;
+				case 82444618:
+				case 82444690:
+				case 82444540:
+					if (bitconfig_9578 > 0 && cs2method_10551(arg0, subtract(bitconfig_9578, 1)) == 1) {
+						cs2method_10469(6004);
+					}
+			}
+			break;
+			case 3:
+			SWITCH (arg0) {
+				case 82444572:
+					 GOTO flow_30
+				case 82444714:
+					 GOTO flow_30
+				case 82444646:
+					 GOTO flow_30
+				case 82444632:
+					 GOTO flow_34
+				case 82444556:
+					 GOTO flow_34
+				case 82444702:
+					 GOTO flow_34
+				case 82444618:
+					 GOTO flow_38
+				case 82444690:
+					 GOTO flow_38
+				case 82444540:
+					 GOTO flow_38
+			}
+			break;
+		flow_30:
+			if (bitconfig_9585 > 0 && cs2method_10551(arg0, subtract(bitconfig_9585, 1)) == 1) {
+				cs2method_10469(6004);
+			}
+			break;
+		flow_34:
+			if (bitconfig_9586 > 0 && cs2method_10551(arg0, subtract(bitconfig_9586, 1)) == 1) {
+				cs2method_10469(6004);
+			}
+			break;
+		flow_38:
+			if (bitconfig_9587 > 0 && cs2method_10551(arg0, subtract(bitconfig_9587, 1)) == 1) {
+				cs2method_10469(6004);
+			}
+	}
+	script_4838();
+	script_4810();
+	script_4840();
+	script_4814();
+	return;
+}

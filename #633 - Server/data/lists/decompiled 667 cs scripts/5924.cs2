@@ -1,0 +1,20 @@
+void script_5924(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = 200;
+	ivar2 = 6;
+	ivar3 = cs2method_10956(arg0);
+	ivar4 = cs2method_10090(arg0);
+	ivar5 = cs2method_10586(add(ivar4, ivar2), 200);
+	cs2method_10893(ivar3, ivar5, 0, 0, arg0);
+	if (ivar5 == 200) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		setWidgetIsHidden(false, new WidgetPointer(1253,37));
+		globalint_1784 = 0;
+	}
+	return;
+}

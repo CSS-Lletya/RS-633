@@ -1,0 +1,16 @@
+void script_4581(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = -1;
+	ivar2 = -1;
+	if (cs2method_10309() == 1 && cs2method_10528() == 1) {
+		ivar1 = cs2method_10283(cs2method_10222(cs2method_10664()));
+		if (ivar1 >= 0) {
+			ivar2 = cs2method_10370(ivar1);
+			if (ivar2 >= 100) {
+				globalstring_350 = (string)cs2method_10606(arg0);
+			}
+		}
+	}
+	return;
+}

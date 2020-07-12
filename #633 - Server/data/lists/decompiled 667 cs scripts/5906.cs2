@@ -1,0 +1,139 @@
+void script_5906() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	flow_0:
+		script_5219(82116659);
+		setWidgetIsHidden(true, new WidgetPointer(1253,50));
+		setWidgetIsHidden(false, new WidgetPointer(1253,28));
+		setWidgetIsHidden(false, new WidgetPointer(1253,38));
+		setWidgetIsHidden(true, new WidgetPointer(1253,33));
+		script_5219(82116659);
+		globalint_1784 = 0;
+		setWidgetIsHidden(false, new WidgetPointer(1253,48));
+		cs2method_10444(-162, -16, 1, 1, 82116656);
+		ivar0 = script_5936(bitconfig_10860);
+		ivar1 = getGeneralRequirementAttribute(ivar0, 2268);
+		ivar2 = getItemIdInContainerSlot(665, bitconfig_10860);
+		ivar3 = cs2method_10136(665, bitconfig_10860);
+		cs2method_10380(ivar2, ivar3, 82116810);
+		if (bitconfig_10861 > 0) {
+			setWidgetText(new WidgetPointer(1253,162), script_5909(ivar1, bitconfig_10865, ivar2, ivar3));
+		} else {
+			setWidgetText(new WidgetPointer(1253,162), (object)"");
+		}
+		setWidgetText(new WidgetPointer(1253,161), (object)("Spins remaining: " + toString(add(add(bitconfig_10862, bitconfig_11026), globalint_1800))));
+		setWidgetText(new WidgetPointer(1253,40), script_789());
+		ivar4 = script_5941(bitconfig_10860);
+		if (bitconfig_10861 > 0) {
+			cs2method_10467(ivar4, 82116809);
+			cs2method_10467(ivar4, 82116642);
+		}
+		ovar0 = (object)"";
+		ovar1 = (object)"";
+		ovar2 = (object)"";
+		ovar3 = (object)"";
+		ovar4 = (object)"Discard the prize.";
+		ovar5 = (object)"You do not have an unclaimed prize to discard";
+		setWidgetText(new WidgetPointer(1253,264), (object)"Play again");
+		cs2method_10375(1, 82116866, (object)"Play");
+		setWidgetText(new WidgetPointer(1253,180), (object)"Claim item");
+		cs2method_10375(1, 82116785, (object)"Claim");
+		ovar0 = (object)"You do not have a prize to claim.";
+		ovar1 = (object)"You do not have a prize to claim.";
+		if (bitconfig_10861 > 0) {
+			setWidgetText(new WidgetPointer(1253,245), (object)"Claim later");
+			setWidgetIsHidden(true, new WidgetPointer(1253,225));
+			switch (globalint_1790) {
+				case 1:
+				case 2:
+					ovar0 = (object)"Claim your prize to your inventory.";
+					ovar1 = (object)"Your inventory doesn't have room for your prize at the moment.";
+					break;
+				case 3:
+				case 4:
+					ovar0 = (object)"Claim your prize to your bank.";
+					ovar1 = (object)"Your bank doesn't have room for your prize at the moment.";
+					break;
+				case 5:
+				case 6:
+					ovar0 = (object)"Claim your prize to your money pouch.";
+					ovar1 = (object)"Your money pouch doesn't have room for your prize at the moment.";
+					break;
+				case 7:
+					ovar0 = (object)"The Squeal of Fortune is not available at the moment. Please try later.";
+					ovar1 = (object)"The Squeal of Fortune is not available at the moment. Please try later.";
+					ovar4 = (object)"The Squeal of Fortune is not available at the moment. Please try later.";
+					ovar5 = (object)"The Squeal of Fortune is not available at the moment. Please try later.";
+					setWidgetIsHidden(false, new WidgetPointer(1253,225));
+					setWidgetIsHidden(false, new WidgetPointer(1253,178));
+			}
+			switch (globalint_1790) {
+				case 5:
+				case 1:
+				case 3:
+					setWidgetIsHidden(true, new WidgetPointer(1253,178));
+					break;
+				default:
+					setWidgetIsHidden(false, new WidgetPointer(1253,178));
+			}
+			ovar3 = (object)"You must claim or discard your prize before spinning again.";
+			setWidgetIsHidden(false, new WidgetPointer(1253,259));
+			script_5910(ivar1);
+			ovar3 = (object)"You must claim or discard your prize before spinning again.";
+		} else {
+			setWidgetText(new WidgetPointer(1253,245), (object)"Done");
+			setWidgetIsHidden(true, new WidgetPointer(1253,225));
+			setWidgetIsHidden(true, new WidgetPointer(1253,178));
+			setWidgetText(new WidgetPointer(1253,162), (object)"");
+			ovar3 = (object)"You do not have any spins left. Please play again tomorrow.";
+		}
+		ovar2 = (object)"Click to play again.";
+		IF (bitconfig_10862 == 0 && bitconfig_11026 == 0) 
+			GOTO	flow_18
+		GOTO	flow_19
+	flow_18:
+		IF (globalint_1800 == 0) 
+			GOTO	flow_20
+	flow_19:
+		IF (bitconfig_10861 > 0) 
+			GOTO	flow_20
+		GOTO	flow_21
+	flow_20:
+		setWidgetIsHidden(false, new WidgetPointer(1253,259));
+		GOTO	flow_22
+	flow_21:
+		setWidgetIsHidden(true, new WidgetPointer(1253,259));
+	flow_22:
+		if (cs2method_10669() == 0) {
+			setWidgetText(new WidgetPointer(1253,161), (object)"Members get two spins a day. Subscribe now to claim your extra spin.");
+			setWidgetText(new WidgetPointer(1253,264), (object)"Subscribe");
+			ovar2 = (object)"Click to subscribe.";
+			cs2method_10375(1, 82116866, (object)"Subscribe");
+			setWidgetIsHidden(true, new WidgetPointer(1253,259));
+			if (isMembersItem(ivar2) == 1 && cs2method_10669() == 0) {
+				setWidgetText(new WidgetPointer(1253,180), (object)"Subscribe to claim");
+				cs2method_10375(1, 82116785, (object)"Subscribe");
+				ovar0 = (object)"Click to subscribe.";
+				setWidgetIsHidden(true, new WidgetPointer(1253,178));
+			}
+		}
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,177));
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar1, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,178));
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar2, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,258));
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar3, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,259));
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar4, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,224));
+		cs2method_20835(4538, new WidgetPointer(1253,51), new WidgetPointer(-32768,3), -1, (string)ovar5, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1253,225));
+		script_5219(82116659);
+		globalint_1 = 0;
+		script_1968();
+		return;
+}

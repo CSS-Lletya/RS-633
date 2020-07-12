@@ -1,0 +1,6 @@
+void script_3299(int arg0,int arg1) {
+	if (cs2method_10234(arg0, arg1) != -1) {
+		cs2method_10998(getItemName(cs2method_10234(arg0, arg1)));
+	}
+	return;
+}

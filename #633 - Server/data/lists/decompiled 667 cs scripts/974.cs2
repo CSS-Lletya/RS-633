@@ -1,0 +1,34 @@
+int script_974(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6) {
+	int ivar6;
+	int ivar7;
+	ivar6 = 0;
+	ivar7 = 2287;
+	createChildWidget(48562177, 5, arg0);
+	if (script_1566(arg4, arg5) == 1) {
+		if (arg4 == 7) {
+			setWidgetSize(30, 30, 0, 0);
+		} else if (arg4 == 4) {
+			setWidgetSize(24, 24, 0, 0);
+		} else {
+			setWidgetSize(36, 32, 0, 0);
+		}
+		cs2method_10253(0);
+		if (arg3 != -1) {
+			cs2method_10469(arg3);
+		} else {
+			cs2method_10469(ivar7);
+		}
+	} else if (arg2 != -1) {
+		setItemOnWidget_10672(arg2, -1);
+	} else {
+		setItemOnWidget_10672(7620, -1);
+	}
+	setWidgetSize(36, 32, 0, 0);
+	cs2method_10253(1);
+	cs2method_10167(6311474);
+	setWidgetPosition(0, arg1, 0, 0);
+	createChildWidget(48562177, 4, add(arg0, 1));
+	ivar6 = getLineCount(300, 495, arg6);
+	setWidgetSize(300, multiply(ivar6, 16), 0, 0);
+	return ivar6;
+}

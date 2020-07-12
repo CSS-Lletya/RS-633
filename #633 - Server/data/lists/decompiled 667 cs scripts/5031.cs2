@@ -1,0 +1,3 @@
+int script_5031(int arg0) {
+	return AND(arg0, 255);
+}

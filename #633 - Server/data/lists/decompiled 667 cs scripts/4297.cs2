@@ -1,0 +1,10 @@
+void script_4297() {
+	flow_0:
+		setWidgetIsHidden(false, new WidgetPointer(1096,84));
+		setWidgetIsHidden(true, new WidgetPointer(1096,83));
+		IF (cs2method_10528() == 1) 
+			GOTO	flow_1
+		GOTO	flow_1
+	flow_1:
+		return;
+}

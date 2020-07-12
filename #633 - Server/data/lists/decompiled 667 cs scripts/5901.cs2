@@ -1,0 +1,10 @@
+void script_5901() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 < 13) {
+		script_5902(ivar0);
+		ivar0 = add(ivar0, 1);
+	}
+	script_5903();
+	return;
+}

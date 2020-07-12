@@ -1,0 +1,19 @@
+void script_6055(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = cs2method_10956(arg0);
+	ivar3 = 0;
+	if (arg1 == 0) {
+		ivar3 = cs2method_10586(223, add(ivar2, 12));
+		if (ivar3 == 223) {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+		}
+	} else {
+		ivar3 = cs2method_10004(5, subtract(ivar2, 12));
+		if (ivar3 == 5) {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+		}
+	}
+	cs2method_10893(ivar3, cs2method_10090(arg0), 0, 0, arg0);
+	return;
+}

@@ -1,0 +1,10 @@
+void script_1861() {
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5470), 52363274);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5471), 52363275);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5472), 52363276);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5473), 52363277);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5474), 52363278);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5475), 52363279);
+	cs2method_10461(getDataByKey('i', 'm', 1318, bitconfig_5476), 52363280);
+	return;
+}

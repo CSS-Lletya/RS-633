@@ -1,0 +1,51 @@
+void script_4002() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	if (cs2method_10842() >= 2) {
+		if (cs2method_10519(48889885, 917) == 1) {
+			return;
+		}
+	} else {
+		if (cs2method_10519(35913773, 917) == 1) {
+			return;
+		}
+	}
+	ovar0 = (object)"Progress:  ";
+	ivar0 = globalint_1424;
+	ovar1 = (object)"";
+	ivar1 = globalint_1423;
+	ovar2 = (object)"";
+	ovar3 = (object)getDataByKey('i', 's', 3487, bitconfig_8575);
+	if (bitconfig_9030 == 1) {
+		if (isMember() == 1) {
+			ivar0 = bitconfig_10698;
+			ivar1 = cs2method_10624(5480);
+		} else {
+			ivar0 = bitconfig_9028;
+			ivar1 = cs2method_10624(3656);
+		}
+		ovar3 = (object)"Introductory Tasks";
+	}
+	ovar1 = (object)toString(ivar0);
+	ovar2 = (object)toString(ivar1);
+	if (bitconfig_8575 == 61) {
+		ovar3 = (object)"Quest Area";
+		setWidgetIsHidden(true, new WidgetPointer(1056,107));
+		setWidgetIsHidden(true, new WidgetPointer(1056,108));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1056,107));
+		setWidgetIsHidden(false, new WidgetPointer(1056,108));
+	}
+	ivar2 = divide(multiply(ivar0, subtract(cs2method_10956(69206123), 2)), cs2method_10004(1, ivar1));
+	ovar0 = cs2method_10445(ovar0, ovar1);
+	setWidgetText(new WidgetPointer(1056,104), ovar2);
+	setWidgetText(new WidgetPointer(1056,102), ovar0);
+	setWidgetText(new WidgetPointer(1056,106), ovar3);
+	cs2method_10893(ivar2, 18, 0, 0, 69206117);
+	return;
+}

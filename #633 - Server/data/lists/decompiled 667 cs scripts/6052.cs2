@@ -1,0 +1,64 @@
+void script_6052() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int stack_dump0;
+	cs2func_script_6188_struct(2,0,0) structdump_1;
+	ivar0 = 82116636;
+	script_5919();
+	script_6047(ivar0, 118);
+	script_6050();
+	setWidgetIsHidden(true, new WidgetPointer(1253,33));
+	setWidgetIsHidden(false, new WidgetPointer(1253,38));
+	cs2method_20219(-1, "", new WidgetPointer(1253,52));
+	cs2method_20219(-1, "", new WidgetPointer(1253,28));
+	cs2method_20219(-1, "", new WidgetPointer(1253,82));
+	cs2method_20219(-1, "", new WidgetPointer(1253,52));
+	setWidgetIsHidden(true, new WidgetPointer(1253,37));
+	script_5892();
+	ivar1 = script_5933(bitconfig_10860);
+	ivar2 = script_5939(bitconfig_10860);
+	ivar3 = -1;
+	ivar4 = -1;
+	switch (ivar2) {
+		case 1:
+			ivar3 = 9877;
+			break;
+		case 2:
+			ivar3 = 9880;
+			break;
+		case 3:
+			ivar3 = 9883;
+			break;
+		default:
+			ivar3 = 9874;
+	}
+	cs2method_10467(ivar3, ivar1);
+	ivar5 = script_5936(bitconfig_10860);
+	ivar6 = getGeneralRequirementAttribute(ivar5, 2268);
+	ivar7 = -1;
+	ivar8 = -1;
+	stack_dump0 = bitconfig_10860;
+	structdump_1 = script_6188(stack_dump0);
+	ivar8 = structdump_1.intpart_1;
+	ivar7 = structdump_1.intpart_0;
+	cs2method_10380(ivar7, ivar8, 82116643);
+	if (bitconfig_10861 > 0) {
+		ivar4 = script_5941(bitconfig_10860);
+		cs2method_10467(ivar4, 82116809);
+		cs2method_10467(ivar4, 82116642);
+		setWidgetText(new WidgetPointer(1253,162), script_5909(ivar6, bitconfig_10865, ivar7, ivar8));
+	} else {
+		setWidgetText(new WidgetPointer(1253,162), (object)"");
+	}
+	cs2method_10380(ivar7, ivar8, 82116810);
+	setWidgetText(new WidgetPointer(1253,161), (object)("Spins remaining: " + toString(add(add(bitconfig_10862, bitconfig_11026), globalint_1800))));
+	script_1968();
+	return;
+}

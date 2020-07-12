@@ -1,0 +1,138 @@
+void script_6441(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int stack_dump0;
+	int stack_dump1;
+	opc_struct10678(2,0,0) structdump_2;
+	int stack_dump3;
+	int stack_dump4;
+	object stack_dump5;
+	cs2func_script_802_struct(1,1,0) structdump_6;
+	opc_struct10678(2,0,0) structdump_7;
+	cs2func_script_802_struct(1,1,0) structdump_8;
+	ivar4 = 0;
+	ivar5 = 0;
+	if (script_2709() == 0) {
+		cs2method_10998((object)"Chat is not available until your Date of Birth is recorded. Please enter your DOB above.");
+		return;
+	}
+	switch (arg0) {
+		case 84:
+			script_6442(globalint_2112, arg2);
+			script_1130(globalint_2112);
+			return;
+		case 13:
+			if (cs2method_10416(85655581) == 0) {
+				script_6440();
+				return;
+			}
+			script_6453();
+			return;
+		case 102:
+		case 103:
+		case 98:
+		case 99:
+		case 96:
+		case 97:
+			if (cs2method_10043() == 0 && arg0 != 102 && arg0 != 103) {
+				return;
+			}
+			if (globalint_2112 == 1) {
+				globalint_2108 = script_6449(arg0, globalint_2108, arg2, (object)globalstring_377);
+				script_6447(85655560, 85655587, (object)globalstring_377);
+				return;
+			}
+			if (globalint_2112 == 2) {
+				globalint_2109 = script_6449(arg0, globalint_2109, arg2, (object)globalstring_378);
+				script_6447(85655617, 85655618, (object)globalstring_378);
+				return;
+			}
+			break;
+		case 80:
+			if (globalint_2112 == 1) {
+				script_6446(cs2method_10956(arg2), cs2method_10090(arg2), 85655617, 85655618);
+			} else {
+				if (globalint_2112 == 2) {
+					script_6446(cs2method_10956(arg2), cs2method_10090(arg2), 85655560, 85655587);
+				}
+			}
+			break;
+		case 85:
+		case 101:
+		case -1:
+			if (cs2method_10522(arg1) == 1 || arg0 == 85 || arg0 == 101) {
+				if (arg1 == 60) {
+					return;
+				}
+				if (globalint_2112 == 1) {
+					if (arg0 != 85 && arg0 != 101 && cs2method_10366(cs2method_10222((object)globalstring_377)) >= 500) {
+						script_6443(85655559);
+						return;
+					}
+					stack_dump0 = cs2method_10366((object)globalstring_377);
+					stack_dump1 = arg2;
+					structdump_2 = cs2method_10678(stack_dump0, stack_dump1);
+					ivar5 = structdump_2.intpart_1;
+					ivar4 = structdump_2.intpart_0;
+					if (ivar5 >= cs2method_10090(arg2) && arg0 != 85 && arg0 != 101) {
+						return;
+					}
+					stack_dump0 = globalint_2108;
+					stack_dump1 = arg3;
+					stack_dump3 = arg0;
+					stack_dump4 = arg1;
+					stack_dump5 = (object)globalstring_377;
+					structdump_6 = script_802(stack_dump0, stack_dump1, stack_dump3, stack_dump4, stack_dump5);
+					stack_dump5 = structdump_6.objectpart_0;
+					globalint_2108 = structdump_6.intpart_0;
+					globalstring_377 = (string)stack_dump5;
+					setWidgetText(new WidgetPointer(arg2), (object)globalstring_377);
+					if (compareTo(cs2method_10100(arg2), (object)"Fox Mulder") == 0) {
+						setWidgetText(new WidgetPointer(arg2), (object)"Keep searching for the Truth.");
+					} else if (compareTo(cs2method_10100(arg2), (object)"3.1415926535897932384626433832795028841971") == 0) {
+						setWidgetText(new WidgetPointer(arg2), (object)"I'm hungry gimme that pie!");
+					} else if (compareTo(cs2method_10100(arg2), (object)"Fr33 st00f pl0x!") == 0) {
+						setWidgetText(new WidgetPointer(arg2), (object)"Have you tried picking up ashes?");
+					} else {
+						if (compareTo(cs2method_10100(arg2), (object)"OMG bugs!") == 0) {
+							globalint_2111 = 5000;
+						}
+					}
+					script_6447(85655560, 85655587, (object)globalstring_377);
+				} else {
+					if (globalint_2112 == 2) {
+						if (arg0 != 85 && arg0 != 101 && cs2method_10366(cs2method_10222((object)globalstring_378)) >= 500) {
+							script_6443(85655579);
+							return;
+						}
+						stack_dump0 = cs2method_10366((object)globalstring_378);
+						stack_dump1 = arg2;
+						structdump_7 = cs2method_10678(stack_dump0, stack_dump1);
+						ivar5 = structdump_7.intpart_1;
+						ivar4 = structdump_7.intpart_0;
+						if (ivar5 >= cs2method_10090(arg2) && arg0 != 85 && arg0 != 101) {
+							return;
+						}
+						stack_dump0 = globalint_2109;
+						stack_dump1 = arg3;
+						stack_dump3 = arg0;
+						stack_dump4 = arg1;
+						stack_dump5 = (object)globalstring_378;
+						structdump_8 = script_802(stack_dump0, stack_dump1, stack_dump3, stack_dump4, stack_dump5);
+						stack_dump5 = structdump_8.objectpart_0;
+						globalint_2109 = structdump_8.intpart_0;
+						globalstring_378 = (string)stack_dump5;
+						setWidgetText(new WidgetPointer(arg2), (object)globalstring_378);
+						script_6447(85655617, 85655618, (object)globalstring_378);
+					}
+				}
+			}
+			script_1130(globalint_2112);
+			script_1733(85655559);
+			script_1733(85655579);
+			setWidgetText(new WidgetPointer(1307,7), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_377)))));
+			setWidgetText(new WidgetPointer(1307,27), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_378)))));
+			return;
+	}
+	return;
+}

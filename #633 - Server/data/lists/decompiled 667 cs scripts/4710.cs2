@@ -1,0 +1,36 @@
+cs2func_script_4710_struct(2,0,0) script_4710(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11) {
+	int ivar12;
+	int ivar13;
+	clearExtraChildren(new WidgetPointer(arg2));
+	createChildWidget(arg2, 5, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+	cs2method_10469(arg6);
+	cs2method_10470(1);
+	createChildWidget(arg2, 3, cs2method_10860(arg2));
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+	setWidgetRGB(new Color(0, 0, 0));
+	ivar12 = 1;
+	createChildWidget(arg2, 5, ivar12);
+	setWidgetPosition(subtract(cs2method_10956(arg2), 16), 0, 0, 0);
+	setWidgetSize(16, cs2method_10090(arg2), 0, 0);
+	cs2method_10469(arg7);
+	cs2method_10470(0);
+	cs2method_20211(1351, new WidgetPointer(arg2), ivar12, arg8, "Iid");
+	cs2method_20139(1352, new WidgetPointer(arg2), ivar12, arg7, "Iid");
+	ivar13 = cs2method_10860(arg2);
+	cs2method_20723(4711, new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), ivar12, "IIIIi");
+	createChildWidget(arg2, 4, ivar13);
+	setWidgetText((object)getDataByKey('i', 's', arg0, arg1));
+	setWidgetPosition(5, 0, 0, 0);
+	setWidgetSize(subtract(cs2method_10956(arg2), 22), cs2method_10090(arg2), 0, 0);
+	cs2method_10320(0);
+	setWidgetFont(arg11);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(arg9));
+	cs2method_20139(1354, new WidgetPointer(arg2), ivar13, arg9, "Iii");
+	cs2method_20211(1353, new WidgetPointer(arg2), ivar13, arg10, "Iii");
+	cs2method_20723(4711, new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), ivar12, "IIIIi");
+	return newstruct cs2func_script_4710_struct(ivar12, ivar13);
+}

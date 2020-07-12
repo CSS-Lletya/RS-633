@@ -1,0 +1,6 @@
+void script_378(int arg0,int arg1,int arg2,object arg3) {
+	if (cs2method_10551(arg0, arg1) == 1 || arg1 == -1 && cs2method_10403(arg0) == 1) {
+		script_379(script_1743(), cs2method_10040(), script_1744(), arg2, arg3);
+	}
+	return;
+}

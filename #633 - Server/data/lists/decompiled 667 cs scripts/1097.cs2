@@ -1,0 +1,6 @@
+void script_1097() {
+	cs2method_10915(256, 256);
+	cs2method_10717(256, 256);
+	cs2method_10348(256, 256, 256, 256);
+	return;
+}

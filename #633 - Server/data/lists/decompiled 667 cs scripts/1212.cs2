@@ -1,0 +1,159 @@
+void script_1212(int arg0,int arg1,object arg2) {
+	int ivar2;
+	clearExtraChildren(new WidgetPointer(746,44));
+	clearExtraChildren(new WidgetPointer(1177,0));
+	ivar2 = 0;
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetSize(20, 22, 1, 1);
+	cs2method_10470(1);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 0, 1);
+	cs2method_10470(1);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	cs2method_10470(1);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	cs2method_10470(1);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 2);
+	cs2method_10470(1);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 0);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 2);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 5, ivar2);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 2);
+	ivar2 = add(ivar2, 1);
+	createChildWidget(48889900, 4, ivar2);
+	setWidgetSize(22, 20, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetFont(496);
+	setWidgetRGB(new Color(235, 224, 188));
+	setWidgetTextAlignment(1, 1, 15);
+	cs2method_10320(0);
+	setWidgetText(arg2);
+	ivar2 = add(ivar2, 1);
+	ivar2 = 0;
+	while (ivar2 < 9) {
+		if (globalint_1700 == -1 || globalint_1700 == 0) {
+			switch (ivar2) {
+				case 0:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8515);
+					}
+					break;
+				case 1:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8514);
+					}
+					break;
+				case 2:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8516);
+					}
+					break;
+				case 3:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8512);
+					}
+					break;
+				case 4:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8518);
+					}
+					break;
+				case 5:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8513);
+					}
+					break;
+				case 6:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8511);
+					}
+					break;
+				case 7:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8517);
+					}
+					break;
+				case 8:
+					if (cs2method_10551(48889900, ivar2) == 1) {
+						cs2method_10469(8519);
+					}
+			}
+			ivar2 = add(ivar2, 1);
+		} else {
+			if (globalint_1700 == 1) {
+				switch (ivar2) {
+					case 0:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8524);
+						}
+						break;
+					case 1:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8523);
+						}
+						break;
+					case 2:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8525);
+						}
+						break;
+					case 3:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8521);
+						}
+						break;
+					case 4:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8527);
+						}
+						break;
+					case 5:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8522);
+						}
+						break;
+					case 6:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8520);
+						}
+						break;
+					case 7:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8526);
+						}
+						break;
+					case 8:
+						if (cs2method_10551(48889900, ivar2) == 1) {
+							cs2method_10469(8528);
+						}
+				}
+				ivar2 = add(ivar2, 1);
+			}
+		}
+	}
+	return;
+}

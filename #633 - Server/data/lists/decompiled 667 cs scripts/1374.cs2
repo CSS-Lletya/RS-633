@@ -1,0 +1,11 @@
+void script_1374(int arg0) {
+	if (arg0 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(755,46));
+		cs2method_10375(1, 49479686, (object)"Hide overview");
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(755,46));
+		cs2method_10375(1, 49479686, (object)"Show overview");
+	}
+	cs2method_20000(1373, "", new WidgetPointer(755,6));
+	return;
+}

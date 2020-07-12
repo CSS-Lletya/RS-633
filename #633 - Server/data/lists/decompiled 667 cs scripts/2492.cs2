@@ -1,0 +1,27 @@
+void script_2492() {
+	if (compareTo((object)globalstring_184, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,50), new WidgetPointer(862,11), globalstring_184, 50, 250, "IIsii", new WidgetPointer(862,50));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,50));
+	}
+	if (compareTo((object)globalstring_185, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,51), new WidgetPointer(862,11), globalstring_185, 50, 250, "IIsii", new WidgetPointer(862,51));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,51));
+	}
+	if (compareTo((object)globalstring_186, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,52), new WidgetPointer(862,11), globalstring_186, 50, 250, "IIsii", new WidgetPointer(862,52));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,52));
+	}
+	if (compareTo((object)globalstring_187, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,53), new WidgetPointer(862,11), globalstring_187, 50, 250, "IIsii", new WidgetPointer(862,53));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,53));
+	}
+	if (compareTo((object)globalstring_188, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,54), new WidgetPointer(862,11), globalstring_188, 50, 250, "IIsii", new WidgetPointer(862,54));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,54));
+	}
+	if (compareTo((object)globalstring_189, (object)"") == 0) {
+		cs2method_20835(38, new WidgetPointer(862,55), new WidgetPointer(862,11), globalstring_189, 50, 250, "IIsii", new WidgetPointer(862,55));
+		cs2method_20295(40, new WidgetPointer(862,11), "I", new WidgetPointer(862,55));
+	}
+	return;
+}

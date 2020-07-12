@@ -1,0 +1,27 @@
+string script_5094() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	ivar0 = divide(globalint_995, 50);
+	ivar1 = divide(ivar0, 60);
+	ivar2 = divide(ivar1, 60);
+	stack_dump0 = cs2method_10620(ivar1, 60);
+	ivar0 = cs2method_10620(ivar0, 60);
+	ivar1 = stack_dump0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	if (ivar1 < 10) {
+		ovar1 = (object)("0" + toString(ivar1));
+	} else {
+		ovar1 = (object)toString(ivar1);
+	}
+	if (ivar0 < 10) {
+		ovar0 = (object)("0" + toString(ivar0));
+	} else {
+		ovar0 = (object)toString(ivar0);
+	}
+	return toString(ivar2) + ":" + (string)ovar1 + ":" + (string)ovar0;
+}

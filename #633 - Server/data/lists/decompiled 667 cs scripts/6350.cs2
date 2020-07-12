@@ -1,0 +1,46 @@
+int script_6350(int arg0,int arg1) {
+	object ovar0;
+	ovar0 = (object)getDataByKey('i', 's', 5972, arg0);
+	if (cs2method_10366(ovar0) > 0 || arg0 == 1337) {
+		return arg0;
+	}
+	switch (arg1) {
+		case 85196869:
+			globalint_1955 = 16;
+			return 16;
+		case 85196874:
+			globalint_1956 = 17;
+			return 17;
+		case 85196878:
+			globalint_1957 = 18;
+			return 18;
+		case 85196882:
+			globalint_1958 = 19;
+			return 19;
+		case 85196886:
+			globalint_1959 = 20;
+			return 20;
+		case 85196890:
+			globalint_1960 = 21;
+			return 21;
+		case 85196894:
+			globalint_1961 = 22;
+			return 22;
+		case 85196898:
+			globalint_1962 = 23;
+			return 23;
+		case 85196902:
+			globalint_1963 = 24;
+			return 24;
+		case 85196906:
+			globalint_1964 = 25;
+			return 25;
+		case 85196910:
+			globalint_1965 = 26;
+			return 26;
+		case 85196914:
+			globalint_1966 = 27;
+			return 27;
+	}
+	return 0;
+}

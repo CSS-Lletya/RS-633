@@ -1,0 +1,15 @@
+void script_5644(int arg0,int arg1,int arg2) {
+	if (arg2 == 1) {
+		if (arg1 == 1) {
+			cs2method_10467(9209, arg0);
+		} else {
+			cs2method_10467(9208, arg0);
+		}
+	} else if (arg1 == 1) {
+		cs2method_10467(4584, arg0);
+	} else {
+		cs2method_10467(4583, arg0);
+	}
+	script_41(17104927);
+	return;
+}

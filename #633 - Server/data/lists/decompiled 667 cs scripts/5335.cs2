@@ -1,0 +1,165 @@
+void script_5335(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	flow_0:
+		ivar6 = 0;
+		ivar7 = 0;
+		ivar8 = 0;
+		ivar9 = 0;
+		ivar10 = 0;
+		ivar11 = 0;
+		ivar12 = 0;
+		ivar13 = 0;
+		ivar14 = -1;
+		if (arg1 == -1 && cs2method_10403(arg0) == 1) {
+			ivar6 = add(cs2method_10111(arg0), 5);
+			ivar7 = add(add(cs2method_10826(arg0), cs2method_10090(arg0)), 5);
+		} else {
+			if (cs2method_10551(arg0, arg1) == 1) {
+				ivar6 = add(cs2method_10646(), 5);
+				ivar7 = add(add(cs2method_10207(), cs2method_10630()), 5);
+			}
+		}
+		IF (arg1 == -1) 
+			GOTO	flow_6
+		GOTO	flow_7
+	flow_6:
+		IF (cs2method_10403(arg0) == 1) 
+			GOTO	flow_8
+	flow_7:
+		IF (cs2method_10551(arg0, arg1) == 1) 
+			GOTO	flow_8
+		GOTO	flow_42
+	flow_8:
+		if (script_4761(arg3) == 0) {
+			return;
+		}
+		if (globalint_2 != 1) {
+			ivar14 = cs2method_10740(arg2);
+			if (ivar14 != -1 && arg4 >= cs2method_10956(ivar14)) {
+				arg4 = cs2method_10956(ivar14);
+			}
+			if (arg5 == 0) {
+				ivar12 = add(4, cs2method_10242(subtract(arg4, 4), 495, arg6));
+				ivar13 = add(4, multiply(16, getLineCount(subtract(arg4, 4), 495, arg6)));
+			} else {
+				ivar12 = add(12, cs2method_10242(subtract(arg4, 12), 3793, arg6));
+				ivar13 = add(12, multiply(16, getLineCount(subtract(arg4, 12), 3793, arg6)));
+			}
+			if (ivar14 != -1) {
+				ivar8 = subtract(ivar6, cs2method_10774(ivar14));
+				ivar9 = subtract(ivar7, cs2method_10424(ivar14));
+				if (ivar8 < 0) {
+					ivar6 = cs2method_10774(ivar14);
+					ivar8 = 0;
+				}
+				if (ivar9 < 0) {
+					ivar7 = cs2method_10424(ivar14);
+					ivar9 = 0;
+				}
+				if (ivar8 > 0) {
+					ivar10 = add(subtract(ivar8, cs2method_10956(ivar14)), ivar12);
+					if (ivar10 > 0) {
+						ivar6 = subtract(ivar6, ivar10);
+					}
+				}
+				if (ivar9 > 0) {
+					ivar11 = add(subtract(ivar9, cs2method_10090(ivar14)), ivar13);
+					if (ivar11 > 0) {
+						ivar7 = subtract(subtract(subtract(ivar7, ivar11), cs2method_10630()), 10);
+					}
+				}
+			}
+			if (ivar6 < 0) {
+				ivar6 = 0;
+			}
+			if (ivar7 < 0) {
+				ivar7 = 0;
+			}
+			cs2method_10893(ivar12, ivar13, 0, 0, arg2);
+			cs2method_10444(ivar6, ivar7, 0, 0, arg2);
+			clearExtraChildren(new WidgetPointer(arg2));
+			createChildWidget(arg2, 3, 0);
+			setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+			setWidgetFilled(1);
+			if (arg5 == 0) {
+				setWidgetRGB(new Color(14, 14, 14));
+			} else {
+				setWidgetRGB(new Color(0, 0, 0));
+			}
+			if (arg5 == 0) {
+				createChildWidget(arg2, 3, 1);
+				setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+				setWidgetFilled(0);
+				setWidgetRGB(new Color(235, 236, 230));
+			} else {
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(4, 10, 1, 0);
+				setWidgetPosition(0, 0, 1, 0);
+				cs2method_10469(4649);
+				cs2method_10470(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(4, 10, 1, 0);
+				setWidgetPosition(0, 0, 1, 2);
+				cs2method_10469(4649);
+				cs2method_10470(1);
+				cs2method_10949(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 4, 0, 1);
+				setWidgetPosition(0, 0, 0, 1);
+				cs2method_10469(4651);
+				cs2method_10470(1);
+				cs2method_10567(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 4, 0, 1);
+				setWidgetPosition(0, 0, 2, 1);
+				cs2method_10469(4651);
+				cs2method_10470(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 10, 0, 0);
+				setWidgetPosition(0, 0, 0, 0);
+				cs2method_10469(4650);
+				cs2method_10567(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 10, 0, 0);
+				setWidgetPosition(0, 0, 2, 0);
+				cs2method_10469(4650);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 10, 0, 0);
+				setWidgetPosition(0, 0, 0, 2);
+				cs2method_10469(4650);
+				cs2method_10567(1);
+				cs2method_10949(1);
+				createChildWidget(arg2, 5, cs2method_10860(arg2));
+				setWidgetSize(10, 10, 0, 0);
+				setWidgetPosition(0, 0, 2, 2);
+				cs2method_10469(4650);
+				cs2method_10949(1);
+			}
+			createChildWidget(arg2, 4, cs2method_10860(arg2));
+			setWidgetText(arg6);
+			if (arg5 == 0) {
+				setWidgetSize(subtract(arg4, 4), cs2method_10090(arg2), 0, 0);
+				setWidgetPosition(2, 0, 0, 0);
+				setWidgetTextAlignment(0, 1, 16);
+				setWidgetFont(495);
+				setWidgetRGB(new Color(245, 178, 65));
+			} else {
+				setWidgetSize(subtract(cs2method_10956(arg2), 12), subtract(cs2method_10090(arg2), 12), 0, 0);
+				setWidgetPosition(6, 6, 0, 0);
+				setWidgetTextAlignment(1, 1, 13);
+				setWidgetRGB(new Color(255, 255, 255));
+				setWidgetFont(3793);
+			}
+			globalint_2 = 1;
+		}
+	flow_42:
+		return;
+}

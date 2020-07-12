@@ -1,0 +1,28 @@
+void script_3175(int arg0,object arg1,object arg2) {
+	int ivar1;
+	int ivar2;
+	ivar1 = -1;
+	ivar2 = -1;
+	switch (arg0) {
+		case 1:
+			if (cs2method_10028(cs2method_10222(arg2)) == 0) {
+				cs2method_10330(cs2method_10222(arg2));
+			}
+			break;
+		case 2:
+			if (cs2method_10028(cs2method_10222(arg2)) == 0) {
+				cs2method_10267(cs2method_10222(arg2));
+			}
+			break;
+		case 3:
+			script_3015(0, (object)("Send message to " + (string)arg1), (object)"", arg2, (object)"");
+			break;
+		case 5:
+			globalstring_279 = (string)cs2method_10222(arg1);
+			script_3190();
+			break;
+		case 10:
+			script_4465(cs2method_10222(arg2));
+	}
+	return;
+}

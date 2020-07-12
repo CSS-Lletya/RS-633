@@ -1,0 +1,9 @@
+void script_511() {
+	if (globalint_51 > 170) {
+		globalint_51 = subtract(globalint_51, 1);
+		cs2method_10158(0, 0, 0, 0, 0, globalint_51, 39649280);
+	} else {
+		cs2method_10461(-1, 39649280);
+	}
+	return;
+}

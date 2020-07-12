@@ -1,0 +1,8 @@
+void script_4336(int arg0) {
+	if (clanbitconfig_9 == 0 && cs2method_10999() >= 5) {
+		setWidgetText(new WidgetPointer(arg0), cs2method_10222((object)clanstringconfig_1));
+		return;
+	}
+	setWidgetText(new WidgetPointer(arg0), (object)"");
+	return;
+}

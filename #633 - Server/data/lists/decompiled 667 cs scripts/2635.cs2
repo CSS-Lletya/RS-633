@@ -1,0 +1,20 @@
+void script_2635() {
+	globalint_904 = 0;
+	cs2method_20219(-1, "", new WidgetPointer(859,2));
+	cs2method_10467(1914, 56295426);
+	cs2method_20219(-1, "", new WidgetPointer(859,8));
+	cs2method_10467(1915, 56295432);
+	cs2method_20219(-1, "", new WidgetPointer(859,7));
+	cs2method_10467(1916, 56295431);
+	cs2method_20219(-1, "", new WidgetPointer(859,22));
+	cs2method_10467(1917, 56295446);
+	cs2method_20219(-1, "", new WidgetPointer(859,23));
+	cs2method_10467(1921, 56295447);
+	cs2method_20219(-1, "", new WidgetPointer(859,6));
+	cs2method_10467(1918, 56295430);
+	cs2method_20219(-1, "", new WidgetPointer(859,20));
+	cs2method_10467(1919, 56295444);
+	cs2method_20219(-1, "", new WidgetPointer(859,21));
+	cs2method_10467(1920, 56295445);
+	return;
+}

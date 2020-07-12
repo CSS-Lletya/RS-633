@@ -1,0 +1,121 @@
+void script_594(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	cs2method_10380(arg1, -1, 6881419);
+	ovar0 = (object)"null";
+	ovar1 = (object)"null";
+	ovar2 = (object)"null";
+	if (arg0 == 0) {
+		setWidgetText(new WidgetPointer(105,134), (object)"Buy Offer");
+		cs2method_10467(1157, 6881415);
+		setWidgetText(new WidgetPointer(105,160), (object)"+1");
+		cs2method_10375(1, 6881440, (object)"Add 1");
+		ovar2 = (object)"Add 1 to quantity";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,160));
+		setWidgetText(new WidgetPointer(105,162), (object)"+10");
+		cs2method_10375(1, 6881442, (object)"Add 10");
+		ovar2 = (object)"Add 10 to quantity";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,162));
+		setWidgetText(new WidgetPointer(105,164), (object)"+100");
+		cs2method_10375(1, 6881444, (object)"Add 100");
+		ovar2 = (object)"Add 100 to quantity";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,164));
+		setWidgetText(new WidgetPointer(105,166), (object)"+1K");
+		cs2method_10375(1, 6881446, (object)"Add 1000");
+		ovar2 = (object)"Add 1,000 to quantity";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,166));
+	} else {
+		setWidgetText(new WidgetPointer(105,134), (object)"Sell Offer");
+		cs2method_10467(1156, 6881415);
+		setWidgetText(new WidgetPointer(105,160), (object)"1");
+		cs2method_10375(1, 6881440, (object)"Sell 1");
+		ovar2 = (object)"Sell 1";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,160));
+		setWidgetText(new WidgetPointer(105,162), (object)"10");
+		cs2method_10375(1, 6881442, (object)"Sell 10");
+		ovar2 = (object)"Sell 10";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,162));
+		setWidgetText(new WidgetPointer(105,164), (object)"100");
+		cs2method_10375(1, 6881444, (object)"Sell 100");
+		ovar2 = (object)"Sell 100";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,164));
+		setWidgetText(new WidgetPointer(105,166), (object)"ALL");
+		cs2method_10375(1, 6881446, (object)"Sell All");
+		ovar2 = (object)"Sell all";
+		cs2method_20835(649, new WidgetPointer(-32768,3), new WidgetPointer(105,210), (string)ovar2, 25, 300, "IIsii", new WidgetPointer(105,166));
+	}
+	if (arg1 == -1) {
+		setWidgetText(new WidgetPointer(105,142), (object)"Choose an item to exchange");
+		setWidgetText(new WidgetPointer(105,141), (object)"N/A");
+		setWidgetText(new WidgetPointer(105,143), (object)"");
+		if (standart_config_1113 == 0) {
+			if (cs2method_10964(6881418) == 255) {
+				cs2method_20219(634, new WidgetPointer(105,138), 0, 255, 5, "Iiii", new WidgetPointer(105,138));
+			}
+		} else {
+			if (standart_config_1113 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(107,0));
+				cs2method_10149(255, 6881418);
+				cs2method_20219(-1, "", new WidgetPointer(105,138));
+				if (cs2method_10964(7012353) == 245) {
+					cs2method_20219(634, new WidgetPointer(107,1), 155, 255, 2, "Iiii", new WidgetPointer(107,1));
+					cs2method_20219(634, new WidgetPointer(107,2), 155, 255, 2, "Iiii", new WidgetPointer(107,2));
+					cs2method_20219(634, new WidgetPointer(107,3), 155, 255, 2, "Iiii", new WidgetPointer(107,3));
+					cs2method_20219(634, new WidgetPointer(107,4), 155, 255, 2, "Iiii", new WidgetPointer(107,4));
+					cs2method_20219(634, new WidgetPointer(107,5), 145, 245, 2, "Iiii", new WidgetPointer(107,5));
+					cs2method_20219(634, new WidgetPointer(107,6), 145, 245, 2, "Iiii", new WidgetPointer(107,6));
+					cs2method_20219(634, new WidgetPointer(107,7), 145, 245, 2, "Iiii", new WidgetPointer(107,7));
+					cs2method_20219(634, new WidgetPointer(107,8), 135, 235, 2, "Iiii", new WidgetPointer(107,8));
+					cs2method_20219(634, new WidgetPointer(107,9), 135, 235, 2, "Iiii", new WidgetPointer(107,9));
+					cs2method_20219(634, new WidgetPointer(107,10), 135, 235, 2, "Iiii", new WidgetPointer(107,10));
+					cs2method_20219(634, new WidgetPointer(107,11), 125, 225, 2, "Iiii", new WidgetPointer(107,11));
+					cs2method_20219(634, new WidgetPointer(107,12), 125, 225, 2, "Iiii", new WidgetPointer(107,12));
+					cs2method_20219(634, new WidgetPointer(107,13), 125, 225, 2, "Iiii", new WidgetPointer(107,13));
+					cs2method_20219(634, new WidgetPointer(107,14), 115, 215, 2, "Iiii", new WidgetPointer(107,14));
+					cs2method_20219(634, new WidgetPointer(107,15), 115, 215, 2, "Iiii", new WidgetPointer(107,15));
+					cs2method_20219(634, new WidgetPointer(107,16), 115, 215, 2, "Iiii", new WidgetPointer(107,16));
+					cs2method_20219(634, new WidgetPointer(107,17), 110, 210, 2, "Iiii", new WidgetPointer(107,17));
+				}
+			}
+		}
+	} else {
+		setWidgetText(new WidgetPointer(105,142), getItemName(arg1));
+		if (standart_config_1109 != -1) {
+			ovar0 = cs2method_10595(standart_config_1114, 1);
+			setWidgetText(new WidgetPointer(105,141), (object)((string)ovar0 + " gp"));
+		} else {
+			setWidgetText(new WidgetPointer(105,143), (object)"Retrieving details...");
+			setWidgetText(new WidgetPointer(105,141), (object)"N/A");
+		}
+		cs2method_10149(255, 6881418);
+		cs2method_20219(-1, "", new WidgetPointer(105,138));
+		setWidgetIsHidden(true, new WidgetPointer(107,0));
+	}
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	if (cs2method_10403(6881421) == 1 && cs2method_10403(6881420) == 1) {
+		ivar5 = cs2method_10040();
+		ivar6 = cs2method_10242(ivar5, 494, cs2method_10775());
+		ivar7 = cs2method_10040();
+		ivar4 = subtract(add(52, divide(subtract(ivar5, ivar6), 2)), subtract(ivar7, 5));
+		setWidgetPosition(ivar4, cs2method_10207(), 0, 0);
+	}
+	if (globalint_82 <= 0) {
+		ovar0 = cs2method_10595(arg2, 1);
+		setWidgetText(new WidgetPointer(105,148), ovar0);
+		globalint_84 = standart_config_1110;
+	}
+	if (globalint_83 <= 0) {
+		ovar0 = cs2method_10595(arg3, 1);
+		setWidgetText(new WidgetPointer(105,153), (object)((string)ovar0 + " gp"));
+		globalint_85 = standart_config_1111;
+	}
+	return;
+}

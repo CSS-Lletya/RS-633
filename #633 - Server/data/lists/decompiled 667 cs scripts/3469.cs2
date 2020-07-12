@@ -1,0 +1,20 @@
+void script_3469(int arg0,int arg1) {
+	switch (cs2method_10742(2)) {
+		case 0:
+			cs2method_10508(6645, 1, cs2method_10869(15));
+			break;
+		case 1:
+			cs2method_10508(6644, 1, cs2method_10869(15));
+			break;
+		case 2:
+			cs2method_10508(6643, 1, cs2method_10869(15));
+	}
+	if (arg1 < subtract(cs2method_10800(0), 2)) {
+		cs2method_10767(0, arg1, 3100, 3300, 1, arg1);
+		cs2method_20808(3469, new WidgetPointer(arg0), add(arg1, 1), "Ii", new WidgetPointer(arg0));
+		return;
+	}
+	cs2method_10767(0, arg1, 1000, 0, 1, arg1);
+	cs2method_20808(-1, "", new WidgetPointer(arg0));
+	return;
+}

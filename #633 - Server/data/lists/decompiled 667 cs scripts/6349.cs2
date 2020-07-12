@@ -1,0 +1,10 @@
+void script_6349(int arg0,int arg1) {
+	arg1 = script_6347(arg1);
+	cs2method_10380(arg1, -1, arg0);
+	if (add(add(getItemAmtInContainer(93, arg1), getItemAmtInContainer(94, arg1)), getItemAmtInContainer(530, arg1)) > 0) {
+		setWidgetRGB(16777215, arg0);
+	} else {
+		setWidgetRGB(3355443, arg0);
+	}
+	return;
+}

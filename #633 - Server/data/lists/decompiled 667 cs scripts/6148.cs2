@@ -1,0 +1,14 @@
+void script_6148(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	if (globalint_1903 >= 3) {
+		cs2method_20808(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	if (arg5 < subtract(cs2method_10800(0), 2)) {
+		arg5 = add(arg5, 1);
+		cs2method_10767(0, arg5, arg4, arg4, 1, 0);
+		cs2method_20808(6148, new WidgetPointer(arg0), arg1, arg2, arg3, arg4, arg5, "Iiiiii", new WidgetPointer(arg0));
+	} else {
+		script_6147(arg0, arg1, arg2, arg4, arg3);
+	}
+	return;
+}

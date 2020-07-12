@@ -1,0 +1,28 @@
+void script_5152() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ovar0 = (object)"";
+	globalint_1563 = cs2method_10004(subtract(globalint_1563, 1), 0);
+	if (cs2method_10620(globalint_1563, 50) == 0) {
+		ivar2 = divide(globalint_1563, 50);
+		ivar1 = cs2method_10620(ivar2, 60);
+		ivar0 = divide(ivar2, 60);
+		ovar0 = (object)(toString(ivar0) + ":");
+		if (ivar1 < 10) {
+			ovar0 = cs2method_10445(ovar0, (object)("0" + toString(ivar1)));
+		} else {
+			ovar0 = cs2method_10445(ovar0, (object)toString(ivar1));
+		}
+		setWidgetText(new WidgetPointer(800,6), ovar0);
+	}
+	if (globalint_1563 <= 0) {
+		cs2method_20219(-1, "", new WidgetPointer(800,6));
+		cs2method_10450();
+	}
+	return;
+}

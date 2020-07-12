@@ -1,0 +1,6 @@
+void script_1307(int arg0) {
+	if (bitconfig_7912 == 0 || bitconfig_7904 == 8 && bitconfig_7921 == 1 && bitconfig_7916 == 0) {
+		cs2method_10461(cs2method_10683(arg0), 64618499);
+	}
+	return;
+}

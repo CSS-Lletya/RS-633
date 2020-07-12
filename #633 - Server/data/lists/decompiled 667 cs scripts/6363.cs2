@@ -1,0 +1,37 @@
+void script_6363() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	ivar0 = getItemIdInContainerSlot(94, 3);
+	ivar1 = getDataByKey('i', 'J', 5967, bitconfig_276);
+	ovar0 = (object)"Main Hand Info";
+	ovar1 = cs2method_10445((object)("Damage : " + toString(standart_config_2673)), (object)script_1124());
+	ovar2 = (object)("Hit Bonus : " + toString(script_6427(ivar0, standart_config_2675)));
+	ovar3 = (object)("Type : " + getDataByKey('i', 's', 5970, standart_config_2675));
+	ovar4 = (object)"Class : None";
+	ivar2 = 0;
+	setWidgetIsHidden(false, new WidgetPointer(667,114));
+	if (ivar0 != -1) {
+		setWidgetIsHidden(true, new WidgetPointer(667,114));
+		ovar4 = (object)("Class : " + getDataByKey('i', 's', 5969, script_6423(ivar0)));
+	}
+	if (ivar1 != -1 && bitconfig_275 == 1) {
+		ovar0 = (object)"Autocast Info";
+		ovar1 = (object)("Damage : " + toString(divide(getGeneralRequirementAttribute(ivar1, 2592), 10)));
+		ivar2 = script_6427(getItemIdInContainerSlot(94, 5), 11);
+		ovar2 = (object)("Hit Bonus : " + toString(add(script_6427(ivar0, 11), ivar2)));
+		ovar3 = (object)("Type : " + getDataByKey('i', 's', 5970, getGeneralRequirementAttribute(ivar1, 2588)));
+		ovar4 = (object)"Class : Magic";
+	}
+	setWidgetText(new WidgetPointer(667,109), ovar0);
+	setWidgetText(new WidgetPointer(667,110), ovar1);
+	setWidgetText(new WidgetPointer(667,111), ovar2);
+	setWidgetText(new WidgetPointer(667,112), ovar3);
+	setWidgetText(new WidgetPointer(667,113), (object)"");
+	return;
+}

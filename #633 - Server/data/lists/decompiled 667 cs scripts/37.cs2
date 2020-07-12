@@ -1,0 +1,52 @@
+void script_37(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	ivar4 = subtract(cs2method_10919(arg1), cs2method_10090(arg1));
+	if (ivar4 == 0) {
+		ivar4 = 1;
+	}
+	if (arg2 < 0) {
+		arg2 = 0;
+	}
+	if (arg2 > ivar4) {
+		arg2 = ivar4;
+	}
+	cs2method_10085(0, arg2, arg1);
+	switch (arg1) {
+		case 8978490:
+			globalint_7 = arg2;
+			break;
+		case 19660815:
+			globalint_109 = arg2;
+			break;
+		case 48168973:
+			globalint_121 = arg2;
+			break;
+		case 49938527:
+			script_705(bitconfig_4893, arg2);
+			break;
+		case 59572276:
+			globalint_1122 = arg2;
+			break;
+		case 59768852:
+			globalint_1124 = arg2;
+			break;
+		case 12255233:
+			globalint_88 = arg2;
+			break;
+		case 73007109:
+			script_5082(arg1);
+	}
+	ivar5 = 0;
+	if (arg3 == 1) {
+		ivar5 = subtract(subtract(cs2method_10090(arg0), 32), cs2method_10630());
+		setWidgetPosition(0, add(16, cs2method_10542(arg2, ivar4, ivar5)), 0, 0);
+		if (cs2method_10551(arg0, 2) == 1) {
+			setWidgetPosition(0, cs2method_10207(), 0, 0);
+		}
+		if (cs2method_10551(arg0, 3) == 1) {
+			setWidgetPosition(0, subtract(add(cs2method_10207(), cs2method_10630()), 5), 0, 0);
+		}
+	}
+	return;
+}

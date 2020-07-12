@@ -1,0 +1,7 @@
+void script_6215() {
+	int ivar0;
+	script_6232();
+	ivar0 = script_6233(0, 84082701);
+	script_6234();
+	return;
+}

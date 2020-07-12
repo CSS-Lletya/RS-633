@@ -1,0 +1,1 @@
+//use: AreaName - plane minX maxX minY maxY and repeat other possible coords squares

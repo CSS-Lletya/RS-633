@@ -1,0 +1,36 @@
+void script_6341(int arg0,int arg1) {
+	if (arg1 == 0 && cs2method_10837(49348624) == 0 && cs2method_10837(48889970) == 0 && cs2method_10837(35913910) == 0) {
+		return;
+	}
+	if (cs2method_10842() >= 2) {
+		cs2method_10893(cs2method_10956(48889880), 76, 0, 0, 48889880);
+		cs2method_10893(cs2method_10956(48889881), 385, 0, 1, 48889881);
+		if (cs2method_10416(48889878) == 1) {
+			cs2method_10444(cs2method_10111(48889880), subtract(cs2method_10090(48889879), 0), 0, 2, 48889880);
+			setWidgetIsHidden(false, new WidgetPointer(1300,32));
+		} else {
+			cs2method_10444(cs2method_10111(48889903), cs2method_10004(subtract(cs2method_10826(48889903), 64), 0), 0, 0, 48889903);
+			cs2method_10444(cs2method_10111(48889880), subtract(add(cs2method_10090(48889878), cs2method_10090(48889879)), 3), 0, 2, 48889880);
+			setWidgetIsHidden(true, new WidgetPointer(1300,32));
+			if (cs2method_10826(48889903) < 1) {
+				script_1651(0, 1);
+			}
+		}
+		cs2method_10444(cs2method_10111(48889882), subtract(subtract(cs2method_10826(48889880), cs2method_10090(48889882)), 20), 0, 0, 48889882);
+	} else {
+		cs2method_10444(cs2method_10111(35913771), subtract(subtract(cs2method_10826(35913749), cs2method_10090(35913771)), 5), 0, 0, 35913771);
+		cs2method_10444(cs2method_10111(35913770), subtract(subtract(cs2method_10826(35913749), cs2method_10090(35913770)), 5), 0, 0, 35913770);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(1300,15));
+	setWidgetIsHidden(false, new WidgetPointer(1300,70));
+	setWidgetIsHidden(true, new WidgetPointer(1300,115));
+	if (arg0 == 1) {
+		globalint_1947 = 0;
+	}
+	if (cs2method_10366((object)globalstring_1) == 0) {
+		globalint_2106 = 0;
+		script_6415();
+		script_6328(1);
+	}
+	return;
+}

@@ -1,0 +1,69 @@
+int script_5763(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 0:
+			ivar1 = 5487;
+			break;
+		case 16:
+			ivar1 = 5488;
+			break;
+		case 15:
+			ivar1 = 5489;
+			break;
+		case 17:
+			ivar1 = 5490;
+			break;
+		case 9:
+			ivar1 = 5491;
+			break;
+		case 19:
+			ivar1 = 5492;
+			break;
+		case 22:
+			ivar1 = 5493;
+			break;
+		case 21:
+			ivar1 = 5494;
+			break;
+		case 23:
+			ivar1 = 5495;
+			break;
+		case 18:
+			ivar1 = 5496;
+			break;
+		case 14:
+			ivar1 = 5497;
+			break;
+		case 20:
+			ivar1 = 5498;
+			break;
+		case 13:
+			ivar1 = 5499;
+			break;
+		case 12:
+			ivar1 = 5500;
+			break;
+		case 10:
+			ivar1 = 5501;
+			break;
+		case 7:
+			ivar1 = 5502;
+			break;
+		case 11:
+			ivar1 = 5503;
+			break;
+		case 8:
+			ivar1 = 5504;
+			break;
+		case 5:
+			ivar1 = 5505;
+			break;
+		case 24:
+			ivar1 = 5506;
+			break;
+		default:
+			return -1;
+	}
+	return ivar1;
+}

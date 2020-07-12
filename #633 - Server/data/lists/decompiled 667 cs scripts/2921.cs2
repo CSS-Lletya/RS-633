@@ -1,0 +1,120 @@
+void script_2921(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar1;
+	cs2method_10070(59375685, 979);
+	globalstring_279 = (string)arg2;
+	script_3397();
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, 5)) == 0) {
+		script_3161(0);
+	}
+	setScriptCallOnKeyPress(3398, -2147483640, false, new WidgetPointer(-32768,3), "izI", new WidgetPointer(979,0));
+	cs2method_20000(3399, "", new WidgetPointer(979,9));
+	ivar2 = 100;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 1;
+	ovar1 = (object)"";
+	ivar6 = 0;
+	ivar7 = 0;
+	clearExtraChildren(new WidgetPointer(979,27));
+	clearExtraChildren(new WidgetPointer(979,26));
+	clearExtraChildren(new WidgetPointer(979,25));
+	setWidgetScrollMax(0, 0, 64159771);
+	cs2method_10085(0, 0, 64159771);
+	while (ivar2 >= 0) {
+		ivar4 = cs2method_10125(ivar2);
+		if (ivar4 != 0 && ivar4 != 4 && ivar4 != 27 && ivar4 != 28 && ivar4 != 29 && ivar4 != 43 && ivar4 != 103 && ivar4 != 104 && ivar4 != 26 && ivar4 != 30 && ivar4 != 31 && ivar4 != 115 && compareTo(cs2method_10279(ivar2), (object)"") != 0 && compareTo(cs2method_10367(ivar2), (object)"") != 0) {
+			if (ivar4 != 6 && ivar4 != 19) {
+				if (ivar4 == 41 || ivar4 == 44 || ivar4 == 9) {
+					if (compareTo(cs2method_10222(cs2method_10279(ivar2)), cs2method_10758()) != 0 && ivar4 != 6 && ivar4 != 19) {
+						ivar6 = 0;
+					} else {
+						ivar6 = 14798;
+					}
+					ovar1 = (object)("<col=$text_colour>" + "[" + "</col>" + "<col=8888ff>" + (string)cs2method_10965(ivar2) + "</col>" + "<col=$text_colour>" + "]" + (string)cs2method_10279(ivar2) + ": " + (string)cs2method_10367(ivar2));
+				} else {
+					ovar1 = (object)(" " + (string)cs2method_10279(ivar2) + ": " + (string)cs2method_10367(ivar2));
+				}
+			} else {
+				ovar1 = (object)("To " + (string)cs2method_10279(ivar2) + ": " + (string)cs2method_10367(ivar2));
+			}
+			ivar5 = getLineCount(subtract(cs2method_10956(64159771), 10), 495, ovar1);
+			if (compareTo(cs2method_10222(cs2method_10279(ivar2)), cs2method_10758()) != 0 && ivar4 != 6 && ivar4 != 19) {
+				ivar7 = 1;
+				createChildWidget(64159770, 3, cs2method_10860(64159770));
+				setWidgetPosition(2, add(multiply(ivar3, 15), 1), 0, 0);
+				setWidgetSize(4, multiply(ivar5, 15), 1, 0);
+				setWidgetRGB(new Color(96, 96, 96));
+				cs2method_10305(255);
+				setWidgetFilled(1);
+				cs2method_20211(3392, -2147483643, "i");
+				cs2method_20139(3393, -2147483643, "i");
+				createChildWidget(64159769, 3, cs2method_10860(64159769));
+				setWidgetPosition(2, add(multiply(ivar3, 15), 1), 0, 0);
+				setWidgetSize(4, multiply(ivar5, 15), 1, 0);
+				setWidgetRGB(new Color(73, 73, 73));
+				cs2method_10305(255);
+				setWidgetFilled(1);
+				cs2method_20211(3394, -2147483643, "i");
+			}
+			createChildWidget(64159771, 4, cs2method_10860(64159771));
+			setWidgetPosition(5, multiply(ivar3, 15), 0, 0);
+			setWidgetSize(10, multiply(ivar5, 15), 1, 0);
+			setWidgetText(ovar1);
+			setWidgetRGB(new Color(102, 102, 120));
+			if (compareTo(cs2method_10222(cs2method_10279(ivar2)), cs2method_10758()) != 0 && ivar4 != 6 && ivar4 != 19) {
+				cs2method_11002(cs2method_10222(cs2method_10279(ivar2)));
+				setWidgetContextMenuOption(1, (object)"Report");
+				cs2method_20115(3396, -2147483643, "i");
+				setWidgetRGB(new Color(255, 255, 255));
+			}
+			setWidgetFont(495);
+			setWidgetTextAlignment(0, 0, 15);
+			ivar3 = add(ivar3, ivar5);
+		}
+		ivar2 = subtract(ivar2, 1);
+	}
+	if (ivar7 == 0) {
+		createChildWidget(64159771, 4, cs2method_10860(64159771));
+		setWidgetPosition(5, multiply(ivar3, 15), 0, 0);
+		setWidgetSize(16384, 15, 2, 0);
+		setWidgetText((object)"There is no chat to report at the moment.");
+		setWidgetRGB(new Color(125, 125, 209));
+		setWidgetFont(495);
+		setWidgetTextAlignment(0, 0, 15);
+	}
+	if (ivar3 > divide(cs2method_10090(64159749), 15)) {
+		cs2method_10893(38, cs2method_10090(64159749), 1, 0, 64159749);
+		setWidgetScrollMax(0, add(multiply(ivar3, 15), 5), 64159768);
+		script_31(64159750, 64159768, 792, 789, 790, 791, 773, 788);
+		if (cs2method_10551(64159750, 1) == 1) {
+			script_37(64159750, 64159768, cs2method_10919(64159768), 1);
+		}
+	} else {
+		cs2method_10893(21, cs2method_10090(64159749), 1, 0, 64159749);
+	}
+	if (arg0 == 1) {
+		if (globalint_6 == 0) {
+			cs2method_10467(1768, 64159764);
+		} else {
+			cs2method_10467(1770, 64159764);
+		}
+		if (arg1 == 5 || arg1 == 6) {
+			setWidgetText(new WidgetPointer(979,19), (object)"Suggest to mute this player for 48 hours");
+		} else {
+			setWidgetText(new WidgetPointer(979,19), (object)"Mute this player for 48 hours");
+		}
+		cs2method_10893(add(cs2method_10355(494, cs2method_10100(64159763)), 18), cs2method_10090(64159751), 0, 0, 64159751);
+		cs2method_10444(18, 273, 0, 0, 64159752);
+		setWidgetIsHidden(false, new WidgetPointer(979,7));
+	} else {
+		cs2method_10444(18, 266, 0, 0, 64159752);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(906,61));
+	return;
+}

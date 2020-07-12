@@ -1,0 +1,45 @@
+void script_1319() {
+	if (bitconfig_4834 == 1) {
+		cs2method_10461(18796, 17170456);
+		globalint_163 = 1;
+	} else {
+		cs2method_10461(18794, 17170456);
+		globalint_163 = 0;
+	}
+	if (bitconfig_4834 == 2) {
+		cs2method_10461(18796, 17170457);
+		globalint_164 = 1;
+	} else {
+		cs2method_10461(18794, 17170457);
+		globalint_164 = 0;
+	}
+	if (bitconfig_4834 == 3) {
+		cs2method_10461(18796, 17170452);
+		globalint_162 = 1;
+	} else {
+		cs2method_10461(18794, 17170452);
+		globalint_162 = 0;
+	}
+	if (bitconfig_4834 == 4) {
+		cs2method_10461(18792, 17170453);
+		globalint_165 = 1;
+	} else {
+		cs2method_10461(18790, 17170453);
+		globalint_165 = 0;
+	}
+	if (bitconfig_4834 == 5) {
+		cs2method_10461(18792, 17170454);
+		globalint_166 = 1;
+	} else {
+		cs2method_10461(18790, 17170454);
+		globalint_166 = 0;
+	}
+	if (bitconfig_4834 == 6) {
+		cs2method_10461(18792, 17170455);
+		globalint_167 = 1;
+	} else {
+		cs2method_10461(18790, 17170455);
+		globalint_167 = 0;
+	}
+	return;
+}

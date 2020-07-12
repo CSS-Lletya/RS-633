@@ -1,0 +1,55 @@
+void script_6317() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int stack_dump0;
+	opc_struct10833(3,0,0) structdump_1;
+	opc_struct10936(5,0,0) structdump_2;
+	cs2method_10760(1305);
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	stack_dump0 = cs2method_10754();
+	structdump_1 = cs2method_10833(stack_dump0);
+	ivar2 = structdump_1.intpart_2;
+	ivar1 = structdump_1.intpart_1;
+	ivar0 = structdump_1.intpart_0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = cs2method_10504();
+	if (ivar5 != -1) {
+		ivar3 = cs2method_10956(ivar5);
+		ivar4 = cs2method_10090(ivar5);
+	}
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	structdump_2 = cs2method_10936();
+	ivar9 = structdump_2.intpart_4;
+	ivar8 = structdump_2.intpart_3;
+	ivar7 = structdump_2.intpart_2;
+	ivar6 = structdump_2.intpart_1;
+	ivar10 = structdump_2.intpart_0;
+	if (cs2method_10605(85524480) == 1) {
+		if (ivar10 == 1) {
+			setWidgetSize(cs2method_10542(subtract(ivar8, ivar6), 100, 80), cs2method_10542(subtract(ivar9, ivar7), 100, 60), 0, 0);
+		}
+		ivar0 = subtract(ivar0, divide(cs2method_10040(), 2));
+		if (add(ivar0, cs2method_10040()) < 0 || ivar0 > ivar3 || add(ivar1, cs2method_10630()) < 0 || ivar1 > ivar4 || ivar2 < 0) {
+			cs2method_10760(-1);
+			return;
+		}
+		setWidgetPosition(ivar0, ivar1, 0, 0);
+	}
+	return;
+}

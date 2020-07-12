@@ -1,0 +1,35 @@
+void script_6111() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = getItemIdInContainerSlot(standart_config_2561, standart_config_2563);
+	ivar1 = cs2method_10721(ivar0);
+	if (ivar1 == -1) {
+		return;
+	}
+	ivar2 = getItemIdInContainerSlot(94, ivar1);
+	script_6112(getItemAttribute(ivar0, 6), getItemAttribute(ivar2, 6), 82903152, 82903153);
+	script_6112(getItemAttribute(ivar0, 1), getItemAttribute(ivar2, 1), 82903147, 82903148);
+	script_6112(getItemAttribute(ivar0, 5), getItemAttribute(ivar2, 5), 82903158, 82903159);
+	script_6112(getItemAttribute(ivar0, 0), getItemAttribute(ivar2, 0), 82903155, 82903156);
+	script_6112(getItemAttribute(ivar0, 7), getItemAttribute(ivar2, 7), 82903164, 82903165);
+	script_6112(getItemAttribute(ivar0, 2), getItemAttribute(ivar2, 2), 82903161, 82903162);
+	script_6112(getItemAttribute(ivar0, 9), getItemAttribute(ivar2, 9), 82903170, 82903171);
+	script_6112(getItemAttribute(ivar0, 4), getItemAttribute(ivar2, 4), 82903167, 82903168);
+	script_6112(getItemAttribute(ivar0, 8), getItemAttribute(ivar2, 8), 82903176, 82903177);
+	script_6112(getItemAttribute(ivar0, 3), getItemAttribute(ivar2, 3), 82903173, 82903174);
+	script_6112(getItemAttribute(ivar0, 417), getItemAttribute(ivar2, 417), 82903179, 82903180);
+	script_6112(getItemAttribute(ivar0, 967), getItemAttribute(ivar2, 967), 82903191, 82903192);
+	script_6112(getItemAttribute(ivar0, 968), getItemAttribute(ivar2, 968), 82903194, 82903195);
+	script_6112(getItemAttribute(ivar0, 969), getItemAttribute(ivar2, 969), 82903197, 82903198);
+	script_6112(getItemAttribute(ivar0, 641), getItemAttribute(ivar2, 641), 82903182, 82903183);
+	script_6112(getItemAttribute(ivar0, 643), getItemAttribute(ivar2, 643), 82903185, 82903186);
+	script_6112(getItemAttribute(ivar0, 685), getItemAttribute(ivar2, 685), 82903188, 82903189);
+	script_6112(getItemAttribute(ivar0, 11), getItemAttribute(ivar2, 11), 82903200, 82903201);
+	if (ivar1 == 3 && getDataByKey('o', '1', 3446, ivar0) == 0) {
+		script_6112(getItemAttribute(ivar0, 14), getItemAttribute(ivar2, 14), 82903205, 82903206);
+	}
+	setWidgetText(new WidgetPointer(1265,163), (object)script_2001(ivar0));
+	setWidgetText(new WidgetPointer(1265,101), (object)("Stats for " + (string)getItemName(ivar0) + ":"));
+	return;
+}

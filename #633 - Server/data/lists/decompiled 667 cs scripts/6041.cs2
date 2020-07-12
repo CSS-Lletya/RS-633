@@ -1,0 +1,13 @@
+void script_6041(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	script_5867(arg1, 2750);
+	script_5867(arg2, 2751);
+	script_5867(arg3, 2752);
+	script_5867(arg4, 2754);
+	cs2method_10375(1, arg4, (object)"Confirm");
+	cs2method_20000(6044, "", new WidgetPointer(arg4));
+	cs2method_20914(6042, new WidgetPointer(arg0), new WidgetPointer(arg4), new WidgetPointer(arg5), 1796, 1797, 1799, 3, "IIIY", new WidgetPointer(arg0));
+	cs2method_20870(6042, new WidgetPointer(arg0), new WidgetPointer(arg4), new WidgetPointer(arg5), "III", new WidgetPointer(arg0));
+	cs2method_20374(6042, new WidgetPointer(arg0), new WidgetPointer(arg4), new WidgetPointer(arg5), "III", new WidgetPointer(arg0));
+	script_6043(arg0, arg4, arg5);
+	return;
+}

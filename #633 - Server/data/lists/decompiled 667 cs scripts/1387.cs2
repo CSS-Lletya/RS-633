@@ -1,0 +1,268 @@
+void script_1387(int arg0) {
+	if (globalint_1413 == 0 && arg0 != 99) {
+		return;
+	}
+	if (cs2method_10842() >= 2) {
+		if (cs2method_10837(48889963) == 1) {
+			if (arg0 != 98 || cs2method_10837(48889964) == 0) {
+				setWidgetIsHidden(false, new WidgetPointer(746,107));
+				setWidgetIsHidden(true, new WidgetPointer(746,108));
+				setWidgetIsHidden(false, new WidgetPointer(746,106));
+				setWidgetIsHidden(true, new WidgetPointer(746,109));
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(746,107));
+				setWidgetIsHidden(false, new WidgetPointer(746,108));
+				setWidgetIsHidden(false, new WidgetPointer(746,106));
+				setWidgetIsHidden(true, new WidgetPointer(746,109));
+			}
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(746,107));
+			setWidgetIsHidden(false, new WidgetPointer(746,109));
+			switch (arg0) {
+				case 0:
+					cs2method_10467(8548, 48889929);
+					setWidgetIsHidden(false, new WidgetPointer(746,110));
+					cs2method_10467(8551, 48890006);
+					cs2method_10467(8550, 48890007);
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 1:
+					cs2method_10467(8548, 48889930);
+					setWidgetIsHidden(false, new WidgetPointer(746,111));
+					cs2method_10467(8551, 48890008);
+					cs2method_10467(8550, 48890009);
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 2:
+					cs2method_10467(8548, 48889931);
+					cs2method_10467(8551, 48890010);
+					cs2method_10467(8550, 48890011);
+					setWidgetIsHidden(false, new WidgetPointer(746,112));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 3:
+					cs2method_10467(8548, 48889932);
+					cs2method_10467(8551, 48890012);
+					cs2method_10467(8550, 48890013);
+					setWidgetIsHidden(false, new WidgetPointer(746,113));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 4:
+					cs2method_10467(8548, 48889933);
+					cs2method_10467(8551, 48890014);
+					cs2method_10467(8550, 48890015);
+					setWidgetIsHidden(false, new WidgetPointer(746,114));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 5:
+					cs2method_10467(8548, 48889934);
+					cs2method_10467(8551, 48890016);
+					cs2method_10467(8550, 48890017);
+					setWidgetIsHidden(false, new WidgetPointer(746,115));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 6:
+					cs2method_10467(8548, 48889935);
+					cs2method_10467(8551, 48890018);
+					cs2method_10467(8550, 48890019);
+					setWidgetIsHidden(false, new WidgetPointer(746,116));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 7:
+					cs2method_10467(8548, 48889936);
+					cs2method_10467(8551, 48890020);
+					cs2method_10467(8550, 48890021);
+					setWidgetIsHidden(false, new WidgetPointer(746,117));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 8:
+					cs2method_10467(8548, 48889937);
+					cs2method_10467(8551, 48890022);
+					cs2method_10467(8550, 48890023);
+					setWidgetIsHidden(false, new WidgetPointer(746,118));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 9:
+					cs2method_10467(8548, 48889938);
+					cs2method_10467(8551, 48890024);
+					cs2method_10467(8550, 48890025);
+					setWidgetIsHidden(false, new WidgetPointer(746,119));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 10:
+					cs2method_10467(8548, 48889939);
+					cs2method_10467(8551, 48890026);
+					cs2method_10467(8550, 48890027);
+					setWidgetIsHidden(false, new WidgetPointer(746,120));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 11:
+					cs2method_10467(8548, 48889940);
+					cs2method_10467(8551, 48890028);
+					cs2method_10467(8550, 48890029);
+					setWidgetIsHidden(false, new WidgetPointer(746,121));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 12:
+					cs2method_10467(8548, 48889941);
+					cs2method_10467(8551, 48890030);
+					cs2method_10467(8550, 48890031);
+					setWidgetIsHidden(false, new WidgetPointer(746,122));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 13:
+					cs2method_10467(8548, 48889942);
+					cs2method_10467(8551, 48890032);
+					cs2method_10467(8550, 48890033);
+					setWidgetIsHidden(false, new WidgetPointer(746,123));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 14:
+					cs2method_10467(8548, 48889943);
+					cs2method_10467(8551, 48890034);
+					cs2method_10467(8550, 48890035);
+					setWidgetIsHidden(false, new WidgetPointer(746,124));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 15:
+					cs2method_10467(8548, 48889944);
+					cs2method_10467(8551, 48890036);
+					cs2method_10467(8550, 48890037);
+					setWidgetIsHidden(false, new WidgetPointer(746,125));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 98:
+					setWidgetIsHidden(false, new WidgetPointer(746,108));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 95:
+					setWidgetIsHidden(false, new WidgetPointer(746,127));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+					break;
+				case 99:
+					setWidgetIsHidden(false, new WidgetPointer(746,128));
+					setWidgetIsHidden(false, new WidgetPointer(746,106));
+			}
+		}
+	} else if (cs2method_10837(35913901) == 1) {
+		if (arg0 != 98 || cs2method_10837(35913902) == 0) {
+			setWidgetIsHidden(false, new WidgetPointer(548,173));
+			setWidgetIsHidden(true, new WidgetPointer(548,174));
+			setWidgetIsHidden(true, new WidgetPointer(548,175));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(548,173));
+			setWidgetIsHidden(false, new WidgetPointer(548,174));
+			setWidgetIsHidden(true, new WidgetPointer(548,175));
+		}
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(548,173));
+		setWidgetIsHidden(false, new WidgetPointer(548,175));
+		switch (arg0) {
+			case 0:
+				cs2method_10467(1836, 35913842);
+				cs2method_10467(1841, 35913859);
+				cs2method_10467(1840, 35913860);
+				setWidgetIsHidden(false, new WidgetPointer(548,178));
+				break;
+			case 1:
+				cs2method_10467(1836, 35913843);
+				cs2method_10467(1841, 35913861);
+				cs2method_10467(1840, 35913862);
+				setWidgetIsHidden(false, new WidgetPointer(548,179));
+				break;
+			case 2:
+				cs2method_10467(1836, 35913844);
+				cs2method_10467(1841, 35913863);
+				cs2method_10467(1840, 35913864);
+				setWidgetIsHidden(false, new WidgetPointer(548,180));
+				break;
+			case 3:
+				cs2method_10467(1836, 35913845);
+				cs2method_10467(1841, 35913865);
+				cs2method_10467(1840, 35913866);
+				setWidgetIsHidden(false, new WidgetPointer(548,181));
+				break;
+			case 4:
+				cs2method_10467(1836, 35913846);
+				cs2method_10467(1841, 35913867);
+				cs2method_10467(1840, 35913868);
+				setWidgetIsHidden(false, new WidgetPointer(548,182));
+				break;
+			case 5:
+				cs2method_10467(1836, 35913847);
+				cs2method_10467(1841, 35913869);
+				cs2method_10467(1840, 35913870);
+				setWidgetIsHidden(false, new WidgetPointer(548,183));
+				break;
+			case 6:
+				cs2method_10467(1836, 35913848);
+				cs2method_10467(1841, 35913871);
+				cs2method_10467(1840, 35913872);
+				setWidgetIsHidden(false, new WidgetPointer(548,184));
+				break;
+			case 7:
+				cs2method_10467(1836, 35913849);
+				cs2method_10467(1841, 35913873);
+				cs2method_10467(1840, 35913874);
+				setWidgetIsHidden(false, new WidgetPointer(548,185));
+				break;
+			case 8:
+				cs2method_10467(1836, 35913813);
+				cs2method_10467(1841, 35913797);
+				cs2method_10467(1840, 35913798);
+				setWidgetIsHidden(false, new WidgetPointer(548,186));
+				break;
+			case 9:
+				cs2method_10467(1836, 35913814);
+				cs2method_10467(1841, 35913799);
+				cs2method_10467(1840, 35913800);
+				setWidgetIsHidden(false, new WidgetPointer(548,187));
+				break;
+			case 10:
+				cs2method_10467(1836, 35913815);
+				cs2method_10467(1841, 35913801);
+				cs2method_10467(1840, 35913802);
+				setWidgetIsHidden(false, new WidgetPointer(548,188));
+				break;
+			case 11:
+				cs2method_10467(1836, 35913816);
+				cs2method_10467(1841, 35913803);
+				cs2method_10467(1840, 35913804);
+				setWidgetIsHidden(false, new WidgetPointer(548,189));
+				break;
+			case 12:
+				cs2method_10467(1836, 35913817);
+				cs2method_10467(1841, 35913805);
+				cs2method_10467(1840, 35913806);
+				setWidgetIsHidden(false, new WidgetPointer(548,190));
+				break;
+			case 13:
+				cs2method_10467(1836, 35913818);
+				cs2method_10467(1841, 35913807);
+				cs2method_10467(1840, 35913808);
+				setWidgetIsHidden(false, new WidgetPointer(548,191));
+				break;
+			case 14:
+				cs2method_10467(1836, 35913819);
+				cs2method_10467(1841, 35913809);
+				cs2method_10467(1840, 35913810);
+				setWidgetIsHidden(false, new WidgetPointer(548,192));
+				break;
+			case 15:
+				cs2method_10467(1836, 35913820);
+				cs2method_10467(1841, 35913811);
+				cs2method_10467(1840, 35913812);
+				setWidgetIsHidden(false, new WidgetPointer(548,193));
+				break;
+			case 98:
+				setWidgetIsHidden(false, new WidgetPointer(548,174));
+				break;
+			case 95:
+				setWidgetIsHidden(false, new WidgetPointer(548,195));
+				break;
+			case 99:
+				setWidgetIsHidden(false, new WidgetPointer(548,196));
+		}
+	}
+	return;
+}

@@ -1,0 +1,16 @@
+void script_5467() {
+	globalint_1674 = add(globalint_1674, 1);
+	globalint_1675 = add(globalint_1675, 1);
+	if (globalint_1674 < 17) {
+		cs2method_10444(0, globalint_1674, 1, 0, 75956246);
+	} else {
+		cs2method_10444(0, 17, 1, 0, 75956246);
+	}
+	if (globalint_1675 < 3) {
+		cs2method_10444(3, globalint_1675, 2, 2, 75956247);
+	} else {
+		cs2method_10444(3, 3, 2, 2, 75956247);
+		cs2method_20219(-1, "", new WidgetPointer(1159,30));
+	}
+	return;
+}

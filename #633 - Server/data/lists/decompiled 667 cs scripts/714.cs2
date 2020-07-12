@@ -1,0 +1,9 @@
+void script_714(int arg0) {
+	createChildWidget(arg0, 5, 4);
+	cs2method_10469(937);
+	setWidgetSize(10, 32, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10692(0);
+	cs2method_20745(144, new WidgetPointer(arg0), 4, cs2method_10878(), add(cs2method_10878(), 750), "Iiii");
+	return;
+}

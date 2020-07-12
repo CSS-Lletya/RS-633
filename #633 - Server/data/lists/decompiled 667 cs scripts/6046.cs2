@@ -1,0 +1,9 @@
+void script_6046(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	ivar2 = cs2method_10355(cs2method_10894(arg0), arg2);
+	ivar3 = cs2method_10740(arg0);
+	cs2method_10893(add(ivar2, arg1), cs2method_10090(ivar3), 0, 0, ivar3);
+	setWidgetText(new WidgetPointer(arg0), arg2);
+	return;
+}

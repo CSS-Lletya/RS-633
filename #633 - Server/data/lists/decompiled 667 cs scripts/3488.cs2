@@ -1,0 +1,22 @@
+void script_3488() {
+	globalint_1186 = 1337;
+	globalint_1184 = 0;
+	cs2method_10444(cs2method_10111(65077360), 52, 0, 0, 65077360);
+	cs2method_10444(cs2method_10111(65077275), 52, 0, 0, 65077275);
+	cs2method_10444(cs2method_10111(65077274), 52, 0, 0, 65077274);
+	setWidgetIsHidden(true, new WidgetPointer(993,254));
+	setWidgetIsHidden(true, new WidgetPointer(993,239));
+	setWidgetIsHidden(true, new WidgetPointer(993,224));
+	setWidgetIsHidden(true, new WidgetPointer(993,209));
+	cs2method_10149(255, 65077505);
+	cs2method_10149(255, 65077490);
+	cs2method_10149(255, 65077475);
+	cs2method_10149(255, 65077460);
+	setWidgetIsHidden(true, new WidgetPointer(993,194));
+	setWidgetIsHidden(true, new WidgetPointer(993,195));
+	setWidgetIsHidden(true, new WidgetPointer(993,196));
+	setWidgetIsHidden(true, new WidgetPointer(993,197));
+	setWidgetIsHidden(true, new WidgetPointer(993,261));
+	setWidgetIsHidden(true, new WidgetPointer(993,191));
+	return;
+}

@@ -1,0 +1,53 @@
+void script_1394() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar0 = 0;
+	ivar1 = 0;
+	if (bitconfig_457 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Ahrim" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_458 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Dharok" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_459 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Guthan" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_460 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Karil" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_461 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Torag" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_462 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Verac" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9873 == 1) {
+		ovar0 = cs2method_10445(ovar0, (object)("Akrisae" + "<br>"));
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (compareTo(ovar0, (object)"") == 0) {
+		ovar0 = (object)"None";
+		ivar0 = 1;
+	}
+	ivar2 = add(52, multiply(ivar0, 12));
+	cs2method_10893(cs2method_10956(1572865), ivar2, 0, 0, 1572865);
+	setWidgetText(new WidgetPointer(24,3), ovar0);
+	setWidgetText(new WidgetPointer(24,6), (object)toString(cs2method_10004(0, subtract(bitconfig_464, ivar1))));
+	return;
+}

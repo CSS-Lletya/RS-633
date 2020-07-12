@@ -1,0 +1,33 @@
+void script_2496() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 1;
+	ivar1 = script_2497();
+	ivar2 = -1;
+	ivar3 = -1;
+	while (ivar0 <= 9 || (int)getDataByKey('i', 'I', 2400, ivar0) != 2949145) {
+		if (ivar0 <= ivar1) {
+			ivar2 = (int)getDataByKey('i', 'I', 2400, ivar0);
+			ivar3 = (int)getDataByKey('i', 'I', 2402, ivar0);
+			setScriptCallOnMousePressed(2499, new WidgetPointer(-32768,3), "I", new WidgetPointer(ivar2));
+			setScriptCallOnMousePressed(2499, new WidgetPointer(ivar2), "I", new WidgetPointer(ivar3));
+			setWidgetRGB(14784543, ivar3);
+			cs2method_10375(1, ivar2, (object)"Select");
+			cs2method_10375(1, ivar3, (object)"Select");
+			setWidgetText(new WidgetPointer(ivar3), (object)getDataByKey('i', 's', 2403, ivar0));
+		} else {
+			ivar2 = (int)getDataByKey('i', 'I', 2400, ivar0);
+			ivar3 = (int)getDataByKey('i', 'I', 2402, ivar0);
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar2));
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar3));
+			setWidgetRGB(10053120, ivar3);
+			cs2method_10831(ivar2);
+			cs2method_10831(ivar3);
+			setWidgetText(new WidgetPointer(ivar3), (object)(getDataByKey('i', 's', 2403, ivar0) + " - Locked"));
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

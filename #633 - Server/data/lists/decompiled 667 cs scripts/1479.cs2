@@ -1,0 +1,42 @@
+int script_1479(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	arg0 = cs2method_10991(arg0);
+	script_41(49938531);
+	globalint_1 = 0;
+	script_1464();
+	setWidgetIsHidden(true, new WidgetPointer(762,117));
+	if (cs2method_10366(arg0) == 0) {
+		setWidgetText(new WidgetPointer(762,47), (object)"Bank of RuneScape (no search entered)");
+		setWidgetIsHidden(false, new WidgetPointer(762,118));
+		script_1455();
+		return 0;
+	}
+	setWidgetText(new WidgetPointer(762,47), (object)("Bank of RuneScape (search: '" + (string)arg0 + "')"));
+	setWidgetIsHidden(true, new WidgetPointer(762,118));
+	ivar0 = cs2method_10594(95);
+	ivar1 = 0;
+	ivar2 = 0;
+	cs2method_10085(0, 0, 49938527);
+	while (ivar1 < ivar0) {
+		if (cs2method_10339(0, lower(getItemName(getItemIdInContainerSlot(95, ivar1))), lower(arg0)) != -1) {
+			if (cs2method_10551(49938527, ivar1) == 1) {
+				setWidgetPosition(add(multiply(44, cs2method_10620(ivar2, 10)), 8), add(multiply(divide(ivar2, 10), 44), 5), 0, 0);
+				cs2method_10692(0);
+				ivar2 = add(ivar2, 1);
+			}
+		} else {
+			if (cs2method_10551(49938527, ivar1) == 1) {
+				setWidgetPosition(0, 0, 0, 0);
+				cs2method_10692(1);
+			}
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	if (ivar2 == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(762,117));
+	}
+	script_1458(ivar2);
+	return ivar2;
+}

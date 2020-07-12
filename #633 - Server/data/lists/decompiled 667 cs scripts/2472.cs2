@@ -1,0 +1,83 @@
+void script_2472(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	if (arg7 == -1) {
+		if (arg6 == -1) {
+			setWidgetIsHidden(true, new WidgetPointer(arg0));
+			setWidgetIsHidden(true, new WidgetPointer(arg2));
+			setWidgetIsHidden(true, new WidgetPointer(arg5));
+			cs2method_10444(subtract(cs2method_10111((int)getDataByKey('i', 'I', arg8, 0)), 10), subtract(cs2method_10826((int)getDataByKey('i', 'I', arg8, 0)), 10), 0, 0, arg4);
+			return;
+		}
+		arg7 = 20210;
+	} else {
+		if (arg6 == -1) {
+			arg6 = 20210;
+		}
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	setWidgetIsHidden(false, new WidgetPointer(arg5));
+	ivar9 = cs2method_10111((int)getDataByKey('i', 'I', arg8, getItemAttribute(arg6, 359)));
+	ivar10 = cs2method_10111((int)getDataByKey('i', 'I', arg8, getItemAttribute(arg7, 359)));
+	ivar11 = 0;
+	ivar12 = -1;
+	if (ivar9 > ivar10) {
+		ivar12 = arg7;
+		arg7 = arg6;
+		arg6 = ivar12;
+		ivar11 = ivar10;
+		ivar10 = ivar9;
+		ivar9 = ivar11;
+	}
+	ivar13 = cs2method_10826((int)getDataByKey('i', 'I', arg8, getItemAttribute(arg6, 359)));
+	ivar14 = cs2method_10826((int)getDataByKey('i', 'I', arg8, getItemAttribute(arg7, 359)));
+	ivar15 = subtract(ivar10, ivar9);
+	ivar16 = 0;
+	cs2method_10444(subtract(ivar9, 10), subtract(ivar13, 10), 0, 0, arg0);
+	cs2method_10444(subtract(ivar10, 10), subtract(ivar14, 10), 0, 0, arg2);
+	if (cs2method_10403(arg1) == 1) {
+		cs2method_10406(718, (object)script_4126(script_718(getItemAttribute(arg6, 359))));
+		setWidgetRGB(new Color(script_718(getItemAttribute(arg6, 359))));
+	}
+	if (cs2method_10403(arg3) == 1) {
+		cs2method_10406(718, (object)script_4126(script_718(getItemAttribute(arg7, 359))));
+		setWidgetRGB(new Color(script_718(getItemAttribute(arg7, 359))));
+	}
+	ivar17 = 0;
+	ivar18 = 0;
+	ivar19 = add(getItemAttribute(arg6, 358), getItemAttribute(arg7, 358));
+	if (ivar13 < ivar14) {
+		ivar16 = subtract(ivar14, ivar13);
+		cs2method_10444(ivar9, ivar13, 0, 0, arg5);
+		cs2method_10463(0, arg5);
+		ivar11 = 1;
+	} else {
+		ivar16 = subtract(ivar13, ivar14);
+		cs2method_10444(ivar9, ivar14, 0, 0, arg5);
+		cs2method_10463(1, arg5);
+		ivar11 = -1;
+	}
+	cs2method_10893(ivar15, ivar16, 0, 0, arg5);
+	if (arg6 == 20210) {
+		ivar17 = subtract(add(ivar9, divide(multiply(ivar15, getItemAttribute(arg7, 358)), multiply(2, ivar19))), 10);
+		ivar18 = subtract(add(ivar13, multiply(ivar11, divide(multiply(ivar16, getItemAttribute(arg7, 358)), multiply(2, ivar19)))), 10);
+	} else if (arg7 == 20210) {
+		ivar17 = subtract(add(ivar9, divide(multiply(ivar15, add(multiply(2, getItemAttribute(arg7, 358)), getItemAttribute(arg6, 358))), multiply(2, ivar19))), 10);
+		ivar18 = subtract(add(ivar13, multiply(ivar11, divide(multiply(ivar16, add(multiply(2, getItemAttribute(arg7, 358)), getItemAttribute(arg6, 358))), multiply(2, ivar19)))), 10);
+	} else {
+		ivar17 = subtract(add(ivar9, divide(multiply(ivar15, getItemAttribute(arg7, 358)), ivar19)), 10);
+		ivar18 = subtract(add(ivar13, multiply(ivar11, divide(multiply(ivar16, getItemAttribute(arg7, 358)), ivar19))), 10);
+	}
+	cs2method_10444(ivar17, ivar18, 0, 0, arg4);
+	return;
+}

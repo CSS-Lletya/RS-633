@@ -1,0 +1,23 @@
+void script_6198(int arg0,int arg1,int arg2,int arg3) {
+	if (arg2 == 59375977) {
+		globalint_1920 = 1;
+		globalint_1921 = cs2method_10102(arg0, arg1, arg2);
+		script_6199(arg2, arg3, (object)globalstring_363);
+	} else {
+		if (arg2 == 59375984) {
+			globalint_1920 = 2;
+			globalint_1922 = cs2method_10102(arg0, arg1, arg2);
+			script_6199(arg2, arg3, (object)globalstring_364);
+		}
+	}
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(137,56));
+	if (globalint_1920 == 1) {
+		setScriptCallOnKeyPress(-1, "", new WidgetPointer(906,368));
+	} else {
+		if (globalint_1920 == 2) {
+			setScriptCallOnKeyPress(-1, "", new WidgetPointer(906,361));
+		}
+	}
+	setScriptCallOnKeyPress(6196, -2147483640, false, new WidgetPointer(-32768,3), 0, "izIi", new WidgetPointer(arg2));
+	return;
+}

@@ -1,0 +1,25 @@
+void script_4097(int arg0,int arg1,object arg2) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(8, arg1, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	cs2method_10469(4514);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(8, arg1, 0, 0);
+	setWidgetPosition(0, 0, 2, 0);
+	cs2method_10469(4516);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(16, arg1, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	cs2method_10469(4515);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetSize(20, arg1, 1, 0);
+	setWidgetPosition(0, 1, 1, 0);
+	setWidgetFont(494);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetRGB(new Color(0, 0, 0));
+	cs2method_10320(0);
+	setWidgetText(arg2);
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,9 @@
+void script_2050(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10692(1);
+	} else {
+		createChildWidget(arg0, 5, arg1);
+		cs2method_10692(1);
+	}
+	return;
+}

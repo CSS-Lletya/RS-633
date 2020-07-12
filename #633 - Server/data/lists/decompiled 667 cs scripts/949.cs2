@@ -1,0 +1,23 @@
+void script_949() {
+	if (globalint_1198 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(933,322));
+		setWidgetIsHidden(false, new WidgetPointer(933,323));
+	}
+	if (globalint_1199 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(933,321));
+		setWidgetIsHidden(false, new WidgetPointer(933,324));
+	}
+	if (globalint_1200 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(933,320));
+		setWidgetIsHidden(false, new WidgetPointer(933,325));
+	}
+	if (globalint_1201 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(933,319));
+		setWidgetIsHidden(false, new WidgetPointer(933,326));
+	}
+	if (globalint_1202 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(933,318));
+		setWidgetIsHidden(false, new WidgetPointer(933,327));
+	}
+	return;
+}

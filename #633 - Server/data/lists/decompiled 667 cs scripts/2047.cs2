@@ -1,0 +1,52 @@
+void script_2047() {
+	object ovar0;
+	if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+		setWidgetText(new WidgetPointer(916,22), (object)"All");
+	} else {
+		setWidgetText(new WidgetPointer(916,22), (object)toString(bitconfig_8095));
+	}
+	ovar0 = (object)script_1111();
+	if (cs2method_10416(59310094) == 0) {
+		cs2method_10938(59310094, ovar0);
+	}
+	if (cs2method_10416(59310095) == 0) {
+		cs2method_10938(59310095, ovar0);
+	}
+	if (cs2method_10416(59310096) == 0) {
+		cs2method_10938(59310096, ovar0);
+	}
+	if (cs2method_10416(59310097) == 0) {
+		cs2method_10938(59310097, ovar0);
+	}
+	if (cs2method_10416(59310098) == 0) {
+		cs2method_10938(59310098, ovar0);
+	}
+	if (cs2method_10416(59310099) == 0) {
+		cs2method_10938(59310099, ovar0);
+	}
+	if (cs2method_10416(59310100) == 0) {
+		cs2method_10938(59310100, ovar0);
+	}
+	if (cs2method_10416(59310106) == 0) {
+		cs2method_10938(59310106, ovar0);
+	}
+	if (cs2method_10416(59310101) == 0) {
+		cs2method_10938(59310101, ovar0);
+	}
+	if (cs2method_10416(59310102) == 0) {
+		cs2method_10938(59310102, ovar0);
+	}
+	if (cs2method_10416(59310103) == 0) {
+		cs2method_10938(59310103, ovar0);
+	}
+	if (cs2method_10416(59310104) == 0) {
+		cs2method_10938(59310104, ovar0);
+	}
+	if (cs2method_10416(59310105) == 0) {
+		cs2method_10938(59310105, ovar0);
+	}
+	if (cs2method_10416(59310107) == 0) {
+		cs2method_10938(59310107, ovar0);
+	}
+	return;
+}

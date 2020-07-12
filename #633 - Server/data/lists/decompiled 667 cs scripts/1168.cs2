@@ -1,0 +1,9 @@
+void script_1168(int arg0,int arg1,object arg2) {
+	if (cs2method_10620(cs2method_10878(), 50) != 0) {
+		return;
+	}
+	if (cs2method_10551(57999376, arg0) == 1) {
+		setWidgetText(arg2);
+	}
+	return;
+}

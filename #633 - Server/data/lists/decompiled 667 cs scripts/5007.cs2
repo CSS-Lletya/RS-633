@@ -1,0 +1,27 @@
+void script_5007() {
+	setWidgetText(new WidgetPointer(1261,58), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,59), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,60), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,61), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,62), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,63), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,66), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,67), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,68), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,69), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,70), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,71), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,73), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,74), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,75), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,76), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,77), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,78), (object)toString(0));
+	setWidgetText(new WidgetPointer(1261,121), (object)"");
+	setWidgetText(new WidgetPointer(1261,94), (object)"");
+	setWidgetIsHidden(false, new WidgetPointer(1261,288));
+	setWidgetIsHidden(false, new WidgetPointer(1261,296));
+	setWidgetIsHidden(false, new WidgetPointer(1261,272));
+	setWidgetIsHidden(false, new WidgetPointer(1261,280));
+	return;
+}

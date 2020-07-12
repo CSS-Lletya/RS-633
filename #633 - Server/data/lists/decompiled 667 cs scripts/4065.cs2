@@ -1,0 +1,55 @@
+void script_4065(int arg0) {
+	script_4066();
+	switch (arg0) {
+		case 69337110:
+			cs2method_10467(4444, 69337107);
+			setWidgetText(new WidgetPointer(1058,46), (object)"Currently selected: Balance tokens - earned through the keg balancing minigame.");
+			cs2method_10444(-160, 13, 1, 0, arg0);
+			if (bitconfig_8666 < 200) {
+				script_4061();
+			} else {
+				script_4062();
+			}
+			break;
+		case 69337111:
+			cs2method_10467(4445, 69337105);
+			setWidgetText(new WidgetPointer(1058,46), (object)"Currently selected: Strength tokens - earned through the shot put minigame.");
+			cs2method_10444(-80, 13, 1, 0, arg0);
+			if (bitconfig_8662 < 200) {
+				script_4061();
+			} else {
+				script_4062();
+			}
+			break;
+		case 69337112:
+			cs2method_10467(4446, 69337103);
+			setWidgetText(new WidgetPointer(1058,46), (object)"Currently selected: Combat tokens - earned through the animator minigame.");
+			cs2method_10444(0, 13, 1, 0, arg0);
+			if (bitconfig_8665 < 200) {
+				script_4061();
+			} else {
+				script_4062();
+			}
+			break;
+		case 69337114:
+			cs2method_10467(4447, 69337101);
+			setWidgetText(new WidgetPointer(1058,46), (object)"Currently selected: Defence tokens - earned through the catapult minigame.");
+			cs2method_10444(80, 13, 1, 0, arg0);
+			if (bitconfig_8663 < 200) {
+				script_4061();
+			} else {
+				script_4062();
+			}
+			break;
+		case 69337113:
+			cs2method_10467(4448, 69337099);
+			setWidgetText(new WidgetPointer(1058,46), (object)"Currently selected: Attack tokens - earned through the dummy minigame.");
+			cs2method_10444(160, 13, 1, 0, arg0);
+			if (bitconfig_8664 < 200) {
+				script_4061();
+			} else {
+				script_4062();
+			}
+	}
+	return;
+}

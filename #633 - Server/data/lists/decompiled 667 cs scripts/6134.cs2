@@ -1,0 +1,30 @@
+void script_6134(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = globalint_1891;
+	globalint_1891 = add(globalint_1891, arg0);
+	if (globalint_1891 > 300) {
+		globalint_1891 = subtract(globalint_1891, 300);
+	}
+	ivar2 = globalint_1891;
+	ivar3 = divide(300, 2);
+	if (ivar1 <= ivar3 && globalint_1891 >= ivar3) {
+		switch (arg0) {
+			case 4:
+				cs2method_10677(14584, 1, 0, 50);
+				break;
+			case 8:
+				cs2method_10677(14662, 1, 0, 60);
+				break;
+			case 12:
+				cs2method_10677(14608, 1, 0, 70);
+		}
+	}
+	if (ivar2 > ivar3) {
+		ivar2 = subtract(300, ivar2);
+	}
+	ivar2 = cs2method_10542(ivar2, ivar3, 200);
+	cs2method_10149(ivar2, 83230756);
+	return;
+}

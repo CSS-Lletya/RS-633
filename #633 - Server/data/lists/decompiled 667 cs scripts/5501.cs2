@@ -1,0 +1,6 @@
+void script_5501() {
+	globalint_1661 = -1;
+	script_5522();
+	setWidgetText(new WidgetPointer(906,252), (object)"Please wait. Resending email...");
+	return;
+}

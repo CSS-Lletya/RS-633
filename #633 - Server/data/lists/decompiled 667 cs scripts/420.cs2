@@ -1,0 +1,5 @@
+void script_420() {
+	cs2method_10141(globalint_1353);
+	cs2method_20219(421, globalint_1355, globalint_1356, 0, "iii", new WidgetPointer(1013,0));
+	return;
+}

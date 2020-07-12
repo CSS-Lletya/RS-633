@@ -1,0 +1,14 @@
+void script_2625(int arg0,int arg1) {
+	if (arg0 == 84) {
+		script_2621();
+	} else {
+		if (cs2method_10416(55705601) == 0) {
+			if (cs2method_10466(cs2method_10816(arg1), 0, (object)"abcdefghijklmnopqrst") != -1) {
+				script_2621();
+			} else {
+				return;
+			}
+		}
+	}
+	return;
+}

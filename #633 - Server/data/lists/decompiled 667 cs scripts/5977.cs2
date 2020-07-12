@@ -1,0 +1,52 @@
+void script_5977() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 1;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = -1;
+	switch (bitconfig_9552) {
+		case 0:
+			ivar3 = 82509826;
+			break;
+		case 1:
+		case 3:
+		case 4:
+			ivar3 = 82640899;
+			break;
+		case 2:
+		case 5:
+			ivar3 = 82444290;
+			break;
+		default:
+			return;
+	}
+	if (cs2method_10575() == 1) {
+		if (globalint_1794 < 0) {
+			globalint_1794 = 0;
+		}
+		if (globalint_1794 == 0) {
+			/* 
+				mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		/* 
+			mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	return;
+}

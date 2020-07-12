@@ -1,0 +1,21 @@
+void script_2960(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5) {
+	if (arg0 != -1) {
+		if (arg4 == 1) {
+			cs2method_10467(2525, arg0);
+		} else {
+			cs2method_10467(2524, arg0);
+		}
+	}
+	if (arg1 != -1) {
+		if (arg4 == 1) {
+			setWidgetText(new WidgetPointer(arg0), arg5);
+			setWidgetRGB(16439174, arg2);
+			cs2method_10893(add(cs2method_10355(arg3, arg5), 23), cs2method_10090(arg1), 0, 0, arg1);
+		} else {
+			setWidgetText(new WidgetPointer(arg2), arg5);
+			setWidgetRGB(15182884, arg2);
+			cs2method_10893(add(cs2method_10355(arg3, arg5), 23), cs2method_10090(arg1), 0, 0, arg1);
+		}
+	}
+	return;
+}

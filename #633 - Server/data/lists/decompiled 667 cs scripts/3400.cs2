@@ -1,0 +1,9 @@
+void script_3400() {
+	if (cs2method_10366((object)globalstring_279) <= 0) {
+		return;
+	}
+	script_3391();
+	script_3190();
+	globalint_1662 = 0;
+	return;
+}

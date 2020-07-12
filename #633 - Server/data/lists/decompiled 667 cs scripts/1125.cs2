@@ -1,0 +1,28 @@
+void script_1125(int arg0,object arg1) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar1;
+	ivar1 = cs2method_10355(cs2method_10894(arg0), arg1);
+	ivar2 = cs2method_10956(arg0);
+	if (ivar1 < ivar2) {
+		setWidgetText(new WidgetPointer(arg0), arg1);
+		return;
+	}
+	ivar3 = cs2method_10366(arg1);
+	ivar4 = 1;
+	ovar1 = (object)"";
+	while (ivar3 > 0) {
+		ovar1 = cs2method_10547(0, subtract(subtract(cs2method_10366(arg1), 1), ivar4), arg1);
+		ovar1 = cs2method_10445(ovar1, (object)"...");
+		ivar1 = cs2method_10355(cs2method_10894(arg0), ovar1);
+		if (ivar1 < ivar2) {
+			setWidgetText(new WidgetPointer(arg0), ovar1);
+			return;
+		}
+		ivar4 = add(ivar4, 1);
+		ivar3 = subtract(ivar3, 1);
+	}
+	return;
+}

@@ -1,0 +1,27 @@
+void script_5070(int arg0,int arg1,int arg2) {
+	int stack_dump0;
+	int stack_dump1;
+	if (arg0 != 1 || getDataByKey('i', 'J', 3943, arg1) == -1) {
+		return;
+	}
+	cs2method_10677(6185, 1, 0, 200);
+	if (arg1 == bitconfig_9516) {
+		arg2 = cs2method_10416(72810514);
+	} else {
+		cs2method_10085(0, 0, 72810523);
+		stack_dump0 = 0;
+		stack_dump1 = 0;
+		bitconfig_9519 = 0;
+		stack_dump0 = stack_dump0;
+		bitconfig_9518 = stack_dump1;
+		bitconfig_9517 = stack_dump0;
+	}
+	bitconfig_9516 = arg1;
+	if (arg2 == 1) {
+		script_5073(0);
+	} else {
+		script_5073(1);
+	}
+	script_5067();
+	return;
+}

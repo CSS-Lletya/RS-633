@@ -1,0 +1,9 @@
+void script_5517(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10305(cs2method_10004(0, subtract(cs2method_10354(), 15)));
+		if (cs2method_10354() == 0) {
+			cs2method_20745(-1, "");
+		}
+	}
+	return;
+}

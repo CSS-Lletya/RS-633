@@ -1,0 +1,26 @@
+void script_5383(int arg0) {
+	switch (arg0) {
+		case 75497503:
+			if (cs2method_10403(75497483) == 1) {
+				cs2method_10469(6355);
+			}
+			if (cs2method_10403(75497484) == 1) {
+				cs2method_10469(6356);
+			}
+			if (cs2method_10403(75497485) == 1) {
+				cs2method_10469(6357);
+			}
+			break;
+		case 75497541:
+			if (cs2method_10403(75497479) == 1) {
+				cs2method_10469(6370);
+			}
+			if (cs2method_10403(75497480) == 1) {
+				cs2method_10469(6371);
+			}
+			if (cs2method_10403(75497481) == 1) {
+				cs2method_10469(6372);
+			}
+	}
+	return;
+}

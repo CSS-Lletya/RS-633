@@ -1,0 +1,19 @@
+void script_6405(int arg0,int arg1) {
+	arg1 = add(arg1, 1);
+	cs2method_20219(6405, new WidgetPointer(arg0), arg1, "Ii", new WidgetPointer(arg0));
+	if (arg1 < 25) {
+		cs2method_10149(0, arg0);
+	} else if (arg1 < 50) {
+		cs2method_10149(255, arg0);
+	} else if (arg1 < 75) {
+		cs2method_10149(0, arg0);
+	} else if (arg1 < 100) {
+		cs2method_10149(255, arg0);
+	} else if (arg1 < 125) {
+		cs2method_10149(0, arg0);
+	} else {
+		cs2method_10149(255, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

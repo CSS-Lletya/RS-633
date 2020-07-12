@@ -1,0 +1,6 @@
+void script_6151(object arg0) {
+	setWidgetText(new WidgetPointer(1268,1), arg0);
+	globalint_1888 = 0;
+	cs2method_20219(6152, 1, "i", new WidgetPointer(1268,0));
+	return;
+}

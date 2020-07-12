@@ -1,0 +1,36 @@
+int script_1840(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	ivar3 = getDataByKey('i', 'J', 1805, arg1);
+	if (ivar3 == -1) {
+		return arg2;
+	}
+	ovar0 = (object)getGeneralRequirementAttribute(ivar3, 596);
+	ivar4 = getGeneralRequirementAttribute(ivar3, 477);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetPosition(3, arg2, 0, 0);
+	setWidgetSize(15, 15, 0, 0);
+	setWidgetPosition(add(cs2method_10646(), cs2method_10040()), arg2, 0, 0);
+	setWidgetSize(add(cs2method_10646(), cs2method_10646()), cs2method_10630(), 1, 0);
+	cs2method_10469(getGeneralRequirementAttribute(ivar3, 595));
+	setWidgetRGB(new Color(175, 175, 175));
+	setWidgetFont(495);
+	cs2method_10320(1);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetText(ovar0);
+	if (ivar4 != -1) {
+		cs2method_11002((object)("<col=ff9040>" + (string)ovar0 + "</col>"));
+		cs2method_11002((object)("<col=ff9040>" + (string)ovar0 + "</col>"));
+		setWidgetContextMenuOption(1, (object)"Highlight");
+		setWidgetContextMenuOption(1, (object)"Highlight");
+		cs2method_20115(288, ivar4, "y");
+		cs2method_20115(288, ivar4, "y");
+		cs2method_20211(1356, new WidgetPointer(arg0), cs2method_10261(), 16777215, "Iii");
+		cs2method_20211(1356, new WidgetPointer(arg0), cs2method_10261(), 16777215, "Iii");
+		cs2method_20139(1356, new WidgetPointer(arg0), cs2method_10261(), 11513775, "Iii");
+		cs2method_20139(1356, new WidgetPointer(arg0), cs2method_10261(), 11513775, "Iii");
+	}
+	return add(arg2, cs2method_10630());
+}

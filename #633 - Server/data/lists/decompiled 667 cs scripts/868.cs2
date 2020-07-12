@@ -1,0 +1,44 @@
+void script_868(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,int arg12,int arg13) {
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	ivar14 = script_718(globalint_1441);
+	ivar15 = script_718(globalint_1442);
+	ivar16 = script_715(ivar14, globalint_1443, ivar15, globalint_1444);
+	if (cs2method_10403(arg0) == 1) {
+		cs2method_10406(718, (object)script_4126(ivar16));
+		setWidgetRGB(new Color(ivar16));
+	}
+	if (cs2method_10403(arg8) == 1) {
+		cs2method_10406(718, (object)script_4126(ivar16));
+		setWidgetRGB(new Color(ivar16));
+	}
+	if (cs2method_10403(arg1) == 1) {
+		cs2method_10406(718, (object)script_4126(ivar14));
+		setWidgetRGB(new Color(ivar14));
+	}
+	if (cs2method_10403(arg2) == 1) {
+		cs2method_10406(718, (object)script_4126(ivar15));
+		setWidgetRGB(new Color(ivar15));
+	}
+	cs2method_10461(getDataByKey('i', 'm', 1595, divide(globalint_1450, 10)), arg10);
+	cs2method_10461(getDataByKey('i', 'm', 1595, cs2method_10620(globalint_1450, 10)), arg11);
+	ivar17 = add(multiply(globalint_1441, globalint_1443), multiply(globalint_1442, globalint_1444));
+	if (globalint_1450 < ivar17) {
+		cs2method_10467(4567, arg13);
+	} else if (globalint_1450 > ivar17) {
+		cs2method_10467(4568, arg13);
+	} else {
+		cs2method_10467(4565, arg13);
+		cs2method_10677(3559, 1, 0, 255);
+	}
+	if (ivar16 == 16711935) {
+		cs2method_10467(4565, arg12);
+		cs2method_10677(3559, 1, 10, 255);
+	} else {
+		cs2method_10467(4566, arg12);
+	}
+	script_2472(arg3, arg4, arg5, arg6, arg7, arg9, standart_config_851, standart_config_852, 1109);
+	return;
+}

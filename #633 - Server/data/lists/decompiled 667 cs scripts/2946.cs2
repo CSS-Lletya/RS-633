@@ -1,0 +1,365 @@
+void script_2946(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	ivar1 = script_2948();
+	ivar2 = 39059514;
+	ivar3 = 39059513;
+	ivar4 = 39059500;
+	ivar5 = 39059462;
+	if (cs2method_10637() == 1) {
+		ivar2 = 63897649;
+		ivar4 = 63897644;
+		ivar5 = 63897626;
+	}
+	if (ivar1 == 42) {
+		cs2method_10467(6297, 48758881);
+		setWidgetIsHidden(false, new WidgetPointer(744,103));
+		setWidgetText(new WidgetPointer(744,130), (object)toString(cs2method_10847()));
+		setWidgetText(new WidgetPointer(744,131), (object)toString(cs2method_10502()));
+		globalint_1100 = 42;
+		return;
+	}
+	if (ivar1 == 43) {
+		setWidgetText(new WidgetPointer(744,130), (object)toString(cs2method_10847()));
+		setWidgetText(new WidgetPointer(744,131), (object)toString(cs2method_10502()));
+		globalint_1100 = 43;
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(744,103));
+	cs2method_10467(4129, 48758881);
+	if (ivar1 == -3) {
+		setWidgetText(new WidgetPointer(ivar2), (object)"Logging in...");
+		setWidgetText(new WidgetPointer(ivar3), (object)"Logging in...");
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar4));
+		script_2950(ivar1, 0, 1, -1, 0, -1, 0, (object)"Logging In - Please Wait", (object)"", (object)"");
+		globalint_1100 = -3;
+		return;
+	}
+	if (globalint_1100 == -3) {
+		script_2954();
+	}
+	ivar6 = 0;
+	ovar0 = (object)"";
+	if (ivar1 == 21) {
+		globalint_1100 = 21;
+		setWidgetText(new WidgetPointer(ivar2), (object)"Logging in...");
+		setWidgetText(new WidgetPointer(ivar3), (object)"Logging in...");
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar4));
+		if (globalint_200 == 0) {
+			globalint_200 = cs2method_10059();
+		}
+		globalint_200 = subtract(globalint_200, 1);
+		if (globalint_200 <= 0) {
+			cs2method_20219(-1, "", new WidgetPointer(ivar4));
+			if (arg0 == 0) {
+				script_2945();
+			} else {
+				script_4634(arg0);
+			}
+			return;
+		}
+		ivar6 = divide(globalint_200, 50);
+		if (ivar6 == 1) {
+			ovar0 = (object)("You have only just left another world. Your profile will be transferred in" + "<br>" + "1 second.");
+		} else {
+			ovar0 = (object)("You have only just left another world. Your profile will be transferred in" + "<br>" + toString(ivar6) + " seconds.");
+		}
+		if (cs2method_10416(ivar5) == 1) {
+			script_2950(ivar1, 0, 0, 2611, 1, 1, 0, ovar0, (object)"Abort Login", (object)"");
+		} else {
+			script_3233(ovar0);
+		}
+		return;
+	}
+	script_2954();
+	ivar7 = 0;
+	ovar1 = (object)"";
+	if (ivar1 == 1) {
+		setWidgetText(new WidgetPointer(ivar2), (object)"Logging in...");
+		setWidgetText(new WidgetPointer(ivar3), (object)"Logging in...");
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar4));
+		ivar7 = divide(subtract(500, globalint_201), 50);
+		if (globalint_202 == 0) {
+			if (ivar7 == 1) {
+				ovar1 = (object)"Could not display video advertisement. Login will continue in 1 second.";
+			} else {
+				ovar1 = (object)("Could not display video advertisement. Login will continue in " + toString(ivar7) + " seconds");
+			}
+		} else if (globalint_201 < 500) {
+			if (ivar7 == 1) {
+				ovar1 = (object)"Displaying video advertisement. Login will continue in 1 second.";
+			} else {
+				ovar1 = (object)("Displaying video advertisement. Login will continue in " + toString(ivar7) + " seconds.");
+			}
+		} else {
+			ovar1 = (object)"Displaying video advertisement. Login will continue in 0 seconds.";
+		}
+		script_2950(ivar1, 0, 0, 2611, 0, -1, 0, ovar1, (object)"", (object)"");
+		globalint_201 = add(globalint_201, 1);
+		script_2954();
+		cs2method_10072();
+		return;
+	}
+	script_2954();
+	if (cs2method_10637() == 1) {
+		setWidgetText(new WidgetPointer(ivar2), (object)"Play Game");
+		setWidgetText(new WidgetPointer(ivar3), (object)"Play Game");
+	} else {
+		setWidgetText(new WidgetPointer(ivar2), (object)"Log In");
+		setWidgetText(new WidgetPointer(ivar3), (object)"Log In");
+	}
+	setScriptCallOnMousePressed(2944, "", new WidgetPointer(ivar4));
+	if (cs2method_10637() == 1) {
+		cs2method_20219(-1, "", new WidgetPointer(975,26));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(596,6));
+	}
+	ovar2 = (object)"";
+	ivar8 = 1;
+	ivar9 = 0;
+	ivar10 = 2608;
+	ivar11 = 0;
+	ivar12 = 0;
+	ovar3 = (object)"";
+	ivar13 = 1;
+	ovar4 = (object)"Back";
+	switch (ivar1) {
+		case -2:
+			script_2954();
+			if (cs2method_10637() == 1) {
+				return;
+			}
+			script_2940(11);
+			return;
+		case 29:
+			switch (cs2method_10336()) {
+				case 0:
+					ovar2 = (object)"You must have a Combat Level of at least 20 (not including Summoning) to enter a PvP world.";
+					break;
+				case 1:
+					ovar2 = (object)"You are currently carrying lent items and cannot enter a PvP world.";
+					break;
+				case 2:
+					ovar2 = (object)"You must be standing in the Wilderness or Edgeville to enter this bounty world.";
+					break;
+				case 3:
+					ovar2 = (object)"You must have a total skill level of 1,000 or greater to enter this world.";
+					break;
+				case 5:
+					ovar2 = (object)"You must have a total skill level of 1,500 or greater to enter this world.";
+					break;
+				case 4:
+					ovar2 = (object)"You must move to a safe area before you can log in to a PvP or bounty world.";
+					break;
+				default:
+					ovar2 = (object)"Unexpected server response. Please try using a different world.";
+			}
+			break;
+		case 46:
+			ovar2 = (object)"This instance is marked for deletion/rebuild. Please try using a different world.";
+			break;
+		case 45:
+			switch (cs2method_10736()) {
+				case 0:
+					switch (cs2method_10336()) {
+						case 0:
+							ovar2 = (object)"You must be near the TzHaar Fight Pits entrance to enter a global match.";
+							break;
+						default:
+							ovar2 = (object)"Unable to log in. Please try using a different world.";
+					}
+					break;
+				case 1:
+					switch (cs2method_10336()) {
+						case 1:
+							ovar2 = (object)"There was an error connecting to your meeting room. Please try again.";
+							break;
+						case 2:
+							ovar2 = (object)"You need a higher rank to enter that private tent.";
+							break;
+						case 3:
+							ovar2 = (object)"You need an invitation to enter that private room.";
+							break;
+						default:
+							ovar2 = (object)"Unable to log in. Please try using a different world.";
+					}
+					break;
+				default:
+					ovar2 = (object)"Unexpected server response. Please try using a different world.";
+			}
+			break;
+		case -5:
+			ovar2 = (object)"Connection timed out. Please try using a different world.";
+			break;
+		case -4:
+			ovar2 = (object)"Error connecting to server.";
+			break;
+		case -1:
+			ovar2 = (object)"No response from server. Please try using a different world.";
+			break;
+		case 5:
+			ovar2 = (object)"Your account has not logged out from its last session. Try again in a few minutes.";
+			break;
+		case 7:
+			ovar2 = (object)"Due to phenomenal demand the servers are currently full. Please come back later..";
+			break;
+		case 8:
+			ovar2 = (object)"Unable to connect: login server offline.";
+			break;
+		case 9:
+			ovar2 = (object)"Login limit exceeded: too many connections from your address.";
+			break;
+		case 10:
+			ovar2 = (object)"Unable to connect: bad session id.";
+			break;
+		case 13:
+			ovar2 = (object)"Could not complete login. Please try using a different world.";
+			break;
+		case 16:
+			ovar2 = (object)"Too many incorrect logins from your address. Please wait 5 minutes before trying again.";
+			break;
+		case 17:
+			ovar2 = (object)"You are standing in a members-only area. To play on this world, move to a free area first.";
+			break;
+		case 20:
+			ovar2 = (object)"Invalid loginserver requested. Please try using a different world.";
+			break;
+		case 22:
+			ovar2 = (object)"Malformed login packet. Please try again.";
+			break;
+		case 23:
+			ovar2 = (object)"No reply from login server. Please wait a minute and try again.";
+			break;
+		case 24:
+			ovar2 = (object)"Error loading your profile. Please contact customer support.";
+			break;
+		case 25:
+			ovar2 = (object)"Unexpected loginserver response. Please try using a different world.";
+			break;
+		case 26:
+			ovar2 = (object)"This computer's address has been blocked, as it was used to break our rules.";
+			break;
+		case 27:
+			ovar2 = (object)"Service unavailable.";
+			break;
+		case 36:
+			ovar2 = (object)"Unable to connect: authentication server offline.";
+			break;
+		case 37:
+			ovar2 = (object)"Your account is currently inaccessible. Please try again in a few minutes.";
+			break;
+		case 39:
+			ovar2 = (object)"The instance you tried to join no longer exists. Please try using a different world.";
+			break;
+		case 41:
+			ovar2 = (object)"The instance you tried to join is full. Please try back later or try using a different world.";
+			break;
+		case 44:
+			ovar2 = (object)"Our systems are currently unavailable. Please try again in a few minutes.";
+			break;
+		case 35:
+			ovar2 = (object)"Your session has expired. Please click 'Back' in your browser to renew it.";
+			ovar4 = (object)"Close";
+			break;
+		case 14:
+			ivar8 = 0;
+			ivar10 = 2610;
+			ovar2 = (object)"The server is being updated. Please wait a few minutes and try again.";
+			break;
+		case 6:
+			ivar8 = 0;
+			ivar10 = 2610;
+			ovar2 = (object)"RuneScape has been updated! Please reload this page.";
+			break;
+		case 3:
+			if (globalint_1414 == 1) {
+				ovar2 = (object)("Invalid username or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username.");
+			} else if (globalint_1414 == 2) {
+				ovar2 = (object)("Invalid email or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username.");
+			} else {
+				ovar2 = (object)("Invalid login or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username.");
+			}
+			ovar4 = (object)"Try Again";
+			ivar11 = 1;
+			ovar3 = (object)"Forgotten your password?";
+			break;
+		case 4:
+			ovar2 = (object)"Your account has been disabled. Check your message centre for details.";
+			ivar11 = 1;
+			ovar3 = (object)"Message Centre";
+			break;
+		case 11:
+			ovar2 = (object)"Your password is an extremely common choice, and is not secure. You must change it before you can login.";
+			ivar11 = 1;
+			ovar3 = (object)"Change Password";
+			break;
+		case 18:
+			ivar10 = 2612;
+			ovar2 = (object)"Your account has been locked. If you have not received an account recovery email, please select 'Recover Account'.";
+			ivar11 = 1;
+			ovar3 = (object)"Recover Account";
+			break;
+		case 30:
+			ovar2 = (object)"This is not a member's account; please choose a 'free' world from the website to play on this account.";
+			ivar11 = 1;
+			ovar3 = (object)"Subscribe";
+			break;
+		case 31:
+			ovar2 = (object)"You must change your account's display name before you can login.";
+			ivar11 = 1;
+			ovar3 = (object)"Change Display Name";
+			break;
+		case 19:
+			ovar2 = (object)"Fullscreen is currently a members-only feature. To log in, exit fullscreen via the options menu or use a member's account.";
+			ivar11 = 1;
+			ovar3 = (object)"Subscribe";
+			break;
+		case 12:
+			ovar2 = (object)"You need a member's account to log in to this world. Please subscribe or use a different world.";
+			ivar11 = 1;
+			ovar3 = (object)"Subscribe";
+			break;
+		case 40:
+			ovar2 = (object)"You need a member's account to log in to this world. Please subscribe or use a different world.";
+			ivar11 = 1;
+			ovar3 = (object)"Subscribe";
+			break;
+		case 32:
+			ovar2 = (object)"Your account has negative membership credit. Please log into the billing system to add credit to your account.";
+			ivar11 = 1;
+			ovar3 = (object)"Add Credit";
+			break;
+		case 47:
+			ovar2 = (object)"You need to validate your email address to log in.";
+			break;
+		case 48:
+			ovar2 = (object)("Your game session has now ended." + "<br>" + "<br>" + "To play again, please close your browser tab/window and wait 5 minutes before reloading the game. ");
+			break;
+		case 38:
+			ovar2 = (object)("Your account has not currently been selected to participate in the Evolution of Combat Beta." + "<br>" + "<br>" + "All members will be able to access the beta from 6th July onwards.");
+			ivar11 = 1;
+			ovar3 = (object)"Beta-test Details";
+			break;
+		default:
+			ovar2 = (object)"Unexpected server response. Please try using a different world.";
+	}
+	script_2950(ivar1, ivar8, ivar9, ivar10, ivar11, ivar12, ivar13, ovar2, ovar3, ovar4);
+	cs2method_10732();
+	return;
+}

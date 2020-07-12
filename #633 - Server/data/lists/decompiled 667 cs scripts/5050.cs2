@@ -1,0 +1,10 @@
+void script_5050(int arg0,int arg1,int arg2) {
+	arg0 = multiply(arg0, arg1);
+	if (arg2 == 1) {
+		cs2method_10085(cs2method_10774(72810508), cs2method_10004(add(cs2method_10424(72810508), arg0), 0), 72810508);
+	} else {
+		cs2method_10085(cs2method_10004(add(cs2method_10774(72810508), arg0), 0), cs2method_10424(72810508), 72810508);
+	}
+	script_5053(0, 0);
+	return;
+}

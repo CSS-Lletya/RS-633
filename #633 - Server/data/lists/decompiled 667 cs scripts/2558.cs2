@@ -1,0 +1,12 @@
+void script_2558(int arg0) {
+	if (cs2method_10825(arg0) == 1946) {
+		cs2method_10467(1951, arg0);
+	} else if (cs2method_10825(arg0) == 1947) {
+		cs2method_10467(1952, arg0);
+	} else {
+		if (cs2method_10825(arg0) == 1949) {
+			cs2method_10467(1954, arg0);
+		}
+	}
+	return;
+}

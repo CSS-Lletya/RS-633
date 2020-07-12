@@ -1,0 +1,4 @@
+void script_690() {
+	setWidgetText(new WidgetPointer(667,40), (object)(toString(cs2method_10473()) + " kg"));
+	return;
+}

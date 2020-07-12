@@ -1,0 +1,7 @@
+void script_650(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5) {
+	if (cs2method_10416(6881297) == 0) {
+		return;
+	}
+	script_569(arg0, arg1, arg2, arg3, arg4, arg5);
+	return;
+}

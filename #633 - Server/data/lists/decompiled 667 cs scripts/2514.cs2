@@ -1,0 +1,12 @@
+void script_2514() {
+	setWidgetText(new WidgetPointer(654,11), (object)"0");
+	setWidgetText(new WidgetPointer(654,60), (object)"0");
+	setWidgetText(new WidgetPointer(654,52), (object)"0");
+	setWidgetText(new WidgetPointer(654,44), (object)"0");
+	setWidgetText(new WidgetPointer(654,69), (object)"0");
+	setWidgetText(new WidgetPointer(654,74), (object)"0");
+	if (globalint_839 >= 0) {
+		setWidgetText(new WidgetPointer(654,77), script_46(globalint_839, (object)","));
+	}
+	return;
+}

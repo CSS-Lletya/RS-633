@@ -1,0 +1,12 @@
+void script_521() {
+	globalint_54 = cs2method_10011(20);
+	globalint_55 = cs2method_10011(12);
+	globalint_57 = cs2method_10011(9);
+	globalint_58 = cs2method_10011(7);
+	globalint_60 = cs2method_10011(22);
+	globalint_61 = cs2method_10011(15);
+	globalint_64 = cs2method_10011(6);
+	globalint_66 = cs2method_10011(13);
+	globalint_62 = cs2method_10011(19);
+	return;
+}

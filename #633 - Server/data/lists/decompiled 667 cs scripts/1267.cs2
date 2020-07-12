@@ -1,0 +1,47 @@
+void script_1267() {
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(309,1));
+	script_1088(20250625, 22);
+	clearExtraChildren(new WidgetPointer(309,9));
+	script_333(20250633, 4734771, 3156258, 0, 0);
+	script_2647(20250633);
+	clearExtraChildren(new WidgetPointer(309,12));
+	script_333(20250636, 4734771, 3156258, 0, 0);
+	script_1516(20250636, 380, 100);
+	script_2647(20250636);
+	ovar0 = (object)"Choose a hairstyle";
+	if (cs2method_10855() == 1) {
+		cs2method_10893(cs2method_10956(20250632), cs2method_10090(20250637), 0, 0, 20250637);
+		setWidgetIsHidden(true, new WidgetPointer(309,5));
+		cs2method_20914(2789, 1008, 1015, 2, "Y", new WidgetPointer(309,1));
+		cs2method_20889(-1, "", new WidgetPointer(309,1));
+	} else {
+		cs2method_10893(subtract(cs2method_10956(20250632), add(cs2method_10956(20250629), 5)), cs2method_10090(20250637), 0, 0, 20250637);
+		setWidgetIsHidden(false, new WidgetPointer(309,5));
+		globalint_774 = script_734(bitconfig_6084);
+		cs2method_10467(1048, 20250630);
+		cs2method_10467(1055, 20250631);
+		cs2method_20000(2830, -2147483644, 0, "i1", new WidgetPointer(309,6));
+		cs2method_20000(2830, -2147483644, 1, "i1", new WidgetPointer(309,7));
+		cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(309,22), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(309,6));
+		cs2method_20295(40, new WidgetPointer(309,22), "I", new WidgetPointer(309,6));
+		ovar0 = (object)"Choose your facial hair";
+		cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(309,22), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(309,7));
+		cs2method_20295(40, new WidgetPointer(309,22), "I", new WidgetPointer(309,7));
+		cs2method_20914(2789, 1008, 1009, 1015, 3, "Y", new WidgetPointer(309,1));
+		cs2method_20889(2736, 1057, 1, "Y", new WidgetPointer(309,1));
+	}
+	clearExtraChildren(new WidgetPointer(309,13));
+	script_333(20250637, 4734771, 3156258, 0, 0);
+	createChildWidget(20250637, 6, cs2method_10860(20250637));
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10920();
+	cs2method_10021(5, 15, 40, 1870, 0, 2400);
+	cs2method_10451(9804);
+	script_2647(20250637);
+	clearExtraChildren(new WidgetPointer(309,15));
+	script_2647(20250639);
+	script_2790();
+	return;
+}

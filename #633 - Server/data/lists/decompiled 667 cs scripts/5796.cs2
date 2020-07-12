@@ -1,0 +1,50 @@
+void script_5796(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7) {
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	ivar8 = script_5795(arg0);
+	if (ivar8 == -1) {
+		return;
+	}
+	if (arg2 != -1) {
+		if (getGeneralRequirementAttribute(ivar8, 1270) != 4094) {
+			cs2method_10467(getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(ivar8, 1270)), 952), arg2);
+		} else {
+			cs2method_10467(getGeneralRequirementAttribute(ivar8, 1271), arg2);
+		}
+	}
+	if (arg3 != -1) {
+		setWidgetText(new WidgetPointer(arg3), (object)getGeneralRequirementAttribute(ivar8, 1266));
+	}
+	ovar0 = (object)"";
+	if (arg4 != -1) {
+		ovar0 = (object)getGeneralRequirementAttribute(ivar8, 1273);
+		if (getGeneralRequirementAttribute(ivar8, 1322) == 1 && arg4 != 80019464 && arg4 != 79953938 && arg1 == 1 && bitconfig_9030 == 0) {
+			ovar0 = cs2method_10445(ovar0, (object)("<br>" + "<br>" + "(This Task is not a requirement for the Taskmaster emote.)"));
+		}
+		setWidgetText(new WidgetPointer(arg4), ovar0);
+	}
+	ivar9 = -1;
+	if (arg5 != -1) {
+		ivar9 = getDataByKey('i', 'd', 3492, getGeneralRequirementAttribute(ivar8, 1272));
+		if (script_3996(arg0) == 0 && script_3999(arg0) == 0) {
+			ivar9 = 4346;
+		}
+		cs2method_10467(ivar9, arg5);
+	}
+	ivar10 = -1;
+	if (arg6 != -1) {
+		ivar10 = getDataByKey('i', 'd', 3491, getGeneralRequirementAttribute(ivar8, 1267));
+		cs2method_10467(ivar10, arg6);
+	}
+	ivar11 = -1;
+	if (arg7 != -1) {
+		if (getGeneralRequirementAttribute(ivar8, 1293) != 0 && getGeneralRequirementAttribute(ivar8, 1293) != 63) {
+			ivar11 = 4272;
+		}
+		cs2method_10467(ivar11, arg7);
+	}
+	return;
+}

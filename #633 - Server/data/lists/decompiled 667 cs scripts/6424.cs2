@@ -1,0 +1,28 @@
+int script_6424(int arg0,int arg1) {
+	if (arg1 == 1) {
+		if (getItemAttribute(arg0, 0) != 0) {
+			return 5;
+		}
+		if (getItemAttribute(arg0, 1) != 0) {
+			return 6;
+		}
+		if (getItemAttribute(arg0, 2) != 0) {
+			return 7;
+		}
+	} else {
+		if (arg1 == 2) {
+			switch (getItemAttribute(arg0, 21)) {
+				case 62:
+					return 8;
+				case 63:
+					return 9;
+			}
+			return 10;
+		}
+		if (arg1 == 3) {
+			return 11;
+		}
+		return 0;
+	}
+	return 0;
+}

@@ -1,0 +1,15 @@
+void script_4188(int arg0) {
+	if (arg0 == 70385726) {
+		setWidgetRGB(16711680, 70385721);
+	}
+	if (arg0 == 70385727) {
+		setWidgetRGB(16711680, 70385722);
+	}
+	if (arg0 == 70385728) {
+		setWidgetRGB(16711680, 70385723);
+	}
+	if (arg0 == 70385729) {
+		setWidgetRGB(16711680, 70385724);
+	}
+	return;
+}

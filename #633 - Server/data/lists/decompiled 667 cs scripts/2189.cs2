@@ -1,0 +1,100 @@
+int script_2189(int arg0,int arg1) {
+	switch (arg0) {
+		flow_1:
+			case 1:
+			switch (arg1) {
+				case 0:
+				case 5:
+				case 10:
+				case 11:
+				case 12:
+				case 13:
+				case 14:
+					return 1;
+			}
+			break;
+			case 2:
+			switch (arg1) {
+				case 0:
+				case 1:
+				case 5:
+				case 10:
+				case 11:
+				case 12:
+				case 13:
+				case 14:
+					return 1;
+			}
+			break;
+			case 3:
+			switch (arg1) {
+				case 0:
+				case 1:
+				case 2:
+				case 5:
+				case 6:
+				case 10:
+				case 11:
+				case 12:
+				case 13:
+				case 14:
+					return 1;
+			}
+			break;
+			case 4:
+			switch (arg1) {
+				case 0:
+				case 1:
+				case 2:
+				case 3:
+				case 5:
+				case 6:
+				case 7:
+				case 8:
+				case 10:
+				case 11:
+				case 12:
+				case 13:
+				case 14:
+					return 1;
+			}
+			break;
+			case 5:
+			SWITCH (arg1) {
+				case 0:
+					 GOTO flow_14
+				case 1:
+					 GOTO flow_14
+				case 2:
+					 GOTO flow_14
+				case 3:
+					 GOTO flow_14
+				case 4:
+					 GOTO flow_14
+				case 5:
+					 GOTO flow_14
+				case 6:
+					 GOTO flow_14
+				case 7:
+					 GOTO flow_14
+				case 8:
+					 GOTO flow_14
+				case 9:
+					 GOTO flow_14
+				case 10:
+					 GOTO flow_14
+				case 11:
+					 GOTO flow_14
+				case 12:
+					 GOTO flow_14
+				case 13:
+					 GOTO flow_14
+				case 14:
+					 GOTO flow_14
+			}
+			break;
+		flow_14:
+			return 1;
+	}
+	return 0;
+}

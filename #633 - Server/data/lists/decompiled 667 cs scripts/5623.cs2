@@ -1,0 +1,29 @@
+void script_5623(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10842() == 1) {
+		ivar1 = 1800;
+	} else {
+		ivar1 = multiply(2, divide(cs2method_10090(78577678), 3));
+	}
+	switch (arg0) {
+		case 78577672:
+			cs2method_10444(divide(cs2method_10956(78577678), 2), subtract(0, cs2method_10090(arg0)), 0, 0, arg0);
+			break;
+		case 78577670:
+			cs2method_10444(cs2method_10956(78577678), divide(cs2method_10090(78577678), 2), 0, 0, arg0);
+			break;
+		case 78577666:
+			cs2method_10444(divide(cs2method_10956(78577678), 2), cs2method_10090(78577678), 0, 0, arg0);
+			break;
+		case 78577674:
+			cs2method_10444(subtract(0, cs2method_10956(arg0)), cs2method_10090(78577678), 0, 0, arg0);
+			break;
+		case 78577668:
+			cs2method_10444(subtract(0, cs2method_10956(arg0)), divide(cs2method_10090(78577678), 2), 0, 0, arg0);
+			break;
+		case 78577676:
+			cs2method_10444(subtract(0, cs2method_10956(arg0)), subtract(0, cs2method_10090(arg0)), 0, 0, arg0);
+	}
+	return;
+}

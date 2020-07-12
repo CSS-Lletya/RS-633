@@ -1,0 +1,19 @@
+void script_1755(int arg0,int arg1) {
+	if (globalint_227 > 2) {
+		if (getItemIdInContainerSlot(94, 0) == 8950) {
+			cs2method_10461(15700, arg0);
+		} else {
+			cs2method_10461(15674, arg0);
+		}
+		setWidgetRGB(3407616, arg1);
+	} else {
+		if (getItemIdInContainerSlot(94, 0) == 8950) {
+			cs2method_10461(15699, arg0);
+		} else {
+			cs2method_10461(15673, arg0);
+		}
+		setWidgetRGB(9502720, arg1);
+	}
+	setWidgetText(new WidgetPointer(arg1), (object)toString(globalint_227));
+	return;
+}

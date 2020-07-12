@@ -1,0 +1,20 @@
+void script_3439() {
+	setWidgetIsHidden(false, new WidgetPointer(1128,194));
+	setWidgetIsHidden(false, new WidgetPointer(1128,90));
+	setWidgetIsHidden(false, new WidgetPointer(1128,119));
+	setWidgetIsHidden(false, new WidgetPointer(1128,157));
+	setWidgetIsHidden(false, new WidgetPointer(1128,231));
+	setWidgetIsHidden(false, new WidgetPointer(1128,268));
+	setWidgetIsHidden(false, new WidgetPointer(1128,305));
+	setWidgetText(new WidgetPointer(1128,9), cs2method_10445((object)"20", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,137), cs2method_10445((object)"20", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,175), cs2method_10445((object)"30", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,212), cs2method_10445((object)"28", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,249), cs2method_10445((object)"24", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,286), cs2method_10445((object)"26", (object)("/" + toString(20))));
+	setWidgetText(new WidgetPointer(1128,323), cs2method_10445((object)"200", (object)("/" + toString(200))));
+	setWidgetText(new WidgetPointer(1128,13), (object)toString(bitconfig_5505));
+	script_5389();
+	script_5245();
+	return;
+}

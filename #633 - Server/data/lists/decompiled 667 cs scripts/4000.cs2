@@ -1,0 +1,80 @@
+void script_4000(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	switch (arg0) {
+		case 0:
+			setWidgetIsHidden(true, new WidgetPointer(1056,89));
+			setWidgetIsHidden(true, new WidgetPointer(1056,90));
+			setWidgetIsHidden(false, new WidgetPointer(1056,120));
+			if (compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1753, 1266)) == 0 || compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1752, 1266)) == 0 && standart_config_281 == 1000) {
+				ovar0 = (object)"Click on the Hints tab for more on how to complete this Task.";
+			} else {
+				if (compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1754, 1266)) == 0 || compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1518, 1266)) == 0) {
+					ovar0 = (object)"Remember, the Hints tab provides more details about a Task.";
+				}
+			}
+			if (cs2method_10842() >= 2) {
+				ivar1 = 196;
+				ivar2 = 183;
+				ivar3 = 1;
+				if (cs2method_10956(48889856) < 997) {
+					ivar2 = add(ivar2, 40);
+				}
+			} else {
+				ivar1 = 217;
+				ivar2 = 177;
+			}
+			break;
+		case 1:
+			setWidgetIsHidden(true, new WidgetPointer(1056,89));
+			setWidgetIsHidden(false, new WidgetPointer(1056,90));
+			setWidgetIsHidden(true, new WidgetPointer(1056,120));
+			if (compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1753, 1266)) == 0 || compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1752, 1266)) == 0 && standart_config_281 == 1000) {
+				ovar0 = (object)"Click on the Hints tab for more on how to complete this Task.";
+			} else {
+				if (compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1754, 1266)) == 0 || compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1518, 1266)) == 0) {
+					ovar0 = (object)"Remember, the Hints tab provides more details about a Task.";
+				}
+			}
+			if (cs2method_10842() >= 2) {
+				ivar1 = 196;
+				ivar2 = 183;
+				ivar3 = 1;
+				if (cs2method_10956(48889856) < 997) {
+					ivar2 = add(ivar2, 40);
+				}
+			} else {
+				ivar1 = 217;
+				ivar2 = 177;
+			}
+			break;
+		case 2:
+			setWidgetIsHidden(false, new WidgetPointer(1056,89));
+			setWidgetIsHidden(true, new WidgetPointer(1056,90));
+			setWidgetIsHidden(true, new WidgetPointer(1056,120));
+			if (compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1753, 1266)) == 0 || compareTo(cs2method_10100(69206104), (object)getGeneralRequirementAttribute(1754, 1266)) == 0) {
+				ovar0 = (object)"The '?' icon will add an arrow to the screen which points to your destination.";
+			}
+			if (cs2method_10842() >= 2) {
+				ivar1 = 196;
+				ivar2 = 87;
+				ivar3 = 1;
+				if (cs2method_10956(48889856) < 997) {
+					ivar2 = add(ivar2, 40);
+				}
+			} else {
+				ivar1 = 208;
+				ivar2 = 78;
+			}
+	}
+	if (bitconfig_9030 == 0) {
+		ovar0 = (object)"";
+	}
+	return;
+}

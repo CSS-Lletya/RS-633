@@ -1,0 +1,73 @@
+void script_3060(int arg0) {
+	int stack_dump0;
+	if ((int)getDataByKey('i', 'I', 941, arg0) == -1) {
+		return;
+	}
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, arg0)) == 0) {
+		return;
+	}
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 0));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 1));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 2));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 5));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 3));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 941, 4));
+	setWidgetRGB(15458492, 59375847);
+	setWidgetRGB(15458492, 59375844);
+	setWidgetRGB(15458492, 59375842);
+	setWidgetRGB(15458492, 59375840);
+	setWidgetRGB(15458492, 59375897);
+	setWidgetRGB(15458492, 59375838);
+	cs2method_10467(4672, 59375846);
+	cs2method_10467(4672, 59375643);
+	cs2method_10467(4672, 59375642);
+	cs2method_10467(4672, 59375641);
+	cs2method_10467(4672, 59375896);
+	cs2method_10467(4672, 59375640);
+	cs2method_20333(45, new WidgetPointer(906,231), 16448250, "Ii", new WidgetPointer(906,214));
+	cs2method_20333(45, new WidgetPointer(906,228), 16448250, "Ii", new WidgetPointer(906,215));
+	cs2method_20333(45, new WidgetPointer(906,226), 16448250, "Ii", new WidgetPointer(906,216));
+	cs2method_20333(45, new WidgetPointer(906,224), 16448250, "Ii", new WidgetPointer(906,218));
+	cs2method_20333(45, new WidgetPointer(906,281), 16448250, "Ii", new WidgetPointer(906,217));
+	cs2method_20333(45, new WidgetPointer(906,222), 16448250, "Ii", new WidgetPointer(906,219));
+	cs2method_20295(45, new WidgetPointer(906,231), 15458492, "Ii", new WidgetPointer(906,214));
+	cs2method_20295(45, new WidgetPointer(906,228), 15458492, "Ii", new WidgetPointer(906,215));
+	cs2method_20295(45, new WidgetPointer(906,226), 15458492, "Ii", new WidgetPointer(906,216));
+	cs2method_20295(45, new WidgetPointer(906,224), 15458492, "Ii", new WidgetPointer(906,218));
+	cs2method_20295(45, new WidgetPointer(906,281), 15458492, "Ii", new WidgetPointer(906,217));
+	cs2method_20295(45, new WidgetPointer(906,222), 15458492, "Ii", new WidgetPointer(906,219));
+	if (arg0 != 5) {
+		script_3161(0);
+	}
+	if (arg0 != 3) {
+		script_4556(0);
+	}
+	if (arg0 == 1) {
+		cs2method_10444(0, 3, 1, 2, 59375648);
+		cs2method_10893(655, 26, 0, 1, 59375647);
+		stack_dump0 = 1;
+		/* 
+			mgi.tools.jagdecs2.DecompilerException: Opcode 30527 not decompileable
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:463)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	cs2method_10444(0, 241, 1, 1, 59375648);
+	cs2method_10893(655, 477, 0, 0, 59375647);
+	stack_dump0 = 0;
+	/* 
+		mgi.tools.jagdecs2.DecompilerException: Opcode 30527 not decompileable
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:463)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+			at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+			at tests.Main.main(Main.java:72)
+		
+	 */
+}

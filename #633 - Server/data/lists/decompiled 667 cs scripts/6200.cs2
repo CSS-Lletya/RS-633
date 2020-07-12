@@ -1,0 +1,46 @@
+int script_6200(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	switch (arg0) {
+		case 96:
+			return cs2method_10004(subtract(arg1, 1), 0);
+		case 97:
+			return cs2method_10586(add(arg1, 1), cs2method_10366(arg2));
+		case 98:
+			ivar2 = subtract(arg1, 1);
+			if (arg1 > 0 && cs2method_10339(ivar2, arg2, (object)" ") == ivar2) {
+				return ivar2;
+			}
+			ivar2 = -1;
+			ivar3 = -1;
+			while (ivar4 != 1) {
+				ivar2 = cs2method_10339(add(ivar2, 1), arg2, (object)" ");
+				if (ivar2 == -1 || ivar2 >= subtract(arg1, 1)) {
+					ivar4 = 1;
+				} else {
+					ivar3 = ivar2;
+				}
+			}
+			return cs2method_10586(add(ivar3, 1), cs2method_10366(arg2));
+		case 99:
+			if (cs2method_10339(arg1, arg2, (object)" ") == arg1) {
+				return cs2method_10586(add(arg1, 1), cs2method_10366(arg2));
+			}
+			ivar2 = cs2method_10366(arg2);
+			if (arg1 < ivar2) {
+				ivar3 = cs2method_10339(add(arg1, 1), arg2, (object)" ");
+				if (ivar3 != -1) {
+					return ivar3;
+				}
+				return ivar2;
+			}
+			break;
+		case 102:
+			return 0;
+	}
+	return cs2method_10366(arg2);
+}

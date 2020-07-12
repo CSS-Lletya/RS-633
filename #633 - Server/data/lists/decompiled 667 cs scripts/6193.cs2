@@ -1,0 +1,6 @@
+void script_6193() {
+	globalstring_363 = "";
+	globalstring_364 = "";
+	script_6190();
+	return;
+}

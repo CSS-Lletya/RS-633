@@ -1,0 +1,38 @@
+void script_737(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	if (globalint_99 == 0) {
+		globalint_99 = arg0;
+		return;
+	}
+	if (globalint_100 == 0) {
+		globalint_100 = arg0;
+		return;
+	}
+	if (globalint_101 == 0) {
+		globalint_101 = arg0;
+		if (script_739(globalint_99) == script_739(globalint_100) && script_739(globalint_99) == script_739(globalint_101)) {
+			ivar1 = getDataByKey('i', 'm', 1152, script_739(globalint_99));
+			cs2method_10461(ivar1, (int)getDataByKey('i', 'I', 1153, globalint_99));
+			cs2method_10461(ivar1, (int)getDataByKey('i', 'I', 1153, globalint_100));
+			cs2method_10461(ivar1, (int)getDataByKey('i', 'I', 1153, globalint_101));
+			globalint_104 = cs2method_10405(globalint_104, script_739(globalint_99));
+			globalint_99 = 0;
+			globalint_100 = 0;
+			globalint_101 = 0;
+			globalint_102 = add(globalint_102, 1);
+			globalint_105 = subtract(globalint_105, 1);
+			script_738();
+		}
+		return;
+	}
+	cs2method_10461(31025, (int)getDataByKey('i', 'I', 1153, globalint_99));
+	cs2method_10461(31025, (int)getDataByKey('i', 'I', 1153, globalint_100));
+	cs2method_10461(31025, (int)getDataByKey('i', 'I', 1153, globalint_101));
+	globalint_99 = arg0;
+	globalint_100 = 0;
+	globalint_101 = 0;
+	globalint_105 = subtract(globalint_105, 1);
+	script_738();
+	return;
+}

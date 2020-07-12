@@ -1,0 +1,14 @@
+void script_1661(int arg0,int arg1,int arg2) {
+	clearExtraChildren(new WidgetPointer(arg2));
+	if (bitconfig_4895 != 3 || standart_config_281 != 55) {
+		cs2method_20219(-1, "", new WidgetPointer(arg2));
+		return;
+	}
+	createChildWidget(arg2, 6, 0);
+	cs2method_10272(41760);
+	cs2method_10451(10221);
+	setWidgetSize(43, 43, 0, 0);
+	script_1663(arg0, arg1, arg2);
+	cs2method_20219(1662, new WidgetPointer(arg0), arg1, new WidgetPointer(arg2), "IiI", new WidgetPointer(arg2));
+	return;
+}

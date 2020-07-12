@@ -1,0 +1,10 @@
+void script_1094() {
+	if (standart_config_1241 == 1) {
+		script_1095();
+	} else if (standart_config_1241 == 2) {
+		script_5229();
+	} else {
+		script_1096();
+	}
+	return;
+}

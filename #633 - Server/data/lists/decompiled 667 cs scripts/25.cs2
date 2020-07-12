@@ -1,0 +1,94 @@
+void script_25() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	if (ivar0 != 0) {
+		if (cs2method_10184(ivar0, 0) == 1) {
+			ivar1 = cs2method_10405(ivar1, 0);
+		}
+		if (cs2method_10184(ivar0, 1) == 1) {
+			ivar1 = cs2method_10405(ivar1, 1);
+		}
+		if (cs2method_10184(ivar0, 2) == 1) {
+			ivar1 = cs2method_10405(ivar1, 2);
+		}
+		if (cs2method_10184(ivar0, 3) == 1) {
+			ivar1 = cs2method_10405(ivar1, 3);
+		}
+		globalint_996 = ivar1;
+		ivar1 = 0;
+		if (cs2method_10184(ivar0, 4) == 1) {
+			ivar1 = cs2method_10405(ivar1, 0);
+		}
+		if (cs2method_10184(ivar0, 5) == 1) {
+			ivar1 = cs2method_10405(ivar1, 1);
+		}
+		if (cs2method_10184(ivar0, 6) == 1) {
+			ivar1 = cs2method_10405(ivar1, 2);
+		}
+		if (cs2method_10184(ivar0, 7) == 1) {
+			ivar1 = cs2method_10405(ivar1, 3);
+		}
+		globalint_997 = ivar1;
+		ivar1 = 0;
+		if (cs2method_10184(ivar0, 14) == 1) {
+			ivar1 = cs2method_10405(ivar1, 0);
+		}
+		if (cs2method_10184(ivar0, 15) == 1) {
+			ivar1 = cs2method_10405(ivar1, 1);
+		}
+		if (cs2method_10184(ivar0, 16) == 1) {
+			ivar1 = cs2method_10405(ivar1, 2);
+		}
+		if (cs2method_10184(ivar0, 17) == 1) {
+			ivar1 = cs2method_10405(ivar1, 3);
+		}
+		if (cs2method_10184(ivar0, 18) == 1) {
+			ivar1 = cs2method_10405(ivar1, 4);
+		}
+		if (cs2method_10184(ivar0, 19) == 1) {
+			ivar1 = cs2method_10405(ivar1, 5);
+		}
+		if (cs2method_10184(ivar0, 20) == 1) {
+			ivar1 = cs2method_10405(ivar1, 6);
+		}
+		if (cs2method_10184(ivar0, 21) == 1) {
+			ivar1 = cs2method_10405(ivar1, 7);
+		}
+		if (cs2method_10184(ivar0, 22) == 1) {
+			ivar1 = cs2method_10405(ivar1, 8);
+		}
+		globalint_998 = ivar1;
+		ivar1 = 0;
+		if (cs2method_10184(ivar0, 23) == 1) {
+			ivar1 = cs2method_10405(ivar1, 0);
+		}
+		if (cs2method_10184(ivar0, 24) == 1) {
+			ivar1 = cs2method_10405(ivar1, 1);
+		}
+		if (cs2method_10184(ivar0, 25) == 1) {
+			ivar1 = cs2method_10405(ivar1, 2);
+		}
+		if (cs2method_10184(ivar0, 26) == 1) {
+			ivar1 = cs2method_10405(ivar1, 3);
+		}
+		if (cs2method_10184(ivar0, 27) == 1) {
+			ivar1 = cs2method_10405(ivar1, 4);
+		}
+		if (cs2method_10184(ivar0, 28) == 1) {
+			ivar1 = cs2method_10405(ivar1, 5);
+		}
+		if (cs2method_10184(ivar0, 29) == 1) {
+			ivar1 = cs2method_10405(ivar1, 6);
+		}
+		if (cs2method_10184(ivar0, 30) == 1) {
+			ivar1 = cs2method_10405(ivar1, 7);
+		}
+		if (cs2method_10184(ivar0, 31) == 1) {
+			ivar1 = cs2method_10405(ivar1, 8);
+		}
+		globalint_999 = ivar1;
+	}
+	return;
+}

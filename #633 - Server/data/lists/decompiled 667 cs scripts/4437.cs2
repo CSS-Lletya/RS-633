@@ -1,0 +1,14 @@
+void script_4437() {
+	setWidgetIsHidden(true, new WidgetPointer(1110,28));
+	cs2method_10831(72744988);
+	cs2method_10085(0, 0, 72744986);
+	setWidgetIsHidden(false, new WidgetPointer(1110,30));
+	script_31(72744990, 72744986, 5666, 5663, 5664, 5665, 5686, 5685);
+	cs2method_10467(6256, 72745043);
+	setWidgetIsHidden(true, new WidgetPointer(1110,13));
+	cs2method_10893(1, 19, 0, 0, 72744980);
+	globalint_1518 = -1;
+	globalstring_126 = "";
+	setWidgetText(new WidgetPointer(1110,27), (object)"");
+	return;
+}

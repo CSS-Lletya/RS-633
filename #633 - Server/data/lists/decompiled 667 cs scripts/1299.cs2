@@ -1,0 +1,62 @@
+void script_1299(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	cs2method_20889(2354, 2411, 1, "Y", new WidgetPointer(906,0));
+	cs2method_20889(5950, 2536, 1, "Y", new WidgetPointer(906,236));
+	cs2method_10149(0, 59375952);
+	if (arg1 == 0) {
+		script_2710(59375644, 59375645, 59375646, 59703315, 59703321, 59703320);
+	}
+	cs2method_10467(4140, 59375879);
+	cs2method_10467(4139, 59375880);
+	cs2method_10467(4141, 59375881);
+	cs2method_10467(4142, 59375882);
+	cs2method_10467(4144, 59375883);
+	cs2method_10467(4143, 59375884);
+	cs2method_10467(4145, 59375885);
+	cs2method_10467(4146, 59375886);
+	cs2method_10467(4129, 59375888);
+	cs2method_10467(4129, 59375890);
+	cs2method_10467(4129, 59375893);
+	cs2method_10467(4065, 59375859);
+	cs2method_10533(1, 59375859);
+	cs2method_10967(1, 59375859);
+	cs2method_10467(4065, 59375863);
+	cs2method_10533(1, 59375863);
+	cs2method_10967(0, 59375863);
+	cs2method_10467(4065, 59375860);
+	cs2method_10533(0, 59375860);
+	cs2method_10967(1, 59375860);
+	cs2method_10467(4065, 59375864);
+	cs2method_10533(0, 59375864);
+	cs2method_10967(0, 59375864);
+	cs2method_20374(4040, "", new WidgetPointer(906,0));
+	ivar2 = cs2method_10339(0, (object)globalstring_32, (object)"@");
+	if (ivar2 == -1) {
+		globalint_1414 = 1;
+	} else {
+		globalint_1414 = 2;
+	}
+	script_3097();
+	script_3058();
+	script_3060(0);
+	script_3064(1);
+	globalstring_277 = "";
+	globalint_547 = 0;
+	cs2method_10998((object)"Welcome to the RuneScape Lobby.");
+	cs2method_10986(43, 0, (object)"Welcome to the RuneScape Lobby.");
+	if (cs2method_10062() == 1) {
+		cs2method_10998((object)"Users restricted to quick-chat cannot send messages from the Lobby.");
+		cs2method_10986(43, 0, (object)"Users restricted to quick-chat cannot send messages from the Lobby.");
+	}
+	script_51();
+	setScriptCallOnKeyPress(1328, -2147483640, "i", new WidgetPointer(906,0));
+	ovar0 = script_2781();
+	if (cs2method_10366(ovar0) > 0) {
+		script_2779(-3000, 0, 0, 2607, 1, 0, 1, 350, (object)((string)ovar0 + "<br>" + " "), (object)"Re-Subscribe Now", (object)"Re-Subscribe Now", (object)"Close", (object)"Close");
+	}
+	cs2method_20219(1868, new WidgetPointer(906,32), "I", new WidgetPointer(906,32));
+	script_4041();
+	cs2method_20219(5954, new WidgetPointer(906,336), "I", new WidgetPointer(906,335));
+	return;
+}

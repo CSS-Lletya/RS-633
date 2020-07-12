@@ -1,0 +1,15 @@
+void script_1516(int arg0,int arg1,int arg2) {
+	createChildWidget(arg0, 6, cs2method_10860(arg0));
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10912();
+	cs2method_10021(0, arg2, 0, 0, 0, arg1);
+	if (globalint_779 != -1) {
+		cs2method_10451(cs2method_10809(globalint_779));
+	} else {
+		cs2method_10451(cs2method_10809(1426));
+	}
+	cs2method_20481(1517, new WidgetPointer(-32768,3), -2147483643, 779, 1, "IiY");
+	cs2method_20723(347, new WidgetPointer(-32768,3), -2147483643, -2147483647, "Iii");
+	return;
+}

@@ -1,0 +1,9 @@
+void script_5652() {
+	int ivar0;
+	int ivar1;
+	ivar0 = cs2method_10004(cs2method_10004(cs2method_10956(79626244), cs2method_10956(79626246)), cs2method_10956(79626248));
+	ivar0 = add(add(ivar0, 43), cs2method_10004(cs2method_10004(cs2method_10355(cs2method_10894(79626250), cs2method_10100(79626250)), cs2method_10355(cs2method_10894(79626251), cs2method_10100(79626251))), cs2method_10355(cs2method_10894(79626252), cs2method_10100(79626252))));
+	ivar1 = add(add(multiply(bitconfig_10444, 25), multiply(bitconfig_10445, 25)), multiply(bitconfig_10446, 25));
+	cs2method_10893(cs2method_10004(ivar0, 1), cs2method_10004(ivar1, 1), 0, 0, 79626241);
+	return;
+}

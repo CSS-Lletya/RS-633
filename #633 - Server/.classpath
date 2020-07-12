@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="fs"/>
+	<classpathentry kind="src" path="data/scripts"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="data/libs/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/groovy-all-2.1.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

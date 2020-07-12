@@ -1,0 +1,84 @@
+void script_5433(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 8154;
+	switch (globalint_1664) {
+		case 1:
+			ivar2 = 8154;
+			break;
+		case 2:
+			ivar2 = 8160;
+			break;
+		case 3:
+			ivar2 = 8161;
+			break;
+		case 4:
+			ivar2 = 8157;
+			break;
+		case 5:
+			ivar2 = 8163;
+			break;
+		case 6:
+			ivar2 = 8164;
+			break;
+		case 7:
+			ivar2 = 8162;
+			break;
+		case 8:
+			ivar2 = 8155;
+			break;
+		case 9:
+			ivar2 = 8167;
+			break;
+		case 10:
+			ivar2 = 8175;
+			break;
+		case 11:
+			ivar2 = 8169;
+			break;
+		case 12:
+			ivar2 = 8166;
+			break;
+		case 13:
+			ivar2 = 8156;
+			break;
+		case 14:
+			ivar2 = 8168;
+			break;
+		case 15:
+			ivar2 = 8171;
+			break;
+		case 16:
+			ivar2 = 8159;
+			break;
+		case 17:
+			ivar2 = 8172;
+			break;
+		case 18:
+			ivar2 = 8165;
+			break;
+		case 19:
+			ivar2 = 8158;
+			break;
+		case 20:
+			ivar2 = 8173;
+			break;
+		case 21:
+			ivar2 = 8170;
+			break;
+		case 22:
+			ivar2 = 8174;
+			break;
+		default:
+			ivar2 = 8154;
+	}
+	createChildWidget(76480513, 5, arg0);
+	cs2method_10469(ivar2);
+	setWidgetSize(80, 80, 0, 0);
+	setWidgetPosition(0, arg1, 1, 0);
+	if (globalint_1664 < 22) {
+		globalint_1664 = add(globalint_1664, 1);
+	} else {
+		globalint_1664 = 1;
+	}
+	return;
+}

@@ -1,0 +1,46 @@
+int script_932(int arg0) {
+	int ivar1;
+	ivar1 = getItemAttribute(arg0, 764);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 765);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 766);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 767);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 768);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 769);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	return 1;
+}

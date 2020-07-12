@@ -1,0 +1,6 @@
+void script_5953() {
+	script_3097();
+	script_3093(-3, 0, 1, -1, 0, -1, 0, (object)"Logging In - Please Wait", (object)"", (object)"", (object)"", (object)"");
+	cs2method_10945();
+	return;
+}

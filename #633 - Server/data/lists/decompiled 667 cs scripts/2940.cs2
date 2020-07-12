@@ -1,0 +1,36 @@
+void script_2940(int arg0) {
+	int ivar1;
+	flow_0:
+		ivar1 = script_2948();
+		IF (ivar1 == -3) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (arg0 != 13) 
+			GOTO	flow_3
+	flow_2:
+		IF (ivar1 == 21 || ivar1 == 1) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_3:
+		return;
+	flow_4:
+		setWidgetText(new WidgetPointer(596,70), (object)globalstring_32);
+		setWidgetText(new WidgetPointer(596,76), script_2949((object)globalstring_33));
+		if (cs2method_10366((object)globalstring_32) > 0) {
+			globalint_174 = 4;
+		} else {
+			globalint_174 = 3;
+		}
+		if (globalint_174 == 3) {
+			globalint_1099 = cs2method_10366((object)globalstring_32);
+			script_3237(39059525, 39059526, 39059527, 3, (object)globalstring_32);
+		} else {
+			globalint_1099 = cs2method_10366(script_2949((object)globalstring_33));
+			script_3237(39059531, 39059532, 39059533, 4, script_2949((object)globalstring_33));
+		}
+		setWidgetIsHidden(false, new WidgetPointer(744,26));
+		setWidgetIsHidden(false, new WidgetPointer(596,5));
+		script_3964();
+		return;
+}

@@ -1,0 +1,25 @@
+void script_1440(int arg0) {
+	switch (arg0) {
+		case 40173583:
+			cs2method_10274(standart_config_1068, 1, 40173583);
+			break;
+		case 40173584:
+			cs2method_10274(standart_config_1069, 1, 40173584);
+			break;
+		case 40173585:
+			cs2method_10274(standart_config_1070, 1, 40173585);
+			break;
+		case 40173577:
+			cs2method_10274(standart_config_1065, 1, 40173577);
+			break;
+		case 40173578:
+			cs2method_10274(standart_config_1066, 1, 40173578);
+			break;
+		case 40173579:
+			cs2method_10274(standart_config_1067, 1, 40173579);
+			break;
+		case 40173580:
+			cs2method_10274(standart_config_856, 1, 40173580);
+	}
+	return;
+}

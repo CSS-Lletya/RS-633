@@ -1,0 +1,9 @@
+void script_2139(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (cs2method_10551(arg1, 3) == 1) {
+		cs2method_10021(arg3, arg4, AND(add(cs2method_10221(), 25), 2047), AND(add(cs2method_10057(), 25), 2047), AND(add(cs2method_10022(), 25), 2047), cs2method_10142());
+	}
+	return;
+}

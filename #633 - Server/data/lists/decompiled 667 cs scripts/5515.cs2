@@ -1,0 +1,118 @@
+void script_5515(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int stack_dump0;
+	ivar2 = cs2method_10860(arg0);
+	ivar3 = 0;
+	ivar4 = cs2method_10004(84, add(cs2method_10355(4040, arg2), 22));
+	ivar5 = script_3365(arg1);
+	ivar6 = script_3366(arg1);
+	ivar7 = subtract(add(ivar5, divide(cs2method_10956(arg1), 2)), 6);
+	ivar8 = 0;
+	if (subtract(ivar5, 4) <= subtract(cs2method_10956(arg0), ivar4)) {
+		ivar8 = subtract(ivar5, 4);
+	} else {
+		ivar8 = subtract(cs2method_10956(arg0), ivar4);
+	}
+	ivar9 = subtract(ivar6, 38);
+	if (cs2method_10403(arg1) == 1) {
+		stack_dump0 = 358;
+		/* 
+			java.lang.RuntimeException: Stack underflow
+				at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(ivar8, ivar9, 0, 0);
+	setWidgetSize(10, 11, 0, 0);
+	cs2method_10469(8511);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(subtract(add(ivar8, ivar4), 10), ivar9, 0, 0);
+	setWidgetSize(10, 11, 0, 0);
+	cs2method_10469(8513);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(subtract(add(ivar8, ivar4), 10), add(ivar9, 18), 0, 0);
+	setWidgetSize(10, 11, 0, 0);
+	cs2method_10469(8519);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(ivar8, add(ivar9, 18), 0, 0);
+	setWidgetSize(10, 11, 0, 0);
+	cs2method_10469(8517);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(add(ivar8, 10), ivar9, 0, 0);
+	setWidgetSize(subtract(ivar4, 20), 11, 0, 0);
+	cs2method_10469(8512);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(add(ivar8, 10), add(ivar9, 18), 0, 0);
+	setWidgetSize(subtract(ivar4, 20), 11, 0, 0);
+	cs2method_10469(8518);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(ivar8, add(ivar9, 11), 0, 0);
+	setWidgetSize(10, 7, 0, 0);
+	cs2method_10469(8514);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(subtract(add(ivar8, ivar4), 10), add(ivar9, 11), 0, 0);
+	setWidgetSize(10, 7, 0, 0);
+	cs2method_10469(8516);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(add(ivar8, 10), add(ivar9, 11), 0, 0);
+	setWidgetSize(subtract(ivar4, 20), 7, 0, 0);
+	cs2method_10469(8515);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(ivar7, add(ivar9, 24), 0, 0);
+	setWidgetSize(12, 12, 0, 0);
+	cs2method_10469(8541);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	ivar2 = add(ivar2, 1);
+	createChildWidget(arg0, 4, ivar2);
+	setWidgetPosition(ivar8, ivar9, 0, 0);
+	setWidgetSize(ivar4, 29, 0, 0);
+	setWidgetText(arg2);
+	setWidgetFont(4040);
+	setWidgetRGB(new Color(245, 178, 65));
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_10305(255);
+	cs2method_20745(5517, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	return;
+}

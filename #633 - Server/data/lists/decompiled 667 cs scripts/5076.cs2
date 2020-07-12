@@ -1,0 +1,21 @@
+void script_5076(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 0;
+	ivar3 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (cs2method_10140() == 1) {
+			ivar2 = divide(subtract(cs2method_10916(72810508), cs2method_10956(72810508)), 2);
+			ivar3 = ivar2;
+		} else {
+			ivar2 = subtract(add(cs2method_10646(), divide(cs2method_10040(), 2)), divide(cs2method_10956(72810508), 2));
+			ivar3 = subtract(add(cs2method_10207(), divide(cs2method_10630(), 2)), divide(cs2method_10090(72810508), 2));
+		}
+	} else {
+		ivar2 = divide(subtract(cs2method_10916(72810508), cs2method_10956(72810508)), 2);
+		ivar3 = ivar2;
+	}
+	cs2method_10085(ivar2, ivar3, 72810508);
+	script_5053(0, 0);
+	return;
+}

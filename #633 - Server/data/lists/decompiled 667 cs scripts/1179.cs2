@@ -1,0 +1,18 @@
+void script_1179() {
+	if (bitconfig_7232 == 1) {
+		if (cs2method_10145() == 1) {
+			cs2method_10467(5571, 35913766);
+			cs2method_10467(8640, 48889909);
+		} else {
+			cs2method_10467(5569, 35913766);
+			cs2method_10467(8638, 48889909);
+		}
+	} else if (cs2method_10145() == 1) {
+		cs2method_10467(2715, 35913766);
+		cs2method_10467(8636, 48889909);
+	} else {
+		cs2method_10467(2731, 35913766);
+		cs2method_10467(8634, 48889909);
+	}
+	return;
+}

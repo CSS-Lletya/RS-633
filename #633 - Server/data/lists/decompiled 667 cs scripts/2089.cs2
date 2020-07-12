@@ -1,0 +1,18 @@
+void script_2089() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar0 = getDataByKey('i', 'i', 723, globalint_647);
+	ivar1 = getDataByKey('i', 'i', 2196, globalint_647);
+	if (globalint_647 < 15) {
+		setWidgetRGB(3368703, 54788164);
+	} else if (globalint_647 > 15) {
+		setWidgetRGB(14754595, 54788164);
+	} else {
+		setWidgetRGB(6710886, 54788164);
+	}
+	cs2method_10444(ivar0, 66, 2, 0, 54788164);
+	cs2method_10893(ivar1, 8, 0, 0, 54788164);
+	return;
+}

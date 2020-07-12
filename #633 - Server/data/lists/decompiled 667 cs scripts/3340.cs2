@@ -1,0 +1,33 @@
+void script_3340(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = -1;
+	if (cs2method_10145() == 1) {
+		if (globalint_1176 == 0) {
+			ivar1 = 3068;
+			ivar2 = 3067;
+			ivar3 = 3069;
+		} else {
+			ivar1 = 3071;
+			ivar2 = 3070;
+			ivar3 = 3072;
+		}
+	} else if (globalint_1176 == 0) {
+		ivar1 = 3014;
+		ivar2 = 3013;
+		ivar3 = 3015;
+	} else {
+		ivar1 = 3017;
+		ivar2 = 3016;
+		ivar3 = 3018;
+	}
+	cs2method_10467(ivar2, arg0);
+	cs2method_20333(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(arg0));
+	cs2method_20295(44, new WidgetPointer(-32768,3), ivar2, "Id", new WidgetPointer(arg0));
+	setScriptCallOnMousePressed(44, new WidgetPointer(-32768,3), ivar3, "Id", new WidgetPointer(arg0));
+	script_41(61538418);
+	return;
+}

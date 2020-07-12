@@ -1,0 +1,10 @@
+void script_1242(int arg0) {
+	int ivar1;
+	cs2method_10467(3152, arg0);
+	setScriptCallOnMousePressed(1950, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+	ivar1 = cs2method_10273(0, add(subtract(cs2method_10565(cs2method_10687()), cs2method_10620(cs2method_10565(cs2method_10687()), 64)), 13), 0, add(subtract(cs2method_10130(cs2method_10687()), cs2method_10620(cs2method_10130(cs2method_10687()), 64)), 23));
+	cs2method_10141(ivar1);
+	cs2method_10258(ivar1, 25, 100, 10);
+	cs2method_10583(cs2method_10273(ivar1, 11, 0, 0), 2600, 100, 10);
+	return;
+}

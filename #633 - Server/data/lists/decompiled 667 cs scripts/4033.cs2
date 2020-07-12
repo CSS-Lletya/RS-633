@@ -1,0 +1,3 @@
+object script_4033(int arg0) {
+	return cs2method_10788(cs2method_10344(arg0));
+}

@@ -1,0 +1,9 @@
+void script_5776() {
+	int ivar0;
+	ivar0 = 0;
+	if (bitconfig_8578 != 0) {
+		ivar0 = 1;
+	}
+	script_5777(bitconfig_8578, ivar0);
+	return;
+}

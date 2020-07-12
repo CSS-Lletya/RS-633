@@ -1,0 +1,27 @@
+int script_1469() {
+	if (bitconfig_4885 == 0) {
+		return 2;
+	}
+	if (bitconfig_4886 == 0) {
+		return 3;
+	}
+	if (bitconfig_4887 == 0) {
+		return 4;
+	}
+	if (bitconfig_4888 == 0) {
+		return 5;
+	}
+	if (bitconfig_4889 == 0) {
+		return 6;
+	}
+	if (bitconfig_4890 == 0) {
+		return 7;
+	}
+	if (bitconfig_4891 == 0) {
+		return 8;
+	}
+	if (bitconfig_4892 == 0) {
+		return 9;
+	}
+	return -1;
+}

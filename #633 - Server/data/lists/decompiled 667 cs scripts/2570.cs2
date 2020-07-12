@@ -1,0 +1,97 @@
+void script_2570() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = -1;
+	globalint_930 = -1;
+	globalint_931 = -1;
+	globalint_932 = -1;
+	globalint_933 = -1;
+	globalint_934 = -1;
+	globalint_935 = -1;
+	globalint_936 = -1;
+	globalint_937 = -1;
+	globalint_938 = -1;
+	globalint_939 = -1;
+	if (bitconfig_6429 > 0 && bitconfig_6429 < 11) {
+		globalint_929 = subtract(bitconfig_6429, 1);
+	} else {
+		globalint_929 = 0;
+	}
+	while (ivar1 < 10 && ivar0 < 28) {
+		ivar2 = getItemIdInContainerSlot(93, ivar0);
+		if (getItemAttribute(ivar2, 802) == 1 || getItemAttribute(ivar2, 803) == 1) {
+			setWidgetText(getDataByKey('i', 'I', 2423, ivar1), (object)("Squad " + toString(add(ivar1, 1))));
+			if (getItemAttribute(ivar2, 806) == 0) {
+				cs2method_10467(2023, (int)getDataByKey('i', 'I', 2427, ivar1));
+			} else {
+				if (getItemAttribute(ivar2, 806) == 1) {
+					cs2method_10467(2022, (int)getDataByKey('i', 'I', 2427, ivar1));
+				}
+			}
+			if (getItemAttribute(ivar2, 805) == 1) {
+				cs2method_10467(2016, (int)getDataByKey('i', 'I', 2426, ivar1));
+			} else if (getItemAttribute(ivar2, 805) == 2) {
+				cs2method_10467(2018, (int)getDataByKey('i', 'I', 2426, ivar1));
+			} else {
+				if (getItemAttribute(ivar2, 805) == 3) {
+					cs2method_10467(2017, (int)getDataByKey('i', 'I', 2426, ivar1));
+				}
+			}
+			if (getItemAttribute(ivar2, 803) == 1) {
+				setWidgetRGB(13369344, (int)getDataByKey('i', 'I', 2429, ivar1));
+			} else {
+				setWidgetRGB(0, (int)getDataByKey('i', 'I', 2429, ivar1));
+			}
+			switch (ivar1) {
+				case 0:
+					globalint_930 = ivar0;
+					break;
+				case 1:
+					globalint_931 = ivar0;
+					break;
+				case 2:
+					globalint_932 = ivar0;
+					break;
+				case 3:
+					globalint_933 = ivar0;
+					break;
+				case 4:
+					globalint_934 = ivar0;
+					break;
+				case 5:
+					globalint_935 = ivar0;
+					break;
+				case 6:
+					globalint_936 = ivar0;
+					break;
+				case 7:
+					globalint_937 = ivar0;
+					break;
+				case 8:
+					globalint_938 = ivar0;
+					break;
+				case 9:
+					globalint_939 = ivar0;
+			}
+			ivar1 = add(ivar1, 1);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	if (ivar1 < 10 && ivar1 < 10) {
+		while (true) {
+			setWidgetText(getDataByKey('i', 'I', 2423, ivar1), (object)"No squad");
+			setWidgetText(getDataByKey('i', 'I', 2424, ivar1), (object)"");
+			cs2method_10467(-1, (int)getDataByKey('i', 'I', 2427, ivar1));
+			cs2method_10467(-1, (int)getDataByKey('i', 'I', 2426, ivar1));
+			cs2method_20000(-1, "", getDataByKey('i', 'I', 2422, ivar1));
+			cs2method_10831((int)getDataByKey('i', 'I', 2422, ivar1));
+			ivar1 = add(ivar1, 1);
+		}
+	}
+	script_2599();
+	script_2573();
+	return;
+}

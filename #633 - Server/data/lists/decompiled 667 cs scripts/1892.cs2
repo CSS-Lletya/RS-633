@@ -1,0 +1,12 @@
+void script_1892(int arg0,int arg1) {
+	cs2method_20694(1893, new WidgetPointer(arg0), new WidgetPointer(arg1), "II", new WidgetPointer(arg0));
+	setWidgetScrollMax(0, 0, arg0);
+	cs2method_10085(0, 0, arg0);
+	script_31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685);
+	script_1895(arg0, arg1);
+	if (cs2method_10062() == 1) {
+		setWidgetText(new WidgetPointer(1108,0), (object)"Friends Chat channel:");
+		cs2method_10375(1, 72613889, (object)"Enable");
+	}
+	return;
+}

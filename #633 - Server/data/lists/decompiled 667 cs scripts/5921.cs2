@@ -1,0 +1,13 @@
+void script_5921() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 82116636;
+	ivar1 = 82116656;
+	cs2method_10444(118, -16, 1, 1, ivar1);
+	setWidgetIsHidden(true, new WidgetPointer(ivar0));
+	setWidgetIsHidden(false, new WidgetPointer(ivar1));
+	cs2method_20219(5922, new WidgetPointer(-32768,3), 118, "Ii", new WidgetPointer(ivar1));
+	globalint_1784 = 0;
+	cs2method_10492(9882, 1, 0, 100, 127);
+	return;
+}

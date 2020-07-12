@@ -1,0 +1,9 @@
+void script_5299() {
+	if (bitconfig_9891 == 1) {
+		bitconfig_9891 = 0;
+	} else {
+		bitconfig_9891 = 1;
+	}
+	script_5301();
+	return;
+}

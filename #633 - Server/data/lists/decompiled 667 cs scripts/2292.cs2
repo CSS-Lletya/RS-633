@@ -1,0 +1,5 @@
+void script_2292(int arg0,int arg1) {
+	cs2method_10467(939, arg1);
+	setWidgetRGB(16737310, arg0);
+	return;
+}

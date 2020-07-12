@@ -1,0 +1,8 @@
+void script_4628() {
+	globalint_1518 = -1;
+	globalstring_126 = "";
+	if (cs2method_10403(72744980) == 1) {
+		cs2method_20745(4629, 0, "i");
+	}
+	return;
+}

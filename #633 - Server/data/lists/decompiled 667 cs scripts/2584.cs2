@@ -1,0 +1,13 @@
+void script_2584() {
+	setWidgetRGB(16750901, 19136629);
+	cs2method_10375(1, 19136614, (object)"Select dwarf");
+	cs2method_10375(1, 19136616, (object)"Select goblin");
+	cs2method_10375(1, 19136615, (object)"Select elf");
+	cs2method_20000(2586, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,102));
+	cs2method_20000(2586, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,104));
+	cs2method_20000(2586, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,103));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,102));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,104));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,103));
+	return;
+}

@@ -1,0 +1,22 @@
+void script_6435(int arg0,int arg1) {
+	if (subtract(cs2method_10878(), arg1) < 85) {
+		return;
+	}
+	if (cs2method_10740(arg0) == 85655553) {
+		cs2method_10461(-1, arg0);
+		cs2method_10444(462, cs2method_10826(arg0), 0, 0, arg0);
+		cs2method_20219(6432, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	} else {
+		if (cs2method_10740(arg0) == 85655554) {
+			cs2method_10461(-1, arg0);
+			cs2method_10444(462, cs2method_10826(arg0), 0, 0, arg0);
+			cs2method_20219(6432, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+		}
+	}
+	if (cs2method_10740(arg0) == 85655555) {
+		cs2method_10461(-1, arg0);
+		cs2method_10444(cs2method_10111(arg0), -20, 0, 0, arg0);
+		cs2method_20219(6432, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	}
+	return;
+}

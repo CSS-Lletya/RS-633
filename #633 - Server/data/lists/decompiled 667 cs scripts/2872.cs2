@@ -1,0 +1,31 @@
+void script_2872() {
+	if (globalint_1077 == 1) {
+		cs2method_10467(2432, 12255245);
+		script_2878();
+		setWidgetIsHidden(true, new WidgetPointer(187,1));
+		setWidgetIsHidden(true, new WidgetPointer(187,2));
+		setWidgetIsHidden(true, new WidgetPointer(187,18));
+		setWidgetIsHidden(true, new WidgetPointer(187,19));
+		setWidgetIsHidden(false, new WidgetPointer(187,9));
+		setWidgetIsHidden(false, new WidgetPointer(187,11));
+		setWidgetIsHidden(false, new WidgetPointer(187,12));
+		setWidgetIsHidden(false, new WidgetPointer(187,14));
+		script_3683();
+		if (bitconfig_7081 == 32767) {
+			setWidgetIsHidden(false, new WidgetPointer(187,15));
+		}
+	} else {
+		cs2method_10467(2431, 12255245);
+		setWidgetIsHidden(true, new WidgetPointer(187,9));
+		setWidgetIsHidden(true, new WidgetPointer(187,11));
+		setWidgetIsHidden(true, new WidgetPointer(187,12));
+		setWidgetIsHidden(true, new WidgetPointer(187,14));
+		setWidgetIsHidden(true, new WidgetPointer(187,15));
+		setWidgetIsHidden(true, new WidgetPointer(187,19));
+		setWidgetIsHidden(false, new WidgetPointer(187,1));
+		setWidgetIsHidden(false, new WidgetPointer(187,2));
+		setWidgetIsHidden(false, new WidgetPointer(187,18));
+	}
+	globalint_2 = 0;
+	return;
+}

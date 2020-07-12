@@ -1,0 +1,18 @@
+void script_4431(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (cs2method_10309() == 1) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		script_4434();
+		cs2method_20209(4433, "", new WidgetPointer(1110,3));
+		cs2method_20885(4433, "", new WidgetPointer(1110,3));
+		cs2method_10467(6255, 72745043);
+	} else {
+		script_4437();
+		ovar0 = (object)"Join Clan Chat channel.";
+		cs2method_20835(4538, new WidgetPointer(1110,124), new WidgetPointer(-32768,3), -1, (string)ovar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1110,82));
+		cs2method_10375(1, 72745042, (object)"Join Clan Chat channel");
+		script_4589();
+	}
+	return;
+}

@@ -1,0 +1,8 @@
+void script_3442(int arg0,int arg1,int arg2) {
+	if (script_3441() == 1) {
+		script_569(arg0, -1, arg1, 50, 150, (object)script_3443(arg2));
+	} else {
+		script_569(arg0, -1, arg1, 50, 150, (object)"A member of the Jury.");
+	}
+	return;
+}

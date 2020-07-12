@@ -1,0 +1,13 @@
+void script_2144(int arg0) {
+	int ivar1;
+	ivar1 = 1093;
+	if (cs2method_10855() == 1) {
+		ivar1 = 3872;
+	}
+	if (standart_config_1442 == 0) {
+		setWidgetText(new WidgetPointer(arg0), (object)"No Prefix");
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)getDataByKey('i', 's', ivar1, standart_config_1442));
+	}
+	return;
+}

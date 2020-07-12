@@ -1,0 +1,24 @@
+void script_1322(int arg0,int arg1,int arg2) {
+	if (getItemIdInContainerSlot(438, 0) != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		cs2method_10274(getItemIdInContainerSlot(438, 0), 1, arg0);
+		cs2method_10724(arg0, (object)("<col=ff9040>" + (string)getItemName(getItemIdInContainerSlot(438, 0))));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	}
+	if (getItemIdInContainerSlot(438, 1) != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		cs2method_10274(getItemIdInContainerSlot(438, 1), 1, arg1);
+		cs2method_10724(arg1, (object)("<col=ff9040>" + (string)getItemName(getItemIdInContainerSlot(438, 1))));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	}
+	if (getItemIdInContainerSlot(438, 2) != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		cs2method_10274(getItemIdInContainerSlot(438, 2), 1, arg2);
+		cs2method_10724(arg2, (object)("<col=ff9040>" + (string)getItemName(getItemIdInContainerSlot(438, 2))));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+	}
+	return;
+}

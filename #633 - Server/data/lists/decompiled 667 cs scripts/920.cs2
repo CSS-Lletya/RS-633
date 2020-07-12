@@ -1,0 +1,53 @@
+int script_920(int arg0) {
+	int ivar1;
+	object ovar0;
+	globalint_742 = 0;
+	ovar0 = (object)"";
+	ivar1 = 0;
+	if (globalint_741 != -1) {
+		if (compareTo(getItemOption(globalint_741, 2), (object)"Wear") == 0 || compareTo(getItemOption(globalint_741, 2), (object)"Wield") == 0) {
+			ivar1 = 1;
+		}
+		cs2method_10274(globalint_741, -1, 29425677);
+		cs2method_10274(globalint_741, -1, 29425678);
+		if (isMember() == 0 && isMembersItem(globalint_741) == 1) {
+			script_922(1, arg0, (object)"This is a members item. Additional information is not available on this world.");
+		} else {
+			ovar0 = (object)script_914();
+			if (compareTo(ovar0, (object)"") != 0) {
+				script_922(1, arg0, ovar0);
+				globalint_742 = add(globalint_742, 1);
+			}
+			script_921(1, arg0, (object)globalstring_25);
+			if (compareTo((object)getItemAttribute(globalint_741, 690), (object)"") != 0) {
+				script_921(1, arg0, (object)" ");
+				script_921(1, arg0, (object)getItemAttribute(globalint_741, 690));
+			}
+			if (cs2method_10620(getItemAttribute(globalint_741, 740), 2) == 1) {
+				if (compareTo((object)globalstring_26, (object)"") != 0 && ivar1 == 1) {
+					script_921(0, arg0, (object)globalstring_26);
+				}
+				if (compareTo((object)globalstring_34, (object)"") != 0) {
+					script_921(0, arg0, (object)globalstring_34);
+				}
+			} else {
+				if (compareTo((object)globalstring_34, (object)"") != 0) {
+					script_921(0, arg0, (object)globalstring_34);
+				}
+				if (compareTo((object)globalstring_26, (object)"") != 0 && ivar1 == 1) {
+					script_921(0, arg0, (object)globalstring_26);
+				}
+			}
+			ovar0 = (object)script_912(globalint_741);
+			if (compareTo(ovar0, (object)"") != 0) {
+				script_921(0, arg0, ovar0);
+			}
+			if (compareTo((object)globalstring_35, (object)"") != 0 && ivar1 == 1) {
+				script_923(arg0, (object)globalstring_35, (object)globalstring_36, (object)globalstring_52);
+			}
+		}
+	} else {
+		script_921(1, arg0, (object)"Select an item to see its information.");
+	}
+	return add(multiply(6, 2), multiply(globalint_742, 11));
+}

@@ -1,0 +1,269 @@
+void script_5746() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	int stack_dump4;
+	cs2func_script_5747_struct(2,0,0) structdump_5;
+	ivar0 = script_5763(standart_config_2504);
+	ivar1 = standart_config_2504;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = subtract(cs2method_10624(ivar0), 1);
+	ivar5 = -1;
+	ivar6 = -1;
+	ivar7 = 1;
+	ivar8 = 1;
+	ivar9 = 0;
+	clearExtraChildren(new WidgetPointer(1239,8));
+	while (ivar4 >= 0) {
+		ivar9 = 0;
+		ivar7 = 1;
+		ivar5 = getDataByKey('i', 'J', ivar0, ivar4);
+		ivar6 = getDataByKey('J', 'J', 5483, ivar5);
+		if (ivar6 != -1) {
+			ivar5 = ivar6;
+		}
+		if (script_5729(ivar5, ivar1) == 0) {
+			ivar7 = 0;
+		} else if (ivar1 == 0) {
+			if (script_1432() < getGeneralRequirementAttribute(ivar5, 2233)) {
+				ivar7 = 0;
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1294)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1294))) < getGeneralRequirementAttribute(ivar5, 1295)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1296)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1296))) < getGeneralRequirementAttribute(ivar5, 1297)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1298)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1298))) < getGeneralRequirementAttribute(ivar5, 1299)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1300)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1300))) < getGeneralRequirementAttribute(ivar5, 1301)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1302)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1302))) < getGeneralRequirementAttribute(ivar5, 1303)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1304)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1304))) < getGeneralRequirementAttribute(ivar5, 1305)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1306)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1306))) < getGeneralRequirementAttribute(ivar5, 1307)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1308)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1308))) < getGeneralRequirementAttribute(ivar5, 1309)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1310)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1310))) < getGeneralRequirementAttribute(ivar5, 1311)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 1312)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 1312))) < getGeneralRequirementAttribute(ivar5, 1313)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 2227)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 2227))) < getGeneralRequirementAttribute(ivar5, 2228)) {
+							ivar7 = 0;
+						}
+				}
+			}
+			if (ivar7 == 1) {
+				switch (getGeneralRequirementAttribute(ivar5, 2229)) {
+					case 1:
+					case 2:
+					case 3:
+					case 4:
+					case 5:
+					case 6:
+						if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(ivar5, 2229))) < getGeneralRequirementAttribute(ivar5, 2230)) {
+							ivar7 = 0;
+						}
+				}
+			}
+		} else {
+			if (getGeneralRequirementAttribute(ivar5, 1294) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1295)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1296) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1297)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1298) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1299)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1300) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1301)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1302) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1303)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1304) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1305)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1306) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1307)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1308) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1309)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1310) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1311)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 1312) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 1313)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 2227) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 2228)) {
+				ivar7 = 0;
+			}
+			if (getGeneralRequirementAttribute(ivar5, 2229) == getDataByKey('S', 'i', 1482, ivar1) && cs2method_10453(ivar1) < getGeneralRequirementAttribute(ivar5, 2230)) {
+				ivar7 = 0;
+			}
+		}
+		if (ivar7 == 1) {
+			ivar8 = script_3224(getGeneralRequirementAttribute(ivar5, 1268));
+			if (script_3227(getGeneralRequirementAttribute(ivar5, 1268)) == 2 && script_5732(ivar5) == 0) {
+				ivar9 = 1;
+			} else {
+				ivar9 = 0;
+			}
+			stack_dump0 = ivar5;
+			stack_dump1 = ivar8;
+			stack_dump2 = ivar9;
+			stack_dump3 = ivar2;
+			stack_dump4 = ivar3;
+			structdump_5 = script_5747(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+			ivar3 = structdump_5.intpart_1;
+			ivar2 = structdump_5.intpart_0;
+		}
+		ivar4 = cs2method_10004(-1, subtract(ivar4, 1));
+	}
+	if (multiply(add(1, ivar3), 54) > cs2method_10090(81199112)) {
+		setWidgetIsHidden(false, new WidgetPointer(1239,9));
+		setWidgetScrollMax(cs2method_10956(81199112), multiply(add(1, ivar3), 54), 81199112);
+		if (globalint_1771 != -1) {
+			cs2method_10085(0, globalint_1771, 81199112);
+		}
+		script_31(81199113, 81199112, 4343, 4340, 4341, 4342, 4337, 4336);
+		setScriptCallOnMousePressed(5751, "", new WidgetPointer(1239,8));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1239,9));
+		setWidgetScrollMax(0, 0, 81199112);
+		cs2method_10085(0, 0, 81199112);
+	}
+	return;
+}

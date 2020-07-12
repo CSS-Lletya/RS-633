@@ -1,0 +1,10 @@
+void script_1726(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10620(cs2method_10878(), 40) > 20) {
+		cs2method_10149(0, arg0);
+	} else {
+		cs2method_10149(255, arg0);
+	}
+	return;
+}

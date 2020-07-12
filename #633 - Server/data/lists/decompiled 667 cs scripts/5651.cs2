@@ -1,0 +1,665 @@
+void script_5651() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	int ivar27;
+	if (globalint_1250 < 1) {
+		script_5653();
+	}
+	ivar0 = 1;
+	ivar1 = subtract(cs2method_10011(0), globalint_1243);
+	ivar2 = subtract(cs2method_10011(2), globalint_1244);
+	ivar3 = subtract(cs2method_10011(1), globalint_1245);
+	ivar4 = subtract(cs2method_10011(4), globalint_1246);
+	ivar5 = subtract(cs2method_10011(6), globalint_1248);
+	ivar6 = subtract(cs2method_10011(3), globalint_1250);
+	ivar7 = add(add(add(add(add(ivar1, ivar2), ivar3), ivar4), ivar5), ivar6);
+	ivar8 = subtract(cs2method_10011(5), globalint_1247);
+	ivar9 = subtract(cs2method_10011(20), globalint_1249);
+	ivar10 = subtract(cs2method_10011(12), globalint_1251);
+	ivar11 = subtract(cs2method_10011(14), globalint_1252);
+	ivar12 = subtract(cs2method_10011(13), globalint_1253);
+	ivar13 = subtract(cs2method_10011(10), globalint_1254);
+	ivar14 = subtract(cs2method_10011(7), globalint_1255);
+	ivar15 = subtract(cs2method_10011(11), globalint_1256);
+	ivar16 = subtract(cs2method_10011(8), globalint_1257);
+	ivar17 = subtract(cs2method_10011(16), globalint_1258);
+	ivar18 = subtract(cs2method_10011(15), globalint_1259);
+	ivar19 = subtract(cs2method_10011(17), globalint_1260);
+	ivar20 = subtract(cs2method_10011(9), globalint_1261);
+	ivar21 = subtract(cs2method_10011(18), globalint_1262);
+	ivar22 = subtract(cs2method_10011(19), globalint_1263);
+	ivar23 = subtract(cs2method_10011(22), globalint_1264);
+	ivar24 = subtract(cs2method_10011(21), globalint_1265);
+	ivar25 = subtract(cs2method_10011(23), globalint_1266);
+	ivar26 = subtract(cs2method_10011(24), globalint_1267);
+	ivar27 = add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(add(ivar1, ivar2), ivar3), ivar4), ivar5), ivar6), ivar8), ivar9), ivar10), ivar11), ivar12), ivar13), ivar14), ivar15), ivar16), ivar17), ivar18), ivar19), ivar20), ivar21), ivar22), ivar23), ivar24), ivar25), ivar26);
+	if (bitconfig_10444 == 1) {
+		switch (bitconfig_10440) {
+			case 1:
+				if (ivar1 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar1, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 2:
+				if (ivar2 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar2, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 5:
+				if (ivar3 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar3, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 6:
+				if (ivar6 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar6, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 3:
+				if (ivar4 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar4, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 4:
+				if (ivar5 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar5, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 7:
+				if (ivar8 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar8, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 12:
+				if (ivar9 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar9, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 11:
+				if (ivar10 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar10, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 13:
+				if (ivar11 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar11, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 14:
+				if (ivar12 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar12, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 15:
+				if (ivar13 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar13, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 16:
+				if (ivar14 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar14, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 17:
+				if (ivar15 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar15, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 18:
+				if (ivar16 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar16, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 8:
+				if (ivar17 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar17, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 9:
+				if (ivar18 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar18, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 10:
+				if (ivar19 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar19, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 19:
+				if (ivar20 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar20, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 20:
+				if (ivar21 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar21, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 21:
+				if (ivar22 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar22, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 22:
+				if (ivar23 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar23, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 23:
+				if (ivar24 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar24, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 24:
+				if (ivar25 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar25, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 25:
+				if (ivar26 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar26, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 30:
+				if (ivar7 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar7, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 31:
+				if (ivar27 != 0) {
+					setWidgetText(new WidgetPointer(1215,10), (object)("+" + (string)cs2method_10595(ivar27, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			default:
+				ivar0 = 0;
+		}
+		if (ivar0 == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1215,10));
+			cs2method_10149(0, 79626250);
+			cs2method_20219(5656, 1, new WidgetPointer(-32768,3), 0, "1Ii", new WidgetPointer(1215,10));
+		}
+		ivar0 = 1;
+	}
+	if (bitconfig_10445 == 1) {
+		switch (bitconfig_10441) {
+			case 1:
+				if (ivar1 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar1, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 2:
+				if (ivar2 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar2, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 5:
+				if (ivar3 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar3, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 6:
+				if (ivar6 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar6, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 3:
+				if (ivar4 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar4, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 4:
+				if (ivar5 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar5, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 7:
+				if (ivar8 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar8, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 12:
+				if (ivar9 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar9, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 11:
+				if (ivar10 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar10, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 13:
+				if (ivar11 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar11, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 14:
+				if (ivar12 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar12, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 15:
+				if (ivar13 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar13, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 16:
+				if (ivar14 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar14, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 17:
+				if (ivar15 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar15, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 18:
+				if (ivar16 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar16, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 8:
+				if (ivar17 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar17, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 9:
+				if (ivar18 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar18, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 10:
+				if (ivar19 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar19, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 19:
+				if (ivar20 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar20, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 20:
+				if (ivar21 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar21, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 21:
+				if (ivar22 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar22, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 22:
+				if (ivar23 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar23, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 23:
+				if (ivar24 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar24, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 24:
+				if (ivar25 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar25, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 25:
+				if (ivar26 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar26, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 30:
+				if (ivar7 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar7, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 31:
+				if (ivar27 != 0) {
+					setWidgetText(new WidgetPointer(1215,11), (object)("+" + (string)cs2method_10595(ivar27, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			default:
+				ivar0 = 0;
+		}
+		if (ivar0 == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1215,11));
+			cs2method_10149(0, 79626251);
+			cs2method_20219(5656, 1, new WidgetPointer(-32768,3), 0, "1Ii", new WidgetPointer(1215,11));
+		}
+		ivar0 = 1;
+	}
+	if (bitconfig_10446 == 1) {
+		switch (bitconfig_10442) {
+			case 1:
+				if (ivar1 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar1, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 2:
+				if (ivar2 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar2, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 5:
+				if (ivar3 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar3, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 6:
+				if (ivar6 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar6, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 3:
+				if (ivar4 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar4, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 4:
+				if (ivar5 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar5, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 7:
+				if (ivar8 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar8, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 12:
+				if (ivar9 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar9, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 11:
+				if (ivar10 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar10, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 13:
+				if (ivar11 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar11, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 14:
+				if (ivar12 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar12, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 15:
+				if (ivar13 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar13, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 16:
+				if (ivar14 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar14, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 17:
+				if (ivar15 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar15, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 18:
+				if (ivar16 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar16, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 8:
+				if (ivar17 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar17, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 9:
+				if (ivar18 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar18, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 10:
+				if (ivar19 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar19, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 19:
+				if (ivar20 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar20, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 20:
+				if (ivar21 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar21, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 21:
+				if (ivar22 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar22, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 22:
+				if (ivar23 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar23, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 23:
+				if (ivar24 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar24, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 24:
+				if (ivar25 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar25, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 25:
+				if (ivar26 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar26, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 30:
+				if (ivar7 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar7, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			case 31:
+				if (ivar27 != 0) {
+					setWidgetText(new WidgetPointer(1215,12), (object)("+" + (string)cs2method_10595(ivar27, 1) + " xp"));
+				} else {
+					ivar0 = 0;
+				}
+				break;
+			default:
+				ivar0 = 0;
+		}
+		if (ivar0 == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1215,12));
+			cs2method_10149(0, 79626252);
+			cs2method_20219(5656, 1, new WidgetPointer(-32768,3), 0, "1Ii", new WidgetPointer(1215,12));
+		}
+	}
+	script_5652();
+	return;
+}

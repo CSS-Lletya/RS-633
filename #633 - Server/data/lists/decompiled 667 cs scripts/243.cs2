@@ -1,0 +1,173 @@
+void script_243(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	flow_0:
+		ivar2 = -1;
+		ivar3 = -1;
+		ivar4 = -1;
+		ivar5 = 1;
+		SWITCH (arg0) {
+			case 38928528:
+				 GOTO flow_1
+			case 38928529:
+				 GOTO flow_2
+			case 38928530:
+				 GOTO flow_3
+			case 38928535:
+				 GOTO flow_4
+			case 38928536:
+				 GOTO flow_5
+			case 38928537:
+				 GOTO flow_6
+			case 38928542:
+				 GOTO flow_7
+			case 38928559:
+				 GOTO flow_8
+			case 38928560:
+				 GOTO flow_9
+			case 38928561:
+				 GOTO flow_10
+			case 38928570:
+				 GOTO flow_11
+			case 38928571:
+				 GOTO flow_12
+			case 38928577:
+				 GOTO flow_13
+			case 38928572:
+				 GOTO flow_14
+			case 38928387:
+				 GOTO flow_15
+			case 38928388:
+				 GOTO flow_16
+		}
+		script_675();
+		GOTO	flow_17
+	flow_1:
+		ivar2 = 38928524;
+		ivar3 = 38928525;
+		ivar4 = 38928526;
+		GOTO	flow_17
+	flow_2:
+		ivar2 = 38928555;
+		ivar3 = 38928556;
+		ivar4 = 38928557;
+		GOTO	flow_17
+	flow_3:
+		ivar2 = 38928531;
+		ivar3 = 38928532;
+		ivar4 = 38928533;
+		GOTO	flow_17
+	flow_4:
+		ivar2 = 38928551;
+		ivar3 = 38928552;
+		ivar4 = 38928553;
+		GOTO	flow_17
+	flow_5:
+		ivar2 = 38928547;
+		ivar3 = 38928548;
+		ivar4 = 38928549;
+		GOTO	flow_17
+	flow_6:
+		ivar2 = 38928538;
+		ivar3 = 38928539;
+		ivar4 = 38928540;
+		GOTO	flow_17
+	flow_7:
+		ivar2 = 38928543;
+		ivar3 = 38928544;
+		ivar4 = 38928545;
+		GOTO	flow_17
+	flow_8:
+		ivar2 = 38928508;
+		ivar3 = 38928509;
+		ivar4 = 38928510;
+		GOTO	flow_17
+	flow_9:
+		ivar2 = 38928566;
+		ivar3 = 38928567;
+		ivar4 = 38928568;
+		GOTO	flow_17
+	flow_10:
+		ivar2 = 38928562;
+		ivar3 = 38928563;
+		ivar4 = 38928564;
+		GOTO	flow_17
+	flow_11:
+		ivar2 = 38928512;
+		ivar3 = 38928513;
+		ivar4 = 38928514;
+		GOTO	flow_17
+	flow_12:
+		ivar2 = 38928516;
+		ivar3 = 38928517;
+		ivar4 = 38928518;
+		GOTO	flow_17
+	flow_13:
+		ivar2 = 38928520;
+		ivar3 = 38928521;
+		ivar4 = 38928522;
+		GOTO	flow_17
+	flow_14:
+		ivar2 = 38928573;
+		ivar3 = 38928574;
+		ivar4 = 38928575;
+		GOTO	flow_17
+	flow_15:
+		ivar2 = 38928396;
+		ivar3 = 38928397;
+		ivar4 = 38928398;
+		ivar5 = 0;
+		GOTO	flow_17
+	flow_16:
+		ivar2 = 38928389;
+		ivar3 = 38928390;
+		ivar4 = 38928391;
+		ivar5 = 0;
+	flow_17:
+		if (arg1 == 0) {
+			if (ivar5 == 1) {
+				if (ivar2 != -1) {
+					cs2method_10467(9757, ivar2);
+				}
+				if (ivar3 != -1) {
+					cs2method_10467(9758, ivar3);
+				}
+				if (ivar4 != -1) {
+					cs2method_10467(9759, ivar4);
+				}
+			} else {
+				if (ivar2 != -1) {
+					cs2method_10467(9757, ivar2);
+				}
+				if (ivar3 != -1) {
+					cs2method_10467(9758, ivar3);
+				}
+				if (ivar4 != -1) {
+					cs2method_10467(9759, ivar4);
+				}
+			}
+		} else if (ivar5 == 1) {
+			if (ivar2 != -1) {
+				cs2method_10467(9760, ivar2);
+			}
+			if (ivar3 != -1) {
+				cs2method_10467(9761, ivar3);
+			}
+			if (ivar4 != -1) {
+				cs2method_10467(9762, ivar4);
+			}
+		} else {
+			if (ivar2 != -1) {
+				cs2method_10467(9760, ivar2);
+			}
+			if (ivar3 != -1) {
+				cs2method_10467(9761, ivar3);
+			}
+			if (ivar4 != -1) {
+				cs2method_10467(9762, ivar4);
+			}
+		}
+		return;
+}

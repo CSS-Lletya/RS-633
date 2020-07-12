@@ -1,0 +1,7 @@
+void script_2883() {
+	if (bitconfig_4393 == 1 || bitconfig_542 == 1) {
+		return;
+	}
+	script_39(12255244, 12255249, 25, 189, (object)"Clear playlist");
+	return;
+}

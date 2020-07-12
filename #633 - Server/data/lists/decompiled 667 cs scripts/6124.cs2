@@ -1,0 +1,10 @@
+void script_6124(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	cs2method_10155(0, 2);
+	cs2method_10155(1, 2);
+	cs2method_10105(0, 0, arg0, arg2, arg0, arg2, 0);
+	cs2method_10105(1, 0, arg4, arg6, arg4, arg6, 0);
+	cs2method_10105(0, 1, arg1, arg3, arg1, arg3, 0);
+	cs2method_10105(1, 1, arg5, arg7, arg5, arg7, 0);
+	cs2method_10767(0, 0, arg8, arg8, 1, 0);
+	return;
+}

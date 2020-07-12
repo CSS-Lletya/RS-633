@@ -1,0 +1,8 @@
+void script_5181(int arg0) {
+	if (cs2method_10916(73531474) == 0) {
+		return;
+	}
+	cs2method_10085(add(cs2method_10774(73531474), multiply(8, arg0)), 0, 73531474);
+	script_5182();
+	return;
+}

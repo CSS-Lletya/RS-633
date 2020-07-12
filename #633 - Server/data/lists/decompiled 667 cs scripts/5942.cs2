@@ -1,0 +1,21 @@
+void script_5942() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 82051072;
+	ivar1 = 82051074;
+	ivar2 = cs2method_10004(1, cs2method_10956(ivar1));
+	ivar3 = cs2method_10004(1, cs2method_10090(ivar1));
+	globalint_1787 = cs2method_10004(globalint_1787, -1);
+	globalint_1788 = cs2method_10004(globalint_1788, -1);
+	if (globalint_1787 == -1 && globalint_1788 == -1) {
+		globalint_1787 = divide(ivar2, 2);
+		globalint_1788 = divide(ivar3, 2);
+	}
+	globalint_1787 = cs2method_10586(globalint_1787, subtract(ivar2, cs2method_10956(ivar0)));
+	globalint_1788 = cs2method_10586(globalint_1788, add(subtract(ivar2, cs2method_10090(ivar0)), 79));
+	cs2method_20374(5944, "", new WidgetPointer(ivar1));
+	script_5945(globalint_1787, globalint_1788);
+	return;
+}

@@ -1,0 +1,21 @@
+void script_3032(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = -1;
+	if (arg2 == 1) {
+		ivar3 = 59572267;
+	} else {
+		if (arg2 == 0) {
+			ivar3 = 59572309;
+		}
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(ivar3));
+		cs2method_10444(cs2method_10111(ivar3), cs2method_10207(), 0, 0, ivar3);
+	}
+	if (arg2 == 1) {
+		script_2470(59572256, 59572259);
+	} else {
+		script_2470(59572304, 59572307);
+	}
+	return;
+}

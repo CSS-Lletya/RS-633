@@ -1,0 +1,6 @@
+int script_4550(int arg0) {
+	if (cs2method_10519(49348612, arg0) == 1 || cs2method_10519(48889885, arg0) == 1 || cs2method_10519(35913773, arg0) == 1) {
+		return 1;
+	}
+	return 0;
+}

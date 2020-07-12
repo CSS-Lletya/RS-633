@@ -1,0 +1,61 @@
+void script_2480() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar2 = divide(subtract(cs2method_10956(2686991), multiply(36, 10)), subtract(10, 1));
+	ivar3 = divide(subtract(cs2method_10090(2686991), 128), 3);
+	clearExtraChildren(new WidgetPointer(41,15));
+	clearExtraChildren(new WidgetPointer(881,0));
+	while (ivar4 == 0) {
+		if (getDataByKey('i', 'O', globalint_875, ivar0) != 11760) {
+			createChildWidget(2686991, 5, ivar0);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(multiply(add(36, ivar2), cs2method_10620(ivar0, 10)), multiply(divide(ivar0, 10), add(32, ivar3)), 0, 0);
+			setItemOnWidget_10672(getDataByKey('i', 'O', globalint_875, ivar0), -1);
+			cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getDataByKey('i', 'O', globalint_875, ivar0))));
+			setWidgetContextMenuOption(1, (object)"Value");
+			setWidgetContextMenuOption(2, (object)"Buy 1");
+			setWidgetContextMenuOption(3, (object)"Examine");
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+			createChildWidget(57737216, 5, ivar0);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(multiply(42, cs2method_10620(ivar0, 4)), multiply(divide(ivar0, 4), 42), 0, 0);
+			setItemOnWidget_10672(getDataByKey('i', 'O', globalint_875, ivar0), getItemAmtInContainer(93, getDataByKey('i', 'O', globalint_875, ivar0)));
+			cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getDataByKey('i', 'O', globalint_875, ivar0))));
+			setWidgetContextMenuOption(1, (object)"Value");
+			setWidgetContextMenuOption(2, (object)"Sell 1");
+			setWidgetContextMenuOption(3, (object)"Sell X");
+			setWidgetContextMenuOption(4, (object)"Examine");
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+			ivar0 = add(ivar0, 1);
+		} else {
+			ivar4 = 1;
+		}
+	}
+	ivar1 = ivar0;
+	ivar0 = 0;
+	ivar4 = 0;
+	while (ivar4 == 0) {
+		if (getDataByKey('i', 'O', globalint_875, ivar0) != 11760) {
+			createChildWidget(2686991, 5, ivar1);
+			setWidgetSize(12, 6, 0, 0);
+			setWidgetPosition(multiply(add(36, ivar2), cs2method_10620(ivar0, 10)), multiply(divide(ivar0, 10), add(32, ivar3)), 0, 0);
+			cs2method_10469(1066);
+		} else {
+			ivar4 = 1;
+		}
+		ivar0 = add(ivar0, 1);
+		ivar1 = add(ivar1, 1);
+	}
+	setWidgetText(new WidgetPointer(41,17), script_46(standart_config_1448, (object)","));
+	return;
+}

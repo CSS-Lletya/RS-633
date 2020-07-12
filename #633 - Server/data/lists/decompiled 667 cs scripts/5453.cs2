@@ -1,0 +1,109 @@
+void script_5453(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = -1;
+	ivar3 = -1;
+	switch (arg1) {
+		case 1:
+			ivar2 = 75759706;
+			ivar3 = 75759705;
+			break;
+		case 2:
+			ivar2 = 75759816;
+			ivar3 = 75759814;
+			break;
+		case 3:
+			ivar2 = 75759822;
+			ivar3 = 75759820;
+			break;
+		case 4:
+			ivar2 = 75759828;
+			ivar3 = 75759826;
+			break;
+		case 5:
+			ivar2 = 75759834;
+			ivar3 = 75759832;
+			break;
+		case 6:
+			ivar2 = 75759840;
+			ivar3 = 75759838;
+			break;
+		case 7:
+			ivar2 = 75759846;
+			ivar3 = 75759844;
+			break;
+		case 8:
+			ivar2 = 75759852;
+			ivar3 = 75759850;
+			break;
+		case 9:
+			ivar2 = 75759858;
+			ivar3 = 75759856;
+			break;
+		case 10:
+			ivar2 = 75759864;
+			ivar3 = 75759862;
+			break;
+		case 11:
+			ivar2 = 75759870;
+			ivar3 = 75759868;
+			break;
+		case 12:
+			ivar2 = 75759876;
+			ivar3 = 75759874;
+			break;
+		case 13:
+			ivar2 = 75759882;
+			ivar3 = 75759880;
+			break;
+		case 14:
+			ivar2 = 75759888;
+			ivar3 = 75759886;
+			break;
+		case 15:
+			ivar2 = 75759894;
+			ivar3 = 75759892;
+			break;
+		case 16:
+			ivar2 = 75759900;
+			ivar3 = 75759898;
+			break;
+		case 17:
+			ivar2 = 75759906;
+			ivar3 = 75759904;
+			break;
+		case 18:
+			ivar2 = 75759912;
+			ivar3 = 75759910;
+			break;
+		case 19:
+			ivar2 = 75759918;
+			ivar3 = 75759916;
+			break;
+		case 20:
+			ivar2 = 75759924;
+			ivar3 = 75759922;
+			break;
+		case 21:
+			ivar2 = 75759930;
+			ivar3 = 75759928;
+			break;
+		case 22:
+			ivar2 = 75759942;
+			ivar3 = 75759940;
+	}
+	if (arg0 == 1) {
+		if (arg1 == 4 || arg1 == 5 || arg1 == 9 || arg1 == 12 || arg1 == 15 || arg1 == 20 || arg1 == 21 || arg1 == 22) {
+			setWidgetText(new WidgetPointer(ivar2), (object)("<col=37addd>" + "Claim"));
+		} else if (arg1 == 16 || arg1 == 17 || arg1 == 18 || arg1 == 19) {
+			setWidgetText(new WidgetPointer(ivar2), (object)("<col=37addd>" + "Claim (" + toString(bitconfig_10117) + " set avail)"));
+		} else {
+			setWidgetText(new WidgetPointer(ivar2), (object)"Unlocked !");
+		}
+		setWidgetIsHidden(true, new WidgetPointer(ivar3));
+		setWidgetRGB(16101953, ivar2);
+	} else {
+		setWidgetText(new WidgetPointer(ivar2), (object)"Locked");
+	}
+	return;
+}

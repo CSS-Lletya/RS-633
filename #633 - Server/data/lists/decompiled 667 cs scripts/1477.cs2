@@ -1,0 +1,20 @@
+void script_1477() {
+	if (bitconfig_5007 == 0) {
+		setWidgetText(new WidgetPointer(766,36), (object)"Quick task:");
+	} else {
+		setWidgetText(new WidgetPointer(766,36), (object)"Large task:");
+	}
+	setWidgetText(new WidgetPointer(766,100), (object)toString(bitconfig_4216));
+	setWidgetText(new WidgetPointer(766,102), (object)toString(multiply(add(bitconfig_4208, 1), 5)));
+	setWidgetText(new WidgetPointer(766,91), (object)toString(bitconfig_4217));
+	setWidgetText(new WidgetPointer(766,93), (object)toString(multiply(add(bitconfig_4209, 1), 5)));
+	setWidgetText(new WidgetPointer(766,81), (object)toString(bitconfig_4218));
+	setWidgetText(new WidgetPointer(766,83), (object)toString(multiply(add(bitconfig_4210, 1), 5)));
+	setWidgetText(new WidgetPointer(766,71), (object)toString(bitconfig_4219));
+	setWidgetText(new WidgetPointer(766,73), (object)toString(multiply(add(bitconfig_4211, 1), 5)));
+	setWidgetText(new WidgetPointer(766,61), (object)toString(bitconfig_4220));
+	setWidgetText(new WidgetPointer(766,63), (object)toString(multiply(add(bitconfig_4212, 1), 5)));
+	setWidgetText(new WidgetPointer(766,51), (object)toString(bitconfig_5008));
+	setWidgetText(new WidgetPointer(766,53), (object)toString(multiply(add(bitconfig_4213, 1), 5)));
+	return;
+}

@@ -1,0 +1,16 @@
+void script_5539() {
+	switch (cs2method_10825(77201425)) {
+		case 8755:
+		case 8754:
+			cs2method_10467(8751, 77201437);
+			setWidgetIsHidden(false, new WidgetPointer(1178,30));
+			cs2method_10467(script_5552(cs2method_10825(77201426)), 77201438);
+			break;
+		case 8757:
+		case 8756:
+			cs2method_10467(8752, 77201437);
+			setWidgetIsHidden(false, new WidgetPointer(1178,30));
+			cs2method_10467(script_5552(cs2method_10825(77201426)), 77201438);
+	}
+	return;
+}

@@ -1,0 +1,60 @@
+void script_5180(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar1 = getDataByKey('i', 'J', 4849, arg0);
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	if (ivar1 == -1) {
+		ovar1 = (object)"Select a goal from the list above.";
+		if (arg0 > -1) {
+			return;
+		}
+	} else {
+		ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1879);
+		ovar1 = (object)getGeneralRequirementAttribute(ivar1, 1880);
+		if (arg0 != 13) {
+			if (script_5200(arg0) == 1) {
+				ovar2 = (object)("<col=00ff00>" + "COMPLETED" + "</col>");
+			} else {
+				ovar2 = (object)("<col=ff0000>" + "INCOMPLETE" + "</col>");
+			}
+		}
+		script_5204();
+	}
+	ovar3 = (object)"";
+	ovar3 = cs2method_10445((object)"Goal: ", ovar0);
+	if (cs2method_10366(ovar2) > 0) {
+		ovar3 = cs2method_10445(ovar3, (object)("<br>" + "Status: "));
+		ovar3 = cs2method_10445(ovar3, ovar2);
+	}
+	ovar3 = cs2method_10445(ovar3, (object)"<br>");
+	ovar3 = cs2method_10445(ovar3, ovar1);
+	ivar2 = 10;
+	ivar3 = 16;
+	ivar4 = subtract(cs2method_10956(73531448), multiply(ivar2, 2));
+	ivar5 = getLineCount(ivar4, 495, ovar3);
+	setWidgetTextAlignment(0, 0, ivar3, 73531449);
+	ivar6 = multiply(ivar3, ivar5);
+	cs2method_10444(ivar2, ivar2, 0, 0, 73531449);
+	cs2method_10893(ivar4, ivar6, 0, 0, 73531449);
+	setWidgetText(new WidgetPointer(1122,57), ovar3);
+	ivar7 = add(add(ivar6, ivar2), ivar2);
+	if (ivar7 < cs2method_10090(73531448)) {
+		ivar7 = cs2method_10090(73531448);
+	}
+	setWidgetScrollMax(cs2method_10956(73531448), ivar7, 73531448);
+	script_31(73531513, 73531448, 5666, 5663, 5664, 5665, 5686, 5685);
+	globalint_1596 = arg0;
+	script_5176();
+	return;
+}

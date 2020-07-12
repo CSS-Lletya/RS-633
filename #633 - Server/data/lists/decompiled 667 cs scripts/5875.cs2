@@ -1,0 +1,77 @@
+cs2func_script_5875_struct(2,0,0) script_5875(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int stack_dump0;
+	cs2func_script_5876_struct(2,0,0) structdump_1;
+	cs2func_script_5876_struct(2,0,0) structdump_2;
+	ivar3 = -1;
+	switch (arg0) {
+		case 1:
+			if (arg1 == 1) {
+				ivar3 = 5694;
+			} else {
+				ivar3 = 5695;
+			}
+			break;
+		case 2:
+			if (arg1 == 4) {
+				ivar3 = 5695;
+			} else {
+				if (arg1 == 5) {
+					stack_dump0 = arg2;
+					structdump_1 = script_5876(stack_dump0);
+					return newstruct cs2func_script_5875_struct(structdump_1.intpart_0, structdump_1.intpart_1);
+				}
+				ivar3 = 5695;
+			}
+			break;
+		case 4:
+			if (arg1 == 2 || arg1 == 3) {
+				ivar3 = 5702;
+			} else {
+				ivar3 = 5701;
+			}
+			break;
+		case 3:
+			ivar3 = 5696;
+			break;
+		case 5:
+		case 6:
+		case 7:
+			ivar3 = 5700;
+			break;
+		case 8:
+		case 9:
+		case 10:
+			ivar3 = 5699;
+			break;
+		case 11:
+			ivar3 = 5697;
+			break;
+		case 12:
+			if (bitconfig_11031 == 0) {
+				ivar3 = 5698;
+			} else {
+				ivar3 = 5697;
+			}
+			break;
+		case 13:
+		case 14:
+			stack_dump0 = arg2;
+			structdump_2 = script_5876(stack_dump0);
+			return newstruct cs2func_script_5875_struct(structdump_2.intpart_0, structdump_2.intpart_1);
+		default:
+			return newstruct cs2func_script_5875_struct(-1, 0);
+	}
+	ivar4 = getDataByKey('i', 'O', ivar3, arg2);
+	ivar5 = 0;
+	if (ivar4 != -1) {
+		ivar5 = getItemAttribute(ivar4, 2270);
+		if (ivar5 > 1) {
+			ivar4 = getItemAttribute(ivar4, 2271);
+		}
+		return newstruct cs2func_script_5875_struct(ivar4, ivar5);
+	}
+	return newstruct cs2func_script_5875_struct(-1, 0);
+}

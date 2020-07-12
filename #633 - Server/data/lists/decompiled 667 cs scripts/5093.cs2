@@ -1,0 +1,7 @@
+void script_5093(int arg0,int arg1) {
+	globalint_995 = cs2method_10004(subtract(globalint_995, 1), 0);
+	if (cs2method_10551(arg0, arg1) == 1) {
+		setWidgetText((object)script_5094());
+	}
+	return;
+}

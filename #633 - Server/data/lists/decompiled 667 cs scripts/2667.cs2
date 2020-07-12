@@ -1,0 +1,55 @@
+void script_2667() {
+	int ivar0;
+	int ivar1;
+	ivar0 = (int)getDataByKey('i', 'I', 2566, bitconfig_6297);
+	ivar1 = (int)getDataByKey('i', 'I', 2565, bitconfig_6297);
+	if (cs2method_10111(ivar0) < 17 || cs2method_10111(ivar0) > 57) {
+		return;
+	}
+	if (cs2method_10826(ivar0) > 12 && cs2method_10826(ivar0) < 32) {
+		cs2method_10444(37, 22, 0, 0, ivar0);
+		cs2method_10444(37, 22, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 38 && cs2method_10826(ivar0) < 58) {
+		cs2method_10444(37, 48, 0, 0, ivar0);
+		cs2method_10444(37, 48, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 70 && cs2method_10826(ivar0) < 90) {
+		cs2method_10444(37, 80, 0, 0, ivar0);
+		cs2method_10444(37, 80, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 98 && cs2method_10826(ivar0) < 118) {
+		cs2method_10444(37, 108, 0, 0, ivar0);
+		cs2method_10444(37, 108, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 128 && cs2method_10826(ivar0) < 148) {
+		cs2method_10444(37, 138, 0, 0, ivar0);
+		cs2method_10444(37, 138, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 156 && cs2method_10826(ivar0) < 176) {
+		cs2method_10444(37, 166, 0, 0, ivar0);
+		cs2method_10444(37, 166, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 184 && cs2method_10826(ivar0) < 204) {
+		cs2method_10444(37, 194, 0, 0, ivar0);
+		cs2method_10444(37, 194, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 214 && cs2method_10826(ivar0) < 234) {
+		cs2method_10444(37, 224, 0, 0, ivar0);
+		cs2method_10444(37, 224, 0, 0, ivar1);
+		return;
+	}
+	if (cs2method_10826(ivar0) > 242 && cs2method_10826(ivar0) < 262) {
+		cs2method_10444(37, 252, 0, 0, ivar0);
+		cs2method_10444(37, 252, 0, 0, ivar1);
+		return;
+	}
+	return;
+}

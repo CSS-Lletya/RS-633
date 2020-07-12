@@ -1,0 +1,32 @@
+void script_5228(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	ivar1 = 0;
+	ovar0 = (object)"";
+	ivar2 = script_4969(arg0);
+	ivar3 = -1;
+	ivar4 = 2;
+	if (ivar2 == -1) {
+		return;
+	}
+	if (cs2method_10575() == 1) {
+		ivar1 = script_4949(arg0);
+		if (ivar1 > 0) {
+			ovar0 = (object)("Teleport to the " + getDataByKey('i', 's', 4287, ivar1) + " skill plot.");
+			ivar3 = cs2method_10509(ivar2);
+			if (cs2method_10826(ivar2) > divide(cs2method_10090(ivar3), 2)) {
+				ivar4 = 0;
+			}
+			cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(ivar2), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar4, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(ivar2));
+			cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(ivar2));
+			cs2method_10375(1, ivar2, (object)("Teleport to " + getDataByKey('i', 's', 4287, ivar1)));
+			return;
+		}
+	}
+	cs2method_20835(-1, "", new WidgetPointer(ivar2));
+	cs2method_20295(-1, "", new WidgetPointer(ivar2));
+	return;
+}

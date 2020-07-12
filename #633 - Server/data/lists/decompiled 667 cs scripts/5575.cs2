@@ -1,0 +1,27 @@
+void script_5575() {
+	int ivar0;
+	if (globalint_1728 == 1) {
+		globalint_1729 = add(globalint_1729, 1);
+		if (globalint_1729 >= 80) {
+			globalint_1728 = 0;
+		}
+	} else {
+		globalint_1729 = subtract(globalint_1729, 1);
+		if (globalint_1729 <= 0) {
+			globalint_1728 = 1;
+		}
+	}
+	ivar0 = divide(multiply(255, globalint_1729), 80);
+	if (ivar0 < 230 && ivar0 >= 123) {
+		ivar0 = subtract(ivar0, divide(ivar0, 20));
+	}
+	if (ivar0 > 25 && ivar0 <= 122) {
+		ivar0 = add(ivar0, divide(ivar0, 20));
+	}
+	cs2method_10149(ivar0, 77463598);
+	cs2method_10149(ivar0, 77463597);
+	ivar0 = subtract(255, ivar0);
+	cs2method_10149(ivar0, 77463600);
+	cs2method_10149(ivar0, 77463601);
+	return;
+}

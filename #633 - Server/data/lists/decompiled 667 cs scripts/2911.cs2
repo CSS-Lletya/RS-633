@@ -1,0 +1,16 @@
+void script_2911(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	ivar5 = 10;
+	arg3 = add(arg3, 1);
+	if (arg0 == 0) {
+		cs2method_10893(cs2method_10956(arg4), add(arg1, divide(multiply(arg2, subtract(ivar5, arg3)), ivar5)), 0, 0, arg4);
+	} else {
+		cs2method_10893(cs2method_10956(arg4), add(arg1, divide(multiply(arg2, arg3), ivar5)), 0, 0, arg4);
+	}
+	if (arg3 == ivar5) {
+		cs2method_20219(-1, "", new WidgetPointer(arg4));
+	} else {
+		cs2method_20219(2911, arg0, arg1, arg2, arg3, new WidgetPointer(arg4), "1iiiI", new WidgetPointer(arg4));
+	}
+	return;
+}

@@ -1,0 +1,60 @@
+void script_2724(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7) {
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	ivar8 = 10533;
+	ivar9 = 10517;
+	ivar10 = 10537;
+	ivar11 = 10533;
+	ivar12 = 10545;
+	ivar13 = 10529;
+	ivar14 = 10521;
+	ivar15 = 10525;
+	switch (cs2method_10145()) {
+		case 0:
+			break;
+		case 2:
+			ivar8 = 10534;
+			ivar9 = 10518;
+			ivar10 = 10538;
+			ivar11 = 10534;
+			ivar12 = 10546;
+			ivar13 = 10530;
+			ivar14 = 10522;
+			ivar15 = 10526;
+			break;
+		case 3:
+			ivar8 = 10535;
+			ivar9 = 10519;
+			ivar10 = 10539;
+			ivar11 = 10535;
+			ivar12 = 10547;
+			ivar13 = 10531;
+			ivar14 = 10523;
+			ivar15 = 10527;
+			break;
+		case 1:
+			ivar8 = 10536;
+			ivar9 = 10520;
+			ivar10 = 10540;
+			ivar11 = 10536;
+			ivar12 = 10548;
+			ivar13 = 10548;
+			ivar14 = 10524;
+			ivar15 = 10528;
+	}
+	cs2method_10467(ivar8, arg0);
+	cs2method_10467(ivar9, arg1);
+	cs2method_10467(ivar10, arg2);
+	cs2method_10467(ivar11, arg3);
+	cs2method_10467(ivar12, arg4);
+	cs2method_10467(ivar13, arg5);
+	cs2method_10467(ivar14, arg6);
+	cs2method_10467(ivar15, arg7);
+	return;
+}

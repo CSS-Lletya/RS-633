@@ -1,0 +1,29 @@
+int script_2295(int arg0) {
+	int ivar1;
+	int ivar2;
+	if (isMember() == 0 && script_2294(arg0) == 1) {
+		return 0;
+	}
+	if (script_5256() == 0) {
+		cs2method_10508(2673, 1, 0);
+		return 0;
+	}
+	ivar1 = 5982;
+	if (bitconfig_6840 == 1) {
+		ivar1 = 5981;
+	}
+	ivar2 = getDataByKey('i', 'J', ivar1, arg0);
+	if (cs2method_10453(5) < getGeneralRequirementAttribute(ivar2, 2534)) {
+		cs2method_10508(2673, 1, 0);
+		return 0;
+	}
+	if (ivar2 == 10797 && (cs2method_10453(1) < 55 || bitconfig_3909 != 8)) {
+		cs2method_10508(2673, 1, 0);
+		return 0;
+	}
+	if (ivar2 == 10798 && (cs2method_10453(1) < 70 || bitconfig_3909 != 8)) {
+		cs2method_10508(2673, 1, 0);
+		return 0;
+	}
+	return 1;
+}

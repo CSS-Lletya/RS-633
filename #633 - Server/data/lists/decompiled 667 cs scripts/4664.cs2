@@ -1,0 +1,12 @@
+void script_4664(int arg0) {
+	int ivar1;
+	ivar1 = script_284(cs2method_10687());
+	cs2method_10155(0, 2);
+	cs2method_10155(1, 2);
+	cs2method_10105(0, 0, cs2method_10273(ivar1, 7, 0, 35), 700, cs2method_10273(ivar1, 7, 0, 35), 700, 0);
+	cs2method_10105(1, 0, cs2method_10273(ivar1, 8, 0, 30), 500, cs2method_10273(ivar1, 8, 0, 30), 500, 0);
+	cs2method_10105(0, 1, cs2method_10273(ivar1, 7, 0, 30), 900, cs2method_10273(ivar1, 7, 0, 30), 900, 0);
+	cs2method_10105(1, 1, cs2method_10273(ivar1, 8, 0, 22), 400, cs2method_10273(ivar1, 8, 0, 22), 400, 0);
+	cs2method_10767(0, 0, 100, 300, 1, 0);
+	return;
+}

@@ -1,0 +1,49 @@
+void script_6447(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int stack_dump0;
+	int stack_dump1;
+	opc_struct10678(2,0,0) structdump_2;
+	opc_struct10678(2,0,0) structdump_3;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 12;
+	if (globalint_2112 == 1) {
+		stack_dump0 = globalint_2108;
+		stack_dump1 = arg0;
+		structdump_2 = cs2method_10678(stack_dump0, stack_dump1);
+		ivar3 = structdump_2.intpart_1;
+		ivar2 = structdump_2.intpart_0;
+		if (subtract(ivar3, ivar4) > 60) {
+			cs2method_10085(0, subtract(subtract(ivar3, ivar4), 60), 85655584);
+			script_31(85655585, 85655584, 5666, 5663, 5664, 5665, 5686, 5685);
+		} else {
+			cs2method_10085(0, 0, 85655584);
+			script_31(85655585, 85655584, 5666, 5663, 5664, 5665, 5686, 5685);
+		}
+	} else {
+		if (globalint_2112 == 2) {
+			stack_dump0 = globalint_2109;
+			stack_dump1 = arg0;
+			structdump_3 = cs2method_10678(stack_dump0, stack_dump1);
+			ivar3 = structdump_3.intpart_1;
+			ivar2 = structdump_3.intpart_0;
+			if (subtract(ivar3, ivar4) > 60) {
+				cs2method_10085(0, subtract(subtract(ivar3, ivar4), 60), 85655576);
+				script_31(85655577, 85655576, 5666, 5663, 5664, 5665, 5686, 5685);
+			} else {
+				cs2method_10085(0, 0, 85655576);
+				script_31(85655577, 85655576, 5666, 5663, 5664, 5665, 5686, 5685);
+			}
+		}
+	}
+	cs2method_10444(add(ivar2, 4), add(subtract(ivar3, ivar4), 4), 0, 0, arg1);
+	if (cs2method_10386() == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	}
+	cs2method_20219(6448, cs2method_10878(), new WidgetPointer(arg1), "iI", new WidgetPointer(arg0));
+	return;
+}

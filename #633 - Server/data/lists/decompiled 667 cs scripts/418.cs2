@@ -1,0 +1,10 @@
+void script_418() {
+	if (globalint_1354 == -1 || globalint_1357 < 0 || globalint_1358 < 0) {
+		return;
+	}
+	cs2method_10141(globalint_1354);
+	globalint_1355 = cs2method_10947();
+	globalint_1356 = cs2method_10832();
+	cs2method_20219(421, globalint_1357, globalint_1358, 0, "iii", new WidgetPointer(1013,0));
+	return;
+}

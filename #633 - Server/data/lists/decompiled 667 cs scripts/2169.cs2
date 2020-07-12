@@ -1,0 +1,13 @@
+void script_2169() {
+	int ivar0;
+	if (isMember() == 1) {
+		globalint_693 = bitconfig_4536;
+	} else {
+		globalint_693 = 0;
+	}
+	globalint_694 = bitconfig_4538;
+	globalint_692 = bitconfig_4537;
+	script_2162(1, globalint_693, globalint_694, globalint_692, globalint_1103);
+	ivar0 = 0;
+	return;
+}

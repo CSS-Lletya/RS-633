@@ -1,0 +1,8 @@
+void script_1909() {
+	if (cs2method_10416(52822138) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(806,122));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(806,122));
+	}
+	return;
+}

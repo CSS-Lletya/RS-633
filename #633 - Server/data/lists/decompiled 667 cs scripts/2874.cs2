@@ -1,0 +1,9 @@
+void script_2874() {
+	if (bitconfig_7078 == 1) {
+		cs2method_10467(2434, 12255243);
+	} else {
+		cs2method_10467(2433, 12255243);
+	}
+	globalint_2 = 0;
+	return;
+}

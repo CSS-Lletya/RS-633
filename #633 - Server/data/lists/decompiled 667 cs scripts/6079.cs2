@@ -1,0 +1,40 @@
+void script_6079(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = bitconfig_11055;
+	if (arg0 == 82903090) {
+		ivar2 = cs2method_10620(add(bitconfig_11055, 1), 2);
+	}
+	if (arg1 == 1) {
+		if (arg0 == 82903089) {
+			if (ivar2 == 1) {
+				cs2method_10467(10487, arg0);
+			} else {
+				cs2method_10467(10487, arg0);
+			}
+		} else {
+			if (arg0 == 82903090) {
+				if (ivar2 == 1) {
+					cs2method_10467(10485, arg0);
+				} else {
+					cs2method_10467(10485, arg0);
+				}
+			}
+		}
+	} else if (arg0 == 82903089) {
+		if (ivar2 == 1) {
+			cs2method_10467(10487, arg0);
+		} else {
+			cs2method_10467(10486, arg0);
+		}
+	} else {
+		if (arg0 == 82903090) {
+			if (ivar2 == 1) {
+				cs2method_10467(10485, arg0);
+			} else {
+				cs2method_10467(10484, arg0);
+			}
+		}
+	}
+	script_41(82903129);
+	return;
+}

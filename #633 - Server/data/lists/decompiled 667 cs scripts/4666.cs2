@@ -1,0 +1,16 @@
+void script_4666(int arg0) {
+	int ivar1;
+	ivar1 = script_284(cs2method_10687());
+	cs2method_10155(0, 4);
+	cs2method_10155(1, 4);
+	cs2method_10105(0, 0, cs2method_10273(ivar1, 7, 0, 30), 700, cs2method_10273(ivar1, 7, 0, 30), 700, 0);
+	cs2method_10105(1, 0, cs2method_10273(ivar1, 8, 0, 22), 200, cs2method_10273(ivar1, 8, 0, 22), 200, 0);
+	cs2method_10105(0, 1, cs2method_10273(ivar1, 0, 0, 15), 800, cs2method_10273(ivar1, 0, 0, 15), 800, 0);
+	cs2method_10105(1, 1, cs2method_10273(ivar1, 8, 0, 22), 300, cs2method_10273(ivar1, 8, 0, 22), 300, 0);
+	cs2method_10105(0, 2, cs2method_10273(ivar1, 7, 0, 15), 600, cs2method_10273(ivar1, 7, 0, 15), 600, 0);
+	cs2method_10105(1, 2, cs2method_10273(ivar1, 8, 0, 22), 100, cs2method_10273(ivar1, 8, 0, 22), 100, 0);
+	cs2method_10105(0, 3, cs2method_10273(ivar1, 15, 0, 15), 800, cs2method_10273(ivar1, 15, 0, 15), 800, 0);
+	cs2method_10105(1, 3, cs2method_10273(ivar1, 8, 0, 22), 300, cs2method_10273(ivar1, 8, 0, 22), 300, 0);
+	cs2method_10767(0, 0, 100, 400, 1, 0);
+	return;
+}

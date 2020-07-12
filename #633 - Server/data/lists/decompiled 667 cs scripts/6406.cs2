@@ -1,0 +1,258 @@
+cs2func_script_6406_struct(2,0,0) script_6406(int arg0,int arg1) {
+	flow_0:
+		SWITCH (arg0) {
+			case 10526:
+				 GOTO flow_1
+			case 10562:
+				 GOTO flow_4
+			case 10563:
+				 GOTO flow_5
+			case 10564:
+				 GOTO flow_6
+			case 10565:
+				 GOTO flow_7
+			case 10566:
+				 GOTO flow_8
+			case 10567:
+				 GOTO flow_9
+			case 10568:
+				 GOTO flow_10
+			case 10569:
+				 GOTO flow_11
+			case 10570:
+				 GOTO flow_12
+			case 10571:
+				 GOTO flow_13
+			case 10572:
+				 GOTO flow_14
+			case 10573:
+				 GOTO flow_15
+			case 10587:
+				 GOTO flow_16
+			case 10588:
+				 GOTO flow_17
+			case 10589:
+				 GOTO flow_18
+			case 10590:
+				 GOTO flow_19
+			case 10591:
+				 GOTO flow_20
+			case 10592:
+				 GOTO flow_21
+			case 10593:
+				 GOTO flow_22
+			case 10594:
+				 GOTO flow_23
+			case 10595:
+				 GOTO flow_24
+			case 10596:
+				 GOTO flow_25
+			case 10597:
+				 GOTO flow_26
+			case 10598:
+				 GOTO flow_27
+			case 10756:
+				 GOTO flow_28
+			case 10757:
+				 GOTO flow_29
+			case 10758:
+				 GOTO flow_30
+			case 10759:
+				 GOTO flow_31
+			case 10760:
+				 GOTO flow_32
+			case 10761:
+				 GOTO flow_33
+			case 10762:
+				 GOTO flow_34
+			case 10763:
+				 GOTO flow_35
+			case 10764:
+				 GOTO flow_36
+			case 10765:
+				 GOTO flow_37
+			case 10766:
+				 GOTO flow_38
+			case 10767:
+				 GOTO flow_39
+			case 10754:
+				 GOTO flow_40
+			case 10575:
+				 GOTO flow_41
+			case 10576:
+				 GOTO flow_42
+			case 10577:
+				 GOTO flow_43
+			case 10578:
+				 GOTO flow_44
+			case 10579:
+				 GOTO flow_45
+			case 10580:
+				 GOTO flow_46
+			case 10581:
+				 GOTO flow_47
+			case 10582:
+				 GOTO flow_48
+			case 10583:
+				 GOTO flow_49
+			case 10584:
+				 GOTO flow_50
+			case 10585:
+				 GOTO flow_51
+			case 10586:
+				 GOTO flow_52
+			case 10600:
+				 GOTO flow_53
+			case 10601:
+				 GOTO flow_54
+			case 10602:
+				 GOTO flow_55
+			case 10603:
+				 GOTO flow_56
+			case 10604:
+				 GOTO flow_57
+			case 10605:
+				 GOTO flow_58
+			case 10606:
+				 GOTO flow_59
+			case 10607:
+				 GOTO flow_60
+			case 10608:
+				 GOTO flow_61
+			case 10609:
+				 GOTO flow_62
+			case 10610:
+				 GOTO flow_63
+			case 10611:
+				 GOTO flow_64
+		}
+		return newstruct cs2func_script_6406_struct(0, 0);
+	flow_1:
+		if (arg1 == 1) {
+			globalint_1979 = cs2method_10878();
+			globalint_1980 = add(cs2method_10878(), multiply(2, 30));
+		}
+		return newstruct cs2func_script_6406_struct(globalint_1979, globalint_1980);
+	flow_4:
+		return newstruct cs2func_script_6406_struct(globalint_1981, globalint_1982);
+	flow_5:
+		return newstruct cs2func_script_6406_struct(globalint_1983, globalint_1984);
+	flow_6:
+		return newstruct cs2func_script_6406_struct(globalint_1985, globalint_1986);
+	flow_7:
+		return newstruct cs2func_script_6406_struct(globalint_1987, globalint_1988);
+	flow_8:
+		return newstruct cs2func_script_6406_struct(globalint_1989, globalint_1990);
+	flow_9:
+		return newstruct cs2func_script_6406_struct(globalint_1991, globalint_1992);
+	flow_10:
+		return newstruct cs2func_script_6406_struct(globalint_1993, globalint_1994);
+	flow_11:
+		return newstruct cs2func_script_6406_struct(globalint_1995, globalint_1996);
+	flow_12:
+		return newstruct cs2func_script_6406_struct(globalint_1997, globalint_1998);
+	flow_13:
+		return newstruct cs2func_script_6406_struct(globalint_1999, globalint_2000);
+	flow_14:
+		return newstruct cs2func_script_6406_struct(globalint_2001, globalint_2002);
+	flow_15:
+		return newstruct cs2func_script_6406_struct(globalint_2003, globalint_2004);
+	flow_16:
+		return newstruct cs2func_script_6406_struct(globalint_2005, globalint_2006);
+	flow_17:
+		return newstruct cs2func_script_6406_struct(globalint_2007, globalint_2008);
+	flow_18:
+		return newstruct cs2func_script_6406_struct(globalint_2009, globalint_2010);
+	flow_19:
+		return newstruct cs2func_script_6406_struct(globalint_2011, globalint_2012);
+	flow_20:
+		return newstruct cs2func_script_6406_struct(globalint_2013, globalint_2014);
+	flow_21:
+		return newstruct cs2func_script_6406_struct(globalint_2015, globalint_2016);
+	flow_22:
+		return newstruct cs2func_script_6406_struct(globalint_2017, globalint_2018);
+	flow_23:
+		return newstruct cs2func_script_6406_struct(globalint_2019, globalint_2020);
+	flow_24:
+		return newstruct cs2func_script_6406_struct(globalint_2021, globalint_2022);
+	flow_25:
+		return newstruct cs2func_script_6406_struct(globalint_2023, globalint_2024);
+	flow_26:
+		return newstruct cs2func_script_6406_struct(globalint_2025, globalint_2026);
+	flow_27:
+		return newstruct cs2func_script_6406_struct(globalint_2027, globalint_2028);
+	flow_28:
+		return newstruct cs2func_script_6406_struct(globalint_2029, globalint_2030);
+	flow_29:
+		return newstruct cs2func_script_6406_struct(globalint_2031, globalint_2032);
+	flow_30:
+		return newstruct cs2func_script_6406_struct(globalint_2033, globalint_2034);
+	flow_31:
+		return newstruct cs2func_script_6406_struct(globalint_2035, globalint_2036);
+	flow_32:
+		return newstruct cs2func_script_6406_struct(globalint_2037, globalint_2038);
+	flow_33:
+		return newstruct cs2func_script_6406_struct(globalint_2039, globalint_2040);
+	flow_34:
+		return newstruct cs2func_script_6406_struct(globalint_2041, globalint_2042);
+	flow_35:
+		return newstruct cs2func_script_6406_struct(globalint_2043, globalint_2044);
+	flow_36:
+		return newstruct cs2func_script_6406_struct(globalint_2045, globalint_2046);
+	flow_37:
+		return newstruct cs2func_script_6406_struct(globalint_2047, globalint_2048);
+	flow_38:
+		return newstruct cs2func_script_6406_struct(globalint_2049, globalint_2050);
+	flow_39:
+		return newstruct cs2func_script_6406_struct(globalint_2051, globalint_2052);
+	flow_40:
+		return newstruct cs2func_script_6406_struct(globalint_2053, globalint_2054);
+	flow_41:
+		return newstruct cs2func_script_6406_struct(globalint_2055, globalint_2056);
+	flow_42:
+		return newstruct cs2func_script_6406_struct(globalint_2057, globalint_2058);
+	flow_43:
+		return newstruct cs2func_script_6406_struct(globalint_2059, globalint_2060);
+	flow_44:
+		return newstruct cs2func_script_6406_struct(globalint_2061, globalint_2062);
+	flow_45:
+		return newstruct cs2func_script_6406_struct(globalint_2063, globalint_2064);
+	flow_46:
+		return newstruct cs2func_script_6406_struct(globalint_2065, globalint_2066);
+	flow_47:
+		return newstruct cs2func_script_6406_struct(globalint_2067, globalint_2068);
+	flow_48:
+		return newstruct cs2func_script_6406_struct(globalint_2069, globalint_2070);
+	flow_49:
+		return newstruct cs2func_script_6406_struct(globalint_2071, globalint_2072);
+	flow_50:
+		return newstruct cs2func_script_6406_struct(globalint_2073, globalint_2074);
+	flow_51:
+		return newstruct cs2func_script_6406_struct(globalint_2075, globalint_2076);
+	flow_52:
+		return newstruct cs2func_script_6406_struct(globalint_2077, globalint_2078);
+	flow_53:
+		return newstruct cs2func_script_6406_struct(globalint_2079, globalint_2080);
+	flow_54:
+		return newstruct cs2func_script_6406_struct(globalint_2081, globalint_2082);
+	flow_55:
+		return newstruct cs2func_script_6406_struct(globalint_2083, globalint_2084);
+	flow_56:
+		return newstruct cs2func_script_6406_struct(globalint_2085, globalint_2086);
+	flow_57:
+		return newstruct cs2func_script_6406_struct(globalint_2087, globalint_2088);
+	flow_58:
+		return newstruct cs2func_script_6406_struct(globalint_2089, globalint_2090);
+	flow_59:
+		return newstruct cs2func_script_6406_struct(globalint_2091, globalint_2092);
+	flow_60:
+		return newstruct cs2func_script_6406_struct(globalint_2093, globalint_2094);
+	flow_61:
+		return newstruct cs2func_script_6406_struct(globalint_2095, globalint_2096);
+	flow_62:
+		return newstruct cs2func_script_6406_struct(globalint_2097, globalint_2098);
+	flow_63:
+		return newstruct cs2func_script_6406_struct(globalint_2099, globalint_2100);
+	flow_64:
+		return newstruct cs2func_script_6406_struct(globalint_2101, globalint_2102);
+}

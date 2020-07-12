@@ -1,0 +1,22 @@
+void script_4672(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 1:
+			ivar1 = 1823;
+			break;
+		case 2:
+			ivar1 = 55612;
+			cs2method_10535(9804, 6684727);
+			break;
+		case 4:
+		case 6:
+			ivar1 = 55626;
+			break;
+		case 3:
+			ivar1 = 69006;
+			cs2method_10535(9804, 6684727);
+	}
+	cs2method_10461(ivar1, 6684727);
+	return;
+}

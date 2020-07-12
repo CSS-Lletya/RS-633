@@ -1,0 +1,3 @@
+object script_1602(object arg0) {
+	return script_2332(arg0, cs2method_10547(0, 1, (object)"<lt>"), (object)">");
+}

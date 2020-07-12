@@ -1,0 +1,32 @@
+void script_2755(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	if (cs2method_10551(arg0, arg1) == 1 || arg1 == -1 && cs2method_10403(arg0) == 1) {
+		stack_dump0 = script_1743();
+		ivar4 = script_1744();
+		ivar3 = stack_dump0;
+		if (ivar3 < cs2method_10542(1, 3, cs2method_10956(48889906))) {
+			if (ivar4 < cs2method_10542(1, 3, cs2method_10090(48889906))) {
+				cs2method_10158(0, 0, 512, 768, 0, 1000, arg2);
+				script_6295(add(ivar3, cs2method_10040()), add(ivar4, cs2method_10630()), arg2);
+			} else {
+				cs2method_10158(0, 0, 512, 256, 0, 1000, arg2);
+				script_6295(add(ivar3, cs2method_10040()), subtract(ivar4, cs2method_10090(arg2)), arg2);
+			}
+		} else if (ivar4 < cs2method_10542(1, 3, cs2method_10090(48889906))) {
+			cs2method_10158(0, 0, 512, 1280, 0, 1000, arg2);
+			script_6295(subtract(ivar3, cs2method_10956(arg2)), add(ivar4, cs2method_10630()), arg2);
+		} else {
+			cs2method_10158(0, 0, 512, 1792, 0, 1000, arg2);
+			script_6295(subtract(ivar3, cs2method_10956(arg2)), subtract(ivar4, cs2method_10090(arg2)), arg2);
+		}
+	}
+	return;
+}

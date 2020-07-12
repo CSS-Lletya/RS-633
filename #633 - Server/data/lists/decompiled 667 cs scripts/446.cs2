@@ -1,0 +1,19 @@
+object script_446(int arg0,int arg1) {
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	if (cs2method_10713(arg1) == 0) {
+		ovar2 = cs2method_10445(ovar2, (object)("<col=ff981f>" + (string)getItemName(arg1) + "<col=ffffff>" + " x " + "<col=fff000>" + toString(arg0) + "<br>"));
+	} else if (arg0 < 100000) {
+		ovar0 = script_46(arg0, (object)",");
+		ovar2 = cs2method_10445(ovar2, (object)("<col=ff981f>" + (string)getItemName(arg1) + "<col=ffffff>" + " x " + "<col=fff000>" + (string)ovar0 + "<br>"));
+	} else {
+		ovar0 = script_46(arg0, (object)",");
+		ovar1 = script_46(divide(arg0, 1000), (object)",");
+		ovar2 = cs2method_10445(ovar2, (object)("<col=ff981f>" + (string)getItemName(arg1) + "<col=ffffff>" + " x " + "<col=ffffff>" + (string)ovar1 + "K (" + (string)ovar0 + ")" + "<br>"));
+	}
+	return ovar2;
+}

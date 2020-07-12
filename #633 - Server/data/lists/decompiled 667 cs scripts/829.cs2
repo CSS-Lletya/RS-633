@@ -1,0 +1,6 @@
+int script_829(int arg0,int arg1) {
+	if (arg0 == 845) {
+		return subtract(cs2method_11005(), 1);
+	}
+	return subtract(cs2method_10624(arg1), 1);
+}

@@ -1,0 +1,20 @@
+void script_4507(int arg0,int arg1,int arg2) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (cs2method_10551(arg1, arg0) == 1) {
+		ovar0 = cs2method_10775();
+	}
+	clearExtraChildren(new WidgetPointer(arg2));
+	createChildWidget(arg2, 4, cs2method_10860(arg2));
+	setWidgetText(ovar0);
+	if (arg2 == 12451867) {
+		setWidgetFont(494);
+	} else {
+		setWidgetFont(3793);
+	}
+	setWidgetPosition(5, 0, 0, 1);
+	setWidgetSize(5, 16384, 1, 2);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(239, 176, 99));
+	return;
+}

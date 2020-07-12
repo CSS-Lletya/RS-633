@@ -1,0 +1,11 @@
+object script_821() {
+	object ovar0;
+	ovar0 = (object)"";
+	ovar0 = script_822(bitconfig_1043, 1, ovar0);
+	ovar0 = script_822(bitconfig_1044, 0, ovar0);
+	ovar0 = script_822(bitconfig_1045, 0, ovar0);
+	ovar0 = script_822(bitconfig_1046, 0, ovar0);
+	ovar0 = script_822(bitconfig_1047, 0, ovar0);
+	ovar0 = script_822(bitconfig_1048, 0, ovar0);
+	return ovar0;
+}

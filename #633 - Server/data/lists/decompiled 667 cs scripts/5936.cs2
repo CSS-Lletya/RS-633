@@ -1,0 +1,31 @@
+int script_5936(int arg0) {
+	switch (arg0) {
+		case 0:
+			return 9688;
+		case 1:
+			return 9689;
+		case 2:
+			return 9690;
+		case 3:
+			return 9691;
+		case 4:
+			return 9692;
+		case 5:
+			return 9693;
+		case 6:
+			return 9694;
+		case 7:
+			return 9695;
+		case 8:
+			return 9696;
+		case 9:
+			return 9697;
+		case 10:
+			return 9698;
+		case 11:
+			return 9699;
+		case 12:
+			return 9700;
+	}
+	return -1;
+}

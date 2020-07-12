@@ -1,0 +1,31 @@
+void script_5268(int arg0,object arg1,object arg2) {
+	int ivar1;
+	int ivar2;
+	ivar1 = cs2method_10860(74514541);
+	ivar2 = multiply(divide(ivar1, 2), 20);
+	createChildWidget(74514541, 4, ivar1);
+	setWidgetText(arg1);
+	arg2 = cs2method_10445(arg2, (object)("<col=800000>" + (string)cs2method_10429(arg0, (object)" Teams: Yes.", (object)" Teams: No.")));
+	cs2method_20930(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(1137,6), (string)arg2, 25, 519, "IiIsii");
+	setWidgetSize(8100, 20, 2, 0);
+	cs2method_20115(5267, "");
+	if (cs2method_10620(ivar1, 2) == 0) {
+		setWidgetPosition(2, ivar2, 0, 0);
+	} else {
+		setWidgetPosition(2, ivar2, 2, 0);
+	}
+	setWidgetFont(494);
+	setWidgetRGB(new Color(0, 255, 0));
+	cs2method_10320(1);
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1949, new WidgetPointer(-32768,3), -2147483643, 65280, new WidgetPointer(1137,6), "IiiI");
+	setWidgetContextMenuOption(1, (object)"Select");
+	if (ivar1 >= 10 && cs2method_10620(ivar1, 2) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1137,110));
+		cs2method_10893(18, 2, 1, 1, 74514541);
+		setWidgetScrollMax(0, add(ivar2, 20), 74514541);
+		script_31(74514542, 74514541, 792, 789, 790, 791, 773, 788);
+		script_72(74514542, 74514541, multiply(divide(subtract(bitconfig_9822, 1), 2), 20));
+	}
+	return;
+}

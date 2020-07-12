@@ -1,0 +1,55 @@
+void script_5654() {
+	int ivar0;
+	int ivar1;
+	if (standart_config_1801 == 2147483647) {
+		setWidgetText(new WidgetPointer(1215,4), (object)"Lots!");
+	} else {
+		setWidgetText(new WidgetPointer(1215,4), cs2method_10595(divide(standart_config_1801, 10), 1));
+	}
+	if (standart_config_2475 == 2147483647) {
+		setWidgetText(new WidgetPointer(1215,6), (object)"Lots!");
+	} else {
+		setWidgetText(new WidgetPointer(1215,6), cs2method_10595(divide(standart_config_2475, 10), 1));
+	}
+	if (standart_config_2476 == 2147483647) {
+		setWidgetText(new WidgetPointer(1215,8), (object)"Lots!");
+	} else {
+		setWidgetText(new WidgetPointer(1215,8), cs2method_10595(divide(standart_config_2476, 10), 1));
+	}
+	cs2method_10893(cs2method_10355(cs2method_10894(79626244), cs2method_10100(79626244)), cs2method_10090(79626244), 0, 0, 79626244);
+	cs2method_10893(cs2method_10355(cs2method_10894(79626246), cs2method_10100(79626246)), cs2method_10090(79626246), 0, 0, 79626246);
+	cs2method_10893(cs2method_10355(cs2method_10894(79626248), cs2method_10100(79626248)), cs2method_10090(79626248), 0, 0, 79626248);
+	ivar0 = cs2method_10004(cs2method_10004(cs2method_10956(79626244), cs2method_10956(79626246)), cs2method_10956(79626248));
+	ivar0 = add(ivar0, 33);
+	script_5660();
+	setWidgetIsHidden(true, new WidgetPointer(1215,4));
+	setWidgetIsHidden(true, new WidgetPointer(1215,6));
+	setWidgetIsHidden(true, new WidgetPointer(1215,8));
+	setWidgetIsHidden(true, new WidgetPointer(1215,5));
+	setWidgetIsHidden(true, new WidgetPointer(1215,7));
+	setWidgetIsHidden(true, new WidgetPointer(1215,9));
+	ivar1 = 0;
+	if (bitconfig_10444 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1215,4));
+		setWidgetIsHidden(false, new WidgetPointer(1215,5));
+		cs2method_10444(ivar0, ivar1, 2, 0, 79626250);
+		ivar1 = add(cs2method_10826(79626245), cs2method_10090(79626245));
+	}
+	if (bitconfig_10445 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1215,6));
+		setWidgetIsHidden(false, new WidgetPointer(1215,7));
+		cs2method_10444(28, ivar1, 2, 0, 79626246);
+		cs2method_10444(cs2method_10111(79626247), ivar1, 0, 0, 79626247);
+		cs2method_10444(ivar0, ivar1, 2, 0, 79626251);
+		ivar1 = add(cs2method_10826(79626247), cs2method_10090(79626247));
+	}
+	if (bitconfig_10446 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1215,8));
+		setWidgetIsHidden(false, new WidgetPointer(1215,9));
+		cs2method_10444(28, ivar1, 2, 0, 79626248);
+		cs2method_10444(cs2method_10111(79626249), ivar1, 0, 0, 79626249);
+		cs2method_10444(ivar0, ivar1, 2, 0, 79626252);
+	}
+	script_5652();
+	return;
+}

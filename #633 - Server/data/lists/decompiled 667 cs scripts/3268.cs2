@@ -1,0 +1,342 @@
+void script_3268() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	cs2func_script_3269_struct(4,0,0) structdump_4;
+	ivar0 = 1;
+	ivar1 = 18;
+	ivar2 = 255;
+	ivar3 = add(add(add(add(globalint_1198, globalint_1199), globalint_1200), globalint_1201), globalint_1202);
+	ivar4 = subtract(ivar2, multiply(ivar3, ivar1));
+	ivar4 = cs2method_10586(ivar4, 105);
+	ivar5 = 4;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	stack_dump0 = globalint_1184;
+	stack_dump1 = ivar5;
+	stack_dump2 = ivar1;
+	stack_dump3 = ivar4;
+	structdump_4 = script_3269(stack_dump0, stack_dump1, stack_dump2, stack_dump3);
+	ivar9 = structdump_4.intpart_3;
+	ivar8 = structdump_4.intpart_2;
+	ivar7 = structdump_4.intpart_1;
+	ivar6 = structdump_4.intpart_0;
+	switch (globalint_1184) {
+		case 0:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			if (globalint_1198 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"Expand");
+				cs2method_10467(2851, 61145405);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			if (globalint_1199 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,266));
+				cs2method_10375(1, 61145354, (object)"Expand");
+				cs2method_10467(2851, 61145363);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,266));
+				setWidgetIsHidden(true, new WidgetPointer(933,316));
+				cs2method_10375(1, 61145354, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			if (globalint_1200 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,276));
+				cs2method_10375(1, 61145364, (object)"Expand");
+				cs2method_10467(2851, 61145373);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,276));
+				setWidgetIsHidden(true, new WidgetPointer(933,274));
+				cs2method_10375(1, 61145364, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			if (globalint_1201 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,286));
+				cs2method_10375(1, 61145374, (object)"Expand");
+				cs2method_10467(2851, 61145383);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,286));
+				setWidgetIsHidden(true, new WidgetPointer(933,284));
+				cs2method_10375(1, 61145374, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			if (globalint_1202 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,296));
+				cs2method_10375(1, 61145384, (object)"Expand");
+				cs2method_10467(2851, 61145396);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,296));
+				setWidgetIsHidden(true, new WidgetPointer(933,294));
+				cs2method_10375(1, 61145384, (object)"");
+			}
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 5)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 5)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 5)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 5)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 5)), 2, 0, 61145384);
+			break;
+		case 1:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			cs2method_10375(1, 61145353, (object)"Shrink");
+			cs2method_10467(2852, 61145405);
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			if (globalint_1199 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,266));
+				cs2method_10375(1, 61145354, (object)"Expand");
+				cs2method_10467(2851, 61145363);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,266));
+				setWidgetIsHidden(true, new WidgetPointer(933,316));
+				cs2method_10375(1, 61145354, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			if (globalint_1200 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,276));
+				cs2method_10375(1, 61145364, (object)"Expand");
+				cs2method_10467(2851, 61145373);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,276));
+				setWidgetIsHidden(true, new WidgetPointer(933,274));
+				cs2method_10375(1, 61145364, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			if (globalint_1201 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,286));
+				cs2method_10375(1, 61145374, (object)"Expand");
+				cs2method_10467(2851, 61145383);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,286));
+				setWidgetIsHidden(true, new WidgetPointer(933,284));
+				cs2method_10375(1, 61145374, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			if (globalint_1202 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,296));
+				cs2method_10375(1, 61145384, (object)"Expand");
+				cs2method_10467(2851, 61145396);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,296));
+				setWidgetIsHidden(true, new WidgetPointer(933,294));
+				cs2method_10375(1, 61145384, (object)"");
+			}
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 2)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 2)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 2)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 2)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 2)), 2, 0, 61145384);
+			break;
+		case 2:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			if (globalint_1198 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"Expand");
+				cs2method_10467(2851, 61145405);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			cs2method_10375(1, 61145354, (object)"Shrink");
+			cs2method_10467(2852, 61145363);
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			if (globalint_1200 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,276));
+				cs2method_10375(1, 61145364, (object)"Expand");
+				cs2method_10467(2851, 61145373);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,276));
+				setWidgetIsHidden(true, new WidgetPointer(933,274));
+				cs2method_10375(1, 61145364, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			if (globalint_1201 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,286));
+				cs2method_10375(1, 61145374, (object)"Expand");
+				cs2method_10467(2851, 61145383);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,286));
+				setWidgetIsHidden(true, new WidgetPointer(933,284));
+				cs2method_10375(1, 61145374, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			if (globalint_1202 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,296));
+				cs2method_10375(1, 61145384, (object)"Expand");
+				cs2method_10467(2851, 61145396);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,296));
+				setWidgetIsHidden(true, new WidgetPointer(933,294));
+				cs2method_10375(1, 61145384, (object)"");
+			}
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 2)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 2)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 2)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 2)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 2)), 2, 0, 61145384);
+			break;
+		case 3:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			if (globalint_1198 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"Expand");
+				cs2method_10467(2851, 61145405);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			if (globalint_1199 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,266));
+				cs2method_10375(1, 61145354, (object)"Expand");
+				cs2method_10467(2851, 61145363);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,266));
+				setWidgetIsHidden(true, new WidgetPointer(933,316));
+				cs2method_10375(1, 61145354, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			cs2method_10375(1, 61145364, (object)"Shrink");
+			cs2method_10467(2852, 61145373);
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			if (globalint_1201 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,286));
+				cs2method_10375(1, 61145374, (object)"Expand");
+				cs2method_10467(2851, 61145383);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,286));
+				setWidgetIsHidden(true, new WidgetPointer(933,284));
+				cs2method_10375(1, 61145374, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			if (globalint_1202 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,296));
+				cs2method_10375(1, 61145384, (object)"Expand");
+				cs2method_10467(2851, 61145396);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,296));
+				setWidgetIsHidden(true, new WidgetPointer(933,294));
+				cs2method_10375(1, 61145384, (object)"");
+			}
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 2)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 2)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 2)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 2)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 2)), 2, 0, 61145384);
+			break;
+		case 4:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			if (globalint_1198 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"Expand");
+				cs2method_10467(2851, 61145405);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			if (globalint_1199 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,266));
+				cs2method_10375(1, 61145354, (object)"Expand");
+				cs2method_10467(2851, 61145363);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,266));
+				setWidgetIsHidden(true, new WidgetPointer(933,316));
+				cs2method_10375(1, 61145354, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			if (globalint_1200 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,276));
+				cs2method_10375(1, 61145364, (object)"Expand");
+				cs2method_10467(2851, 61145373);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,276));
+				setWidgetIsHidden(true, new WidgetPointer(933,274));
+				cs2method_10375(1, 61145364, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			cs2method_10375(1, 61145374, (object)"Shrink");
+			cs2method_10467(2852, 61145383);
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			if (globalint_1202 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,296));
+				cs2method_10375(1, 61145384, (object)"Expand");
+				cs2method_10467(2851, 61145396);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,296));
+				setWidgetIsHidden(true, new WidgetPointer(933,294));
+				cs2method_10375(1, 61145384, (object)"");
+			}
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 2)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 2)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 2)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 2)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 2)), 2, 0, 61145384);
+			break;
+		case 5:
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145353), ivar5), 0, 0, 61145353);
+			if (globalint_1198 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"Expand");
+				cs2method_10467(2851, 61145405);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,265));
+				cs2method_10375(1, 61145353, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145354), ivar6), 0, 0, 61145354);
+			if (globalint_1199 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,266));
+				cs2method_10375(1, 61145354, (object)"Expand");
+				cs2method_10467(2851, 61145363);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,266));
+				setWidgetIsHidden(true, new WidgetPointer(933,316));
+				cs2method_10375(1, 61145354, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145364), ivar7), 0, 0, 61145364);
+			if (globalint_1200 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,276));
+				cs2method_10375(1, 61145364, (object)"Expand");
+				cs2method_10467(2851, 61145373);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,276));
+				setWidgetIsHidden(true, new WidgetPointer(933,274));
+				cs2method_10375(1, 61145364, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145374), ivar8), 0, 0, 61145374);
+			if (globalint_1201 == 1) {
+				setWidgetIsHidden(false, new WidgetPointer(933,286));
+				cs2method_10375(1, 61145374, (object)"Expand");
+				cs2method_10467(2851, 61145383);
+			} else {
+				setWidgetIsHidden(true, new WidgetPointer(933,286));
+				setWidgetIsHidden(true, new WidgetPointer(933,284));
+				cs2method_10375(1, 61145374, (object)"");
+			}
+			cs2method_10444(ivar0, script_3270(cs2method_10826(61145384), ivar9), 0, 0, 61145384);
+			cs2method_10375(1, 61145384, (object)"Shrink");
+			cs2method_10467(2852, 61145396);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145353), subtract(subtract(cs2method_10826(61145354), cs2method_10826(61145353)), 2)), 2, 0, 61145353);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145354), subtract(subtract(cs2method_10826(61145364), cs2method_10826(61145354)), 2)), 2, 0, 61145354);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145364), subtract(subtract(cs2method_10826(61145374), cs2method_10826(61145364)), 2)), 2, 0, 61145364);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145374), subtract(subtract(cs2method_10826(61145384), cs2method_10826(61145374)), 2)), 2, 0, 61145374);
+			cs2method_10893(16384, script_3270(cs2method_10090(61145384), subtract(subtract(ivar2, cs2method_10826(61145384)), 2)), 2, 0, 61145384);
+	}
+	script_3271();
+	return;
+}

@@ -1,0 +1,13 @@
+void script_2096() {
+	if (globalint_654 < 100) {
+		globalint_654 = add(globalint_654, 1);
+	}
+	if (globalint_654 == 50) {
+		setWidgetRGB(16777215, 54657037);
+	}
+	if (globalint_654 == 100) {
+		setWidgetRGB(16720675, 54657037);
+		globalint_654 = 0;
+	}
+	return;
+}

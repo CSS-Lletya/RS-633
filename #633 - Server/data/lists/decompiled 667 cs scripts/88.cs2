@@ -1,0 +1,33 @@
+void script_88(int arg0,int arg1,object arg2) {
+	arg2 = cs2method_10222(arg2);
+	switch (arg0) {
+		case 7:
+			if (script_2709() == 0) {
+				cs2method_10998((object)"You cannot add a friend until you have entered your date of birth");
+				return;
+			}
+			if (cs2method_10028(arg2) == 1) {
+				if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+					globalint_1650 = 1;
+					globalstring_23 = (string)arg2;
+					globalint_2106 = 1;
+					script_6415();
+					script_6328(0);
+					script_1558(0);
+					return;
+				}
+			} else {
+				cs2method_10330(arg2);
+			}
+			break;
+		case 8:
+			cs2method_10267(arg2);
+			break;
+		case 9:
+			script_1052(5, cs2method_10674(arg1), arg2);
+			break;
+		case 10:
+			globalstring_24 = (string)arg2;
+	}
+	return;
+}

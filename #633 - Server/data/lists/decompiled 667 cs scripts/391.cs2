@@ -1,0 +1,338 @@
+void script_391() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	ivar0 = -1;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	ivar10 = -1;
+	ovar0 = (object)"";
+	switch (globalint_1020) {
+		case 0:
+			ivar0 = 67371124;
+			ivar6 = 748;
+			ivar7 = 746;
+			ivar8 = 747;
+			ivar9 = 4;
+			ivar10 = globalint_1019;
+			ovar0 = (object)"Select skin colour:";
+			setWidgetIsHidden(true, new WidgetPointer(1028,123));
+			break;
+		case 1:
+			ivar0 = 67371125;
+			if (cs2method_10855() == 1) {
+				ivar1 = 3302;
+				ivar2 = 3303;
+				ivar4 = 7;
+			} else {
+				ivar1 = 3304;
+				ivar2 = 3305;
+				ivar4 = 0;
+			}
+			ivar5 = globalint_1008;
+			ivar6 = 2345;
+			ivar7 = 2343;
+			ivar8 = 2344;
+			ivar9 = 0;
+			ivar10 = globalint_1015;
+			ovar0 = (object)"Select hairstyle:";
+			setWidgetIsHidden(true, new WidgetPointer(1028,123));
+			break;
+		case 2:
+			ivar0 = 67371129;
+			if (cs2method_10855() != 1) {
+				ivar1 = 3307;
+				ivar2 = 3306;
+				ivar3 = 2340;
+				ivar4 = 1;
+				ivar5 = globalint_1009;
+				ivar6 = 2345;
+				ivar7 = 2343;
+				ivar8 = 2344;
+				ivar9 = 0;
+				ivar10 = globalint_1015;
+			}
+			ovar0 = (object)"Select facial hair:";
+			setWidgetIsHidden(true, new WidgetPointer(1028,123));
+			break;
+		case 3:
+			ivar0 = 67371126;
+			if (cs2method_10855() == 1) {
+				ivar1 = 3299;
+				ivar2 = 3298;
+				ivar3 = 1590;
+				ivar4 = 9;
+			} else {
+				ivar1 = 3287;
+				ivar2 = 3286;
+				ivar3 = 689;
+				ivar4 = 2;
+			}
+			ivar5 = globalint_1010;
+			ivar6 = 3283;
+			ivar7 = 2347;
+			ivar8 = 2348;
+			ivar9 = 1;
+			ivar10 = globalint_1016;
+			ovar0 = (object)"Select torso:";
+			setWidgetIsHidden(false, new WidgetPointer(1028,123));
+			break;
+		case 6:
+			ivar0 = 67371127;
+			if (cs2method_10855() == 1) {
+				ivar1 = 3301;
+				ivar2 = 3300;
+				ivar3 = 1606;
+				ivar4 = 12;
+			} else {
+				ivar1 = 3289;
+				ivar2 = 3288;
+				ivar3 = 1585;
+				ivar4 = 5;
+			}
+			ivar5 = globalint_1013;
+			ivar6 = 3283;
+			ivar7 = 2347;
+			ivar8 = 2348;
+			ivar9 = 2;
+			ivar10 = globalint_1017;
+			ovar0 = (object)"Select legs:";
+			setWidgetIsHidden(false, new WidgetPointer(1028,123));
+			break;
+		case 7:
+			ivar0 = 67371128;
+			if (cs2method_10855() == 1) {
+				ivar1 = 1137;
+				ivar2 = 3295;
+				ivar3 = 3294;
+				ivar4 = 13;
+			} else {
+				ivar1 = 1136;
+				ivar2 = 3292;
+				ivar3 = 3291;
+				ivar4 = 6;
+			}
+			ivar5 = globalint_1014;
+			ivar6 = 3297;
+			ivar7 = 753;
+			ivar8 = 3296;
+			ivar9 = 3;
+			ivar10 = globalint_1018;
+			ovar0 = (object)"Select footwear:";
+			setWidgetIsHidden(false, new WidgetPointer(1028,123));
+	}
+	clearExtraChildren(new WidgetPointer(1028,115));
+	cs2method_20333(-1, "", new WidgetPointer(ivar0));
+	cs2method_20295(382, "", new WidgetPointer(ivar0));
+	script_376(67371123, ivar0, -1, 14662200, 12811264, 0, 0);
+	if (ivar0 != 67371124) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,116));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,116));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371124), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,116));
+	if (ivar0 != 67371125) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,117));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,117));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371125), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,117));
+	if (ivar0 != 67371129) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,121));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,121));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371129), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,121));
+	if (ivar0 != 67371126) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,118));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,118));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371126), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,118));
+	if (ivar0 != 67371127) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,119));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,119));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371127), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,119));
+	if (ivar0 != 67371128) {
+		cs2method_20333(375, new WidgetPointer(1028,115), new WidgetPointer(-32768,3), -1, 12559689, 12559689, 0, 6, "IIiiiii", new WidgetPointer(1028,120));
+		cs2method_20295(377, new WidgetPointer(1028,115), 6, "Ii", new WidgetPointer(1028,120));
+	}
+	cs2method_20835(378, (string)cs2method_10120(1, 67371128), new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(1028,120));
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = 0;
+	ivar15 = -1;
+	ivar16 = -1;
+	ivar17 = -1;
+	ivar18 = 0;
+	ovar1 = (object)"";
+	clearExtraChildren(new WidgetPointer(1028,128));
+	clearExtraChildren(new WidgetPointer(1028,125));
+	if (ivar1 != -1 && ivar2 != -1 && ivar4 != -1) {
+		ivar14 = divide(subtract(cs2method_10956(67371136), multiply(4, 65)), 3);
+		ivar12 = cs2method_10624(ivar1);
+		while (ivar11 < ivar12) {
+			createChildWidget(67371136, 5, ivar11);
+			setWidgetSize(65, 65, 0, 0);
+			setWidgetPosition(multiply(cs2method_10620(ivar11, 4), add(65, ivar14)), multiply(divide(ivar11, 4), add(65, ivar14)), 0, 0);
+			cs2method_10469(getDataByKey('i', 'd', ivar2, ivar11));
+			if (globalint_1020 == 1) {
+				ivar15 = getDataByKey('i', 'J', ivar1, ivar11);
+				if (ivar15 != -1) {
+					ovar1 = (object)getGeneralRequirementAttribute(ivar15, 792);
+					setWidgetContextMenuOption(1, ovar1);
+					ivar16 = getGeneralRequirementAttribute(ivar15, 788);
+				} else {
+					stack_dump0 = -1;
+					ovar1 = (object)"";
+					ivar16 = stack_dump0;
+				}
+			} else {
+				ovar1 = (object)getDataByKey('i', 's', ivar3, ivar11);
+				setWidgetContextMenuOption(1, ovar1);
+				ivar16 = getDataByKey('i', 'K', ivar1, ivar11);
+			}
+			if (ivar5 == ivar16) {
+				ivar17 = ivar11;
+				ivar18 = cs2method_10207();
+				if (cs2method_10366(ovar1) > 0) {
+					ovar0 = (object)((string)ovar0 + " " + (string)ovar1);
+				}
+				cs2method_20139(382, "");
+			} else {
+				cs2method_20115(355, -2147483644, ivar16, ivar4, "iKi");
+				cs2method_20211(373, new WidgetPointer(-32768,3), -2147483643, add(ivar12, 1), 2, 1, "Iiii1");
+				cs2method_20139(373, new WidgetPointer(-32768,3), -2147483643, add(ivar12, 1), 2, 0, "Iiii1");
+			}
+			if (cs2method_10366(ovar1) > 0) {
+				cs2method_20930(378, (string)ovar1, new WidgetPointer(-32768,3), -2147483643, -2147483647, "sIii");
+			}
+			ivar13 = cs2method_10207();
+			ivar11 = add(ivar11, 1);
+		}
+		ivar13 = add(ivar13, 65);
+		createChildWidget(67371136, 3, ivar12);
+		if (ivar17 != -1 && cs2method_10551(67371136, ivar17) == 1) {
+			setWidgetSize(subtract(cs2method_10040(), 6), subtract(cs2method_10630(), 6), 0, 0);
+			setWidgetPosition(add(cs2method_10646(), 3), add(cs2method_10207(), 3), 0, 0);
+			setWidgetRGB(new Color(0, 0, 0));
+			cs2method_10305(175);
+			setWidgetFilled(1);
+		} else {
+			cs2method_10692(1);
+		}
+	}
+	ivar19 = 3466;
+	if (ivar13 > cs2method_10090(67371136)) {
+		setWidgetScrollMax(0, ivar13, 67371136);
+		if (ivar18 < cs2method_10424(67371136)) {
+			cs2method_10085(0, subtract(ivar18, 15), 67371136);
+		} else {
+			if (add(ivar18, 65) >= add(cs2method_10424(67371136), cs2method_10090(67371136))) {
+				cs2method_10085(0, subtract(add(add(ivar18, 65), 15), cs2method_10090(67371136)), 67371136);
+			}
+		}
+		script_186(67371134, 67371136, 6118, 6119, 6120, 6115, 6116, 6117, 6122, 6121, 6124, 6123, 6126, 6125);
+	} else if (globalint_1020 == 0) {
+		script_374(67371136, 20, (object)("Please choose your skin colour" + "<br>" + "from the selection on the right."));
+	} else {
+		if (globalint_1020 == 2 && cs2method_10855() == 1) {
+			script_374(67371136, 20, (object)("Female characters cannot have" + "<br>" + "facial hair in RuneScape."));
+		}
+	}
+	cs2method_10085(0, 0, 67371136);
+	setWidgetScrollMax(0, 0, 67371136);
+	clearExtraChildren(new WidgetPointer(1028,126));
+	script_374(67371133, 0, ovar0);
+	clearExtraChildren(new WidgetPointer(1028,132));
+	ivar20 = -1;
+	ivar17 = -1;
+	ivar11 = 0;
+	ivar18 = 0;
+	ivar21 = 0;
+	if (ivar6 != -1 && ivar7 != -1 && ivar9 != -1) {
+		ivar12 = cs2method_10624(ivar6);
+		ivar21 = add(ivar12, 6);
+		while (ivar11 < ivar12) {
+			createChildWidget(67371140, 3, ivar11);
+			setWidgetSize(15, subtract(17, 2), 1, 0);
+			setWidgetPosition(0, add(multiply(ivar11, 17), 1), 1, 0);
+			setWidgetFilled(1);
+			setWidgetRGB(new Color(getDataByKey('i', 'i', ivar7, ivar11)));
+			ovar1 = (object)getDataByKey('i', 's', ivar8, ivar11);
+			setWidgetContextMenuOption(1, ovar1);
+			ivar20 = getDataByKey('i', 'i', ivar6, ivar11);
+			if (ivar10 == ivar20) {
+				ivar17 = ivar11;
+				ivar18 = cs2method_10207();
+				cs2method_20139(382, "");
+			} else {
+				cs2method_20115(357, -2147483644, ivar20, ivar9, "iii");
+				cs2method_20211(375, new WidgetPointer(-32768,3), new WidgetPointer(-32768,3), -2147483643, 12559689, 12559689, 1, ivar21, "IIiiiii");
+				cs2method_20139(377, new WidgetPointer(-32768,3), ivar21, "Ii");
+			}
+			if (cs2method_10366(ovar1) > 0) {
+				cs2method_20930(381, (string)ovar1, new WidgetPointer(-32768,3), -2147483643, -2147483646, "sIii");
+			}
+			ivar11 = add(ivar11, 1);
+		}
+	} else {
+		ivar12 = 0;
+	}
+	ivar13 = cs2method_10004(multiply(ivar12, 17), 0);
+	if (ivar13 > subtract(cs2method_10090(67371137), 12)) {
+		cs2method_10893(23, 12, 1, 1, 67371140);
+		cs2method_10444(5, 0, 0, 1, 67371140);
+		setWidgetScrollMax(0, ivar13, 67371140);
+		if (ivar18 < cs2method_10424(67371140)) {
+			cs2method_10085(0, subtract(ivar18, 5), 67371140);
+		} else {
+			if (add(ivar18, 17) >= add(cs2method_10424(67371140), cs2method_10090(67371140))) {
+				cs2method_10085(0, subtract(add(add(ivar18, 17), 5), cs2method_10090(67371140)), 67371140);
+			}
+		}
+		setWidgetIsHidden(false, new WidgetPointer(1028,131));
+		script_186(67371139, 67371140, 6118, 6119, 6120, 6115, 6116, 6117, 6122, 6121, 6124, 6123, 6126, 6125);
+	} else {
+		cs2method_10893(10, 12, 1, 1, 67371140);
+		cs2method_10444(0, 0, 1, 1, 67371140);
+		setWidgetScrollMax(0, 0, 67371140);
+		cs2method_10085(0, 0, 67371140);
+		clearExtraChildren(new WidgetPointer(1028,131));
+		setWidgetIsHidden(true, new WidgetPointer(1028,131));
+	}
+	if (ivar17 != -1) {
+		script_376(67371140, 67371140, ivar17, 14662200, 12811264, 1, ivar12);
+	} else {
+		script_376(67371140, -1, -1, 0, 0, 1, ivar12);
+	}
+	script_389();
+	return;
+}

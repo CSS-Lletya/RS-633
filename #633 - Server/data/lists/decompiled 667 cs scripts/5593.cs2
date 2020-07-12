@@ -1,0 +1,60 @@
+void script_5593(int arg0,int arg1) {
+	flow_0:
+		IF (arg0 == 16 || arg1 == 49) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		setWidgetRGB(14389248, 77856771);
+		setWidgetRGB(14389248, 77856780);
+		cs2method_10250(77856779);
+		GOTO	flow_14
+	flow_2:
+		IF (arg0 == 17) 
+			GOTO	flow_3
+		IF (arg1 == 50 && cs2method_10416(77856781) == 0) 
+			GOTO	flow_4
+		GOTO	flow_5
+	flow_3:
+	flow_4:
+		setWidgetRGB(14389248, 77856792);
+		setWidgetRGB(14389248, 77856793);
+		cs2method_10250(77856781);
+		GOTO	flow_14
+	flow_5:
+		IF (arg0 == 18) 
+			GOTO	flow_6
+		IF (arg1 == 51 && cs2method_10416(77856782) == 0) 
+			GOTO	flow_7
+		GOTO	flow_8
+	flow_6:
+	flow_7:
+		setWidgetRGB(14389248, 77856797);
+		setWidgetRGB(14389248, 77856798);
+		cs2method_10250(77856782);
+		GOTO	flow_14
+	flow_8:
+		IF (arg0 == 19) 
+			GOTO	flow_9
+		IF (arg1 == 52 && cs2method_10416(77856783) == 0) 
+			GOTO	flow_10
+		GOTO	flow_11
+	flow_9:
+	flow_10:
+		setWidgetRGB(14389248, 77856802);
+		setWidgetRGB(14389248, 77856803);
+		cs2method_10250(77856783);
+		GOTO	flow_14
+	flow_11:
+		IF (arg0 == 20) 
+			GOTO	flow_12
+		IF (arg1 == 53 && cs2method_10416(77856784) == 0) 
+			GOTO	flow_13
+		GOTO	flow_14
+	flow_12:
+	flow_13:
+		setWidgetRGB(14389248, 77856807);
+		setWidgetRGB(14389248, 77856808);
+		cs2method_10250(77856784);
+	flow_14:
+		return;
+}

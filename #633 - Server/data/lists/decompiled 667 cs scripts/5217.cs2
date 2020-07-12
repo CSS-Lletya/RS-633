@@ -1,0 +1,10 @@
+void script_5217(int arg0,int arg1,int arg2,int arg3) {
+	script_5981(arg0);
+	script_4161(arg0, 255);
+	cs2method_20333(-1, "", new WidgetPointer(arg0));
+	cs2method_20333(-1, "", new WidgetPointer(arg3));
+	cs2method_20333(5218, new WidgetPointer(arg0), new WidgetPointer(arg3), 0, 0, new WidgetPointer(arg2), "IIiiI", new WidgetPointer(arg2));
+	cs2method_20295(5218, new WidgetPointer(arg0), new WidgetPointer(arg3), 1, 0, new WidgetPointer(arg2), "IIiiI", new WidgetPointer(arg0));
+	setWidgetIsHidden(true, new WidgetPointer(cs2method_10509(arg3)));
+	return;
+}

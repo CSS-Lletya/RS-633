@@ -1,0 +1,31 @@
+void script_2358(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar1 = getDataByKey('I', 'i', 2125, arg0);
+	ivar2 = getDataByKey('I', 'i', 2124, arg0);
+	ivar3 = 1;
+	if (standart_config_1893 == -1) {
+		if (ivar2 == 1) {
+			ivar3 = cs2method_10184(standart_config_1890, ivar1);
+		} else if (ivar2 == 2) {
+			ivar3 = cs2method_10184(standart_config_1891, ivar1);
+		} else {
+			ivar3 = cs2method_10184(standart_config_1892, ivar1);
+		}
+		if (ivar3 == 0) {
+			cs2method_10867(arg0);
+		}
+		return;
+	}
+	ivar4 = getDataByKey('I', 'J', 704, standart_config_1893);
+	ivar5 = getGeneralRequirementAttribute(ivar4, 1222);
+	ivar6 = getGeneralRequirementAttribute(ivar4, 1223);
+	ivar7 = (int)getDataByKey('I', 'I', 1592, standart_config_1893);
+	cs2method_10444(ivar5, ivar6, 0, 0, ivar7);
+	return;
+}

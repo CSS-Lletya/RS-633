@@ -1,0 +1,213 @@
+void script_6103() {
+	object ovar0;
+	object ovar1;
+	flow_0:
+		setWidgetText(new WidgetPointer(1265,40), (object)globalstring_362);
+		ovar0 = (object)"";
+		ovar1 = (object)"";
+		switch (globalint_1876) {
+			case 0:
+			case 1:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				ovar0 = (object)"This is a piece of apparel.";
+				break;
+			case 2:
+			case 7:
+				ovar0 = (object)"This is a piece of jewellery.";
+				break;
+			case 9:
+				ovar0 = (object)"This is a shield.";
+				break;
+			case 11:
+			case 14:
+				ovar0 = (object)"This is a melee weapon.";
+				break;
+			case 12:
+			case 15:
+				ovar0 = (object)"This is a ranged weapon.";
+				break;
+			case 13:
+				ovar0 = (object)"This is a weapon for mages.";
+				break;
+			case 8:
+				ovar0 = (object)"This is ammunition for a ranged weapon.";
+				break;
+			case 60:
+				ovar0 = (object)"This is an aura focus.";
+				break;
+			case 31:
+			case 30:
+			case 32:
+				ovar0 = (object)"This is a tool.";
+				break;
+			case 34:
+			case 33:
+				ovar0 = (object)"This is a piece of food.";
+				break;
+			case 93:
+			case 92:
+			case 95:
+			case 94:
+			case 91:
+			case 90:
+			case 102:
+			case 103:
+			case 100:
+			case 101:
+			case 98:
+			case 99:
+			case 96:
+			case 97:
+			case 108:
+			case 109:
+			case 106:
+			case 107:
+			case 104:
+			case 105:
+				ovar0 = (object)"This is a usable item.";
+				break;
+			case 36:
+				ovar0 = (object)"This is a magic rune.";
+		}
+		setWidgetText(new WidgetPointer(1265,43), ovar0);
+		switch (globalint_1876) {
+			case 0:
+				ovar1 = (object)"It is worn on the head.";
+				break;
+			case 1:
+				ovar1 = (object)"It is worn on the back.";
+				break;
+			case 3:
+				ovar1 = (object)"It is worn on the torso.";
+				break;
+			case 4:
+				ovar1 = (object)"It is worn on the legs.";
+				break;
+			case 5:
+				ovar1 = (object)"It is worn on the hands.";
+				break;
+			case 6:
+				ovar1 = (object)"It is worn on the feet.";
+				break;
+			case 9:
+				ovar1 = (object)"It is held in the left hand.";
+				break;
+			case 11:
+			case 12:
+			case 13:
+				ovar1 = (object)"It is wielded in the right hand.";
+				break;
+			case 14:
+			case 15:
+				ovar1 = (object)"It is wielded in both hands.";
+				break;
+			case 2:
+				ovar1 = (object)"It is worn around the neck.";
+				break;
+			case 7:
+				ovar1 = (object)"It is worn on the hand.";
+				break;
+			case 8:
+				ovar1 = (object)"It is carried in the quiver.";
+				break;
+			case 60:
+				ovar1 = (object)"It imbues you when activated.";
+				break;
+			case 30:
+				ovar1 = (object)"You can place it in your tool belt to save space.";
+				break;
+			case 31:
+				ovar1 = (object)"You have one in your tool belt already.";
+				break;
+			case 34:
+				ovar1 = (object)"It needs cooking to be edible.";
+				break;
+			case 36:
+				ovar1 = (object)"Runes are needed to cast spells.";
+				break;
+			case 90:
+				ovar1 = (object)"It is mainly used in combat.";
+				break;
+			case 91:
+				ovar1 = (object)"It is mainly used in prayer.";
+				break;
+			case 92:
+				ovar1 = (object)"It is mainly used in agility.";
+				break;
+			case 93:
+				ovar1 = (object)"It is mainly used in herblore.";
+				break;
+			case 94:
+				ovar1 = (object)"It is mainly used in thieving.";
+				break;
+			case 95:
+				ovar1 = (object)"It is mainly used in crafting.";
+				break;
+			case 96:
+				ovar1 = (object)"It is mainly used in runecrafting.";
+				break;
+			case 97:
+				ovar1 = (object)"It is mainly used in mining.";
+				break;
+			case 98:
+				ovar1 = (object)"It is mainly used in smithing.";
+				break;
+			case 99:
+				ovar1 = (object)"It is mainly used in fishing.";
+				break;
+			case 100:
+				ovar1 = (object)"It is mainly used in cooking.";
+				break;
+			case 101:
+				ovar1 = (object)"It is mainly used in firemaking.";
+				break;
+			case 102:
+				ovar1 = (object)"It is mainly used in woodcutting.";
+				break;
+			case 103:
+				ovar1 = (object)"It is mainly used in fletching.";
+				break;
+			case 104:
+				ovar1 = (object)"It is mainly used in slaying.";
+				break;
+			case 105:
+				ovar1 = (object)"It is mainly used in farming.";
+				break;
+			case 106:
+				ovar1 = (object)"It is mainly used in construction.";
+				break;
+			case 107:
+				ovar1 = (object)"It is mainly used in hunting.";
+				break;
+			case 108:
+				ovar1 = (object)"It is mainly used in summoning.";
+				break;
+			case 109:
+				ovar1 = (object)"It is mainly used in dungeoneering.";
+		}
+		setWidgetText(new WidgetPointer(1265,44), ovar1);
+		IF (isMembersItem(standart_config_2562) == 0 || isMember() == 1) 
+			GOTO	flow_52
+		GOTO	flow_56
+	flow_52:
+		IF (globalint_1876 >= 0) 
+			GOTO	flow_53
+		GOTO	flow_54
+	flow_53:
+		IF (globalint_1876 < 30) 
+			GOTO	flow_55
+	flow_54:
+		IF (globalint_1876 == 32 || standart_config_2562 == 1265 || standart_config_2562 == 1351) 
+			GOTO	flow_55
+		GOTO	flow_56
+	flow_55:
+		setWidgetIsHidden(true, new WidgetPointer(1265,172));
+		GOTO	flow_57
+	flow_56:
+		setWidgetIsHidden(false, new WidgetPointer(1265,172));
+	flow_57:
+		return;
+}

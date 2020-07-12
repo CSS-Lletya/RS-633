@@ -1,0 +1,11 @@
+void script_6053() {
+	int ivar0;
+	script_6052();
+	ivar0 = 82116636;
+	script_5919();
+	script_6047(ivar0, 118);
+	setWidgetIsHidden(true, new WidgetPointer(1253,33));
+	setWidgetIsHidden(false, new WidgetPointer(1253,38));
+	script_5921();
+	return;
+}

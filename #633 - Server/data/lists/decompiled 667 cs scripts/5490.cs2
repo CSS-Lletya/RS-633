@@ -1,0 +1,279 @@
+void script_5490(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	object ovar1;
+	int stack_dump0;
+	cs2func_script_1126_struct(3,0,0) structdump_1;
+	cs2func_script_1126_struct(3,0,0) structdump_2;
+	clearExtraChildren(new WidgetPointer(746,214));
+	ivar0 = 0;
+	ovar1 = (object)"<col=ebe0bc>";
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	ivar17 = 0;
+	ivar18 = 0;
+	ivar19 = 0;
+	ivar20 = 0;
+	ivar21 = 0;
+	ivar22 = 0;
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetSize(20, 22, 1, 1);
+	cs2method_10469(8515);
+	cs2method_10470(1);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 0, 1);
+	cs2method_10469(8514);
+	cs2method_10470(1);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 22, 0, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	cs2method_10469(8516);
+	cs2method_10470(1);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	cs2method_10469(8512);
+	cs2method_10470(1);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(20, 11, 1, 0);
+	setWidgetPosition(0, 0, 1, 2);
+	cs2method_10469(8518);
+	cs2method_10470(1);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 0);
+	cs2method_10469(8513);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	cs2method_10469(8511);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 0, 2);
+	cs2method_10469(8517);
+	ivar0 = add(ivar0, 1);
+	createChildWidget(48890070, 5, ivar0);
+	setWidgetSize(10, 11, 0, 0);
+	setWidgetPosition(0, 0, 2, 2);
+	cs2method_10469(8519);
+	ivar0 = add(ivar0, 1);
+	clearExtraChildren(new WidgetPointer(746,215));
+	ivar0 = 0;
+	ivar0 = script_6417(496, ivar0, arg0, ovar1);
+	if (globalint_1691 != -1) {
+		if (cs2method_10721(globalint_1691) != -1) {
+			globalint_2107 = getItemIdInContainerSlot(94, cs2method_10721(globalint_1691));
+			ivar1 = script_6423(globalint_1691);
+			ivar2 = script_6424(globalint_1691, ivar1);
+			ivar3 = script_6425(globalint_1691, ivar1);
+			ivar4 = script_6426(globalint_1691, ivar1);
+			ivar5 = script_6427(globalint_1691, ivar2);
+			ivar6 = script_6428(globalint_1691, ivar1);
+			ivar7 = getItemAttribute(globalint_1691, 1326);
+			stack_dump0 = globalint_1691;
+			structdump_1 = script_1126(stack_dump0);
+			ivar10 = structdump_1.intpart_2;
+			ivar9 = structdump_1.intpart_1;
+			ivar8 = structdump_1.intpart_0;
+			ivar11 = script_6423(globalint_2107);
+			ivar12 = script_6424(globalint_2107, ivar11);
+			ivar13 = script_6425(globalint_2107, ivar11);
+			ivar14 = script_6426(globalint_2107, ivar11);
+			ivar15 = script_6427(globalint_2107, ivar12);
+			ivar16 = script_6428(globalint_2107, ivar11);
+			ivar17 = getItemAttribute(globalint_2107, 1326);
+			stack_dump0 = globalint_2107;
+			structdump_2 = script_1126(stack_dump0);
+			ivar20 = structdump_2.intpart_2;
+			ivar19 = structdump_2.intpart_1;
+			ivar18 = structdump_2.intpart_0;
+			if (ivar3 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar1 != ivar11) {
+					ovar1 = (object)"<col=00ffff>";
+				} else if (ivar3 > ivar13) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar3 < ivar13) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6418(ivar3, 3793, ivar0, (object)"Damage", ovar1);
+			}
+			if (ivar5 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar1 != ivar11) {
+					ovar1 = (object)"<col=00ffff>";
+				} else if (ivar5 > ivar15) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar5 < ivar15) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6418(ivar5, 3793, ivar0, (object)"Hit Bonus", ovar1);
+			}
+			if (ivar2 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar1 != ivar11) {
+					ovar1 = (object)"<col=00ffff>";
+				} else if (ivar2 != ivar12) {
+					ovar1 = (object)"<col=00ffff>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				if (ivar1 == 2) {
+					ivar0 = script_6419(ivar2, 5970, 3793, ivar0, (object)"Ammo", ovar1);
+				} else {
+					ivar0 = script_6419(ivar2, 5970, 3793, ivar0, (object)"Style", ovar1);
+				}
+			}
+			if (ivar6 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar1 != ivar11) {
+					ovar1 = (object)"<col=00ffff>";
+				} else if (ivar6 > ivar16) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar6 < ivar16) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6418(ivar6, 3793, ivar0, (object)"Armour", ovar1);
+			}
+			if (ivar8 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar8 > ivar18) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar8 < ivar18) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6417(3793, ivar0, (object)("Melee Crit : " + script_1128(ivar8) + "%"), (object)"<col=ebe0bc>");
+			}
+			if (ivar9 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar9 > ivar19) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar9 < ivar19) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6417(3793, ivar0, (object)("Ranged Crit : " + script_1128(ivar9) + "%"), (object)"<col=ebe0bc>");
+			}
+			if (ivar10 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar10 > ivar20) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar10 < ivar20) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6417(3793, ivar0, (object)("Magic Crit : " + script_1128(ivar10) + "%"), (object)"<col=ebe0bc>");
+			}
+			if (ivar7 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar7 > ivar17) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar7 < ivar17) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6418(ivar7, 3793, ivar0, (object)"Life Bonus", ovar1);
+			}
+			if (ivar1 > 0) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar1 != ivar11) {
+					ovar1 = (object)"<col=00ffff>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6419(ivar1, 5969, 3793, ivar0, (object)"Class", ovar1);
+			}
+			if (ivar4 > 0 && script_6421(ivar1) == 1) {
+				if (globalint_2107 == -1) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar14 == 0) {
+					ovar1 = (object)"<col=00ffff>";
+				} else if (ivar4 < ivar14) {
+					ovar1 = (object)"<col=00ff00>";
+				} else if (ivar4 > ivar14) {
+					ovar1 = (object)"<col=ff0000>";
+				} else {
+					ovar1 = (object)"<col=ebe0bc>";
+				}
+				ivar0 = script_6419(ivar4, 5968, 3793, ivar0, (object)"Speed", ovar1);
+			}
+		}
+		if (script_1127(globalint_1691) > 0) {
+			ovar1 = (object)"<col=00ff00>";
+			ivar21 = script_1127(globalint_1691);
+			if (cs2method_10391(3) < getItemAttribute(globalint_1691, 2658)) {
+				ovar1 = (object)"<col=ffff00>";
+			}
+			if (getItemAttribute(globalint_1691, 2679) > 0) {
+				ivar0 = script_6417(3793, ivar0, (object)("Heals : " + "<col=00ff00>" + "???" + "</col>"), (object)"<col=ebe0bc>");
+			} else {
+				ivar0 = script_6418(ivar21, 3793, ivar0, (object)"Heals", ovar1);
+			}
+		}
+	}
+	return;
+}

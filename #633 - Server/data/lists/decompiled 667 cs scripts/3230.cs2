@@ -1,0 +1,44 @@
+void script_3230() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 0;
+	if (cs2method_10842() < 2) {
+		cs2method_10444(0, 40, 1, 1, 39059461);
+		cs2method_10444(0, 40, 1, 1, 39059462);
+		cs2method_10893(0, 0, 1, 1, 48758800);
+	} else {
+		cs2method_10444(0, 40, 1, 1, 39059461);
+		cs2method_10444(0, 40, 1, 1, 39059462);
+		cs2method_10893(956, 503, 0, 0, 48758800);
+		ivar0 = cs2method_10826(48758800);
+		ivar0 = subtract(ivar0, cs2method_10090(48758807));
+		ivar0 = divide(ivar0, 2);
+	}
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 2;
+	ivar1 = add(cs2method_10111(48758883), cs2method_10111(48758800));
+	ivar1 = subtract(ivar1, add(cs2method_10956(48758865), ivar3));
+	ivar2 = add(cs2method_10826(48758885), cs2method_10826(48758800));
+	ivar2 = add(ivar2, ivar3);
+	ivar2 = add(ivar2, cs2method_10090(48758885));
+	cs2method_10444(ivar1, ivar2, 0, 0, 48758865);
+	ivar1 = cs2method_10111(48758865);
+	ivar1 = add(ivar1, cs2method_10956(48758865));
+	ivar1 = subtract(cs2method_10956(48758801), ivar1);
+	cs2method_10444(ivar1, ivar2, 2, 0, 48758865);
+	if (cs2method_10387() == 2 && cs2method_10842() != 1) {
+		cs2method_10444(9, 57, 2, 0, 48758865);
+		cs2method_10893(800, 503, 0, 0, 48758800);
+	} else {
+		if (add(cs2method_10956(48758865), cs2method_10111(48758865)) > cs2method_10956(48758801)) {
+			cs2method_10444(5, 5, 2, 0, 48758865);
+		}
+	}
+	if (globalint_986 == 0) {
+		cs2method_10444(5, 5, 2, 0, 48758865);
+	}
+	return;
+}

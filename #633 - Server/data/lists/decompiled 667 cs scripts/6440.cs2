@@ -1,0 +1,21 @@
+void script_6440() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 85655581;
+	ivar1 = 494;
+	ivar2 = cs2method_10090(ivar0);
+	if (ivar2 == 1) {
+		cs2method_20219(-1, "", new WidgetPointer(ivar0));
+		setWidgetIsHidden(true, new WidgetPointer(ivar0));
+		return;
+	}
+	cs2method_20219(6439, "", new WidgetPointer(ivar0));
+	if (ivar2 > 4) {
+		ivar2 = subtract(ivar2, 3);
+		cs2method_10893(ivar1, ivar2, 0, 0, ivar0);
+	} else {
+		cs2method_10893(ivar1, 1, 0, 0, ivar0);
+	}
+	return;
+}

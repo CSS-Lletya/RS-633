@@ -1,0 +1,14 @@
+void script_5232(int arg0,int arg1) {
+	if (cs2method_10800(0) == 5 && globalint_1007 == 2) {
+		if (arg1 == 1) {
+			cs2method_10767(0, 1, 800, 700, 1, 1);
+			cs2method_20808(5232, new WidgetPointer(arg0), 2, "Ii", new WidgetPointer(arg0));
+			return;
+		}
+		if (arg1 == 2) {
+			cs2method_10767(0, 2, 700, 40, 1, 2);
+		}
+	}
+	cs2method_20808(-1, "", new WidgetPointer(arg0));
+	return;
+}

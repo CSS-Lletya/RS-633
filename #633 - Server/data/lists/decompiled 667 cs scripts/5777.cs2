@@ -1,0 +1,30 @@
+void script_5777(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 1;
+	ivar3 = 0;
+	while (ivar2 <= 8) {
+		if (arg0 == ivar2) {
+			ivar3 = arg1;
+		} else {
+			ivar3 = 0;
+		}
+		if (cs2method_10519(48889885, 917) == 1) {
+			script_5779(ivar3, ivar2, 60096610);
+		}
+		if (cs2method_10417(48889866, 1221) == 1) {
+			script_5779(ivar3, ivar2, 80019461);
+		}
+		if (cs2method_10417(48889866, 1222) == 1) {
+			script_5779(ivar3, ivar2, 80085020);
+		}
+		if (cs2method_10417(48889865, 1219) == 1) {
+			script_5779(ivar3, ivar2, 79888389);
+			if (ivar3 == 0) {
+				script_5779(0, 1, 79888396);
+			}
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	return;
+}

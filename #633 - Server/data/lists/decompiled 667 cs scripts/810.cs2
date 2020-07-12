@@ -1,0 +1,21 @@
+void script_810() {
+	if (isMember() == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(747,5));
+		setWidgetIsHidden(false, new WidgetPointer(747,0));
+		setWidgetIsHidden(false, new WidgetPointer(747,2));
+		setWidgetIsHidden(false, new WidgetPointer(747,1));
+		setWidgetIsHidden(false, new WidgetPointer(747,8));
+		script_817(23);
+		setWidgetIsHidden(false, new WidgetPointer(747,7));
+		setWidgetRGB(script_805(23), 48955399);
+		setWidgetText(new WidgetPointer(747,7), (object)toString(cs2method_10391(23)));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(747,5));
+		setWidgetIsHidden(true, new WidgetPointer(747,0));
+		setWidgetIsHidden(true, new WidgetPointer(747,7));
+		setWidgetIsHidden(true, new WidgetPointer(747,2));
+		setWidgetIsHidden(true, new WidgetPointer(747,1));
+		setWidgetIsHidden(true, new WidgetPointer(747,8));
+	}
+	return;
+}

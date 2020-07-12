@@ -1,0 +1,6 @@
+void script_1185(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = subtract(cs2method_10956(arg0), cs2method_10956(arg1));
+	cs2method_10444(multiply(subtract(cs2method_10437(), 1), divide(ivar2, 3)), 0, 0, 0, arg1);
+	return;
+}

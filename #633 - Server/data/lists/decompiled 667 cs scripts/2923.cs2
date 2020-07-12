@@ -1,0 +1,35 @@
+void script_2923(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	if (standart_config_2680 > 0) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		cs2method_10375(1, arg1, (object)"Use cure (p)");
+	} else if (standart_config_456 > 0) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		cs2method_10375(1, arg1, (object)"Use cure (d)");
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		cs2method_10831(arg1);
+	}
+	ivar6 = 3;
+	ivar7 = 24;
+	cs2method_10893(0, add(ivar6, subtract(ivar7, cs2method_10542(bitconfig_7198, script_2916(), ivar7))), 1, 0, arg3);
+	cs2method_10893(0, add(ivar6, subtract(ivar7, cs2method_10542(script_2915(), script_2916(), ivar7))), 1, 0, arg4);
+	setWidgetText(new WidgetPointer(arg5), (object)toString(bitconfig_7198));
+	ivar8 = cs2method_10542(bitconfig_7198, script_2916(), 100);
+	if (ivar8 > 75) {
+		setWidgetRGB(65280, arg5);
+	} else if (ivar8 > 50) {
+		setWidgetRGB(16776960, arg5);
+	} else if (ivar8 > 25) {
+		setWidgetRGB(16750623, arg5);
+	} else {
+		setWidgetRGB(16711680, arg5);
+	}
+	script_2654();
+	return;
+}

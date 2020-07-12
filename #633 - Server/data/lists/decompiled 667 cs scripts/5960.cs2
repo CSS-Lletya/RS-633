@@ -1,0 +1,24 @@
+void script_5960(int arg0,int arg1) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (script_5956(arg1)) {
+		case 0:
+			cs2method_10467(9999, arg0);
+			ovar0 = (object)"Unlocked";
+			break;
+		case 1:
+			cs2method_10467(9997, arg0);
+			ovar0 = (object)"Pending Lock: This skillplot will lock once the resource target has been met.";
+			break;
+		case 2:
+			cs2method_10467(9996, arg0);
+			ovar0 = (object)"Pending Unlock: This skillplot will unlock once all resource targets have been met.";
+			break;
+		case 3:
+			cs2method_10467(9996, arg0);
+			ovar0 = (object)"Locked: This skillplot has been manually locked.";
+	}
+	cs2method_20835(4538, new WidgetPointer(1117,144), new WidgetPointer(arg0), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(arg0));
+	cs2method_20295(40, new WidgetPointer(1117,144), "I", new WidgetPointer(arg0));
+	return;
+}

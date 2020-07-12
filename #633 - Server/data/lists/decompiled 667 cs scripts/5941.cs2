@@ -1,0 +1,20 @@
+int script_5941(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = -1;
+	ivar2 = script_5939(arg0);
+	switch (ivar2) {
+		case 0:
+			ivar1 = 9868;
+			break;
+		case 1:
+			ivar1 = 9869;
+			break;
+		case 2:
+			ivar1 = 9870;
+			break;
+		case 3:
+			ivar1 = 9871;
+	}
+	return ivar1;
+}

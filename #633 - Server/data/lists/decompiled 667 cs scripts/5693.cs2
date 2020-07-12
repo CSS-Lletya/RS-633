@@ -1,0 +1,20 @@
+void script_5693(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar0 = (object)"Members only";
+	if (cs2method_10551(79822920, arg0) == 1) {
+		cs2method_10444(cs2method_10646(), cs2method_10207(), 0, 0, 79822929);
+		if (arg1 == 1) {
+			ovar0 = (object)"Level up to unlock this item!";
+		}
+		ivar2 = add(cs2method_10355(3793, ovar0), 10);
+		ivar3 = add(multiply(getLineCount(ivar2, 3793, ovar0), 15), 10);
+		cs2method_10893(ivar2, ivar3, 0, 0, 79822929);
+		setWidgetText(new WidgetPointer(1218,195), ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(1218,81));
+	}
+	return;
+}

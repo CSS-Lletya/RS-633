@@ -1,0 +1,40 @@
+void script_6182(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = -1;
+	while (ivar2 < cs2method_10624(5840)) {
+		ivar3 = (int)getDataByKey('i', 'I', 5840, ivar2);
+		if (ivar3 != -1 && cs2method_10551(ivar3, 1) == 1) {
+			if (arg1 == ivar2) {
+				cs2method_10469(2289);
+			} else {
+				cs2method_10469(2288);
+			}
+		}
+		ivar2 = add(ivar2, 1);
+		ivar3 = -1;
+	}
+	ivar4 = getDataByKey('i', 'J', 5841, arg1);
+	if (ivar4 == -1) {
+		return;
+	}
+	cs2method_10408(1, 62904, getGeneralRequirementAttribute(ivar4, 2396), 83427349);
+	cs2method_10408(2, 62894, getGeneralRequirementAttribute(ivar4, 2397), 83427349);
+	cs2method_10408(3, 62884, getGeneralRequirementAttribute(ivar4, 2398), 83427349);
+	cs2method_10408(4, 62874, getGeneralRequirementAttribute(ivar4, 2399), 83427349);
+	cs2method_10408(1, 62904, getGeneralRequirementAttribute(ivar4, 2396), 83427350);
+	cs2method_10408(2, 62894, getGeneralRequirementAttribute(ivar4, 2397), 83427350);
+	cs2method_10408(3, 62884, getGeneralRequirementAttribute(ivar4, 2398), 83427350);
+	cs2method_10408(4, 62874, getGeneralRequirementAttribute(ivar4, 2399), 83427350);
+	cs2method_10408(1, 62904, getGeneralRequirementAttribute(ivar4, 2396), 83427351);
+	cs2method_10408(2, 62894, getGeneralRequirementAttribute(ivar4, 2397), 83427351);
+	cs2method_10408(3, 62884, getGeneralRequirementAttribute(ivar4, 2398), 83427351);
+	cs2method_10408(4, 62874, getGeneralRequirementAttribute(ivar4, 2399), 83427351);
+	cs2method_10408(1, 62904, getGeneralRequirementAttribute(ivar4, 2396), 83427352);
+	cs2method_10408(2, 62894, getGeneralRequirementAttribute(ivar4, 2397), 83427352);
+	cs2method_10408(3, 62884, getGeneralRequirementAttribute(ivar4, 2398), 83427352);
+	cs2method_10408(4, 62874, getGeneralRequirementAttribute(ivar4, 2399), 83427352);
+	return;
+}

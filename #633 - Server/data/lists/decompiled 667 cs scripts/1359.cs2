@@ -1,0 +1,8 @@
+void script_1359(object arg0,object arg1) {
+	if (isMember() == 0) {
+		cs2method_20835(5484, new WidgetPointer(-32768,3), new WidgetPointer(335,56), (string)arg0, "IIs", new WidgetPointer(335,44));
+		cs2method_20835(5484, new WidgetPointer(-32768,3), new WidgetPointer(335,56), (string)arg1, "IIs", new WidgetPointer(335,45));
+		globalint_2 = 0;
+	}
+	return;
+}

@@ -1,0 +1,54 @@
+void script_16() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	setWidgetIsHidden(false, new WidgetPointer(884,0));
+	setWidgetIsHidden(false, new WidgetPointer(884,1));
+	setWidgetIsHidden(false, new WidgetPointer(884,2));
+	setWidgetIsHidden(false, new WidgetPointer(884,5));
+	setWidgetIsHidden(false, new WidgetPointer(884,3));
+	if (cs2method_10842() == 1) {
+		cs2method_10444(-35, 0, 1, 0, 57933830);
+	} else {
+		cs2method_10444(0, 0, 1, 0, 57933830);
+	}
+	cs2method_10149(0, 57933824);
+	cs2method_10149(0, 57933825);
+	cs2method_10149(0, 57933826);
+	cs2method_10149(0, 57933829);
+	setWidgetIsHidden(true, new WidgetPointer(884,8));
+	setWidgetIsHidden(true, new WidgetPointer(884,9));
+	setWidgetIsHidden(true, new WidgetPointer(884,7));
+	switch (cs2method_10145()) {
+		case 1:
+			cs2method_10467(12156, 57933824);
+			cs2method_10467(12157, 57933825);
+			cs2method_10467(12158, 57933826);
+			cs2method_10467(12159, 57933829);
+			break;
+		case 2:
+			cs2method_10467(12160, 57933824);
+			cs2method_10467(12161, 57933825);
+			cs2method_10467(12162, 57933826);
+			cs2method_10467(12163, 57933829);
+			break;
+		case 3:
+			cs2method_10467(12164, 57933824);
+			cs2method_10467(12165, 57933825);
+			cs2method_10467(12166, 57933826);
+			cs2method_10467(12167, 57933829);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(884,8));
+	cs2method_10461(32143, 57933831);
+	ivar0 = 8;
+	cs2method_20219(1132, add(cs2method_10878(), 100), add(cs2method_10878(), 200), add(cs2method_10878(), 500), "iii", new WidgetPointer(884,6));
+	setWidgetIsHidden(false, new WidgetPointer(884,4));
+	ivar1 = cs2method_10869(150);
+	ivar2 = cs2method_10869(50);
+	cs2method_20219(1131, ivar0, add(cs2method_10878(), 25), "ii", new WidgetPointer(884,0));
+	cs2method_20219(1131, ivar0, add(cs2method_10878(), 25), "ii", new WidgetPointer(884,1));
+	cs2method_20219(1131, ivar0, add(cs2method_10878(), 25), "ii", new WidgetPointer(884,2));
+	cs2method_20219(1131, ivar0, add(cs2method_10878(), 25), "ii", new WidgetPointer(884,5));
+	return;
+}

@@ -1,0 +1,36 @@
+cs2func_script_5814_struct(3,0,0) script_5814(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = 0;
+	ivar2 = 4094;
+	ivar3 = 0;
+	while (ivar1 < cs2method_10624(5480)) {
+		ivar2 = getDataByKey('i', 'i', 5480, ivar1);
+		if (ivar2 == arg0) {
+			ivar3 = getDataByKey('i', 'i', 5481, ivar1);
+			ivar1 = cs2method_10624(5480);
+		} else {
+			ivar1 = add(ivar1, 1);
+		}
+	}
+	if (ivar3 == 0) {
+		return newstruct cs2func_script_5814_struct(0, 0, 0);
+	}
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar1 = 0;
+	while (ivar1 < cs2method_10624(5480)) {
+		if (getDataByKey('i', 'i', 5481, ivar1) == ivar3) {
+			ivar2 = getDataByKey('i', 'i', 5480, ivar1);
+			if (script_3227(ivar2) == 2) {
+				ivar5 = add(ivar5, 1);
+			}
+			ivar4 = add(ivar4, 1);
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return newstruct cs2func_script_5814_struct(ivar3, ivar5, ivar4);
+}

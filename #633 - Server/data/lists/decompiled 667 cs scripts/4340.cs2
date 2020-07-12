@@ -1,0 +1,38 @@
+void script_4340(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_4341_struct(0,2,0) structdump_3;
+	ivar4 = divide(divide(arg0, 60), 24);
+	ivar5 = subtract(arg0, multiply(multiply(ivar4, 24), 60));
+	ivar6 = divide(ivar5, 60);
+	ivar7 = cs2method_10620(ivar5, 60);
+	ovar0 = (object)"";
+	if (ivar6 < 10) {
+		ovar0 = (object)("0" + toString(ivar6));
+	} else {
+		ovar0 = (object)toString(ivar6);
+	}
+	ovar1 = (object)"";
+	if (ivar7 < 10) {
+		ovar1 = (object)("0" + toString(ivar7));
+	} else {
+		ovar1 = (object)toString(ivar7);
+	}
+	setWidgetText(new WidgetPointer(arg2), (object)((string)ovar0 + ":" + (string)ovar1));
+	cs2method_20219(4342, ivar6, ivar7, arg1, new WidgetPointer(arg2), new WidgetPointer(arg3), "iiiII", new WidgetPointer(arg2));
+	stack_dump0 = arg1;
+	stack_dump1 = ivar6;
+	stack_dump2 = ivar7;
+	structdump_3 = script_4341(stack_dump0, stack_dump1, stack_dump2);
+	ovar1 = structdump_3.objectpart_1;
+	ovar0 = structdump_3.objectpart_0;
+	setWidgetText(new WidgetPointer(arg3), (object)((string)ovar0 + ":" + (string)ovar1));
+	return;
+}

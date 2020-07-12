@@ -1,0 +1,3 @@
+cs2func_script_1126_struct(3,0,0) script_1126(int arg0) {
+	return newstruct cs2func_script_1126_struct(getItemAttribute(arg0, 2552), getItemAttribute(arg0, 2553), getItemAttribute(arg0, 2554));
+}

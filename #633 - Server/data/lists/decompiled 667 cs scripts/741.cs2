@@ -1,0 +1,29 @@
+void script_741() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	flow_0:
+		ivar0 = standart_config_1163;
+		if (ivar0 == 0) {
+			return;
+		}
+		ivar1 = script_739(ivar0);
+		ivar2 = getDataByKey('i', 'm', 1151, ivar1);
+		if (cs2method_10184(globalint_104, ivar1) == 1) {
+			return;
+		}
+		if (ivar0 == globalint_99 || ivar0 == globalint_100 || ivar0 == globalint_101) {
+			return;
+		}
+		cs2method_10461(ivar2, (int)getDataByKey('i', 'I', 1153, ivar0));
+		script_737(ivar0);
+		IF (globalint_102 == 12) 
+			GOTO	flow_7
+		GOTO	flow_7
+	flow_7:
+		if (globalint_105 == 0) {
+			cs2method_10998((object)"The mechanism issues forth a whine and shuts down.");
+			script_675();
+		}
+		return;
+}

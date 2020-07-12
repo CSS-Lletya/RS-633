@@ -1,0 +1,312 @@
+void script_4348() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int stack_dump0;
+	opc_struct10390(3,0,0) structdump_1;
+	opc_struct10390(3,0,0) structdump_2;
+	opc_struct10390(3,0,0) structdump_3;
+	opc_struct10390(3,0,0) structdump_4;
+	opc_struct10390(3,0,0) structdump_5;
+	opc_struct10390(3,0,0) structdump_6;
+	opc_struct10390(3,0,0) structdump_7;
+	opc_struct10390(3,0,0) structdump_8;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	script_4501(71958722, (object)"Day");
+	script_4501(71958710, (object)"Month");
+	script_4501(71958700, (object)"Year");
+	script_4501(71958752, (object)"World");
+	script_4501(71958647, (object)"Select Event Type");
+	script_4501(71958662, (object)"Select Event Place");
+	script_4501(71958677, (object)"Select Event Attendees");
+	cs2method_10085(0, 0, 71958688);
+	script_157(71958687, 71958688, 0, 1);
+	cs2method_10085(0, 0, 71958673);
+	script_157(71958672, 71958673, 0, 1);
+	cs2method_10085(0, 0, 71958658);
+	script_157(71958657, 71958658, 0, 1);
+	if (bitconfig_9140 == 1) {
+		setWidgetText(new WidgetPointer(1098,41), (object)"All events relative to clan time");
+	} else {
+		setWidgetText(new WidgetPointer(1098,41), (object)"All events relative to game time");
+	}
+	switch (standart_config_2128) {
+		case 1:
+			if (bitconfig_9115 > 0) {
+				stack_dump0 = bitconfig_9115;
+				structdump_1 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_1.intpart_2;
+				ivar1 = structdump_1.intpart_1;
+				ivar0 = structdump_1.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9123));
+			if (bitconfig_9107 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9107));
+			}
+			if (bitconfig_9091 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9091));
+			}
+			if (bitconfig_9099 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9099));
+			}
+			if (standart_config_2120 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2120));
+			}
+			script_4358(71958773);
+			break;
+		case 2:
+			if (bitconfig_9116 > 0) {
+				stack_dump0 = bitconfig_9116;
+				structdump_2 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_2.intpart_2;
+				ivar1 = structdump_2.intpart_1;
+				ivar0 = structdump_2.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9124));
+			if (bitconfig_9108 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9108));
+			}
+			if (bitconfig_9092 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9092));
+			}
+			if (bitconfig_9100 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9100));
+			}
+			if (standart_config_2121 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2121));
+			}
+			script_4358(71958780);
+			break;
+		case 3:
+			if (bitconfig_9117 > 0) {
+				stack_dump0 = bitconfig_9117;
+				structdump_3 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_3.intpart_2;
+				ivar1 = structdump_3.intpart_1;
+				ivar0 = structdump_3.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9125));
+			if (bitconfig_9109 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9109));
+			}
+			if (bitconfig_9093 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9093));
+			}
+			if (bitconfig_9101 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9101));
+			}
+			if (standart_config_2122 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2122));
+			}
+			script_4358(71958787);
+			break;
+		case 4:
+			if (bitconfig_9118 > 0) {
+				stack_dump0 = bitconfig_9118;
+				structdump_4 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_4.intpart_2;
+				ivar1 = structdump_4.intpart_1;
+				ivar0 = structdump_4.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9126));
+			if (bitconfig_9110 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9110));
+			}
+			if (bitconfig_9094 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9094));
+			}
+			if (bitconfig_9102 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9102));
+			}
+			if (standart_config_2123 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2123));
+			}
+			script_4358(71958794);
+			break;
+		case 5:
+			if (bitconfig_9119 > 0) {
+				stack_dump0 = bitconfig_9119;
+				structdump_5 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_5.intpart_2;
+				ivar1 = structdump_5.intpart_1;
+				ivar0 = structdump_5.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9127));
+			if (bitconfig_9111 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9111));
+			}
+			if (bitconfig_9095 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9095));
+			}
+			if (bitconfig_9103 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9103));
+			}
+			if (standart_config_2124 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2124));
+			}
+			script_4358(71958801);
+			break;
+		case 6:
+			if (bitconfig_9120 > 0) {
+				stack_dump0 = bitconfig_9120;
+				structdump_6 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_6.intpart_2;
+				ivar1 = structdump_6.intpart_1;
+				ivar0 = structdump_6.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9128));
+			if (bitconfig_9112 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9112));
+			}
+			if (bitconfig_9096 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9096));
+			}
+			if (bitconfig_9104 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9104));
+			}
+			if (standart_config_2125 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2125));
+			}
+			script_4358(71958808);
+			break;
+		case 7:
+			if (bitconfig_9121 > 0) {
+				stack_dump0 = bitconfig_9121;
+				structdump_7 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_7.intpart_2;
+				ivar1 = structdump_7.intpart_1;
+				ivar0 = structdump_7.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9129));
+			if (bitconfig_9113 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9113));
+			}
+			if (bitconfig_9097 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9097));
+			}
+			if (bitconfig_9105 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9105));
+			}
+			if (standart_config_2126 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2126));
+			}
+			script_4358(71958815);
+			break;
+		case 8:
+			if (bitconfig_9122 > 0) {
+				stack_dump0 = bitconfig_9122;
+				structdump_8 = cs2method_10390(stack_dump0);
+				ivar2 = structdump_8.intpart_2;
+				ivar1 = structdump_8.intpart_1;
+				ivar0 = structdump_8.intpart_0;
+				ivar1 = add(ivar1, 1);
+				ivar2 = cs2method_10004(11, subtract(ivar2, 2000));
+			}
+			if (ivar0 > 0) {
+				script_4501(71958722, (object)getDataByKey('i', 's', 3697, ivar0));
+			}
+			if (ivar1 > 0) {
+				script_4501(71958710, (object)getDataByKey('i', 's', 3698, ivar1));
+			}
+			if (ivar2 > 0) {
+				script_4501(71958700, (object)getDataByKey('i', 's', 3699, ivar2));
+			}
+			script_4501(71958736, (object)getDataByKey('i', 's', 3695, bitconfig_9130));
+			if (bitconfig_9114 > 0) {
+				script_4501(71958752, (object)getDataByKey('i', 's', 3700, bitconfig_9114));
+			}
+			if (bitconfig_9098 > 0) {
+				script_4501(71958647, (object)getDataByKey('i', 's', 3687, bitconfig_9098));
+			}
+			if (bitconfig_9106 > 0) {
+				script_4501(71958662, (object)getDataByKey('i', 's', 3696, bitconfig_9106));
+			}
+			if (standart_config_2127 >= 0) {
+				script_4501(71958677, (object)getDataByKey('i', 's', 3725, standart_config_2127));
+			}
+			script_4358(71958822);
+	}
+	script_4353(71958575);
+	script_4356(71958577);
+	script_4350();
+	return;
+}

@@ -1,0 +1,10 @@
+void script_4678(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = cs2method_10956(arg1);
+	ivar3 = divide(ivar2, getDataByKey('i', 'i', 3840, bitconfig_9373));
+	ivar4 = multiply(bitconfig_9376, ivar3);
+	cs2method_10893(ivar4, cs2method_10090(arg0), 0, 0, arg0);
+	return;
+}

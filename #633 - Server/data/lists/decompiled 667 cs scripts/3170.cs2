@@ -1,0 +1,23 @@
+void script_3170(int arg0,object arg1) {
+	int ivar1;
+	int ivar2;
+	ivar1 = -1;
+	ivar2 = -1;
+	switch (arg0) {
+		case 6:
+			cs2method_10330(cs2method_10222(arg1));
+			break;
+		case 7:
+			cs2method_10267(cs2method_10222(arg1));
+			break;
+		case 8:
+			cs2method_10091(cs2method_10222(arg1));
+			break;
+		case 9:
+			cs2method_10609(cs2method_10222(arg1));
+			break;
+		case 10:
+			script_4465(arg1);
+	}
+	return;
+}

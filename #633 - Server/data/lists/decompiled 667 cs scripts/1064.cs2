@@ -1,0 +1,29 @@
+void script_1064(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar1 = (int)getDataByKey('i', 'I', 1550, arg0);
+	ivar2 = cs2method_10740(ivar1);
+	if (cs2method_10916(ivar2) == 0) {
+		setWidgetScrollMax(cs2method_10956(ivar2), 0, ivar2);
+	}
+	ivar3 = cs2method_10956(ivar1);
+	ivar4 = cs2method_10111(ivar1);
+	while (arg0 > 0) {
+		arg0 = subtract(arg0, 1);
+		ivar1 = (int)getDataByKey('i', 'I', 1550, arg0);
+		if (cs2method_10416(ivar1) == 0 && add(ivar3, cs2method_10956(ivar1)) <= cs2method_10956(ivar2)) {
+			ivar3 = add(ivar3, cs2method_10956(ivar1));
+			ivar4 = cs2method_10111(ivar1);
+		} else {
+			arg0 = -1;
+		}
+	}
+	if (cs2method_10774(ivar2) == ivar4) {
+		cs2method_20219(-1, "", new WidgetPointer(ivar2));
+	} else {
+		cs2method_20219(1065, new WidgetPointer(ivar2), ivar4, "Ii", new WidgetPointer(ivar2));
+	}
+	return;
+}

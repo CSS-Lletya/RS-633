@@ -1,0 +1,10 @@
+void script_944(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (standart_config_2521 > 0) {
+		ivar1 = multiply(divide(standart_config_2521, 200), 10);
+	}
+	setWidgetText(new WidgetPointer(arg0), (object)toString(standart_config_2521));
+	script_4542(ivar1, 81133605, 81133610);
+	return;
+}

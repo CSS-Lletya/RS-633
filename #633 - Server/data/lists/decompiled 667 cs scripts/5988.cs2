@@ -1,0 +1,10 @@
+void script_5988(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = script_5991(arg0);
+	if (ivar2 == -1) {
+		cs2method_10998((object)"Nothing happens, as if somthing has gone wrong.");
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(ivar2));
+	return;
+}

@@ -1,0 +1,100 @@
+void script_3020(int arg0,object arg1) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	ivar1 = 0;
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar2 = -1;
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ivar3 = -1;
+	if (cs2method_10366((object)globalstring_277) > 0) {
+		switch (arg0) {
+			case 0:
+				if (cs2method_10366((object)globalstring_277) > 0 && cs2method_10366(arg1) > 0) {
+					if (cs2method_10933() == 2) {
+						script_3047(1);
+					}
+					cs2method_10093(cs2method_10222(arg1), (object)globalstring_277);
+				}
+				break;
+			case 1:
+				if (cs2method_10223() < 0) {
+					cs2method_10998((object)"Unable to update Friends List - system busy.");
+				} else {
+					if (cs2method_10366((object)globalstring_277) > 0) {
+						cs2method_10330((object)globalstring_277);
+					}
+				}
+				break;
+			case 2:
+				if (cs2method_10790() < 0) {
+					cs2method_10998((object)"Unable to update Ignore List - system busy.");
+				} else {
+					if (cs2method_10366((object)globalstring_277) > 0) {
+						cs2method_10267((object)globalstring_277);
+					}
+				}
+				break;
+			case 3:
+				if (cs2method_10223() < 0) {
+					cs2method_10998((object)"Unable to update Friends List - system busy.");
+				} else {
+					if (cs2method_10366((object)globalstring_277) > 0) {
+						cs2method_10091((object)globalstring_277);
+					}
+				}
+				break;
+			case 4:
+				if (cs2method_10790() < 0) {
+					cs2method_10998((object)"Unable to update Ignore List - system busy.");
+				} else {
+					if (cs2method_10366((object)globalstring_277) > 0) {
+						cs2method_10609((object)globalstring_277);
+					}
+				}
+				break;
+			case 5:
+				if (cs2method_10997() <= 0 && cs2method_10366((object)globalstring_277) > 0) {
+					cs2method_10215((object)globalstring_277);
+				}
+				break;
+			case 6:
+				globalint_1094 = 0;
+				requestOpenURL(0, (object)"bugtracker_v4", (object)"index.html");
+				break;
+			case 7:
+				if (cs2method_10366((object)globalstring_277) > 0) {
+					script_4465((object)globalstring_277);
+				}
+				break;
+			case 9:
+				if (cs2method_10997() > 0 && cs2method_10366((object)globalstring_277) > 0) {
+					script_1633((object)globalstring_277);
+				}
+				break;
+			case 10:
+				cs2method_10662();
+				globalint_1100 = -1;
+				break;
+			case 12:
+				script_3017();
+				cs2method_10662();
+				globalint_1100 = -1;
+				script_4701(1, globalint_1553, globalint_1554, (object)globalstring_128);
+				return;
+		}
+	}
+	globalint_1650 = 0;
+	if (ivar1 == 1) {
+		script_3015(ivar2, ovar1, ovar2, ovar3, ovar4);
+	} else {
+		script_3017();
+	}
+	return;
+}

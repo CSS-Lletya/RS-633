@@ -1,0 +1,17 @@
+void script_5602(int arg0) {
+	cs2method_10155(0, 6);
+	cs2method_10155(1, 6);
+	cs2method_10105(0, 0, script_5605(arg0, 24, 18), 373, script_5605(arg0, 22, 18), 373, 0);
+	cs2method_10105(1, 0, script_5605(arg0, 30, 18), 52, script_5605(arg0, 28, 18), 52, 0);
+	cs2method_10105(0, 1, script_5605(arg0, 28, 15), 373, script_5605(arg0, 29, 15), 373, 0);
+	cs2method_10105(1, 1, script_5605(arg0, 36, 18), 52, script_5605(arg0, 38, 18), 52, 0);
+	cs2method_10105(0, 2, script_5605(arg0, 33, 14), 373, script_5605(arg0, 34, 13), 373, 0);
+	cs2method_10105(1, 2, script_5605(arg0, 33, 22), 52, script_5605(arg0, 32, 23), 52, 0);
+	cs2method_10105(0, 3, script_5605(arg0, 37, 17), 373, script_5605(arg0, 37, 18), 373, 0);
+	cs2method_10105(1, 3, script_5605(arg0, 30, 16), 52, script_5605(arg0, 30, 15), 52, 0);
+	cs2method_10105(0, 4, script_5605(arg0, 34, 21), 373, script_5605(arg0, 33, 22), 373, 0);
+	cs2method_10105(1, 4, script_5605(arg0, 32, 14), 52, script_5605(arg0, 33, 14), 52, 0);
+	cs2method_10105(0, 5, script_5605(arg0, 29, 19), 373, script_5605(arg0, 28, 18), 373, 0);
+	cs2method_10105(1, 5, script_5605(arg0, 34, 16), 52, script_5605(arg0, 34, 17), 52, 0);
+	return;
+}

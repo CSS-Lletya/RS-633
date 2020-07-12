@@ -1,0 +1,28 @@
+void script_3188(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	ivar7 = cs2method_10956(arg0);
+	if (arg1 == 1) {
+		if (subtract(ivar7, arg2) < 55) {
+			cs2method_10893(cs2method_10586(add(ivar7, 5), add(55, arg2)), 31, 0, 0, arg0);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			cs2method_10893(add(55, arg2), 31, 0, 0, arg0);
+		}
+		cs2method_10467(2569, arg3);
+		cs2method_10467(2568, arg4);
+		cs2method_10467(2568, arg5);
+		cs2method_10467(2614, arg6);
+	} else {
+		if (ivar7 > 38) {
+			cs2method_10893(cs2method_10004(subtract(ivar7, 5), 38), 31, 0, 0, arg0);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			cs2method_10893(38, 31, 0, 0, arg0);
+		}
+		cs2method_10467(2567, arg3);
+		cs2method_10467(2566, arg4);
+		cs2method_10467(2566, arg5);
+		cs2method_10467(2613, arg6);
+	}
+	return;
+}

@@ -1,0 +1,10 @@
+void script_2585() {
+	setWidgetRGB(16750901, 19136628);
+	cs2method_10375(1, 19136622, (object)"Select light");
+	cs2method_10375(1, 19136623, (object)"Select heavy");
+	cs2method_20000(2589, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,110));
+	cs2method_20000(2589, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,111));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,110));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,111));
+	return;
+}

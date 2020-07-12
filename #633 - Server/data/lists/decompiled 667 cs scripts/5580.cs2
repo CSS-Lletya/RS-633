@@ -1,0 +1,120 @@
+void script_5580() {
+	int ivar0;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar0 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(1181,67));
+	setWidgetIsHidden(true, new WidgetPointer(1181,79));
+	setWidgetIsHidden(true, new WidgetPointer(1181,91));
+	setWidgetIsHidden(true, new WidgetPointer(1181,103));
+	setWidgetIsHidden(true, new WidgetPointer(1181,115));
+	setWidgetIsHidden(true, new WidgetPointer(1181,127));
+	setWidgetIsHidden(true, new WidgetPointer(1181,139));
+	setWidgetIsHidden(true, new WidgetPointer(1181,151));
+	setWidgetIsHidden(true, new WidgetPointer(1181,222));
+	setWidgetIsHidden(true, new WidgetPointer(1181,234));
+	setWidgetIsHidden(true, new WidgetPointer(1181,245));
+	setWidgetIsHidden(true, new WidgetPointer(1181,256));
+	setWidgetIsHidden(true, new WidgetPointer(1181,267));
+	setWidgetIsHidden(true, new WidgetPointer(1181,278));
+	switch (bitconfig_10334) {
+		case 0:
+		case -1:
+			ovar0 = (object)"Select an item to buy";
+			ovar1 = (object)"Select an item to buy";
+			ivar0 = -1;
+			break;
+		case 1:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 1,200 Thieving XP");
+			ovar1 = (object)("1.2k Thieving XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(10, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,67));
+			break;
+		case 2:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 12,000 Thieving XP");
+			ovar1 = (object)("12k Thieving XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(100, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,79));
+			break;
+		case 3:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 120,000 Thieving XP");
+			ovar1 = (object)("120k Thieving XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(1000, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,91));
+			break;
+		case 4:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 1.2M Thieving XP");
+			ovar1 = (object)("1.2M Thieving XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(10000, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,103));
+			break;
+		case 5:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 950 Agility XP");
+			ovar1 = (object)("950 Agility XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(10, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,115));
+			break;
+		case 6:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 9,500 Agility XP");
+			ovar1 = (object)("9.5k Agility XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(100, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,127));
+			break;
+		case 7:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 95,000 Agility XP");
+			ovar1 = (object)("95k Agility XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(1000, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,139));
+			break;
+		case 8:
+			ovar0 = (object)(toString(bitconfig_10335) + "x 950,000 Agility XP");
+			ovar1 = (object)("950k Agility XP (x" + toString(bitconfig_10335) + ")");
+			ivar0 = multiply(10000, bitconfig_10335);
+			setWidgetIsHidden(false, new WidgetPointer(1181,151));
+			break;
+		case 9:
+			ovar0 = (object)"Factory mask";
+			ovar1 = (object)"Factory mask";
+			ivar0 = 2250;
+			setWidgetIsHidden(false, new WidgetPointer(1181,222));
+			break;
+		case 10:
+			ovar0 = (object)"Factory body";
+			ovar1 = (object)"Factory body";
+			ivar0 = 3500;
+			setWidgetIsHidden(false, new WidgetPointer(1181,234));
+			break;
+		case 11:
+			ovar0 = (object)"Factory legs";
+			ovar1 = (object)"Factory legs";
+			ivar0 = 2750;
+			setWidgetIsHidden(false, new WidgetPointer(1181,245));
+			break;
+		case 12:
+			ovar0 = (object)"Factory gloves";
+			ovar1 = (object)"Factory gloves";
+			ivar0 = 1750;
+			setWidgetIsHidden(false, new WidgetPointer(1181,256));
+			break;
+		case 13:
+			ovar0 = (object)"Factory boots";
+			ovar1 = (object)"Factory boots";
+			ivar0 = 1750;
+			setWidgetIsHidden(false, new WidgetPointer(1181,267));
+			break;
+		case 14:
+			ovar0 = (object)"Rogues' Den multitool";
+			ovar1 = (object)"Vintage Rogues' Den multitool kit";
+			ivar0 = 35;
+			setWidgetIsHidden(false, new WidgetPointer(1181,278));
+			break;
+		default:
+			return;
+	}
+	setWidgetText(new WidgetPointer(1181,166), ovar0);
+	setWidgetText(new WidgetPointer(1181,6), (object)("Buy " + (string)ovar0 + " for " + toString(ivar0) + " points?"));
+	script_5578(ivar0);
+	return;
+}

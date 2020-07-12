@@ -1,0 +1,16 @@
+void script_3271() {
+	if (globalint_1202 == 1) {
+		cs2method_10893(16384, subtract(cs2method_10090(61145384), 1), 2, 0, 61145384);
+	} else if (globalint_1201 == 1) {
+		cs2method_10893(16384, subtract(cs2method_10090(61145374), 1), 2, 0, 61145374);
+	} else if (globalint_1200 == 1) {
+		cs2method_10893(16384, subtract(cs2method_10090(61145364), 1), 2, 0, 61145364);
+	} else if (globalint_1199 == 1) {
+		cs2method_10893(16384, subtract(cs2method_10090(61145354), 1), 2, 0, 61145354);
+	} else {
+		if (globalint_1198 == 1) {
+			cs2method_10893(16384, subtract(cs2method_10090(61145353), 1), 2, 0, 61145353);
+		}
+	}
+	return;
+}

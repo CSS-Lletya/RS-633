@@ -1,0 +1,35 @@
+void script_1941() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = add(add(add(standart_config_1332, standart_config_1334), standart_config_1337), multiply(2, subtract(standart_config_1333, standart_config_1335)));
+	setWidgetText(new WidgetPointer(809,17), (object)("Score: " + toString(ivar0)));
+	if (globalint_556 == 0) {
+		return;
+	}
+	ivar1 = subtract(globalint_556, cs2method_10878());
+	ivar2 = divide(ivar1, 3000);
+	ivar3 = cs2method_10620(divide(ivar1, 50), 60);
+	if (ivar2 < 0 || ivar3 < 0) {
+		setWidgetText(new WidgetPointer(809,15), (object)"Game ending");
+		cs2method_10747(1, 53018639);
+		script_1942();
+	} else if (ivar2 == 0 && ivar3 == 0) {
+		setWidgetText(new WidgetPointer(809,15), (object)"Game ending");
+	} else if (ivar3 < 10) {
+		setWidgetText(new WidgetPointer(809,15), (object)(toString(ivar2) + ":0" + toString(ivar3)));
+	} else {
+		setWidgetText(new WidgetPointer(809,15), (object)(toString(ivar2) + ":" + toString(ivar3)));
+	}
+	if (ivar2 < 1) {
+		setWidgetRGB(16711680, 53018639);
+		cs2method_10747(1, 53018639);
+		script_1942();
+	} else {
+		if (cs2method_10416(53018642) == 0) {
+			setWidgetIsHidden(true, new WidgetPointer(809,18));
+		}
+	}
+	return;
+}

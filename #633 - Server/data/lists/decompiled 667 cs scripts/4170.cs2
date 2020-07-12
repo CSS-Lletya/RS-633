@@ -1,0 +1,26 @@
+void script_4170(int arg0,int arg1,int arg2,object arg3) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	script_4178(1, arg2, 0);
+	createChildWidget(arg0, 5, 0);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(170);
+	cs2method_20930(1160, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(arg1), (string)arg3, 25, 200, "IiIsii");
+	cs2method_20139(40, new WidgetPointer(arg1), "I");
+	createChildWidget(arg0, 5, 1);
+	script_4172(arg2);
+	cs2method_20560(4171, new WidgetPointer(-32768,3), -2147483643, arg2, 94, 1, "IiiY");
+	createChildWidget(arg0, 5, 2);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(1132);
+	script_4174(arg2);
+	cs2method_20003(4173, new WidgetPointer(-32768,3), cs2method_10261(), arg2, 286, 1, "IiiY");
+	createChildWidget(arg0, 5, 3);
+	setWidgetSize(10, 32, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(937);
+	cs2method_10692(1);
+	cs2method_20745(4175, new WidgetPointer(-32768,3), cs2method_10261(), arg2, 1, "Iii1");
+	return;
+}

@@ -1,0 +1,6 @@
+void script_5635(object arg0,object arg1) {
+	cs2method_10060(17);
+	cs2method_10897();
+	script_2932(0, arg0, arg1);
+	return;
+}

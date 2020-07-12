@@ -1,0 +1,25 @@
+void script_113(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = 0;
+	ivar2 = 0;
+	if (cs2method_10869(2) == 0) {
+		ivar1 = add(5, cs2method_10869(12));
+	} else {
+		ivar1 = subtract(-5, cs2method_10869(12));
+	}
+	if (cs2method_10869(2) == 0) {
+		ivar2 = add(5, cs2method_10869(12));
+	} else {
+		ivar2 = subtract(-5, cs2method_10869(12));
+	}
+	ivar3 = cs2method_10869(63);
+	ivar4 = cs2method_10869(127);
+	cs2method_10203(ivar3, 4, 60, ivar4, arg0);
+	ivar5 = add(cs2method_10878(), 100);
+	cs2method_20219(5612, new WidgetPointer(arg0), ivar3, ivar4, cs2method_10869(2), ivar5, ivar1, ivar2, "Iiiiiii", new WidgetPointer(arg0));
+	return;
+}

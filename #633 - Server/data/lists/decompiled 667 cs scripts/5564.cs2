@@ -1,0 +1,11 @@
+cs2func_script_5564_struct(1,1,0) script_5564(int arg0) {
+	object ovar0;
+	ovar0 = script_940(arg0);
+	if (arg0 < 100000) {
+		return newstruct cs2func_script_5564_struct(16776960, ovar0);
+	}
+	if (arg0 >= 10000000) {
+		return newstruct cs2func_script_5564_struct(65408, ovar0);
+	}
+	return newstruct cs2func_script_5564_struct(16777215, ovar0);
+}

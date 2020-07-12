@@ -1,0 +1,10 @@
+void script_2892(int arg0,int arg1) {
+	if (subtract(cs2method_10878(), arg1) >= 180) {
+		globalint_1086 = 1;
+	}
+	if (subtract(cs2method_10878(), arg1) >= 1000) {
+		cs2method_20219(-1, "", new WidgetPointer(476,24));
+		setWidgetIsHidden(true, new WidgetPointer(476,24));
+	}
+	return;
+}

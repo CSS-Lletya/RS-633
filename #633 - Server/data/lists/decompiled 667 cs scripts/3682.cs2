@@ -1,0 +1,9 @@
+void script_3682() {
+	if (cs2method_10366((object)globalstring_196) == 0 && globalint_5 != 14) {
+		cs2method_10467(3246, 12255250);
+		script_3685();
+	} else {
+		script_3683();
+	}
+	return;
+}

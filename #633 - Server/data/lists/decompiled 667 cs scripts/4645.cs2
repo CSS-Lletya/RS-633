@@ -1,0 +1,81 @@
+void script_4645(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int stack_dump0;
+	cs2func_script_4644_struct(2,0,0) structdump_1;
+	flow_0:
+		ivar1 = -1;
+		ivar2 = -1;
+		ivar3 = 0;
+		ivar4 = 0;
+		stack_dump0 = arg0;
+		structdump_1 = script_4644(stack_dump0);
+		ivar4 = structdump_1.intpart_1;
+		ivar3 = structdump_1.intpart_0;
+		SWITCH (arg0) {
+			case 1:
+				 GOTO flow_1
+			case 2:
+				 GOTO flow_2
+			case 4:
+				 GOTO flow_3
+			case 5:
+				 GOTO flow_4
+			case 3:
+				 GOTO flow_5
+			case 6:
+				 GOTO flow_6
+		}
+		return;
+	flow_1:
+		ivar1 = 10027024;
+		ivar2 = 10027183;
+		GOTO	flow_7
+	flow_2:
+		ivar1 = 10027021;
+		ivar2 = 10027022;
+		GOTO	flow_7
+	flow_3:
+		ivar1 = 10027018;
+		ivar2 = 10027019;
+		GOTO	flow_7
+	flow_4:
+		ivar1 = 10027009;
+		ivar2 = 10027010;
+		GOTO	flow_7
+	flow_5:
+		ivar1 = 10027209;
+		ivar2 = 10027210;
+		GOTO	flow_7
+	flow_6:
+		ivar1 = 10027193;
+		ivar2 = 10027194;
+	flow_7:
+		if (script_4643(arg0) == 1) {
+			if (ivar3 == 1) {
+				if (ivar4 == 1) {
+					cs2method_10467(6274, ivar1);
+					setWidgetIsHidden(false, new WidgetPointer(ivar1));
+					cs2method_10467(6275, ivar2);
+					setWidgetIsHidden(false, new WidgetPointer(ivar2));
+				} else {
+					cs2method_10467(6272, ivar1);
+					setWidgetIsHidden(false, new WidgetPointer(ivar1));
+					cs2method_10467(6275, ivar2);
+					setWidgetIsHidden(false, new WidgetPointer(ivar2));
+				}
+			} else {
+				cs2method_10467(6272, ivar1);
+				setWidgetIsHidden(false, new WidgetPointer(ivar1));
+			}
+		} else if (ivar3 == 1) {
+			cs2method_10467(6275, ivar1);
+			setWidgetIsHidden(false, new WidgetPointer(ivar1));
+		} else {
+			cs2method_10467(6273, ivar1);
+			setWidgetIsHidden(false, new WidgetPointer(ivar1));
+		}
+		return;
+}

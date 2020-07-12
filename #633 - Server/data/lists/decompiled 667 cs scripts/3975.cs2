@@ -1,0 +1,34 @@
+void script_3975() {
+	int ivar0;
+	script_41(69206174);
+	ivar0 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(1056,60));
+	setWidgetIsHidden(true, new WidgetPointer(1056,138));
+	setWidgetIsHidden(true, new WidgetPointer(1056,143));
+	setWidgetIsHidden(true, new WidgetPointer(1056,148));
+	setWidgetIsHidden(true, new WidgetPointer(1056,153));
+	setWidgetIsHidden(true, new WidgetPointer(1056,159));
+	switch (bitconfig_8577) {
+		case 1:
+			ivar0 = 69206076;
+			break;
+		case 2:
+			ivar0 = 69206154;
+			break;
+		case 3:
+			ivar0 = 69206159;
+			break;
+		case 4:
+			ivar0 = 69206164;
+			break;
+		case 5:
+			ivar0 = 69206169;
+			break;
+		case 6:
+			ivar0 = 69206175;
+	}
+	if (ivar0 != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(ivar0));
+	}
+	return;
+}

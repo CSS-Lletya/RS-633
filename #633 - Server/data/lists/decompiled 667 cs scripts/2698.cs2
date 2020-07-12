@@ -1,0 +1,44 @@
+void script_2698(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int stack_dump0;
+	opc_struct10485(2,0,0) structdump_1;
+	if (arg0 == cs2method_10842()) {
+		return;
+	}
+	ivar5 = -1;
+	if (arg0 != 3) {
+		cs2method_10673(arg0);
+		ivar5 = cs2method_10842();
+		cs2method_10698(ivar5);
+		if (arg0 != ivar5) {
+			script_2694(arg4, 0, (object)("RuneScape was unable to enter that display mode." + "<br>" + "<br>" + "Please visit our website for more information."), (object)"", (object)"");
+			script_2596(arg3, ivar5, arg1, arg2, arg4);
+			return;
+		}
+		script_2596(arg3, ivar5, arg1, arg2, arg4);
+		if (arg0 >= 2 && ivar5 >= 2) {
+			globalint_994 = 2;
+		}
+		return;
+	}
+	if (cs2method_10669() == 0) {
+		script_2694(arg4, 0, (object)("Fullscreen mode is only available to RuneScape members." + "<br>" + "<br>" + "Please visit the RuneScape website to learn about other benefits of membership."), (object)"Members' benefits", (object)"members_benefits.ws");
+		return;
+	}
+	if (cs2method_11005() > globalint_178) {
+		stack_dump0 = globalint_178;
+		structdump_1 = cs2method_10485(stack_dump0);
+		if (cs2method_10540(structdump_1.intpart_0, structdump_1.intpart_1) == 1) {
+			script_2596(arg3, arg0, arg1, arg2, arg4);
+			script_2700(2, arg4, 0, 0);
+			return;
+		}
+	}
+	arg0 = cs2method_10932();
+	cs2method_10673(arg0);
+	if (arg4 == 1) {
+		cs2method_10998((object)"Unable to enter fullscreen mode at that resolution.");
+	}
+	script_2596(arg3, arg0, arg1, arg2, arg4);
+	return;
+}

@@ -1,0 +1,13 @@
+void script_4547(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	clearExtraChildren(new WidgetPointer(arg3));
+	setWidgetIsHidden(false, new WidgetPointer(912,39));
+	setWidgetText(new WidgetPointer(912,17), (object)"Not in chat");
+	cs2method_10893(cs2method_10956(59768870), cs2method_10090(59768869), 0, 0, 59768870);
+	setWidgetScrollMax(0, 0, 59768877);
+	cs2method_10085(0, 0, 59768877);
+	script_72(59768878, 59768877, 0);
+	return;
+}

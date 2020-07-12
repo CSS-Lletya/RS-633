@@ -1,0 +1,19 @@
+void script_2306() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = 31;
+	ivar1 = 0;
+	ivar2 = 31;
+	ivar3 = 3;
+	ivar4 = 26;
+	if (cs2method_10823() >= 100) {
+		ivar1 = 0;
+	} else {
+		ivar1 = add(ivar3, subtract(ivar4, cs2method_10542(cs2method_10823(), 100, ivar4)));
+	}
+	cs2method_10893(ivar2, ivar1, 0, 0, 49152001);
+	return;
+}

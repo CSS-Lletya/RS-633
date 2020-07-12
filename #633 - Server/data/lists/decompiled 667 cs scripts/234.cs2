@@ -1,0 +1,13 @@
+void script_234(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = -1;
+	if (cs2method_10551(38928443, arg0) == 1) {
+		globalstring_24 = (string)cs2method_10992();
+		globalint_792 = globalint_791;
+		script_240();
+		script_217();
+	}
+	return;
+}

@@ -1,0 +1,16 @@
+void script_5647(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 5;
+	ivar1 = 13;
+	setWidgetIsHidden(false, new WidgetPointer(1215,13));
+	setWidgetText(new WidgetPointer(1215,16), arg0);
+	ivar2 = add(multiply(ivar0, 2), cs2method_10242(500, cs2method_10894(79626256), arg0));
+	ivar3 = add(multiply(ivar0, 2), multiply(getLineCount(ivar2, cs2method_10894(79626256), arg0), ivar1));
+	cs2method_10893(ivar2, ivar3, 0, 0, 79626253);
+	ivar3 = add(add(multiply(bitconfig_10444, 25), multiply(bitconfig_10445, 25)), multiply(bitconfig_10446, 25));
+	cs2method_10444(0, ivar3, 2, 0, 79626253);
+	return;
+}

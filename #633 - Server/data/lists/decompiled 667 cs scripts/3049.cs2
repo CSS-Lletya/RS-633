@@ -1,0 +1,4 @@
+void script_3049() {
+	script_3015(3, (object)"Remove friend", (object)"", (object)"", (object)"");
+	return;
+}

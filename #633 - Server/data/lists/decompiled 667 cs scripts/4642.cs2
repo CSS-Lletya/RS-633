@@ -1,0 +1,31 @@
+void script_4642() {
+	object ovar0;
+	if (standart_config_2192 == 0) {
+		return;
+	}
+	ovar0 = (object)"null";
+	switch (standart_config_2192) {
+		case 1:
+			ovar0 = (object)("Abridged: 750 Dungeoneering XP. 75 Dungeoneering tokens." + "<br>" + "Unabridged: 3750 XP in a choice of Attack, Ranged or Magic.");
+			break;
+		case 2:
+			ovar0 = (object)("Abridged: 2410 Dungeoneering XP. 241 Dungeoneering tokens." + "<br>" + "Unabridged: 25415 XP in either Agility or Thieving.");
+			break;
+		case 4:
+			ovar0 = (object)("Abridged: 37080 Dungeoneering XP. 3708 Dungeoneering tokens." + "<br>" + "Unabridged: 75765 Strength XP.");
+			break;
+		case 3:
+			ovar0 = (object)("Abridged: 3750 Dungeoneering XP. 375 Dungeoneering tokens." + "<br>" + "Unabridged: 21670 Dungeoneering XP. 2167 Dungeoneering tokens. 11660 Thieving XP or 37080 Attack XP.");
+			break;
+		case 6:
+			ovar0 = (object)("Abridged: 53440 Dungeoneering XP. 5344 Dungeoneering tokens." + "<br>" + "Unabridged: 105010 Strength XP.");
+			break;
+		default:
+			return;
+	}
+	ovar0 = cs2method_10445(ovar0, (object)("<br>" + "Replay: Up to " + toString(getDataByKey('i', 'i', 5756, standart_config_2192)) + " Dungeoneering tokens."));
+	cs2method_10677(6185, 1, 0, 150);
+	setWidgetIsHidden(true, new WidgetPointer(153,52));
+	setWidgetText(new WidgetPointer(153,50), ovar0);
+	return;
+}

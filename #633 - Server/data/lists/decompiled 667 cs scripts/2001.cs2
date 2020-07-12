@@ -1,0 +1,11 @@
+string script_2001(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = globalint_1878;
+	ivar2 = divide(ivar1, 1000);
+	ivar1 = subtract(ivar1, multiply(ivar2, 1000));
+	if (ivar1 < 0) {
+		ivar1 = subtract(0, ivar1);
+	}
+	return toString(ivar2) + "." + toString(divide(ivar1, 100)) + "kg";
+}

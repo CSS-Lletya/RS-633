@@ -1,0 +1,38 @@
+void script_1792(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	if (bitconfig_5283 == 0) {
+		setWidgetRGB(16750623, arg3);
+		setWidgetRGB(16750623, arg4);
+		cs2method_10467(444, arg1);
+		setWidgetText(new WidgetPointer(arg4), (object)("ITEMS ARE" + "<br>" + "SAFE"));
+	} else {
+		setWidgetRGB(16776960, arg3);
+		setWidgetRGB(16776960, arg4);
+		cs2method_10467(445, arg1);
+		setWidgetText(new WidgetPointer(arg4), (object)("ITEMS ARE" + "<br>" + "DROPPED"));
+	}
+	cs2method_10667(1, arg1);
+	ivar6 = cs2method_10242(512, 494, cs2method_10100(arg3));
+	ivar6 = cs2method_10004(cs2method_10242(512, 494, cs2method_10100(arg4)), ivar6);
+	ivar6 = add(ivar6, 6);
+	ivar7 = 5;
+	cs2method_10444(0, ivar7, 0, 0, arg3);
+	ivar8 = getLineCount(ivar6, 494, cs2method_10100(arg3));
+	ivar8 = add(multiply(ivar8, 10), 3);
+	cs2method_10893(ivar6, ivar8, 0, 0, arg3);
+	ivar7 = subtract(add(ivar7, ivar8), 1);
+	cs2method_10444(divide(subtract(ivar6, cs2method_10956(arg2)), 2), ivar7, 0, 0, arg2);
+	ivar7 = subtract(add(ivar7, cs2method_10090(arg2)), 1);
+	cs2method_10444(0, ivar7, 0, 0, arg4);
+	ivar9 = getLineCount(ivar6, 494, cs2method_10100(arg4));
+	ivar9 = add(multiply(ivar9, 10), 3);
+	cs2method_10893(ivar6, ivar8, 0, 0, arg4);
+	ivar7 = add(add(ivar7, ivar9), 3);
+	cs2method_10893(ivar6, ivar7, 0, 0, arg0);
+	cs2method_10893(ivar6, ivar7, 0, 0, arg1);
+	script_1086(arg0, 0, 0, 0);
+	return;
+}

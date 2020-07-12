@@ -1,0 +1,112 @@
+void script_6204() {
+	script_5523();
+	switch (bitconfig_10243) {
+		case 12:
+			setWidgetIsHidden(false, new WidgetPointer(906,33));
+			setWidgetIsHidden(true, new WidgetPointer(906,338));
+			setWidgetIsHidden(true, new WidgetPointer(906,382));
+			setWidgetIsHidden(false, new WidgetPointer(906,409));
+			script_6192();
+			break;
+		case 1:
+		case 2:
+		case 8:
+		case 9:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 14:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 3:
+		case 4:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"The email validation process will continue once we have ensured that your addresses are secure. To speed up this process, please submit codes from both of your email addresses.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 5:
+		case 10:
+		case 11:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. The submitted code was invalid. Please check and try again.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 6:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. The submitted code has expired. Please re-register your email address.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 7:
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. The code has already been submitted. Please request a new code, or submit an unused code.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 22:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,338));
+			setWidgetIsHidden(false, new WidgetPointer(906,382));
+			script_6189();
+			break;
+		case 13:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 15:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 16:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 17:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 18:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+			break;
+		case 19:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"This email address has already been registered with another account.", (object)"", (object)"", (object)"Back", (object)"Back");
+			script_5940();
+			break;
+		case 20:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"The two email addresses did not match.", (object)"", (object)"", (object)"Back", (object)"Back");
+			script_5940();
+			break;
+		case 21:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"The email address you entered was not valid.", (object)"", (object)"", (object)"Back", (object)"Back");
+			script_5940();
+			break;
+		case 31:
+			script_5523();
+			cs2method_20219(-1, "", new WidgetPointer(906,235));
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"The email address you entered could not be registered.", (object)"", (object)"", (object)"Back", (object)"Back");
+			script_5940();
+			break;
+		default:
+			script_5523();
+			setWidgetIsHidden(true, new WidgetPointer(906,33));
+			script_3093(-5, 1, 0, 2608, 0, -1, 1, (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.", (object)"", (object)"", (object)"Back", (object)"Back");
+	}
+	return;
+}

@@ -1,0 +1,54 @@
+void script_2266(int arg0) {
+	switch (arg0) {
+		case 61866061:
+			if (compareTo((object)"", (object)globalstring_132) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_132);
+			}
+			break;
+		case 61866008:
+			if (compareTo((object)"", (object)globalstring_133) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_133);
+			}
+			break;
+		case 61866014:
+			if (compareTo((object)"", (object)globalstring_134) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_134);
+			}
+			break;
+		case 61866020:
+			if (compareTo((object)"", (object)globalstring_135) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_135);
+			}
+			break;
+		case 61866026:
+			if (compareTo((object)"", (object)globalstring_136) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_136);
+			}
+			break;
+		case 61866032:
+			if (compareTo((object)"", (object)globalstring_137) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_137);
+			}
+			break;
+		case 61866038:
+			if (compareTo((object)"", (object)globalstring_280) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_280);
+			}
+			break;
+		case 61866044:
+			if (compareTo((object)"", (object)globalstring_281) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_281);
+			}
+			break;
+		case 61866050:
+			if (compareTo((object)"", (object)globalstring_282) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_282);
+			}
+			break;
+		case 61866056:
+			if (compareTo((object)"", (object)globalstring_283) != 0) {
+				setWidgetText(new WidgetPointer(944,15), (object)globalstring_283);
+			}
+	}
+	return;
+}

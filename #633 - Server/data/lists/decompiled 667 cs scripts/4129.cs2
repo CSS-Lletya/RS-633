@@ -1,0 +1,3 @@
+int script_4129(int arg0,int arg1) {
+	return cs2method_10273(arg1, subtract(cs2method_10565(arg0), cs2method_10565(57676160)), subtract(cs2method_10638(arg0), cs2method_10638(57676160)), subtract(cs2method_10130(arg0), cs2method_10130(57676160)));
+}

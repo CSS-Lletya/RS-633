@@ -1,0 +1,4 @@
+void script_2010(int arg0,int arg1,object arg2) {
+	script_311(arg0, arg1, (object)(getGeneralRequirementAttribute(471, 596) + "<br>" + (string)arg2));
+	return;
+}

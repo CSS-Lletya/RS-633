@@ -1,0 +1,45 @@
+void script_2945() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	object ovar1;
+	globalint_1100 = -1;
+	if (cs2method_10637() == 0 && (cs2method_10366((object)globalstring_32) == 0 || cs2method_10366((object)globalstring_33) == 0)) {
+		script_2940(11);
+		return;
+	}
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	globalint_200 = 0;
+	globalint_201 = 0;
+	ivar4 = 39059514;
+	ivar5 = 39059500;
+	if (cs2method_10637() == 1) {
+		ivar4 = 63897649;
+		ivar5 = 63897644;
+	}
+	setWidgetText(new WidgetPointer(ivar4), (object)"Logging in...");
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar5));
+	script_2950(-3, 0, 1, -1, 0, -1, 0, (object)"Logging In - Please Wait", (object)"", (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(596,8));
+	globalint_1100 = -3;
+	ovar0 = (object)globalstring_32;
+	ovar1 = (object)globalstring_33;
+	if (cs2method_10637() == 1) {
+		ovar0 = (object)"";
+		ovar1 = (object)"";
+	}
+	cs2method_10039(ovar0, ovar1);
+	if (cs2method_10637() == 1) {
+		cs2method_20219(2946, 0, "i", new WidgetPointer(975,26));
+	} else {
+		cs2method_20219(2946, 0, "i", new WidgetPointer(596,6));
+	}
+	return;
+}

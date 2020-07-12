@@ -1,0 +1,7 @@
+void script_2583() {
+	setWidgetRGB(16750901, 19136626);
+	cs2method_10375(1, 19136625, (object)"Resupply");
+	cs2method_20000(2592, new WidgetPointer(-32768,3), "I", new WidgetPointer(292,113));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(292,113));
+	return;
+}

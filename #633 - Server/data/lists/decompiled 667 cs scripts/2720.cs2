@@ -1,0 +1,23 @@
+int script_2720(int arg0) {
+	int ivar1;
+	if (arg0 == -1) {
+		return 0;
+	}
+	arg0 = cs2method_10447(arg0);
+	ivar1 = getDataByKey('o', 'i', 731, arg0);
+	if (standart_config_532 == 6529 && ivar1 != -1 && ivar1 > 0) {
+		return ivar1;
+	}
+	ivar1 = getDataByKey('o', 'i', 733, arg0);
+	if (ivar1 != -1 && ivar1 > 0) {
+		return ivar1;
+	}
+	if (getItemAttribute(arg0, 258) == 1 || getItemAttribute(arg0, 259) == 1) {
+		return 99000;
+	}
+	ivar1 = cs2method_10666(arg0);
+	if (standart_config_532 == 6529) {
+		ivar1 = cs2method_10542(3, 2, ivar1);
+	}
+	return cs2method_10004(ivar1, 1);
+}

@@ -1,0 +1,78 @@
+void script_621() {
+	int ivar0;
+	object ovar0;
+	flow_0:
+		ivar0 = 0;
+		ovar0 = (object)"null";
+		script_622();
+		IF (standart_config_1112 == -1 || cs2method_10350(standart_config_1112) == 1 && standart_config_1113 == -1) 
+			GOTO	flow_2
+		GOTO	flow_3
+	flow_2:
+		script_41(6881490);
+		setWidgetIsHidden(false, new WidgetPointer(105,17));
+		script_628();
+		cs2method_20572(-1, "", new WidgetPointer(105,197));
+		globalint_83 = 0;
+		globalint_82 = 0;
+		GOTO	flow_26
+	flow_3:
+		IF (ivar0 < 6) 
+			GOTO	flow_4
+		GOTO	flow_5
+	flow_4:
+		script_41((int)script_626(ivar0));
+		ivar0 = add(ivar0, 1);
+		GOTO	flow_3
+	flow_5:
+		if (cs2method_10350(standart_config_1112) == 0) {
+			setWidgetIsHidden(false, new WidgetPointer(105,127));
+			setWidgetIsHidden(false, new WidgetPointer(105,197));
+			script_594(cs2method_10881(standart_config_1112), cs2method_10128(standart_config_1112), cs2method_10237(standart_config_1112), cs2method_10289(standart_config_1112));
+			script_593(standart_config_1112);
+			if (cs2method_10881(standart_config_1112) == 0) {
+				ovar0 = (object)"Maximum total cost of purchase";
+			} else {
+				ovar0 = (object)"Minimum total value of sale";
+			}
+			cs2method_20835(649, new WidgetPointer(105,185), new WidgetPointer(105,210), (string)ovar0, 25, 300, "IIsii", new WidgetPointer(105,185));
+			ovar0 = cs2method_10595(multiply(cs2method_10237(standart_config_1112), cs2method_10289(standart_config_1112)), 1);
+			setWidgetText(new WidgetPointer(105,185), (object)((string)ovar0 + " gp"));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(105,127));
+			setWidgetIsHidden(false, new WidgetPointer(105,154));
+			if (standart_config_1113 == 0) {
+				setWidgetIsHidden(false, new WidgetPointer(105,188));
+				if (standart_config_1109 != -1) {
+					setWidgetIsHidden(true, new WidgetPointer(105,191));
+					setWidgetIsHidden(true, new WidgetPointer(105,192));
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(105,191));
+					setWidgetIsHidden(false, new WidgetPointer(105,192));
+				}
+				ovar0 = (object)"Maximum total cost of purchase";
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(105,193));
+				if (standart_config_1109 != -1) {
+					setWidgetIsHidden(true, new WidgetPointer(105,195));
+				} else {
+					setWidgetIsHidden(false, new WidgetPointer(105,195));
+				}
+				ovar0 = (object)"Minimum total value of sale";
+			}
+			cs2method_20835(649, new WidgetPointer(105,185), new WidgetPointer(105,210), (string)ovar0, 25, 300, "IIsii", new WidgetPointer(105,185));
+			if (standart_config_1111 > 0) {
+				if (standart_config_1110 > divide(2147483647, standart_config_1111)) {
+					setWidgetText(new WidgetPointer(105,185), (object)"Too high!");
+				} else {
+					ovar0 = cs2method_10595(multiply(standart_config_1110, standart_config_1111), 1);
+					setWidgetText(new WidgetPointer(105,185), (object)((string)ovar0 + " gp"));
+				}
+			} else {
+				setWidgetText(new WidgetPointer(105,185), (object)"0 gp");
+			}
+			script_594(standart_config_1113, standart_config_1109, standart_config_1110, standart_config_1111);
+		}
+	flow_26:
+		return;
+}

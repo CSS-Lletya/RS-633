@@ -1,0 +1,79 @@
+void script_6093(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar1 = 82903060;
+	ivar2 = 82903066;
+	ivar3 = 82903063;
+	ivar4 = 82903064;
+	if (arg0 == standart_config_1496) {
+		ivar1 = 82903061;
+		ivar2 = 82903137;
+		ivar3 = 82903135;
+		ivar4 = -1;
+	}
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = -1;
+	ivar9 = 0;
+	while (ivar5 < cs2method_10594(arg0)) {
+		ivar8 = getItemIdInContainerSlot(arg0, ivar5);
+		if (ivar8 != -1) {
+			if (cs2method_10551(ivar2, ivar5) == 1 && cs2method_10844() == ivar8) {
+				if (getItemAttribute(ivar8, 258) == 1 || getItemAttribute(ivar8, 259) == 1) {
+					ivar9 = 1;
+				} else {
+					ivar9 = 0;
+				}
+				if (ivar9 == 1) {
+					cs2method_10814(ivar8, cs2method_10136(arg0, ivar5));
+				} else if (arg0 == 600 && ivar8 == 1391) {
+					cs2method_10988(ivar8, script_2002());
+				} else {
+					cs2method_10988(ivar8, cs2method_10136(arg0, ivar5));
+				}
+			}
+			if (cs2method_10551(ivar3, ivar5) == 1) {
+				ivar7 = script_2720(ivar8);
+				if (standart_config_2565 == 1) {
+					if (cs2method_10184(globalint_1879, ivar5) == 0) {
+						ivar7 = -1;
+					} else {
+						ivar7 = script_6077(ivar8);
+					}
+				}
+				if (ivar7 == -1) {
+					setWidgetText((object)"N/A");
+				} else if (arg0 == standart_config_1496) {
+					setWidgetText((object)"Free!");
+				} else {
+					setWidgetText(script_940(ivar7));
+				}
+			}
+			if (ivar4 != -1 && cs2method_10551(ivar4, ivar5) == 1) {
+				if (standart_config_2565 == 1 && ivar7 == -1) {
+					cs2method_10469(2180);
+				} else {
+					cs2method_10469(getDataByKey('o', 'd', 200, standart_config_532));
+				}
+			}
+		} else {
+			if (cs2method_10551(ivar1, ivar5) == 1 && cs2method_10119() != -1) {
+				script_6087(standart_config_118, standart_config_1496, standart_config_2565, bitconfig_11055);
+				if (standart_config_2563 == ivar5) {
+					script_6107();
+				}
+				return;
+			}
+		}
+		ivar5 = add(ivar5, 1);
+	}
+	return;
+}

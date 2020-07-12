@@ -1,0 +1,26 @@
+void script_6280(int arg0) {
+	setWidgetIsHidden(true, new WidgetPointer(1297,239));
+	setWidgetIsHidden(true, new WidgetPointer(1297,238));
+	setWidgetIsHidden(true, new WidgetPointer(1297,237));
+	setWidgetIsHidden(true, new WidgetPointer(1297,241));
+	setWidgetIsHidden(true, new WidgetPointer(1297,240));
+	setWidgetIsHidden(true, new WidgetPointer(1297,270));
+	setWidgetIsHidden(true, new WidgetPointer(1297,263));
+	setWidgetIsHidden(true, new WidgetPointer(1297,256));
+	if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(1297,124), (object)"Taunt");
+		setWidgetIsHidden(false, new WidgetPointer(1297,239));
+		setWidgetIsHidden(false, new WidgetPointer(1297,240));
+		setWidgetIsHidden(false, new WidgetPointer(1297,270));
+	} else if (arg0 == 2) {
+		setWidgetText(new WidgetPointer(1297,124), (object)"Title");
+		setWidgetIsHidden(false, new WidgetPointer(1297,238));
+		setWidgetIsHidden(false, new WidgetPointer(1297,241));
+		setWidgetIsHidden(false, new WidgetPointer(1297,263));
+	} else {
+		setWidgetText(new WidgetPointer(1297,124), (object)"Reward");
+		setWidgetIsHidden(false, new WidgetPointer(1297,237));
+		setWidgetIsHidden(false, new WidgetPointer(1297,256));
+	}
+	return;
+}

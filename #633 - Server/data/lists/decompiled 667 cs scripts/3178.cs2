@@ -1,0 +1,10 @@
+void script_3178(int arg0) {
+	if (globalint_6 == 0) {
+		globalint_6 = 1;
+		cs2method_10467(4086, arg0);
+	} else {
+		globalint_6 = 0;
+		cs2method_10467(4084, arg0);
+	}
+	return;
+}

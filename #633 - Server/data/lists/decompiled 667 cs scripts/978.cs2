@@ -1,0 +1,1291 @@
+cs2func_script_978_struct(2,2,0) script_978(int arg0,int arg1) {
+	switch (arg0) {
+		case 0:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 1173, (object)"Bronze square shield", (object)("You can now wield " + "<col=000080>" + "bronze square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 1189, (object)"Bronze kiteshield", (object)("You can now wield " + "<col=000080>" + "bronze kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 1139, (object)"Bronze helm", (object)("You can now wear " + "<col=000080>" + "bronze helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(1, 1155, (object)"Bronze full helm", (object)("You can now wear " + "<col=000080>" + "bronze full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(1, 1103, (object)"Bronze chainbody", (object)("You can now wear " + "<col=000080>" + "bronze chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(1, 1117, (object)"Bronze platebody", (object)("You can now wear " + "<col=000080>" + "bronze platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(1, 1087, (object)"Bronze plateskirt", (object)("You can now wear " + "<col=000080>" + "bronze plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(1, 1075, (object)"Bronze platelegs", (object)("You can now wear " + "<col=000080>" + "bronze platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(1, 4119, (object)"Members: Bronze boots", (object)("Members can now wear " + "<col=000080>" + "bronze boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(1, 8844, (object)"Members: Bronze defender", (object)("Members can now wield " + "<col=000080>" + "bronze defenders" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_978_struct(1, 12985, (object)"Bronze gauntlets", (object)("You can now wear " + "<col=000080>" + "bronze gauntlets" + "</col>" + "."));
+			}
+			break;
+		case 1:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 1175, (object)"Iron square shield", (object)("You can now wield " + "<col=000080>" + "iron square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 1191, (object)"Iron kiteshield", (object)("You can now wield " + "<col=000080>" + "iron kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 1137, (object)"Iron helm", (object)("You can now wear " + "<col=000080>" + "iron helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(1, 1153, (object)"Iron full helm", (object)("You can now wear " + "<col=000080>" + "iron full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(1, 1101, (object)"Iron chainbody", (object)("You can now wear " + "<col=000080>" + "iron chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(1, 1115, (object)"Iron platebody", (object)("You can now wear " + "<col=000080>" + "iron platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(1, 1081, (object)"Iron plateskirt", (object)("You can now wear " + "<col=000080>" + "iron plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(1, 1067, (object)"Iron platelegs", (object)("You can now wear " + "<col=000080>" + "iron platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(1, 4121, (object)"Members: Iron boots", (object)("Members can now wear " + "<col=000080>" + "iron boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(1, 8845, (object)"Members: Iron defender", (object)("Members can now wield " + "<col=000080>" + "iron defenders" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_978_struct(1, 12988, (object)"Iron gauntlets", (object)("You can now wear " + "<col=000080>" + "iron gauntlets" + "</col>" + "."));
+			}
+			break;
+		case 2:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(5, 1177, (object)"Steel square shield", (object)("You can now wield " + "<col=000080>" + "steel square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(5, 1193, (object)"Steel kiteshield", (object)("You can now wield " + "<col=000080>" + "steel kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(5, 1141, (object)"Steel helm", (object)("You can now wear " + "<col=000080>" + "steel helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(5, 1157, (object)"Steel full helm", (object)("You can now wear " + "<col=000080>" + "steel full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(5, 1105, (object)"Steel chainbody", (object)("You can now wear " + "<col=000080>" + "steel chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(5, 1119, (object)"Steel platebody", (object)("You can now wear " + "<col=000080>" + "steel platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(5, 1083, (object)"Steel plateskirt", (object)("You can now wear " + "<col=000080>" + "steel plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(5, 1069, (object)"Steel platelegs", (object)("You can now wear " + "<col=000080>" + "steel platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(5, 4123, (object)"Members: Steel boots", (object)("Members can now wear " + "<col=000080>" + "steel boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(5, 8846, (object)("Members: Steel defender" + "<br>" + " (with 5 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "steel defenders" + "</col>" + ". (They also need level 5 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(5, 12991, (object)"Steel gauntlets", (object)("You can now wear " + "<col=000080>" + "steel gauntlets" + "</col>" + "."));
+			}
+			break;
+		case 3:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(10, 1179, (object)"Black square shield", (object)("You can now wield " + "<col=000080>" + "black square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(10, 1195, (object)"Black kiteshield", (object)("You can now wield " + "<col=000080>" + "black kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(10, 1151, (object)"Black helm", (object)("You can now wear " + "<col=000080>" + "black helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(10, 1165, (object)"Black full helm", (object)("You can now wear " + "<col=000080>" + "black full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(10, 1107, (object)"Black chainbody", (object)("You can now wear " + "<col=000080>" + "black chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(10, 1125, (object)"Black platebody", (object)("You can now wear " + "<col=000080>" + "black platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(10, 1089, (object)"Black plateskirt", (object)("You can now wear " + "<col=000080>" + "black plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(10, 1077, (object)"Black platelegs", (object)("You can now wear " + "<col=000080>" + "black platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(10, 4125, (object)"Members: Black boots", (object)("Members can now wear " + "<col=000080>" + "black boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(10, 8847, (object)("Members: Black defender" + "<br>" + " (with 10 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "black defenders" + "</col>" + ". (They also need level 10 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(10, 12994, (object)"Black gauntlets", (object)("You can now wear " + "<col=000080>" + "black gauntlets" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_978_struct(40, 14494, (object)"Members: Elite black full helm", (object)("Members can now wear " + "<col=000080>" + "elite black full helms" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_978_struct(40, 14492, (object)"Members: Elite black platebody", (object)("Members can now wear " + "<col=000080>" + "elite black platebodies" + "</col>" + "."));
+				case 13:
+					return newstruct cs2func_script_978_struct(40, 14490, (object)"Members: Elite black platelegs", (object)("Members can now wear " + "<col=000080>" + "elite black platelegs" + "</col>" + "."));
+			}
+			break;
+		case 4:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(-1, 7620, (object)"To use any white equipment, you must have completed Wanted!.", (object)"");
+				case 1:
+					return newstruct cs2func_script_978_struct(10, 6631, (object)"Members: White square shield", (object)("Members can now wield " + "<col=000080>" + "white square shields" + "</col>" + " (after finishing Wanted!)."));
+				case 2:
+					return newstruct cs2func_script_978_struct(10, 6633, (object)"Members: White kiteshield", (object)("Members can now wield " + "<col=000080>" + "white kiteshields" + "</col>" + " (after finishing Wanted!)."));
+				case 3:
+					return newstruct cs2func_script_978_struct(10, 6621, (object)"Members: White helm", (object)("Members can now wear " + "<col=000080>" + "white helms" + "</col>" + " (after finishing Wanted!)."));
+				case 4:
+					return newstruct cs2func_script_978_struct(10, 6623, (object)"Members: White full helm", (object)("Members can now wear " + "<col=000080>" + "white full helms" + "</col>" + " (after finishing Wanted!)."));
+				case 5:
+					return newstruct cs2func_script_978_struct(10, 6615, (object)"Members: White chainbody", (object)("Members can now wear " + "<col=000080>" + "white chainbodies" + "</col>" + " (after finishing Wanted!)."));
+				case 6:
+					return newstruct cs2func_script_978_struct(10, 6617, (object)"Members: White platebody", (object)("Members can now wear " + "<col=000080>" + "white platebodies" + "</col>" + " (after finishing Wanted!)."));
+				case 7:
+					return newstruct cs2func_script_978_struct(10, 6627, (object)"Members: White plateskirt", (object)("Members can now wear " + "<col=000080>" + "white plateskirts" + "</col>" + " (after finishing Wanted!)."));
+				case 8:
+					return newstruct cs2func_script_978_struct(10, 6625, (object)"Members: White platelegs", (object)("Members can now wear " + "<col=000080>" + "white platelegs" + "</col>" + " (after finishing Wanted!)."));
+				case 9:
+					return newstruct cs2func_script_978_struct(10, 6619, (object)"Members: White boots", (object)("Members can now wear " + "<col=000080>" + "white boots" + "</col>" + " (after finishing Wanted!)."));
+				case 10:
+					return newstruct cs2func_script_978_struct(10, 6629, (object)"Members: White gloves", (object)("Members can now wear " + "<col=000080>" + "white gloves" + "</col>" + " (after finishing Wanted!)."));
+			}
+			break;
+		case 5:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(20, 1181, (object)"Mithril square shield", (object)("You can now wield " + "<col=000080>" + "mithril square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(20, 1197, (object)"Mithril kiteshield", (object)("You can now wield " + "<col=000080>" + "mithril kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(20, 1143, (object)"Mithril helm", (object)("You can now wear " + "<col=000080>" + "mithril helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(20, 1159, (object)"Mithril full helm", (object)("You can now wear " + "<col=000080>" + "mithril full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(20, 1109, (object)"Mithril chainbody", (object)("You can now wear " + "<col=000080>" + "mithril chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(20, 1121, (object)"Mithril platebody", (object)("You can now wear " + "<col=000080>" + "mithril platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(20, 1085, (object)"Mithril plateskirt", (object)("You can now wear " + "<col=000080>" + "mithril plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(20, 1071, (object)"Mithril platelegs", (object)("You can now wear " + "<col=000080>" + "mithril platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(20, 4127, (object)"Members: Mithril boots", (object)("Members can now wear " + "<col=000080>" + "mithril boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(20, 8848, (object)("Members: Defender" + "<br>" + " (with 20 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "mithril defenders" + "</col>" + ". (They also need level 20 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(20, 12997, (object)"Mithril gauntlets", (object)("You can now wear " + "<col=000080>" + "mithril gauntlets" + "</col>" + "."));
+			}
+			break;
+		case 6:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(30, 1183, (object)"Adamant square shield", (object)("You can now wield " + "<col=000080>" + "adamant square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(30, 1199, (object)"Adamant kiteshield", (object)("You can now wield " + "<col=000080>" + "adamant kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(30, 1145, (object)"Adamant helm", (object)("You can now wear " + "<col=000080>" + "adamant helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(30, 1161, (object)"Adamant full helm", (object)("You can now wear " + "<col=000080>" + "adamant full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(30, 1111, (object)"Adamant chainbody", (object)("You can now wear " + "<col=000080>" + "adamant chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(30, 1123, (object)"Adamant platebody", (object)("You can now wear " + "<col=000080>" + "adamant platebodies" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(30, 1091, (object)"Adamant plateskirt", (object)("You can now wear " + "<col=000080>" + "adamant plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(30, 1073, (object)"Adamant platelegs", (object)("You can now wear " + "<col=000080>" + "adamant platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(30, 4129, (object)"Members: Adamant boots", (object)("Members can now wear " + "<col=000080>" + "adamant boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(30, 8849, (object)("Members: Adamant defender" + "<br>" + " (with 30 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "adamant defenders" + "</col>" + ". (They also need level 30 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(30, 13000, (object)"Adamant gauntlets", (object)("You can now wear " + "<col=000080>" + "adamant gauntlets" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_978_struct(35, 12915, (object)"Adamant berserker shield", (object)("You can now wield " + "<col=000080>" + "adamant berserker shields" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_978_struct(35, 12908, (object)"Adamant spikeshield", (object)("You can now wield " + "<col=000080>" + "adamant spikeshields" + "</col>" + "."));
+			}
+			break;
+		case 7:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(40, 1185, (object)"Rune square shield", (object)("You can now wield " + "<col=000080>" + "rune square shields" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(40, 1201, (object)"Rune kiteshield", (object)("You can now wield " + "<col=000080>" + "rune kiteshields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(40, 1147, (object)"Rune helm", (object)("You can now wear " + "<col=000080>" + "rune helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(40, 1163, (object)"Rune full helm", (object)("You can now wear " + "<col=000080>" + "rune full helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(40, 1113, (object)"Rune chainbody", (object)("You can now wear " + "<col=000080>" + "rune chainbodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(40, 1127, (object)("Rune platebody" + "<br>" + " (after Dragon Slayer)"), (object)("You can now wear " + "<col=000080>" + "rune platebodies" + "</col>" + " (after Dragon Slayer)."));
+				case 6:
+					return newstruct cs2func_script_978_struct(40, 1093, (object)"Rune plateskirt", (object)("You can now wear " + "<col=000080>" + "rune plateskirts" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(40, 1079, (object)"Rune platelegs", (object)("You can now wear " + "<col=000080>" + "rune platelegs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(40, 4131, (object)"Members: Rune boots", (object)("Members can now wear " + "<col=000080>" + "rune boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(40, 8850, (object)("Members: Rune defender" + "<br>" + " (with 40 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "rune defenders" + "</col>" + ". (They also need level 40 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(40, 13003, (object)"Rune gauntlets", (object)("You can now wear " + "<col=000080>" + "rune gauntlets" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_978_struct(45, 12929, (object)"Rune berserker shield", (object)("You can now wield " + "<col=000080>" + "rune berserker shields" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_978_struct(45, 12922, (object)"Rune spikeshield", (object)("You can now wield " + "<col=000080>" + "rune spikeshields" + "</col>" + "."));
+			}
+			break;
+		case 8:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(60, 1187, (object)("Members: Dragon square shield" + "<br>" + " (after Legends' Quest)"), (object)("Members can now wield " + "<col=000080>" + "dragon square shields" + "</col>" + " (after Legends' Quest)."));
+				case 1:
+					return newstruct cs2func_script_978_struct(60, 1149, (object)"Members: Dragon helm", (object)("Members can now wear " + "<col=000080>" + "dragon helms" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(60, 11335, (object)"Members: Dragon full helm", (object)("Members can now wear " + "<col=000080>" + "dragon full helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(60, 3140, (object)"Members: Dragon chainbody", (object)("Members can now wear " + "<col=000080>" + "dragon chainbodies" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(60, 14479, (object)"Members: Dragon platebody", (object)("Members can now wear " + "<col=000080>" + "dragon platebodies" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(60, 4585, (object)"Members: Dragon plateskirt", (object)("Members can now wear " + "<col=000080>" + "dragon plateskirts" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(60, 4087, (object)"Members: Dragon platelegs", (object)("Members can now wear " + "<col=000080>" + "dragon platelegs" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(60, 13006, (object)"Members: Dragon gauntlets", (object)("Members can now wear " + "<col=000080>" + "dragon gauntlets" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(60, 11732, (object)"Members: Dragon boots", (object)("Members can now wear " + "<col=000080>" + "dragon boots" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(60, 20072, (object)("Members: Dragon defender" + "<br>" + " (with 60 Attack)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "dragon defenders" + "</col>" + ". (They also need level 60 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(60, 13964, (object)"Corrupt dragon square shield", (object)("You can now wield " + "<col=000080>" + "corrupt dragon square shields" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_978_struct(60, 13961, (object)"Corrupt dragon helm", (object)("You can now wear " + "<col=000080>" + "corrupt dragon helms" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_978_struct(60, 13958, (object)"Corrupt dragon chainbody", (object)("You can now wear " + "<col=000080>" + "corrupt dragon chainbodies" + "</col>" + "."));
+				case 13:
+					return newstruct cs2func_script_978_struct(60, 13967, (object)"Corrupt dragon plateskirt", (object)("You can now wear " + "<col=000080>" + "corrupt dragon plateskirts" + "</col>" + "."));
+				case 14:
+					return newstruct cs2func_script_978_struct(60, 13970, (object)"Corrupt dragon platelegs", (object)("You can now wear " + "<col=000080>" + "corrupt dragon platelegs" + "</col>" + "."));
+			}
+			break;
+		case 9:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(70, 4708, (object)("Members: Ahrim's hood" + "<br>" + " (with 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's hood" + "</col>" + ". (They also need level 70 Magic.)"));
+				case 1:
+					return newstruct cs2func_script_978_struct(70, 4712, (object)("Members: Ahrim's robe top" + "<br>" + " (with 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's robe top" + "</col>" + ". (They also need level 70 Magic.)"));
+				case 2:
+					return newstruct cs2func_script_978_struct(70, 4714, (object)("Members: Ahrim's robe skirt" + "<br>" + " (with 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's robe skirt" + "</col>" + ". (They also need level 70 Magic.)"));
+				case 3:
+					return newstruct cs2func_script_978_struct(70, 4716, (object)"Members: Dharok's helm", (object)("Members can now wear " + "<col=000080>" + "Dharok's helm" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(70, 4720, (object)"Members: Dharok's platebody", (object)("Members can now wear " + "<col=000080>" + "Dharok's platebody" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(70, 4722, (object)"Members: Dharok's platelegs", (object)("Members can now wear " + "<col=000080>" + "Dharok's platelegs" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(70, 4724, (object)"Members: Guthan's helm", (object)("Members can now wear " + "<col=000080>" + "Guthan's helm" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(70, 4728, (object)"Members: Guthan's platebody", (object)("Members can now wear " + "<col=000080>" + "Guthan's platebody" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_978_struct(70, 4730, (object)"Members: Guthan's chainskirt", (object)("Members can now wear " + "<col=000080>" + "Guthan's chainskirt" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(70, 4732, (object)("Members: Karil's coif" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Karil's coif" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(70, 4736, (object)("Members: Karil's leather top" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Karil's leather top" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 11:
+					return newstruct cs2func_script_978_struct(70, 4738, (object)("Members: Karil's leather skirt" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Karil's leather skirt" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 12:
+					return newstruct cs2func_script_978_struct(70, 4745, (object)"Members: Torag's helm", (object)("Members can now wear " + "<col=000080>" + "Torag's helm" + "</col>" + "."));
+				case 13:
+					return newstruct cs2func_script_978_struct(70, 4749, (object)"Members: Torag's platebody", (object)("Members can now wear " + "<col=000080>" + "Torag's platebody" + "</col>" + "."));
+				case 14:
+					return newstruct cs2func_script_978_struct(70, 4751, (object)"Members: Torag's platelegs", (object)("Members can now wear " + "<col=000080>" + "Torag's platelegs" + "</col>" + "."));
+				case 15:
+					return newstruct cs2func_script_978_struct(70, 4753, (object)"Members: Verac's helm", (object)("Members can now wear " + "<col=000080>" + "Verac's helm" + "</col>" + "."));
+				case 16:
+					return newstruct cs2func_script_978_struct(70, 4757, (object)"Members: Verac's brassard", (object)("Members can now wear " + "<col=000080>" + "Verac's brassard" + "</col>" + "."));
+				case 17:
+					return newstruct cs2func_script_978_struct(70, 4759, (object)"Members: Verac's plateskirt", (object)("Members can now wear " + "<col=000080>" + "Verac's plateskirt" + "</col>" + "."));
+				case 18:
+					return newstruct cs2func_script_978_struct(70, 21736, (object)("Members: Akrisae's hood" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's hood" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)."));
+				case 19:
+					return newstruct cs2func_script_978_struct(70, 21752, (object)("Members: Akrisae's robe top" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's robe top" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)."));
+				case 20:
+					return newstruct cs2func_script_978_struct(70, 21760, (object)("Members: Akrisae's robe skirt" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's robe skirt" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)."));
+			}
+			break;
+		case 10:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 6153, (object)"Members: Skeletal gloves", (object)("Members can now wear " + "<col=000080>" + "skeletal gloves" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 6147, (object)"Members: Skeletal boots", (object)("Members can now wear " + "<col=000080>" + "skeletal boots" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 2890, (object)("Members: Elemental equipment" + "<br>" + " (after Elemental Workshop I)"), (object)("Members can now use " + "<col=000080>" + "elemental equipment" + "</col>" + " (after Elemental Workshop I)."));
+				case 3:
+					return newstruct cs2func_script_978_struct(1, 9733, (object)("Members: Mind equipment" + "<br>" + " (after Elemental Workshop II)"), (object)("Members can now use " + "<col=000080>" + "mind equipment" + "</col>" + " (after Elemental Workshop II)."));
+				case 4:
+					return newstruct cs2func_script_978_struct(10, 12964, (object)("Combat hood" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "combat hoods" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 5:
+					return newstruct cs2func_script_978_struct(10, 12971, (object)("Combat robe top" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "combat robe tops" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 6:
+					return newstruct cs2func_script_978_struct(10, 12978, (object)("Combat robe bottom" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "combat robe bottoms" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 7:
+					return newstruct cs2func_script_978_struct(10, 12887, (object)("Druidic mage hood" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "druidic mage hoods" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 8:
+					return newstruct cs2func_script_978_struct(10, 12894, (object)("Druidic mage top" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "druidic mage tops" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 9:
+					return newstruct cs2func_script_978_struct(10, 12901, (object)("Druidic mage bottom" + "<br>" + " (with 20 Magic)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "druidic mage bottoms" + "</col>" + ". (You also need level 20 Magic.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(20, 7400, (object)("Members: Enchanted hat" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "enchanted hats" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 11:
+					return newstruct cs2func_script_978_struct(20, 7399, (object)("Members: Enchanted robe top" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "enchanted robe tops" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 12:
+					return newstruct cs2func_script_978_struct(20, 7398, (object)("Members: Enchanted robe" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "enchanted robes" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 13:
+					return newstruct cs2func_script_978_struct(20, 4089, (object)("Members: Mystic hat" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "mystic hats" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 14:
+					return newstruct cs2func_script_978_struct(20, 4091, (object)("Members: Mystic robe top" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "mystic robe tops" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 15:
+					return newstruct cs2func_script_978_struct(20, 4093, (object)("Members: Mystic robe" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "mystic robes" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 16:
+					return newstruct cs2func_script_978_struct(20, 4095, (object)("Members: Mystic gloves" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "mystic gloves" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 17:
+					return newstruct cs2func_script_978_struct(20, 4097, (object)("Members: Mystic boots" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "mystic boots" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 18:
+					return newstruct cs2func_script_978_struct(20, 14499, (object)("Members: Dagon'hai hat" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai hats" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 19:
+					return newstruct cs2func_script_978_struct(20, 14497, (object)("Members: Dagon'hai robe top" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai robe tops" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 20:
+					return newstruct cs2func_script_978_struct(20, 14501, (object)("Members: Dagon'hai robe bottom" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai robe bottoms" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 21:
+					return newstruct cs2func_script_978_struct(20, 13938, (object)("Members: Corrupt Zuriel's hood" + "<br>" + " (with 20 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's hood" + "</col>" + ". (They also need level 20 Magic.)"));
+				case 22:
+					return newstruct cs2func_script_978_struct(20, 13932, (object)("Members: Corrupt Zuriel's robe top" + "<br>" + " (with 20 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's robe top" + "</col>" + ". (They also need level 20 Magic.)"));
+				case 23:
+					return newstruct cs2func_script_978_struct(20, 13935, (object)("Members: Corrupt Zuriel's robe bottom" + "<br>" + " (with 20 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's robe bottom" + "</col>" + ". (They also need level 20 Magic.)"));
+				case 24:
+					return newstruct cs2func_script_978_struct(20, 19323, (object)("Members: Dragon staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "dragon staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)"));
+				case 25:
+					return newstruct cs2func_script_978_struct(20, 19325, (object)("Members: Penguin staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "penguin staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)"));
+				case 26:
+					return newstruct cs2func_script_978_struct(20, 19327, (object)("Members: Bat staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "bat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)"));
+				case 27:
+					return newstruct cs2func_script_978_struct(20, 19329, (object)("Members: Wolf staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "wolf staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)"));
+				case 28:
+					return newstruct cs2func_script_978_struct(20, 19331, (object)("Members: Cat staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "cat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)"));
+				case 29:
+					return newstruct cs2func_script_978_struct(20, 21509, (object)("Members: Necromancer hood" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer hoods" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 30:
+					return newstruct cs2func_script_978_struct(20, 21508, (object)("Members: Necromancer robe" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer robes" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 31:
+					return newstruct cs2func_script_978_struct(20, 21510, (object)("Members: Necromancer legs" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer legs" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 32:
+					return newstruct cs2func_script_978_struct(25, 6918, (object)("Members: Infinity hat" + "<br>" + " (with 50 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "infinity hats" + "</col>" + ". (They also need level 50 Magic.)"));
+				case 33:
+					return newstruct cs2func_script_978_struct(25, 6916, (object)("Members: Infinity top" + "<br>" + " (with 50 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "infinity tops" + "</col>" + ". (They also need level 50 Magic.)"));
+				case 34:
+					return newstruct cs2func_script_978_struct(25, 6924, (object)("Members: Infinity bottom" + "<br>" + " (with 50 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "infinity robe bottoms" + "</col>" + ". (They also need level 50 Magic.)"));
+				case 35:
+					return newstruct cs2func_script_978_struct(25, 6922, (object)("Members: Infinity gloves" + "<br>" + " (with 50 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "infinity gloves" + "</col>" + ". (They also need level 50 Magic.)"));
+				case 36:
+					return newstruct cs2func_script_978_struct(25, 6920, (object)("Members: Infinity boots" + "<br>" + " (with 50 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "infinity boots" + "</col>" + ". (They also need level 50 Magic.)"));
+				case 37:
+					return newstruct cs2func_script_978_struct(25, 22458, (object)("Members: Fungal visor" + "<br>" + " (with " + toString(25) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "fungal visors" + "</col>" + ". (They also need level " + toString(25) + " Magic.)"));
+				case 38:
+					return newstruct cs2func_script_978_struct(25, 22466, (object)("Members: Fungal poncho" + "<br>" + " (with " + toString(25) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "fungal ponchos" + "</col>" + ". (They also need level " + toString(25) + " Magic.)"));
+				case 39:
+					return newstruct cs2func_script_978_struct(25, 22462, (object)("Members: Fungal leggings" + "<br>" + " (with " + toString(25) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "fungal leggings" + "</col>" + ". (They also need level " + toString(25) + " Magic.)"));
+				case 40:
+					return newstruct cs2func_script_978_struct(30, 10342, (object)("Members: Third-Age mage hat" + "<br>" + " (with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age mage hats" + "</col>" + ". (They also need level 65 Magic.)"));
+				case 41:
+					return newstruct cs2func_script_978_struct(30, 10338, (object)("Members: Third-Age robe top" + "<br>" + " (with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age robe tops" + "</col>" + ". (They also need level 65 Magic.)"));
+				case 42:
+					return newstruct cs2func_script_978_struct(30, 10340, (object)("Members: Third-Age robe" + "<br>" + " (with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age robes" + "</col>" + ". (They also need level 65 Magic.)"));
+				case 43:
+					return newstruct cs2func_script_978_struct(30, 10344, (object)("Members: Third-Age amulet" + "<br>" + " (with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age amulets" + "</col>" + ". (They also need level 65 Magic.)"));
+				case 44:
+					return newstruct cs2func_script_978_struct(33, 18695, (object)"Members: Body equipment (after Elemental Workshop III and with 33 Smithing)", (object)("Members now have the Defence level required to use " + "<col=000080>" + "body equipment" + "</col>" + " (after Elemental Workshop III and with level 33 Smithing)."));
+				case 45:
+					return newstruct cs2func_script_978_struct(40, 3385, (object)("Members: Splitbark helm" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "splitbark helms" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 46:
+					return newstruct cs2func_script_978_struct(40, 3387, (object)("Members: Splitbark body" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "splitbark body" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 47:
+					return newstruct cs2func_script_978_struct(40, 3389, (object)("Members: Splitbark legs" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "splitbark legs" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 48:
+					return newstruct cs2func_script_978_struct(40, 3391, (object)("Members: Splitbark gauntlets" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "splitbark gauntlets" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 49:
+					return newstruct cs2func_script_978_struct(40, 3393, (object)("Members: Splitbark boots" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "splitbark boots" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 50:
+					return newstruct cs2func_script_978_struct(40, 6137, (object)("Members: Skeletal helm" + "<br>" + " (after Fremennik Trials, with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "skeletal helms" + "</col>" + " (after Fremennik Trials and with level 40 Magic)."));
+				case 51:
+					return newstruct cs2func_script_978_struct(40, 6139, (object)("Members: Skeletal top" + "<br>" + " (after Fremennik Trials, with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "skeletal tops" + "</col>" + " (after Fremennik Trials and with level 40 Magic)."));
+				case 52:
+					return newstruct cs2func_script_978_struct(40, 6141, (object)("Members: Skeletal bottoms" + "<br>" + " (after Fremennik Trials, with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "skeletal bottoms" + "</col>" + " (after Fremennik Trials and with level 40 Magic)."));
+				case 53:
+					return newstruct cs2func_script_978_struct(40, 9096, (object)("Members: Lunar helm" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar helms" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 54:
+					return newstruct cs2func_script_978_struct(40, 9097, (object)("Members: Lunar torso" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar torsos" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 55:
+					return newstruct cs2func_script_978_struct(40, 9099, (object)("Members: Lunar gloves" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar gloves" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 56:
+					return newstruct cs2func_script_978_struct(40, 9098, (object)("Members: Lunar legs" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar legs" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 57:
+					return newstruct cs2func_script_978_struct(40, 9100, (object)("Members: Lunar boots" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar boots" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 58:
+					return newstruct cs2func_script_978_struct(40, 9101, (object)("Members: Lunar cape" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "lunar capes" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic)."));
+				case 59:
+					return newstruct cs2func_script_978_struct(40, 14116, (object)("Members: Sacred clay hat" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay hats" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 60:
+					return newstruct cs2func_script_978_struct(40, 14114, (object)("Members: Sacred clay robe top" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay robe tops" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 61:
+					return newstruct cs2func_script_978_struct(40, 14115, (object)("Members: Sacred clay robe bottom" + "<br>" + " (with 40 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay robe bottoms" + "</col>" + ". (They also need level 40 Magic.)"));
+				case 62:
+					return newstruct cs2func_script_978_struct(40, 20436, (object)("Members: Cosmic shield" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "cosmic shields" + "</col>" + " (after Elemental Workshop IV)."));
+				case 63:
+					return newstruct cs2func_script_978_struct(40, 20440, (object)("Members: Cosmic helmet" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "cosmic helmets" + "</col>" + " (after Elemental Workshop IV)."));
+				case 64:
+					return newstruct cs2func_script_978_struct(40, 20444, (object)("Members: Cosmic body" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "cosmic bodies" + "</col>" + " (after Elemental Workshop IV)."));
+				case 65:
+					return newstruct cs2func_script_978_struct(40, 20464, (object)("Members: Cosmic gloves" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "cosmic gloves" + "</col>" + " (after Elemental Workshop IV)."));
+				case 66:
+					return newstruct cs2func_script_978_struct(40, 20454, (object)("Members: Cosmic boots" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "cosmic boots" + "</col>" + " (after Elemental Workshop IV)."));
+				case 67:
+					return newstruct cs2func_script_978_struct(45, 3755, (object)("Members: Farseer helm" + "<br>" + " (after Fremennik Trials)"), (object)("Members can now wear " + "<col=000080>" + "farseer helms" + "</col>" + " (after Fremennik Trials)."));
+				case 68:
+					return newstruct cs2func_script_978_struct(50, 12866, (object)("Members: Battle hood" + "<br>" + " (with 60 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "battle hoods" + "</col>" + ". (They also need level 60 Magic.)"));
+				case 69:
+					return newstruct cs2func_script_978_struct(50, 12873, (object)("Members: Battle robe top" + "<br>" + " (with 60 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "battle robe tops" + "</col>" + ". (They also need level 60 Magic.)"));
+				case 70:
+					return newstruct cs2func_script_978_struct(50, 12880, (object)("Members: Battle robe bottom" + "<br>" + " (with 60 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "battle robe bottoms" + "</col>" + ". (They also need level 60 Magic.)"));
+				case 71:
+					return newstruct cs2func_script_978_struct(50, 20438, (object)("Members: Chaos shield" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "chaos shields" + "</col>" + " (after Elemental Workshop IV)."));
+				case 72:
+					return newstruct cs2func_script_978_struct(50, 20442, (object)("Members: Chaos helmet" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "chaos helmets" + "</col>" + " (after Elemental Workshop IV)."));
+				case 73:
+					return newstruct cs2func_script_978_struct(50, 20446, (object)("Members: Chaos body" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "chaos bodies" + "</col>" + " (after Elemental Workshop IV)."));
+				case 74:
+					return newstruct cs2func_script_978_struct(50, 20466, (object)("Members: Chaos gloves" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "chaos gloves" + "</col>" + " (after Elemental Workshop IV)."));
+				case 75:
+					return newstruct cs2func_script_978_struct(50, 20456, (object)("Members: Chaos boots" + "<br>" + " (after Elemental Workshop IV)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "chaos boots" + "</col>" + " (after Elemental Workshop IV)."));
+				case 76:
+					return newstruct cs2func_script_978_struct(60, 22470, (object)("Members: Grifolic visor" + "<br>" + " (with " + toString(60) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "grifolic visors" + "</col>" + ". (They also need level " + toString(60) + " Magic.)"));
+				case 77:
+					return newstruct cs2func_script_978_struct(60, 22478, (object)("Members: Grifolic poncho" + "<br>" + " (with " + toString(60) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "grifolic ponchos" + "</col>" + ". (They also need level " + toString(60) + " Magic.)"));
+				case 78:
+					return newstruct cs2func_script_978_struct(60, 22474, (object)("Members: Grifolic leggings" + "<br>" + " (with " + toString(60) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "grifolic leggings" + "</col>" + ". (They also need level " + toString(60) + " Magic.)"));
+				case 79:
+					return newstruct cs2func_script_978_struct(78, 13864, (object)("Members: Zuriel's hood" + "<br>" + " (with 78 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's hood" + "</col>" + ". (They also need level 78 Magic.)"));
+				case 80:
+					return newstruct cs2func_script_978_struct(78, 13858, (object)("Members: Zuriel's robe top" + "<br>" + " (with 78 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's robe top" + "</col>" + ". (They also need level 78 Magic.)"));
+				case 81:
+					return newstruct cs2func_script_978_struct(78, 13861, (object)("Members: Zuriel's robe bottom" + "<br>" + " (with 78 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's robe bottom" + "</col>" + ". (They also need level 78 Magic.)"));
+				case 82:
+					return newstruct cs2func_script_978_struct(80, 20159, (object)("Members: Virtus mask" + "<br>" + " (with 80 Magic and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "virtus masks" + "</col>" + ". (They also need level 80 Magic and Constitution.)"));
+				case 83:
+					return newstruct cs2func_script_978_struct(80, 20163, (object)("Members: Virtus robe top" + "<br>" + " (with 80 Magic and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "virtus robe tops" + "</col>" + ". (They also need level 80 Magic and Constitution.)"));
+				case 84:
+					return newstruct cs2func_script_978_struct(80, 20167, (object)("Members: Virtus robe legs" + "<br>" + " (with 80 Magic and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "virtus robe legs" + "</col>" + ". (They also need level 80 Magic and Constitution.)"));
+				case 85:
+					return newstruct cs2func_script_978_struct(75, 22482, (object)("Members: Ganodermic visor" + "<br>" + " (with " + toString(75) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic visors" + "</col>" + ". (They also need level " + toString(75) + " Magic.)"));
+				case 86:
+					return newstruct cs2func_script_978_struct(75, 22490, (object)("Members: Ganodermic poncho" + "<br>" + " (with " + toString(75) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic ponchos" + "</col>" + ". (They also need level " + toString(75) + " Magic.)"));
+				case 87:
+					return newstruct cs2func_script_978_struct(75, 22486, (object)("Members: Ganodermic leggings" + "<br>" + " (with " + toString(75) + " Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic leggings" + "</col>" + ". (They also need level " + toString(75) + " Magic.)"));
+			}
+			break;
+		case 11:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 23048, (object)"Bladestorm drape", (object)("Members can now wear " + "<col=000080>" + "Bladestorm Drapes" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 1540, (object)"Anti-dragonbreath shield", (object)("You can now wield " + "<col=000080>" + "anti-dragonbreath shields" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 6149, (object)"Members: Spined gloves", (object)("Members can now wear " + "<col=000080>" + "spined gloves" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_978_struct(1, 6143, (object)"Members: Spined boots", (object)("Members can now wear " + "<col=000080>" + "spined boots" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_978_struct(1, 6151, (object)"Members: Rock-shell gloves", (object)("Members can now wear " + "<col=000080>" + "rock-shell gloves" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_978_struct(1, 6145, (object)"Members: Rock-shell boots", (object)("Members can now wear " + "<col=000080>" + "rock-shell boots" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_978_struct(1, 75, (object)"Members: Khazard armour", (object)("Members can now wear " + "<col=000080>" + "Khazard armour" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_978_struct(5, 4551, (object)"Members: Spiny helmet", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "spiny helmets" + "</col>" + " to ward off wall beast attacks."));
+				case 8:
+					return newstruct cs2func_script_978_struct(5, 4071, (object)"Members: Basic decorative helm", (object)("Members can now wear " + "<col=000080>" + "basic decorative helms" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_978_struct(5, 4069, (object)"Members: Basic decorative armour", (object)("Members can now wear " + "<col=000080>" + "basic decorative platebodies" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_978_struct(5, 4070, (object)"Members: Basic decorative armour", (object)("Members can now wear " + "<col=000080>" + "basic decorative platelegs" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_978_struct(5, 4072, (object)"Members: Basic decorative shield", (object)("Members can now wear " + "<col=000080>" + "basic decorative shields" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_978_struct(10, 15490, (object)("Members: Focus sight" + "<br>" + " (with 20 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "focus sights" + "</col>" + "."));
+				case 13:
+					return newstruct cs2func_script_978_struct(10, 15488, (object)("Members: Hexcrest" + "<br>" + " (with 20 Magic)"), (object)("Members can now wear " + "<col=000080>" + "hexcrests" + "</col>" + "."));
+				case 14:
+					return newstruct cs2func_script_978_struct(10, 8921, (object)("Members: Black mask" + "<br>" + " (with 20 Strength)"), (object)("Members can now wear " + "<col=000080>" + "black masks" + "</col>" + "."));
+				case 15:
+					return newstruct cs2func_script_978_struct(10, 13263, (object)("Members: Slayer helmet" + "<br>" + " (after Smoking Kills)"), (object)("Members can now wear " + "<col=000080>" + "slayer helmets" + "</col>" + " (after Smoking Kills)."));
+				case 16:
+					return newstruct cs2func_script_978_struct(10, 15492, (object)("Members: Full Slayer helmet" + "<br>" + " (after Smoking Kills with 20 Ranged, Magic and Strength)"), (object)("Members can now wear " + "<col=000080>" + "full slayer helmets" + "</col>" + " (after Smoking Kills with 20 Ranged, Magic and Strength)."));
+				case 17:
+					return newstruct cs2func_script_978_struct(20, 1133, (object)("Studded body" + "<br>" + " (with 20 Ranged)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "studded bodies" + "</col>" + ". (You also need level 20 Ranged.)"));
+				case 18:
+					return newstruct cs2func_script_978_struct(20, 10822, (object)"Members: Yak-hide bodies", (object)("Members can now wear " + "<col=000080>" + "yak-hide bodies" + "</col>" + "."));
+				case 19:
+					return newstruct cs2func_script_978_struct(20, 10824, (object)"Members: Yak-hide legs", (object)("Members can now wear " + "<col=000080>" + "yak-hide legs" + "</col>" + "."));
+				case 20:
+					return newstruct cs2func_script_978_struct(20, 5574, (object)("Members: Initiate sallet" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "initiate sallets" + "</col>" + " (after Recruitment Drive and with level 10 Prayer)."));
+				case 21:
+					return newstruct cs2func_script_978_struct(20, 5575, (object)("Members: Initiate hauberk" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "initiate hauberks" + "</col>" + " (after Recruitment Drive and with level 10 Prayer)."));
+				case 22:
+					return newstruct cs2func_script_978_struct(20, 23122, (object)("Members: Initiate tasset" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "initiate tassets" + "</col>" + " (after Recruitment Drive and with level 10 Prayer)."));
+				case 23:
+					return newstruct cs2func_script_978_struct(20, 5576, (object)("Members: Initiate cuisse" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "initiate cuisses" + "</col>" + " (after Recruitment Drive and with level 10 Prayer)."));
+				case 24:
+					return newstruct cs2func_script_978_struct(20, 4156, (object)("Members: Mirror shield" + "<br>" + " (with 25 Slayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "mirror shields" + "</col>" + " to protect against cockatrices and basilisks. (They also need level 25 Slayer.)"));
+				case 25:
+					return newstruct cs2func_script_978_struct(20, 4506, (object)"Members: Detailed decorative helm", (object)("Members can now wear " + "<col=000080>" + "detailed decorative helms" + "</col>" + "."));
+				case 26:
+					return newstruct cs2func_script_978_struct(20, 4504, (object)"Members: Detailed decorative armour", (object)("Members can now wear " + "<col=000080>" + "detailed decorative platebodies" + "</col>" + "."));
+				case 27:
+					return newstruct cs2func_script_978_struct(20, 4505, (object)"Members: Detailed decorative armour", (object)("Members can now wear " + "<col=000080>" + "detailed decorative platelegs" + "</col>" + "."));
+				case 28:
+					return newstruct cs2func_script_978_struct(20, 4507, (object)"Members: Detailed decorative shield", (object)("Members can now wear " + "<col=000080>" + "detailed decorative shields" + "</col>" + "."));
+				case 29:
+					return newstruct cs2func_script_978_struct(20, 13950, (object)("Members: Corrupt Morrigan's coif" + "<br>" + " (with 20 Ranged)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's coif" + "</col>" + ". (They also need level 20 Ranged.)"));
+				case 30:
+					return newstruct cs2func_script_978_struct(20, 13944, (object)("Members: Corrupt Morrigan's leather body" + "<br>" + " (with 20 Ranged)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's leather body" + "</col>" + ". (They also need level 20 Ranged.)"));
+				case 31:
+					return newstruct cs2func_script_978_struct(20, 13947, (object)("Members: Corrupt Morrigan's leather chaps" + "<br>" + " (with 20 Ranged)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's leather chaps" + "</col>" + ". (They also need level 20 Ranged.)"));
+				case 32:
+					return newstruct cs2func_script_978_struct(20, 13920, (object)"Members: Corrupt Statius's full helm", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's full helm" + "</col>" + "."));
+				case 33:
+					return newstruct cs2func_script_978_struct(20, 13908, (object)"Members: Corrupt Statius's platebody", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's platebody" + "</col>" + "."));
+				case 34:
+					return newstruct cs2func_script_978_struct(20, 13911, (object)"Members: Corrupt Vesta's chainbody", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Vesta's chainbody" + "</col>" + "."));
+				case 35:
+					return newstruct cs2func_script_978_struct(20, 13914, (object)"Members: Corrupt Statius's platelegs", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's platelegs" + "</col>" + "."));
+				case 36:
+					return newstruct cs2func_script_978_struct(20, 13917, (object)"Members: Corrupt Vesta's plateskirt", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Vesta's plateskirt" + "</col>" + "."));
+				case 37:
+					return newstruct cs2func_script_978_struct(25, 10826, (object)"Members: Fremennik round shield", (object)("Members can now wield Fremennik round shields" + "</col>" + "."));
+				case 38:
+					return newstruct cs2func_script_978_struct(25, 10954, (object)("Members: Frog-leather body" + "<br>" + " (with 25 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather bodies" + "</col>" + ". (They also need level 25 Ranged.)"));
+				case 39:
+					return newstruct cs2func_script_978_struct(25, 10956, (object)("Members: Frog-leather chaps" + "<br>" + " (with 25 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather chaps" + "</col>" + ". (They also need level 25 Ranged.)"));
+				case 40:
+					return newstruct cs2func_script_978_struct(25, 10958, (object)("Members: Frog-leather boots" + "<br>" + " (with 25 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather boots" + "</col>" + ". (They also need level 25 Ranged.)."));
+				case 41:
+					return newstruct cs2func_script_978_struct(30, 3758, (object)"Members: Fremennik shield", (object)("Members can now wield " + "<col=000080>" + "Fremennik shields" + "</col>" + "."));
+				case 42:
+					return newstruct cs2func_script_978_struct(30, 3748, (object)"Members: Fremennik helm", (object)("Members can now wear " + "<col=000080>" + "Fremennik helms" + "</col>" + "."));
+				case 43:
+					return newstruct cs2func_script_978_struct(30, 4567, (object)"Members: Gold helmet", (object)("Members can now wear " + "<col=000080>" + "gold helmets" + "</col>" + "."));
+				case 44:
+					return newstruct cs2func_script_978_struct(30, 7917, (object)"Members: Ram skull helm (after Rag and Bone Man)", (object)("Members can now wear " + "<col=000080>" + "ram skull helms" + "</col>" + " (after Rag and Bone Man)."));
+				case 45:
+					return newstruct cs2func_script_978_struct(30, 9672, (object)("Members: Proselyte sallet" + "<br>" + " (after Slug Menace and with 20 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "proselyte sallets" + "</col>" + " (after Slug Menace, with level 20 Prayer)."));
+				case 46:
+					return newstruct cs2func_script_978_struct(30, 9674, (object)("Members: Proselyte hauberk" + "<br>" + " (after Slug Menace and with 20 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "proselyte hauberks" + "</col>" + " (after Slug Menace, with level 20 Prayer)."));
+				case 47:
+					return newstruct cs2func_script_978_struct(30, 9678, (object)("Members: Proselyte tasset" + "<br>" + " (after Slug Menace and with 20 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "proselyte tassets" + "</col>" + " (after Slug Menace, with level 20 Prayer)."));
+				case 48:
+					return newstruct cs2func_script_978_struct(30, 9676, (object)("Members: Proselyte cuisse" + "<br>" + " (after Slug Menace and with 20 Prayer)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "proselyte cuisses" + "</col>" + " (after Slug Menace, with level 20 Prayer)."));
+				case 49:
+					return newstruct cs2func_script_978_struct(30, 4511, (object)"Members: Intricate decorative helm", (object)("Members can now wear " + "<col=000080>" + "intricate decorative helms" + "</col>" + "."));
+				case 50:
+					return newstruct cs2func_script_978_struct(30, 4509, (object)"Members: Intricate decorative armour", (object)("Members can now wear " + "<col=000080>" + "intricate decorative platebodies" + "</col>" + "."));
+				case 51:
+					return newstruct cs2func_script_978_struct(30, 4510, (object)"Members: Intricate decorative armour", (object)("Members can now wear " + "<col=000080>" + "intricate decorative platelegs" + "</col>" + "."));
+				case 52:
+					return newstruct cs2func_script_978_struct(30, 4512, (object)"Members: Intricate decorative shield", (object)("Members can now wear " + "<col=000080>" + "intricate decorative shields" + "</col>" + "."));
+				case 53:
+					return newstruct cs2func_script_978_struct(30, 6326, (object)("Members: Snakeskin bandana" + "<br>" + " (with 30 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin bandanas" + "</col>" + ". (They also need level 30 Ranged.)"));
+				case 54:
+					return newstruct cs2func_script_978_struct(30, 6322, (object)("Members: Snakeskin body" + "<br>" + " (with 30 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin bodies" + "</col>" + ". (They also need level 30 Ranged.)"));
+				case 55:
+					return newstruct cs2func_script_978_struct(30, 6324, (object)("Members: Snakeskin chaps" + "<br>" + " (with 30 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin chaps" + "</col>" + ". (They also need level 30 Ranged.)"));
+				case 56:
+					return newstruct cs2func_script_978_struct(30, 6330, (object)("Members: Snakeskin vambraces" + "<br>" + " (with 30 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin vambraces" + "</col>" + ". (They also need level 30 Ranged.)"));
+				case 57:
+					return newstruct cs2func_script_978_struct(30, 6328, (object)("Members: Snakeskin boots" + "<br>" + " (with 30 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin boots" + "</col>" + ". (They also need level 30 Ranged.)"));
+				case 58:
+					return newstruct cs2func_script_978_struct(35, 14936, (object)("Members: Agile top" + "<br>" + " (with 35 Constitution)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Agile tops" + "</col>" + ". (They also need level 35 Constitution.)"));
+				case 59:
+					return newstruct cs2func_script_978_struct(35, 14938, (object)("Members: Agile legs" + "<br>" + " (with 35 Constitution)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Agile legs" + "</col>" + ". (They also need level 35 Constitution.)"));
+				case 60:
+					return newstruct cs2func_script_978_struct(40, 1135, (object)("Green dragonhide body" + "<br>" + " (after Dragon Slayer and with 40 Ranged)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "green dragonhide bodies" + "</col>" + ". (You also need to have completed Dragon Slayer and have level 40 Ranged.)"));
+				case 61:
+					return newstruct cs2func_script_978_struct(40, 12936, (object)("Green dragonhide coif" + "<br>" + " (with 40 Ranged)"), (object)("You now have the Defence level required to wear " + "<col=000080>" + "green dragonhide coifs" + "</col>" + ". (You also need level 40 Ranged.)"));
+				case 62:
+					return newstruct cs2func_script_978_struct(40, 2499, (object)("Members: Blue dragonhide body" + "<br>" + " (with 50 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "blue dragonhide bodies" + "</col>" + ". (They also need level 50 Ranged.)"));
+				case 63:
+					return newstruct cs2func_script_978_struct(40, 12943, (object)("Members: Blue dragonhide coif" + "<br>" + " (with 50 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "blue dragonhide coifs" + "</col>" + ". (They also need level 50 Ranged.)"));
+				case 64:
+					return newstruct cs2func_script_978_struct(40, 2501, (object)("Members: Red dragonhide body" + "<br>" + " (with 60 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "red dragonhide bodies" + "</col>" + ". (They also need level 60 Ranged.)"));
+				case 65:
+					return newstruct cs2func_script_978_struct(40, 12950, (object)("Members: Red dragonhide coif" + "<br>" + " (with 60 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "red dragonhide coifs" + "</col>" + ". (They also need level 60 Ranged.)"));
+				case 66:
+					return newstruct cs2func_script_978_struct(40, 2503, (object)("Members: Black dragonhide body" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "black dragonhide bodies" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 67:
+					return newstruct cs2func_script_978_struct(40, 12957, (object)("Members: Black dragonhide coif" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "black dragonhide coifs" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 68:
+					return newstruct cs2func_script_978_struct(40, 10374, (object)("Members: Blessed dragonhide coif" + "<br>" + " (with 70 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "blessed dragonhide coifs" + "</col>" + ". (They also need level 70 Ranged.)"));
+				case 69:
+					return newstruct cs2func_script_978_struct(40, 6131, (object)("Members: Spined helm" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "spined helms" + "</col>" + " (after Fremennik Trials and with level 40 Ranged)."));
+				case 70:
+					return newstruct cs2func_script_978_struct(40, 6133, (object)("Members: Spined body" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "spined bodies" + "</col>" + " (after Fremennik Trials and with level 40 Ranged)."));
+				case 71:
+					return newstruct cs2func_script_978_struct(40, 6135, (object)("Members: Spined chaps" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "spined chaps" + "</col>" + " (after Fremennik Trials and with level 40 Ranged)."));
+				case 72:
+					return newstruct cs2func_script_978_struct(40, 6128, (object)("Members: Rock-shell helm" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell helms" + "</col>" + " (after Fremennik Trials)."));
+				case 73:
+					return newstruct cs2func_script_978_struct(40, 6129, (object)("Members: Rock-shell plate" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell plates" + "</col>" + " (after Fremennik Trials)."));
+				case 74:
+					return newstruct cs2func_script_978_struct(40, 6130, (object)("Members: Rock-shell legs" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell legs" + "</col>" + " (after Fremennik Trials)."));
+				case 75:
+					return newstruct cs2func_script_978_struct(40, 10551, (object)"Members: Fighter torso", (object)("Members can now wear " + "<col=000080>" + "fighter torsos" + "</col>" + "."));
+				case 76:
+					return newstruct cs2func_script_978_struct(40, 10553, (object)"Members: Penance gloves", (object)("Members can now wear " + "<col=000080>" + "penance gloves" + "</col>" + "."));
+				case 77:
+					return newstruct cs2func_script_978_struct(40, 10555, (object)"Members: Penance skirt", (object)("Members can now wear " + "<col=000080>" + "penance skirts" + "</col>" + "."));
+				case 78:
+					return newstruct cs2func_script_978_struct(40, 10552, (object)"Members: Runner boots", (object)("Members can now wear " + "<col=000080>" + "runner boots" + "</col>" + "."));
+				case 79:
+					return newstruct cs2func_script_978_struct(40, 10547, (object)"Members: Healer hat", (object)("Members can now wear " + "<col=000080>" + "healer hats" + "</col>" + "."));
+				case 80:
+					return newstruct cs2func_script_978_struct(40, 10548, (object)"Members: Fighter hat", (object)("Members can now wear " + "<col=000080>" + "fighter hats" + "</col>" + "."));
+				case 81:
+					return newstruct cs2func_script_978_struct(40, 10550, (object)"Members: Ranger hat", (object)("Members can now wear " + "<col=000080>" + "ranger hats" + "</col>" + "."));
+				case 82:
+					return newstruct cs2func_script_978_struct(40, 10549, (object)"Members: Runner hat", (object)("Members can now wear " + "<col=000080>" + "runner hats" + "</col>" + "."));
+				case 83:
+					return newstruct cs2func_script_978_struct(40, 13734, (object)("Members: Spirit shield" + "<br>" + " (after Summer's End and with 55 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "spirit shields" + "</col>" + " (after Summer's End (with level 55 Prayer)."));
+				case 84:
+					return newstruct cs2func_script_978_struct(40, 14096, (object)"Members: Sacred clay helmet", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay helmets" + "</col>" + "."));
+				case 85:
+					return newstruct cs2func_script_978_struct(40, 14094, (object)"Members: Sacred clay platebody", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay platebodies" + "</col>" + "."));
+				case 86:
+					return newstruct cs2func_script_978_struct(40, 14095, (object)"Members: Sacred clay platelegs", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay platelegs" + "</col>" + "."));
+				case 87:
+					return newstruct cs2func_script_978_struct(40, 14120, (object)("Members: Sacred clay coif" + "<br>" + " (with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay coifs" + "</col>" + ". (They also need level 40 Ranged.)"));
+				case 88:
+					return newstruct cs2func_script_978_struct(40, 14118, (object)("Members: Sacred clay body" + "<br>" + " (with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay bodies" + "</col>" + ". (They also need level 40 Ranged.)"));
+				case 89:
+					return newstruct cs2func_script_978_struct(40, 14119, (object)("Members: Sacred clay chaps" + "<br>" + " (with 40 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay chaps" + "</col>" + ". (They also need level 40 Ranged.)"));
+				case 90:
+					return newstruct cs2func_script_978_struct(40, 18708, (object)"Members: Profound decorative helm", (object)("Members can now wear " + "<col=000080>" + "profound decorative helms" + "</col>" + "."));
+				case 91:
+					return newstruct cs2func_script_978_struct(40, 18706, (object)"Members: Profound decorative armour", (object)("Members can now wear " + "<col=000080>" + "profound decorative platebodies" + "</col>" + "."));
+				case 92:
+					return newstruct cs2func_script_978_struct(40, 18707, (object)"Members: Profound decorative armour", (object)("Members can now wear " + "<col=000080>" + "profound decorative platelegs" + "</col>" + "."));
+				case 93:
+					return newstruct cs2func_script_978_struct(40, 18709, (object)"Members: Profound decorative shield", (object)("Members can now wear " + "<col=000080>" + "profound decorative shields" + "</col>" + "."));
+				case 94:
+					return newstruct cs2func_script_978_struct(40, 18747, (object)"Members: Faithful shield", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "faithful shields" + "</col>" + "."));
+				case 95:
+					return newstruct cs2func_script_978_struct(42, 11665, (object)"Members: Void melee helm", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + "."));
+				case 96:
+					return newstruct cs2func_script_978_struct(42, 11664, (object)"Members: Void ranger helm", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + "."));
+				case 97:
+					return newstruct cs2func_script_978_struct(42, 11663, (object)"Members: Void mage helm", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + "."));
+				case 98:
+					return newstruct cs2func_script_978_struct(42, 8839, (object)"Members: Void knight top", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + "."));
+				case 99:
+					return newstruct cs2func_script_978_struct(42, 8840, (object)"Members: Void knight robe", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + "."));
+				case 100:
+					return newstruct cs2func_script_978_struct(42, 8842, (object)"Members: Void knight gloves", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + "."));
+				case 101:
+					return newstruct cs2func_script_978_struct(42, 19712, (object)"Members: Void knight deflector", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + "."));
+				case 102:
+					return newstruct cs2func_script_978_struct(42, 8841, (object)"Members: Void knight mace", (object)("Members now have the Defence level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + "."));
+				case 103:
+					return newstruct cs2func_script_978_struct(42, 7620, (object)"Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", (object)("<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."));
+				case 104:
+					return newstruct cs2func_script_978_struct(45, 3751, (object)("Members: Berserker helm" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "berserker helms" + "</col>" + " (after Fremennik Trials)."));
+				case 105:
+					return newstruct cs2func_script_978_struct(45, 3753, (object)("Members: Warrior helm" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "warrior helms" + "</col>" + " (after Fremennik Trials)."));
+				case 106:
+					return newstruct cs2func_script_978_struct(45, 3749, (object)("Members: Archer helm" + "<br>" + " (after Fremennik Trials)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "archer helms" + "</col>" + " (after Fremennik Trials)."));
+				case 107:
+					return newstruct cs2func_script_978_struct(50, 11200, (object)("Members: Dwarven helmet" + "<br>" + " (after Grim Tales)"), (object)("Members can now wear " + "<col=000080>" + "dwarven helmets" + "</col>" + " (after Grim Tales)."));
+				case 108:
+					return newstruct cs2func_script_978_struct(50, 10589, (object)("Members: Granite helm" + "<br>" + " (with 50 Strength)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "granite helms" + "</col>" + ". (They also need level 50 Strength.)"));
+				case 109:
+					return newstruct cs2func_script_978_struct(50, 10564, (object)("Members: Granite body" + "<br>" + " (with 50 Strength)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "granite bodies" + "</col>" + ". (They also need level 50 Strength.)"));
+				case 110:
+					return newstruct cs2func_script_978_struct(50, 6809, (object)("Members: Granite legs" + "<br>" + " (with 50 Strength)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "granite legs" + "</col>" + ". (They also need level 50 Strength.)"));
+				case 111:
+					return newstruct cs2func_script_978_struct(50, 3122, (object)("Members: Granite shield" + "<br>" + " (with 50 Strength)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "granite shields" + "</col>" + ". (They also need level 50 Strength.)"));
+				case 112:
+					return newstruct cs2func_script_978_struct(50, 19893, (object)("Spirit cape" + "<br>" + " (with 50 Summoning and 50 Dungeoneering)"), (object)("You can now wear " + "<col=000080>" + "spirit capes" + "</col>" + ". (You also need level 50 Summoning and 50 Dungeoneering.)"));
+				case 113:
+					return newstruct cs2func_script_978_struct(55, 10828, (object)("Members: Helm of Neitiznot" + "<br>" + " (after Fremennik Isles)"), (object)("Members now have the Defence level required to wear the " + "<col=000080>" + "Helm of Neitiznot" + "</col>" + " (after Fremennik Isles)."));
+				case 114:
+					return newstruct cs2func_script_978_struct(60, 6524, (object)"Members: TokTz-Ket-Xil", (object)("Members can now wield " + "<col=000080>" + "TokTz-Ket-Xil" + "</col>" + "."));
+				case 115:
+					return newstruct cs2func_script_978_struct(60, 18340, (object)("Members: Anti-poison totem" + "<br>" + " (with 70 Herblore and 60 Dungeoneering)"), (object)("Members can now wield " + "<col=000080>" + "anti-poison totems" + "</col>" + ". (They also need level 70 Herblore and level 60 Dungeoneering.)"));
+				case 116:
+					return newstruct cs2func_script_978_struct(65, 10350, (object)"Members: Third-Age full helm", (object)("Members can now wear " + "<col=000080>" + "Third-Age full helms" + "</col>" + "."));
+				case 117:
+					return newstruct cs2func_script_978_struct(65, 10348, (object)"Members: Third-Age platebody", (object)("Members can now wear " + "<col=000080>" + "Third-Age platebodies" + "</col>" + "."));
+				case 118:
+					return newstruct cs2func_script_978_struct(65, 10346, (object)"Members: Third-Age platelegs", (object)("Members can now wear " + "<col=000080>" + "Third-Age platelegs" + "</col>" + "."));
+				case 119:
+					return newstruct cs2func_script_978_struct(65, 10352, (object)"Members: Third-Age kiteshield", (object)("Members can now wield " + "<col=000080>" + "Third-Age kiteshields" + "</col>" + "."));
+				case 120:
+					return newstruct cs2func_script_978_struct(65, 11724, (object)"Members: Bandos chestplate", (object)("Members can now wear " + "<col=000080>" + "Bandos chestplates" + "</col>" + "."));
+				case 121:
+					return newstruct cs2func_script_978_struct(65, 11726, (object)"Members: Bandos tassets", (object)("Members can now wear " + "<col=000080>" + "Bandos tassets" + "</col>" + "."));
+				case 122:
+					return newstruct cs2func_script_978_struct(65, 11728, (object)"Members: Bandos boots", (object)("Members can now wear " + "<col=000080>" + "Bandos boots" + "</col>" + "."));
+				case 123:
+					return newstruct cs2func_script_978_struct(65, 21527, (object)"Members: Sacred Clay Shield", (object)("Members can now equip " + "<col=000080>" + "Sacred clay shields" + "</col>" + "."));
+				case 124:
+					return newstruct cs2func_script_978_struct(70, 4224, (object)("Members: Crystal shield" + "<br>" + " (with 50 Agility)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "crystal shields" + "</col>" + ". (They also need level 50 Agility.)"));
+				case 125:
+					return newstruct cs2func_script_978_struct(70, 11718, (object)("Members: Armadyl helmet" + "<br>" + " (with 70 Ranged)"), (object)"Members now have the Defence level required to wear Armadyl helmets. (They also need level 70 Ranged.)");
+				case 126:
+					return newstruct cs2func_script_978_struct(70, 11720, (object)("Members: Armadyl chestplate" + "<br>" + " (with 70 Ranged)"), (object)"Members now have the Defence level required to wear Armadyl chestplates. (They also need level 70 Ranged.)");
+				case 127:
+					return newstruct cs2func_script_978_struct(70, 11722, (object)("Members: Armadyl chainskirt" + "<br>" + " (with 70 Ranged)"), (object)"Members now have the Defence level required to wear Armadyl chainskirts. (They also need level 70 Ranged.)");
+				case 128:
+					return newstruct cs2func_script_978_struct(70, 13736, (object)("Members: Blessed spirit shield" + "<br>" + " (after Summer's End and with 60 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "blessed spirit shields" + "</col>" + " (after Summer's End, with level 60 Prayer)."));
+				case 129:
+					return newstruct cs2func_script_978_struct(75, 11283, (object)"Members: Dragonfire shield", (object)("Members can now wield " + "<col=000080>" + "dragonfire shields" + "</col>" + "."));
+				case 130:
+					return newstruct cs2func_script_978_struct(75, 13738, (object)("Members: Arcane spirit shield" + "<br>" + " (after Summer's End and with 70 Prayer and 65 Magic)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "arcane spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and level 70 Prayer)."));
+				case 131:
+					return newstruct cs2func_script_978_struct(75, 13740, (object)("Members: Divine spirit shield" + "<br>" + " (after Summer's End and with 75 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "divine spirit shields" + "</col>" + " (after Summer's End, with level 75 Prayer)."));
+				case 132:
+					return newstruct cs2func_script_978_struct(75, 13742, (object)("Members: Elysian spirit shield" + "<br>" + " (after Summer's End and with 75 Prayer)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "elysian spirit shields" + "</col>" + " (after Summer's End, with level 75 Prayer)."));
+				case 133:
+					return newstruct cs2func_script_978_struct(75, 13744, (object)("Members: Spectral spirit shield" + "<br>" + " (after Summer's End and with 70 Prayer and 65 Magic)"), (object)("Members now have the Defence level required to wield " + "<col=000080>" + "spectral spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and level 70 Prayer)."));
+				case 134:
+					return newstruct cs2func_script_978_struct(75, 21787, (object)("Members: Steadfast boots" + "<br>" + " (with 75 Attack)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "steadfast boots" + "</col>" + " (with 75 Attack)."));
+				case 135:
+					return newstruct cs2func_script_978_struct(75, 21793, (object)("Members: Ragefire boots" + "<br>" + " (with 75 Magic)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "ragefire boots" + "</col>" + " (with 75 Magic)."));
+				case 136:
+					return newstruct cs2func_script_978_struct(75, 21790, (object)("Members: Glaiven boots" + "<br>" + " (with 75 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "glaiven boots" + "</col>" + " (with 75 Ranged)."));
+				case 137:
+					return newstruct cs2func_script_978_struct(78, 13876, (object)("Members: Morrigan's coif" + "<br>" + " (with 78 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's coif" + "</col>" + ". (They also need level 78 Ranged.)"));
+				case 138:
+					return newstruct cs2func_script_978_struct(78, 13870, (object)("Members: Morrigan's leather body" + "<br>" + " (with 78 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's leather body" + "</col>" + ". (They also need level 78 Ranged.)"));
+				case 139:
+					return newstruct cs2func_script_978_struct(78, 13873, (object)("Members: Morrigan's leather chaps" + "<br>" + " (with 78 Ranged)"), (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's leather chaps" + "</col>" + ". (They also need level 78 Ranged.)"));
+				case 140:
+					return newstruct cs2func_script_978_struct(78, 13896, (object)"Members: Statius's full helm", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Statius's full helm" + "</col>" + "."));
+				case 141:
+					return newstruct cs2func_script_978_struct(78, 13884, (object)"Members: Statius's platebody", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Statius's platebody" + "</col>" + "."));
+				case 142:
+					return newstruct cs2func_script_978_struct(78, 13887, (object)"Members: Vesta's chainbody", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Vesta's chainbody" + "</col>" + "."));
+				case 143:
+					return newstruct cs2func_script_978_struct(78, 13890, (object)"Members: Statius's platelegs", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Statius's platelegs" + "</col>" + "."));
+				case 144:
+					return newstruct cs2func_script_978_struct(78, 13893, (object)"Members: Vesta's plateskirt", (object)("Members now have the Defence level required to wear " + "<col=000080>" + "Vesta's plateskirt" + "</col>" + "."));
+				case 145:
+					return newstruct cs2func_script_978_struct(80, 18359, (object)("Members: Chaotic kiteshield" + "<br>" + " (with 80 Dungeoneering)"), (object)("Members can now wield " + "<col=000080>" + "chaotic kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)"));
+				case 146:
+					return newstruct cs2func_script_978_struct(80, 18361, (object)("Members: Eagle-eye kiteshield" + "<br>" + " (with 80 Dungeoneering)"), (object)("Members can now wield " + "<col=000080>" + "eagle-eye kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)"));
+				case 147:
+					return newstruct cs2func_script_978_struct(80, 18363, (object)("Members: Farseer kiteshield" + "<br>" + " (with 80 Dungeoneering)"), (object)("Members can now wield " + "<col=000080>" + "farseer kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)"));
+				case 148:
+					return newstruct cs2func_script_978_struct(80, 20135, (object)("Members: Torva full helm" + "<br>" + " (with 80 Strength and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva full helms" + "</col>" + ". (They also need level 80 Strength and Constitution.)"));
+				case 149:
+					return newstruct cs2func_script_978_struct(80, 20139, (object)("Members: Torva platebody" + "<br>" + " (with 80 Strength and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva platebodies" + "</col>" + ". (They also need level 80 Strength and Constitution.)"));
+				case 150:
+					return newstruct cs2func_script_978_struct(80, 20143, (object)("Members: Torva platelegs" + "<br>" + " (with 80 Strength and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva platelegs" + "</col>" + ". (They also need level 80 Strength and Constitution.)"));
+				case 151:
+					return newstruct cs2func_script_978_struct(80, 20147, (object)("Members: Pernix cowl" + "<br>" + " (with 80 Ranged and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "pernix cowls" + "</col>" + ". (They also need level 80 Ranged and Constitution.)"));
+				case 152:
+					return newstruct cs2func_script_978_struct(80, 20151, (object)("Members: Pernix body" + "<br>" + " (with 80 Ranged and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "pernix bodies" + "</col>" + ". (They also need level 80 Ranged and Constitution.)"));
+				case 153:
+					return newstruct cs2func_script_978_struct(80, 20155, (object)("Members: Pernix chaps" + "<br>" + " (with 80 Ranged and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "pernix chaps" + "</col>" + ". (They also need level 80 Ranged and Constitution.)"));
+			}
+			break;
+		case 12:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 14367, (object)"Members: Stealing Creation - class 1 helmet", (object)("Members can now wear " + "<col=000080>" + "class 1 helmets" + "</col>" + " in Stealing Creation."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 14357, (object)"Members: Stealing Creation - class 1 platelegs", (object)("Members can now wear " + "<col=000080>" + "class 1 platelegs" + "</col>" + " in Stealing Creation."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 14347, (object)"Members: Stealing Creation - class 1 platebody", (object)("Members can now wear " + "<col=000080>" + "class 1 platebodies" + "</col>" + " in Stealing Creation."));
+				case 3:
+					return newstruct cs2func_script_978_struct(20, 14369, (object)"Members: Stealing Creation - class 2 helmet", (object)("Members can now wear " + "<col=000080>" + "class 2 helmets" + "</col>" + " in Stealing Creation."));
+				case 4:
+					return newstruct cs2func_script_978_struct(20, 14359, (object)"Members: Stealing Creation - class 2 platelegs", (object)("Members can now wear " + "<col=000080>" + "class 2 platelegs" + "</col>" + " in Stealing Creation."));
+				case 5:
+					return newstruct cs2func_script_978_struct(20, 14349, (object)"Members: Stealing Creation - class 2 platebody", (object)("Members can now wear " + "<col=000080>" + "class 2 platebodies" + "</col>" + " in Stealing Creation."));
+				case 6:
+					return newstruct cs2func_script_978_struct(40, 14371, (object)"Members: Stealing Creation - class 3 helmet", (object)("Members can now wear " + "<col=000080>" + "class 3 helmets" + "</col>" + " in Stealing Creation."));
+				case 7:
+					return newstruct cs2func_script_978_struct(40, 14361, (object)"Members: Stealing Creation - class 3 platelegs", (object)("Members can now wear " + "<col=000080>" + "class 3 platelegs" + "</col>" + " in Stealing Creation."));
+				case 8:
+					return newstruct cs2func_script_978_struct(40, 14351, (object)"Members: Stealing Creation - class 3 platebody", (object)("Members can now wear " + "<col=000080>" + "class 3 platebodies" + "</col>" + " in Stealing Creation."));
+				case 9:
+					return newstruct cs2func_script_978_struct(60, 14373, (object)"Members: Stealing Creation - class 4 helmet", (object)("Members can now wear " + "<col=000080>" + "class 4 helmets" + "</col>" + " in Stealing Creation."));
+				case 10:
+					return newstruct cs2func_script_978_struct(60, 14363, (object)"Members: Stealing Creation - class 4 platelegs", (object)("Members can now wear " + "<col=000080>" + "class 4 platelegs" + "</col>" + " in Stealing Creation."));
+				case 11:
+					return newstruct cs2func_script_978_struct(60, 14353, (object)"Members: Stealing Creation - class 4 platebody", (object)("Members can now wear " + "<col=000080>" + "class 4 platebodies" + "</col>" + " in Stealing Creation."));
+				case 12:
+					return newstruct cs2func_script_978_struct(80, 14375, (object)"Members: Stealing Creation - class 5 helmet", (object)("Members can now wear " + "<col=000080>" + "class 5 helmets" + "</col>" + " in Stealing Creation."));
+				case 13:
+					return newstruct cs2func_script_978_struct(80, 14365, (object)"Members: Stealing Creation - class 5 platelegs", (object)("Members can now wear " + "<col=000080>" + "class 5 platelegs" + "</col>" + " in Stealing Creation."));
+				case 14:
+					return newstruct cs2func_script_978_struct(80, 14355, (object)"Members: Stealing Creation - class 5 platebody", (object)("Members can now wear " + "<col=000080>" + "class 5 platebodies" + "</col>" + " in Stealing Creation."));
+				case 15:
+					return newstruct cs2func_script_978_struct(85, 21537, (object)("Members: Battle-mage helm" + "<br>" + " (with 85 Magic and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage helms" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)"));
+				case 16:
+					return newstruct cs2func_script_978_struct(85, 21539, (object)("Members: Battle-mage robe" + "<br>" + " (with 85 Magic and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage robes" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)"));
+				case 17:
+					return newstruct cs2func_script_978_struct(85, 21541, (object)("Members: Battle-mage legs" + "<br>" + " (with 85 Magic and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage legs" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)"));
+				case 18:
+					return newstruct cs2func_script_978_struct(85, 21543, (object)("Members: Battle-mage gloves" + "<br>" + " (with 85 Magic and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage gloves" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)"));
+				case 19:
+					return newstruct cs2func_script_978_struct(85, 21545, (object)("Members: Battle-mage boots" + "<br>" + " (with 85 Magic and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage boots" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)"));
+				case 20:
+					return newstruct cs2func_script_978_struct(85, 21547, (object)("Members: Trickster hood" + "<br>" + " (with 85 Magic and 85 Ranged)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster hoods" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)"));
+				case 21:
+					return newstruct cs2func_script_978_struct(85, 21549, (object)("Members: Trickster robe" + "<br>" + " (with 85 Magic and 85 Ranged)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster robes" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)"));
+				case 22:
+					return newstruct cs2func_script_978_struct(85, 21551, (object)("Members: Trickster legs" + "<br>" + " (with 85 Magic and 85 Ranged)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster legs" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)"));
+				case 23:
+					return newstruct cs2func_script_978_struct(85, 21553, (object)("Members: Trickster gloves" + "<br>" + " (with 85 Magic and 85 Ranged)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster gloves" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)"));
+				case 24:
+					return newstruct cs2func_script_978_struct(85, 21555, (object)("Members: Trickster boots" + "<br>" + " (with 85 Magic and 85 Ranged)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster boots" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)"));
+				case 25:
+					return newstruct cs2func_script_978_struct(85, 21557, (object)("Members: Vanguard helm" + "<br>" + " (with 85 Ranged and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard helms" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)"));
+				case 26:
+					return newstruct cs2func_script_978_struct(85, 21559, (object)("Members: Vanguard body" + "<br>" + " (with 85 Ranged and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard body armour" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)"));
+				case 27:
+					return newstruct cs2func_script_978_struct(85, 21561, (object)("Members: Vanguard legs" + "<br>" + " (with 85 Ranged and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard leg armour" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)"));
+				case 28:
+					return newstruct cs2func_script_978_struct(85, 21563, (object)("Members: Vanguard gloves" + "<br>" + " (with 85 Ranged and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard gloves" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)"));
+				case 29:
+					return newstruct cs2func_script_978_struct(85, 21565, (object)("Members: Vanguard boots" + "<br>" + " (with 85 Ranged and 85 Strength)"), (object)("Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard boots" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)"));
+			}
+			break;
+		case 13:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_978_struct(1, 16691, (object)"Novite full helm (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite full helms" + "</col>" + " within Daemonheim."));
+				case 1:
+					return newstruct cs2func_script_978_struct(1, 17239, (object)"Novite platebody (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite platebodies" + "</col>" + " within Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_978_struct(1, 16713, (object)"Novite chainbody (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite chainbodies" + "</col>" + " within Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_978_struct(1, 16669, (object)"Novite platelegs (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite platelegs" + "</col>" + " within Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_978_struct(1, 16647, (object)"Novite plateskirt (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite plateskirts" + "</col>" + " within Daemonheim."));
+				case 5:
+					return newstruct cs2func_script_978_struct(1, 16273, (object)"Novite gauntlets (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite gauntlets" + "</col>" + " within Daemonheim."));
+				case 6:
+					return newstruct cs2func_script_978_struct(1, 16339, (object)"Novite boots (Tier 1)", (object)("You can now wear " + "<col=000080>" + "novite boots" + "</col>" + " within Daemonheim."));
+				case 7:
+					return newstruct cs2func_script_978_struct(1, 17341, (object)"Novite kiteshield (Tier 1)", (object)("You can now wield " + "<col=000080>" + "novite kiteshields" + "</col>" + " within Daemonheim."));
+				case 8:
+					return newstruct cs2func_script_978_struct(1, 16735, (object)("Salve hood (Tier 1)" + "<br>" + " (with 1 Magic)"), (object)("You can now wear " + "<col=000080>" + "salve hoods" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)"));
+				case 9:
+					return newstruct cs2func_script_978_struct(1, 17217, (object)("Salve robe top (Tier 1)" + "<br>" + " (with 1 Magic)"), (object)("You can now wear " + "<col=000080>" + "salve robe tops" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)"));
+				case 10:
+					return newstruct cs2func_script_978_struct(1, 16845, (object)("Salve robe bottom (Tier 1)" + "<br>" + " (with 1 Magic)"), (object)("You can now wear " + "<col=000080>" + "salve robe bottoms" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)"));
+				case 11:
+					return newstruct cs2func_script_978_struct(1, 17151, (object)("Salve gloves (Tier 1)" + "<br>" + " (with 1 Magic)"), (object)("You can now wear " + "<col=000080>" + "salve gloves" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)"));
+				case 12:
+					return newstruct cs2func_script_978_struct(1, 16911, (object)("Salve boots (Tier 1)" + "<br>" + " ( with 1 Magic)"), (object)("You can now wear " + "<col=000080>" + "salve boots" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)"));
+				case 13:
+					return newstruct cs2func_script_978_struct(1, 17041, (object)("Protoleather coif (Tier 1)" + "<br>" + " (with 1 Ranged)"), (object)("You can now wear " + "<col=000080>" + "protoleather coifs" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)"));
+				case 14:
+					return newstruct cs2func_script_978_struct(1, 17173, (object)("Protoleather body (Tier 1)" + "<br>" + " (with 1 Ranged)"), (object)("You can now wear " + "<col=000080>" + "protoleather bodies" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)"));
+				case 15:
+					return newstruct cs2func_script_978_struct(1, 17319, (object)("Protoleather chaps (Tier 1)" + "<br>" + " (with 1 Ranged)"), (object)("You can now wear " + "<col=000080>" + "protoleather chaps" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)"));
+				case 16:
+					return newstruct cs2func_script_978_struct(1, 17195, (object)("Protoleather vambraces (Tier 1)" + "<br>" + " (with 1 Ranged)"), (object)("You can now wear " + "<col=000080>" + "protoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)"));
+				case 17:
+					return newstruct cs2func_script_978_struct(1, 17297, (object)("Protoleather boots (Tier 1)" + "<br>" + " (with 1 Ranged)"), (object)("You can now wear " + "<col=000080>" + "protoleather boots" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)"));
+				case 18:
+					return newstruct cs2func_script_978_struct(10, 16693, (object)"Bathus full helm (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus full helms" + "</col>" + " within Daemonheim."));
+				case 19:
+					return newstruct cs2func_script_978_struct(10, 17241, (object)"Bathus platebody (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus platebodies" + "</col>" + " within Daemonheim."));
+				case 20:
+					return newstruct cs2func_script_978_struct(10, 16715, (object)"Bathus chainbody (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus chainbodies" + "</col>" + " within Daemonheim."));
+				case 21:
+					return newstruct cs2func_script_978_struct(10, 16671, (object)"Bathus platelegs (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus platelegs" + "</col>" + " within Daemonheim."));
+				case 22:
+					return newstruct cs2func_script_978_struct(10, 16649, (object)"Bathus plateskirt (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus plateskirts" + "</col>" + " within Daemonheim."));
+				case 23:
+					return newstruct cs2func_script_978_struct(10, 16275, (object)"Bathus gauntlets (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus gauntlets" + "</col>" + " within Daemonheim."));
+				case 24:
+					return newstruct cs2func_script_978_struct(10, 16341, (object)"Bathus boots (Tier 2)", (object)("You can now wear " + "<col=000080>" + "bathus boots" + "</col>" + " within Daemonheim."));
+				case 25:
+					return newstruct cs2func_script_978_struct(10, 17343, (object)"Bathus kiteshield (Tier 2)", (object)("You can now wield " + "<col=000080>" + "bathus kiteshields" + "</col>" + " within Daemonheim."));
+				case 26:
+					return newstruct cs2func_script_978_struct(10, 16737, (object)("Wildercress hood (Tier 2)" + "<br>" + " (with 10 Magic)"), (object)("You can now wear " + "<col=000080>" + "wildercress hoods" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)"));
+				case 27:
+					return newstruct cs2func_script_978_struct(10, 17219, (object)("Wildercress robe top (Tier 2)" + "<br>" + " (with 10 Magic)"), (object)("You can now wear " + "<col=000080>" + "wildercress robe tops" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)"));
+				case 28:
+					return newstruct cs2func_script_978_struct(10, 16847, (object)("Wildercress robe bottom (Tier 2)" + "<br>" + " (with 10 Magic)"), (object)("You can now wear " + "<col=000080>" + "wildercress robe bottoms" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)"));
+				case 29:
+					return newstruct cs2func_script_978_struct(10, 17153, (object)("Wildercress gloves (Tier 2)" + "<br>" + " (with 10 Magic)"), (object)("You can now wear " + "<col=000080>" + "wildercress gloves" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)"));
+				case 30:
+					return newstruct cs2func_script_978_struct(10, 16913, (object)("Wildercress boots (Tier 2)" + "<br>" + " (with 10 Magic)"), (object)("You can now wear " + "<col=000080>" + "wildercress boots" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)"));
+				case 31:
+					return newstruct cs2func_script_978_struct(10, 17043, (object)("Subleather coif (Tier 2)" + "<br>" + " (with 10 Ranged)"), (object)("You can now wear " + "<col=000080>" + "subleather coifs" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)"));
+				case 32:
+					return newstruct cs2func_script_978_struct(10, 17175, (object)("Subleather body (Tier 2)" + "<br>" + " (with 10 Ranged)"), (object)("You can now wear " + "<col=000080>" + "subleather bodies" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)"));
+				case 33:
+					return newstruct cs2func_script_978_struct(10, 17321, (object)("Subleather chaps (Tier 2)" + "<br>" + " (with 10 Ranged)"), (object)("You can now wear " + "<col=000080>" + "subleather chaps" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)"));
+				case 34:
+					return newstruct cs2func_script_978_struct(10, 17197, (object)("Subleather vambraces (Tier 2)" + "<br>" + " (with 10 Ranged)"), (object)("You can now wear " + "<col=000080>" + "subleather vambraces" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)"));
+				case 35:
+					return newstruct cs2func_script_978_struct(10, 17299, (object)("Subleather boots (Tier 2)" + "<br>" + " (with 10 Ranged)"), (object)("You can now wear " + "<col=000080>" + "subleather boots" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)"));
+				case 36:
+					return newstruct cs2func_script_978_struct(15, 17261, (object)"Members: Silver precision bracelet ", (object)("Members can now wear " + "<col=000080>" + "silver precision bracelets" + "</col>" + " within Daemonheim."));
+				case 37:
+					return newstruct cs2func_script_978_struct(20, 16695, (object)"Marmaros full helm (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros full helms" + "</col>" + " within Daemonheim."));
+				case 38:
+					return newstruct cs2func_script_978_struct(20, 17243, (object)"Marmaros platebody (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros platebodies" + "</col>" + " within Daemonheim."));
+				case 39:
+					return newstruct cs2func_script_978_struct(20, 16717, (object)"Marmaros chainbody (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros chainbodies" + "</col>" + " within Daemonheim."));
+				case 40:
+					return newstruct cs2func_script_978_struct(20, 16673, (object)"Marmaros platelegs (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros platelegs" + "</col>" + " within Daemonheim."));
+				case 41:
+					return newstruct cs2func_script_978_struct(20, 16651, (object)"Marmaros plateskirt (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros plateskirts" + "</col>" + " within Daemonheim."));
+				case 42:
+					return newstruct cs2func_script_978_struct(20, 16277, (object)"Marmaros gauntlets (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros gauntlets" + "</col>" + " within Daemonheim."));
+				case 43:
+					return newstruct cs2func_script_978_struct(20, 16343, (object)"Marmaros boots (Tier 3)", (object)("You can now wear " + "<col=000080>" + "marmaros boots" + "</col>" + " within Daemonheim."));
+				case 44:
+					return newstruct cs2func_script_978_struct(20, 17345, (object)"Marmaros kiteshield (Tier 3)", (object)("You can now wield " + "<col=000080>" + "marmaros kiteshields" + "</col>" + " within Daemonheim."));
+				case 45:
+					return newstruct cs2func_script_978_struct(20, 16739, (object)("Blightleaf hood (Tier 3)" + "<br>" + " (with 20 Magic)"), (object)("You can now wear " + "<col=000080>" + "blightleaf hoods" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)"));
+				case 46:
+					return newstruct cs2func_script_978_struct(20, 17221, (object)("Blightleaf robe top (Tier 3)" + "<br>" + " (with 20 Magic)"), (object)("You can now wear " + "<col=000080>" + "blightleaf robe tops" + "</col>" + " within Daemonheim. (You also need 20 Magic)."));
+				case 47:
+					return newstruct cs2func_script_978_struct(20, 16849, (object)("Blightleaf robe bottom (Tier 3)" + "<br>" + " (with 20 Magic)"), (object)("You can now wear " + "<col=000080>" + "blightleaf robe bottoms" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)"));
+				case 48:
+					return newstruct cs2func_script_978_struct(20, 17155, (object)("Blightleaf gloves (Tier 3)" + "<br>" + " (with 20 Magic)"), (object)("You can now wear " + "<col=000080>" + "blightleaf gloves" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)"));
+				case 49:
+					return newstruct cs2func_script_978_struct(20, 16915, (object)("Blightleaf boots (Tier 3)" + "<br>" + " (with 20 Magic)"), (object)("You can now wear " + "<col=000080>" + "blightleaf boots" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)"));
+				case 50:
+					return newstruct cs2func_script_978_struct(20, 17045, (object)("Paraleather coif (Tier 3)" + "<br>" + " (with 20 Ranged)"), (object)("You can now wear " + "<col=000080>" + "paraleather coifs" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)"));
+				case 51:
+					return newstruct cs2func_script_978_struct(20, 17177, (object)("Paraleather body (Tier 3)" + "<br>" + " (with 20 Ranged)"), (object)("You can now wear " + "<col=000080>" + "paraleather bodies" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)"));
+				case 52:
+					return newstruct cs2func_script_978_struct(20, 17323, (object)("Paraleather chaps (Tier 3)" + "<br>" + " (with 20 Ranged)"), (object)("You can now wear " + "<col=000080>" + "paraleather chaps" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)"));
+				case 53:
+					return newstruct cs2func_script_978_struct(20, 17199, (object)("Paraleather vambraces (Tier 3)" + "<br>" + " (with 20 Ranged)"), (object)("You can now wear " + "<col=000080>" + "paraleather vambraces" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)"));
+				case 54:
+					return newstruct cs2func_script_978_struct(20, 17301, (object)("Paraleather boots (Tier 3)" + "<br>" + " (with 20 Ranged)"), (object)("You can now wear " + "<col=000080>" + "paraleather boots" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)"));
+				case 55:
+					return newstruct cs2func_script_978_struct(21, 17265, (object)"Members: Sunstriker boots ", (object)("Members can now wear " + "<col=000080>" + "sunstriker boots" + "</col>" + " within Daemonheim."));
+				case 56:
+					return newstruct cs2func_script_978_struct(28, 17269, (object)"Members: Incantor's boots ", (object)("Members can now wear " + "<col=000080>" + "incantor's boots" + "</col>" + " within Daemonheim."));
+				case 57:
+					return newstruct cs2func_script_978_struct(30, 16697, (object)"Kratonite full helm (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite full helms" + "</col>" + " within Daemonheim."));
+				case 58:
+					return newstruct cs2func_script_978_struct(30, 17245, (object)"Kratonite platebody (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite platebodies" + "</col>" + " within Daemonheim."));
+				case 59:
+					return newstruct cs2func_script_978_struct(30, 16719, (object)"Kratonite chainbody (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite chainbodies" + "</col>" + " within Daemonheim."));
+				case 60:
+					return newstruct cs2func_script_978_struct(30, 16675, (object)"Kratonite platelegs (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite platelegs" + "</col>" + " within Daemonheim."));
+				case 61:
+					return newstruct cs2func_script_978_struct(30, 16653, (object)"Kratonite plateskirt (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite plateskirts" + "</col>" + " within Daemonheim."));
+				case 62:
+					return newstruct cs2func_script_978_struct(30, 16279, (object)"Kratonite gauntlets (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite gauntlets" + "</col>" + " within Daemonheim."));
+				case 63:
+					return newstruct cs2func_script_978_struct(30, 16345, (object)"Kratonite boots (Tier 4)", (object)("You can now wear " + "<col=000080>" + "kratonite boots" + "</col>" + " within Daemonheim."));
+				case 64:
+					return newstruct cs2func_script_978_struct(30, 17347, (object)"Kratonite kiteshield (Tier 4)", (object)("You can now wield " + "<col=000080>" + "kratonite kiteshields" + "</col>" + " within Daemonheim."));
+				case 65:
+					return newstruct cs2func_script_978_struct(30, 16741, (object)("Roseblood hood (Tier 4)" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "roseblood hoods" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)"));
+				case 66:
+					return newstruct cs2func_script_978_struct(30, 17223, (object)("Roseblood robe top (Tier 4)" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "roseblood robe tops" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)"));
+				case 67:
+					return newstruct cs2func_script_978_struct(30, 16851, (object)("Roseblood robe bottom (Tier 4)" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "roseblood robe bottoms" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)"));
+				case 68:
+					return newstruct cs2func_script_978_struct(30, 17157, (object)("Roseblood gloves (Tier 4)" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "roseblood gloves" + "</col>" + " within Daemonheim. (You also need 30 Magic)."));
+				case 69:
+					return newstruct cs2func_script_978_struct(30, 16917, (object)("Roseblood boots (Tier 4)" + "<br>" + " (with 30 Magic)"), (object)("You can now wear " + "<col=000080>" + "roseblood boots" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)"));
+				case 70:
+					return newstruct cs2func_script_978_struct(30, 17047, (object)("Archleather coif (Tier 4)" + "<br>" + " (with 30 Ranged)"), (object)("You can now wear " + "<col=000080>" + "archleather coifs" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)"));
+				case 71:
+					return newstruct cs2func_script_978_struct(30, 17179, (object)("Archleather body (Tier 4)" + "<br>" + " (with 30 Ranged)"), (object)("You can now wear " + "<col=000080>" + "archleather bodies" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)"));
+				case 72:
+					return newstruct cs2func_script_978_struct(30, 17325, (object)("Archleather chaps (Tier 4)" + "<br>" + " (with 30 Ranged)"), (object)("You can now wear " + "<col=000080>" + "archleather chaps" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)"));
+				case 73:
+					return newstruct cs2func_script_978_struct(30, 17201, (object)("Archleather vambraces (Tier 4)" + "<br>" + " (with 30 Ranged)"), (object)("You can now wear " + "<col=000080>" + "archleather vambraces" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)"));
+				case 74:
+					return newstruct cs2func_script_978_struct(30, 17303, (object)("Archleather boots (Tier 4)" + "<br>" + " (with 30 Ranged)"), (object)("You can now wear " + "<col=000080>" + "archleather boots" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)"));
+				case 75:
+					return newstruct cs2func_script_978_struct(33, 17273, (object)("Members: Flameburst defender" + "<br>" + " (with 33 Magic)"), (object)("Members can now wield " + "<col=000080>" + "flameburst defenders" + "</col>" + " within Daemonheim. (They also need level 33 Magic.)"));
+				case 76:
+					return newstruct cs2func_script_978_struct(40, 16699, (object)"Fractite full helm (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite full helms" + "</col>" + " within Daemonheim."));
+				case 77:
+					return newstruct cs2func_script_978_struct(40, 17247, (object)"Fractite platebody (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite platebodies" + "</col>" + " within Daemonheim."));
+				case 78:
+					return newstruct cs2func_script_978_struct(40, 16721, (object)"Fractite chainbody (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite chainbodies" + "</col>" + " within Daemonheim."));
+				case 79:
+					return newstruct cs2func_script_978_struct(40, 16677, (object)"Fractite platelegs (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite platelegs" + "</col>" + " within Daemonheim."));
+				case 80:
+					return newstruct cs2func_script_978_struct(40, 16655, (object)"Fractite plateskirt (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite plateskirts" + "</col>" + " within Daemonheim."));
+				case 81:
+					return newstruct cs2func_script_978_struct(40, 16281, (object)"Fractite gauntlets (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite gauntlets" + "</col>" + " within Daemonheim."));
+				case 82:
+					return newstruct cs2func_script_978_struct(40, 16347, (object)"Fractite boots (Tier 5)", (object)("You can now wear " + "<col=000080>" + "fractite boots" + "</col>" + " within Daemonheim."));
+				case 83:
+					return newstruct cs2func_script_978_struct(40, 17349, (object)"Fractite kiteshield (Tier 5)", (object)("You can now wield " + "<col=000080>" + "fractite kiteshields" + "</col>" + " within Daemonheim."));
+				case 84:
+					return newstruct cs2func_script_978_struct(40, 16743, (object)("Bryll hood (Tier 5)" + "<br>" + " (with 40 Magic)"), (object)("You can now wear " + "<col=000080>" + "bryll hoods" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)"));
+				case 85:
+					return newstruct cs2func_script_978_struct(40, 17225, (object)("Bryll robe top (Tier 5)" + "<br>" + " (with 40 Magic)"), (object)("You can now wear " + "<col=000080>" + "bryll robe tops" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)"));
+				case 86:
+					return newstruct cs2func_script_978_struct(40, 16853, (object)("Bryll robe bottom (Tier 5)" + "<br>" + " (with 40 Magic)"), (object)("You can now wear " + "<col=000080>" + "bryll robe bottoms" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)"));
+				case 87:
+					return newstruct cs2func_script_978_struct(40, 17159, (object)("Bryll gloves (Tier 5)" + "<br>" + " (with 40 Magic)"), (object)("You can now wear " + "<col=000080>" + "bryll gloves" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)"));
+				case 88:
+					return newstruct cs2func_script_978_struct(40, 16919, (object)("Bryll boots (Tier 5)" + "<br>" + " (with 40 Magic)"), (object)("You can now wear " + "<col=000080>" + "bryll boots" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)"));
+				case 89:
+					return newstruct cs2func_script_978_struct(40, 17049, (object)("Dromoleather coif (Tier 5)" + "<br>" + " (with 40 Ranged)"), (object)("You can now wear " + "<col=000080>" + "dromoleather coifs" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)"));
+				case 90:
+					return newstruct cs2func_script_978_struct(40, 17181, (object)("Dromoleather body (Tier 5)" + "<br>" + " (with 40 Ranged)"), (object)("You can now wear " + "<col=000080>" + "dromoleather bodies" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)"));
+				case 91:
+					return newstruct cs2func_script_978_struct(40, 17327, (object)("Dromoleather chaps (Tier 5)" + "<br>" + " (with 40 Ranged)"), (object)("You can now wear " + "<col=000080>" + "dromoleather chaps" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)"));
+				case 92:
+					return newstruct cs2func_script_978_struct(40, 17203, (object)("Dromoleather vambraces (Tier 5)" + "<br>" + " (with 40 Ranged)"), (object)("You can now wear " + "<col=000080>" + "dromoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)"));
+				case 93:
+					return newstruct cs2func_script_978_struct(40, 17305, (object)("Dromoleather boots (Tier 5)" + "<br>" + " (with 40 Ranged)"), (object)("You can now wear " + "<col=000080>" + "dromoleather boots" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)"));
+				case 94:
+					return newstruct cs2func_script_978_struct(45, 17263, (object)"Members: Golden precision bracelet ", (object)("Members can now wear " + "<col=000080>" + "golden precision bracelets" + "</col>" + " within Daemonheim."));
+				case 95:
+					return newstruct cs2func_script_978_struct(45, 17279, (object)"Members: Shadow silk hood ", (object)("Members can now wear " + "<col=000080>" + "shadow silk hoods" + "</col>" + " within Daemonheim."));
+				case 96:
+					return newstruct cs2func_script_978_struct(48, 17267, (object)"Members: Marksman boots ", (object)("Members can now wear " + "<col=000080>" + "marksman boots" + "</col>" + " within Daemonheim."));
+				case 97:
+					return newstruct cs2func_script_978_struct(50, 16701, (object)"Members: Zephyrium full helm (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium full helms" + "</col>" + " within Daemonheim."));
+				case 98:
+					return newstruct cs2func_script_978_struct(50, 17249, (object)"Members: Zephyrium platebody (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium platebodies" + "</col>" + " within Daemonheim."));
+				case 99:
+					return newstruct cs2func_script_978_struct(50, 16723, (object)"Members: Zephyrium chainbody (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium chainbodies" + "</col>" + " within Daemonheim."));
+				case 100:
+					return newstruct cs2func_script_978_struct(50, 16679, (object)"Members: Zephyrium platelegs (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium platelegs" + "</col>" + " within Daemonheim."));
+				case 101:
+					return newstruct cs2func_script_978_struct(50, 16657, (object)"Members: Zephyrium plateskirt (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium plateskirts" + "</col>" + " within Daemonheim."));
+				case 102:
+					return newstruct cs2func_script_978_struct(50, 16283, (object)"Members: Zephyrium gauntlets (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium gauntlets" + "</col>" + " within Daemonheim."));
+				case 103:
+					return newstruct cs2func_script_978_struct(50, 16349, (object)"Members: Zephyrium boots (Tier 6)", (object)("Members can now wear " + "<col=000080>" + "zephyrium boots" + "</col>" + " within Daemonheim."));
+				case 104:
+					return newstruct cs2func_script_978_struct(50, 17351, (object)"Members: Zephyrium kiteshield (Tier 6)", (object)("Members can now wield " + "<col=000080>" + "zephyrium kiteshields" + "</col>" + " within Daemonheim."));
+				case 105:
+					return newstruct cs2func_script_978_struct(50, 16745, (object)("Members: Duskweed hood (Tier 6)" + "<br>" + " (with 50 Magic)"), (object)("Members can now wear " + "<col=000080>" + "duskweed hoods" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)"));
+				case 106:
+					return newstruct cs2func_script_978_struct(50, 17227, (object)("Members: Duskweed robe top (Tier 6)" + "<br>" + " (with 50 Magic)"), (object)("Members can now wear " + "<col=000080>" + "duskweed robe tops" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)"));
+				case 107:
+					return newstruct cs2func_script_978_struct(50, 16855, (object)("Members: Duskweed robe bottom (Tier 6)" + "<br>" + " (with 50 Magic)"), (object)("Members can now wear " + "<col=000080>" + "duskweed robe bottoms" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)"));
+				case 108:
+					return newstruct cs2func_script_978_struct(50, 17161, (object)("Members: Duskweed gloves (Tier 6)" + "<br>" + " (with 50 Magic)"), (object)("Members can now wear " + "<col=000080>" + "duskweed gloves" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)"));
+				case 109:
+					return newstruct cs2func_script_978_struct(50, 16921, (object)("Members: Duskweed boots (Tier 6)" + "<br>" + " (with 50 Magic)"), (object)("Members can now wear " + "<col=000080>" + "duskweed boots" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)"));
+				case 110:
+					return newstruct cs2func_script_978_struct(50, 17051, (object)("Members: Spinoleather coif (Tier 6)" + "<br>" + " (with 50 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "spinoleather coifs" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)"));
+				case 111:
+					return newstruct cs2func_script_978_struct(50, 17183, (object)("Members: Spinoleather body (Tier 6)" + "<br>" + " (with 50 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "spinoleather bodies" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)"));
+				case 112:
+					return newstruct cs2func_script_978_struct(50, 17329, (object)("Members: Spinoleather chaps (Tier 6)" + "<br>" + " (with 50 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "spinoleather chaps" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)"));
+				case 113:
+					return newstruct cs2func_script_978_struct(50, 17205, (object)("Members: Spinoleather vambraces (Tier 6)" + "<br>" + " (with 50 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "spinoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)"));
+				case 114:
+					return newstruct cs2func_script_978_struct(50, 17307, (object)("Members: Spinoleather boots (Tier 6)" + "<br>" + " (with 50 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "spinoleather boots" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)"));
+				case 115:
+					return newstruct cs2func_script_978_struct(54, 17271, (object)"Members: Sorcerer's boots ", (object)("Members can now wear " + "<col=000080>" + "sorcerer's boots" + "</col>" + " within Daemonheim."));
+				case 116:
+					return newstruct cs2func_script_978_struct(57, 17281, (object)("Members: Absorption boots" + "<br>" + " (with 57 Ranged) "), (object)("Members can now wear " + "<col=000080>" + "absorption boots" + "</col>" + " within Daemonheim. (They also need level 57 Ranged.)"));
+				case 117:
+					return newstruct cs2func_script_978_struct(60, 16703, (object)"Members: Argonite full helm (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite full helms" + "</col>" + " within Daemonheim."));
+				case 118:
+					return newstruct cs2func_script_978_struct(60, 17251, (object)"Members: Argonite platebody (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite platebodies" + "</col>" + " within Daemonheim."));
+				case 119:
+					return newstruct cs2func_script_978_struct(60, 16725, (object)"Members: Argonite chainbody (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite chainbodies" + "</col>" + " within Daemonheim."));
+				case 120:
+					return newstruct cs2func_script_978_struct(60, 16681, (object)"Members: Argonite platelegs (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite platelegs" + "</col>" + " within Daemonheim."));
+				case 121:
+					return newstruct cs2func_script_978_struct(60, 16659, (object)"Members: Argonite plateskirt (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite plateskirts" + "</col>" + " within Daemonheim."));
+				case 122:
+					return newstruct cs2func_script_978_struct(60, 16285, (object)"Members: Argonite gauntlets (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite gauntlets" + "</col>" + " within Daemonheim."));
+				case 123:
+					return newstruct cs2func_script_978_struct(60, 16351, (object)"Members: Argonite boots (Tier 7)", (object)("Members can now wear " + "<col=000080>" + "argonite boots" + "</col>" + " within Daemonheim."));
+				case 124:
+					return newstruct cs2func_script_978_struct(60, 17353, (object)"Members: Argonite kiteshield (Tier 7)", (object)("Members can now wield " + "<col=000080>" + "argonite kiteshields" + "</col>" + " within Daemonheim."));
+				case 125:
+					return newstruct cs2func_script_978_struct(60, 16747, (object)("Members: Soulbell hood (Tier 7)" + "<br>" + " (with 60 Magic)"), (object)("Members can now wear " + "<col=000080>" + "soulbell hoods" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)"));
+				case 126:
+					return newstruct cs2func_script_978_struct(60, 17229, (object)("Members: Soulbell robe top (Tier 7)" + "<br>" + " (with 60 Magic)"), (object)("Members can now wear " + "<col=000080>" + "soulbell robe tops" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)"));
+				case 127:
+					return newstruct cs2func_script_978_struct(60, 16857, (object)("Members: Soulbell robe bottom (Tier 7)" + "<br>" + " (with 60 Magic)"), (object)("Members can now wear " + "<col=000080>" + "soulbell robe bottoms" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)"));
+				case 128:
+					return newstruct cs2func_script_978_struct(60, 17163, (object)("Members: Soulbell gloves (Tier 7)" + "<br>" + " with 60 Magic)"), (object)("Members can now wear " + "<col=000080>" + "soulbell gloves" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)"));
+				case 129:
+					return newstruct cs2func_script_978_struct(60, 16923, (object)("Members: Soulbell boots (Tier 7)" + "<br>" + " (with 60 Magic)"), (object)("Members can now wear " + "<col=000080>" + "soulbell boots" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)"));
+				case 130:
+					return newstruct cs2func_script_978_struct(60, 17053, (object)("Members: Gallileather coif (Tier 7)" + "<br>" + " (with 60 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "gallileather coifs" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)"));
+				case 131:
+					return newstruct cs2func_script_978_struct(60, 17185, (object)("Members: Gallileather body (Tier 7)" + "<br>" + " (with 60 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "gallileather bodies" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)"));
+				case 132:
+					return newstruct cs2func_script_978_struct(60, 17331, (object)("Members: Gallileather chaps (Tier 7)" + "<br>" + " (with 60 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "gallileather chaps" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)"));
+				case 133:
+					return newstruct cs2func_script_978_struct(60, 17207, (object)("Members: Gallileather vambraces (Tier 7)" + "<br>" + " (with 60 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "gallileather vambraces" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)"));
+				case 134:
+					return newstruct cs2func_script_978_struct(60, 17309, (object)("Members: Gallileather boots (Tier 7)" + "<br>" + " (with 60 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "gallileather boots" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)"));
+				case 135:
+					return newstruct cs2func_script_978_struct(65, 17285, (object)"Members: Protector's ward", (object)("Members can now wield " + "<col=000080>" + "protector's wards" + "</col>" + " within Daemonheim."));
+				case 136:
+					return newstruct cs2func_script_978_struct(70, 16705, (object)"Members: Katagon full helm (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon full helms" + "</col>" + " within Daemonheim."));
+				case 137:
+					return newstruct cs2func_script_978_struct(70, 17253, (object)"Members: Katagon platebody (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon platebodies" + "</col>" + " within Daemonheim."));
+				case 138:
+					return newstruct cs2func_script_978_struct(70, 16727, (object)"Members: Katagon chainbody (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon chainbodies" + "</col>" + " within Daemonheim."));
+				case 139:
+					return newstruct cs2func_script_978_struct(70, 16683, (object)"Members: Katagon platelegs (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon platelegs" + "</col>" + " within Daemonheim."));
+				case 140:
+					return newstruct cs2func_script_978_struct(70, 16661, (object)"Members: Katagon plateskirt (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon plateskirts" + "</col>" + " within Daemonheim."));
+				case 141:
+					return newstruct cs2func_script_978_struct(70, 16287, (object)"Members: Katagon gauntlets (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon gauntlets" + "</col>" + " within Daemonheim."));
+				case 142:
+					return newstruct cs2func_script_978_struct(70, 16353, (object)"Members: Katagon boots (Tier 8)", (object)("Members can now wear " + "<col=000080>" + "katagon boots" + "</col>" + " within Daemonheim."));
+				case 143:
+					return newstruct cs2func_script_978_struct(70, 17355, (object)"Members: Katagon kiteshield (Tier 8)", (object)("Members can now wield " + "<col=000080>" + "katagon kiteshields" + "</col>" + " within Daemonheim."));
+				case 144:
+					return newstruct cs2func_script_978_struct(70, 16749, (object)("Members: Ectohood (Tier 8)" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "ectohoods" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)"));
+				case 145:
+					return newstruct cs2func_script_978_struct(70, 17231, (object)("Members: Ectorobe top (Tier 8)" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "ectorobe tops" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)"));
+				case 146:
+					return newstruct cs2func_script_978_struct(70, 16859, (object)("Members: Ectorobe bottom (Tier 8)" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "ectorobe bottoms" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)"));
+				case 147:
+					return newstruct cs2func_script_978_struct(70, 17165, (object)("Members: Ectogloves (Tier 8)" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "ectogloves" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)"));
+				case 148:
+					return newstruct cs2func_script_978_struct(70, 16925, (object)("Members: Ectoboots (Tier 8)" + "<br>" + " (with 70 Magic)"), (object)("Members can now wear " + "<col=000080>" + "ectoboots" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)"));
+				case 149:
+					return newstruct cs2func_script_978_struct(70, 17055, (object)("Members: Stegoleather coif (Tier 8)" + "<br>" + " (with 70 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "stegoleather coifs" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)"));
+				case 150:
+					return newstruct cs2func_script_978_struct(70, 17187, (object)("Members: Stegoleather body (Tier 8)" + "<br>" + " (with 70 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "stegoleather bodies" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)"));
+				case 151:
+					return newstruct cs2func_script_978_struct(70, 17333, (object)("Members: Stegoleather chaps (Tier 8)" + "<br>" + " (with 70 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "stegoleather chaps" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)"));
+				case 152:
+					return newstruct cs2func_script_978_struct(70, 17209, (object)("Members: Stegoleather vambraces (Tier 8)" + "<br>" + " (with 70 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "stegoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)"));
+				case 153:
+					return newstruct cs2func_script_978_struct(70, 17311, (object)("Members: Stegoleather boots (Tier 8)" + "<br>" + " (with 70 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "stegoleather boots" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)"));
+				case 154:
+					return newstruct cs2func_script_978_struct(80, 16707, (object)"Members: Gorgonite full helm (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite full helms" + "</col>" + " within Daemonheim."));
+				case 155:
+					return newstruct cs2func_script_978_struct(80, 17255, (object)"Members: Gorgonite platebody (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite platebodies" + "</col>" + " within Daemonheim."));
+				case 156:
+					return newstruct cs2func_script_978_struct(80, 16729, (object)"Members: Gorgonite chainbody (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite chainbodies" + "</col>" + " within Daemonheim."));
+				case 157:
+					return newstruct cs2func_script_978_struct(80, 16685, (object)"Members: Gorgonite platelegs (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite platelegs" + "</col>" + " within Daemonheim."));
+				case 158:
+					return newstruct cs2func_script_978_struct(80, 16663, (object)"Members: Gorgonite plateskirt (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite plateskirts" + "</col>" + " within Daemonheim."));
+				case 159:
+					return newstruct cs2func_script_978_struct(80, 16289, (object)"Members: Gorgonite gauntlets (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite gauntlets" + "</col>" + " within Daemonheim."));
+				case 160:
+					return newstruct cs2func_script_978_struct(80, 16355, (object)"Members: Gorgonite boots (Tier 9)", (object)("Members can now wear " + "<col=000080>" + "gorgonite boots" + "</col>" + " within Daemonheim."));
+				case 161:
+					return newstruct cs2func_script_978_struct(80, 17357, (object)"Members: Gorgonite kiteshield (Tier 9)", (object)("Members can now wield " + "<col=000080>" + "gorgonite kiteshields" + "</col>" + " within Daemonheim."));
+				case 162:
+					return newstruct cs2func_script_978_struct(80, 16751, (object)("Members: Runic hood (Tier 9)" + "<br>" + " (with 80 Magic)"), (object)("Members can now wear " + "<col=000080>" + "runic hoods" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)"));
+				case 163:
+					return newstruct cs2func_script_978_struct(80, 17233, (object)("Members: Runic robe top (Tier 9)" + "<br>" + " (with 80 Magic)"), (object)("Members can now wear " + "<col=000080>" + "runic robe tops" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)"));
+				case 164:
+					return newstruct cs2func_script_978_struct(80, 16861, (object)("Members: Runic robe bottom (Tier 9)" + "<br>" + " (with 80 Magic)"), (object)("Members can now wear " + "<col=000080>" + "runic robe bottoms" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)"));
+				case 165:
+					return newstruct cs2func_script_978_struct(80, 17167, (object)("Members: Runic gloves (Tier 9)" + "<br>" + " (with 80 Magic)"), (object)("Members can now wear " + "<col=000080>" + "runic gloves" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)"));
+				case 166:
+					return newstruct cs2func_script_978_struct(80, 16927, (object)("Members: Runic boots (Tier 9)" + "<br>" + " (with 80 Magic)"), (object)("Members can now wear " + "<col=000080>" + "runic boots" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)"));
+				case 167:
+					return newstruct cs2func_script_978_struct(80, 17057, (object)("Members: Megaleather coif (Tier 9)" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "megaleather coifs" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)"));
+				case 168:
+					return newstruct cs2func_script_978_struct(80, 17189, (object)("Members: Megaleather body (Tier 9)" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "megaleather bodies" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)"));
+				case 169:
+					return newstruct cs2func_script_978_struct(80, 17335, (object)("Members: Megaleather chaps (Tier 9)" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "megaleather chaps" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)"));
+				case 170:
+					return newstruct cs2func_script_978_struct(80, 17211, (object)("Members: Megaleather vambraces (Tier 9)" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "megaleather vambraces" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)"));
+				case 171:
+					return newstruct cs2func_script_978_struct(80, 17313, (object)("Members: Megaleather boots (Tier 9)" + "<br>" + " (with 80 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "megaleather boots" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)"));
+				case 172:
+					return newstruct cs2func_script_978_struct(83, 17283, (object)("Members: Grounding boots" + "<br>" + " (with 83 Ranged) "), (object)("Members can now wear " + "<col=000080>" + "grounding boots" + "</col>" + " within Daemonheim. (They also need level 83 Ranged.)"));
+				case 173:
+					return newstruct cs2func_script_978_struct(90, 16709, (object)"Members: Promethium full helm (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium full helms" + "</col>" + " within Daemonheim."));
+				case 174:
+					return newstruct cs2func_script_978_struct(90, 17257, (object)"Members: Promethium platebody (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium platebodies" + "</col>" + " within Daemonheim."));
+				case 175:
+					return newstruct cs2func_script_978_struct(90, 16731, (object)"Members: Promethium chainbody (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium chainbodies" + "</col>" + " within Daemonheim."));
+				case 176:
+					return newstruct cs2func_script_978_struct(90, 16687, (object)"Members: Promethium platelegs (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium platelegs" + "</col>" + " within Daemonheim."));
+				case 177:
+					return newstruct cs2func_script_978_struct(90, 16665, (object)"Members: Promethium plateskirt (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium plateskirts" + "</col>" + " within Daemonheim."));
+				case 178:
+					return newstruct cs2func_script_978_struct(90, 16291, (object)"Members: Promethium gauntlets (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium gauntlets" + "</col>" + " within Daemonheim."));
+				case 179:
+					return newstruct cs2func_script_978_struct(90, 16357, (object)"Members: Promethium boots (Tier 10)", (object)("Members can now wear " + "<col=000080>" + "promethium boots" + "</col>" + " within Daemonheim."));
+				case 180:
+					return newstruct cs2func_script_978_struct(90, 17359, (object)"Members: Promethium kiteshield (Tier 10)", (object)("Members can now wield " + "<col=000080>" + "promethium kiteshields" + "</col>" + " within Daemonheim."));
+				case 181:
+					return newstruct cs2func_script_978_struct(90, 16753, (object)("Members: Spiritbloom hood (Tier 10)" + "<br>" + " (with 90 Magic)"), (object)("Members can now wear " + "<col=000080>" + "spiritbloom hoods" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)"));
+				case 182:
+					return newstruct cs2func_script_978_struct(90, 17235, (object)("Members: Spiritbloom robe top (Tier 10)" + "<br>" + " (with 90 Magic)"), (object)("Members can now wear " + "<col=000080>" + "spiritbloom robe tops" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)"));
+				case 183:
+					return newstruct cs2func_script_978_struct(90, 16863, (object)("Members: Spiritbloom robe bottom (Tier 10)" + "<br>" + " (with 90 Magic)"), (object)("Members can now wear " + "<col=000080>" + "spiritbloom robe bottoms" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)"));
+				case 184:
+					return newstruct cs2func_script_978_struct(90, 17169, (object)("Members: Spiritbloom gloves (Tier 10)" + "<br>" + " (with 90 Magic)"), (object)("Members can now wear " + "<col=000080>" + "spiritbloom gloves" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)"));
+				case 185:
+					return newstruct cs2func_script_978_struct(90, 16929, (object)("Members: Spiritbloom boots (Tier 10)" + "<br>" + " (with 90 Magic)"), (object)("Members can now wear " + "<col=000080>" + "spiritbloom boots" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)"));
+				case 186:
+					return newstruct cs2func_script_978_struct(90, 17059, (object)("Members: Tyrannoleather coif (Tier 10)" + "<br>" + " (with 90 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "tyrannoleather coifs" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)"));
+				case 187:
+					return newstruct cs2func_script_978_struct(90, 17191, (object)("Members: Tyrannoleather body (Tier 10)" + "<br>" + " (with 90 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "tyrannoleather bodies" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)"));
+				case 188:
+					return newstruct cs2func_script_978_struct(90, 17337, (object)("Members: Tyrannoleather chaps (Tier 10)" + "<br>" + " (with 90 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "tyrannoleather chaps" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)"));
+				case 189:
+					return newstruct cs2func_script_978_struct(90, 17213, (object)("Members: Tyrannoleather vambraces (Tier 10)" + "<br>" + " (with 90 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "tyrannoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)"));
+				case 190:
+					return newstruct cs2func_script_978_struct(90, 17315, (object)("Members: Tyrannoleather boots (Tier 10)" + "<br>" + " (with 90 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "tyrannoleather boots" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)"));
+				case 191:
+					return newstruct cs2func_script_978_struct(94, 17287, (object)"Members: Guardian's ward ", (object)("Members can now wield " + "<col=000080>" + "guardian's wards" + "</col>" + " within Daemonheim."));
+				case 192:
+					return newstruct cs2func_script_978_struct(99, 16711, (object)"Members: Primal full helm (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal full helms" + "</col>" + " within Daemonheim."));
+				case 193:
+					return newstruct cs2func_script_978_struct(99, 17259, (object)"Members: Primal platebody (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal platebodies" + "</col>" + " within Daemonheim."));
+				case 194:
+					return newstruct cs2func_script_978_struct(99, 16733, (object)"Members: Primal chainbody (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal chainbodies" + "</col>" + " within Daemonheim."));
+				case 195:
+					return newstruct cs2func_script_978_struct(99, 16689, (object)"Members: Primal platelegs (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal platelegs" + "</col>" + " within Daemonheim."));
+				case 196:
+					return newstruct cs2func_script_978_struct(99, 16667, (object)"Members: Primal plateskirt (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal plateskirts" + "</col>" + " within Daemonheim."));
+				case 197:
+					return newstruct cs2func_script_978_struct(99, 16293, (object)"Members: Primal gauntlets (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal gauntlets" + "</col>" + " within Daemonheim."));
+				case 198:
+					return newstruct cs2func_script_978_struct(99, 16359, (object)"Members: Primal boots (Tier 11)", (object)("Members can now wear " + "<col=000080>" + "primal boots" + "</col>" + " within Daemonheim."));
+				case 199:
+					return newstruct cs2func_script_978_struct(99, 17361, (object)"Members: Primal kiteshield (Tier 11)", (object)("Members can now wield " + "<col=000080>" + "primal kiteshields" + "</col>" + " within Daemonheim."));
+				case 200:
+					return newstruct cs2func_script_978_struct(99, 16755, (object)("Members: Celestial hood (Tier 11)" + "<br>" + " (with 99 Magic)"), (object)("Members can now wear " + "<col=000080>" + "celestial hoods" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)"));
+				case 201:
+					return newstruct cs2func_script_978_struct(99, 17237, (object)("Members: Celestial robe top (Tier 11)" + "<br>" + " (with 99 Magic)"), (object)("Members can now wear " + "<col=000080>" + "celestial robe tops" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)"));
+				case 202:
+					return newstruct cs2func_script_978_struct(99, 16865, (object)("Members: Celestial robe bottom (Tier 11)" + "<br>" + " (with 99 Magic)"), (object)("Members can now wear " + "<col=000080>" + "celestial robe bottoms" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)"));
+				case 203:
+					return newstruct cs2func_script_978_struct(99, 17171, (object)("Members: Celestial gloves (Tier 11)" + "<br>" + " (with 99 Magic)"), (object)("Members can now wear " + "<col=000080>" + "celestial gloves" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)"));
+				case 204:
+					return newstruct cs2func_script_978_struct(99, 16931, (object)("Members: Celestial boots (Tier 11)" + "<br>" + " (with 99 Magic)"), (object)("Members can now wear " + "<col=000080>" + "celestial boots" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)"));
+				case 205:
+					return newstruct cs2func_script_978_struct(99, 17061, (object)("Members: Sagittarian coif (Tier 11)" + "<br>" + " (with 99 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "sagittarian coifs" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)"));
+				case 206:
+					return newstruct cs2func_script_978_struct(99, 17193, (object)("Members: Sagittarian body (Tier 11)" + "<br>" + " (with 99 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "sagittarian bodies" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)"));
+				case 207:
+					return newstruct cs2func_script_978_struct(99, 17339, (object)("Members: Sagittarian chaps (Tier 11)" + "<br>" + " (with 99 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "sagittarian chaps" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)"));
+				case 208:
+					return newstruct cs2func_script_978_struct(99, 17215, (object)("Members: Sagittarian vambraces (Tier 11)" + "<br>" + " (with 99 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "sagittarian vambraces" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)"));
+				case 209:
+					return newstruct cs2func_script_978_struct(99, 17317, (object)("Members: Sagittarian boots (Tier 11)" + "<br>" + " (with 99 Ranged)"), (object)("Members can now wear " + "<col=000080>" + "sagittarian boots" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)"));
+			}
+			break;
+		case 14:
+			if (arg1 == 0) {
+				return newstruct cs2func_script_978_struct(99, 9753, (object)"Skill mastery", (object)("<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Defence" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "Melee Instructor" + "<col=000080>" + " in " + "<col=800000>" + "Lumbridge" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Defence" + "<col=000080>" + " skill!"));
+			}
+	}
+	return newstruct cs2func_script_978_struct(0, -1, (object)"", (object)"");
+}

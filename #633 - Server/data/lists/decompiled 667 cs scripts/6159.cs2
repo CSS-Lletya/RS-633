@@ -1,0 +1,16 @@
+void script_6159(int arg0,int arg1) {
+	switch (globalint_1917) {
+		case 1:
+			script_569(arg0, -1, arg1, 25, 190, (object)"Current Floor: Bottom Floor");
+			break;
+		case 2:
+			script_569(arg0, -1, arg1, 25, 190, (object)"Current Floor: Middle Floor");
+			break;
+		case 3:
+			script_569(arg0, -1, arg1, 25, 190, (object)"Current Floor: Top Floor");
+			break;
+		default:
+			script_569(arg0, -1, arg1, 25, 190, (object)"Current Floor.");
+	}
+	return;
+}

@@ -1,0 +1,71 @@
+void script_1558(int arg0) {
+	if (script_2709() == 0 && standart_config_281 == 1000) {
+		setWidgetText(new WidgetPointer(137,56), (object)"");
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(137,56));
+		cs2method_20219(-1, "", new WidgetPointer(137,56));
+		setWidgetIsHidden(true, new WidgetPointer(137,57));
+		cs2method_10444(0, 72, 0, 0, 8978490);
+		cs2method_10893(488, 72, 0, 1, 8978490);
+		cs2method_10444(0, 72, 2, 0, 8978491);
+		cs2method_10893(16, 72, 0, 1, 8978491);
+		setWidgetIsHidden(true, new WidgetPointer(137,51));
+		setWidgetIsHidden(true, new WidgetPointer(137,52));
+		setWidgetIsHidden(true, new WidgetPointer(137,56));
+		setWidgetIsHidden(false, new WidgetPointer(137,60));
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(137,57));
+	cs2method_10444(0, 0, 0, 0, 8978490);
+	cs2method_10893(488, 17, 0, 1, 8978490);
+	cs2method_10444(0, 0, 2, 0, 8978491);
+	cs2method_10893(16, 17, 0, 1, 8978491);
+	if (cs2method_10842() >= 2) {
+		setWidgetIsHidden(false, new WidgetPointer(137,52));
+		setWidgetIsHidden(true, new WidgetPointer(137,51));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(137,52));
+		setWidgetIsHidden(false, new WidgetPointer(137,51));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(137,56));
+	setWidgetIsHidden(true, new WidgetPointer(137,60));
+	if (arg0 == 1 && (cs2method_10062() == 1 || cs2method_10815() == 1)) {
+		setWidgetText(new WidgetPointer(137,56), (object)"Left-click here to enter Public Quick Chat or right-click for Friends Channel Quick Chat.");
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(137,56));
+		cs2method_20219(-1, "", new WidgetPointer(137,56));
+		setWidgetIsHidden(true, new WidgetPointer(137,57));
+		return;
+	}
+	if (globalint_1650 == 1) {
+		setWidgetText(new WidgetPointer(137,53), (object)("To " + globalstring_23 + ":"));
+	} else if (globalint_1651 == 2) {
+		setWidgetText(new WidgetPointer(137,53), (object)("Clan Chat" + "<img=3>" + ":"));
+	} else if (globalint_1651 == 3) {
+		setWidgetText(new WidgetPointer(137,53), (object)("Guest Clan Chat" + "<img=3>" + ":"));
+	} else if (globalint_1651 == 1) {
+		setWidgetText(new WidgetPointer(137,53), (object)("Friends Chat" + "<img=3>" + ":"));
+	} else {
+		setWidgetText(new WidgetPointer(137,53), (object)((string)cs2method_10758() + "<img=3>" + ":"));
+	}
+	if (cs2method_10842() >= 2) {
+		setWidgetRGB(8366591, 8978488);
+		setWidgetRGB(16777215, 8978485);
+		setWidgetRGB(16777215, 8978489);
+	} else {
+		setWidgetRGB(255, 8978488);
+		setWidgetRGB(0, 8978485);
+		setWidgetRGB(0, 8978489);
+	}
+	setWidgetText(new WidgetPointer(137,56), cs2method_10991((object)globalstring_1));
+	cs2method_10893(cs2method_10355(495, cs2method_10100(8978485)), cs2method_10090(8978485), 0, 0, 8978485);
+	cs2method_10444(add(add(cs2method_10111(8978485), cs2method_10956(8978485)), 2), 0, 0, 2, 8978487);
+	cs2method_10893(subtract(subtract(cs2method_10956(8978482), cs2method_10111(8978487)), 5), cs2method_10090(8978487), 0, 0, 8978487);
+	setScriptCallOnMousePressed(1554, -2147483647, 0, "ii", new WidgetPointer(137,56));
+	globalint_1028 = cs2method_10004(cs2method_10586(globalint_1028, cs2method_10366(cs2method_10991((object)globalstring_1))), 0);
+	script_1555(0);
+	if (cs2method_10366(cs2method_10758()) > 0) {
+		cs2method_20219(-1, "", new WidgetPointer(137,58));
+	} else {
+		cs2method_20219(4308, arg0, "1", new WidgetPointer(137,58));
+	}
+	return;
+}

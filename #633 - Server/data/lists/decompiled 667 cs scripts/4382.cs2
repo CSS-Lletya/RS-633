@@ -1,0 +1,4 @@
+void script_4382() {
+	cs2method_10558(cs2method_10222((object)globalstring_345));
+	return;
+}

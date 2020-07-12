@@ -1,0 +1,6 @@
+void script_5449(int arg0,int arg1) {
+	if (globalint_1681 != arg1) {
+		cs2method_10467(8431, arg0);
+	}
+	return;
+}

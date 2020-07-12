@@ -1,0 +1,61 @@
+void script_3437() {
+	int ivar0;
+	ivar0 = -1;
+	if (bitconfig_7912 == 0 || bitconfig_7904 == 8 && bitconfig_7921 == 1 && bitconfig_7916 == 0) {
+		if (bitconfig_7919 < 3) {
+			if (bitconfig_7920 == 1) {
+				ivar0 = getDataByKey('i', 'm', 5079, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 2) {
+				ivar0 = getDataByKey('i', 'm', 5080, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 3) {
+				ivar0 = getDataByKey('i', 'm', 5081, bitconfig_7919);
+			}
+		} else if (bitconfig_7919 < 6) {
+			if (bitconfig_7920 == 1) {
+				ivar0 = getDataByKey('i', 'm', 5080, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 2) {
+				ivar0 = getDataByKey('i', 'm', 5081, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 3) {
+				ivar0 = getDataByKey('i', 'm', 5079, bitconfig_7919);
+			}
+		} else if (bitconfig_7919 == 10) {
+			if (bitconfig_7920 == 3) {
+				ivar0 = getDataByKey('i', 'm', 5080, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 2) {
+				ivar0 = getDataByKey('i', 'm', 5081, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 1) {
+				ivar0 = getDataByKey('i', 'm', 5079, bitconfig_7919);
+			}
+		} else {
+			if (bitconfig_7920 == 1) {
+				ivar0 = getDataByKey('i', 'm', 5081, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 2) {
+				ivar0 = getDataByKey('i', 'm', 5079, bitconfig_7919);
+			}
+			if (bitconfig_7920 == 3) {
+				ivar0 = getDataByKey('i', 'm', 5080, bitconfig_7919);
+			}
+		}
+		cs2method_10461(ivar0, 64618499);
+		if (bitconfig_7920 != 0) {
+			setWidgetIsHidden(false, new WidgetPointer(986,5));
+		}
+		if (bitconfig_7920 == 1) {
+			cs2method_10444(30, 205, 0, 0, 64618501);
+		} else if (bitconfig_7920 == 2) {
+			cs2method_10444(112, 205, 0, 0, 64618501);
+		} else if (bitconfig_7920 == 3) {
+			cs2method_10444(196, 205, 0, 0, 64618501);
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(986,5));
+		}
+	}
+	return;
+}

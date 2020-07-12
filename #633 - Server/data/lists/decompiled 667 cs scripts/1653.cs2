@@ -1,0 +1,17 @@
+int script_1653() {
+	flow_0:
+		IF (cs2method_10416(49283080) == 1) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (cs2method_10416(49283075) == 0 || cs2method_10416(49283079) == 0) 
+			GOTO	flow_3
+	flow_2:
+		IF (cs2method_10837(49283085) == 1 || cs2method_10837(49283084) == 1 || cs2method_10837(49283083) == 1 || cs2method_10837(49283082) == 1 || cs2method_10416(8978432) == 0) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_3:
+		return 1;
+	flow_4:
+		return 0;
+}

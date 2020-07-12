@@ -1,0 +1,316 @@
+void script_5574() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	if (bitconfig_10336 < 9) {
+		ivar13 = -108;
+	} else if (bitconfig_10336 < 17) {
+		ivar13 = -54;
+	} else if (bitconfig_10336 < 29) {
+		ivar13 = 0;
+	} else if (bitconfig_10336 < 37) {
+		ivar13 = 54;
+	} else {
+		if (bitconfig_10336 < 46) {
+			ivar13 = 108;
+		}
+	}
+	ivar14 = 0;
+	if (bitconfig_10337 < 9) {
+		ivar14 = 108;
+	} else if (bitconfig_10337 < 17) {
+		ivar14 = 54;
+	} else if (bitconfig_10337 < 29) {
+		ivar14 = 0;
+	} else if (bitconfig_10337 < 37) {
+		ivar14 = -54;
+	} else {
+		if (bitconfig_10337 < 46) {
+			ivar14 = -108;
+		}
+	}
+	if (bitconfig_10305 == 1) {
+		ivar0 = 1;
+	} else {
+		if (bitconfig_10305 == 2) {
+			ivar1 = 1;
+		}
+	}
+	if (bitconfig_10306 == 1) {
+		ivar0 = 2;
+	} else {
+		if (bitconfig_10306 == 2) {
+			ivar1 = 2;
+		}
+	}
+	if (bitconfig_10307 == 1) {
+		ivar0 = 3;
+	} else {
+		if (bitconfig_10307 == 2) {
+			ivar1 = 3;
+		}
+	}
+	if (bitconfig_10308 == 1) {
+		ivar0 = 4;
+	} else {
+		if (bitconfig_10308 == 2) {
+			ivar1 = 4;
+		}
+	}
+	if (bitconfig_10309 == 1) {
+		ivar0 = 5;
+	} else {
+		if (bitconfig_10309 == 2) {
+			ivar1 = 5;
+		}
+	}
+	if (bitconfig_10310 == 1) {
+		ivar0 = 6;
+	} else {
+		if (bitconfig_10310 == 2) {
+			ivar1 = 6;
+		}
+	}
+	if (bitconfig_10311 == 1) {
+		ivar0 = 7;
+	} else {
+		if (bitconfig_10311 == 2) {
+			ivar1 = 7;
+		}
+	}
+	if (bitconfig_10312 == 1) {
+		ivar0 = 8;
+	} else {
+		if (bitconfig_10312 == 2) {
+			ivar1 = 8;
+		}
+	}
+	if (bitconfig_10314 == 1) {
+		ivar2 = 1;
+	} else {
+		if (bitconfig_10314 == 2) {
+			ivar3 = 1;
+		}
+	}
+	if (bitconfig_10315 == 1) {
+		ivar2 = 2;
+	} else {
+		if (bitconfig_10315 == 2) {
+			ivar3 = 2;
+		}
+	}
+	if (bitconfig_10316 == 1) {
+		ivar2 = 3;
+	} else {
+		if (bitconfig_10316 == 2) {
+			ivar3 = 3;
+		}
+	}
+	if (bitconfig_10317 == 1) {
+		ivar2 = 4;
+	} else {
+		if (bitconfig_10317 == 2) {
+			ivar3 = 4;
+		}
+	}
+	if (bitconfig_10318 == 1) {
+		ivar2 = 5;
+	} else {
+		if (bitconfig_10318 == 2) {
+			ivar3 = 5;
+		}
+	}
+	if (bitconfig_10319 == 1) {
+		ivar2 = 6;
+	} else {
+		if (bitconfig_10319 == 2) {
+			ivar3 = 6;
+		}
+	}
+	if (bitconfig_10320 == 1) {
+		ivar2 = 7;
+	} else {
+		if (bitconfig_10320 == 2) {
+			ivar3 = 7;
+		}
+	}
+	if (bitconfig_10321 == 1) {
+		ivar2 = 8;
+	} else {
+		if (bitconfig_10321 == 2) {
+			ivar3 = 8;
+		}
+	}
+	switch (ivar0) {
+		case 1:
+			ivar4 = 0;
+			ivar5 = -108;
+			break;
+		case 2:
+			ivar4 = 0;
+			ivar5 = -54;
+			break;
+		case 3:
+			ivar4 = -108;
+			ivar5 = 0;
+			break;
+		case 4:
+			ivar4 = -54;
+			ivar5 = 0;
+			break;
+		case 5:
+			ivar4 = 54;
+			ivar5 = 0;
+			break;
+		case 6:
+			ivar4 = 108;
+			ivar5 = 0;
+			break;
+		case 7:
+			ivar4 = 0;
+			ivar5 = 54;
+			break;
+		case 8:
+			ivar4 = 0;
+			ivar5 = 108;
+	}
+	switch (ivar1) {
+		case 1:
+			ivar6 = 0;
+			ivar7 = -108;
+			break;
+		case 2:
+			ivar6 = 0;
+			ivar7 = -54;
+			break;
+		case 3:
+			ivar6 = -108;
+			ivar7 = 0;
+			break;
+		case 4:
+			ivar6 = -54;
+			ivar7 = 0;
+			break;
+		case 5:
+			ivar6 = 54;
+			ivar7 = 0;
+			break;
+		case 6:
+			ivar6 = 108;
+			ivar7 = 0;
+			break;
+		case 7:
+			ivar6 = 0;
+			ivar7 = 54;
+			break;
+		case 8:
+			ivar6 = 0;
+			ivar7 = 108;
+	}
+	switch (ivar2) {
+		case 1:
+			ivar8 = -54;
+			ivar9 = -108;
+			break;
+		case 2:
+			ivar8 = 54;
+			ivar9 = -108;
+			break;
+		case 3:
+			ivar8 = -108;
+			ivar9 = -54;
+			break;
+		case 4:
+			ivar8 = 108;
+			ivar9 = 54;
+			break;
+		case 5:
+			ivar8 = -108;
+			ivar9 = 54;
+			break;
+		case 6:
+			ivar8 = 108;
+			ivar9 = 54;
+			break;
+		case 7:
+			ivar8 = -54;
+			ivar9 = 108;
+			break;
+		case 8:
+			ivar8 = 54;
+			ivar9 = 108;
+	}
+	switch (ivar3) {
+		case 1:
+			ivar10 = -54;
+			ivar11 = -108;
+			break;
+		case 2:
+			ivar10 = 54;
+			ivar11 = -108;
+			break;
+		case 3:
+			ivar10 = -108;
+			ivar11 = -54;
+			break;
+		case 4:
+			ivar10 = 108;
+			ivar11 = 54;
+			break;
+		case 5:
+			ivar10 = -108;
+			ivar11 = 54;
+			break;
+		case 6:
+			ivar10 = 108;
+			ivar11 = 54;
+			break;
+		case 7:
+			ivar10 = -54;
+			ivar11 = 108;
+			break;
+		case 8:
+			ivar10 = 54;
+			ivar11 = 108;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(1182,48));
+	setWidgetIsHidden(true, new WidgetPointer(1182,49));
+	cs2method_10444(ivar8, ivar9, 1, 1, 77463600);
+	cs2method_10444(ivar10, ivar11, 1, 1, 77463601);
+	cs2method_10444(ivar4, ivar5, 1, 1, 77463598);
+	cs2method_10444(ivar6, ivar7, 1, 1, 77463597);
+	cs2method_10444(ivar13, ivar14, 1, 1, 77463599);
+	if (ivar2 != 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1182,48));
+	}
+	if (ivar3 != 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1182,49));
+	}
+	return;
+}

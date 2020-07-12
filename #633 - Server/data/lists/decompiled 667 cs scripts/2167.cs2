@@ -1,0 +1,12 @@
+void script_2167() {
+	if (compareTo(cs2method_10547(0, 1, cs2method_10664()), (object)"#") == 0) {
+		return;
+	}
+	if (standart_config_2522 == 2) {
+		setWidgetIsHidden(true, new WidgetPointer(906,35));
+		cs2method_20219(-1, "", new WidgetPointer(906,466));
+		setWidgetIsHidden(false, new WidgetPointer(906,36));
+		cs2method_10928(59375652);
+	}
+	return;
+}

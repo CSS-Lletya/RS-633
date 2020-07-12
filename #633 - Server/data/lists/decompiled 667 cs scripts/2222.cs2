@@ -1,0 +1,20 @@
+void script_2222(int arg0) {
+	switch (arg0) {
+		case 13:
+			cs2method_10897();
+			cs2method_10060(18);
+			script_1174(11);
+			break;
+		case 84:
+			if (cs2method_10416(43843597) == 1) {
+				if (globalint_1088 == 1) {
+					script_5635((object)"dob", (object)"set_members_dob.ws");
+				} else {
+					script_5637();
+				}
+			} else {
+				script_2715();
+			}
+	}
+	return;
+}

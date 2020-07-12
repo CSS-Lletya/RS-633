@@ -1,0 +1,93 @@
+void script_1999(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	flow_0:
+		ivar9 = standart_config_2525;
+		ivar10 = standart_config_2526;
+		ivar11 = standart_config_2527;
+		ivar12 = standart_config_2528;
+		if (arg3 == 0 && (ivar10 != 0 || ivar11 != 0 || ivar12 != 0 || standart_config_2525 != 0)) {
+			arg3 = 1;
+		}
+		IF (arg3 == 1) 
+			GOTO	flow_4
+		GOTO	flow_25
+	flow_4:
+		IF (globalint_1745 == 1) 
+			GOTO	flow_5
+		GOTO	flow_9
+	flow_5:
+		IF (cs2method_10980() == 0) 
+			GOTO	flow_6
+		GOTO	flow_6
+	flow_6:
+		if (cs2method_10980() == 1) {
+			script_1299(arg1, arg2);
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			cs2method_10499(arg4);
+			cs2method_10734(arg5);
+			cs2method_10510(arg6);
+			cs2method_10750(arg7);
+			cs2method_10422(arg8);
+			globalint_1745 = 0;
+			return;
+		}
+		GOTO	flow_25
+	flow_9:
+		if (cs2method_10669() == 0 && ivar11 > 0 && ivar11 < ivar12) {
+			flow_12:
+				IF (cs2method_10880(5) == 1) 
+					GOTO	flow_13
+				GOTO	flow_13
+			flow_13:
+				globalint_1745 = 1;
+				script_5874();
+				return;
+		}
+		IF (cs2method_10516() <= add(ivar9, 30)) 
+			GOTO	flow_15
+		GOTO	flow_17
+	flow_15:
+		IF (cs2method_10880(1) == 1) 
+			GOTO	flow_16
+		GOTO	flow_16
+	flow_16:
+		globalint_1745 = 1;
+		script_5874();
+		GOTO	flow_25
+	flow_17:
+		IF (cs2method_10516() <= add(ivar9, 182)) 
+			GOTO	flow_18
+		GOTO	flow_20
+	flow_18:
+		IF (cs2method_10880(2) == 1) 
+			GOTO	flow_19
+		GOTO	flow_19
+	flow_19:
+		globalint_1745 = 1;
+		script_5874();
+		GOTO	flow_25
+	flow_20:
+		IF (cs2method_10516() <= add(ivar9, 365)) 
+			GOTO	flow_21
+		GOTO	flow_23
+	flow_21:
+		IF (cs2method_10880(3) == 1) 
+			GOTO	flow_22
+		GOTO	flow_22
+	flow_22:
+		globalint_1745 = 1;
+		script_5874();
+		GOTO	flow_25
+	flow_23:
+		IF (cs2method_10880(4) == 1) 
+			GOTO	flow_24
+		GOTO	flow_24
+	flow_24:
+		globalint_1745 = 1;
+		script_5874();
+	flow_25:
+		return;
+}

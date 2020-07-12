@@ -1,0 +1,665 @@
+object script_3223(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	flow_0:
+		ovar0 = (object)"";
+		ivar2 = 0;
+		SWITCH (arg0) {
+			case 23:
+				 GOTO flow_1
+			case 147:
+				 GOTO flow_1
+			case 167:
+				 GOTO flow_1
+			case 294:
+				 GOTO flow_1
+			case 249:
+				 GOTO flow_1
+			case 961:
+				 GOTO flow_1
+			case 49:
+				 GOTO flow_5
+			case 59:
+				 GOTO flow_9
+			case 107:
+				 GOTO flow_13
+			case 178:
+				 GOTO flow_19
+			case 180:
+				 GOTO flow_23
+			case 177:
+				 GOTO flow_27
+			case 316:
+				 GOTO flow_31
+			case 321:
+				 GOTO flow_35
+			case 322:
+				 GOTO flow_39
+			case 323:
+				 GOTO flow_43
+			case 175:
+				 GOTO flow_47
+			case 219:
+				 GOTO flow_51
+			case 331:
+				 GOTO flow_51
+			case 248:
+				 GOTO flow_55
+			case 276:
+				 GOTO flow_59
+			case 3011:
+				 GOTO flow_59
+			case 281:
+				 GOTO flow_63
+			case 285:
+				 GOTO flow_70
+			case 289:
+				 GOTO flow_74
+			case 300:
+				 GOTO flow_78
+			case 3000:
+				 GOTO flow_82
+			case 3001:
+				 GOTO flow_91
+			case 914:
+				 GOTO flow_91
+			case 912:
+				 GOTO flow_91
+			case 913:
+				 GOTO flow_91
+			case 3013:
+				 GOTO flow_91
+			case 3031:
+				 GOTO flow_91
+			case 3002:
+				 GOTO flow_95
+			case 12:
+				 GOTO flow_107
+			case 3003:
+				 GOTO flow_111
+			case 3007:
+				 GOTO flow_115
+			case 3008:
+				 GOTO flow_119
+			case 3010:
+				 GOTO flow_123
+			case 3012:
+				 GOTO flow_127
+			case 3015:
+				 GOTO flow_131
+			case 3034:
+				 GOTO flow_135
+			case 610:
+				 GOTO flow_139
+			case 448:
+				 GOTO flow_143
+			case 466:
+				 GOTO flow_147
+			case 457:
+				 GOTO flow_151
+			case 497:
+				 GOTO flow_155
+			case 506:
+				 GOTO flow_159
+			case 858:
+				 GOTO flow_163
+			case 881:
+				 GOTO flow_167
+			case 911:
+				 GOTO flow_172
+			case 916:
+				 GOTO flow_176
+			case 915:
+				 GOTO flow_176
+			case 513:
+				 GOTO flow_180
+			case 518:
+				 GOTO flow_184
+			case 530:
+				 GOTO flow_188
+			case 656:
+				 GOTO flow_192
+			case 818:
+				 GOTO flow_196
+			case 819:
+				 GOTO flow_200
+			case 820:
+				 GOTO flow_204
+			case 822:
+				 GOTO flow_208
+			case 933:
+				 GOTO flow_212
+			case 928:
+				 GOTO flow_212
+			case 623:
+				 GOTO flow_216
+			case 908:
+				 GOTO flow_220
+			case 447:
+				 GOTO flow_224
+			case 659:
+				 GOTO flow_228
+			case 449:
+				 GOTO flow_232
+			case 985:
+				 GOTO flow_236
+			case 976:
+				 GOTO flow_241
+			case 991:
+				 GOTO flow_245
+			case 980:
+				 GOTO flow_249
+			case 982:
+				 GOTO flow_254
+		}
+		ovar0 = (object)"";
+		ivar2 = 0;
+		GOTO	flow_257
+	flow_1:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must have access to the fairy ring network to complete this Task.";
+			if (bitconfig_2328 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_5:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must unlock 500 music tracks in order to perform the Air Guitar emote.";
+			if (bitconfig_4394 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_9:
+		if (arg1 == 2) {
+			ovar0 = (object)"You must also have completed the Abyss miniquest.";
+			if (standart_config_492 >= 4) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_13:
+		IF (arg1 == 1) 
+			GOTO	flow_14
+		GOTO	flow_18
+	flow_14:
+		ovar0 = (object)"You must have progressed to a certain point in the Dragon Slayer quest.";
+		IF (standart_config_176 >= 2) 
+			GOTO	flow_15
+		GOTO	flow_16
+	flow_15:
+		IF (bitconfig_3746 == 0) 
+			GOTO	flow_17
+	flow_16:
+		IF (standart_config_176 >= 10) 
+			GOTO	flow_17
+		GOTO	flow_18
+	flow_17:
+		ivar2 = 1;
+	flow_18:
+		GOTO	flow_257
+	flow_19:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3757 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_23:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3764 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_27:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3764 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_31:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3757 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_35:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3764 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_39:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3763 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_43:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must begin the relevant section of Otto Godblessed's barbarian training.";
+			if (bitconfig_3761 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_47:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must complete the Bar Crawl miniquest.";
+			if (standart_config_76 >= 6 || bitconfig_3378 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_51:
+		if (arg1 == 2) {
+			ovar0 = (object)("You must have a combat level of at least " + toString(150) + " to accept an assignment in Shilo Village.");
+			if (script_1432() >= 150) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_55:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must have completed the Knight Waves in Camelot.";
+			if (bitconfig_3909 == 8) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_59:
+		if (arg1 == 1) {
+			ovar0 = (object)"You require 33 Quest Points to enter the Champions' Guild.";
+			if (standart_config_101 >= 33) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_63:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must unlock all four emotes by completing levels of the Stronghold of Security.";
+			if (bitconfig_2309 == 1 && bitconfig_2310 == 1 && bitconfig_2311 == 1 && bitconfig_2312 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_70:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must learn the secret of the Senntisten necklace.";
+			if (bitconfig_3639 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_74:
+		if (arg1 == 1) {
+			ovar0 = (object)("You must have a combat level of at least " + toString(60) + " to accept an assignment from Vannaka.");
+			if (script_1432() >= 60) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_78:
+		if (arg1 == 1) {
+			ovar0 = (object)"Completing quests will increase your access to Kudos with the Varrock Museum.";
+			if (script_4035() >= 153) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_82:
+		if (arg1 == 2) {
+			if (cs2method_10243() >= standart_config_451) {
+				ivar2 = 1;
+			}
+			ovar0 = (object)"You may gather the Tears of Guthix once every week.";
+		} else {
+			if (arg1 == 3) {
+				if (standart_config_101 >= bitconfig_456 || script_4218() <= 0) {
+					ivar2 = 1;
+				}
+				ovar0 = (object)"You must have gained a Quest Point or 100,000 total experience to enter Juna's cavern.";
+			}
+		}
+		GOTO	flow_257
+	flow_91:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must have a combat level of at least 55.";
+			if (cs2method_10137() >= 55) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_95:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must have Larry or Chuck explain the purpose of penguin spying.";
+			if (bitconfig_5277 == 1) {
+				ivar2 = 1;
+			}
+		} else if (arg1 == 2) {
+			ovar0 = (object)"You must have spied on fewer than ten penguins already this week.";
+			if (bitconfig_5276 < 10) {
+				ivar2 = 1;
+			}
+		} else {
+			if (arg1 == 3) {
+				ovar0 = (object)"You may spy on penguins if your total Penguin Points are less than the maximum of fifty.";
+				if (bitconfig_5275 < 50) {
+					ivar2 = 1;
+				}
+			}
+		}
+		GOTO	flow_257
+	flow_107:
+		if (arg1 == 1) {
+			ovar0 = (object)"You must have Larry or Chuck explain the purpose of Penguin Hide and Seek.";
+			if (bitconfig_5277 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_111:
+		if (arg1 == 1) {
+			ovar0 = (object)"You may not chop down more than two evil trees per day.";
+			if (bitconfig_1545 < 2) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_115:
+		if (arg1 == 1) {
+			ovar0 = (object)"You may attempt the Agility, Magic and Ranged performances after a week has passed since your last show.";
+			if (bitconfig_5251 == 0 || bitconfig_5252 == 0 || bitconfig_5253 == 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_119:
+		if (arg1 == 2) {
+			ovar0 = (object)"You must wait at least a day since you last faced Bork.";
+			if (standart_config_1199 != cs2method_10516()) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_123:
+		if (arg1 == 2) {
+			ovar0 = (object)"At least a week must pass since you last faced the Skeletal Horror.";
+			if (cs2method_10243() > bitconfig_6305) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_127:
+		if (arg1 == 1) {
+			ovar0 = (object)"You require 50 Runecrafting to enter the Runecrafters' Guild.";
+			if (cs2method_10453(20) >= 50) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_131:
+		if (arg1 == 2) {
+			ovar0 = (object)"You must have at least 65 Attack or Defence in order to take on a case.";
+			if (cs2method_10453(0) >= 65 || cs2method_10453(1) >= 65) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_135:
+		if (arg1 == 1) {
+			ovar0 = (object)"To enter the Warriors' Guild your Attack or Strength level must be 99, or your combined Attack and Strength levels must total 130 or more.";
+			if (add(cs2method_10453(2), cs2method_10453(0)) >= 130 || cs2method_10453(0) >= 99 || cs2method_10453(2) >= 99) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_139:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to have made some progress in the Icthlarin's Little Helper quest to enter Sophanem.";
+			if (bitconfig_418 >= 3) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_143:
+		if (arg1 == 10) {
+			ovar0 = (object)"You must have at least 56 Quest Points to begin this quest.";
+			if (standart_config_101 > 55) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_147:
+		if (arg1 == 3) {
+			ovar0 = (object)"You must complete the bar crawl miniquest.";
+			if (standart_config_76 >= 6 || bitconfig_3378 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_151:
+		if (arg1 == 5) {
+			ovar0 = (object)("You must have a combat level of at least " + toString(130) + " to begin this quest.");
+			if (script_1432() >= 130) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_155:
+		if (arg1 == 9) {
+			ovar0 = (object)"You must have at least 101 Quest Points to begin this quest.";
+			if (standart_config_101 >= 101) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_159:
+		if (arg1 == 4) {
+			ovar0 = (object)"You must have at least 21 Quest Points to begin this quest.";
+			if (standart_config_101 >= 21) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_163:
+		if (arg1 == 2) {
+			ovar0 = (object)"You must have either started The Giant Dwarf or completed Priest in Peril to complete this task.";
+			if (standart_config_302 >= 60 || bitconfig_571 >= 5) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_167:
+		if (arg1 == 2) {
+			ovar0 = (object)"You must have finished the gnome cooking and gnome cocktail tutorials to complete this task.";
+			if (standart_config_205 >= 7 && standart_config_206 >= 7) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_172:
+		if (arg1 == 1) {
+			ovar0 = (object)("You should have a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_176:
+		if (arg1 == 1) {
+			ovar0 = (object)("You should have a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_180:
+		if (arg1 == 5) {
+			ovar0 = (object)"You must play a game of Pest Control.";
+			if (bitconfig_2086 > 0 || bitconfig_7973 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_184:
+		if (arg1 == 1) {
+			ovar0 = (object)"You require at least 13 Quest Points.";
+			if (standart_config_101 >= 13) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_188:
+		if (arg1 == 4) {
+			ovar0 = (object)"You require at least 44 Quest Points.";
+			if (standart_config_101 >= 44) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_192:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to have partially completed the Zogre Flesh Eaters quest (learning how to cure disease from Sithik Ints).";
+			if (bitconfig_498 == 1) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_196:
+		if (arg1 == 2) {
+			ovar0 = (object)("You need a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_200:
+		if (arg1 == 2) {
+			ovar0 = (object)("You need a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_204:
+		if (arg1 == 3) {
+			ovar0 = (object)("You need a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_208:
+		if (arg1 == 3) {
+			ovar0 = (object)("You need a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_212:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to find and free Skaldrun from the frozen floors in Daemonheim.";
+			if (bitconfig_9299 >= 3) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_216:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to complete the first Thieves' Guild caper: From Tiny Acorns.";
+			if (bitconfig_7792 >= 20) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_220:
+		if (arg1 == 1) {
+			ovar0 = (object)("You need a combat level of at least " + toString(getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) + ".");
+			if (script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_224:
+		if (arg1 == 6) {
+			ovar0 = (object)"You need to work on the Tai Bwo Wannai Cleanup.";
+			if (bitconfig_888 > 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_228:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to learn how to brew this during the In Aid of the Myreque quest.";
+			if (bitconfig_1990 >= 280) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_232:
+		if (arg1 == 4) {
+			ovar0 = (object)"You need to rescue Mad Eadgar from the Troll Stronghold.";
+			if (bitconfig_0 != 0) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_236:
+		if (arg1 == 1) {
+			ovar0 = (object)"You need to own and be able to use a Blood Altar teleport tablet.";
+			if (add(getItemAmtInContainer(93, 13610), getItemAmtInContainer(95, 13610)) > 0 && bitconfig_4569 >= 490) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_241:
+		if (arg1 == 2) {
+			ovar0 = (object)"You need to have cremated 200 or more Vyrewatch.";
+			if (bitconfig_4591 >= 200) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_245:
+		if (arg1 == 1) {
+			ovar0 = (object)"You need to have a combined level of 500 or more for your Temple Trekking companions.";
+			if (script_6034() >= 500) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_249:
+		if (arg1 == 1) {
+			ovar0 = (object)"You need to have achieved level 70 Defence and either level 70 Attack or Ranged.";
+			if (cs2method_10453(1) >= 70 && (cs2method_10453(0) >= 70 || cs2method_10453(4) > 70)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_257
+	flow_254:
+		if (arg1 == 3) {
+			ovar0 = (object)"You need to have started the quest Branches of Darkmeyer.";
+			if (bitconfig_9757 >= 110) {
+				ivar2 = 1;
+			}
+		}
+	flow_257:
+		if (ivar2 == 1) {
+			ovar0 = cs2method_10445((object)"<str>", ovar0);
+		}
+		return ovar0;
+}

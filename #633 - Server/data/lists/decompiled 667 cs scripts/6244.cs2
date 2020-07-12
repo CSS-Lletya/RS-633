@@ -1,0 +1,12 @@
+void script_6244() {
+	int ivar0;
+	globalint_1923 = subtract(globalint_1923, divide(30000, 50));
+	ivar0 = cs2method_10004(1, subtract(100, cs2method_10542(globalint_1923, 30000, 100)));
+	if (globalint_1923 <= 0) {
+		globalint_1923 = 0;
+		cs2method_20219(-1, "", new WidgetPointer(1285,3));
+	} else {
+		script_4542(ivar0, 84213765, -1);
+	}
+	return;
+}

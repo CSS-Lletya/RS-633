@@ -1,0 +1,24 @@
+void script_6446(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = cs2method_10102(arg0, arg1, arg2);
+	if (arg2 == 85655560) {
+		globalint_2112 = 1;
+		globalint_2108 = cs2method_10102(arg0, arg1, arg2);
+		script_6447(arg2, arg3, (object)globalstring_377);
+		setWidgetRGB(8207892, 85655578);
+		setWidgetRGB(14647040, 85655586);
+	} else {
+		if (arg2 == 85655617) {
+			globalint_2112 = 2;
+			globalint_2109 = cs2method_10102(arg0, arg1, arg2);
+			script_6447(arg2, arg3, (object)globalstring_378);
+			setWidgetRGB(8207892, 85655586);
+			setWidgetRGB(14647040, 85655578);
+		}
+	}
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(137,56));
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(1307,65));
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(1307,8));
+	setScriptCallOnKeyPress(6441, -2147483640, false, new WidgetPointer(-32768,3), 0, "izIi", new WidgetPointer(arg2));
+	return;
+}

@@ -1,0 +1,23 @@
+void script_6043(int arg0,int arg1,int arg2) {
+	int ivar3;
+	clearExtraChildren(new WidgetPointer(arg0));
+	if (getDataByKey('i', 'S', 681, globalint_1796) == -1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		script_6046(arg2, 50, (object)"Choose a skill...");
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(arg1));
+	ivar3 = 0;
+	while (ivar3 < globalint_1796) {
+		createChildWidget(arg0, 3, ivar3);
+		cs2method_10692(1);
+		ivar3 = add(ivar3, 1);
+	}
+	createChildWidget(arg0, 3, ivar3);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10305(255);
+	cs2method_10150((object)("Confirm: " + getDataByKey('i', 's', 108, globalint_1796)));
+	script_6046(arg2, 50, (object)script_6036(getDataByKey('i', 'S', 681, globalint_1796), globalint_1797, globalint_1799));
+	return;
+}

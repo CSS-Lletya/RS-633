@@ -1,0 +1,17 @@
+void script_4686() {
+	if (globalint_1538 >= 160) {
+		return;
+	}
+	if (globalint_1539 == 1) {
+		globalint_1538 = 160;
+		cs2method_10444(0, 75, 0, 0, 29294607);
+		return;
+	}
+	if (globalint_1538 == 158) {
+		setWidgetIsHidden(true, new WidgetPointer(447,15));
+	} else {
+		cs2method_10444(subtract(-2, globalint_1538), 75, 0, 0, 29294607);
+		globalint_1538 = add(globalint_1538, 2);
+	}
+	return;
+}

@@ -1,0 +1,40 @@
+void script_1068(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = add(arg1, 1);
+	ivar3 = (int)getDataByKey('i', 'I', 1550, ivar2);
+	ivar4 = (int)getDataByKey('i', 'I', 1551, ivar2);
+	while (ivar3 != -1) {
+		clearExtraChildren(new WidgetPointer(ivar3));
+		clearExtraChildren(new WidgetPointer(ivar4));
+		setWidgetIsHidden(true, new WidgetPointer(ivar3));
+		setScriptCallOnKeyPress(-1, "", new WidgetPointer(ivar3));
+		ivar3 = (int)getDataByKey('i', 'I', 1550, ivar2);
+		ivar4 = (int)getDataByKey('i', 'I', 1551, ivar2);
+		ivar2 = add(ivar2, 1);
+	}
+	ivar2 = add(arg1, 1);
+	while (cs2method_10551(arg0, ivar2) == 1) {
+		cs2method_10714();
+		if (cs2method_10551(8978434, ivar2) == 1) {
+			cs2method_10714();
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	ivar2 = 0;
+	ivar3 = (int)getDataByKey('i', 'I', 1550, arg1);
+	ivar4 = (int)getDataByKey('i', 'I', 1551, arg1);
+	while (cs2method_10551(ivar3, ivar2) == 1) {
+		cs2method_20211(1082, arg1, new WidgetPointer(ivar4), ivar2, "iIi");
+		cs2method_20139(1083, arg1, new WidgetPointer(ivar4), ivar2, "iIi");
+		if (cs2method_10551(ivar4, ivar2) == 1) {
+			cs2method_10692(1);
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	globalint_128 = -1;
+	script_1064(arg1);
+	script_1066(arg0, arg1);
+	return;
+}

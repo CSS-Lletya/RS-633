@@ -1,0 +1,6 @@
+int script_6428(int arg0,int arg1) {
+	if (script_6422(arg1) == 1) {
+		return getItemAttribute(arg0, 2585);
+	}
+	return 0;
+}

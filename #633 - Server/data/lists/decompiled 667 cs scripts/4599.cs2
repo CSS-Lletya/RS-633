@@ -1,0 +1,12 @@
+void script_4599(int arg0,int arg1,int arg2,object arg3) {
+	if (arg1 > 1) {
+		cs2method_10194(arg0, arg1, arg2);
+	} else {
+		cs2method_10274(arg0, 1, arg2);
+	}
+	cs2method_20000(1620, new WidgetPointer(-32768,3), -2147483643, 100, 0, 8, "Iiiii", new WidgetPointer(arg2));
+	cs2method_10375(10, arg2, (object)"Examine");
+	cs2method_10724(arg2, (object)("<col=ff9040>" + (string)getItemName(arg0) + "</col>"));
+	cs2method_20000(4600, -2147483644, (string)arg3, "is", new WidgetPointer(arg2));
+	return;
+}

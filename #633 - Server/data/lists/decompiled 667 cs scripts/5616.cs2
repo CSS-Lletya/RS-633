@@ -1,0 +1,20 @@
+void script_5616() {
+	if (bitconfig_10418 == 0) {
+		cs2method_10893(0, cs2method_10090(78512131), 0, 0, 78512131);
+	} else {
+		switch (bitconfig_10418) {
+			case 1:
+				cs2method_20219(5617, divide(cs2method_10956(78512138), 4), "i", new WidgetPointer(1198,10));
+				break;
+			case 2:
+				cs2method_20219(5617, divide(cs2method_10956(78512138), 2), "i", new WidgetPointer(1198,10));
+				break;
+			case 3:
+				cs2method_20219(5617, multiply(divide(cs2method_10956(78512138), 4), 3), "i", new WidgetPointer(1198,10));
+				break;
+			case 4:
+				cs2method_20219(5617, cs2method_10956(78512138), "i", new WidgetPointer(1198,10));
+		}
+	}
+	return;
+}

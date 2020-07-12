@@ -1,0 +1,3 @@
+int script_5604(int arg0,int arg1,int arg2) {
+	return cs2method_10273(arg0, subtract(arg1, 16), 0, subtract(arg2, 8));
+}

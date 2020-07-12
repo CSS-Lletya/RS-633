@@ -1,0 +1,75 @@
+void script_2041() {
+	setWidgetText(new WidgetPointer(28,42), (object)("Bronze: " + toString(bitconfig_941)));
+	if (bitconfig_941 > 0) {
+		setWidgetRGB(16750623, 1835052);
+		setWidgetRGB(16750623, 1835050);
+	} else {
+		setWidgetRGB(10066329, 1835052);
+		setWidgetRGB(10066329, 1835050);
+	}
+	setWidgetText(new WidgetPointer(28,39), (object)("Iron: " + toString(bitconfig_942)));
+	if (bitconfig_942 > 0) {
+		setWidgetRGB(16750623, 1835049);
+		setWidgetRGB(16750623, 1835047);
+	} else {
+		setWidgetRGB(10066329, 1835049);
+		setWidgetRGB(10066329, 1835047);
+	}
+	setWidgetText(new WidgetPointer(28,37), (object)("Steel: " + toString(bitconfig_943)));
+	if (bitconfig_943 > 0) {
+		setWidgetRGB(16750623, 1835046);
+		setWidgetRGB(16750623, 1835045);
+	} else {
+		setWidgetRGB(10066329, 1835046);
+		setWidgetRGB(10066329, 1835045);
+	}
+	setWidgetText(new WidgetPointer(28,34), (object)("Mithril: " + toString(bitconfig_944)));
+	if (bitconfig_944 > 0) {
+		setWidgetRGB(16750623, 1835043);
+		setWidgetRGB(16750623, 1835042);
+	} else {
+		setWidgetRGB(10066329, 1835043);
+		setWidgetRGB(10066329, 1835042);
+	}
+	setWidgetText(new WidgetPointer(28,31), (object)("Adamantite: " + toString(bitconfig_945)));
+	if (bitconfig_945 > 0) {
+		setWidgetRGB(16750623, 1835040);
+		setWidgetRGB(16750623, 1835039);
+	} else {
+		setWidgetRGB(10066329, 1835040);
+		setWidgetRGB(10066329, 1835039);
+	}
+	setWidgetText(new WidgetPointer(28,28), (object)("Runite: " + toString(bitconfig_946)));
+	if (bitconfig_946 > 0) {
+		setWidgetRGB(16750623, 1835037);
+		setWidgetRGB(16750623, 1835036);
+	} else {
+		setWidgetRGB(10066329, 1835037);
+		setWidgetRGB(10066329, 1835036);
+	}
+	setWidgetText(new WidgetPointer(28,25), (object)("Silver: " + toString(bitconfig_948)));
+	if (bitconfig_948 > 0) {
+		setWidgetRGB(16750623, 1835034);
+		setWidgetRGB(16750623, 1835033);
+	} else {
+		setWidgetRGB(10066329, 1835034);
+		setWidgetRGB(10066329, 1835033);
+	}
+	setWidgetText(new WidgetPointer(28,22), (object)("Gold: " + toString(bitconfig_947)));
+	if (bitconfig_947 > 0) {
+		setWidgetRGB(16750623, 1835031);
+		setWidgetRGB(16750623, 1835030);
+	} else {
+		setWidgetRGB(10066329, 1835031);
+		setWidgetRGB(10066329, 1835030);
+	}
+	setWidgetText(new WidgetPointer(28,2), (object)("Perfect Gold: " + toString(bitconfig_958)));
+	if (bitconfig_958 > 0) {
+		setWidgetRGB(16750623, 1835012);
+		setWidgetRGB(16750623, 1835010);
+	} else {
+		setWidgetRGB(10066329, 1835012);
+		setWidgetRGB(10066329, 1835010);
+	}
+	return;
+}

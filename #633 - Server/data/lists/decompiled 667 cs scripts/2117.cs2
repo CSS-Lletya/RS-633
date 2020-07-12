@@ -1,0 +1,82 @@
+void script_2117(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	ivar6 = add(arg2, multiply(divide(arg1, 2), add(64, arg2)));
+	ivar7 = add(arg2, multiply(cs2method_10620(arg1, 2), add(160, arg2)));
+	createChildWidget(arg3, 3, multiply(arg0, 7));
+	setWidgetSize(160, 64, 0, 0);
+	setWidgetPosition(ivar7, ivar6, 0, 0);
+	setWidgetRGB(new Color(0, 0, 0));
+	cs2method_10305(200);
+	setWidgetFilled(1);
+	setWidgetContextMenuOption(1, (object)"Choose");
+	if (arg0 == 26) {
+		setWidgetContextMenuOption(10, (object)"Explain");
+		cs2method_11002((object)("<col=ff9040>" + "Emote" + "</col>"));
+	} else if (arg0 == 27) {
+		setWidgetContextMenuOption(10, (object)"Explain");
+		cs2method_11002((object)("<col=ff9040>" + "Costume point" + "</col>"));
+	} else {
+		setWidgetContextMenuOption(10, (object)"Examine");
+		cs2method_11002((object)("<col=ff9040>" + (string)getItemName(getItemIdInContainerSlot(307, arg0)) + "</col>"));
+	}
+	cs2method_20115(2120, -2147483644, new WidgetPointer(arg3), arg0, new WidgetPointer(arg4), new WidgetPointer(arg5), "iIiII");
+	createChildWidget(arg3, 5, add(multiply(arg0, 7), 1));
+	setWidgetSize(159, 32, 0, 0);
+	cs2method_10470(1);
+	cs2method_10469(1074);
+	setWidgetPosition(ivar7, subtract(ivar6, 17), 0, 0);
+	createChildWidget(arg3, 5, add(multiply(arg0, 7), 2));
+	setWidgetSize(160, 32, 0, 0);
+	cs2method_10470(1);
+	cs2method_10469(1074);
+	cs2method_10949(1);
+	setWidgetPosition(ivar7, add(ivar6, 49), 0, 0);
+	createChildWidget(arg3, 5, add(multiply(arg0, 7), 3));
+	setWidgetSize(32, 63, 0, 0);
+	cs2method_10470(1);
+	cs2method_10469(1075);
+	setWidgetPosition(subtract(ivar7, 14), ivar6, 0, 0);
+	createChildWidget(arg3, 5, add(multiply(arg0, 7), 4));
+	setWidgetSize(32, 63, 0, 0);
+	cs2method_10470(1);
+	cs2method_10469(1075);
+	cs2method_10567(1);
+	setWidgetPosition(add(ivar7, 142), ivar6, 0, 0);
+	createChildWidget(arg3, 5, add(multiply(arg0, 7), 5));
+	if (arg0 == 26) {
+		setWidgetSize(22, 22, 0, 0);
+		setWidgetPosition(add(ivar7, 15), add(ivar6, 20), 0, 0);
+		cs2method_10253(0);
+		cs2method_10469(1830);
+	} else if (arg0 == 27) {
+		setWidgetSize(42, 42, 0, 0);
+		setWidgetPosition(add(ivar7, 5), add(ivar6, 12), 0, 0);
+		cs2method_10253(0);
+		cs2method_10469(1044);
+	} else if (cs2method_10136(307, arg0) > 1 && cs2method_10713(getItemIdInContainerSlot(307, arg0)) == 1) {
+		setItemOnWidget_10672(getItemIdInContainerSlot(307, arg0), cs2method_10136(307, arg0));
+	} else {
+		setItemOnWidget_10672(getItemIdInContainerSlot(307, arg0), -1);
+	}
+	setWidgetSize(36, 32, 0, 0);
+	setWidgetPosition(add(ivar7, 8), add(ivar6, 16), 0, 0);
+	cs2method_10253(1);
+	cs2method_10167(3153952);
+	createChildWidget(arg3, 4, add(multiply(arg0, 7), 6));
+	setWidgetFont(496);
+	setWidgetRGB(new Color(255, 152, 31));
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetSize(subtract(160, add(add(subtract(cs2method_10646(), ivar7), cs2method_10040()), 4)), 64, 0, 0);
+	setWidgetPosition(subtract(subtract(add(ivar7, 160), cs2method_10040()), 2), ivar6, 0, 0);
+	if (arg0 == 26) {
+		setWidgetText((object)"Unlock emote!");
+	} else if (arg0 == 27) {
+		setWidgetText((object)"Save up for a costume!");
+	} else if (cs2method_10136(307, arg0) == 1) {
+		setWidgetText((object)(getDataByKey('i', 's', 2238, arg0) + ":" + "<br>" + (string)getItemName(getItemIdInContainerSlot(307, arg0))));
+	} else {
+		setWidgetText((object)(getDataByKey('i', 's', 2238, arg0) + ":" + "<br>" + toString(cs2method_10136(307, arg0)) + " x " + (string)getItemName(getItemIdInContainerSlot(307, arg0))));
+	}
+	return;
+}

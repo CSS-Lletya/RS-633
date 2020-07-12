@@ -1,0 +1,14 @@
+cs2func_script_5886_struct(2,0,0) script_5886(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = script_5936(arg0);
+	if (ivar3 == -1) {
+		return newstruct cs2func_script_5886_struct(-1, -1);
+	}
+	ivar1 = add(getGeneralRequirementAttribute(ivar3, 2266), 3);
+	ivar2 = subtract(getGeneralRequirementAttribute(ivar3, 2267), 3);
+	return newstruct cs2func_script_5886_struct(add(ivar1, 127), add(ivar2, 127));
+}

@@ -1,0 +1,29 @@
+void script_5940() {
+	globalint_1411 = 1;
+	globalstring_363 = "";
+	globalstring_364 = "";
+	globalint_1919 = 0;
+	setWidgetIsHidden(true, new WidgetPointer(906,30));
+	setWidgetIsHidden(false, new WidgetPointer(906,33));
+	switch (cs2method_10145()) {
+		case 0:
+			cs2method_10467(10940, 59375960);
+			cs2method_10467(10795, 59375992);
+			break;
+		case 1:
+			cs2method_10467(10942, 59375960);
+			cs2method_10467(10797, 59375992);
+			break;
+		case 2:
+			cs2method_10467(10941, 59375960);
+			cs2method_10467(10796, 59375992);
+			break;
+		case 3:
+			cs2method_10467(10943, 59375960);
+			cs2method_10467(10798, 59375992);
+	}
+	setWidgetText(new WidgetPointer(906,352), (object)"Validate your email now for increased account security and these great rewards:");
+	cs2method_10893(240, cs2method_10090(59375962), 0, 0, 59375962);
+	cs2method_20889(6213, 2611, 1, "Y", new WidgetPointer(906,338));
+	return;
+}

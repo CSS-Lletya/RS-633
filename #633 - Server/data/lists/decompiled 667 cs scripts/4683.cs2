@@ -1,0 +1,4 @@
+void script_4683() {
+	requestOpenURL(0, (object)"rswiki", (object)"en/Installing_Java");
+	return;
+}

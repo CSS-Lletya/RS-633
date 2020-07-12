@@ -1,0 +1,10 @@
+void script_2575() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 < cs2method_10624(2428)) {
+		setWidgetRGB(6710886, (int)getDataByKey('i', 'I', 2428, ivar0));
+		ivar0 = add(ivar0, 1);
+	}
+	setWidgetRGB(16711731, (int)getDataByKey('i', 'I', 2428, globalint_929));
+	return;
+}

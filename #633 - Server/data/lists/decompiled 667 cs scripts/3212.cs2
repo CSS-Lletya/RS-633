@@ -1,0 +1,5 @@
+void script_3212(object arg0) {
+	arg0 = (object)((string)arg0 + "?cty=" + toString(cs2method_10063()));
+	script_2934(1, arg0);
+	return;
+}

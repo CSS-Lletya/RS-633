@@ -1,0 +1,7 @@
+void script_6338(int arg0,int arg1) {
+	if (arg1 != 1) {
+		return;
+	}
+	script_6339(arg0);
+	return;
+}

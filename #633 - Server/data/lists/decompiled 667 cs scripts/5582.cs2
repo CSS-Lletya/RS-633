@@ -1,0 +1,51 @@
+void script_5582(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 240;
+	if (cs2method_10366(cs2method_10100(arg1)) > 0) {
+		ivar2 = add(cs2method_10242(500, 3793, cs2method_10100(arg1)), 80);
+		if (ivar2 > cs2method_10956(arg0)) {
+			cs2method_10893(ivar2, 20, 0, 0, 78184459);
+			cs2method_10893(ivar2, 20, 0, 0, 78184461);
+			cs2method_10893(ivar2, 20, 0, 0, 78184462);
+			cs2method_10893(ivar2, 20, 0, 0, 78184463);
+		}
+		if (cs2method_10416(78184459) == 1) {
+			setWidgetRGB(6710886, 78184451);
+			setWidgetRGB(6710886, 78184460);
+			cs2method_20333(-1, "", new WidgetPointer(1193,11));
+			cs2method_20295(-1, "", new WidgetPointer(1193,11));
+			setWidgetIsHidden(false, new WidgetPointer(1193,11));
+			setWidgetIsHidden(false, new WidgetPointer(1193,3));
+		}
+		if (cs2method_10416(78184461) == 1) {
+			setWidgetRGB(6710886, 78184471);
+			setWidgetRGB(6710886, 78184472);
+			cs2method_20333(-1, "", new WidgetPointer(1193,13));
+			cs2method_20295(-1, "", new WidgetPointer(1193,13));
+			setWidgetIsHidden(false, new WidgetPointer(1193,13));
+			setWidgetIsHidden(false, new WidgetPointer(1193,23));
+		}
+		if (cs2method_10416(78184462) == 1) {
+			setWidgetRGB(6710886, 78184476);
+			setWidgetRGB(6710886, 78184477);
+			cs2method_20333(-1, "", new WidgetPointer(1193,14));
+			cs2method_20295(-1, "", new WidgetPointer(1193,14));
+			setWidgetIsHidden(false, new WidgetPointer(1193,14));
+			setWidgetIsHidden(false, new WidgetPointer(1193,28));
+		}
+		if (cs2method_10416(78184463) == 1) {
+			setWidgetRGB(6710886, 78184481);
+			setWidgetRGB(6710886, 78184482);
+			cs2method_20333(-1, "", new WidgetPointer(1193,15));
+			cs2method_20295(-1, "", new WidgetPointer(1193,15));
+			setWidgetIsHidden(false, new WidgetPointer(1193,15));
+			setWidgetIsHidden(false, new WidgetPointer(1193,33));
+		}
+		ivar2 = add(cs2method_10242(500, 4040, cs2method_10100(78184467)), 80);
+		if (ivar2 > cs2method_10956(78184453)) {
+			cs2method_10893(ivar2, 30, 0, 0, 78184453);
+		}
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

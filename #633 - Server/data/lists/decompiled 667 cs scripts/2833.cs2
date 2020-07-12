@@ -1,0 +1,56 @@
+void script_2833(int arg0) {
+	cs2method_11002((object)((string)script_4033(arg0) + (string)getItemName(arg0)));
+	switch (arg0) {
+		case 6099:
+		case 6102:
+		case 6101:
+		case 6100:
+			script_2411(arg0);
+			return;
+		case 13561:
+		case 19760:
+		case 13562:
+			script_2431(arg0);
+			return;
+		case 18339:
+			script_1273(arg0);
+			return;
+		case 5509:
+			script_5862(5509);
+			return;
+		case 5510:
+		case 5511:
+			script_5862(5510);
+			return;
+		case 5512:
+		case 5513:
+			script_5862(5512);
+			return;
+		case 5514:
+		case 5515:
+			script_5862(5514);
+			return;
+		case 24199:
+		case 24200:
+		case 24202:
+		case 24203:
+			script_2431(arg0);
+			return;
+		case 19868:
+		case 19866:
+		case 19867:
+		case 19865:
+			script_2431(arg0);
+			return;
+		case 24205:
+			script_6186(arg0);
+			return;
+	}
+	if (cs2method_10447(arg0) != arg0 && bitconfig_9030 == 1) {
+		script_2410(50, cs2method_10192(arg0, 2), cs2method_10192(arg0, 3), cs2method_10192(arg0, 4), cs2method_10192(arg0, 5), (object)"Read", getItemOption(arg0, 2), getItemOption(arg0, 3), getItemOption(arg0, 4), getItemOption(arg0, 5), getItemName(arg0));
+		return;
+	}
+	cs2method_20003(-1, "");
+	script_2410(cs2method_10192(arg0, 1), cs2method_10192(arg0, 2), cs2method_10192(arg0, 3), cs2method_10192(arg0, 4), cs2method_10192(arg0, 5), getItemOption(arg0, 1), getItemOption(arg0, 2), getItemOption(arg0, 3), getItemOption(arg0, 4), getItemOption(arg0, 5), getItemName(arg0));
+	return;
+}

@@ -1,0 +1,7 @@
+void script_2131(int arg0,int arg1) {
+	cs2method_20219(2132, new WidgetPointer(arg0), subtract(cs2method_10869(6), 3), subtract(cs2method_10869(6), 3), new WidgetPointer(arg1), 0, "IiiIi", new WidgetPointer(arg0));
+	cs2method_20333(2133, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	cs2method_20835(2135, new WidgetPointer(arg0), -2147483647, -2147483646, "Iii", new WidgetPointer(arg0));
+	cs2method_20295(2134, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,139 @@
+int script_5542() {
+	int ivar0;
+	ivar0 = 0;
+	switch (globalint_1725) {
+		case 1:
+			if (bitconfig_10259 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10261 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10244 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10245 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10247 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10260 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10262 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (isMember() == 1) {
+				if (bitconfig_10264 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10275 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10278 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10280 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10281 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10283 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+			}
+			break;
+		case 2:
+			if (bitconfig_10254 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10255 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10253 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10256 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10257 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10258 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (isMember() == 1) {
+				if (bitconfig_10277 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10279 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+			}
+			break;
+		case 3:
+			if (bitconfig_10246 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10248 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10249 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10250 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10251 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (bitconfig_10252 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (isMember() == 1) {
+				if (bitconfig_10265 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10266 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10267 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10269 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10270 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10282 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10268 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+			}
+			break;
+		case 4:
+			if (bitconfig_10276 == 1) {
+				ivar0 = add(ivar0, 1);
+			}
+			if (isMember() == 1) {
+				if (bitconfig_10271 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10272 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10273 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+				if (bitconfig_10274 == 1) {
+					ivar0 = add(ivar0, 1);
+				}
+			}
+	}
+	return ivar0;
+}

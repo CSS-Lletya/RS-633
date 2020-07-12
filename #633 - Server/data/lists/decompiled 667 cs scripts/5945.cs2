@@ -1,0 +1,16 @@
+void script_5945(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar2 = 82051074;
+	ivar3 = 82051072;
+	ivar4 = cs2method_10004(1, cs2method_10956(ivar2));
+	ivar5 = cs2method_10004(1, cs2method_10090(ivar2));
+	globalint_1787 = cs2method_10004(1, arg0);
+	globalint_1788 = cs2method_10004(1, arg1);
+	globalint_1787 = cs2method_10586(globalint_1787, subtract(ivar4, cs2method_10956(ivar3)));
+	globalint_1788 = cs2method_10586(globalint_1788, subtract(ivar5, cs2method_10090(ivar3)));
+	cs2method_10444(cs2method_10542(globalint_1787, ivar4, 16384), cs2method_10542(globalint_1788, ivar5, 16384), 3, 3, ivar3);
+	return;
+}

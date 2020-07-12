@@ -1,0 +1,14 @@
+void script_1376(int arg0,int arg1,int arg2) {
+	if (arg0 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(755,47));
+		cs2method_10375(1, 49479685, (object)"Hide key");
+		cs2method_10893(cs2method_10956(49479727), 0, 1, 1, arg1);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(755,47));
+		cs2method_10375(1, 49479685, (object)"Show key");
+		cs2method_10893(0, 0, 1, 1, arg1);
+	}
+	script_2046(arg1);
+	cs2method_20000(1375, new WidgetPointer(arg1), new WidgetPointer(arg2), "II", new WidgetPointer(755,5));
+	return;
+}

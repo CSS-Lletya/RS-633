@@ -1,0 +1,28 @@
+void script_440() {
+	cs2method_10467(1134, 66584600);
+	cs2method_10467(1134, 66584601);
+	cs2method_10467(1134, 66584602);
+	cs2method_10467(1134, 66584603);
+	cs2method_10467(1134, 66584604);
+	cs2method_10467(1134, 66584605);
+	switch (bitconfig_8087) {
+		case 0:
+			cs2method_10467(1135, 66584600);
+			break;
+		case 1:
+			cs2method_10467(1135, 66584601);
+			break;
+		case 2:
+			cs2method_10467(1135, 66584602);
+			break;
+		case 3:
+			cs2method_10467(1135, 66584603);
+			break;
+		case 4:
+			cs2method_10467(1135, 66584604);
+			break;
+		case 5:
+			cs2method_10467(1135, 66584605);
+	}
+	return;
+}

@@ -1,0 +1,4 @@
+void script_22() {
+	setWidgetText(new WidgetPointer(139,4), (object)toString(standart_config_143));
+	return;
+}

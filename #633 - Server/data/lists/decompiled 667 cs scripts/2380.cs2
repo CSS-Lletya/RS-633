@@ -1,0 +1,9 @@
+void script_2380(int arg0,int arg1) {
+	if (arg0 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg1));
+	cs2method_10444(subtract(add(cs2method_10111(arg0), cs2method_10956(arg0)), cs2method_10956(arg1)), subtract(add(cs2method_10826(arg0), cs2method_10090(arg0)), cs2method_10090(arg1)), 0, 0, arg1);
+	return;
+}

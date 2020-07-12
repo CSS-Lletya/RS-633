@@ -1,0 +1,249 @@
+void script_4814() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar0 = (object)"";
+	setWidgetText(new WidgetPointer(1258,446), (object)"");
+	setWidgetText(new WidgetPointer(1258,380), (object)"");
+	setWidgetText(new WidgetPointer(1258,308), (object)"");
+	setWidgetIsHidden(false, new WidgetPointer(1258,444));
+	setWidgetIsHidden(false, new WidgetPointer(1258,378));
+	setWidgetIsHidden(false, new WidgetPointer(1258,306));
+	setWidgetIsHidden(true, new WidgetPointer(1258,446));
+	setWidgetIsHidden(true, new WidgetPointer(1258,380));
+	setWidgetIsHidden(true, new WidgetPointer(1258,308));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,452));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,386));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,314));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,440));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,374));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,302));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,451));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,385));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,313));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,439));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,373));
+	cs2method_20295(40, new WidgetPointer(1258,147), "I", new WidgetPointer(1258,301));
+	if (cs2method_10575() == 1) {
+		if (script_5008() == 0 || script_5144(-1) == 0) {
+			setWidgetIsHidden(false, new WidgetPointer(1258,452));
+			setWidgetIsHidden(false, new WidgetPointer(1258,386));
+			setWidgetIsHidden(false, new WidgetPointer(1258,314));
+			setWidgetIsHidden(false, new WidgetPointer(1258,440));
+			setWidgetIsHidden(false, new WidgetPointer(1258,374));
+			setWidgetIsHidden(false, new WidgetPointer(1258,302));
+			ovar0 = (object)"Your rank may not currently make alterations to this item";
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,452), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,452));
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,386));
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,314), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,314));
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,440), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,440));
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,374), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,374));
+			cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,302), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,302));
+		} else {
+			switch (bitconfig_9558) {
+				case 1:
+					ivar0 = bitconfig_9563;
+					break;
+				case 2:
+					ivar0 = bitconfig_9572;
+					break;
+				case 3:
+					ivar0 = bitconfig_9581;
+			}
+			switch (script_4829(bitconfig_9558)) {
+				flow_8:
+					case 1:
+					ovar0 = (object)"You may submit this customisation to the build queue.";
+					switch (ivar0) {
+						case 1:
+							setWidgetIsHidden(true, new WidgetPointer(1258,446));
+							setWidgetIsHidden(false, new WidgetPointer(1258,444));
+							setWidgetIsHidden(true, new WidgetPointer(1258,452));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,451), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,451));
+							break;
+						case 2:
+							setWidgetIsHidden(true, new WidgetPointer(1258,380));
+							setWidgetIsHidden(false, new WidgetPointer(1258,378));
+							setWidgetIsHidden(true, new WidgetPointer(1258,386));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,385), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,385));
+							break;
+						case 3:
+							setWidgetIsHidden(true, new WidgetPointer(1258,308));
+							setWidgetIsHidden(false, new WidgetPointer(1258,306));
+							setWidgetIsHidden(true, new WidgetPointer(1258,314));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,313), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,313));
+					}
+					break;
+					case 2:
+					switch (ivar0) {
+						case 1:
+							ovar0 = (object)"Your citadel can not produce the resouces with which to purchase this customisation.";
+							setWidgetText(new WidgetPointer(1258,446), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,452));
+							setWidgetIsHidden(false, new WidgetPointer(1258,446));
+							setWidgetIsHidden(true, new WidgetPointer(1258,444));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,452), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,452));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,439), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,439));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,440), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,440));
+							break;
+						case 2:
+							ovar0 = (object)"Your citadel can not produce the resouces with which to purchase this customisation.";
+							setWidgetText(new WidgetPointer(1258,380), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,386));
+							setWidgetIsHidden(false, new WidgetPointer(1258,380));
+							setWidgetIsHidden(true, new WidgetPointer(1258,378));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,386));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,373), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,373));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,374), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,374));
+							break;
+						case 3:
+							ovar0 = (object)"Your citadel can not produce the resouces with which to purchase this customisation.";
+							setWidgetText(new WidgetPointer(1258,308), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,314));
+							setWidgetIsHidden(false, new WidgetPointer(1258,308));
+							setWidgetIsHidden(true, new WidgetPointer(1258,306));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,314), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,314));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,301), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,301));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,302), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,302));
+					}
+					break;
+					case 3:
+					switch (ivar0) {
+						case 1:
+							ovar0 = (object)"Select valid options for each part of the customisation before adding to the build queue.";
+							setWidgetText(new WidgetPointer(1258,446), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,452));
+							setWidgetIsHidden(false, new WidgetPointer(1258,446));
+							setWidgetIsHidden(true, new WidgetPointer(1258,444));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,452), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,452));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,439), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,439));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,440), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,440));
+							break;
+						case 2:
+							ovar0 = (object)"You must select valid options for each part of the customisation before you can add it to the build queue.";
+							setWidgetText(new WidgetPointer(1258,380), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,386));
+							setWidgetIsHidden(false, new WidgetPointer(1258,380));
+							setWidgetIsHidden(true, new WidgetPointer(1258,378));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,386));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,373), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,373));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,374), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,374));
+							break;
+						case 3:
+							ovar0 = (object)"You must select valid options for each part of the customisation before you can add it to the build queue.";
+							setWidgetText(new WidgetPointer(1258,308), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,314));
+							setWidgetIsHidden(false, new WidgetPointer(1258,308));
+							setWidgetIsHidden(true, new WidgetPointer(1258,306));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,314), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,314));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,301), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,301));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,302), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,302));
+					}
+					break;
+					case 4:
+					switch (ivar0) {
+						case 1:
+							ovar0 = (object)"The selection you have chosen is already built in the citadel.";
+							setWidgetText(new WidgetPointer(1258,446), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,452));
+							setWidgetIsHidden(false, new WidgetPointer(1258,446));
+							setWidgetIsHidden(true, new WidgetPointer(1258,444));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,452), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,452));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,439), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,439));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,440), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,440));
+							break;
+						case 2:
+							ovar0 = (object)"The selection you have chosen is already built in the citadel.";
+							setWidgetText(new WidgetPointer(1258,380), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,386));
+							setWidgetIsHidden(false, new WidgetPointer(1258,380));
+							setWidgetIsHidden(true, new WidgetPointer(1258,378));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,386));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,373), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,373));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,374), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,374));
+							break;
+						case 3:
+							ovar0 = (object)"The selection you have chosen is already built in the citadel.";
+							setWidgetText(new WidgetPointer(1258,308), ovar0);
+							setWidgetIsHidden(false, new WidgetPointer(1258,314));
+							setWidgetIsHidden(false, new WidgetPointer(1258,308));
+							setWidgetIsHidden(true, new WidgetPointer(1258,306));
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,314), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,314));
+							ovar0 = (object)"You may cancel this customisation from the build queue but you will lose any resources already spent.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,301), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,301));
+							ovar0 = (object)"You do not have the rank to cancel this job.";
+							cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,302), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,302));
+					}
+					break;
+					case 5:
+					SWITCH (ivar0) {
+						case 1:
+							 GOTO flow_29
+						case 2:
+							 GOTO flow_30
+						case 3:
+							 GOTO flow_31
+					}
+					break;
+				flow_29:
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					setWidgetText(new WidgetPointer(1258,446), ovar0);
+					setWidgetIsHidden(false, new WidgetPointer(1258,452));
+					setWidgetIsHidden(false, new WidgetPointer(1258,446));
+					setWidgetIsHidden(true, new WidgetPointer(1258,444));
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,452));
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,439), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,439));
+					ovar0 = (object)"You do not have the rank to cancel this job.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,440), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,440));
+					break;
+				flow_30:
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					setWidgetText(new WidgetPointer(1258,380), ovar0);
+					setWidgetIsHidden(false, new WidgetPointer(1258,386));
+					setWidgetIsHidden(false, new WidgetPointer(1258,380));
+					setWidgetIsHidden(true, new WidgetPointer(1258,378));
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,386), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,386));
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,373), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,373));
+					ovar0 = (object)"You do not have the rank to cancel this job.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,374), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,374));
+					break;
+				flow_31:
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					setWidgetText(new WidgetPointer(1258,308), ovar0);
+					setWidgetIsHidden(false, new WidgetPointer(1258,314));
+					setWidgetIsHidden(false, new WidgetPointer(1258,308));
+					setWidgetIsHidden(true, new WidgetPointer(1258,306));
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,314), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,314));
+					ovar0 = (object)"This hotspot is currently queued to be reset, you may cancel this reset at no cost.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,301), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,301));
+					ovar0 = (object)"You do not have the rank to cancel this job.";
+					cs2method_20835(4538, new WidgetPointer(1258,147), new WidgetPointer(1258,302), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1258,302));
+			}
+		}
+	}
+	return;
+}

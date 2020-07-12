@@ -1,0 +1,108 @@
+void script_1237(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar0;
+	cs2method_20870(6429, new WidgetPointer(-32768,3), 5, 1, "IY", new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar1 = 5;
+	ivar2 = 30;
+	ivar3 = 30;
+	ivar4 = 0;
+	ivar5 = 8;
+	ivar6 = ivar5;
+	ivar7 = 6;
+	ivar8 = add(30, 7);
+	if (globalint_1052 == 1 && bitconfig_6840 == 0) {
+		ivar5 = 5;
+		ivar6 = ivar5;
+		ivar8 = add(30, 4);
+	}
+	ivar9 = add(30, 6);
+	if (globalint_181 == 1) {
+		ivar5 = 8;
+		ivar6 = ivar5;
+		ivar7 = 30;
+		ivar8 = add(30, 7);
+		ivar9 = add(30, 5);
+	}
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	ovar0 = (object)"";
+	ivar13 = 0;
+	ivar14 = -1;
+	if (bitconfig_6840 == 1) {
+		ivar14 = 5981;
+	} else {
+		ivar14 = 5982;
+	}
+	ivar15 = cs2method_10624(ivar14);
+	ivar16 = 1;
+	while (ivar4 < ivar15) {
+		ivar10 = getDataByKey('i', 'J', ivar14, ivar4);
+		if (getGeneralRequirementAttribute(ivar10, 2668) == 1) {
+			if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar10, 2672)) {
+				ivar16 = 2;
+			}
+			if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar10, 2674)) {
+				ivar16 = 3;
+			}
+			switch (ivar16) {
+				case 1:
+					ivar10 = getGeneralRequirementAttribute(ivar10, 2671);
+					break;
+				case 2:
+					ivar10 = getGeneralRequirementAttribute(ivar10, 2673);
+					break;
+				case 3:
+					ivar10 = getGeneralRequirementAttribute(ivar10, 2675);
+			}
+			ivar16 = 1;
+		}
+		ivar12 = getGeneralRequirementAttribute(ivar10, 736);
+		ivar11 = getGeneralRequirementAttribute(ivar10, 735);
+		ovar0 = (object)("Level " + toString(getGeneralRequirementAttribute(ivar10, 2534)) + "<br>" + getGeneralRequirementAttribute(ivar10, 2523) + "<br>" + getGeneralRequirementAttribute(ivar10, 2524));
+		ivar13 = getGeneralRequirementAttribute(ivar10, 2534);
+		createChildWidget(arg0, 5, ivar4);
+		setWidgetSize(ivar2, ivar3, 0, 0);
+		setWidgetPosition(ivar6, ivar7, 0, 0);
+		if (cs2method_10453(5) < getGeneralRequirementAttribute(ivar10, 2534)) {
+			cs2method_10469(ivar12);
+		} else {
+			cs2method_10469(ivar11);
+		}
+		cs2method_10979(5);
+		cs2method_10337(5);
+		cs2method_10210(0);
+		if (globalint_181 == 0) {
+			setWidgetContextMenuOption(1, (object)("Activate" + "<col=ff9040>"));
+			cs2method_20003(49, new WidgetPointer(-32768,3), new WidgetPointer(271,7), ivar4, ivar10, 1395, 1582, 2960, 3, "IIiJY");
+			cs2method_20930(1160, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(271,16), (string)ovar0, 25, 190, "IiIsii");
+			cs2method_20191(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI");
+		}
+		cs2method_20538(52, ivar13, ivar12, ivar11, new WidgetPointer(-32768,3), -2147483643, 5, 1, "iddIiY");
+		cs2method_20139(40, new WidgetPointer(271,16), "I");
+		ivar4 = add(ivar4, 1);
+		if (cs2method_10620(ivar4, ivar1) == 0) {
+			ivar6 = ivar5;
+			ivar7 = add(ivar7, ivar9);
+		} else {
+			ivar6 = add(ivar6, ivar8);
+		}
+	}
+	return;
+}

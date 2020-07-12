@@ -1,0 +1,13 @@
+void script_3103() {
+	script_3102();
+	script_3113();
+	script_3125(59637815, 1, 0, (object)"Descending world number", (object)"Ascending world number");
+	script_3125(59637790, 3, 2, (object)"Descending player count", (object)"Ascending player count");
+	script_3125(59637812, 5, 4, (object)"Descending activity", (object)"Ascending activity");
+	script_3125(59637809, 9, 8, (object)"Descending type", (object)"Ascending type");
+	script_3125(59637807, 7, 6, (object)"Descending LootShare", (object)"Ascending LootShare");
+	script_3125(59637805, 11, 10, (object)"Descending ping", (object)"Ascending ping");
+	script_3116();
+	script_3143(0, (object)"Please choose a game world from the list.");
+	return;
+}

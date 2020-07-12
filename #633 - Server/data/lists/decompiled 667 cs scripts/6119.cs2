@@ -1,0 +1,10 @@
+void script_6119(int arg0,int arg1,int arg2,int arg3) {
+	arg3 = add(arg3, 1);
+	if (arg3 > arg2) {
+		cs2method_10149(arg1, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(6119, new WidgetPointer(-32768,3), arg1, arg2, arg3, "Iiii", new WidgetPointer(arg0));
+	}
+	return;
+}

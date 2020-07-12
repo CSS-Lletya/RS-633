@@ -1,0 +1,35 @@
+int script_384(int arg0,int arg1,int arg2) {
+	switch (arg0) {
+		case 0:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1175);
+			}
+			return getGeneralRequirementAttribute(arg1, 1169);
+		case 1:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1176);
+			}
+			return getGeneralRequirementAttribute(arg1, 1170);
+		case 2:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1177);
+			}
+			return getGeneralRequirementAttribute(arg1, 1171);
+		case 3:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1178);
+			}
+			return getGeneralRequirementAttribute(arg1, 1172);
+		case 4:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1179);
+			}
+			return getGeneralRequirementAttribute(arg1, 1173);
+		case 5:
+			if (arg2 == 1) {
+				return getGeneralRequirementAttribute(arg1, 1180);
+			}
+			return getGeneralRequirementAttribute(arg1, 1174);
+	}
+	return -1;
+}

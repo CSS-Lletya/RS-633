@@ -1,0 +1,25 @@
+void script_3952(int arg0) {
+	globalstring_331 = globalstring_337;
+	globalstring_332 = globalstring_338;
+	globalstring_333 = globalstring_339;
+	globalstring_334 = globalstring_340;
+	globalstring_335 = globalstring_341;
+	globalstring_336 = globalstring_342;
+	if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(1028,173), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_331));
+		setWidgetText(new WidgetPointer(1028,174), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_332));
+		setWidgetText(new WidgetPointer(1028,175), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_333));
+		setWidgetText(new WidgetPointer(1028,176), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_334));
+		setWidgetText(new WidgetPointer(1028,177), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_335));
+		setWidgetText(new WidgetPointer(1028,178), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_336));
+	} else {
+		setWidgetText(new WidgetPointer(890,23), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_331));
+		setWidgetText(new WidgetPointer(890,24), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_332));
+		setWidgetText(new WidgetPointer(890,25), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_333));
+		setWidgetText(new WidgetPointer(890,26), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_334));
+		setWidgetText(new WidgetPointer(890,27), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_335));
+		setWidgetText(new WidgetPointer(890,28), cs2method_10445((object)"<u=ebe0bc>", (object)globalstring_336));
+	}
+	script_3947(arg0, (object)globalstring_331, (object)globalstring_332, (object)globalstring_333, (object)globalstring_334, (object)globalstring_335, (object)globalstring_336);
+	return;
+}

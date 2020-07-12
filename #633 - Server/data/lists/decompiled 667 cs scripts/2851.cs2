@@ -1,0 +1,279 @@
+void script_2851(int arg0,int arg1,int arg2) {
+	if (cs2method_10416(31129655) == 0) {
+		if (arg1 == 2) {
+			script_835(1);
+		}
+		return;
+	}
+	if (cs2method_10878() > add(arg2, 5) || globalint_1074 == 2) {
+		switch (cs2method_10145()) {
+			case 2:
+				switch (arg1) {
+					case 2:
+						script_835(0);
+						break;
+					case 6:
+						script_3455();
+						break;
+					case 7:
+						script_3453();
+						break;
+					case 8:
+						script_3456();
+						break;
+					case 34:
+						script_2858();
+						break;
+					case 35:
+						script_2854();
+						break;
+					case 36:
+						script_2859();
+						break;
+					case 50:
+						script_2857();
+						break;
+					case 51:
+						script_2855();
+						break;
+					case 52:
+						script_2856();
+						break;
+					case 98:
+						script_2860();
+						break;
+					case 99:
+						script_2861();
+						break;
+					case 96:
+						script_2863();
+						break;
+					case 97:
+						script_2862();
+						break;
+					case 13:
+						script_675();
+						break;
+					case 1:
+						script_3455();
+						if (globalint_1074 == 0) {
+							globalint_1074 = 1;
+							cs2method_10467(1233, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Focus Mode");
+							if (cs2method_10416(31129654) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							}
+						} else if (globalint_1074 == 2) {
+							globalint_1074 = 0;
+							cs2method_10467(1232, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Aim Mode");
+							if (cs2method_10416(31129700) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(false, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							}
+						} else {
+							globalint_1074 = 2;
+							cs2method_10467(1231, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Fine Control Mode");
+							if (cs2method_10416(31129633) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						}
+						cs2method_20219(2853, new WidgetPointer(arg0), cs2method_10878(), "Ii", new WidgetPointer(arg0));
+						break;
+					case 83:
+						if (globalint_1074 == 0) {
+							if (cs2method_10416(31129654) == 1) {
+								setWidgetIsHidden(false, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,7));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							} else {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,7));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						} else if (globalint_1074 == 1) {
+							if (cs2method_10416(31129633) == 1) {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,7));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							} else {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,7));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						} else {
+							if (globalint_1074 == 2) {
+								if (cs2method_10416(31129700) == 1) {
+									setWidgetIsHidden(true, new WidgetPointer(475,54));
+									setWidgetIsHidden(true, new WidgetPointer(475,33));
+									setWidgetIsHidden(false, new WidgetPointer(475,100));
+									setWidgetIsHidden(false, new WidgetPointer(475,7));
+									setWidgetIsHidden(true, new WidgetPointer(475,58));
+								} else {
+									setWidgetIsHidden(true, new WidgetPointer(475,54));
+									setWidgetIsHidden(true, new WidgetPointer(475,33));
+									setWidgetIsHidden(true, new WidgetPointer(475,100));
+									setWidgetIsHidden(true, new WidgetPointer(475,7));
+									setWidgetIsHidden(true, new WidgetPointer(475,58));
+								}
+							}
+						}
+						break;
+					default:
+						return;
+				}
+				break;
+			default:
+				switch (arg1) {
+					case 2:
+						script_835(0);
+						break;
+					case 6:
+						script_3455();
+						break;
+					case 7:
+						script_3453();
+						break;
+					case 8:
+						script_3456();
+						break;
+					case 32:
+						script_2858();
+						break;
+					case 33:
+						script_2854();
+						break;
+					case 34:
+						script_2859();
+						break;
+					case 48:
+						script_2857();
+						break;
+					case 49:
+						script_2855();
+						break;
+					case 50:
+						script_2856();
+						break;
+					case 98:
+						script_2860();
+						break;
+					case 99:
+						script_2861();
+						break;
+					case 96:
+						script_2863();
+						break;
+					case 97:
+						script_2862();
+						break;
+					case 13:
+						script_675();
+						break;
+					case 1:
+						script_3455();
+						if (globalint_1074 == 0) {
+							globalint_1074 = 1;
+							cs2method_10467(1233, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Focus Mode");
+							if (cs2method_10416(31129654) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							}
+						} else if (globalint_1074 == 2) {
+							globalint_1074 = 0;
+							cs2method_10467(1232, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Aim Mode");
+							if (cs2method_10416(31129700) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(false, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							}
+						} else {
+							globalint_1074 = 2;
+							cs2method_10467(1231, 31129628);
+							setWidgetText(new WidgetPointer(475,29), (object)"You are now in Fine Control Mode");
+							if (cs2method_10416(31129633) == 0) {
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						}
+						cs2method_20219(2853, new WidgetPointer(arg0), cs2method_10878(), "Ii", new WidgetPointer(arg0));
+						break;
+					case 83:
+						if (globalint_1074 == 0) {
+							if (cs2method_10416(31129654) == 1) {
+								setWidgetIsHidden(false, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,7));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							} else {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,7));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						} else if (globalint_1074 == 1) {
+							if (cs2method_10416(31129633) == 1) {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(false, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(false, new WidgetPointer(475,7));
+								setWidgetIsHidden(false, new WidgetPointer(475,58));
+							} else {
+								setWidgetIsHidden(true, new WidgetPointer(475,54));
+								setWidgetIsHidden(true, new WidgetPointer(475,33));
+								setWidgetIsHidden(true, new WidgetPointer(475,100));
+								setWidgetIsHidden(true, new WidgetPointer(475,7));
+								setWidgetIsHidden(true, new WidgetPointer(475,58));
+							}
+						} else {
+							if (globalint_1074 == 2) {
+								if (cs2method_10416(31129700) == 1) {
+									setWidgetIsHidden(true, new WidgetPointer(475,54));
+									setWidgetIsHidden(true, new WidgetPointer(475,33));
+									setWidgetIsHidden(false, new WidgetPointer(475,100));
+									setWidgetIsHidden(false, new WidgetPointer(475,7));
+									setWidgetIsHidden(true, new WidgetPointer(475,58));
+								} else {
+									setWidgetIsHidden(true, new WidgetPointer(475,54));
+									setWidgetIsHidden(true, new WidgetPointer(475,33));
+									setWidgetIsHidden(true, new WidgetPointer(475,100));
+									setWidgetIsHidden(true, new WidgetPointer(475,7));
+									setWidgetIsHidden(true, new WidgetPointer(475,58));
+								}
+							}
+						}
+						break;
+				}
+				return;
+		}
+		script_2864();
+		setScriptCallOnKeyPress(2851, new WidgetPointer(arg0), -2147483640, cs2method_10878(), "Iii", new WidgetPointer(arg0));
+	}
+	return;
+}

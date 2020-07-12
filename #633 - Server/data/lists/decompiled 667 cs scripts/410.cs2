@@ -1,0 +1,61 @@
+void script_410(int arg0) {
+	if (globalint_1361 == arg0) {
+		return;
+	}
+	cs2method_20914(410, globalint_1361, 1361, 1, "iY", new WidgetPointer(1010,6));
+	if (globalint_1363 == bitconfig_7510) {
+		setWidgetIsHidden(false, new WidgetPointer(1010,33));
+		setWidgetIsHidden(true, new WidgetPointer(1010,24));
+	}
+	if (globalint_1361 == 0) {
+		setWidgetRGB(16750623, 66191372);
+		cs2method_10467(3745, 66191373);
+		setWidgetRGB(9868900, 66191374);
+		cs2method_10467(3745, 66191375);
+		setWidgetRGB(9868900, 66191376);
+		cs2method_10467(3745, 66191377);
+		setWidgetRGB(9868900, 66191378);
+		cs2method_10467(3745, 66191379);
+	} else if (globalint_1361 == 1) {
+		if (bitconfig_7511 == 1) {
+			if (cs2method_10869(2) == 0) {
+				cs2method_10677(3436, 1, 0, 255);
+			} else {
+				cs2method_10677(3438, 1, 0, 255);
+			}
+		}
+		setWidgetRGB(51200, 66191372);
+		cs2method_10467(3746, 66191373);
+		setWidgetRGB(16750623, 66191374);
+		cs2method_10467(3745, 66191375);
+		setWidgetRGB(9868900, 66191376);
+		cs2method_10467(3745, 66191377);
+		setWidgetRGB(9868900, 66191378);
+		cs2method_10467(3745, 66191379);
+	} else if (globalint_1361 == 2) {
+		if (bitconfig_7511 == 1) {
+			cs2method_10677(3437, 1, 0, 255);
+		}
+		setWidgetRGB(51200, 66191372);
+		cs2method_10467(3746, 66191373);
+		setWidgetRGB(51200, 66191374);
+		cs2method_10467(3746, 66191375);
+		setWidgetRGB(16750623, 66191376);
+		cs2method_10467(3745, 66191377);
+		setWidgetRGB(9868900, 66191378);
+		cs2method_10467(3745, 66191379);
+	} else {
+		if (bitconfig_7511 == 1) {
+			cs2method_10677(3441, 1, 0, 255);
+		}
+		setWidgetRGB(51200, 66191372);
+		cs2method_10467(3746, 66191373);
+		setWidgetRGB(51200, 66191374);
+		cs2method_10467(3746, 66191375);
+		setWidgetRGB(51200, 66191376);
+		cs2method_10467(3746, 66191377);
+		setWidgetRGB(16750623, 66191378);
+		cs2method_10467(3745, 66191379);
+	}
+	return;
+}

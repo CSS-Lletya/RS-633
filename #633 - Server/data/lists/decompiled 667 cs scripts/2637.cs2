@@ -1,0 +1,14 @@
+void script_2637() {
+	if (globalint_902 == 1) {
+		cs2method_10467(1949, 56295448);
+	} else if (globalint_902 == 2) {
+		cs2method_10467(1946, 56295448);
+	} else {
+		if (globalint_902 == 3) {
+			cs2method_10467(1947, 56295448);
+		}
+	}
+	setWidgetText(new WidgetPointer(859,28), (object)"");
+	setWidgetText(new WidgetPointer(859,29), (object)"");
+	return;
+}

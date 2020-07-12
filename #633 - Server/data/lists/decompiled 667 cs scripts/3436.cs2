@@ -1,0 +1,21 @@
+void script_3436(int arg0,int arg1,int arg2,object arg3) {
+	cs2method_10461(arg0, 20381753);
+	setWidgetText(new WidgetPointer(311,59), arg3);
+	setWidgetIsHidden(true, new WidgetPointer(311,39));
+	setWidgetIsHidden(true, new WidgetPointer(311,11));
+	setWidgetIsHidden(true, new WidgetPointer(311,7));
+	setWidgetIsHidden(true, new WidgetPointer(311,3));
+	setWidgetIsHidden(true, new WidgetPointer(311,23));
+	setWidgetIsHidden(true, new WidgetPointer(311,19));
+	setWidgetIsHidden(true, new WidgetPointer(311,15));
+	setWidgetIsHidden(false, new WidgetPointer(arg1));
+	cs2method_10467(4041, 20381720);
+	cs2method_10467(4041, 20381716);
+	cs2method_10467(4041, 20381712);
+	cs2method_10467(4041, 20381708);
+	cs2method_10467(4041, 20381704);
+	cs2method_10467(4041, 20381700);
+	cs2method_10467(4041, 20381696);
+	cs2method_10467(4043, arg2);
+	return;
+}

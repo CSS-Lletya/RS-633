@@ -1,0 +1,32 @@
+void script_4132(int arg0,int arg1) {
+	switch (globalint_1452) {
+		case 201:
+			clearExtraChildren(new WidgetPointer(arg0));
+			createChildWidget(arg0, 3, 0);
+			setWidgetFilled(1);
+			setWidgetRGB(new Color(127, 0, 0));
+			setWidgetSize(0, 0, 1, 1);
+			setWidgetPosition(0, 0, 0, 0);
+			cs2method_10305(255);
+			script_665(0, 50, arg0, 1);
+			break;
+		case 202:
+			script_667(50, arg0, 1);
+			break;
+		case 203:
+			if (cs2method_10551(arg0, 0) == 1) {
+				cs2method_20745(4133, new WidgetPointer(arg0), 0, 3, -3, 150, 255, 50, 0, 3581, "Iiiiiiii\u00ab");
+			}
+			break;
+		case 204:
+			clearExtraChildren(new WidgetPointer(arg0));
+			script_4138(0, 50, arg0);
+			break;
+		case 205:
+			script_4140(50, arg0);
+			break;
+		case 206:
+			clearExtraChildren(new WidgetPointer(arg0));
+	}
+	return;
+}

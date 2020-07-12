@@ -1,0 +1,36 @@
+void script_4421(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,long arg10) {
+	int ivar10;
+	object ovar0;
+	ivar10 = getDataByKey('i', 'g', 3689, arg6);
+	ovar0 = (object)"";
+	if (arg2 >= cs2method_10516() && arg5 > 0 && arg4 > 0 && arg6 > 0) {
+		ovar0 = (object)((string)cs2method_10940(arg2) + "<br>" + getDataByKey('i', 's', 3695, arg3));
+		if (clanbitconfig_5 == 0) {
+			ovar0 = (object)((string)ovar0 + " Game time:");
+		} else {
+			ovar0 = (object)((string)ovar0 + " Clan time:");
+		}
+		if (arg5 > 0) {
+			ovar0 = (object)((string)ovar0 + "<br>" + "World " + toString(arg5));
+		}
+		ovar0 = (object)((string)ovar0 + "<br>" + getDataByKey('i', 's', 3696, arg4));
+		setWidgetText(new WidgetPointer(arg0), ovar0);
+		ovar0 = (object)getDataByKey('i', 's', 3687, arg6);
+		if (ivar10 != -1 && arg7 > 0) {
+			ovar0 = (object)((string)ovar0 + "<br>" + getDataByKey('i', 's', ivar10, arg7));
+		}
+		ovar0 = (object)((string)ovar0 + "<br>" + "Open to: " + getDataByKey('i', 's', 3716, arg8));
+		if (arg9 == 1) {
+			ovar0 = (object)((string)ovar0 + "<br>" + "Attendance is mandatory.");
+		}
+		setWidgetText(new WidgetPointer(arg1), ovar0);
+		if (arg10 != -1L) {
+			setWidgetIsHidden(false, new WidgetPointer(1107,136));
+			cs2method_20000(4330, arg10, "\u00a7", new WidgetPointer(1107,136));
+		} else {
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(1107,136));
+			setWidgetIsHidden(true, new WidgetPointer(1107,52));
+		}
+	}
+	return;
+}

@@ -1,0 +1,26 @@
+void script_4685() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)toString(bitconfig_9467);
+	ovar1 = (object)"Waiting for next wave...";
+	if (globalint_1537 != 0) {
+		setWidgetIsHidden(false, new WidgetPointer(447,14));
+		cs2method_10893(cs2method_10956(29294593), 79, 0, 0, 29294593);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(447,14));
+		cs2method_10893(cs2method_10956(29294593), 45, 0, 0, 29294593);
+	}
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar0 = script_4699(29294603, 29294604, 29294605, (object)"Wave", ovar0);
+	if (globalint_1537 != 0) {
+		ivar1 = script_4699(29294606, 29294608, 29294609, (object)"Waiting?", ovar1);
+	}
+	ivar0 = cs2method_10004(ivar0, ivar1);
+	if (ivar0 > cs2method_10956(29294593)) {
+		cs2method_10893(add(ivar0, 5), cs2method_10090(29294593), 0, 0, 29294593);
+	}
+	return;
+}

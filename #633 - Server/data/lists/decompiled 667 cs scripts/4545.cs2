@@ -1,0 +1,41 @@
+void script_4545(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	flow_0:
+		IF (arg2 == 0) 
+			GOTO	flow_1
+		IF (arg2 == 1 && add(cs2method_10956(arg0), arg5) >= arg1) 
+			GOTO	flow_2
+		GOTO	flow_5
+	flow_1:
+	flow_2:
+		cs2method_10893(arg1, cs2method_10090(arg0), 0, 0, arg0);
+		if (arg4 != -1) {
+			cs2method_10467(arg4, arg3);
+		}
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	flow_5:
+		IF (arg2 == 2) 
+			GOTO	flow_6
+		IF (arg2 == 3 && add(cs2method_10090(arg0), arg5) >= arg1) 
+			GOTO	flow_7
+		GOTO	flow_10
+	flow_6:
+	flow_7:
+		cs2method_10893(cs2method_10956(arg0), arg1, 0, 0, arg0);
+		if (arg4 != -1) {
+			cs2method_10467(arg4, arg3);
+		}
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	flow_10:
+		switch (arg2) {
+			case 0:
+			case 1:
+				cs2method_10893(add(cs2method_10956(arg0), arg5), cs2method_10090(arg0), 0, 0, arg0);
+				break;
+			case 2:
+			case 3:
+				cs2method_10893(cs2method_10956(arg0), add(cs2method_10090(arg0), arg5), 0, 0, arg0);
+		}
+		return;
+}

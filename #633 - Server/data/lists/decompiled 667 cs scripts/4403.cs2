@@ -1,0 +1,4 @@
+void script_4403(int arg0) {
+	setWidgetRGB(cs2method_10489(standart_config_2096), arg0);
+	return;
+}

@@ -1,0 +1,33 @@
+void script_2049(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,object arg11,object arg12) {
+	int ivar11;
+	int ivar12;
+	cs2method_10692(0);
+	setWidgetSize(arg1, arg2, 0, 0);
+	setWidgetPosition(arg3, arg4, 1, 1);
+	cs2method_10821(arg5);
+	cs2method_10470(arg6);
+	cs2method_10567(arg7);
+	cs2method_10949(arg8);
+	cs2method_10469(arg0);
+	ivar11 = 0;
+	ivar12 = 0;
+	if (arg9 == 1) {
+		cs2method_10361(1);
+		ivar11 = cs2method_10620(cs2method_10878(), 50);
+		ivar12 = divide(50, 2);
+		if (ivar11 <= ivar12) {
+			cs2method_10305(subtract(255, cs2method_10542(ivar11, ivar12, 255)));
+		} else {
+			cs2method_10305(cs2method_10542(subtract(ivar11, ivar12), ivar12, 255));
+		}
+	}
+	if (arg10 != -1) {
+		cs2method_11002((object)("<col=ff9040>" + (string)arg11 + "</col>"));
+		setWidgetContextMenuOption(1, arg12);
+		cs2method_20115(2053, -2147483644, new WidgetPointer(-32768,3), arg10, "iIc");
+	} else {
+		setWidgetContextMenuOption(1, (object)"");
+		cs2method_20115(-1, "");
+	}
+	return;
+}

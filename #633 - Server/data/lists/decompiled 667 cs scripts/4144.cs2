@@ -1,0 +1,16 @@
+void script_4144(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = add(multiply(getLineCount(cs2method_10956(arg1), 495, (object)globalstring_343), 12), 5);
+	cs2method_10893(0, ivar3, 1, 0, arg1);
+	setWidgetScrollMax(0, ivar3, arg0);
+	cs2method_10085(0, 0, arg0);
+	setWidgetText(new WidgetPointer(arg1), (object)globalstring_343);
+	if (ivar3 <= cs2method_10090(arg0)) {
+		clearExtraChildren(new WidgetPointer(arg2));
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	script_31(arg2, arg0, 798, 795, 796, 797, 793, 794);
+	return;
+}

@@ -1,0 +1,4 @@
+void script_1481() {
+	cs2method_10998((object)"Please drag an item here to create a new tab.");
+	return;
+}

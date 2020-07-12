@@ -1,0 +1,13 @@
+void script_4812(int arg0,int arg1,int arg2,object arg3) {
+	if (script_4761(arg2) == 0) {
+		return;
+	}
+	if (globalint_2 != 1) {
+		arg3 = (object)((string)arg3 + "<br>" + "Requires tier " + toString(arg1) + " resources.");
+		cs2method_10467(arg0, 82444784);
+		setWidgetText(new WidgetPointer(1258,497), arg3);
+		setWidgetIsHidden(false, new WidgetPointer(1258,485));
+		globalint_2 = 1;
+	}
+	return;
+}

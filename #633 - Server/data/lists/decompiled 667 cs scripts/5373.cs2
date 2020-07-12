@@ -1,0 +1,12 @@
+void script_5373(int arg0,int arg1) {
+	if (arg1 == -1) {
+		cs2method_10677(7715, 45, 0, 100);
+		cs2method_20219(5369, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	} else if (arg1 == -2) {
+		setWidgetText(new WidgetPointer(arg0), (object)"-");
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)toString(arg1));
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg0));
+	return;
+}

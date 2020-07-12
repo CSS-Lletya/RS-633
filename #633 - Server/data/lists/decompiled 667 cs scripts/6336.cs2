@@ -1,0 +1,6 @@
+int script_6336() {
+	if (getItemAmtInContainer(94, 15486) > 0 || getItemAmtInContainer(94, 15502) > 0 || getItemAmtInContainer(94, 22207) > 0 || getItemAmtInContainer(94, 22211) > 0 || getItemAmtInContainer(94, 22209) > 0 || getItemAmtInContainer(94, 22213) > 0) {
+		return 1;
+	}
+	return 0;
+}

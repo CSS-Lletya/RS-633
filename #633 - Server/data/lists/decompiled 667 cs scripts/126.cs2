@@ -1,0 +1,31 @@
+void script_126(int arg0,int arg1,object arg2) {
+	object ovar1;
+	if (globalint_1413 == 0) {
+		return;
+	}
+	ovar1 = cs2method_10222(arg2);
+	switch (arg0) {
+		case 1:
+			globalint_1650 = 1;
+			globalstring_23 = (string)ovar1;
+			globalint_2106 = 1;
+			script_6415();
+			script_6328(0);
+			script_1558(0);
+			return;
+		case 2:
+			if (cs2method_10371(arg1) == 1) {
+				script_1050(1, ovar1);
+			} else {
+				script_1050(3, ovar1);
+			}
+			break;
+		case 3:
+		case 4:
+			cs2method_10998((object)"That player is currently offline.");
+			break;
+		case 5:
+			cs2method_10091(ovar1);
+	}
+	return;
+}

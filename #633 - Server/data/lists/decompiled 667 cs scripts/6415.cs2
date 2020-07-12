@@ -1,0 +1,17 @@
+void script_6415() {
+	if (globalint_2106 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(137,54));
+		if (cs2method_10842() >= 2) {
+			setWidgetRGB(16777215, 8978486);
+			cs2method_10893(0, 17, 1, 0, 8978486);
+			cs2method_10444(0, 0, 0, 2, 8978486);
+			return;
+		}
+		setWidgetRGB(13224393, 8978486);
+		cs2method_10893(2, 14, 1, 0, 8978486);
+		cs2method_10444(1, 2, 0, 2, 8978486);
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(137,54));
+	return;
+}

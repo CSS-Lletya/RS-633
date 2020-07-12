@@ -1,0 +1,40 @@
+void script_973() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	int stack_dump0;
+	int stack_dump1;
+	ivar0 = bitconfig_4729;
+	if (bitconfig_4729 < 1 || bitconfig_4729 > 25) {
+		return;
+	}
+	stack_dump0 = 1477;
+	stack_dump1 = ivar0;
+	/* 
+		mgi.tools.jagdecs2.DecompilerException: TODO Special opcode:30372
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:461)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+			at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+			at tests.Main.main(Main.java:72)
+		
+	 */
+}

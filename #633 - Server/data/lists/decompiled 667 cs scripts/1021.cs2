@@ -1,0 +1,37 @@
+cs2func_script_1021_struct(1,1,0) script_1021(int arg0) {
+	switch (arg0) {
+		case 0:
+			return newstruct cs2func_script_1021_struct(0, (object)"Smelting");
+		case 1:
+			return newstruct cs2func_script_1021_struct(0, (object)"Bronze");
+		case 2:
+			return newstruct cs2func_script_1021_struct(1, (object)"Blurite");
+		case 3:
+			return newstruct cs2func_script_1021_struct(0, (object)"Iron");
+		case 4:
+			return newstruct cs2func_script_1021_struct(0, (object)"Steel");
+		case 5:
+			return newstruct cs2func_script_1021_struct(0, (object)"Mithril");
+		case 6:
+			return newstruct cs2func_script_1021_struct(0, (object)"Adamantite");
+		case 7:
+			return newstruct cs2func_script_1021_struct(0, (object)"Rune");
+		case 8:
+			return newstruct cs2func_script_1021_struct(1, (object)"Gold");
+		case 9:
+			return newstruct cs2func_script_1021_struct(1, (object)"Elemental");
+		case 10:
+			return newstruct cs2func_script_1021_struct(1, (object)"Bane");
+		case 11:
+			return newstruct cs2func_script_1021_struct(0, (object)"Artisan Workshop");
+		case 12:
+			return newstruct cs2func_script_1021_struct(0, (object)"Other");
+		case 13:
+			return newstruct cs2func_script_1021_struct(1, (object)"Minigames");
+		case 14:
+			return newstruct cs2func_script_1021_struct(0, (object)"Dungeoneering");
+		case 15:
+			return newstruct cs2func_script_1021_struct(0, (object)"Milestones");
+	}
+	return newstruct cs2func_script_1021_struct(-1, (object)"");
+}

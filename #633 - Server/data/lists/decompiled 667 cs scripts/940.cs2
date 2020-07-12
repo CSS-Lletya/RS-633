@@ -1,0 +1,12 @@
+object script_940(int arg0) {
+	if (arg0 < 0) {
+		return "";
+	}
+	if (arg0 < 10000) {
+		return toString(arg0);
+	}
+	if (arg0 < 10000000) {
+		return cs2method_10445((object)toString(divide(arg0, 1000)), (object)"K");
+	}
+	return cs2method_10445((object)toString(divide(arg0, 1000000)), (object)"M");
+}

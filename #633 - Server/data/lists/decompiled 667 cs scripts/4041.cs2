@@ -1,0 +1,13 @@
+void script_4041() {
+	int ivar0;
+	ivar0 = 0;
+	if (cs2method_10842() < 2) {
+		cs2method_10893(0, 0, 1, 1, 59375887);
+	} else {
+		cs2method_10893(956, 503, 0, 0, 59375887);
+	}
+	if (cs2method_10387() == 2 && cs2method_10842() != 1) {
+		cs2method_10893(800, 503, 0, 0, 59375887);
+	}
+	return;
+}

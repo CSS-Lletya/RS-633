@@ -1,0 +1,4 @@
+void script_536() {
+	cs2method_20219(537, cs2method_10878(), add(cs2method_10878(), 25), "ii", new WidgetPointer(745,1));
+	return;
+}

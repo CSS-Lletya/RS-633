@@ -1,0 +1,22 @@
+int script_3228(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = script_5639(arg0, arg1, arg2);
+	if (ivar3 == 1) {
+		switch (arg0) {
+			case 7:
+				cs2method_10060(8);
+				break;
+			case 8:
+				cs2method_10060(10);
+		}
+	} else {
+		switch (arg0) {
+			case 7:
+				cs2method_10060(9);
+				break;
+			case 8:
+				cs2method_10060(11);
+		}
+	}
+	return ivar3;
+}

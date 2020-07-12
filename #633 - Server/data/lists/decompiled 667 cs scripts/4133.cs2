@@ -1,0 +1,36 @@
+void script_4133(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	int ivar9;
+	int ivar10;
+	flow_0:
+		ivar9 = 0;
+		ivar10 = 0;
+		IF (arg1 == -1) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (cs2method_10403(arg0) == 1) 
+			GOTO	flow_3
+	flow_2:
+		IF (cs2method_10551(arg0, arg1) == 1) 
+			GOTO	flow_3
+		GOTO	flow_13
+	flow_3:
+		if (arg7 > 0) {
+			cs2method_20745(4133, new WidgetPointer(arg0), arg1, arg2, arg3, arg4, arg5, arg6, subtract(arg7, 1), arg8, "Iiiiiiii\u00ab");
+			return;
+		}
+		ivar9 = cs2method_10354();
+		ivar10 = cs2method_10586(cs2method_10004(add(ivar9, arg2), arg4), arg5);
+		if (ivar10 == arg4 || ivar10 == arg5) {
+			if (ivar10 == arg5) {
+				arg7 = arg6;
+			}
+			if (ivar10 == arg4 && arg8 != -1) {
+				cs2method_10677(arg8, 1, 50, 255);
+			}
+			cs2method_20745(4133, new WidgetPointer(arg0), arg1, arg3, arg2, arg4, arg5, arg6, arg7, arg8, "Iiiiiiii\u00ab");
+		}
+		cs2method_10305(ivar10);
+	flow_13:
+		return;
+}

@@ -1,0 +1,10 @@
+void script_87(int arg0) {
+	cs2method_10640(1, arg0);
+	setWidgetText(new WidgetPointer(arg0), (object)("Score: " + toString(bitconfig_2121)));
+	if (bitconfig_2121 == 0) {
+		setWidgetRGB(16711680, arg0);
+	} else {
+		setWidgetRGB(16776960, arg0);
+	}
+	return;
+}

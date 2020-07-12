@@ -1,0 +1,11 @@
+void script_596() {
+	object ovar0;
+	ovar0 = (object)"null";
+	if (globalint_84 > 0) {
+		globalint_84 = subtract(globalint_84, 1);
+		ovar0 = cs2method_10595(globalint_84, 1);
+		setWidgetText(new WidgetPointer(105,148), ovar0);
+		script_602();
+	}
+	return;
+}

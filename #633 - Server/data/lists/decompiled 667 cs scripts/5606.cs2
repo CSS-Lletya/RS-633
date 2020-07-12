@@ -1,0 +1,10 @@
+void script_5606() {
+	setWidgetText(new WidgetPointer(290,10), (object)toString(globalint_1747));
+	setWidgetText(new WidgetPointer(290,11), (object)toString(globalint_1746));
+	if (globalint_1748 == 1) {
+		setWidgetText(new WidgetPointer(290,8), (object)"Whitezag");
+	} else {
+		setWidgetText(new WidgetPointer(290,8), (object)"Grayzag");
+	}
+	return;
+}

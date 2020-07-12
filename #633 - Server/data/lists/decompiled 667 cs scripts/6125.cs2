@@ -1,0 +1,45 @@
+void script_6125(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	globalint_1894 = arg1;
+	globalint_1895 = arg2;
+	globalint_1896 = arg3;
+	globalint_1897 = arg4;
+	globalint_1898 = arg5;
+	globalint_1899 = arg6;
+	script_6138(0);
+	script_6137(arg1, arg2, arg3, arg4, arg5, arg6);
+	script_6130();
+	script_6127(arg0);
+	globalint_1893 = 0;
+	switch (cs2method_10869(6)) {
+		case 0:
+			globalint_1900 = 4;
+			globalint_1901 = 8;
+			globalint_1902 = 12;
+			break;
+		case 1:
+			globalint_1900 = 4;
+			globalint_1901 = 12;
+			globalint_1902 = 8;
+			break;
+		case 2:
+			globalint_1900 = 8;
+			globalint_1901 = 4;
+			globalint_1902 = 12;
+			break;
+		case 3:
+			globalint_1900 = 8;
+			globalint_1901 = 12;
+			globalint_1902 = 4;
+			break;
+		case 4:
+			globalint_1900 = 12;
+			globalint_1901 = 4;
+			globalint_1902 = 8;
+			break;
+		case 5:
+			globalint_1900 = 12;
+			globalint_1901 = 8;
+			globalint_1902 = 4;
+	}
+	return;
+}

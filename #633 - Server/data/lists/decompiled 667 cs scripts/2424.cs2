@@ -1,0 +1,5 @@
+void script_2424(int arg0,int arg1,int arg2) {
+	script_1583(arg0, arg2, (object)globalstring_130);
+	script_1583(arg1, arg2, (object)globalstring_142);
+	return;
+}

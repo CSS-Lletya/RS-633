@@ -1,0 +1,42 @@
+void script_99() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 5;
+	ivar1 = 5;
+	ivar2 = 0;
+	while (ivar0 < 125) {
+		while (ivar1 < 120) {
+			createChildWidget(41353263, 5, ivar2);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(ivar1, ivar0, 0, 0);
+			if (getItemIdInContainerSlot(134, ivar2) != -1) {
+				setItemOnWidget_10672(getItemIdInContainerSlot(134, ivar2), cs2method_10136(134, ivar2));
+				cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getItemIdInContainerSlot(134, ivar2))));
+				setWidgetContextMenuOption(1, (object)"Remove 1");
+				setWidgetContextMenuOption(2, (object)"Remove 5");
+				setWidgetContextMenuOption(3, (object)"Remove 10");
+				setWidgetContextMenuOption(4, (object)"Remove All");
+				setWidgetContextMenuOption(5, (object)"Remove X");
+				setWidgetContextMenuOption(10, (object)"Examine");
+				cs2method_10167(3153952);
+				cs2method_10253(1);
+			}
+			createChildWidget(41353265, 5, ivar2);
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(ivar1, ivar0, 0, 0);
+			if (cs2method_10234(134, ivar2) != -1) {
+				setItemOnWidget_10672(cs2method_10234(134, ivar2), cs2method_10925(134, ivar2));
+				cs2method_11002((object)("<col=ff981f>" + (string)getItemName(cs2method_10234(134, ivar2))));
+				setWidgetContextMenuOption(1, (object)"Examine");
+				cs2method_10167(3153952);
+				cs2method_10253(1);
+			}
+			ivar1 = add(ivar1, 40);
+			ivar2 = add(ivar2, 1);
+		}
+		ivar0 = add(ivar0, 42);
+		ivar1 = 5;
+	}
+	return;
+}

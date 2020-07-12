@@ -1,0 +1,14 @@
+int script_1090(object arg0) {
+	int ivar0;
+	ivar0 = cs2method_10196(arg0);
+	if (ivar0 == -1) {
+		return -1;
+	}
+	if (cs2method_10617(ivar0) == 0) {
+		return 0;
+	}
+	if (cs2method_10371(ivar0) == 1) {
+		return 1;
+	}
+	return 2;
+}

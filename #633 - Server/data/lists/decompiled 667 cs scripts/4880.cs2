@@ -1,0 +1,124 @@
+void script_4880(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 3;
+	ivar4 = 0;
+	ivar5 = 2236962;
+	ivar6 = -1;
+	ivar7 = 0;
+	ivar8 = script_4964(arg0);
+	ivar9 = 0;
+	ivar10 = 0;
+	switch (arg0) {
+		case 82444826:
+		case 82444829:
+		case 82444817:
+		case 82444820:
+		case 82444823:
+		case 82444808:
+		case 82444841:
+		case 82444811:
+		case 82444789:
+		case 82444844:
+		case 82444814:
+		case 82444835:
+		case 82444801:
+		case 82444792:
+		case 82444795:
+		case 82444832:
+		case 82444838:
+		case 82444804:
+		case 82444798:
+			ivar10 = 1;
+	}
+	if (cs2method_10575() == 1) {
+		clearExtraChildren(new WidgetPointer(arg0));
+		script_4407(arg0, 1, 178);
+		ivar7 = script_4971(ivar8);
+		ivar6 = script_5171(ivar7);
+		createChildWidget(arg0, 5, 0);
+		setWidgetSize(18, 18, 0, 0);
+		setWidgetPosition(0, 0, 1, 1);
+		if (ivar10 == 1) {
+			cs2method_10305(255);
+		}
+		switch (ivar8) {
+			case 35:
+			case 38:
+			case 39:
+			case 36:
+			case 37:
+			case 42:
+			case 43:
+			case 40:
+			case 41:
+			case 46:
+			case 47:
+			case 44:
+			case 45:
+			case 48:
+				ivar2 = 1;
+				ivar3 = 1;
+				break;
+			default:
+				ivar2 = 0;
+				ivar3 = 3;
+		}
+		if (ivar9 > 0) {
+			ivar1 = 1;
+			ivar5 = 12303291;
+		} else {
+			ivar1 = 0;
+			ivar5 = 2236962;
+		}
+		if (ivar2 == 1) {
+			if (ivar1 == 1) {
+				ovar0 = (object)"Build over the existing blanket change.";
+			} else {
+				ovar0 = (object)"Build a new blanket change.";
+			}
+		} else {
+			switch (ivar8) {
+				case 25:
+				case 24:
+				case 27:
+				case 26:
+				case 28:
+					if (ivar1 == 1) {
+						ovar0 = (object)"Build over the existing statue.";
+					} else {
+						ovar0 = (object)"Build a new statue.";
+					}
+					break;
+				default:
+					if (ivar1 == 1) {
+						ovar0 = (object)"Build over the existing customisation.";
+					} else {
+						ovar0 = (object)"Build a new customisation.";
+					}
+			}
+		}
+	}
+	ivar11 = script_5216(ivar8);
+	if (ivar2 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(cs2method_10509(arg0)));
+		if (ivar11 != -1) {
+			cs2method_20835(4882, new WidgetPointer(-32768,3), (string)ovar0, ivar3, "Isi", new WidgetPointer(ivar11));
+		}
+	}
+	cs2method_20835(4882, new WidgetPointer(-32768,3), (string)ovar0, ivar3, "Isi", new WidgetPointer(arg0));
+	return;
+}

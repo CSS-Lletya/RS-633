@@ -1,0 +1,9 @@
+string script_1128(int arg0) {
+	if (arg0 == 0) {
+		return "0";
+	}
+	if (arg0 < 0) {
+		arg0 = subtract(0, arg0);
+	}
+	return toString(divide(arg0, 10)) + "." + toString(cs2method_10620(arg0, 10));
+}

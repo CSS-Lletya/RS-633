@@ -1,0 +1,10 @@
+void script_1156() {
+	if (cs2method_10602() == 0) {
+		cs2method_10467(1134, 28114960);
+		cs2method_10467(1135, 28114958);
+	} else {
+		cs2method_10467(1134, 28114958);
+		cs2method_10467(1135, 28114960);
+	}
+	return;
+}

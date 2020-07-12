@@ -1,0 +1,8 @@
+void script_452() {
+	if (bitconfig_7537 == 0) {
+		cs2method_10467(3745, 66060319);
+	} else {
+		cs2method_10467(3746, 66060319);
+	}
+	return;
+}

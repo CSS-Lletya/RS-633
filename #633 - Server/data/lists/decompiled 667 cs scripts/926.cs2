@@ -1,0 +1,12 @@
+int script_926(int arg0) {
+	if (script_931(arg0) == 0) {
+		return 0;
+	}
+	if (script_932(arg0) == 0) {
+		return 0;
+	}
+	if (script_935(arg0) == 0) {
+		return 0;
+	}
+	return 1;
+}

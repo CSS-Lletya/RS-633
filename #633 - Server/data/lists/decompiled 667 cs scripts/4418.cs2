@@ -1,0 +1,11 @@
+void script_4418() {
+	object ovar0;
+	ovar0 = cs2method_10222(cs2method_10100(72548444));
+	if (cs2method_10028(ovar0) == 0) {
+		cs2method_10998((object)("Attempting to add " + (string)ovar0 + " to your Friends List."));
+		cs2method_10330(ovar0);
+	} else {
+		cs2method_10998((object)("You've already added " + (string)ovar0 + " to your friends list."));
+	}
+	return;
+}

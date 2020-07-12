@@ -1,0 +1,12 @@
+void script_2896(int arg0) {
+	if (cs2method_10620(cs2method_10878(), 5) == 0) {
+		if (cs2method_10542(globalint_1078, 2000, 200) > cs2method_10542(bitconfig_7189, 2000, 200)) {
+			cs2method_10893(20, cs2method_10542(globalint_1078, 2000, 200), 0, 0, arg0);
+			globalint_1078 = subtract(globalint_1078, 1);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			globalint_1079 = 0;
+		}
+	}
+	return;
+}

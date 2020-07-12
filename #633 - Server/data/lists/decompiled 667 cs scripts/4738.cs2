@@ -1,0 +1,73 @@
+void script_4738(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	ivar2 = divide(36, 4);
+	ivar3 = 0;
+	ivar4 = -1;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = getDataByKey('i', 'v', 3879, bitconfig_9903);
+	ivar9 = 0;
+	while (ivar3 < cs2method_10594(ivar8)) {
+		if (cs2method_10551(arg0, ivar3) == 1) {
+			ivar4 = getItemIdInContainerSlot(ivar8, ivar3);
+			ivar5 = getItemAmtInContainer(ivar8, ivar4);
+			if (ivar4 != -1 && script_4733(ivar3) == 1 && ivar5 > 0) {
+				ivar9 = add(ivar9, ivar5);
+				if (add(ivar7, 36) >= cs2method_10956(arg0)) {
+					ivar7 = 0;
+					ivar6 = add(add(ivar6, ivar2), 36);
+				}
+				setWidgetSize(36, 32, 0, 0);
+				setWidgetPosition(ivar7, ivar6, 0, 0);
+				cs2method_10692(0);
+				setItemOnWidget_10672(ivar4, ivar5);
+				cs2method_10167(3355443);
+				cs2method_10253(1);
+				setWidgetContextMenuOption(1, (object)"Delete");
+				setWidgetContextMenuOption(10, (object)"Examine");
+				cs2method_11002((object)("<col=ff9040>" + (string)getItemName(ivar4)));
+				ivar7 = add(add(ivar7, ivar2), 36);
+				cs2method_20115(4739, new WidgetPointer(-32768,3), -2147483643, -2147483644, "Iii");
+				cs2method_20211(4745, new WidgetPointer(-32768,3), -2147483643, "Ii");
+				cs2method_20139(4746, new WidgetPointer(-32768,3), -2147483643, "Ii");
+			} else {
+				setWidgetSize(0, 0, 0, 0);
+				setWidgetPosition(0, 0, 0, 0);
+				cs2method_10692(1);
+				cs2method_20115(-1, "");
+			}
+		}
+		ivar3 = add(ivar3, 1);
+	}
+	ivar10 = 0;
+	if (ivar9 == 1) {
+		ivar10 = 1;
+	}
+	setWidgetText(new WidgetPointer(1144,22), (object)("Found " + "<col=ffff80>" + toString(ivar9) + "</col>" + " " + (string)cs2method_10429(ivar10, (object)"item", (object)"items") + " of junk in your " + getDataByKey('v', 's', 3882, ivar8)));
+	if (ivar7 > 0) {
+		ivar6 = add(ivar6, 32);
+	}
+	if (ivar6 > cs2method_10090(arg0)) {
+		setWidgetScrollMax(0, ivar6, arg0);
+		cs2method_10444(-8, cs2method_10826(arg0), 1, 0, arg0);
+		script_31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+		if (cs2method_10551(arg1, 1) == 1) {
+			script_37(arg1, arg0, cs2method_10424(arg0), 1);
+		}
+	} else {
+		setWidgetScrollMax(0, 0, arg0);
+		cs2method_10085(0, 0, arg0);
+		clearExtraChildren(new WidgetPointer(arg1));
+		cs2method_10444(0, cs2method_10826(arg0), 1, 0, arg0);
+	}
+	return;
+}

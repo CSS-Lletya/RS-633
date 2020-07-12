@@ -1,0 +1,8 @@
+int script_5729(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = getGeneralRequirementAttribute(arg0, 1268);
+	if (script_5730(ivar2, arg1) == 1 && script_5731(ivar2, arg1) == 1) {
+		return 1;
+	}
+	return 0;
+}

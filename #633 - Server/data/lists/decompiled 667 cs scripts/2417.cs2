@@ -1,0 +1,8 @@
+void script_2417(int arg0) {
+	if (globalint_805 == 5 || globalint_805 == 11) {
+		cs2method_10375(1, arg0, (object)"Pump");
+	} else {
+		cs2method_10375(1, arg0, (object)"Inspect");
+	}
+	return;
+}

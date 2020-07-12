@@ -1,0 +1,17 @@
+void script_5413() {
+	object ovar0;
+	ovar0 = (object)"Shows a 'Report' option when right-clicking on other players or chat.";
+	cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,28));
+	cs2method_20295(40, new WidgetPointer(261,31), "I", new WidgetPointer(261,28));
+	globalint_2 = 0;
+	if (bitconfig_9982 == 1) {
+		cs2method_10467(6004, 17104902);
+		cs2method_10467(6005, 17104903);
+	} else {
+		cs2method_10467(6009, 17104902);
+		cs2method_10467(6010, 17104903);
+	}
+	script_84();
+	script_89();
+	return;
+}

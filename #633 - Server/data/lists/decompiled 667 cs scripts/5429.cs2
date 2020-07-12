@@ -1,0 +1,8 @@
+void script_5429() {
+	globalint_1665 = 1;
+	globalint_1663 = 0;
+	globalint_1667 = 0;
+	globalint_1668 = 1;
+	cs2method_20219(5430, "", new WidgetPointer(1167,1));
+	return;
+}

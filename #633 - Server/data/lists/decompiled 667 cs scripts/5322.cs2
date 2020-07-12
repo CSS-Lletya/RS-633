@@ -1,0 +1,36 @@
+void script_5322(int arg0) {
+	switch (arg0) {
+		case 52232213:
+			bitconfig_9887 = 1;
+			script_5324(1);
+			break;
+		case 52232227:
+			bitconfig_9887 = 2;
+			script_5324(2);
+			break;
+		case 52232241:
+			bitconfig_9887 = 3;
+			script_5324(3);
+			break;
+		case 52232255:
+			bitconfig_9887 = 4;
+			script_5324(4);
+			break;
+		case 52232269:
+			bitconfig_9887 = 5;
+			script_5324(5);
+			break;
+		case 52232283:
+			bitconfig_9887 = 6;
+			script_5324(6);
+			break;
+		case 52232297:
+			bitconfig_9887 = 7;
+			script_5324(7);
+			break;
+		case 52232311:
+			bitconfig_9887 = 8;
+			script_5324(8);
+	}
+	return;
+}

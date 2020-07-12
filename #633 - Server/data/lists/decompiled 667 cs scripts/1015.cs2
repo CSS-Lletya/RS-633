@@ -1,0 +1,19 @@
+cs2func_script_1015_struct(1,1,0) script_1015(int arg0) {
+	switch (arg0) {
+		case 0:
+			return newstruct cs2func_script_1015_struct(0, (object)"Ores");
+		case 1:
+			return newstruct cs2func_script_1015_struct(0, (object)"Equipment");
+		case 2:
+			return newstruct cs2func_script_1015_struct(0, (object)"Other");
+		case 3:
+			return newstruct cs2func_script_1015_struct(1, (object)"Shooting Stars");
+		case 4:
+			return newstruct cs2func_script_1015_struct(1, (object)"Minigames");
+		case 5:
+			return newstruct cs2func_script_1015_struct(0, (object)"Dungeoneering");
+		case 6:
+			return newstruct cs2func_script_1015_struct(0, (object)"Milestones");
+	}
+	return newstruct cs2func_script_1015_struct(-1, (object)"");
+}

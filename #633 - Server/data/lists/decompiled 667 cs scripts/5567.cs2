@@ -1,0 +1,16 @@
+int script_5567(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	if (arg0 != 995) {
+		return -1;
+	}
+	if (getItemAmtInContainer(93, arg0) >= arg1) {
+		return 1;
+	}
+	ivar2 = getItemAmtInContainer(93, arg0);
+	ivar3 = getItemAmtInContainer(623, arg0);
+	if (ivar3 >= subtract(arg1, ivar2)) {
+		return 2;
+	}
+	return 0;
+}

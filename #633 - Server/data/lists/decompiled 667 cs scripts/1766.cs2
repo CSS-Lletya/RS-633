@@ -1,0 +1,315 @@
+void script_1766() {
+	object ovar0;
+	flow_0:
+		ovar0 = (object)"";
+		if (globalint_232 == 0) {
+			cs2method_10467(1817, 35913850);
+			cs2method_10467(8687, 48889913);
+			ovar0 = (object)"Combat";
+			cs2method_10375(1, 35913842, ovar0);
+			cs2method_10375(1, 48889929, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,89), (string)ovar0, "IIs", new WidgetPointer(746,89));
+		} else {
+			if (globalint_232 == 1) {
+				cs2method_10467(7710, 35913850);
+				cs2method_10467(8713, 48889913);
+				ovar0 = (object)"Props";
+				cs2method_10375(1, 35913842, ovar0);
+				cs2method_10375(1, 48889929, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,89), (string)ovar0, "IIs", new WidgetPointer(746,89));
+			}
+		}
+		if (globalint_822 == 0) {
+			script_4089();
+			cs2method_10467(1820, 35913851);
+			cs2method_10467(8698, 48889914);
+			ovar0 = (object)"Task List";
+			cs2method_10375(1, 35913843, ovar0);
+			cs2method_10375(1, 48889930, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,90), (string)ovar0, "IIs", new WidgetPointer(746,90));
+		} else if (globalint_822 == 1) {
+			cs2method_10467(1812, 35913851);
+			cs2method_10467(8719, 48889914);
+			ovar0 = (object)"Camera";
+			cs2method_10375(1, 35913843, ovar0);
+			cs2method_10375(1, 48889930, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,90), (string)ovar0, "IIs", new WidgetPointer(746,90));
+		} else {
+			if (globalint_822 == 2) {
+				cs2method_10467(7709, 35913851);
+				cs2method_10467(8712, 48889914);
+				ovar0 = (object)"Spotlights";
+				cs2method_10375(1, 35913843, ovar0);
+				cs2method_10375(1, 48889930, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,90), (string)ovar0, "IIs", new WidgetPointer(746,90));
+			}
+		}
+		SWITCH (globalint_233) {
+			case 1:
+				 GOTO flow_11
+			case 2:
+				 GOTO flow_12
+			case 4:
+				 GOTO flow_13
+			case 5:
+				 GOTO flow_14
+		}
+		cs2method_10467(1818, 35913852);
+		cs2method_10467(8697, 48889915);
+		ovar0 = (object)"Stats";
+		cs2method_10375(1, 35913844, ovar0);
+		cs2method_10375(1, 48889931, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,91), (string)ovar0, "IIs", new WidgetPointer(746,91));
+		GOTO	flow_15
+	flow_11:
+		cs2method_10467(1815, 35913852);
+		cs2method_10467(8722, 48889915);
+		ovar0 = (object)"Squad Commands";
+		cs2method_10375(1, 35913844, ovar0);
+		cs2method_10375(1, 48889931, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,91), (string)ovar0, "IIs", new WidgetPointer(746,91));
+		GOTO	flow_15
+	flow_12:
+		cs2method_10467(7708, 35913852);
+		cs2method_10467(6130, 48889915);
+		ovar0 = (object)"Sound Effects";
+		cs2method_10375(1, 35913844, ovar0);
+		cs2method_10375(1, 48889931, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,91), (string)ovar0, "IIs", new WidgetPointer(746,91));
+		GOTO	flow_15
+	flow_13:
+		cs2method_10467(3248, 35913852);
+		cs2method_10467(8716, 48889915);
+		ovar0 = (object)"Turn Options";
+		cs2method_10375(1, 35913844, ovar0);
+		cs2method_10375(1, 48889931, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,91), (string)ovar0, "IIs", new WidgetPointer(746,91));
+		GOTO	flow_15
+	flow_14:
+		cs2method_10467(3248, 35913852);
+		cs2method_10467(8716, 48889915);
+		ovar0 = (object)"Command Options";
+		cs2method_10375(1, 35913844, ovar0);
+		cs2method_10375(1, 48889931, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,91), (string)ovar0, "IIs", new WidgetPointer(746,91));
+	flow_15:
+		SWITCH (globalint_234) {
+			case 1:
+				 GOTO flow_16
+			case 2:
+				 GOTO flow_17
+			case 3:
+				 GOTO flow_18
+			case 4:
+				 GOTO flow_19
+			case 5:
+				 GOTO flow_20
+		}
+		cs2method_10467(1819, 35913853);
+		cs2method_10467(8695, 48889916);
+		ovar0 = (object)"Quest Journals";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+		GOTO	flow_21
+	flow_16:
+		cs2method_10467(1813, 35913853);
+		cs2method_10467(8720, 48889916);
+		ovar0 = (object)"Special Units";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+		GOTO	flow_21
+	flow_17:
+		cs2method_10467(3249, 35913853);
+		cs2method_10467(8717, 48889916);
+		ovar0 = (object)"Troop Details";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+		GOTO	flow_21
+	flow_18:
+		cs2method_10467(3028, 35913853);
+		cs2method_10467(8727, 48889916);
+		ovar0 = (object)"Party organiser";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+		GOTO	flow_21
+	flow_19:
+		cs2method_10467(1834, 35913853);
+		cs2method_10467(8724, 48889916);
+		ovar0 = (object)"Book";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+		GOTO	flow_21
+	flow_20:
+		cs2method_10467(7711, 35913853);
+		cs2method_10467(8714, 48889916);
+		ovar0 = (object)"Actors";
+		cs2method_10375(1, 35913845, ovar0);
+		cs2method_10375(1, 48889932, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,92), (string)ovar0, "IIs", new WidgetPointer(746,92));
+	flow_21:
+		if (globalint_235 == 0) {
+			cs2method_10467(1821, 35913854);
+			cs2method_10467(8690, 48889917);
+			ovar0 = (object)"Inventory";
+			cs2method_10375(1, 35913846, ovar0);
+			cs2method_10375(1, 48889933, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,93), (string)ovar0, "IIs", new WidgetPointer(746,93));
+		} else if (globalint_235 == 1) {
+			cs2method_10467(1814, 35913854);
+			cs2method_10467(8721, 48889917);
+			ovar0 = (object)"My Squads";
+			cs2method_10375(1, 35913846, ovar0);
+			cs2method_10375(1, 48889933, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,93), (string)ovar0, "IIs", new WidgetPointer(746,93));
+		} else {
+			if (globalint_235 == 2) {
+				cs2method_10467(3247, 35913854);
+				cs2method_10467(8715, 48889917);
+				ovar0 = (object)"Commands";
+				cs2method_10375(1, 35913846, ovar0);
+				cs2method_10375(1, 48889933, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,93), (string)ovar0, "IIs", new WidgetPointer(746,93));
+			}
+		}
+		if (globalint_236 == 0) {
+			cs2method_10467(1822, 35913855);
+			cs2method_10467(6128, 48889918);
+			ovar0 = (object)"Worn Equipment";
+			cs2method_10375(1, 35913847, ovar0);
+			cs2method_10375(1, 48889934, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,94), (string)ovar0, "IIs", new WidgetPointer(746,94));
+		} else if (globalint_236 == 1) {
+			cs2method_10467(1833, 35913855);
+			cs2method_10467(8725, 48889918);
+			ovar0 = (object)"Acrobat Emotes";
+			cs2method_10375(1, 35913847, ovar0);
+			cs2method_10375(1, 48889934, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,94), (string)ovar0, "IIs", new WidgetPointer(746,94));
+		} else if (globalint_236 == 2) {
+			cs2method_10467(1816, 35913855);
+			cs2method_10467(8723, 48889918);
+			ovar0 = (object)"Forfeit";
+			cs2method_10375(1, 35913847, ovar0);
+			cs2method_10375(1, 48889934, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,94), (string)ovar0, "IIs", new WidgetPointer(746,94));
+		} else if (globalint_236 == 3) {
+			cs2method_10467(3250, 35913855);
+			cs2method_10467(8718, 48889918);
+			ovar0 = (object)"Diplomacy";
+			cs2method_10375(1, 35913847, ovar0);
+			cs2method_10375(1, 48889934, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,94), (string)ovar0, "IIs", new WidgetPointer(746,94));
+		} else {
+			if (globalint_236 == 4) {
+				cs2method_10467(3250, 35913855);
+				cs2method_10467(8718, 48889918);
+				ovar0 = (object)"Retreat";
+				cs2method_10375(1, 35913847, ovar0);
+				cs2method_10375(1, 48889934, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,94), (string)ovar0, "IIs", new WidgetPointer(746,94));
+			}
+		}
+		if (globalint_237 == 0) {
+			cs2method_10467(1823, 35913856);
+			cs2method_10467(8694, 48889919);
+			ovar0 = (object)"Prayer List";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,95), (string)ovar0, "IIs", new WidgetPointer(746,95));
+		}
+		cs2method_10467(1824, 35913857);
+		cs2method_10467(8696, 48889920);
+		ovar0 = (object)"Ability Book";
+		cs2method_10375(1, 35913849, ovar0);
+		cs2method_10375(1, 48889936, ovar0);
+		cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,96), (string)ovar0, "IIs", new WidgetPointer(746,96));
+		if (globalint_823 == 1) {
+			cs2method_10467(10247, 35913821);
+			cs2method_10467(10247, 48889921);
+			ovar0 = (object)"Squeal of Fortune";
+			cs2method_10375(1, 35913813, ovar0);
+			cs2method_10375(1, 48889937, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,97), (string)ovar0, "IIs", new WidgetPointer(746,97));
+		} else if (globalint_823 == 2) {
+			cs2method_10467(447, 35913821);
+			cs2method_10467(8726, 48889921);
+			ovar0 = (object)"Production";
+			cs2method_10375(1, 35913813, ovar0);
+			cs2method_10375(1, 48889937, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,97), (string)ovar0, "IIs", new WidgetPointer(746,97));
+		} else {
+			cs2method_10467(-1, 35913821);
+			cs2method_10467(-1, 48889921);
+			cs2method_10831(48889937);
+			cs2method_10831(35913813);
+			cs2method_20835(-1, "", new WidgetPointer(746,97));
+		}
+		if (globalint_240 == 0) {
+			cs2method_10467(6238, 35913822);
+			cs2method_10467(8689, 48889922);
+			ovar0 = (object)"Friends List";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,98), (string)ovar0, "IIs", new WidgetPointer(746,98));
+		}
+		if (globalint_241 == 0) {
+			cs2method_10467(6237, 35913823);
+			cs2method_10467(8685, 48889923);
+			ovar0 = (object)"Friends Chat";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,99), (string)ovar0, "IIs", new WidgetPointer(746,99));
+		}
+		if (globalint_242 == 0) {
+			cs2method_10467(1828, 35913824);
+			cs2method_10467(8686, 48889924);
+			ovar0 = (object)"Clan Chat";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,100), (string)ovar0, "IIs", new WidgetPointer(746,100));
+		}
+		if (globalint_243 == 0) {
+			cs2method_10467(1829, 35913825);
+			cs2method_10467(8693, 48889925);
+			ovar0 = (object)"Options";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,101), (string)ovar0, "IIs", new WidgetPointer(746,101));
+		}
+		if (globalint_244 == 0) {
+			cs2method_10467(1830, 35913826);
+			cs2method_10467(8688, 48889926);
+			ovar0 = (object)"Emotes";
+			cs2method_10375(1, 35913818, ovar0);
+			cs2method_10375(1, 48889942, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,102), (string)ovar0, "IIs", new WidgetPointer(746,102));
+		} else {
+			if (globalint_244 == 1) {
+				cs2method_10467(3247, 35913826);
+				cs2method_10467(3247, 48889926);
+				ovar0 = (object)"Special Attacks";
+				cs2method_10375(1, 35913818, ovar0);
+				cs2method_10375(1, 48889942, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,102), (string)ovar0, "IIs", new WidgetPointer(746,102));
+			}
+		}
+		if (globalint_245 == 0) {
+			cs2method_10467(1831, 35913827);
+			cs2method_10467(8691, 48889927);
+			ovar0 = (object)"Music Player";
+			cs2method_10375(1, 35913819, ovar0);
+			cs2method_10375(1, 48889943, ovar0);
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,103), (string)ovar0, "IIs", new WidgetPointer(746,103));
+		} else {
+			if (globalint_245 == 1) {
+				cs2method_10467(7707, 35913827);
+				cs2method_10467(6129, 48889927);
+				ovar0 = (object)"Face Direction";
+				cs2method_10375(1, 35913819, ovar0);
+				cs2method_10375(1, 48889943, ovar0);
+				cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,103), (string)ovar0, "IIs", new WidgetPointer(746,103));
+			}
+		}
+		if (globalint_824 == 0) {
+			cs2method_10467(1832, 35913828);
+			cs2method_10467(8692, 48889928);
+			ovar0 = (object)"Notes";
+			cs2method_20835(5515, new WidgetPointer(746,40), new WidgetPointer(746,104), (string)ovar0, "IIs", new WidgetPointer(746,104));
+		}
+		return;
+}

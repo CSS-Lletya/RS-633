@@ -1,0 +1,9 @@
+void script_6319() {
+	script_6322(0, 0);
+	if (globalint_1947 == 1) {
+		script_6339(1);
+	} else {
+		script_6341(1, 0);
+	}
+	return;
+}

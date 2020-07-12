@@ -1,0 +1,22 @@
+void script_209() {
+	if (bitconfig_6101 < 8) {
+		cs2method_10467(1785, 38731786);
+	} else if (bitconfig_6101 < 15) {
+		cs2method_10467(1786, 38731786);
+	} else if (bitconfig_6101 < 23) {
+		cs2method_10467(1787, 38731786);
+	} else if (bitconfig_6101 < 30) {
+		cs2method_10467(1788, 38731786);
+	} else if (bitconfig_6101 < 38) {
+		cs2method_10467(1789, 38731786);
+	} else if (bitconfig_6101 < 45) {
+		cs2method_10467(1790, 38731786);
+	} else if (bitconfig_6101 < 53) {
+		cs2method_10467(1791, 38731786);
+	} else if (bitconfig_6101 < 60) {
+		cs2method_10467(1792, 38731786);
+	} else {
+		cs2method_10467(1793, 38731786);
+	}
+	return;
+}

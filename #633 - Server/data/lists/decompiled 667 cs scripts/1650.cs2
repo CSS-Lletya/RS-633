@@ -1,0 +1,57 @@
+void script_1650() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar0 = 48889903;
+	ivar1 = 48889878;
+	ivar2 = 48889881;
+	ivar3 = cs2method_10826(ivar2);
+	ivar4 = cs2method_10090(ivar0);
+	ivar5 = 48889880;
+	if (script_1653() == 1) {
+		flow_1:
+			script_1652(0);
+			setWidgetIsHidden(true, new WidgetPointer(ivar0));
+			IF (globalint_41 == -1) 
+				GOTO	flow_2
+			IF (cs2method_10416(48889878) == 1 && cs2method_10416(8978432) == 0) 
+				GOTO	flow_3
+			GOTO	flow_4
+		flow_2:
+		flow_3:
+			cs2method_10444(cs2method_10111(ivar5), cs2method_10090(48889879), 0, 2, ivar5);
+			setWidgetIsHidden(false, new WidgetPointer(1300,32));
+		flow_4:
+			return;
+	}
+	if (globalint_41 != -1) {
+		setWidgetIsHidden(false, new WidgetPointer(ivar0));
+	}
+	if (globalint_1037 < 142) {
+		globalint_1037 = 142;
+	} else {
+		if (globalint_1037 > subtract(cs2method_10090(48889906), 117) || cs2method_10826(ivar0) < 1) {
+			script_1651(0, 1);
+			return;
+		}
+	}
+	globalint_7 = subtract(globalint_7, subtract(globalint_1037, cs2method_10090(ivar1)));
+	cs2method_10893(519, globalint_1037, 0, 0, ivar1);
+	cs2method_10444(0, 26, 0, 2, ivar1);
+	if (globalint_41 == -1 || cs2method_10416(48889878) == 1) {
+		cs2method_10444(cs2method_10111(ivar5), cs2method_10090(48889879), 0, 2, ivar5);
+		setWidgetIsHidden(false, new WidgetPointer(1300,32));
+	} else {
+		cs2method_10444(cs2method_10111(ivar5), subtract(add(cs2method_10090(ivar1), cs2method_10090(48889879)), 3), 0, 2, ivar5);
+		setWidgetIsHidden(true, new WidgetPointer(1300,32));
+	}
+	ivar6 = subtract(subtract(cs2method_10826(ivar5), ivar4), ivar3);
+	cs2method_10444(0, ivar6, 0, 0, ivar0);
+	cs2method_10444(0, subtract(subtract(cs2method_10826(ivar5), cs2method_10090(48889882)), 20), 0, 0, 48889882);
+	script_84();
+	return;
+}

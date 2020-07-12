@@ -1,0 +1,18 @@
+void script_820() {
+	if (bitconfig_4286 != 101) {
+		setWidgetText(new WidgetPointer(663,19), (object)(toString(bitconfig_4286) + "%"));
+		if (bitconfig_4286 > 74) {
+			setWidgetRGB(16711680, 43450387);
+		} else {
+			setWidgetRGB(16777215, 43450387);
+		}
+	} else {
+		setWidgetText(new WidgetPointer(663,19), (object)"NA");
+	}
+	if (bitconfig_4285 != 101) {
+		setWidgetText(new WidgetPointer(663,17), (object)(toString(bitconfig_4285) + "%"));
+	} else {
+		setWidgetText(new WidgetPointer(663,17), (object)"NA");
+	}
+	return;
+}

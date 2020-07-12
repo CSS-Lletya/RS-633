@@ -1,0 +1,20 @@
+void script_5191(int arg0,int arg1) {
+	flow_0:
+		cs2method_10085(add(cs2method_10774(73531460), arg1), 0, 73531460);
+		IF (arg1 < 0) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (cs2method_10774(73531460) <= arg0) 
+			GOTO	flow_4
+	flow_2:
+		IF (arg1 > 0 && cs2method_10774(73531460) >= arg0) 
+			GOTO	flow_4
+		GOTO	flow_5
+	flow_4:
+		cs2method_10085(arg0, 0, 73531460);
+		cs2method_20219(-1, "", new WidgetPointer(1122,68));
+		setWidgetIsHidden(true, new WidgetPointer(1122,69));
+	flow_5:
+		return;
+}

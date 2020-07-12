@@ -1,0 +1,24 @@
+void script_6081() {
+	int ivar0;
+	int ivar1;
+	ivar0 = getItemAmtInContainer(93, standart_config_532);
+	ivar1 = 0;
+	if (standart_config_118 != -1) {
+		cs2method_20219(-1, "", new WidgetPointer(1265,90));
+		script_6107();
+		if (standart_config_532 == 995) {
+			ivar0 = add(ivar0, getItemAmtInContainer(623, standart_config_532));
+		}
+		if (ivar0 == 0) {
+			setWidgetText(new WidgetPointer(1265,207), (object)"None!");
+			cs2method_10467(2180, 82903246);
+		} else {
+			setWidgetText(new WidgetPointer(1265,207), script_940(ivar0));
+			cs2method_10467(getDataByKey('o', 'd', 200, standart_config_532), 82903246);
+		}
+		ivar1 = cs2method_10242(cs2method_10956(82903117), 3793, cs2method_10100(82903247));
+		ivar1 = add(add(ivar1, 2), cs2method_10956(82903246));
+		cs2method_10893(ivar1, 15, 0, 0, 82903056);
+	}
+	return;
+}

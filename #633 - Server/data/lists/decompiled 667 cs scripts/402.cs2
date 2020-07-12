@@ -1,0 +1,5 @@
+void script_402() {
+	cs2method_10149(0, 66191370);
+	globalint_1391 = 1;
+	return;
+}

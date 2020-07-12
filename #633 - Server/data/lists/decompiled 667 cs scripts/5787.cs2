@@ -1,0 +1,58 @@
+void script_5787(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar1 = 1;
+	if (arg0 == bitconfig_8576) {
+		ivar1 = 0;
+	}
+	ivar2 = script_5795(arg0);
+	if (ivar2 == -1) {
+		return;
+	}
+	if (ivar1 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1223,2));
+		setWidgetIsHidden(false, new WidgetPointer(1223,9));
+		setWidgetIsHidden(false, new WidgetPointer(1223,1));
+		script_5796(arg0, 1, 80150530, 80150537, 80150529, -1, -1, -1);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1223,2));
+		setWidgetIsHidden(true, new WidgetPointer(1223,9));
+		setWidgetIsHidden(true, new WidgetPointer(1223,1));
+	}
+	ovar0 = (object)getGeneralRequirementAttribute(ivar2, 2225);
+	setWidgetText(new WidgetPointer(1223,7), ovar0);
+	ovar1 = (object)getGeneralRequirementAttribute(ivar2, 1292);
+	if (bitconfig_9030 == 1) {
+		ovar1 = (object)"";
+	}
+	ovar2 = (object)"null";
+	ivar3 = 0;
+	if (ivar1 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1223,9));
+		setWidgetIsHidden(false, new WidgetPointer(1223,6));
+		ovar2 = (object)getGeneralRequirementAttribute(ivar2, 1273);
+		ivar3 = cs2method_10242(274, 3793, ovar2);
+		cs2method_10893(ivar3, cs2method_10090(80150529), 0, 0, 80150529);
+		setWidgetRGB(11251102, 80150529);
+		cs2method_10893(add(56, ivar3), 50, 0, 0, 80150534);
+		cs2method_10444(cs2method_10111(80150535), add(add(2, cs2method_10090(80150534)), cs2method_10826(80150534)), 0, 0, 80150535);
+	} else {
+		cs2method_10893(0, 0, 0, 0, 80150534);
+		cs2method_10444(cs2method_10111(80150535), cs2method_10826(80150537), 0, 0, 80150535);
+	}
+	ivar4 = multiply(15, getLineCount(330, 3793, ovar0));
+	ivar5 = multiply(15, getLineCount(330, 3793, ovar1));
+	setWidgetText(new WidgetPointer(1223,8), ovar1);
+	cs2method_10893(cs2method_10956(80150535), ivar4, 0, 0, 80150535);
+	cs2method_10444(cs2method_10111(80150536), add(add(cs2method_10826(80150535), ivar4), 4), 0, 0, 80150536);
+	cs2method_10893(cs2method_10956(80150536), ivar5, 0, 0, 80150536);
+	cs2method_10893(cs2method_10956(80150531), cs2method_10586(291, add(add(add(cs2method_10826(80150535), ivar4), ivar5), 75)), 0, 0, 80150531);
+	cs2method_10893(363, 291, 0, 0, 48889866);
+	return;
+}

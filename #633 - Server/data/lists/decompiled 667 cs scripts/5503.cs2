@@ -1,0 +1,11 @@
+void script_5503() {
+	setWidgetText(new WidgetPointer(906,3), (object)"Email address");
+	setWidgetIsHidden(false, new WidgetPointer(906,300));
+	setWidgetText(new WidgetPointer(906,306), cs2method_10310());
+	globalint_1660 = 0;
+	cs2method_10444(4, cs2method_10826(59375923), 0, 0, 59375923);
+	setWidgetIsHidden(true, new WidgetPointer(906,315));
+	setWidgetIsHidden(true, new WidgetPointer(906,301));
+	globalint_1661 = 1;
+	return;
+}

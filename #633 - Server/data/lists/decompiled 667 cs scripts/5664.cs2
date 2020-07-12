@@ -1,0 +1,55 @@
+int script_5664(int arg0) {
+	switch (arg0) {
+		case 1:
+			return globalint_1243;
+		case 2:
+			return globalint_1244;
+		case 5:
+			return globalint_1245;
+		case 6:
+			return globalint_1250;
+		case 3:
+			return globalint_1246;
+		case 4:
+			return globalint_1248;
+		case 7:
+			return globalint_1247;
+		case 12:
+			return globalint_1249;
+		case 11:
+			return globalint_1251;
+		case 13:
+			return globalint_1252;
+		case 14:
+			return globalint_1253;
+		case 15:
+			return globalint_1254;
+		case 16:
+			return globalint_1255;
+		case 17:
+			return globalint_1256;
+		case 18:
+			return globalint_1257;
+		case 8:
+			return globalint_1258;
+		case 9:
+			return globalint_1259;
+		case 10:
+			return globalint_1260;
+		case 19:
+			return globalint_1261;
+		case 20:
+			return globalint_1262;
+		case 21:
+			return globalint_1263;
+		case 22:
+			return globalint_1264;
+		case 23:
+			return globalint_1265;
+		case 24:
+			return globalint_1266;
+		case 25:
+			return globalint_1267;
+	}
+	return 0;
+}

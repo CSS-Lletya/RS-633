@@ -1,0 +1,75 @@
+void script_1798(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 0;
+	ivar3 = 0;
+	while (ivar2 < 12) {
+		switch (ivar2) {
+			case 0:
+				cs2method_10444(25, ivar3, 0, 0, 51839034);
+				cs2method_10444(4, ivar3, 0, 0, 51839035);
+				cs2method_10444(0, ivar3, 0, 0, 51839036);
+				break;
+			case 1:
+				cs2method_10444(25, ivar3, 0, 0, 51839037);
+				cs2method_10444(4, ivar3, 0, 0, 51839038);
+				cs2method_10444(0, ivar3, 0, 0, 51839039);
+				break;
+			case 2:
+				cs2method_10444(25, ivar3, 0, 0, 51839040);
+				cs2method_10444(4, ivar3, 0, 0, 51839041);
+				cs2method_10444(0, ivar3, 0, 0, 51839042);
+				break;
+			case 3:
+				cs2method_10444(25, ivar3, 0, 0, 51839043);
+				cs2method_10444(4, ivar3, 0, 0, 51839044);
+				cs2method_10444(0, ivar3, 0, 0, 51839045);
+				break;
+			case 4:
+				cs2method_10444(25, ivar3, 0, 0, 51839046);
+				cs2method_10444(4, ivar3, 0, 0, 51839047);
+				cs2method_10444(0, ivar3, 0, 0, 51839048);
+				break;
+			case 5:
+				cs2method_10444(25, ivar3, 0, 0, 51839049);
+				cs2method_10444(4, ivar3, 0, 0, 51839050);
+				cs2method_10444(0, ivar3, 0, 0, 51839051);
+				break;
+			case 6:
+				cs2method_10444(25, ivar3, 0, 0, 51839052);
+				cs2method_10444(4, ivar3, 0, 0, 51839053);
+				cs2method_10444(0, ivar3, 0, 0, 51839054);
+				break;
+			case 7:
+				cs2method_10444(25, ivar3, 0, 0, 51839055);
+				cs2method_10444(4, ivar3, 0, 0, 51839056);
+				cs2method_10444(0, ivar3, 0, 0, 51839057);
+				break;
+			case 8:
+				cs2method_10444(25, ivar3, 0, 0, 51839058);
+				cs2method_10444(4, ivar3, 0, 0, 51839059);
+				cs2method_10444(0, ivar3, 0, 0, 51839060);
+				break;
+			case 9:
+				cs2method_10444(25, ivar3, 0, 0, 51839061);
+				cs2method_10444(4, ivar3, 0, 0, 51839062);
+				cs2method_10444(0, ivar3, 0, 0, 51839063);
+				break;
+			case 10:
+				cs2method_10444(25, ivar3, 0, 0, 51839064);
+				cs2method_10444(4, ivar3, 0, 0, 51839065);
+				cs2method_10444(0, ivar3, 0, 0, 51839066);
+				break;
+			case 11:
+				cs2method_10444(25, ivar3, 0, 0, 51839067);
+				cs2method_10444(4, ivar3, 0, 0, 51839068);
+				cs2method_10444(0, ivar3, 0, 0, 51839069);
+		}
+		ivar3 = add(ivar3, 17);
+		ivar2 = add(ivar2, 1);
+	}
+	setWidgetScrollMax(0, ivar3, arg0);
+	cs2method_10085(0, 0, arg0);
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+	return;
+}

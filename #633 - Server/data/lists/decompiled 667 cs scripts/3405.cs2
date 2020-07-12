@@ -1,0 +1,29 @@
+void script_3405(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	cs2func_script_3406_struct(3,0,0) structdump_0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	structdump_0 = script_3406();
+	ivar5 = structdump_0.intpart_2;
+	ivar4 = structdump_0.intpart_1;
+	ivar3 = structdump_0.intpart_0;
+	script_3054(arg0);
+	script_3173(arg1);
+	script_4567(arg2);
+	if (cs2method_10416(59375826) == 1 && ivar3 > globalint_1275) {
+		cs2method_20219(3407, cs2method_10878(), new WidgetPointer(906,210), new WidgetPointer(-32768,3), "iII", new WidgetPointer(906,216));
+	}
+	if (cs2method_10416(59375828) == 1 && ivar4 > globalint_1276) {
+		cs2method_20219(3407, cs2method_10878(), new WidgetPointer(906,212), new WidgetPointer(-32768,3), "iII", new WidgetPointer(906,218));
+	}
+	if (cs2method_10416(59375827) == 1 && ivar5 > globalint_1510) {
+		cs2method_20219(3407, cs2method_10878(), new WidgetPointer(906,211), new WidgetPointer(-32768,3), "iII", new WidgetPointer(906,217));
+	}
+	globalint_1275 = ivar3;
+	globalint_1276 = ivar4;
+	globalint_1510 = ivar5;
+	return;
+}

@@ -1,0 +1,14 @@
+void script_939() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = -1;
+	while (ivar0 < cs2method_10594(90)) {
+		if (cs2method_10551(21954594, ivar0) == 1) {
+			ivar1 = cs2method_10234(90, ivar0);
+			script_812(ivar1);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

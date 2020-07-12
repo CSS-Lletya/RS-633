@@ -1,0 +1,57 @@
+void script_6442(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	int stack_dump0;
+	int stack_dump1;
+	opc_struct10678(2,0,0) structdump_2;
+	opc_struct10678(2,0,0) structdump_3;
+	ovar0 = (object)"";
+	ivar2 = 0;
+	ivar3 = 0;
+	if (arg0 == 1) {
+		if (add(cs2method_10366(cs2method_10222((object)globalstring_377)), 1) > 500) {
+			return;
+		}
+		stack_dump0 = cs2method_10366((object)globalstring_377);
+		stack_dump1 = arg1;
+		structdump_2 = cs2method_10678(stack_dump0, stack_dump1);
+		ivar3 = structdump_2.intpart_1;
+		ivar2 = structdump_2.intpart_0;
+		if (ivar3 > cs2method_10090(arg1)) {
+			return;
+		}
+		ovar0 = cs2method_10547(globalint_2108, cs2method_10366((object)globalstring_377), (object)globalstring_377);
+		globalstring_377 = (string)cs2method_10547(0, globalint_2108, (object)globalstring_377);
+		globalstring_377 = (string)cs2method_10445((object)globalstring_377, (object)"<br>");
+		globalstring_377 = (string)cs2method_10445((object)globalstring_377, ovar0);
+		globalint_2108 = add(globalint_2108, 4);
+		setWidgetText(new WidgetPointer(arg1), (object)globalstring_377);
+		script_6447(85655560, 85655587, (object)globalstring_377);
+		setWidgetText(new WidgetPointer(1307,7), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_377)))));
+		return;
+	}
+	if (arg0 == 2) {
+		if (add(cs2method_10366(cs2method_10222((object)globalstring_378)), 1) > 500) {
+			return;
+		}
+		stack_dump0 = cs2method_10366((object)globalstring_378);
+		stack_dump1 = arg1;
+		structdump_3 = cs2method_10678(stack_dump0, stack_dump1);
+		ivar3 = structdump_3.intpart_1;
+		ivar2 = structdump_3.intpart_0;
+		if (ivar3 > cs2method_10090(arg1)) {
+			return;
+		}
+		ovar0 = cs2method_10547(globalint_2109, cs2method_10366((object)globalstring_378), (object)globalstring_378);
+		globalstring_378 = (string)cs2method_10547(0, globalint_2109, (object)globalstring_378);
+		globalstring_378 = (string)cs2method_10445((object)globalstring_378, (object)"<br>");
+		globalstring_378 = (string)cs2method_10445((object)globalstring_378, ovar0);
+		globalint_2109 = add(globalint_2109, 4);
+		setWidgetText(new WidgetPointer(arg1), (object)globalstring_378);
+		script_6447(85655617, 85655618, (object)globalstring_378);
+		setWidgetText(new WidgetPointer(1307,27), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_378)))));
+		return;
+	}
+	return;
+}

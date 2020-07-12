@@ -1,0 +1,113 @@
+void script_6355(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = -1;
+	switch (arg0) {
+		case 85196811:
+			if (globalint_1935 == 1) {
+				return;
+			}
+			break;
+		case 85196810:
+			if (globalint_1936 == 1) {
+				return;
+			}
+			break;
+		case 85196809:
+			if (globalint_1937 == 1) {
+				return;
+			}
+			break;
+		case 85196808:
+			if (globalint_1938 == 1) {
+				return;
+			}
+			break;
+		case 85196807:
+			if (globalint_1939 == 1) {
+				return;
+			}
+			break;
+		case 85196806:
+			if (globalint_1940 == 1) {
+				return;
+			}
+			break;
+		case 85196805:
+			if (globalint_1941 == 1) {
+				return;
+			}
+			break;
+		case 85196804:
+			if (globalint_1942 == 1) {
+				return;
+			}
+			break;
+		case 85196803:
+			if (globalint_1943 == 1) {
+				return;
+			}
+			break;
+		case 85196802:
+			if (globalint_1944 == 1) {
+				return;
+			}
+			break;
+		case 85196801:
+			if (globalint_1945 == 1) {
+				return;
+			}
+			break;
+		case 85196800:
+			if (globalint_1946 == 1) {
+				return;
+			}
+	}
+	if (arg2 == 0) {
+		switch (arg0) {
+			case 85196811:
+				ivar3 = 85196842;
+				break;
+			case 85196810:
+				ivar3 = 85196871;
+				break;
+			case 85196809:
+				ivar3 = 85196875;
+				break;
+			case 85196808:
+				ivar3 = 85196879;
+				break;
+			case 85196807:
+				ivar3 = 85196883;
+				break;
+			case 85196806:
+				ivar3 = 85196887;
+				break;
+			case 85196805:
+				ivar3 = 85196891;
+				break;
+			case 85196804:
+				ivar3 = 85196895;
+				break;
+			case 85196803:
+				ivar3 = 85196899;
+				break;
+			case 85196802:
+				ivar3 = 85196903;
+				break;
+			case 85196801:
+				ivar3 = 85196907;
+				break;
+			case 85196800:
+				ivar3 = 85196911;
+		}
+		if (cs2method_10825(ivar3) != getGeneralRequirementAttribute(arg1, 2530)) {
+			return;
+		}
+	}
+	if (script_6430(arg1) == 1) {
+		cs2method_10149(0, arg0);
+	} else {
+		cs2method_10149(255, arg0);
+	}
+	return;
+}

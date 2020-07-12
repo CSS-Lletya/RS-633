@@ -1,0 +1,637 @@
+int script_3224(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	flow_0:
+		ivar1 = 0;
+		ivar2 = getDataByKey('i', 'J', 3483, arg0);
+		if (getGeneralRequirementAttribute(ivar2, 1270) != 4094) {
+			return script_2148(1, getGeneralRequirementAttribute(ivar2, 1270));
+		}
+		ivar3 = -1;
+		ivar4 = 0;
+		ivar5 = 0;
+		ivar6 = 1;
+		while (ivar6 <= 12) {
+			switch (ivar6) {
+				case 1:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1294);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1295);
+					break;
+				case 2:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1296);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1297);
+					break;
+				case 3:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1298);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1299);
+					break;
+				case 4:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1300);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1301);
+					break;
+				case 5:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1302);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1303);
+					break;
+				case 6:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1304);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1305);
+					break;
+				case 7:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1306);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1307);
+					break;
+				case 8:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1308);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1309);
+					break;
+				case 9:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1310);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1311);
+					break;
+				case 10:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 1312);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 1313);
+					break;
+				case 11:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 2227);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 2228);
+					break;
+				case 12:
+					ivar4 = getGeneralRequirementAttribute(ivar2, 2229);
+					ivar5 = getGeneralRequirementAttribute(ivar2, 2230);
+			}
+			if (ivar4 > 0 && ivar4 < 60) {
+				if (cs2method_10453(getDataByKey('i', 'S', 681, ivar4)) < ivar5) {
+					return 0;
+				}
+			} else if (ivar4 == 60) {
+				ivar3 = script_5795(ivar5);
+				if (ivar3 == -1) {
+					return 0;
+				}
+				if (script_3227(ivar5) != 2) {
+					return 0;
+				}
+			} else {
+				if (ivar4 == 61 && script_2193(ivar5) != 2) {
+					return 0;
+				}
+			}
+			if (ivar4 == 0) {
+				ivar6 = 13;
+			} else {
+				ivar6 = add(ivar6, 1);
+			}
+		}
+		if (script_1432() < getGeneralRequirementAttribute(ivar2, 2233)) {
+			return 0;
+		}
+		SWITCH (arg0) {
+			case 12:
+				 GOTO flow_38
+			case 23:
+				 GOTO flow_41
+			case 49:
+				 GOTO flow_44
+			case 59:
+				 GOTO flow_47
+			case 107:
+				 GOTO flow_50
+			case 147:
+				 GOTO flow_54
+			case 167:
+				 GOTO flow_57
+			case 175:
+				 GOTO flow_60
+			case 177:
+				 GOTO flow_64
+			case 178:
+				 GOTO flow_67
+			case 180:
+				 GOTO flow_70
+			case 316:
+				 GOTO flow_73
+			case 321:
+				 GOTO flow_76
+			case 322:
+				 GOTO flow_79
+			case 323:
+				 GOTO flow_82
+			case 219:
+				 GOTO flow_85
+			case 331:
+				 GOTO flow_88
+			case 248:
+				 GOTO flow_91
+			case 249:
+				 GOTO flow_94
+			case 276:
+				 GOTO flow_97
+			case 281:
+				 GOTO flow_100
+			case 285:
+				 GOTO flow_109
+			case 289:
+				 GOTO flow_112
+			case 294:
+				 GOTO flow_115
+			case 300:
+				 GOTO flow_118
+			case 3000:
+				 GOTO flow_121
+			case 3001:
+				 GOTO flow_127
+			case 3002:
+				 GOTO flow_130
+			case 3003:
+				 GOTO flow_139
+			case 3005:
+				 GOTO flow_142
+			case 3007:
+				 GOTO flow_145
+			case 3008:
+				 GOTO flow_150
+			case 3009:
+				 GOTO flow_153
+			case 3010:
+				 GOTO flow_156
+			case 3011:
+				 GOTO flow_159
+			case 3012:
+				 GOTO flow_162
+			case 3013:
+				 GOTO flow_165
+			case 3015:
+				 GOTO flow_168
+			case 3031:
+				 GOTO flow_172
+			case 3034:
+				 GOTO flow_175
+			case 3500:
+				 GOTO flow_180
+			case 3501:
+				 GOTO flow_183
+			case 3505:
+				 GOTO flow_186
+			case 3511:
+				 GOTO flow_189
+			case 3502:
+				 GOTO flow_192
+			case 3503:
+				 GOTO flow_195
+			case 3504:
+				 GOTO flow_198
+			case 3506:
+				 GOTO flow_201
+			case 3508:
+				 GOTO flow_204
+			case 3509:
+				 GOTO flow_207
+			case 3507:
+				 GOTO flow_210
+			case 3523:
+				 GOTO flow_213
+			case 3510:
+				 GOTO flow_216
+			case 3512:
+				 GOTO flow_219
+			case 3513:
+				 GOTO flow_222
+			case 3514:
+				 GOTO flow_225
+			case 3515:
+				 GOTO flow_228
+			case 3516:
+				 GOTO flow_231
+			case 3517:
+				 GOTO flow_234
+			case 3518:
+				 GOTO flow_237
+			case 3519:
+				 GOTO flow_240
+			case 3520:
+				 GOTO flow_243
+			case 3521:
+				 GOTO flow_246
+			case 858:
+				 GOTO flow_249
+			case 881:
+				 GOTO flow_253
+			case 656:
+				 GOTO flow_256
+			case 623:
+				 GOTO flow_259
+			case 659:
+				 GOTO flow_262
+			case 961:
+				 GOTO flow_265
+			case 985:
+				 GOTO flow_268
+			case 976:
+				 GOTO flow_271
+			case 991:
+				 GOTO flow_274
+			case 980:
+				 GOTO flow_277
+			case 982:
+				 GOTO flow_281
+		}
+		return 1;
+	flow_38:
+		if (bitconfig_5277 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_41:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_44:
+		if (bitconfig_4394 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_47:
+		if (standart_config_492 < 4) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_50:
+		if (standart_config_176 < 2 || bitconfig_3746 == 1 && standart_config_176 < 10) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_54:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_57:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_60:
+		if (standart_config_76 < 6 && bitconfig_3378 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_64:
+		if (bitconfig_3764 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_67:
+		if (bitconfig_3757 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_70:
+		if (bitconfig_3764 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_73:
+		if (bitconfig_3757 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_76:
+		if (bitconfig_3764 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_79:
+		if (bitconfig_3763 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_82:
+		if (bitconfig_3761 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_85:
+		if (script_1432() < 150) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_88:
+		if (script_1432() < 150) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_91:
+		if (bitconfig_3909 < 8) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_94:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_97:
+		if (standart_config_101 < 33) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_100:
+		if (bitconfig_2309 < 1) {
+			return 0;
+		}
+		if (bitconfig_2310 < 1) {
+			return 0;
+		}
+		if (bitconfig_2311 < 1) {
+			return 0;
+		}
+		if (bitconfig_2312 < 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_109:
+		if (bitconfig_3639 < 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_112:
+		if (script_1432() < 60) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_115:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_118:
+		if (script_4035() < 153) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_121:
+		if (cs2method_10243() < standart_config_451) {
+			return 0;
+		}
+		if (standart_config_101 < bitconfig_456 && script_4218() > 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_127:
+		if (script_1432() < 55) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_130:
+		if (bitconfig_5276 == 10) {
+			return 0;
+		}
+		if (bitconfig_5275 == 50) {
+			return 0;
+		}
+		if (bitconfig_3293 < 135) {
+			return 0;
+		}
+		if (bitconfig_5277 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_139:
+		if (bitconfig_1545 >= 2) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_142:
+		if (cs2method_10391(21) < 17) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_145:
+		if (bitconfig_5251 != 0 && bitconfig_5252 != 0 && bitconfig_5253 != 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_150:
+		if (standart_config_1199 == cs2method_10516()) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_153:
+		if (bitconfig_5133 < 90) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_156:
+		if (cs2method_10243() < bitconfig_6305) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_159:
+		if (standart_config_101 < 33) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_162:
+		if (cs2method_10453(20) < 50) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_165:
+		if (script_1432() < 55) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_168:
+		if (cs2method_10453(0) < 65 && cs2method_10453(1) < 65) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_172:
+		if (script_1432() < 70) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_175:
+		if (add(cs2method_10453(2), cs2method_10453(0)) < 130 && cs2method_10453(0) < 99 && cs2method_10453(2) < 99) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_180:
+		if (script_4098() != 3500) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_183:
+		if (script_4098() != 3501) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_186:
+		if (script_4098() != 3505) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_189:
+		if (script_4098() != 3511) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_192:
+		if (script_4098() != 3502) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_195:
+		if (script_4098() != 3503) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_198:
+		if (script_4098() != 3504) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_201:
+		if (script_4098() != 3506) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_204:
+		if (script_4098() != 3508) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_207:
+		if (script_4098() != 3509) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_210:
+		if (script_4098() != 3507) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_213:
+		if (script_4098() != 3523) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_216:
+		if (script_4098() != 3510) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_219:
+		if (script_4098() != 3512) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_222:
+		if (script_4098() != 3513) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_225:
+		if (script_4098() != 3514) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_228:
+		if (standart_config_281 < 135 || standart_config_281 > 160 || bitconfig_6495 == 0 || bitconfig_6495 == 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_231:
+		if (standart_config_281 < 135 || standart_config_281 > 160 || bitconfig_6495 == 2 || bitconfig_6495 == 3) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_234:
+		if (standart_config_281 < 140 || bitconfig_6495 == 0 || bitconfig_6495 == 1 || cs2method_10453(8) > 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_237:
+		if (standart_config_281 < 140 || bitconfig_6495 == 2 || bitconfig_6495 == 3 || cs2method_10453(14) > 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_240:
+		if (script_4098() != 3519) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_243:
+		if (script_4098() != 3521 || bitconfig_6494 > 2) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_246:
+		if (script_4098() != 3521 || bitconfig_6494 != 5) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_249:
+		if (standart_config_302 < 60 && bitconfig_571 < 5) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_253:
+		if (standart_config_205 < 7 || standart_config_206 < 7) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_256:
+		if (bitconfig_498 != 1) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_259:
+		if (bitconfig_7792 < 20) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_262:
+		if (bitconfig_1990 < 280) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_265:
+		if (bitconfig_2328 == 0) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_268:
+		if (add(getItemAmtInContainer(93, 13610), getItemAmtInContainer(95, 13610)) == 0 || bitconfig_4569 < 490) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_271:
+		if (bitconfig_4591 < 200) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_274:
+		if (script_6034() < 500) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_277:
+		if (cs2method_10453(1) < 70 || cs2method_10453(0) < 70 && cs2method_10453(4) < 70) {
+			return 0;
+		}
+		GOTO	flow_283
+	flow_281:
+		if (bitconfig_9757 < 110) {
+			return 0;
+		}
+	flow_283:
+		return 1;
+}

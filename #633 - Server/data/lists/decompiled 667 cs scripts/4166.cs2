@@ -1,0 +1,32 @@
+void script_4166(int arg0,int arg1,int arg2,int arg3,object arg4,object arg5) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	script_4178(0, arg2, 0);
+	if (isMember() == 0 && arg3 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		return;
+	}
+	createChildWidget(arg0, 3, 0);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetFilled(1);
+	setWidgetRGB(new Color(255, 0, 0));
+	cs2method_10692(1);
+	cs2method_20219(4175, new WidgetPointer(-32768,3), cs2method_10261(), arg2, 0, "Iii1", new WidgetPointer(arg0));
+	createChildWidget(arg0, 5, 1);
+	setWidgetSize(15, 15, 0, 0);
+	setWidgetPosition(10, 0, 0, 1);
+	script_4169(arg2);
+	cs2method_20889(4168, new WidgetPointer(-32768,3), cs2method_10261(), arg2, 286, 1, "IiiY", new WidgetPointer(arg0));
+	createChildWidget(arg0, 4, 2);
+	setWidgetSize(35, 0, 1, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	setWidgetFont(494);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(255, 152, 31));
+	cs2method_10320(1);
+	setWidgetText(arg4);
+	cs2method_20333(1356, new WidgetPointer(-32768,3), cs2method_10261(), 16777215, "Iii", new WidgetPointer(arg0));
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(arg1), (string)arg5, 25, 200, "IiIsii", new WidgetPointer(arg0));
+	cs2method_20295(4167, new WidgetPointer(-32768,3), cs2method_10261(), new WidgetPointer(arg1), "IiI", new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,5 @@
+int script_1416(int arg0,int arg1) {
+	cs2method_10444(cs2method_10111(arg0), subtract(225, multiply(arg1, cs2method_10090(arg0))), 0, 0, arg0);
+	arg1 = add(arg1, 1);
+	return arg1;
+}

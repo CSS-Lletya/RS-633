@@ -1,0 +1,6 @@
+void script_6343() {
+	if (globalint_1947 == 0) {
+		script_6341(1, 1);
+	}
+	return;
+}

@@ -1,0 +1,21 @@
+void script_945(int arg0,int arg1,int arg2) {
+	int ivar3;
+	arg0 = cs2method_10586(100, arg0);
+	arg0 = cs2method_10004(0, arg0);
+	ivar3 = divide(multiply(arg0, 25), 10);
+	cs2method_10444(0, subtract(250, ivar3), 0, 0, 81657877);
+	setWidgetText(new WidgetPointer(1246,17), (object)(toString(arg1) + "%"));
+	if (arg2 == 1) {
+		cs2method_10444(32, 217, 0, 0, 81657861);
+		cs2method_10444(32, 167, 0, 0, 81657862);
+	} else if (arg2 == 2) {
+		cs2method_10444(32, 130, 0, 0, 81657861);
+		cs2method_10444(32, 92, 0, 0, 81657862);
+	} else {
+		if (arg2 == 3) {
+			cs2method_10444(32, 67, 0, 0, 81657861);
+			cs2method_10444(32, 42, 0, 0, 81657862);
+		}
+	}
+	return;
+}

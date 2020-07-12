@@ -1,0 +1,4 @@
+void script_3404() {
+	script_3403(subtract(cs2method_10090(59572285), cs2method_10090(59572286)), 1);
+	return;
+}

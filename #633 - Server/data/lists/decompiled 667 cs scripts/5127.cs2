@@ -1,0 +1,6 @@
+void script_5127() {
+	setWidgetIsHidden(true, new WidgetPointer(1096,35));
+	setWidgetIsHidden(false, new WidgetPointer(1096,373));
+	setWidgetText(new WidgetPointer(1096,381), (object)"Loading, please wait.");
+	return;
+}

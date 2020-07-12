@@ -1,0 +1,10 @@
+void script_5500() {
+	clearExtraChildren(new WidgetPointer(1177,0));
+	clearExtraChildren(new WidgetPointer(746,44));
+	clearExtraChildren(new WidgetPointer(746,1));
+	cs2method_20219(-1, "", new WidgetPointer(1177,0));
+	cs2method_20219(-1, "", new WidgetPointer(746,44));
+	cs2method_20219(-1, "", new WidgetPointer(746,1));
+	globalint_1696 = -1;
+	return;
+}

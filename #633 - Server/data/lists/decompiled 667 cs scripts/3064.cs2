@@ -1,0 +1,13 @@
+void script_3064(int arg0) {
+	if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(906,199), (object)"Play");
+		cs2method_10375(1, 59375802, (object)"Play");
+		cs2method_20000(3061, new WidgetPointer(906,186), "I", new WidgetPointer(906,186));
+	} else {
+		setWidgetText(new WidgetPointer(906,199), (object)"Entering game...");
+		cs2method_10831(59375802);
+		cs2method_20000(-1, "", new WidgetPointer(906,186));
+	}
+	script_3065(arg0);
+	return;
+}

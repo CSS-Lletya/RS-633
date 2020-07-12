@@ -1,0 +1,183 @@
+void script_5683(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	clearExtraChildren(new WidgetPointer(1218,30));
+	clearExtraChildren(new WidgetPointer(1218,72));
+	globalint_1753 = arg0;
+	globalint_1754 = 1;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 30;
+	ivar6 = 0;
+	setWidgetText(new WidgetPointer(1218,172), (object)"Milestones");
+	setWidgetIsHidden(false, new WidgetPointer(1218,3));
+	if (arg0 > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1218,6));
+		setWidgetIsHidden(false, new WidgetPointer(1218,7));
+		setWidgetText(new WidgetPointer(1218,85), (object)getDataByKey('i', 's', 108, arg0));
+		setWidgetText(new WidgetPointer(1218,86), (object)toString(cs2method_10453(getDataByKey('i', 'S', 681, arg0))));
+		clearExtraChildren(new WidgetPointer(1218,161));
+		ivar2 = getDataByKey('i', 'g', 5421, arg0);
+		ivar6 = cs2method_10624(ivar2);
+		ivar1 = add(35, multiply(cs2method_10624(ivar2), 15));
+		cs2method_10893(150, ivar1, 0, 0, 79822855);
+		while (ivar3 < ivar6) {
+			createChildWidget(79823009, 4, ivar4);
+			cs2method_20211(5708, ivar4, "i");
+			cs2method_20139(5709, ivar4, "i");
+			cs2method_20723(5710, arg0, ivar4, "ii");
+			ivar4 = add(ivar4, 1);
+			setWidgetPosition(0, ivar5, 0, 0);
+			setWidgetFont(4040);
+			cs2method_10320(1);
+			if (ivar3 < 2) {
+				setWidgetRGB(new Color(139, 235, 116));
+			} else {
+				setWidgetRGB(new Color(230, 190, 120));
+			}
+			setWidgetText((object)getDataByKey('i', 's', ivar2, ivar3));
+			setWidgetTextAlignment(1, 2, 0);
+			setWidgetSize(0, 15, 1, 0);
+			ivar5 = add(ivar5, 15);
+			ivar3 = add(ivar3, 1);
+		}
+	}
+	cs2method_10467(7844, 79822879);
+	cs2method_10467(7844, 79822930);
+	cs2method_10467(7844, 79822960);
+	cs2method_10467(7844, 79822954);
+	cs2method_10467(7844, 79822993);
+	cs2method_10467(7844, 79822972);
+	cs2method_10467(7844, 79822939);
+	cs2method_10467(7844, 79822957);
+	cs2method_10467(7844, 79823003);
+	cs2method_10467(7844, 79822996);
+	cs2method_10467(7844, 79822990);
+	cs2method_10467(7844, 79822975);
+	cs2method_10467(7844, 79822965);
+	cs2method_10467(7844, 79822981);
+	cs2method_10467(7844, 79822948);
+	cs2method_10467(7844, 79822984);
+	cs2method_10467(7844, 79822945);
+	cs2method_10467(7844, 79822942);
+	cs2method_10467(7844, 79822951);
+	cs2method_10467(7844, 79822978);
+	cs2method_10467(7844, 79822987);
+	cs2method_10467(7844, 79822936);
+	cs2method_10467(7844, 79823006);
+	cs2method_10467(7844, 79822969);
+	cs2method_10467(7844, 79823000);
+	ivar7 = 0;
+	switch (arg0) {
+		case 1:
+			cs2method_10467(9287, 79822930);
+			ivar7 = 0;
+			break;
+		case 2:
+			cs2method_10467(9287, 79822936);
+			ivar7 = -640;
+			break;
+		case 5:
+			cs2method_10467(9287, 79822939);
+			ivar7 = 0;
+			break;
+		case 3:
+			cs2method_10467(9287, 79822942);
+			ivar7 = -640;
+			break;
+		case 7:
+			cs2method_10467(9287, 79822945);
+			ivar7 = -640;
+			break;
+		case 4:
+			cs2method_10467(9287, 79822948);
+			ivar7 = -320;
+			break;
+		case 6:
+			cs2method_10467(9287, 79822960);
+			ivar7 = 0;
+			break;
+		case 8:
+			cs2method_10467(9287, 79822879);
+			ivar7 = 0;
+			break;
+		case 9:
+			cs2method_10467(9287, 79822965);
+			ivar7 = -320;
+			break;
+		case 10:
+			cs2method_10467(9287, 79822969);
+			ivar7 = -640;
+			break;
+		case 11:
+			cs2method_10467(9287, 79822972);
+			ivar7 = 0;
+			break;
+		case 19:
+			cs2method_10467(9287, 79822975);
+			ivar7 = -320;
+			break;
+		case 13:
+			cs2method_10467(9287, 79822984);
+			ivar7 = -320;
+			break;
+		case 14:
+			cs2method_10467(9287, 79822987);
+			ivar7 = -640;
+			break;
+		case 15:
+			cs2method_10467(9287, 79822990);
+			ivar7 = -320;
+			break;
+		case 16:
+			cs2method_10467(9287, 79822993);
+			ivar7 = 0;
+			break;
+		case 17:
+			cs2method_10467(9287, 79822996);
+			ivar7 = -320;
+			break;
+		case 18:
+			cs2method_10467(9287, 79823000);
+			ivar7 = -960;
+			break;
+		case 12:
+			cs2method_10467(9287, 79822951);
+			ivar7 = -640;
+			break;
+		case 20:
+			cs2method_10467(9287, 79822978);
+			ivar7 = -640;
+			break;
+		case 21:
+			cs2method_10467(9287, 79823003);
+			ivar7 = -320;
+			break;
+		case 22:
+			cs2method_10467(9287, 79822954);
+			ivar7 = 0;
+			break;
+		case 23:
+			cs2method_10467(9287, 79822981);
+			ivar7 = -320;
+			break;
+		case 24:
+			cs2method_10467(9287, 79823006);
+			ivar7 = -640;
+			break;
+		case 25:
+			cs2method_10467(9287, 79822957);
+			ivar7 = 0;
+	}
+	globalint_1752 = 0;
+	cs2method_20219(-1, "", new WidgetPointer(1218,74));
+	cs2method_10444(cs2method_10111(79822880), ivar7, 0, 0, 79822880);
+	return;
+}

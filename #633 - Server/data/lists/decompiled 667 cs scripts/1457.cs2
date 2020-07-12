@@ -1,0 +1,19 @@
+void script_1457(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 0;
+	ivar3 = arg0;
+	while (ivar3 < arg1) {
+		if (cs2method_10551(49938527, ivar3) == 1) {
+			setWidgetPosition(add(multiply(44, cs2method_10620(ivar2, 10)), 8), add(multiply(divide(ivar2, 10), 44), 5), 0, 0);
+			cs2method_10692(0);
+			ivar2 = add(ivar2, 1);
+		}
+		ivar3 = add(ivar3, 1);
+	}
+	script_1464();
+	setWidgetIsHidden(false, new WidgetPointer(762,86));
+	cs2method_10444(subtract(8, 2), subtract(5, 2), 0, 0, 49938518);
+	script_1458(ivar2);
+	return;
+}

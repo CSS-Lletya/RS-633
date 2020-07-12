@@ -1,0 +1,29 @@
+void script_6214() {
+	if (standart_config_2611 == 1) {
+		switch (cs2method_10145()) {
+			case 0:
+				cs2method_10467(10948, 59376004);
+				break;
+			case 1:
+				cs2method_10467(10950, 59376004);
+				break;
+			case 2:
+				cs2method_10467(10949, 59376004);
+				break;
+			case 3:
+				cs2method_10467(10951, 59376004);
+		}
+		cs2method_10444(cs2method_10111(59376011), 130, 0, 0, 59376011);
+		cs2method_10444(cs2method_10111(59376014), 345, 0, 0, 59376014);
+		cs2method_10444(cs2method_10111(59376012), 185, 0, 0, 59376012);
+		cs2method_10444(cs2method_10111(59376013), 232, 0, 0, 59376013);
+		cs2method_10444(cs2method_10111(59376019), 302, 0, 0, 59376019);
+		cs2method_10444(cs2method_10111(59376006), 372, 0, 0, 59376006);
+		setWidgetText(new WidgetPointer(906,395), (object)"An email from noreply@email.runescape.com has been sent to your inbox.");
+		setWidgetText(new WidgetPointer(906,396), (object)"In addition to all the members' benefits, you'll also receive these great rewards so hurry and check your inbox!");
+		setWidgetIsHidden(true, new WidgetPointer(906,404));
+		cs2method_10893(300, cs2method_10090(59376006), 0, 0, 59376006);
+		cs2method_20889(-1, "", new WidgetPointer(906,382));
+	}
+	return;
+}

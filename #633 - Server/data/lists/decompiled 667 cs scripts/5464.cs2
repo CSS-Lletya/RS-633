@@ -1,0 +1,16 @@
+void script_5464() {
+	if (globalint_1671 >= 48) {
+		cs2method_10893(cs2method_10956(75956247), 105, 0, 0, 75956247);
+		cs2method_10893(cs2method_10956(75956255), 72, 0, 0, 75956255);
+	} else if (globalint_1671 >= 24) {
+		cs2method_10893(cs2method_10956(75956247), 79, 0, 0, 75956247);
+		cs2method_10893(cs2method_10956(75956255), 48, 0, 0, 75956255);
+	} else if (globalint_1670 > 0) {
+		cs2method_10893(cs2method_10956(75956247), 55, 0, 0, 75956247);
+		cs2method_10893(cs2method_10956(75956255), 24, 0, 0, 75956255);
+	} else {
+		cs2method_10893(cs2method_10956(75956247), 37, 0, 0, 75956247);
+		cs2method_10893(cs2method_10956(75956255), 1, 0, 0, 75956255);
+	}
+	return;
+}

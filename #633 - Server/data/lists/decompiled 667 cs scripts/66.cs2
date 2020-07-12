@@ -1,0 +1,4 @@
+void script_66(int arg0,int arg1,int arg2,int arg3) {
+	cs2method_10158(0, 0, AND(add(cs2method_10427(arg3), arg0), 2047), AND(add(cs2method_10782(arg3), arg1), 2047), AND(add(cs2method_10854(arg3), arg2), 2047), cs2method_10656(arg3), arg3);
+	return;
+}

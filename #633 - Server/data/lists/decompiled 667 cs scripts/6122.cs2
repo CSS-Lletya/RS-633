@@ -1,0 +1,40 @@
+void script_6122() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	if (compareTo((object)"", cs2method_10100(40697859)) == 0) {
+		setWidgetText(new WidgetPointer(621,3), (object)toString(bitconfig_11074));
+	} else {
+		if (compareTo((object)toString(bitconfig_11074), cs2method_10100(40697859)) != 0) {
+			setWidgetText(new WidgetPointer(621,2), cs2method_10100(40697859));
+			cs2method_10444(58, -4, 0, 0, 40697858);
+			cs2method_20219(6123, new WidgetPointer(-32768,3), 14, 5, "Iii", new WidgetPointer(621,2));
+			cs2method_10444(58, -22, 0, 0, 40697859);
+			cs2method_20219(6123, new WidgetPointer(-32768,3), -4, 5, "Iii", new WidgetPointer(621,3));
+			setWidgetText(new WidgetPointer(621,3), (object)toString(bitconfig_11074));
+		}
+	}
+	if (compareTo((object)"", cs2method_10100(40697861)) == 0) {
+		setWidgetText(new WidgetPointer(621,5), (object)toString(bitconfig_11075));
+	}
+	if (compareTo((object)toString(bitconfig_11075), cs2method_10100(40697861)) != 0) {
+		setWidgetText(new WidgetPointer(621,4), cs2method_10100(40697861));
+		cs2method_10444(394, -4, 0, 0, 40697860);
+		cs2method_20219(6123, new WidgetPointer(-32768,3), 14, 5, "Iii", new WidgetPointer(621,4));
+		cs2method_10444(394, -22, 0, 0, 40697861);
+		cs2method_20219(6123, new WidgetPointer(-32768,3), -4, 5, "Iii", new WidgetPointer(621,5));
+		setWidgetText(new WidgetPointer(621,5), (object)toString(bitconfig_11075));
+	}
+	ivar0 = subtract(bitconfig_11074, bitconfig_11075);
+	ivar0 = cs2method_10004(cs2method_10586(ivar0, 20), subtract(0, 20));
+	ivar1 = 16;
+	ivar2 = 10;
+	ivar3 = subtract(cs2method_10956(40697872), multiply(add(ivar1, ivar2), 2));
+	ivar4 = divide(ivar3, multiply(20, 2));
+	cs2method_10893(add(ivar2, multiply(ivar4, add(20, ivar0))), cs2method_10090(40697875), 0, 0, 40697875);
+	cs2method_10893(add(ivar2, multiply(ivar4, subtract(20, ivar0))), cs2method_10090(40697876), 0, 0, 40697876);
+	cs2method_10444(subtract(add(add(ivar1, ivar2), multiply(ivar4, add(20, ivar0))), 16), cs2method_10826(40697881), 0, 0, 40697881);
+	return;
+}

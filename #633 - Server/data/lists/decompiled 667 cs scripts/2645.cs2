@@ -1,0 +1,12 @@
+void script_2645(int arg0) {
+	if (globalint_842 == 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)"Next page");
+		cs2method_20000(2641, "", new WidgetPointer(860,20));
+	} else {
+		if (globalint_842 == 2) {
+			setWidgetText(new WidgetPointer(arg0), (object)"Previous page");
+			cs2method_20000(2640, "", new WidgetPointer(860,20));
+		}
+	}
+	return;
+}

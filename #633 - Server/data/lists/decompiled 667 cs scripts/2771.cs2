@@ -1,0 +1,21 @@
+void script_2771(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = subtract(cs2method_10878(), arg1);
+	if (ivar2 >= 181 || globalint_1007 != 1) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	if (cs2method_10620(ivar2, 25) == 0) {
+		switch (cs2method_10742(2)) {
+			case 0:
+				cs2method_10508(6645, 1, 0);
+				break;
+			case 1:
+				cs2method_10508(6644, 1, 0);
+				break;
+			case 2:
+				cs2method_10508(6643, 1, 0);
+		}
+	}
+	return;
+}

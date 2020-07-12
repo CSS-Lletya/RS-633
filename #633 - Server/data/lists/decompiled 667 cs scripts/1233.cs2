@@ -1,0 +1,25 @@
+void script_1233(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int stack_dump0;
+	ivar6 = 0;
+	ivar7 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg2 == arg0) {
+			if (cs2method_10551(arg2, arg3) == 1) {
+				stack_dump0 = cs2method_10646();
+				ivar7 = cs2method_10207();
+				ivar6 = stack_dump0;
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetPosition(ivar6, ivar7, 0, 0);
+			}
+			return;
+		}
+		if (arg2 == arg4 || arg2 == arg5) {
+			cs2method_10692(1);
+			return;
+		}
+		setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+	}
+	return;
+}

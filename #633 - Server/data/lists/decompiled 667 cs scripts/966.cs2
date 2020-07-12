@@ -1,0 +1,9 @@
+void script_966(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = cs2method_10854(arg0);
+	if (ivar2 != arg1) {
+		cs2method_10158(0, 0, cs2method_10427(arg0), cs2method_10782(arg0), script_967(ivar2, arg1), cs2method_10656(arg0), arg0);
+		globalint_125 = cs2method_10878();
+	}
+	return;
+}

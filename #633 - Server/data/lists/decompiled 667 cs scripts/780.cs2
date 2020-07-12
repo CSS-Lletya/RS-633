@@ -1,0 +1,9 @@
+string script_780(int arg0) {
+	if (arg0 >= 999999) {
+		return "*";
+	}
+	if (arg0 >= 10000) {
+		return cs2method_10445((object)toString(divide(arg0, 1000)), (object)"K");
+	}
+	return toString(arg0);
+}

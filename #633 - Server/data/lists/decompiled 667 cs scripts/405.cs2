@@ -1,0 +1,6 @@
+void script_405(int arg0) {
+	cs2method_10149(255, arg0);
+	cs2method_20219(406, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+	setWidgetText(new WidgetPointer(arg0), (object)("Conquest Ranking: " + toString(standart_config_1875)));
+	return;
+}

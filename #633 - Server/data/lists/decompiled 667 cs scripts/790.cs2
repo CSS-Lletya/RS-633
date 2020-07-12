@@ -1,0 +1,14 @@
+object script_790() {
+	int ivar0;
+	object ovar0;
+	ivar0 = cs2method_10869(75);
+	ovar0 = (object)"";
+	if (ivar0 < 25) {
+		ovar0 = (object)"Did you know that most monsters can drop bonus spins?";
+	} else if (ivar0 < 50) {
+		ovar0 = (object)"Earn bonus spins for gathering resources, making things, and other skilling.";
+	} else {
+		ovar0 = (object)"Keep doing the things you like: there are lots of ways to get bonus spins!";
+	}
+	return ovar0;
+}

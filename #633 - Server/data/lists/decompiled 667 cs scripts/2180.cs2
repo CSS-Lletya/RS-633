@@ -1,0 +1,9 @@
+void script_2180(int arg0) {
+	int ivar1;
+	ivar1 = getDataByKey('i', 'J', 2252, arg0);
+	if (cs2method_10551(12451855, arg0) == 1) {
+		setWidgetText((object)getGeneralRequirementAttribute(ivar1, 845));
+		cs2method_20745(-1, "");
+	}
+	return;
+}

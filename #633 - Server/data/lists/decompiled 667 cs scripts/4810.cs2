@@ -1,0 +1,97 @@
+void script_4810() {
+	int ivar0;
+	ivar0 = 1;
+	cs2method_10444(4, ivar0, 0, 0, 82444679);
+	ivar0 = add(ivar0, 13);
+	cs2method_10444(0, ivar0, 0, 0, 82444706);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444706));
+	if (cs2method_10090(82444694) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,392));
+		cs2method_10444(4, ivar0, 0, 0, 82444680);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444694);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444694));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,392));
+		cs2method_10444(0, ivar0, 0, 0, 82444694);
+	}
+	if (cs2method_10090(82444682) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,393));
+		cs2method_10444(4, ivar0, 0, 0, 82444681);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444682);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444682));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,393));
+		cs2method_10444(0, ivar0, 0, 0, 82444682);
+	}
+	cs2method_10444(0, ivar0, 0, 0, 82444718);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444718));
+	setWidgetScrollMax(0, ivar0, 82444678);
+	if (cs2method_10416(82444678) == 0) {
+		script_31(82444526, 82444678, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	ivar0 = 1;
+	cs2method_10444(4, ivar0, 0, 0, 82444607);
+	ivar0 = add(ivar0, 13);
+	cs2method_10444(0, ivar0, 0, 0, 82444638);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444638));
+	if (cs2method_10090(82444624) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,320));
+		cs2method_10444(4, ivar0, 0, 0, 82444608);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444624);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444624));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,320));
+		cs2method_10444(0, ivar0, 0, 0, 82444624);
+	}
+	if (cs2method_10090(82444610) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,321));
+		cs2method_10444(4, ivar0, 0, 0, 82444609);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444610);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444610));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,321));
+		cs2method_10444(0, ivar0, 0, 0, 82444610);
+	}
+	cs2method_10444(0, ivar0, 0, 0, 82444652);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444652));
+	setWidgetScrollMax(0, ivar0, 82444606);
+	if (cs2method_10416(82444606) == 0) {
+		script_31(82444526, 82444606, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	ivar0 = 1;
+	cs2method_10444(4, ivar0, 0, 0, 82444529);
+	ivar0 = add(ivar0, 13);
+	cs2method_10444(0, ivar0, 0, 0, 82444564);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444564));
+	if (cs2method_10090(82444548) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,242));
+		cs2method_10444(4, ivar0, 0, 0, 82444530);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444548);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444548));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,242));
+		cs2method_10444(0, ivar0, 0, 0, 82444548);
+	}
+	if (cs2method_10090(82444532) > 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1258,243));
+		cs2method_10444(4, ivar0, 0, 0, 82444531);
+		ivar0 = add(ivar0, 13);
+		cs2method_10444(0, ivar0, 0, 0, 82444532);
+		ivar0 = add(add(ivar0, 1), cs2method_10090(82444532));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1258,243));
+		cs2method_10444(0, ivar0, 0, 0, 82444532);
+	}
+	cs2method_10444(0, ivar0, 0, 0, 82444580);
+	ivar0 = add(add(ivar0, 1), cs2method_10090(82444580));
+	setWidgetScrollMax(0, ivar0, 82444528);
+	if (cs2method_10416(82444528) == 0) {
+		script_31(82444526, 82444528, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	return;
+}

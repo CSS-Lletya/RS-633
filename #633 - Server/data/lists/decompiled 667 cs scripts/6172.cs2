@@ -1,0 +1,93 @@
+int script_6172(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ivar2 = getDataByKey('i', 'J', 5838, arg0);
+	if (ivar2 == -1) {
+		return arg1;
+	}
+	ivar3 = getGeneralRequirementAttribute(ivar2, 2390);
+	ivar4 = getGeneralRequirementAttribute(ivar2, 2391);
+	ovar0 = (object)getGeneralRequirementAttribute(ivar2, 2392);
+	ivar5 = 10735;
+	if (cs2method_10551(83427342, arg0) == 1) {
+		cs2method_10469(10734);
+		setWidgetSize(84, 78, 0, 0);
+		setWidgetPosition(ivar3, ivar4, 0, 0);
+		cs2method_10843(1);
+		cs2method_20211(5343, new WidgetPointer(-32768,3), -2147483643, ivar5, "Iid");
+		cs2method_20139(6170, new WidgetPointer(-32768,3), -2147483643, "Ii");
+		cs2method_20930(568, new WidgetPointer(1273,14), arg0, new WidgetPointer(1273,18), (string)ovar0, 5, 300, "IiIsii");
+		setWidgetContextMenuOption(1, (object)"Buy 1");
+		setWidgetContextMenuOption(2, (object)"Buy 2");
+		setWidgetContextMenuOption(3, (object)"Buy 5");
+		setWidgetContextMenuOption(4, (object)"Buy 10");
+		cs2method_20115(6171, arg0, new WidgetPointer(-32768,3), "iI");
+		if (getGeneralRequirementAttribute(ivar2, 2378) == 0) {
+			cs2method_11002((object)getGeneralRequirementAttribute(ivar2, 2376));
+			createChildWidget(83427342, 4, arg1);
+			setWidgetSize(84, 14, 0, 0);
+			setWidgetPosition(ivar3, subtract(ivar4, 30), 0, 0);
+			setWidgetText((object)getGeneralRequirementAttribute(ivar2, 2376));
+			setWidgetTextAlignment(1, 1, 0);
+			setWidgetFont(495);
+			cs2method_10320(0);
+			setWidgetRGB(new Color(255, 255, 255));
+			arg1 = add(arg1, 1);
+			cs2method_11002((object)getGeneralRequirementAttribute(ivar2, 2376));
+		} else {
+			cs2method_11002((object)(getGeneralRequirementAttribute(ivar2, 2376) + " " + getGeneralRequirementAttribute(ivar2, 2377)));
+			createChildWidget(83427342, 4, arg1);
+			setWidgetSize(84, 14, 0, 0);
+			setWidgetPosition(ivar3, subtract(ivar4, 37), 0, 0);
+			if (cs2method_10145() == 3 || cs2method_10145() == 2) {
+				setWidgetText((object)getGeneralRequirementAttribute(ivar2, 2377));
+			} else {
+				setWidgetText((object)getGeneralRequirementAttribute(ivar2, 2376));
+			}
+			setWidgetTextAlignment(1, 1, 0);
+			setWidgetFont(495);
+			cs2method_10320(0);
+			setWidgetRGB(new Color(255, 255, 255));
+			arg1 = add(arg1, 1);
+			createChildWidget(83427342, 4, arg1);
+			setWidgetSize(84, 14, 0, 0);
+			setWidgetPosition(ivar3, subtract(ivar4, 23), 0, 0);
+			if (cs2method_10145() == 3 || cs2method_10145() == 2) {
+				setWidgetText((object)getGeneralRequirementAttribute(ivar2, 2376));
+			} else {
+				setWidgetText((object)getGeneralRequirementAttribute(ivar2, 2377));
+			}
+			setWidgetTextAlignment(1, 1, 0);
+			setWidgetFont(495);
+			cs2method_10320(0);
+			setWidgetRGB(new Color(255, 255, 255));
+			arg1 = add(arg1, 1);
+			cs2method_11002(cs2method_10445(cs2method_10445((object)getGeneralRequirementAttribute(ivar2, 2376), (object)" "), (object)getGeneralRequirementAttribute(ivar2, 2377)));
+		}
+		createChildWidget(83427342, 4, arg1);
+		setWidgetSize(84, 14, 0, 0);
+		setWidgetPosition(ivar3, add(ivar4, 82), 0, 0);
+		setWidgetText((object)(getGeneralRequirementAttribute(ivar2, 2380) + " Points"));
+		setWidgetTextAlignment(1, 1, 0);
+		setWidgetFont(496);
+		cs2method_10320(0);
+		setWidgetRGB(new Color(250, 129, 25));
+		arg1 = add(arg1, 1);
+		createChildWidget(83427342, 6, arg1);
+		setWidgetSize(20, 20, 0, 0);
+		cs2method_10272(getGeneralRequirementAttribute(ivar2, 2383));
+		cs2method_10021(getGeneralRequirementAttribute(ivar2, 2388), getGeneralRequirementAttribute(ivar2, 2389), getGeneralRequirementAttribute(ivar2, 2385), getGeneralRequirementAttribute(ivar2, 2386), getGeneralRequirementAttribute(ivar2, 2387), getGeneralRequirementAttribute(ivar2, 2384));
+		if (arg0 < 4) {
+			cs2method_10420(1, 2040, 2055);
+		}
+		ivar3 = add(add(ivar3, getGeneralRequirementAttribute(ivar2, 2388)), divide(subtract(84, cs2method_10040()), 2));
+		ivar4 = add(add(ivar4, getGeneralRequirementAttribute(ivar2, 2389)), divide(subtract(70, cs2method_10630()), 2));
+		setWidgetPosition(ivar3, ivar4, 0, 0);
+		cs2method_10843(0);
+		arg1 = add(arg1, 1);
+	}
+	return arg1;
+}

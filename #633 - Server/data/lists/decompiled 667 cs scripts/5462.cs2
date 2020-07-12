@@ -1,0 +1,111 @@
+void script_5462(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	ivar2 = -1;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 1:
+			ivar2 = 8178;
+			ovar0 = (object)"Reduced melee attack";
+			break;
+		case 2:
+			ivar2 = 8184;
+			ovar0 = (object)"No shield";
+			break;
+		case 3:
+			ivar2 = 8185;
+			ovar0 = (object)"No food";
+			break;
+		case 4:
+			ivar2 = 8181;
+			ovar0 = (object)"Reduced melee defence";
+			break;
+		case 5:
+			ivar2 = 8187;
+			ovar0 = (object)"Random freeze";
+			break;
+		case 6:
+			ivar2 = 8188;
+			ovar0 = (object)"Halved HP";
+			break;
+		case 7:
+			ivar2 = 8186;
+			ovar0 = (object)"No body armour";
+			break;
+		case 8:
+			ivar2 = 8179;
+			ovar0 = (object)"Reduced ranged attack";
+			break;
+		case 9:
+			ivar2 = 8191;
+			ovar0 = (object)"No familiar";
+			break;
+		case 10:
+			ivar2 = 8199;
+			ovar0 = (object)"Monster stun";
+			break;
+		case 11:
+			ivar2 = 8193;
+			ovar0 = (object)"No prayers";
+			break;
+		case 12:
+			ivar2 = 8190;
+			ovar0 = (object)"Slippery fingers";
+			break;
+		case 13:
+			ivar2 = 8180;
+			ovar0 = (object)"Reduced magic attack";
+			break;
+		case 14:
+			ivar2 = 8192;
+			ovar0 = (object)"Diseased";
+			break;
+		case 15:
+			ivar2 = 8195;
+			ovar0 = (object)"No special attacks";
+			break;
+		case 16:
+			ivar2 = 8183;
+			ovar0 = (object)"Reduced magic defence";
+			break;
+		case 17:
+			ivar2 = 8196;
+			ovar0 = (object)"Random daze";
+			break;
+		case 18:
+			ivar2 = 8189;
+			ovar0 = (object)"Poisoned";
+			break;
+		case 19:
+			ivar2 = 8182;
+			ovar0 = (object)"Reduced ranged defence";
+			break;
+		case 20:
+			ivar2 = 8197;
+			ovar0 = (object)"No powerups";
+			break;
+		case 21:
+			ivar2 = 8194;
+			ovar0 = (object)"No potions";
+			break;
+		case 22:
+			ivar2 = 8198;
+			ovar0 = (object)"Life saver";
+			break;
+		default:
+			ivar2 = 8178;
+	}
+	createChildWidget(75956255, 5, arg1);
+	cs2method_10469(ivar2);
+	setWidgetSize(23, 23, 0, 0);
+	setWidgetPosition(globalint_1670, globalint_1671, 2, 2);
+	globalint_1670 = add(globalint_1670, 24);
+	if (globalint_1670 > 180) {
+		globalint_1670 = 0;
+		globalint_1671 = add(globalint_1671, 24);
+	}
+	script_5464();
+	cs2method_20930(568, new WidgetPointer(-32768,3), arg1, new WidgetPointer(1159,44), (string)ovar0, 10, 100, "IiIsii");
+	cs2method_20139(40, new WidgetPointer(1159,44), "I");
+	return;
+}

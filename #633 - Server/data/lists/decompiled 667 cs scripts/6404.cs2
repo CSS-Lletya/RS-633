@@ -1,0 +1,43 @@
+void script_6404(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 1:
+			ivar1 = 85196844;
+			break;
+		case 2:
+			ivar1 = 85196847;
+			break;
+		case 3:
+			ivar1 = 85196849;
+			break;
+		case 4:
+			ivar1 = 85196851;
+			break;
+		case 5:
+			ivar1 = 85196853;
+			break;
+		case 6:
+			ivar1 = 85196855;
+			break;
+		case 7:
+			ivar1 = 85196857;
+			break;
+		case 8:
+			ivar1 = 85196859;
+			break;
+		case 9:
+			ivar1 = 85196861;
+			break;
+		case 10:
+			ivar1 = 85196863;
+			break;
+		case 11:
+			ivar1 = 85196865;
+			break;
+		case 12:
+			ivar1 = 85196867;
+	}
+	cs2method_20219(6405, new WidgetPointer(ivar1), 0, "Ii", new WidgetPointer(ivar1));
+	return;
+}

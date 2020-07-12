@@ -1,0 +1,3 @@
+int script_6418(int arg0,int arg1,int arg2,object arg3,object arg4) {
+	return script_6420(arg1, arg2, (object)((string)arg3 + " : " + (string)arg4 + toString(arg0)));
+}

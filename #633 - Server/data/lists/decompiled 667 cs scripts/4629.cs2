@@ -1,0 +1,22 @@
+void script_4629(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10403(72744980) == 1) {
+		if (arg0 == 1) {
+			ivar1 = add(cs2method_10040(), 3);
+			ivar1 = cs2method_10586(48, ivar1);
+			if (ivar1 == 48) {
+				cs2method_20745(-1, "");
+			}
+		} else {
+			ivar1 = subtract(cs2method_10040(), 3);
+			ivar1 = cs2method_10004(1, ivar1);
+			if (ivar1 == 1) {
+				cs2method_20745(-1, "");
+				setWidgetIsHidden(true, new WidgetPointer(1110,13));
+			}
+		}
+		setWidgetSize(ivar1, 19, 0, 0);
+	}
+	return;
+}

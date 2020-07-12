@@ -1,0 +1,9 @@
+int script_6220(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = script_284(cs2method_10687());
+	ivar2 = subtract(cs2method_10565(arg0), cs2method_10565(20977728));
+	ivar3 = subtract(cs2method_10130(arg0), cs2method_10130(20977728));
+	return cs2method_10273(ivar1, ivar2, 0, ivar3);
+}

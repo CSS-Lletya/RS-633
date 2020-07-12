@@ -1,0 +1,10 @@
+void script_2212() {
+	if (cs2method_10111(globalint_1136) < subtract(cs2method_10956(61079553), 1)) {
+		cs2method_20219(2212, "", new WidgetPointer(932,1));
+		cs2method_10444(add(1, cs2method_10111(globalint_1136)), cs2method_10826(globalint_1136), 0, 0, globalint_1136);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(globalint_1136));
+		cs2method_10444(0, 120, 0, 0, globalint_1136);
+	}
+	return;
+}

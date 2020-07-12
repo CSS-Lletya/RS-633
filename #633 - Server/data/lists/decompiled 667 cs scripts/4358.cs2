@@ -1,0 +1,36 @@
+void script_4358(int arg0) {
+	setWidgetIsHidden(true, new WidgetPointer(1098,244));
+	setWidgetIsHidden(true, new WidgetPointer(1098,251));
+	setWidgetIsHidden(true, new WidgetPointer(1098,258));
+	setWidgetIsHidden(true, new WidgetPointer(1098,265));
+	setWidgetIsHidden(true, new WidgetPointer(1098,272));
+	setWidgetIsHidden(true, new WidgetPointer(1098,279));
+	setWidgetIsHidden(true, new WidgetPointer(1098,286));
+	setWidgetIsHidden(true, new WidgetPointer(1098,293));
+	switch (arg0) {
+		case 71958773:
+			setWidgetIsHidden(false, new WidgetPointer(1098,244));
+			break;
+		case 71958780:
+			setWidgetIsHidden(false, new WidgetPointer(1098,251));
+			break;
+		case 71958787:
+			setWidgetIsHidden(false, new WidgetPointer(1098,258));
+			break;
+		case 71958794:
+			setWidgetIsHidden(false, new WidgetPointer(1098,265));
+			break;
+		case 71958801:
+			setWidgetIsHidden(false, new WidgetPointer(1098,272));
+			break;
+		case 71958808:
+			setWidgetIsHidden(false, new WidgetPointer(1098,279));
+			break;
+		case 71958815:
+			setWidgetIsHidden(false, new WidgetPointer(1098,286));
+			break;
+		case 71958822:
+			setWidgetIsHidden(false, new WidgetPointer(1098,293));
+	}
+	return;
+}

@@ -1,0 +1,30 @@
+void script_6048(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = cs2method_10964(arg0);
+	if (arg1 == 0) {
+		ivar3 = cs2method_10004(0, subtract(ivar3, 20));
+		if (ivar3 == 0) {
+			arg1 = -1;
+			arg2 = 0;
+		}
+	} else if (arg1 == 1) {
+		ivar3 = cs2method_10586(255, add(ivar3, 20));
+		if (ivar3 == 255) {
+			if (cs2method_10825(arg0) == 10245) {
+				cs2method_10467(script_6267(10246), arg0);
+			} else {
+				cs2method_10467(script_6267(10245), arg0);
+			}
+			arg1 = 0;
+		}
+	} else {
+		arg2 = add(arg2, 1);
+		if (arg2 >= 20) {
+			arg1 = 1;
+			arg2 = 0;
+		}
+	}
+	cs2method_20219(6048, new WidgetPointer(-32768,3), arg1, arg2, "Iii", new WidgetPointer(arg0));
+	cs2method_10149(ivar3, arg0);
+	return;
+}

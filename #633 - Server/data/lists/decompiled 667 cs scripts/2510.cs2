@@ -1,0 +1,23 @@
+void script_2510() {
+	if (globalint_852 <= 0) {
+		globalint_852 = 0;
+	}
+	if (globalint_853 <= 0) {
+		globalint_853 = 0;
+	}
+	if (globalint_854 <= 0) {
+		globalint_854 = 0;
+	}
+	if (globalint_855 <= 0) {
+		globalint_855 = 0;
+	}
+	if (globalint_856 <= 0) {
+		globalint_856 = 0;
+	}
+	setWidgetText(new WidgetPointer(654,9), (object)toString(globalint_852));
+	setWidgetText(new WidgetPointer(654,58), (object)toString(globalint_853));
+	setWidgetText(new WidgetPointer(654,50), (object)toString(globalint_854));
+	setWidgetText(new WidgetPointer(654,42), (object)toString(globalint_855));
+	setWidgetText(new WidgetPointer(654,67), (object)toString(globalint_856));
+	return;
+}

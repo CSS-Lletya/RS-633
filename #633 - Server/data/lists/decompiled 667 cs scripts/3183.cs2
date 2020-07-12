@@ -1,0 +1,12 @@
+void script_3183() {
+	if (cs2method_10366((object)globalstring_277) <= 0) {
+		return;
+	}
+	globalstring_279 = globalstring_277;
+	script_3180();
+	if (cs2method_10366((object)globalstring_279) > 0) {
+		script_3190();
+		globalint_1662 = 1;
+	}
+	return;
+}

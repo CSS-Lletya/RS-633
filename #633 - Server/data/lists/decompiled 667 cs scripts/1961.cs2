@@ -1,0 +1,106 @@
+void script_1961() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	ivar0 = getItemAmtInContainer(93, 1985);
+	ivar1 = getItemAmtInContainer(93, 2169);
+	ivar2 = getItemAmtInContainer(93, 2162);
+	ivar3 = getItemAmtInContainer(93, 1957);
+	ivar4 = getItemAmtInContainer(93, 2126);
+	ivar5 = getItemAmtInContainer(93, 2128);
+	ivar6 = getItemAmtInContainer(93, 2152);
+	ivar7 = getItemAmtInContainer(93, 1973);
+	ivar8 = getItemAmtInContainer(93, 1942);
+	if (ivar2 >= 4 && ivar3 >= 2 && ivar1 >= 1) {
+		setWidgetRGB(65280, 28508205);
+	} else {
+		setWidgetRGB(16711680, 28508205);
+	}
+	if (ivar3 >= 2 && ivar1 >= 1 && ivar8 >= 2) {
+		setWidgetRGB(65280, 28508206);
+	} else {
+		setWidgetRGB(16711680, 28508206);
+	}
+	if (ivar6 >= 4 && ivar1 >= 1 && ivar0 >= 2 && ivar5 >= 2 && ivar4 >= 1) {
+		setWidgetRGB(65280, 28508207);
+	} else {
+		setWidgetRGB(16711680, 28508207);
+	}
+	if (ivar7 >= 4 && ivar5 >= 1) {
+		setWidgetRGB(65280, 28508208);
+	} else {
+		setWidgetRGB(16711680, 28508208);
+	}
+	if (getItemAmtInContainer(93, 2152) > 3) {
+		cs2method_10380(2152, 100, 28508182);
+	} else {
+		cs2method_10380(9499, 100, 28508182);
+	}
+	if (getItemAmtInContainer(93, 2128) > 1) {
+		cs2method_10380(2128, 120, 28508184);
+	} else {
+		cs2method_10380(9494, 120, 28508184);
+	}
+	if (getItemAmtInContainer(93, 1985) > 1) {
+		cs2method_10380(1985, 140, 28508183);
+	} else {
+		cs2method_10380(9502, 140, 28508183);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28508185);
+	} else {
+		cs2method_10380(9500, 90, 28508185);
+	}
+	if (getItemAmtInContainer(93, 2126) > 0) {
+		cs2method_10380(2126, 140, 28508186);
+	} else {
+		cs2method_10380(9496, 140, 28508186);
+	}
+	if (getItemAmtInContainer(93, 2162) > 3) {
+		cs2method_10380(2162, 100, 28508164);
+	} else {
+		cs2method_10380(9501, 100, 28508164);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28508166);
+	} else {
+		cs2method_10380(9500, 90, 28508166);
+	}
+	if (getItemAmtInContainer(93, 1957) > 1) {
+		cs2method_10380(1957, 140, 28508165);
+	} else {
+		cs2method_10380(9504, 140, 28508165);
+	}
+	if (getItemAmtInContainer(93, 1942) > 1) {
+		cs2method_10380(1942, 100, 28508174);
+	} else {
+		cs2method_10380(9506, 100, 28508174);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28508175);
+	} else {
+		cs2method_10380(9500, 90, 28508175);
+	}
+	if (getItemAmtInContainer(93, 1957) > 1) {
+		cs2method_10380(1957, 140, 28508173);
+	} else {
+		cs2method_10380(9504, 140, 28508173);
+	}
+	if (getItemAmtInContainer(93, 1973) > 3) {
+		cs2method_10380(1973, 140, 28508195);
+	} else {
+		cs2method_10380(9507, 140, 28508195);
+	}
+	if (getItemAmtInContainer(93, 2128) > 0) {
+		cs2method_10380(2128, 120, 28508196);
+	} else {
+		cs2method_10380(9494, 120, 28508196);
+	}
+	return;
+}

@@ -1,0 +1,18 @@
+void script_9(int arg0,int arg1,int arg2) {
+	if (globalint_169 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		script_680(arg0);
+		cs2method_20333(95, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+		cs2method_20295(93, new WidgetPointer(arg0), "I", new WidgetPointer(arg0));
+	} else {
+		clearExtraChildren(new WidgetPointer(arg0));
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+		cs2method_20333(-1, "", new WidgetPointer(arg0));
+		cs2method_20295(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

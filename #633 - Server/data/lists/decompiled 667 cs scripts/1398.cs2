@@ -1,0 +1,12 @@
+void script_1398(int arg0,int arg1) {
+	cs2method_10461(10111, 18481171);
+	cs2method_10461(10113, 18481172);
+	cs2method_10461(10109, 18481170);
+	cs2method_10461(10107, 18481169);
+	cs2method_10461(10105, 18481168);
+	cs2method_10461(10103, 18481167);
+	cs2method_10461(10101, 18481166);
+	cs2method_10461(10099, 18481165);
+	cs2method_10461(arg1, arg0);
+	return;
+}

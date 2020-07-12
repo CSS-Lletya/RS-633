@@ -1,0 +1,68 @@
+void script_5346() {
+	setWidgetText(new WidgetPointer(1180,84), (object)toString(bitconfig_10301));
+	setWidgetText(new WidgetPointer(1180,70), (object)toString(globalint_1732));
+	setWidgetText(new WidgetPointer(1180,56), (object)(toString(bitconfig_10313) + "%"));
+	if (globalint_1731 != 1) {
+		setWidgetText(new WidgetPointer(1180,77), (object)(toString(globalint_1731) + " sets"));
+	} else {
+		setWidgetText(new WidgetPointer(1180,77), (object)"1 set");
+	}
+	switch (globalint_1731) {
+		case 0:
+			setWidgetRGB(12857645, 77332557);
+			break;
+		case 1:
+			setWidgetRGB(12857645, 77332557);
+			break;
+		case 2:
+			setWidgetRGB(13681696, 77332557);
+			break;
+		case 3:
+			setWidgetRGB(13681696, 77332557);
+			break;
+		case 4:
+			setWidgetRGB(13681696, 77332557);
+			break;
+		case 5:
+			setWidgetRGB(2672721, 77332557);
+			break;
+		case 6:
+			setWidgetRGB(2672721, 77332557);
+	}
+	if (globalint_1732 < 3) {
+		setWidgetRGB(12857645, 77332550);
+	} else {
+		setWidgetRGB(2672721, 77332550);
+	}
+	switch (globalint_1730) {
+		case 0:
+			setWidgetText(new WidgetPointer(1180,63), (object)"None");
+			setWidgetRGB(12857645, 77332543);
+			break;
+		case 1:
+			setWidgetText(new WidgetPointer(1180,63), (object)"A");
+			setWidgetRGB(13681696, 77332543);
+			break;
+		case 2:
+			setWidgetText(new WidgetPointer(1180,63), (object)"B");
+			setWidgetRGB(13681696, 77332543);
+			break;
+		case 3:
+			setWidgetText(new WidgetPointer(1180,63), (object)"A & B");
+			setWidgetRGB(2672721, 77332543);
+	}
+	setWidgetText(new WidgetPointer(1180,49), (object)(toString(bitconfig_10304) + " mins"));
+	if (bitconfig_10304 < 4) {
+		setWidgetRGB(12857645, 77332529);
+	} else {
+		setWidgetRGB(2672721, 77332529);
+	}
+	if (globalint_1733 == 0) {
+		cs2method_10467(3302, 77332510);
+		setWidgetIsHidden(false, new WidgetPointer(1180,11));
+	} else {
+		cs2method_10467(3303, 77332510);
+		setWidgetIsHidden(true, new WidgetPointer(1180,11));
+	}
+	return;
+}

@@ -1,0 +1,23 @@
+void script_865() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	if (standart_config_1113 == 0) {
+		if (globalint_84 <= 2147482647) {
+			globalint_84 = add(globalint_84, 1000);
+		}
+	} else {
+		ivar0 = getItemAmtInContainer(93, standart_config_1109);
+		if (standart_config_1109 != cs2method_10493(standart_config_1109)) {
+			ivar1 = getItemAmtInContainer(93, cs2method_10493(standart_config_1109));
+		}
+		globalint_84 = ivar0;
+		if (globalint_84 <= 1000000000 && ivar1 <= 1000000000) {
+			globalint_84 = add(globalint_84, ivar1);
+		}
+	}
+	setWidgetText(new WidgetPointer(105,148), cs2method_10595(globalint_84, 1));
+	script_602();
+	return;
+}

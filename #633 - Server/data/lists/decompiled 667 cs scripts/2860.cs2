@@ -1,0 +1,13 @@
+void script_2860() {
+	if (globalint_1074 == 0) {
+		globalint_1073 = add(globalint_1073, 25);
+		if (globalint_1073 > globalint_1069) {
+			globalint_1073 = globalint_1069;
+		}
+	} else if (globalint_1074 == 1) {
+		globalint_1072 = cs2method_10273(globalint_1072, 0, 0, 1);
+	} else {
+		cs2method_10735();
+	}
+	return;
+}

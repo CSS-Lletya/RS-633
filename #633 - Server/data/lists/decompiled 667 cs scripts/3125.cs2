@@ -1,0 +1,16 @@
+void script_3125(int arg0,int arg1,int arg2,object arg3,object arg4) {
+	script_2994(arg0, 0, 11, 11, 0, 0, 1535, 0, 0, 0, 0);
+	cs2method_20211(3126, new WidgetPointer(arg0), 0, "Ii");
+	cs2method_20139(3127, new WidgetPointer(arg0), 0, "Ii");
+	setWidgetContextMenuOption(1, (object)"Sort");
+	cs2method_11002(arg3);
+	cs2method_20115(3148, arg1, "i");
+	script_2994(arg0, 1, 11, 11, 0, 0, 1536, 0, 0, 0, 0);
+	setWidgetPosition(0, 0, 2, 0);
+	cs2method_20211(3126, new WidgetPointer(arg0), 1, "Ii");
+	cs2method_20139(3127, new WidgetPointer(arg0), 1, "Ii");
+	setWidgetContextMenuOption(1, (object)"Sort");
+	cs2method_11002(arg4);
+	cs2method_20115(3148, arg2, "i");
+	return;
+}

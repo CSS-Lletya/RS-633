@@ -1,0 +1,12 @@
+void script_564() {
+	if (globalint_1037 > subtract(cs2method_10090(48889906), 117)) {
+		script_1652(1);
+	} else {
+		script_1650();
+	}
+	cs2method_10185(48889881, -1, 48889903);
+	cs2method_20301(1649, -2147483646, 0, "i1", new WidgetPointer(746,47));
+	cs2method_20921(1649, -2147483646, 1, "i1", new WidgetPointer(746,47));
+	cs2method_10680(1, 48889903);
+	return;
+}

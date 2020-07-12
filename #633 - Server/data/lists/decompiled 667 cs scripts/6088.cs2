@@ -1,0 +1,31 @@
+void script_6088(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar2 = 82903060;
+	ivar3 = 82903065;
+	ivar4 = 82903066;
+	ivar5 = 82903064;
+	ivar6 = 82903063;
+	ivar7 = 82903067;
+	if (arg1 == 1) {
+		ivar2 = 82903061;
+		ivar3 = 82903136;
+		ivar4 = 82903137;
+		ivar5 = -1;
+		ivar6 = 82903135;
+		ivar7 = 82903138;
+	}
+	createChildWidget(ivar2, 5, arg0);
+	createChildWidget(ivar3, 4, arg0);
+	createChildWidget(ivar4, 5, arg0);
+	createChildWidget(ivar6, 4, arg0);
+	if (ivar5 != -1) {
+		createChildWidget(ivar5, 5, arg0);
+	}
+	createChildWidget(ivar7, 5, arg0);
+	return;
+}

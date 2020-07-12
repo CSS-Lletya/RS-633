@@ -1,0 +1,599 @@
+void script_6403(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int stack_dump0;
+	int stack_dump1;
+	cs2func_script_6406_struct(2,0,0) structdump_2;
+	flow_0:
+		ivar5 = 0;
+		ivar6 = 0;
+		stack_dump0 = arg0;
+		stack_dump1 = arg3;
+		structdump_2 = script_6406(stack_dump0, stack_dump1);
+		ivar6 = structdump_2.intpart_1;
+		ivar5 = structdump_2.intpart_0;
+		ivar7 = subtract(ivar6, ivar5);
+		ivar8 = subtract(cs2method_10878(), ivar5);
+		ivar9 = -1;
+		ivar10 = 85458980;
+		ivar11 = 0;
+		ivar12 = 11778;
+		ivar13 = 11916;
+		ivar14 = -1;
+		ivar15 = 0;
+		ivar16 = 138;
+		SWITCH (arg1) {
+			case 85196900:
+				 GOTO flow_1
+			case 85196884:
+				 GOTO flow_1
+			case 85196896:
+				 GOTO flow_1
+			case 85196912:
+				 GOTO flow_1
+			case 85196880:
+				 GOTO flow_1
+			case 85196908:
+				 GOTO flow_1
+			case 85196876:
+				 GOTO flow_1
+			case 85196892:
+				 GOTO flow_1
+			case 85196904:
+				 GOTO flow_1
+			case 85196845:
+				 GOTO flow_1
+			case 85196872:
+				 GOTO flow_1
+			case 85196888:
+				 GOTO flow_1
+		}
+		ivar11 = 1;
+		GOTO	flow_2
+	flow_1:
+		ivar15 = 0;
+	flow_2:
+		if (arg3 == 1) {
+			if (ivar8 >= ivar7 || arg4 != cs2method_10878() && arg0 == 10526) {
+				if (ivar11 == 1) {
+					if (cs2method_10551(arg1, arg2) == 1) {
+						cs2method_10469(ivar12);
+						cs2method_10692(1);
+						cs2method_20745(-1, "");
+					}
+				} else {
+					cs2method_10467(ivar12, arg1);
+					setWidgetIsHidden(true, new WidgetPointer(arg1));
+					cs2method_20219(-1, "", new WidgetPointer(arg1));
+				}
+				return;
+			}
+			arg3 = 0;
+			if (ivar11 == 1) {
+				if (cs2method_10551(arg1, arg2) == 1) {
+					cs2method_10469(ivar12);
+					cs2method_10692(0);
+				}
+				if (cs2method_10551(ivar10, arg2) == 1) {
+					cs2method_10305(255);
+					cs2method_10692(0);
+				}
+			} else {
+				cs2method_10467(ivar12, arg1);
+				setWidgetIsHidden(false, new WidgetPointer(arg1));
+				if (ivar9 != -1) {
+					cs2method_10149(255, ivar9);
+				}
+			}
+		}
+		ivar17 = 0;
+		if (ivar8 >= ivar7) {
+			ivar17 = ivar16;
+		} else {
+			ivar17 = cs2method_10542(ivar8, ivar7, ivar16);
+			ivar17 = cs2method_10004(ivar17, 0);
+			ivar17 = cs2method_10586(ivar17, ivar16);
+		}
+		switch (ivar17) {
+			case 0:
+				ivar14 = 11778;
+				break;
+			case 1:
+				ivar14 = 11779;
+				break;
+			case 2:
+				ivar14 = 11780;
+				break;
+			case 3:
+				ivar14 = 11781;
+				break;
+			case 4:
+				ivar14 = 11782;
+				break;
+			case 5:
+				ivar14 = 11783;
+				break;
+			case 6:
+				ivar14 = 11784;
+				break;
+			case 7:
+				ivar14 = 11785;
+				break;
+			case 8:
+				ivar14 = 11786;
+				break;
+			case 9:
+				ivar14 = 11787;
+				break;
+			case 10:
+				ivar14 = 11788;
+				break;
+			case 11:
+				ivar14 = 11789;
+				break;
+			case 12:
+				ivar14 = 11790;
+				break;
+			case 13:
+				ivar14 = 11791;
+				break;
+			case 14:
+				ivar14 = 11792;
+				break;
+			case 15:
+				ivar14 = 11793;
+				break;
+			case 16:
+				ivar14 = 11794;
+				break;
+			case 17:
+				ivar14 = 11795;
+				break;
+			case 18:
+				ivar14 = 11796;
+				break;
+			case 19:
+				ivar14 = 11797;
+				break;
+			case 20:
+				ivar14 = 11798;
+				break;
+			case 21:
+				ivar14 = 11799;
+				break;
+			case 22:
+				ivar14 = 11800;
+				break;
+			case 23:
+				ivar14 = 11801;
+				break;
+			case 24:
+				ivar14 = 11802;
+				break;
+			case 25:
+				ivar14 = 11803;
+				break;
+			case 26:
+				ivar14 = 11804;
+				break;
+			case 27:
+				ivar14 = 11805;
+				break;
+			case 28:
+				ivar14 = 11806;
+				break;
+			case 29:
+				ivar14 = 11807;
+				break;
+			case 30:
+				ivar14 = 11808;
+				break;
+			case 31:
+				ivar14 = 11809;
+				break;
+			case 32:
+				ivar14 = 11810;
+				break;
+			case 33:
+				ivar14 = 11811;
+				break;
+			case 34:
+				ivar14 = 11812;
+				break;
+			case 35:
+				ivar14 = 11813;
+				break;
+			case 36:
+				ivar14 = 11814;
+				break;
+			case 37:
+				ivar14 = 11815;
+				break;
+			case 38:
+				ivar14 = 11816;
+				break;
+			case 39:
+				ivar14 = 11817;
+				break;
+			case 40:
+				ivar14 = 11818;
+				break;
+			case 41:
+				ivar14 = 11819;
+				break;
+			case 42:
+				ivar14 = 11820;
+				break;
+			case 43:
+				ivar14 = 11821;
+				break;
+			case 44:
+				ivar14 = 11822;
+				break;
+			case 45:
+				ivar14 = 11823;
+				break;
+			case 46:
+				ivar14 = 11824;
+				break;
+			case 47:
+				ivar14 = 11825;
+				break;
+			case 48:
+				ivar14 = 11826;
+				break;
+			case 49:
+				ivar14 = 11827;
+				break;
+			case 50:
+				ivar14 = 11828;
+				break;
+			case 51:
+				ivar14 = 11829;
+				break;
+			case 52:
+				ivar14 = 11830;
+				break;
+			case 53:
+				ivar14 = 11831;
+				break;
+			case 54:
+				ivar14 = 11832;
+				break;
+			case 55:
+				ivar14 = 11833;
+				break;
+			case 56:
+				ivar14 = 11834;
+				break;
+			case 57:
+				ivar14 = 11835;
+				break;
+			case 58:
+				ivar14 = 11836;
+				break;
+			case 59:
+				ivar14 = 11837;
+				break;
+			case 60:
+				ivar14 = 11838;
+				break;
+			case 61:
+				ivar14 = 11839;
+				break;
+			case 62:
+				ivar14 = 11840;
+				break;
+			case 63:
+				ivar14 = 11841;
+				break;
+			case 64:
+				ivar14 = 11842;
+				break;
+			case 65:
+				ivar14 = 11843;
+				break;
+			case 66:
+				ivar14 = 11844;
+				break;
+			case 67:
+				ivar14 = 11845;
+				break;
+			case 68:
+				ivar14 = 11846;
+				break;
+			case 69:
+				ivar14 = 11847;
+				break;
+			case 70:
+				ivar14 = 11848;
+				break;
+			case 71:
+				ivar14 = 11849;
+				break;
+			case 72:
+				ivar14 = 11850;
+				break;
+			case 73:
+				ivar14 = 11851;
+				break;
+			case 74:
+				ivar14 = 11852;
+				break;
+			case 75:
+				ivar14 = 11853;
+				break;
+			case 76:
+				ivar14 = 11854;
+				break;
+			case 77:
+				ivar14 = 11855;
+				break;
+			case 78:
+				ivar14 = 11856;
+				break;
+			case 79:
+				ivar14 = 11857;
+				break;
+			case 80:
+				ivar14 = 11858;
+				break;
+			case 81:
+				ivar14 = 11859;
+				break;
+			case 82:
+				ivar14 = 11860;
+				break;
+			case 83:
+				ivar14 = 11861;
+				break;
+			case 84:
+				ivar14 = 11862;
+				break;
+			case 85:
+				ivar14 = 11863;
+				break;
+			case 86:
+				ivar14 = 11864;
+				break;
+			case 87:
+				ivar14 = 11865;
+				break;
+			case 88:
+				ivar14 = 11866;
+				break;
+			case 89:
+				ivar14 = 11867;
+				break;
+			case 90:
+				ivar14 = 11868;
+				break;
+			case 91:
+				ivar14 = 11869;
+				break;
+			case 92:
+				ivar14 = 11870;
+				break;
+			case 93:
+				ivar14 = 11871;
+				break;
+			case 94:
+				ivar14 = 11872;
+				break;
+			case 95:
+				ivar14 = 11873;
+				break;
+			case 96:
+				ivar14 = 11874;
+				break;
+			case 97:
+				ivar14 = 11875;
+				break;
+			case 98:
+				ivar14 = 11876;
+				break;
+			case 99:
+				ivar14 = 11877;
+				break;
+			case 100:
+				ivar14 = 11878;
+				break;
+			case 101:
+				ivar14 = 11879;
+				break;
+			case 102:
+				ivar14 = 11880;
+				break;
+			case 103:
+				ivar14 = 11881;
+				break;
+			case 104:
+				ivar14 = 11882;
+				break;
+			case 105:
+				ivar14 = 11883;
+				break;
+			case 106:
+				ivar14 = 11884;
+				break;
+			case 107:
+				ivar14 = 11885;
+				break;
+			case 108:
+				ivar14 = 11886;
+				break;
+			case 109:
+				ivar14 = 11887;
+				break;
+			case 110:
+				ivar14 = 11888;
+				break;
+			case 111:
+				ivar14 = 11889;
+				break;
+			case 112:
+				ivar14 = 11890;
+				break;
+			case 113:
+				ivar14 = 11891;
+				break;
+			case 114:
+				ivar14 = 11892;
+				break;
+			case 115:
+				ivar14 = 11893;
+				break;
+			case 116:
+				ivar14 = 11894;
+				break;
+			case 117:
+				ivar14 = 11895;
+				break;
+			case 118:
+				ivar14 = 11896;
+				break;
+			case 119:
+				ivar14 = 11897;
+				break;
+			case 120:
+				ivar14 = 11898;
+				break;
+			case 121:
+				ivar14 = 11899;
+				break;
+			case 122:
+				ivar14 = 11900;
+				break;
+			case 123:
+				ivar14 = 11901;
+				break;
+			case 124:
+				ivar14 = 11902;
+				break;
+			case 125:
+				ivar14 = 11903;
+				break;
+			case 126:
+				ivar14 = 11904;
+				break;
+			case 127:
+				ivar14 = 11905;
+				break;
+			case 128:
+				ivar14 = 11906;
+				break;
+			case 129:
+				ivar14 = 11907;
+				break;
+			case 130:
+				ivar14 = 11908;
+				break;
+			case 131:
+				ivar14 = 11909;
+				break;
+			case 132:
+				ivar14 = 11910;
+				break;
+			case 133:
+				ivar14 = 11911;
+				break;
+			case 134:
+				ivar14 = 11912;
+				break;
+			case 135:
+				ivar14 = 11913;
+				break;
+			case 136:
+				ivar14 = 11914;
+				break;
+			case 137:
+				ivar14 = 11915;
+				break;
+			case 138:
+				ivar14 = 11916;
+		}
+		if (ivar11 == 1) {
+			if (cs2method_10551(arg1, arg2) == 1) {
+				cs2method_10469(ivar14);
+			}
+		} else {
+			cs2method_10467(ivar14, arg1);
+		}
+		if (ivar14 == ivar13) {
+			if (ivar11 == 1) {
+				if (cs2method_10551(arg1, arg2) == 1) {
+					cs2method_10469(ivar12);
+					cs2method_10692(1);
+					cs2method_20745(-1, "");
+				}
+			} else {
+				cs2method_10467(ivar12, arg1);
+				setWidgetIsHidden(true, new WidgetPointer(arg1));
+				cs2method_20219(-1, "", new WidgetPointer(arg1));
+			}
+			switch (arg1) {
+				case 85196845:
+					ivar9 = 85196868;
+					break;
+				case 85196872:
+					ivar9 = 85196873;
+					break;
+				case 85196876:
+					ivar9 = 85196877;
+					break;
+				case 85196880:
+					ivar9 = 85196881;
+					break;
+				case 85196884:
+					ivar9 = 85196885;
+					break;
+				case 85196888:
+					ivar9 = 85196889;
+					break;
+				case 85196892:
+					ivar9 = 85196893;
+					break;
+				case 85196896:
+					ivar9 = 85196897;
+					break;
+				case 85196900:
+					ivar9 = 85196901;
+					break;
+				case 85196904:
+					ivar9 = 85196905;
+					break;
+				case 85196908:
+					ivar9 = 85196909;
+					break;
+				case 85196912:
+					ivar9 = 85196913;
+			}
+			if (ivar9 != -1) {
+				cs2method_10149(255, ivar9);
+				cs2method_20219(6401, new WidgetPointer(ivar9), 1, "I1", new WidgetPointer(ivar9));
+			} else {
+				if (ivar11 == 1 && cs2method_10551(ivar10, arg2) == 1) {
+					cs2method_10305(255);
+					cs2method_20745(6402, new WidgetPointer(-32768,3), -2147483643, 1, "Ii1");
+				}
+			}
+		} else if (ivar11 == 1) {
+			if (cs2method_10551(arg1, arg2) == 1) {
+				cs2method_20745(6403, arg0, new WidgetPointer(arg1), arg2, arg3, arg4, "JIiii");
+			}
+		} else {
+			cs2method_20219(6403, arg0, new WidgetPointer(arg1), arg2, arg3, arg4, "JIiii", new WidgetPointer(arg1));
+		}
+		return;
+}

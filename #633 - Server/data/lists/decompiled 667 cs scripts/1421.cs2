@@ -1,0 +1,63 @@
+void script_1421(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 1:
+			ovar0 = (object)getDataByKey('i', 's', 1697, bitconfig_5146);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 130, "IIsii", new WidgetPointer(575,3));
+			break;
+		case 2:
+			ovar0 = (object)getDataByKey('i', 's', 1698, bitconfig_5147);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 160, "IIsii", new WidgetPointer(575,4));
+			break;
+		case 3:
+			ovar0 = (object)getDataByKey('i', 's', 1699, bitconfig_5148);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,5));
+			break;
+		case 4:
+			ovar0 = (object)getDataByKey('i', 's', 1700, bitconfig_5149);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,6));
+			break;
+		case 5:
+			ovar0 = (object)getDataByKey('i', 's', 1701, bitconfig_5150);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,7));
+			break;
+		case 6:
+			ovar0 = (object)getDataByKey('i', 's', 1702, bitconfig_5151);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,8));
+			break;
+		case 7:
+			ovar0 = (object)getDataByKey('i', 's', 1703, bitconfig_5152);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,9));
+			break;
+		case 8:
+			ovar0 = (object)getDataByKey('i', 's', 1704, bitconfig_5153);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,10));
+			break;
+		case 9:
+			ovar0 = (object)getDataByKey('i', 's', 1705, bitconfig_5154);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,11));
+			break;
+		case 10:
+			ovar0 = (object)getDataByKey('i', 's', 1706, bitconfig_5155);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,12));
+			break;
+		case 11:
+			ovar0 = (object)getDataByKey('i', 's', 1707, bitconfig_5156);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,13));
+			break;
+		case 12:
+			ovar0 = (object)getDataByKey('i', 's', 1708, bitconfig_5157);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,14));
+			break;
+		case 13:
+			ovar0 = (object)getDataByKey('i', 's', 1709, bitconfig_5158);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,15));
+			break;
+		case 14:
+			ovar0 = (object)getDataByKey('i', 's', 1710, bitconfig_5159);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,16));
+	}
+	globalint_2 = 0;
+	return;
+}

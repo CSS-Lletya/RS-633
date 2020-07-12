@@ -1,0 +1,12 @@
+void script_4080() {
+	if (cs2method_10403(69468160) == 1) {
+		cs2method_10469(4032);
+	}
+	if (cs2method_10403(69468162) == 1) {
+		cs2method_10469(4035);
+	}
+	if (cs2method_10403(69468161) == 1) {
+		cs2method_10469(4038);
+	}
+	return;
+}

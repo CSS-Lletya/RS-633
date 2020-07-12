@@ -1,0 +1,71 @@
+cs2func_script_1692_struct(2,0,0) script_1692(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	object ovar1;
+	ivar3 = getDataByKey('i', 'J', 845, arg2);
+	ovar0 = (object)getGeneralRequirementAttribute(ivar3, 925);
+	ivar4 = add(multiply(getLineCount(subtract(cs2method_10956(arg0), 22), 495, ovar0), 12), 5);
+	ivar5 = add(add(32, ivar4), 10);
+	setWidgetSize(0, ivar5, 1, 0);
+	setWidgetPosition(0, arg1, 1, 0);
+	setWidgetFilled(1);
+	setWidgetRGB(new Color(0, 0, 0));
+	cs2method_10305(255);
+	cs2method_20211(2140, new WidgetPointer(-32768,3), -2147483643, 200, "Iii");
+	cs2method_20139(2140, new WidgetPointer(-32768,3), -2147483643, 255, "Iii");
+	setWidgetContextMenuOption(1, (object)"Take");
+	setWidgetContextMenuOption(10, (object)"Examine");
+	cs2method_11002((object)("<col=ff9040>" + (string)getItemName(getGeneralRequirementAttribute(ivar3, 813))));
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(36, 32, 0, 0);
+	setWidgetPosition(2, add(arg1, 4), 0, 0);
+	cs2method_10814(getGeneralRequirementAttribute(ivar3, 813), 1);
+	cs2method_10253(1);
+	cs2method_10167(3153952);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetPosition(2, add(arg1, 4), 2, 0);
+	setWidgetRGB(new Color(255, 240, 140));
+	setWidgetTextAlignment(0, 1, 0);
+	cs2method_10320(1);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetSize(add(36, 4), 12, 1, 0);
+	setWidgetPosition(2, add(add(arg1, 4), subtract(32, cs2method_10630())), 2, 0);
+	setWidgetFont(494);
+	setWidgetRGB(new Color(255, 152, 31));
+	setWidgetTextAlignment(0, 1, 0);
+	cs2method_10320(1);
+	ivar6 = getGeneralRequirementAttribute(ivar3, 923);
+	if (ivar6 != -1) {
+		setWidgetSize(add(36, 4), subtract(32, cs2method_10630()), 1, 0);
+		setWidgetText((object)getGeneralRequirementAttribute(ivar6, 845));
+	} else {
+		setWidgetSize(add(36, 4), 32, 1, 0);
+		cs2method_10692(1);
+	}
+	ovar1 = (object)getGeneralRequirementAttribute(ivar3, 924);
+	if (getLineCount(cs2method_10040(), 496, ovar1) <= 1) {
+		setWidgetFont(496);
+	} else if (getLineCount(cs2method_10040(), 495, ovar1) <= 1) {
+		setWidgetFont(495);
+	} else {
+		setWidgetFont(494);
+	}
+	setWidgetText(ovar1);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetSize(22, ivar4, 1, 0);
+	setWidgetPosition(2, add(add(arg1, 32), 6), 0, 0);
+	setWidgetFont(495);
+	setWidgetRGB(new Color(255, 240, 140));
+	setWidgetTextAlignment(0, 1, 0);
+	cs2method_10320(1);
+	setWidgetText(ovar0);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(0, 32, 1, 0);
+	setWidgetPosition(0, subtract(add(arg1, ivar5), 16), 0, 0);
+	cs2method_10469(995);
+	cs2method_10470(1);
+	return newstruct cs2func_script_1692_struct(add(arg1, ivar5), cs2method_10261());
+}

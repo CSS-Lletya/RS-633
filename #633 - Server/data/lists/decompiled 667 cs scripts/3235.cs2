@@ -1,0 +1,14 @@
+void script_3235() {
+	int ivar0;
+	ivar0 = 39059500;
+	if (cs2method_10637() == 1) {
+		ivar0 = 63897644;
+	}
+	if (globalint_200 > 0) {
+		setScriptCallOnMousePressed(2944, "", new WidgetPointer(ivar0));
+		cs2method_20219(-1, "", new WidgetPointer(ivar0));
+		cs2method_10732();
+		script_2954();
+	}
+	return;
+}

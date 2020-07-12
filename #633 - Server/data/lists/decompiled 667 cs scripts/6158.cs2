@@ -1,0 +1,23 @@
+void script_6158() {
+	setWidgetText(new WidgetPointer(1274,5), (object)toString(globalint_1909));
+	setWidgetText(new WidgetPointer(1274,2), (object)toString(globalint_1916));
+	switch (globalint_1917) {
+		case 1:
+			cs2method_10467(10708, 83492872);
+			break;
+		case 2:
+			cs2method_10467(10709, 83492872);
+			break;
+		case 3:
+			cs2method_10467(10710, 83492872);
+			break;
+		default:
+			cs2method_10467(1726, 83492872);
+	}
+	if (globalint_1918 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1274,9));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1274,9));
+	}
+	return;
+}

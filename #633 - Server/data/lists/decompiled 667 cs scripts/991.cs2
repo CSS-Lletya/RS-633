@@ -1,0 +1,23 @@
+cs2func_script_991_struct(1,1,0) script_991(int arg0) {
+	switch (arg0) {
+		case 0:
+			return newstruct cs2func_script_991_struct(1, (object)"Pickpocket");
+		case 1:
+			return newstruct cs2func_script_991_struct(1, (object)"Multiple Pickpocket");
+		case 2:
+			return newstruct cs2func_script_991_struct(1, (object)"Stalls");
+		case 3:
+			return newstruct cs2func_script_991_struct(1, (object)"Chests");
+		case 4:
+			return newstruct cs2func_script_991_struct(1, (object)"Miscellaneous");
+		case 5:
+			return newstruct cs2func_script_991_struct(1, (object)"Other");
+		case 6:
+			return newstruct cs2func_script_991_struct(1, (object)"Minigames");
+		case 7:
+			return newstruct cs2func_script_991_struct(1, (object)"Dungeoneering");
+		case 8:
+			return newstruct cs2func_script_991_struct(1, (object)"Milestones");
+	}
+	return newstruct cs2func_script_991_struct(-1, (object)"");
+}

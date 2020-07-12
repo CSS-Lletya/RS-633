@@ -1,0 +1,19 @@
+void script_5705(int arg0) {
+	if (globalint_1752 == 1) {
+		return;
+	}
+	if (arg0 == 1) {
+		if (cs2method_10826(79822880) == 0) {
+			return;
+		}
+		globalint_1752 = 1;
+		cs2method_20219(5706, new WidgetPointer(1218,32), add(cs2method_10826(79822880), 320), "Ii", new WidgetPointer(1218,74));
+	} else {
+		if (cs2method_10826(79822880) <= -960) {
+			return;
+		}
+		globalint_1752 = 1;
+		cs2method_20219(5706, new WidgetPointer(1218,32), subtract(cs2method_10826(79822880), 320), "Ii", new WidgetPointer(1218,74));
+	}
+	return;
+}

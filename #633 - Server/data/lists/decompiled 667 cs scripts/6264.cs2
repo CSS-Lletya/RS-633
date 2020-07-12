@@ -1,0 +1,75 @@
+cs2func_script_6264_struct(8,0,0) script_6264() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar0 = -1;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = 0;
+	ivar4 = bitconfig_7295;
+	ivar5 = -1;
+	ivar6 = -1;
+	if (cs2method_10453(10) >= 76) {
+		ivar0 = 384;
+		ivar5 = 383;
+		ivar2 = 372;
+		ivar6 = 371;
+	} else if (cs2method_10453(10) >= 50) {
+		ivar0 = 372;
+		ivar5 = 371;
+		ivar2 = 378;
+		ivar6 = 377;
+	} else if (cs2method_10453(10) >= 40) {
+		ivar0 = 378;
+		ivar5 = 377;
+		ivar2 = 360;
+		ivar6 = 359;
+	} else if (cs2method_10453(10) >= 35) {
+		ivar0 = 360;
+		ivar5 = 359;
+		ivar2 = 332;
+		ivar6 = 331;
+	} else if (cs2method_10453(10) >= 30) {
+		ivar0 = 332;
+		ivar5 = 331;
+		ivar2 = 350;
+		ivar6 = 349;
+	} else if (cs2method_10453(10) >= 25) {
+		ivar0 = 350;
+		ivar5 = 349;
+		ivar2 = 336;
+		ivar6 = 335;
+	} else if (cs2method_10453(10) >= 20) {
+		ivar0 = 336;
+		ivar5 = 335;
+		ivar2 = 346;
+		ivar6 = 345;
+	} else if (cs2method_10453(10) >= 10) {
+		ivar0 = 346;
+		ivar5 = 345;
+		ivar2 = 328;
+		ivar6 = 345;
+	} else if (cs2method_10453(10) >= 5) {
+		ivar0 = 328;
+		ivar5 = 327;
+		ivar2 = 318;
+		ivar6 = 317;
+	} else {
+		ivar0 = 318;
+		ivar5 = 317;
+		ivar2 = -1;
+		ivar6 = -1;
+	}
+	if (ivar2 == -1) {
+		ivar1 = divide(bitconfig_7295, 2);
+	} else {
+		ivar1 = divide(divide(multiply(bitconfig_7295, 2), 3), 2);
+		ivar3 = divide(divide(bitconfig_7295, 3), 2);
+		ivar4 = subtract(ivar4, multiply(add(ivar1, ivar3), 2));
+	}
+	return newstruct cs2func_script_6264_struct(ivar0, ivar1, ivar2, ivar3, multiply(2, add(ivar1, ivar3)), ivar4, ivar5, ivar6);
+}

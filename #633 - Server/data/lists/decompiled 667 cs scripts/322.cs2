@@ -1,0 +1,78 @@
+void script_322(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5,object arg6,object arg7,object arg8,object arg9,object arg10) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar6;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar5 = 0;
+	ivar6 = 0;
+	setWidgetScrollMax(0, multiply(add(divide(subtract(arg4, arg3), arg1), 1), 57), arg0);
+	ivar7 = 0;
+	ivar8 = 1;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	ovar6 = (object)"hello";
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	while (ivar7 < 78) {
+		ivar5 = add(add(16, multiply(cs2method_10620(ivar7, arg1), 48)), multiply(cs2method_10620(ivar7, arg1), 5));
+		ivar6 = add(multiply(divide(ivar7, arg1), 52), multiply(divide(ivar7, arg1), 5));
+		createChildWidget(arg0, 5, ivar16);
+		ivar16 = add(ivar16, 1);
+		setWidgetSize(48, 52, 0, 0);
+		setWidgetPosition(ivar5, ivar6, 0, 0);
+		cs2method_10469(2205);
+		cs2method_20211(6114, new WidgetPointer(-32768,3), ivar16, 0, "Ii1");
+		cs2method_20139(6114, new WidgetPointer(-32768,3), ivar16, 1, "Ii1");
+		createChildWidget(arg0, 5, ivar16);
+		ivar16 = add(ivar16, 1);
+		setWidgetSize(48, 52, 0, 0);
+		setWidgetPosition(ivar5, ivar6, 0, 0);
+		cs2method_10469(2206);
+		cs2method_10692(1);
+		createChildWidget(arg0, 5, ivar16);
+		setWidgetSize(36, 32, 0, 0);
+		setWidgetPosition(add(ivar5, 6), add(ivar6, 4), 0, 0);
+		ivar12 = getDataByKey('i', 'o', 1277, ivar8);
+		ivar13 = getDataByKey('i', 'o', 1188, ivar8);
+		ivar15 = getDataByKey('o', 'i', 1185, cs2method_10447(ivar12));
+		if (ivar13 == 12421) {
+			script_1670(ivar13, ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+		} else if (getItemAmtInContainer(93, cs2method_10447(ivar13)) > 0 && getItemAmtInContainer(93, cs2method_10447(ivar13)) >= getItemAttribute(cs2method_10447(ivar13), 599) && cs2method_10453(23) >= getDataByKey('i', 'i', 1472, ivar15)) {
+			script_1670(ivar13, ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+		} else {
+			script_1670(getDataByKey('i', 'o', 1184, ivar8), ivar13, arg0, ivar16, arg5, arg6, arg7, arg8, arg9, arg10);
+		}
+		ivar16 = add(ivar16, 1);
+		createChildWidget(arg0, 5, ivar16);
+		ivar16 = add(ivar16, 1);
+		setWidgetSize(12, 12, 0, 0);
+		setWidgetPosition(add(ivar5, 2), add(ivar6, 38), 0, 0);
+		cs2method_10814(12183, 1);
+		createChildWidget(arg0, 4, ivar16);
+		ivar16 = add(ivar16, 1);
+		setWidgetSize(31, 12, 0, 0);
+		setWidgetPosition(add(ivar5, 13), add(ivar6, 39), 0, 0);
+		setWidgetFont(494);
+		setWidgetRGB(new Color(255, 255, 255));
+		setWidgetTextAlignment(2, 1, 0);
+		setWidgetText((object)toString(cs2method_10004(1, getItemAttribute(ivar13, 457))));
+		cs2method_10320(1);
+		ivar7 = add(ivar7, 1);
+		ivar8 = add(ivar8, 1);
+	}
+	return;
+}

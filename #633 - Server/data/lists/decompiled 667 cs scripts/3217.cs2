@@ -1,0 +1,38 @@
+void script_3217(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	object ovar0;
+	if (cs2method_10553() == -3) {
+		return;
+	}
+	if (cs2method_10218() == -3) {
+		return;
+	}
+	if (cs2method_10280() == -3) {
+		return;
+	}
+	ovar0 = (object)"";
+	switch (arg4) {
+		case 6:
+			ovar0 = (object)globalstring_122;
+			break;
+		case 14:
+			ovar0 = (object)globalstring_326;
+			break;
+		case 7:
+			ovar0 = script_2949((object)globalstring_124);
+			break;
+		case 8:
+			ovar0 = script_2949((object)globalstring_125);
+			break;
+		case 15:
+			if (globalint_1407 > 0) {
+				ovar0 = (object)toString(globalint_1407);
+			}
+			break;
+		case 16:
+			ovar0 = (object)globalstring_330;
+	}
+	globalint_1099 = script_1401(arg0, 3793, 0, ovar0);
+	script_3218(arg1, arg2, arg3, arg4, ovar0);
+	script_2714(arg4, 0);
+	return;
+}

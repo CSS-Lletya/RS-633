@@ -1,0 +1,18 @@
+void script_6290(int arg0) {
+	createChildWidget(84934659, 4, 0);
+	setWidgetSize(90, 12, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetFont(494);
+	setWidgetTextAlignment(2, 1, 0);
+	globalint_1933 = 0;
+	if (arg0 < 1) {
+		setWidgetText((object)("Fee: " + (string)script_46(arg0, (object)",")));
+		setWidgetRGB(new Color(255, 0, 0));
+	} else {
+		setWidgetText((object)("Fee: + " + (string)script_46(arg0, (object)",")));
+		setWidgetRGB(new Color(0, 255, 0));
+	}
+	cs2method_10320(1);
+	cs2method_20219(6291, "", new WidgetPointer(1296,3));
+	return;
+}

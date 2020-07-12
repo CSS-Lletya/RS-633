@@ -1,0 +1,14 @@
+void script_5520() {
+	script_5522();
+	if (globalint_1661 == 0) {
+		setWidgetText(new WidgetPointer(906,252), (object)"Please wait. Validating...");
+		cs2method_10848(cs2method_10100(59375922));
+	} else {
+		if (globalint_1661 == 1) {
+			setWidgetText(new WidgetPointer(906,252), (object)"Please wait. Setting email address...");
+			cs2method_10020(cs2method_10100(59375922), cs2method_10100(59375922));
+		}
+	}
+	globalint_1661 = -1;
+	return;
+}

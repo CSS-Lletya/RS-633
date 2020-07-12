@@ -1,0 +1,7 @@
+void script_6346() {
+	if (cs2method_10842() >= 2) {
+		return;
+	}
+	cs2method_10444(cs2method_10111(35913771), subtract(subtract(cs2method_10826(35913749), cs2method_10090(35913771)), 5), 0, 0, 35913771);
+	return;
+}

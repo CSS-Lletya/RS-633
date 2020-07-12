@@ -1,0 +1,49 @@
+?? script_1025(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	int stack_dump0;
+	int stack_dump1;
+	object stack_dump2;
+	object stack_dump3;
+	object stack_dump4;
+	object stack_dump5;
+	object stack_dump6;
+	ovar0 = (object)"null";
+	ivar3 = -1;
+	ivar4 = 1;
+	if (script_1024(arg2) == 0) {
+		stack_dump0 = 680;
+		stack_dump1 = arg0;
+		stack_dump2 = (object)"<col=000080>";
+		stack_dump3 = (object)"Level ";
+		stack_dump4 = (object)toString(arg1);
+		stack_dump5 = (object)" ";
+		stack_dump6 = (object)"<col=800000>";
+		/* 
+			mgi.tools.jagdecs2.DecompilerException: TODO Special opcode:30372
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:461)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	stack_dump0 = 1481;
+	stack_dump1 = arg2;
+	stack_dump2 = (object)"<col=000080>";
+	stack_dump3 = (object)"You now have all the levels you need to complete ";
+	stack_dump4 = (object)"<col=800000>";
+	/* 
+		mgi.tools.jagdecs2.DecompilerException: TODO Special opcode:30372
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:461)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+			at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+			at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+			at tests.Main.main(Main.java:72)
+		
+	 */
+}

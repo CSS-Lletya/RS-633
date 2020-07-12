@@ -1,0 +1,18 @@
+void script_3130(int arg0,int arg1,int arg2,int arg3) {
+	if (cs2method_10551(arg0, arg2) == 1) {
+		if (globalint_998 == arg3 || globalint_999 == arg3) {
+			cs2method_10469(1542);
+		} else {
+			cs2method_10469(1546);
+		}
+	}
+	if (cs2method_10551(arg1, arg2) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(910,65));
+		setWidgetIsHidden(false, new WidgetPointer(910,66));
+		cs2method_10444(cs2method_10111(59637825), cs2method_10207(), 0, 0, 59637825);
+		cs2method_10444(cs2method_10111(59637826), cs2method_10207(), 0, 0, 59637826);
+	}
+	setWidgetRGB(6316128, 59637826);
+	setWidgetRGB(4210752, 59637825);
+	return;
+}

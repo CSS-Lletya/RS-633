@@ -1,0 +1,355 @@
+void script_6331(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	int ivar27;
+	int ivar28;
+	flow_0:
+		if (arg0 == arg2 || arg0 == -1 || arg2 == -1) {
+			return;
+		}
+		ivar3 = 0;
+		ivar4 = -1;
+		SWITCH (arg2) {
+			case 85196838:
+				 GOTO flow_3
+			case 48889906:
+				 GOTO flow_3
+			case 35913758:
+				 GOTO flow_3
+			case 85196871:
+				 GOTO flow_6
+			case 85196903:
+				 GOTO flow_6
+			case 85196899:
+				 GOTO flow_6
+			case 85196879:
+				 GOTO flow_6
+			case 85196842:
+				 GOTO flow_6
+			case 85196911:
+				 GOTO flow_6
+			case 85196875:
+				 GOTO flow_6
+			case 85196907:
+				 GOTO flow_6
+			case 85196887:
+				 GOTO flow_6
+			case 85196883:
+				 GOTO flow_6
+			case 85196895:
+				 GOTO flow_6
+			case 85196891:
+				 GOTO flow_6
+		}
+		return;
+	flow_3:
+		SWITCH (arg0) {
+			case 85196887:
+				 GOTO flow_4
+			case 85196871:
+				 GOTO flow_4
+			case 85196903:
+				 GOTO flow_4
+			case 85196883:
+				 GOTO flow_4
+			case 85196899:
+				 GOTO flow_4
+			case 85196895:
+				 GOTO flow_4
+			case 85196879:
+				 GOTO flow_4
+			case 85196842:
+				 GOTO flow_4
+			case 85196911:
+				 GOTO flow_4
+			case 85196891:
+				 GOTO flow_4
+			case 85196875:
+				 GOTO flow_4
+			case 85196907:
+				 GOTO flow_4
+		}
+		return;
+	flow_4:
+		cs2method_10380(-1, -1, arg0);
+		cs2method_10467(11777, arg0);
+		cs2method_10677(16413, 1, 0, 100);
+		cs2method_10831(arg0);
+		cs2method_10444(0, 0, 1, 1, arg0);
+		cs2method_10893(30, 30, 0, 0, arg0);
+		cs2method_10773(arg0);
+		cs2method_10978(arg0, (object)"");
+		cs2method_20921(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI", new WidgetPointer(arg0));
+		return;
+	flow_6:
+		ivar3 = 0;
+		if (arg1 != -1) {
+			if (cs2method_10551(arg0, arg1) == 1) {
+				if (cs2method_10844() != -1) {
+					cs2method_10380(cs2method_10844(), -1, arg2);
+					cs2method_10893(36, 32, 0, 0, arg2);
+					cs2method_10444(3, 0, 1, 1, arg2);
+					cs2method_10677(6185, 1, 0, 100);
+				} else {
+					if (cs2method_10119() == getGeneralRequirementAttribute(10748, 2530)) {
+						return;
+					}
+					cs2method_10467(cs2method_10119(), arg2);
+					cs2method_10893(30, 30, 0, 0, arg2);
+					cs2method_10444(0, 0, 1, 1, arg2);
+					cs2method_10677(6185, 1, 0, 100);
+				}
+			}
+			return;
+		}
+		if (arg0 == 49086466) {
+			ivar4 = getGeneralRequirementAttribute(10768, 2530);
+			cs2method_10467(ivar4, arg2);
+			cs2method_10893(20, 20, 0, 0, arg2);
+			cs2method_10444(0, 0, 1, 1, arg2);
+			cs2method_10677(6185, 1, 0, 100);
+			return;
+		}
+		if (arg0 == 49152002) {
+			if (standart_config_173 == 0) {
+				ivar4 = 8655;
+			} else {
+				ivar4 = 8657;
+			}
+			cs2method_10467(ivar4, arg2);
+			cs2method_10893(20, 20, 0, 0, arg2);
+			cs2method_10444(0, 0, 1, 1, arg2);
+			cs2method_10677(6185, 1, 0, 100);
+			return;
+		}
+		ivar5 = cs2method_10530(arg0);
+		ivar6 = cs2method_10530(arg2);
+		ivar7 = cs2method_10825(arg0);
+		ivar8 = cs2method_10825(arg2);
+		ivar9 = cs2method_10413(arg0);
+		ivar10 = cs2method_10413(arg2);
+		setWidgetRGB(ivar9, arg2);
+		setWidgetRGB(ivar10, arg0);
+		ivar11 = cs2method_10111(arg0);
+		ivar12 = cs2method_10826(arg0);
+		ivar13 = cs2method_10111(arg2);
+		ivar14 = cs2method_10826(arg2);
+		cs2method_10444(ivar11, ivar12, 0, 0, arg2);
+		cs2method_10444(ivar13, ivar14, 0, 0, arg0);
+		ivar15 = cs2method_10956(arg0);
+		ivar16 = cs2method_10090(arg0);
+		ivar17 = cs2method_10956(arg2);
+		ivar18 = cs2method_10090(arg2);
+		cs2method_10893(ivar15, ivar16, 0, 0, arg2);
+		cs2method_10893(ivar17, ivar18, 0, 0, arg0);
+		if (ivar5 == -1 && ivar6 == -1) {
+			cs2method_10467(ivar8, arg0);
+			cs2method_10467(ivar7, arg2);
+			cs2method_10677(6185, 1, 0, 100);
+		} else if (ivar5 != -1 && ivar6 != -1) {
+			cs2method_10380(ivar6, -1, arg0);
+			cs2method_10380(ivar5, -1, arg2);
+		} else if (ivar5 != -1) {
+			cs2method_10380(-1, -1, arg0);
+			cs2method_10467(ivar8, arg0);
+			cs2method_10380(ivar5, -1, arg2);
+			cs2method_10677(6185, 1, 0, 100);
+		} else {
+			cs2method_10380(-1, -1, arg2);
+			cs2method_10467(ivar7, arg2);
+			cs2method_10380(ivar6, -1, arg0);
+			cs2method_10677(6185, 1, 0, 100);
+		}
+		ivar19 = -1;
+		ivar20 = -1;
+		ivar21 = -1;
+		ivar22 = -1;
+		SWITCH (arg0) {
+			case 85196842:
+				 GOTO flow_32
+			case 85196871:
+				 GOTO flow_33
+			case 85196875:
+				 GOTO flow_34
+			case 85196879:
+				 GOTO flow_35
+			case 85196883:
+				 GOTO flow_36
+			case 85196887:
+				 GOTO flow_37
+			case 85196891:
+				 GOTO flow_38
+			case 85196895:
+				 GOTO flow_39
+			case 85196899:
+				 GOTO flow_40
+			case 85196903:
+				 GOTO flow_41
+			case 85196907:
+				 GOTO flow_42
+			case 85196911:
+				 GOTO flow_43
+		}
+		return;
+	flow_32:
+		ivar19 = 85196845;
+		ivar20 = 85196868;
+		GOTO	flow_44
+	flow_33:
+		ivar19 = 85196872;
+		ivar20 = 85196873;
+		GOTO	flow_44
+	flow_34:
+		ivar19 = 85196876;
+		ivar20 = 85196877;
+		GOTO	flow_44
+	flow_35:
+		ivar19 = 85196880;
+		ivar20 = 85196881;
+		GOTO	flow_44
+	flow_36:
+		ivar19 = 85196884;
+		ivar20 = 85196885;
+		GOTO	flow_44
+	flow_37:
+		ivar19 = 85196888;
+		ivar20 = 85196889;
+		GOTO	flow_44
+	flow_38:
+		ivar19 = 85196892;
+		ivar20 = 85196893;
+		GOTO	flow_44
+	flow_39:
+		ivar19 = 85196896;
+		ivar20 = 85196897;
+		GOTO	flow_44
+	flow_40:
+		ivar19 = 85196900;
+		ivar20 = 85196901;
+		GOTO	flow_44
+	flow_41:
+		ivar19 = 85196904;
+		ivar20 = 85196905;
+		GOTO	flow_44
+	flow_42:
+		ivar19 = 85196908;
+		ivar20 = 85196909;
+		GOTO	flow_44
+	flow_43:
+		ivar19 = 85196912;
+		ivar20 = 85196913;
+	flow_44:
+		SWITCH (arg2) {
+			case 85196842:
+				 GOTO flow_45
+			case 85196871:
+				 GOTO flow_46
+			case 85196875:
+				 GOTO flow_47
+			case 85196879:
+				 GOTO flow_48
+			case 85196883:
+				 GOTO flow_49
+			case 85196887:
+				 GOTO flow_50
+			case 85196891:
+				 GOTO flow_51
+			case 85196895:
+				 GOTO flow_52
+			case 85196899:
+				 GOTO flow_53
+			case 85196903:
+				 GOTO flow_54
+			case 85196907:
+				 GOTO flow_55
+			case 85196911:
+				 GOTO flow_56
+		}
+		return;
+	flow_45:
+		ivar21 = 85196845;
+		ivar22 = 85196868;
+		GOTO	flow_57
+	flow_46:
+		ivar21 = 85196872;
+		ivar22 = 85196873;
+		GOTO	flow_57
+	flow_47:
+		ivar21 = 85196876;
+		ivar22 = 85196877;
+		GOTO	flow_57
+	flow_48:
+		ivar21 = 85196880;
+		ivar22 = 85196881;
+		GOTO	flow_57
+	flow_49:
+		ivar21 = 85196884;
+		ivar22 = 85196885;
+		GOTO	flow_57
+	flow_50:
+		ivar21 = 85196888;
+		ivar22 = 85196889;
+		GOTO	flow_57
+	flow_51:
+		ivar21 = 85196892;
+		ivar22 = 85196893;
+		GOTO	flow_57
+	flow_52:
+		ivar21 = 85196896;
+		ivar22 = 85196897;
+		GOTO	flow_57
+	flow_53:
+		ivar21 = 85196900;
+		ivar22 = 85196901;
+		GOTO	flow_57
+	flow_54:
+		ivar21 = 85196904;
+		ivar22 = 85196905;
+		GOTO	flow_57
+	flow_55:
+		ivar21 = 85196908;
+		ivar22 = 85196909;
+		GOTO	flow_57
+	flow_56:
+		ivar21 = 85196912;
+		ivar22 = 85196913;
+	flow_57:
+		ivar23 = cs2method_10964(ivar20);
+		ivar24 = cs2method_10964(ivar22);
+		cs2method_10149(ivar23, ivar22);
+		cs2method_10149(ivar24, ivar20);
+		ivar25 = cs2method_10825(ivar19);
+		ivar26 = cs2method_10825(ivar21);
+		cs2method_10467(ivar25, ivar21);
+		cs2method_10467(ivar26, ivar19);
+		cs2method_10677(6185, 1, 0, 100);
+		ivar27 = cs2method_10416(ivar19);
+		ivar28 = cs2method_10416(ivar21);
+		setWidgetIsHidden((boolean)ivar27, new WidgetPointer(ivar21));
+		setWidgetIsHidden((boolean)ivar28, new WidgetPointer(ivar19));
+		cs2method_20219(-1, "", new WidgetPointer(ivar21));
+		cs2method_20219(-1, "", new WidgetPointer(ivar19));
+		return;
+}

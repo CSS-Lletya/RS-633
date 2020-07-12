@@ -1,0 +1,14 @@
+void script_2436() {
+	globalint_815 = 0;
+	script_1952();
+	if (cs2method_10842() < 2) {
+		cs2method_20219(-1, "", new WidgetPointer(548,2));
+		setWidgetIsHidden(true, new WidgetPointer(548,41));
+		setWidgetIsHidden(true, new WidgetPointer(548,40));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(746,15));
+		setWidgetIsHidden(true, new WidgetPointer(746,187));
+		setWidgetIsHidden(true, new WidgetPointer(746,186));
+	}
+	return;
+}

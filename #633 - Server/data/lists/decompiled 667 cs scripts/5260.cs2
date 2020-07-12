@@ -1,0 +1,11 @@
+void script_5260(int arg0) {
+	int ivar1;
+	ivar1 = 74252290;
+	if (cs2method_10090(ivar1) >= arg0) {
+		cs2method_10893(cs2method_10956(ivar1), arg0, 0, 0, ivar1);
+		cs2method_20219(-1, "", new WidgetPointer(ivar1));
+	} else {
+		cs2method_10893(cs2method_10956(ivar1), add(cs2method_10090(ivar1), 1), 0, 0, ivar1);
+	}
+	return;
+}

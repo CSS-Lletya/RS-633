@@ -1,0 +1,160 @@
+cs2func_script_4818_struct(11,0,0) script_4818(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	switch (arg0) {
+		flow_1:
+			case 1:
+			switch (arg1) {
+				case 1:
+					ivar2 = 82444706;
+					ivar3 = 82444717;
+					ivar4 = 82444716;
+					ivar5 = -1;
+					ivar6 = -1;
+					ivar7 = 82444715;
+					ivar8 = -1;
+					ivar9 = -1;
+					ivar10 = 82444714;
+					ivar11 = 82444708;
+					ivar12 = 82444679;
+					break;
+				case 2:
+					ivar2 = 82444694;
+					ivar3 = 82444705;
+					ivar4 = 82444704;
+					ivar5 = -1;
+					ivar6 = -1;
+					ivar7 = 82444703;
+					ivar8 = -1;
+					ivar9 = -1;
+					ivar10 = 82444702;
+					ivar11 = 82444696;
+					ivar12 = 82444680;
+					break;
+				case 3:
+					ivar2 = 82444682;
+					ivar3 = 82444693;
+					ivar4 = 82444692;
+					ivar5 = -1;
+					ivar6 = -1;
+					ivar7 = 82444691;
+					ivar8 = -1;
+					ivar9 = -1;
+					ivar10 = 82444690;
+					ivar11 = 82444684;
+					ivar12 = 82444681;
+			}
+			break;
+			case 2:
+			switch (arg1) {
+				case 1:
+					ivar2 = 82444638;
+					ivar3 = 82444651;
+					ivar4 = 82444650;
+					ivar5 = 82444648;
+					ivar6 = -1;
+					ivar7 = 82444649;
+					ivar8 = 82444647;
+					ivar9 = -1;
+					ivar10 = 82444646;
+					ivar11 = 82444640;
+					ivar12 = 82444607;
+					break;
+				case 2:
+					ivar2 = 82444624;
+					ivar3 = 82444637;
+					ivar4 = 82444636;
+					ivar5 = 82444634;
+					ivar6 = -1;
+					ivar7 = 82444635;
+					ivar8 = 82444633;
+					ivar9 = -1;
+					ivar10 = 82444632;
+					ivar11 = 82444626;
+					ivar12 = 82444608;
+					break;
+				case 3:
+					ivar2 = 82444610;
+					ivar3 = 82444623;
+					ivar4 = 82444622;
+					ivar5 = 82444620;
+					ivar6 = -1;
+					ivar7 = 82444621;
+					ivar8 = 82444619;
+					ivar9 = -1;
+					ivar10 = 82444618;
+					ivar11 = 82444612;
+					ivar12 = 82444609;
+			}
+			break;
+			case 3:
+			SWITCH (arg1) {
+				case 1:
+					 GOTO flow_12
+				case 2:
+					 GOTO flow_13
+				case 3:
+					 GOTO flow_14
+			}
+			break;
+		flow_12:
+			ivar2 = 82444564;
+			ivar3 = 82444579;
+			ivar4 = 82444578;
+			ivar5 = 82444576;
+			ivar6 = 82444574;
+			ivar7 = 82444577;
+			ivar8 = 82444575;
+			ivar9 = 82444573;
+			ivar10 = 82444572;
+			ivar11 = 82444566;
+			ivar12 = 82444529;
+			break;
+		flow_13:
+			ivar2 = 82444548;
+			ivar3 = 82444563;
+			ivar4 = 82444562;
+			ivar5 = 82444560;
+			ivar6 = 82444558;
+			ivar7 = 82444561;
+			ivar8 = 82444559;
+			ivar9 = 82444557;
+			ivar10 = 82444556;
+			ivar11 = 82444550;
+			ivar12 = 82444530;
+			break;
+		flow_14:
+			ivar2 = 82444532;
+			ivar3 = 82444547;
+			ivar4 = 82444546;
+			ivar5 = 82444544;
+			ivar6 = 82444542;
+			ivar7 = 82444545;
+			ivar8 = 82444543;
+			ivar9 = 82444541;
+			ivar10 = 82444540;
+			ivar11 = 82444534;
+			ivar12 = 82444531;
+	}
+	return newstruct cs2func_script_4818_struct(ivar2, ivar3, ivar4, ivar5, ivar6, ivar7, ivar8, ivar9, ivar10, ivar11, ivar12);
+}

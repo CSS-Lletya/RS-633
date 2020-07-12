@@ -1,0 +1,12 @@
+void script_2216() {
+	if (standart_config_1700 == 2) {
+		if (globalint_1137 == 0) {
+			cs2method_10508(8731, 1, 0);
+		}
+		globalint_1137 = 1;
+		cs2method_20219(2214, "", new WidgetPointer(932,1));
+	} else {
+		cs2method_10998((object)"There is nothing to push off!");
+	}
+	return;
+}

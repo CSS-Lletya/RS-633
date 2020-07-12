@@ -1,0 +1,19 @@
+void script_1781() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 <= 4) {
+		if (cs2method_10551(51839117, multiply(ivar0, 4)) == 1) {
+			if (globalint_257 == ivar0) {
+				cs2method_10469(699);
+				script_1783(51839117, 51839118, 51839117, add(multiply(ivar0, 4), 3));
+			} else if (isMember() == 0 && getGeneralRequirementAttribute(getDataByKey('i', 'J', 1604, ivar0), 557) == 1) {
+				cs2method_10469(698);
+			} else {
+				cs2method_10469(697);
+			}
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	script_1784();
+	return;
+}

@@ -1,0 +1,4 @@
+void script_5595(int arg0) {
+	setWidgetRGB(16443348, arg0);
+	return;
+}

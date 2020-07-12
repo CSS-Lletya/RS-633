@@ -1,0 +1,9 @@
+void script_1104() {
+	setWidgetText(new WidgetPointer(182,1), (object)("When you have finished playing" + "<br>" + "RuneScape, always use a" + "<br>" + "button below to exit the game and logout safely."));
+	setWidgetText(new WidgetPointer(182,6), (object)"Exit to Lobby");
+	cs2method_10375(1, 11927558, (object)"Exit to Lobby");
+	setWidgetIsHidden(false, new WidgetPointer(182,7));
+	setWidgetText(new WidgetPointer(182,13), (object)"Exit to Login");
+	cs2method_10375(1, 11927565, (object)"Exit to Login");
+	return;
+}

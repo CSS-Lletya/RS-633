@@ -1,0 +1,23 @@
+void script_3066(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (arg0 > 0) {
+		cs2method_10467(4661, arg2);
+		setWidgetText(new WidgetPointer(arg3), (object)toString(arg0));
+		if (arg4 == 1) {
+			cs2method_10375(1, arg2, (object)"Click Here To Play");
+			cs2method_20000(3067, arg1, "i", new WidgetPointer(arg2));
+		} else {
+			cs2method_10831(arg2);
+			cs2method_20000(-1, "", new WidgetPointer(arg2));
+		}
+		cs2method_20333(3068, new WidgetPointer(arg2), "I", new WidgetPointer(arg2));
+		cs2method_20295(3069, new WidgetPointer(arg2), "I", new WidgetPointer(arg2));
+	} else {
+		cs2method_10467(4660, arg2);
+		setWidgetText(new WidgetPointer(arg3), (object)"");
+		cs2method_20333(-1, "", new WidgetPointer(arg2));
+		cs2method_20295(-1, "", new WidgetPointer(arg2));
+		cs2method_20000(-1, "", new WidgetPointer(arg2));
+		cs2method_10831(arg2);
+	}
+	return;
+}

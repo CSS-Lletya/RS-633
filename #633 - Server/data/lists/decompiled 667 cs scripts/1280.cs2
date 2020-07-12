@@ -1,0 +1,23 @@
+void script_1280(int arg0,int arg1,int arg2,int arg3) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (cs2method_10551(arg2, arg3) == 1) {
+		if (getItemIdInContainerSlot(arg0, arg1) != -1) {
+			ovar0 = (object)("<col=ff981f>" + (string)getItemName(getItemIdInContainerSlot(arg0, arg1)));
+			setItemOnWidget_10672(getItemIdInContainerSlot(arg0, arg1), cs2method_10136(arg0, arg1));
+			cs2method_11002(ovar0);
+			setWidgetContextMenuOption(10, (object)("Examine" + "<col=ff9040>"));
+			cs2method_10979(5);
+			cs2method_10337(10);
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+		} else {
+			cs2method_10272(-1);
+			cs2method_10245();
+			cs2method_10979(0);
+			cs2method_10337(0);
+			cs2method_20191(-1, "");
+		}
+	}
+	return;
+}

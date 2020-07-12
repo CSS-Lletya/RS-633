@@ -1,0 +1,212 @@
+void script_112(int arg0,int arg1) {
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	object stack_dump4;
+	cs2func_script_802_struct(1,1,0) structdump_5;
+	cs2func_script_802_struct(1,1,0) structdump_6;
+	cs2func_script_802_struct(1,1,0) structdump_7;
+	cs2func_script_802_struct(1,1,0) structdump_8;
+	cs2func_script_802_struct(1,1,0) structdump_9;
+	switch (arg0) {
+		flow_1:
+			case 84:
+			if (globalint_5 == 12) {
+				script_1806((object)globalstring_22);
+				return;
+			}
+			if (globalint_5 == 13) {
+				cs2method_10558((object)globalstring_22);
+				script_1548(13);
+				return;
+			}
+			IF (cs2method_10366((object)globalstring_22) > 0) 
+				GOTO	flow_6
+			GOTO	flow_51
+		flow_6:
+			if (globalint_5 == 4 || globalint_5 == 5) {
+				if (cs2method_10790() < 0) {
+					cs2method_10998((object)"Unable to update Ignore List: system busy");
+				} else if (globalint_5 == 4) {
+					cs2method_10267((object)globalstring_22);
+				} else {
+					if (globalint_5 == 5) {
+						if (cs2method_10799(script_4591((object)globalstring_22)) == 1) {
+							cs2method_10609(script_4591((object)globalstring_22));
+						} else {
+							cs2method_10998((object)"That player is not on your ignore list.");
+						}
+					}
+				}
+			} else if (globalint_5 < 7) {
+				if (cs2method_10223() < 0) {
+					cs2method_10998((object)"Unable to complete action - system busy");
+				} else if (globalint_5 == 2) {
+					cs2method_10330((object)globalstring_22);
+				} else if (globalint_5 == 3) {
+					if (cs2method_10028(script_4591((object)globalstring_22)) == 1) {
+						cs2method_10091(script_4591((object)globalstring_22));
+					} else {
+						cs2method_10998((object)"That player is not on your friends list.");
+					}
+				} else {
+					if (globalint_5 == 6) {
+						if (cs2method_10933() == 2) {
+							cs2method_10478(cs2method_10002(), 1, cs2method_10488());
+							script_178();
+							script_84();
+							script_89();
+						}
+						cs2method_10093((object)globalstring_23, (object)globalstring_22);
+					}
+				}
+			} else if (globalint_5 == 11) {
+				script_1478();
+			} else if (globalint_5 == 7) {
+				globalstring_22 = (string)script_2332((object)globalstring_22, (object)"K", (object)"000");
+				globalstring_22 = (string)script_2332((object)globalstring_22, (object)"k", (object)"000");
+				globalstring_22 = (string)script_2332((object)globalstring_22, (object)"M", (object)"000000");
+				globalstring_22 = (string)script_2332((object)globalstring_22, (object)"m", (object)"000000");
+				if (cs2method_10145() == 1) {
+					globalstring_22 = (string)script_2332((object)globalstring_22, (object)"T", (object)"000");
+					globalstring_22 = (string)script_2332((object)globalstring_22, (object)"t", (object)"000");
+				}
+				cs2method_10776(script_5390((object)globalstring_22));
+			} else if (globalint_5 == 8) {
+				globalstring_201 = (string)cs2method_10991((object)globalstring_22);
+				globalint_1026 = 1;
+				cs2method_10066((object)globalstring_22);
+			} else if (globalint_5 == 9) {
+				if (compareTo(lower((object)globalstring_22), lower((object)globalstring_33)) != 0) {
+					cs2method_10558((object)globalstring_22);
+				} else {
+					cs2method_10998((object)"Please do not enter your password here!");
+				}
+			} else if (globalint_5 == 10) {
+				globalstring_202 = (string)cs2method_10991((object)globalstring_22);
+				globalint_1027 = 1;
+				cs2method_10215((object)globalstring_22);
+			} else if (globalint_5 == 15) {
+				script_1633((object)globalstring_22);
+			} else {
+				if (globalint_5 == 16) {
+					script_4465((object)globalstring_22);
+				}
+			}
+			GOTO	flow_54
+		flow_51:
+			if (globalint_5 == 14) {
+				script_3683();
+				return;
+			}
+			IF (globalint_5 == 7) 
+				GOTO	flow_54
+			GOTO	flow_54
+		flow_54:
+			setWidgetIsHidden(true, new WidgetPointer(752,3));
+			setWidgetIsHidden(true, new WidgetPointer(752,7));
+			setWidgetIsHidden(false, new WidgetPointer(752,8));
+			globalint_5 = 0;
+			if (cs2method_10842() >= 2) {
+				script_1364();
+			}
+			return;
+			case 13:
+			if (globalint_5 == 12) {
+				script_1806((object)globalstring_38);
+				script_1548(0);
+			} else {
+				if (globalint_5 == 14) {
+					script_3683();
+				}
+			}
+			return;
+			case 102:
+			case 103:
+			case 98:
+			case 99:
+			case 96:
+			case 97:
+			if (cs2method_10043() == 0) {
+				return;
+			}
+			globalint_1029 = script_1553(arg0, globalint_1029, (object)globalstring_22);
+			break;
+			default:
+			switch (globalint_5) {
+				case 1:
+					if (arg0 == 83) {
+						script_1548(1);
+					}
+					return;
+				case 6:
+				case 9:
+				case 11:
+					stack_dump0 = globalint_1029;
+					stack_dump1 = 0;
+					stack_dump2 = arg0;
+					stack_dump3 = arg1;
+					stack_dump4 = (object)globalstring_22;
+					structdump_5 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+					stack_dump4 = structdump_5.objectpart_0;
+					globalint_1029 = structdump_5.intpart_0;
+					globalstring_22 = (string)stack_dump4;
+					break;
+				case 7:
+					stack_dump0 = globalint_1029;
+					stack_dump1 = 6;
+					stack_dump2 = arg0;
+					stack_dump3 = arg1;
+					stack_dump4 = (object)globalstring_22;
+					structdump_6 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+					stack_dump4 = structdump_6.objectpart_0;
+					globalint_1029 = structdump_6.intpart_0;
+					globalstring_22 = (string)stack_dump4;
+					break;
+				case 13:
+					stack_dump0 = globalint_1029;
+					stack_dump1 = 5;
+					stack_dump2 = arg0;
+					stack_dump3 = arg1;
+					stack_dump4 = (object)globalstring_22;
+					structdump_7 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+					stack_dump4 = structdump_7.objectpart_0;
+					globalint_1029 = structdump_7.intpart_0;
+					globalstring_22 = (string)stack_dump4;
+					break;
+				case 14:
+					stack_dump0 = globalint_1029;
+					stack_dump1 = 4;
+					stack_dump2 = arg0;
+					stack_dump3 = arg1;
+					stack_dump4 = (object)globalstring_22;
+					structdump_8 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+					stack_dump4 = structdump_8.objectpart_0;
+					globalint_1029 = structdump_8.intpart_0;
+					globalstring_22 = (string)stack_dump4;
+					break;
+			}
+			stack_dump0 = globalint_1029;
+			stack_dump1 = 2;
+			stack_dump2 = arg0;
+			stack_dump3 = arg1;
+			stack_dump4 = (object)globalstring_22;
+			structdump_9 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+			stack_dump4 = structdump_9.objectpart_0;
+			globalint_1029 = structdump_9.intpart_0;
+			globalstring_22 = (string)stack_dump4;
+	}
+	setWidgetText(new WidgetPointer(752,5), cs2method_10991((object)globalstring_22));
+	script_1557();
+	if (globalint_5 == 11) {
+		script_1475();
+	} else {
+		if (globalint_5 == 14) {
+			globalstring_196 = (string)lower((object)globalstring_22);
+			globalint_89 = 1;
+			script_3680();
+		}
+	}
+	return;
+}

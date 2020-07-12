@@ -1,0 +1,10 @@
+void script_4153() {
+	if (bitconfig_4466 == 1) {
+		cs2method_10467(1135, 72613900);
+	} else {
+		if (bitconfig_4466 == 0) {
+			cs2method_10467(1134, 72613900);
+		}
+	}
+	return;
+}

@@ -1,0 +1,48 @@
+void script_154(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6,object arg7,object arg8,object arg9,object arg10,object arg11,object arg12,object arg13,object arg14) {
+	object ovar9;
+	ovar9 = (object)"";
+	if (cs2method_10551(arg2, arg3) == 1) {
+		if (getItemIdInContainerSlot(arg0, arg1) != -1) {
+			ovar9 = (object)("<col=ff981f>" + (string)getItemName(getItemIdInContainerSlot(arg0, arg1)));
+			setItemOnWidget_10672(getItemIdInContainerSlot(arg0, arg1), cs2method_10136(arg0, arg1));
+			cs2method_11002(ovar9);
+			setWidgetContextMenuOption(1, arg6);
+			setWidgetContextMenuOption(2, arg7);
+			setWidgetContextMenuOption(3, arg8);
+			setWidgetContextMenuOption(4, arg9);
+			setWidgetContextMenuOption(5, arg10);
+			setWidgetContextMenuOption(6, arg11);
+			setWidgetContextMenuOption(7, arg12);
+			setWidgetContextMenuOption(8, arg13);
+			setWidgetContextMenuOption(9, arg14);
+			setWidgetContextMenuOption(10, (object)("Examine" + "<col=ff9040>"));
+			if (arg4 > 0) {
+				cs2method_10979(5);
+				cs2method_10337(10);
+			}
+			if (arg4 == 1) {
+				cs2method_20191(155, arg0, -2147483643, -2147483641, new WidgetPointer(-32768,3), arg4, new WidgetPointer(arg5), (string)arg6, (string)arg7, (string)arg8, (string)arg9, (string)arg10, (string)arg11, (string)arg12, (string)arg13, (string)arg14, "viiIiIsssssssss");
+			} else {
+				if (arg4 == 2) {
+					cs2method_20191(156, arg0, -2147483643, -2147483641, new WidgetPointer(-32768,3), arg4, new WidgetPointer(arg5), (string)arg6, (string)arg7, (string)arg8, (string)arg9, (string)arg10, (string)arg11, (string)arg12, (string)arg13, (string)arg14, "viiIiIsssssssss");
+				}
+			}
+			if (arg4 != 0 && arg5 != -1) {
+				cs2method_20857(162, arg1, new WidgetPointer(arg2), new WidgetPointer(arg5), -2147483646, "iIIi");
+			}
+			cs2method_10167(3153952);
+			cs2method_10253(1);
+			cs2method_20930(5495, getItemIdInContainerSlot(arg0, arg1), "o");
+			cs2method_20139(5495, -1, "o");
+		} else {
+			cs2method_10814(-1, 0);
+			cs2method_10245();
+			if (arg4 > 0) {
+				cs2method_10979(0);
+				cs2method_10337(0);
+			}
+			cs2method_20191(-1, "");
+		}
+	}
+	return;
+}

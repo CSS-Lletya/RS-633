@@ -1,0 +1,28 @@
+object script_5390(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = cs2method_10366(arg0);
+	if (ivar0 < 10) {
+		return arg0;
+	}
+	if (ivar0 > 10) {
+		return toString(2147483647);
+	}
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	while (ivar3 < 10) {
+		ivar1 = cs2method_10339(0, (object)"0123456789", cs2method_10547(ivar3, add(ivar3, 1), arg0));
+		ivar2 = cs2method_10620(divide(2147483647, cs2method_10206(10, subtract(9, ivar3))), 10);
+		if (ivar1 < ivar2) {
+			return arg0;
+		}
+		if (ivar1 > ivar2) {
+			return toString(2147483647);
+		}
+		ivar3 = add(ivar3, 1);
+	}
+	return arg0;
+}

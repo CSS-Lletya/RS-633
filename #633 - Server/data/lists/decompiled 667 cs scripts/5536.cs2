@@ -1,0 +1,48 @@
+void script_5536(int arg0) {
+	globalint_1725 = arg0;
+	globalint_1724 = 1;
+	globalint_1808 = 1;
+	if (arg0 >= 1 && arg0 <= 4) {
+		script_6071(0);
+	} else {
+		if (arg0 >= 11 && arg0 <= 12) {
+			script_6071(1);
+		}
+	}
+	switch (arg0) {
+		case 1:
+			cs2method_10467(10422, 77201457);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Tool Belt - General");
+			setWidgetIsHidden(false, new WidgetPointer(1178,79));
+			break;
+		case 2:
+			cs2method_10467(10423, 77201458);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Tool Belt - Fishing");
+			setWidgetIsHidden(false, new WidgetPointer(1178,79));
+			break;
+		case 3:
+			cs2method_10467(10424, 77201459);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Tool Belt - Crafting");
+			setWidgetIsHidden(false, new WidgetPointer(1178,79));
+			break;
+		case 4:
+			cs2method_10467(10425, 77201460);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Tool Belt - Farming");
+			setWidgetIsHidden(false, new WidgetPointer(1178,79));
+			break;
+		case 11:
+			cs2method_10467(10426, 77201461);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Dungeoneering - Tools");
+			setWidgetIsHidden(false, new WidgetPointer(1178,79));
+			break;
+		case 12:
+			cs2method_10467(10427, 77201462);
+			setWidgetText(new WidgetPointer(1178,77), (object)"Dungeoneering - Keys");
+			setWidgetIsHidden(true, new WidgetPointer(1178,79));
+	}
+	script_6069();
+	script_5537();
+	script_5539();
+	script_5544();
+	return;
+}

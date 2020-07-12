@@ -1,0 +1,4 @@
+void script_4280() {
+	script_4212(71172123, 4040, 15708259, 3156001, (object)"Confirm");
+	return;
+}

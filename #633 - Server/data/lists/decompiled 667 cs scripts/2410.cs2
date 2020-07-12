@@ -1,0 +1,47 @@
+void script_2410(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5,object arg6,object arg7,object arg8,object arg9,object arg10) {
+	if (cs2method_10366(arg5) > 0) {
+		setWidgetContextMenuOption(1, arg5);
+		if (arg0 != -1) {
+			cs2method_10483(1, arg0);
+		} else {
+			cs2method_10483(1, 36);
+		}
+	}
+	if (cs2method_10366(arg6) > 0) {
+		setWidgetContextMenuOption(2, arg6);
+		if (arg1 != -1) {
+			cs2method_10483(2, arg1);
+		} else {
+			cs2method_10483(2, 36);
+		}
+	}
+	if (cs2method_10366(arg7) > 0) {
+		setWidgetContextMenuOption(3, arg7);
+		if (arg2 != -1) {
+			cs2method_10483(3, arg2);
+		} else {
+			cs2method_10483(3, 36);
+		}
+	}
+	cs2method_10628((object)"Use");
+	cs2method_10048(46);
+	cs2method_10240(46, 36);
+	setWidgetContextMenuOption(10, (object)"Examine");
+	if (cs2method_10366(arg8) > 0) {
+		setWidgetContextMenuOption(7, arg8);
+		if (arg3 != -1) {
+			cs2method_10483(7, arg3);
+		} else {
+			cs2method_10483(7, 36);
+		}
+	}
+	if (cs2method_10366(arg9) > 0) {
+		setWidgetContextMenuOption(8, arg9);
+		if (arg4 != -1) {
+			cs2method_10483(8, arg4);
+		} else {
+			cs2method_10483(8, 36);
+		}
+	}
+	return;
+}

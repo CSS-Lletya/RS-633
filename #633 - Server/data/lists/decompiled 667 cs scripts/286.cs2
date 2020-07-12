@@ -1,0 +1,23 @@
+void script_286(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (cs2method_10551(arg1, arg2) == 1) {
+		setWidgetContextMenuOption(1, arg6);
+	}
+	if (cs2method_10551(arg1, arg3) == 1) {
+		setWidgetContextMenuOption(1, arg6);
+	}
+	if (cs2method_10551(arg1, arg4) == 1) {
+		if (arg5 == 1) {
+			cs2method_10692(0);
+		} else {
+			cs2method_10692(1);
+		}
+	}
+	if (arg2 == 11) {
+		cs2method_10954(950, arg5);
+	}
+	cs2method_10508(2266, 1, 0);
+	return;
+}

@@ -1,0 +1,164 @@
+void script_5675() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	flow_0:
+		ivar0 = 0;
+		SWITCH (standart_config_2478) {
+			case 2:
+				 GOTO flow_1
+			case 3:
+				 GOTO flow_2
+		}
+		ivar0 = bitconfig_10440;
+		GOTO	flow_3
+	flow_1:
+		ivar0 = bitconfig_10441;
+		GOTO	flow_3
+	flow_2:
+		ivar0 = bitconfig_10442;
+	flow_3:
+		ivar1 = -1;
+		SWITCH (ivar0) {
+			case 2:
+				 GOTO flow_4
+			case 5:
+				 GOTO flow_5
+			case 6:
+				 GOTO flow_6
+			case 3:
+				 GOTO flow_7
+			case 4:
+				 GOTO flow_8
+			case 7:
+				 GOTO flow_9
+			case 12:
+				 GOTO flow_10
+			case 11:
+				 GOTO flow_11
+			case 13:
+				 GOTO flow_12
+			case 14:
+				 GOTO flow_13
+			case 15:
+				 GOTO flow_14
+			case 16:
+				 GOTO flow_15
+			case 17:
+				 GOTO flow_16
+			case 18:
+				 GOTO flow_17
+			case 8:
+				 GOTO flow_18
+			case 9:
+				 GOTO flow_19
+			case 10:
+				 GOTO flow_20
+			case 19:
+				 GOTO flow_21
+			case 20:
+				 GOTO flow_22
+			case 21:
+				 GOTO flow_23
+			case 22:
+				 GOTO flow_24
+			case 23:
+				 GOTO flow_25
+			case 24:
+				 GOTO flow_26
+			case 25:
+				 GOTO flow_27
+			case 30:
+				 GOTO flow_28
+			case 31:
+				 GOTO flow_29
+		}
+		ivar1 = 79560735;
+		GOTO	flow_30
+	flow_4:
+		ivar1 = 79560736;
+		GOTO	flow_30
+	flow_5:
+		ivar1 = 79560737;
+		GOTO	flow_30
+	flow_6:
+		ivar1 = 79560740;
+		GOTO	flow_30
+	flow_7:
+		ivar1 = 79560738;
+		GOTO	flow_30
+	flow_8:
+		ivar1 = 79560739;
+		GOTO	flow_30
+	flow_9:
+		ivar1 = 79560741;
+		GOTO	flow_30
+	flow_10:
+		ivar1 = 79560753;
+		GOTO	flow_30
+	flow_11:
+		ivar1 = 79560745;
+		GOTO	flow_30
+	flow_12:
+		ivar1 = 79560747;
+		GOTO	flow_30
+	flow_13:
+		ivar1 = 79560748;
+		GOTO	flow_30
+	flow_14:
+		ivar1 = 79560749;
+		GOTO	flow_30
+	flow_15:
+		ivar1 = 79560750;
+		GOTO	flow_30
+	flow_16:
+		ivar1 = 79560751;
+		GOTO	flow_30
+	flow_17:
+		ivar1 = 79560752;
+		GOTO	flow_30
+	flow_18:
+		ivar1 = 79560742;
+		GOTO	flow_30
+	flow_19:
+		ivar1 = 79560743;
+		GOTO	flow_30
+	flow_20:
+		ivar1 = 79560744;
+		GOTO	flow_30
+	flow_21:
+		ivar1 = 79560746;
+		GOTO	flow_30
+	flow_22:
+		ivar1 = 79560754;
+		GOTO	flow_30
+	flow_23:
+		ivar1 = 79560755;
+		GOTO	flow_30
+	flow_24:
+		ivar1 = 79560756;
+		GOTO	flow_30
+	flow_25:
+		ivar1 = 79560757;
+		GOTO	flow_30
+	flow_26:
+		ivar1 = 79560758;
+		GOTO	flow_30
+	flow_27:
+		ivar1 = 79560759;
+		GOTO	flow_30
+	flow_28:
+		ivar1 = 79560760;
+		GOTO	flow_30
+	flow_29:
+		ivar1 = 79560761;
+	flow_30:
+		ivar2 = subtract(cs2method_10111(ivar1), 1);
+		ivar3 = subtract(cs2method_10826(ivar1), 1);
+		cs2method_10444(ivar2, ivar3, 0, 0, 79560762);
+		cs2method_10444(ivar2, ivar3, 0, 0, 79560734);
+		setWidgetIsHidden(false, new WidgetPointer(1214,58));
+		setWidgetIsHidden(false, new WidgetPointer(1214,30));
+		return;
+}

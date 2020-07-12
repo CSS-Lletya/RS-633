@@ -1,0 +1,77 @@
+void script_2708(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	cs2method_10268(0, 0, 4, 3, 135, 30, 3791, 3792, 6127, 16753152, 3793);
+	cs2method_10467(4129, 48758806);
+	cs2method_10467(4129, 48758881);
+	cs2method_10467(4129, 48758884);
+	cs2method_10467(4067, 48758854);
+	cs2method_10967(1, 48758854);
+	cs2method_10533(1, 48758854);
+	cs2method_10467(4067, 48758858);
+	cs2method_10967(0, 48758858);
+	cs2method_10533(1, 48758858);
+	cs2method_10467(4067, 48758788);
+	cs2method_10467(4067, 48758790);
+	cs2method_10067(cs2method_10869(36));
+	if (globalint_176 <= 0) {
+		globalint_176 = multiply(add(cs2method_10869(5), 1), 10);
+	}
+	cs2method_20374(3229, "", new WidgetPointer(744,17));
+	script_3964();
+	globalstring_32 = "";
+	globalstring_33 = "";
+	cs2method_10647();
+	globalint_547 = 0;
+	globalint_1093 = 0;
+	cs2method_10070(48758834, 882);
+	script_2595(0);
+	setScriptCallOnMousePressed(1173, 11, "i", new WidgetPointer(882,20));
+	setScriptCallOnKeyPress(1221, -2147483640, false, "iz", new WidgetPointer(744,17));
+	script_2710(arg0, arg1, arg2, arg3, arg4, arg5);
+	script_1129();
+	script_1427();
+	if (cs2method_10818() == 1) {
+		globalint_1090 = 11;
+		globalint_1091 = 11;
+		script_3239(11, 1, 0);
+	} else {
+		if (globalint_1240 == 2 && cs2method_10201() != 0) {
+			globalint_1240 = 3;
+		}
+		if (cs2method_10585() == 0 && (globalint_1240 < 3 || cs2method_10557() == 1 || cs2method_10839() == 0)) {
+			globalint_1090 = 0;
+			globalint_1091 = 0;
+			script_3239(0, 1, 0);
+		} else if (cs2method_10637() == 1) {
+			globalint_1090 = 5;
+			globalint_1091 = 5;
+			script_3239(5, 1, 0);
+			if (globalint_1273 == 1) {
+				return;
+			}
+			cs2method_20219(3381, new WidgetPointer(975,44), 0, "Ii", new WidgetPointer(975,44));
+		} else if (script_3487(3) == 1) {
+			if (globalint_1407 < 1) {
+				globalint_1090 = 7;
+				globalint_1091 = 7;
+				script_3239(7, 1, 0);
+			} else {
+				globalint_1090 = 11;
+				globalint_1091 = 11;
+				script_3239(11, 1, 0);
+			}
+		} else {
+			globalint_1090 = 11;
+			globalint_1091 = 11;
+			script_3239(11, 1, 0);
+		}
+	}
+	script_3230();
+	if (globalint_1701 == -1) {
+		globalint_1701 = 1;
+	}
+	if (cs2method_10908() == 0) {
+		cs2method_10070(48758900, 405);
+		cs2method_10129(1, 48758900);
+	}
+	return;
+}

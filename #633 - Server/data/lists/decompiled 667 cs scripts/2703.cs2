@@ -1,0 +1,30 @@
+void script_2703(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar5 = subtract(arg0, cs2method_10878());
+	if (ivar5 <= 0) {
+		script_2705(0, arg1, arg2, 1, arg3, arg4);
+		return;
+	}
+	ivar6 = cs2method_10842();
+	if (cs2method_10184(arg1, 1) == 1 && ivar6 != 3) {
+		script_2705(0, arg1, arg2, 1, arg3, arg4);
+		return;
+	}
+	ivar7 = 48889891;
+	if (arg2 == 1) {
+		if (ivar6 == 1) {
+			ivar7 = 35913775;
+		}
+		if (cs2method_10837(ivar7) == 0) {
+			script_2701(arg1, arg3, arg4);
+		}
+		setWidgetText(new WidgetPointer(883,16), (object)("Reverting in: " + toString(divide(ivar5, 50))));
+	} else if (arg2 == 2) {
+		setWidgetText(new WidgetPointer(906,141), (object)("Reverting in: " + toString(divide(ivar5, 50))));
+	} else {
+		setWidgetText(new WidgetPointer(744,54), (object)("Reverting in: " + toString(divide(ivar5, 50))));
+	}
+	return;
+}

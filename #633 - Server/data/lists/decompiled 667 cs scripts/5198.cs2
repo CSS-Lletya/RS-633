@@ -1,0 +1,13 @@
+void script_5198() {
+	setWidgetRGB(cs2method_10489(bitconfig_9671), 73531497);
+	setWidgetRGB(cs2method_10489(bitconfig_9672), 73531504);
+	setWidgetRGB(cs2method_10489(bitconfig_9673), 73531506);
+	setWidgetRGB(cs2method_10489(bitconfig_9672), 73531693);
+	setWidgetRGB(cs2method_10489(bitconfig_9671), 73531700);
+	setWidgetRGB(cs2method_10489(bitconfig_9673), 73531702);
+	setWidgetRGB(cs2method_10489(bitconfig_9673), 73531721);
+	setWidgetRGB(cs2method_10489(bitconfig_9673), 73531739);
+	setWidgetRGB(cs2method_10489(bitconfig_9671), 73531728);
+	setWidgetRGB(cs2method_10489(bitconfig_9672), 73531730);
+	return;
+}

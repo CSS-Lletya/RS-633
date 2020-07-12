@@ -1,0 +1,37 @@
+void script_6183() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = globalint_1910;
+	if (bitconfig_11105 == 0) {
+		setWidgetText(new WidgetPointer(1273,68), (object)"0");
+		return;
+	}
+	if (bitconfig_11104 == 1) {
+		while (ivar1 < bitconfig_11105) {
+			ivar0 = add(ivar0, getDataByKey('i', 'i', 5842, ivar1));
+			ivar1 = add(ivar1, 1);
+		}
+		setWidgetText(new WidgetPointer(1273,68), (object)("Rank " + toString(subtract(11, bitconfig_11105)) + " Esteem = " + toString(ivar0) + " points"));
+		return;
+	}
+	if (bitconfig_11104 == 2) {
+		setWidgetText(new WidgetPointer(1273,68), (object)("Recolour = " + toString(2000) + " points"));
+		return;
+	}
+	ivar2 = getDataByKey('i', 'J', 5838, subtract(bitconfig_11105, 1));
+	if (ivar2 == -1) {
+		return;
+	}
+	ivar0 = getGeneralRequirementAttribute(ivar2, 2379);
+	ivar0 = multiply(ivar0, bitconfig_11106);
+	if (getGeneralRequirementAttribute(ivar2, 2378) == 0) {
+		setWidgetText(new WidgetPointer(1273,68), (object)(toString(bitconfig_11106) + " x " + getGeneralRequirementAttribute(ivar2, 2376) + " = " + toString(ivar0)));
+	} else if (cs2method_10145() == 3 || cs2method_10145() == 2) {
+		setWidgetText(new WidgetPointer(1273,68), (object)(toString(bitconfig_11106) + " x " + getGeneralRequirementAttribute(ivar2, 2377) + " " + getGeneralRequirementAttribute(ivar2, 2376) + " = " + toString(ivar0)));
+	} else {
+		setWidgetText(new WidgetPointer(1273,68), (object)(toString(bitconfig_11106) + " x " + getGeneralRequirementAttribute(ivar2, 2376) + " " + getGeneralRequirementAttribute(ivar2, 2377) + " = " + toString(ivar0)));
+	}
+	return;
+}

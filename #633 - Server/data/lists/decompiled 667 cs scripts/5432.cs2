@@ -1,0 +1,25 @@
+void script_5432() {
+	int ivar0;
+	ivar0 = 0;
+	if (globalint_1663 == 1) {
+		ivar0 = 16;
+	} else if (globalint_1663 == 2) {
+		ivar0 = 17;
+	} else if (globalint_1663 == 3) {
+		ivar0 = 18;
+	} else if (globalint_1663 == 4) {
+		ivar0 = 19;
+	} else if (globalint_1663 == 5) {
+		ivar0 = 20;
+	} else if (globalint_1663 == 6) {
+		ivar0 = 21;
+	} else if (globalint_1663 == 7) {
+		ivar0 = 22;
+	} else {
+		ivar0 = subtract(globalint_1663, 7);
+	}
+	if (globalint_1666 == ivar0) {
+		globalint_1667 = 1;
+	}
+	return;
+}

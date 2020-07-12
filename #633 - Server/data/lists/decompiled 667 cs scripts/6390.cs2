@@ -1,0 +1,32 @@
+void script_6390(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	ivar1 = 85393502;
+	ivar2 = 85393509;
+	setWidgetIsHidden(false, new WidgetPointer(ivar1));
+	ovar0 = (object)"Combat Level";
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 20;
+	setWidgetText(new WidgetPointer(ivar2), ovar0);
+	ivar5 = cs2method_10355(cs2method_10894(ivar2), ovar0);
+	ivar5 = add(ivar5, 8);
+	cs2method_10893(ivar5, ivar6, 0, 0, ivar1);
+	if (arg0 == 85393417) {
+		ivar3 = cs2method_10111(arg0);
+		ivar3 = subtract(ivar3, cs2method_10956(ivar1));
+		ivar4 = cs2method_10826(arg0);
+	} else {
+		ivar3 = cs2method_10111(arg0);
+		ivar3 = add(ivar3, cs2method_10956(arg0));
+		ivar4 = cs2method_10826(arg0);
+	}
+	cs2method_10444(ivar3, ivar4, 0, 0, ivar1);
+	return;
+}

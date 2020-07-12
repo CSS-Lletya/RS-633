@@ -1,0 +1,10 @@
+void script_5535(int arg0) {
+	if (arg0 == -1) {
+		arg0 = globalint_1725;
+	}
+	if (arg0 != globalint_1725) {
+		cs2method_10677(6185, 1, 0, 255);
+	}
+	script_5536(arg0);
+	return;
+}

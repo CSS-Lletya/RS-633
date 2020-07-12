@@ -1,0 +1,4 @@
+void script_4451() {
+	script_4436(72744974, cs2method_10111(72744988));
+	return;
+}

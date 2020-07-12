@@ -1,0 +1,15 @@
+void script_606() {
+	int ivar0;
+	int ivar1;
+	createChildWidget(43384906, 5, 0);
+	setWidgetSize(32, 36, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	createChildWidget(48955410, 5, 0);
+	setWidgetSize(16384, 16384, 2, 2);
+	setWidgetPosition(0, 0, 0, 0);
+	ivar0 = 1194;
+	ivar1 = 1195;
+	script_659(43384905, ivar0, ivar1, getItemAttribute(standart_config_448, 394), getDataByKey('o', 'o', 1283, standart_config_448), 1, -1, 0, -1, 0, -1, 0, (object)globalstring_204, (object)globalstring_205);
+	script_608();
+	return;
+}

@@ -1,0 +1,38 @@
+void script_6097(int arg0) {
+	if (arg0 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1265,226));
+		setWidgetIsHidden(false, new WidgetPointer(1265,33));
+		cs2method_10893(cs2method_10956(82903069), 22, 0, 0, 82903069);
+		cs2method_10893(cs2method_10956(82903068), 20, 0, 0, 82903068);
+		setWidgetRGB(16248247, 82903267);
+		setWidgetRGB(15052881, 82903074);
+		cs2method_10467(10465, 82903263);
+		cs2method_10467(10466, 82903264);
+		cs2method_10467(10465, 82903265);
+		cs2method_10467(10463, 82903070);
+		cs2method_10467(10464, 82903071);
+		cs2method_10467(10463, 82903072);
+		cs2method_20333(6098, 1, 1, new WidgetPointer(1265,223), new WidgetPointer(1265,224), new WidgetPointer(1265,225), "iiIII", new WidgetPointer(1265,29));
+		cs2method_20295(6098, 1, 0, new WidgetPointer(1265,223), new WidgetPointer(1265,224), new WidgetPointer(1265,225), "iiIII", new WidgetPointer(1265,29));
+		cs2method_20333(6098, 0, 1, new WidgetPointer(1265,30), new WidgetPointer(1265,31), new WidgetPointer(1265,32), "iiIII", new WidgetPointer(1265,28));
+		cs2method_20295(6098, 0, 0, new WidgetPointer(1265,30), new WidgetPointer(1265,31), new WidgetPointer(1265,32), "iiIII", new WidgetPointer(1265,28));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1265,33));
+		setWidgetIsHidden(false, new WidgetPointer(1265,226));
+		cs2method_10893(cs2method_10956(82903068), 22, 0, 0, 82903068);
+		cs2method_10893(cs2method_10956(82903069), 20, 0, 0, 82903069);
+		setWidgetRGB(16248247, 82903074);
+		setWidgetRGB(15052881, 82903267);
+		cs2method_10467(10465, 82903070);
+		cs2method_10467(10466, 82903071);
+		cs2method_10467(10465, 82903072);
+		cs2method_10467(10463, 82903263);
+		cs2method_10467(10464, 82903264);
+		cs2method_10467(10463, 82903265);
+		cs2method_20333(6098, 1, 1, new WidgetPointer(1265,30), new WidgetPointer(1265,31), new WidgetPointer(1265,32), "iiIII", new WidgetPointer(1265,28));
+		cs2method_20295(6098, 1, 0, new WidgetPointer(1265,30), new WidgetPointer(1265,31), new WidgetPointer(1265,32), "iiIII", new WidgetPointer(1265,28));
+		cs2method_20333(6098, 0, 1, new WidgetPointer(1265,223), new WidgetPointer(1265,224), new WidgetPointer(1265,225), "iiIII", new WidgetPointer(1265,29));
+		cs2method_20295(6098, 0, 0, new WidgetPointer(1265,223), new WidgetPointer(1265,224), new WidgetPointer(1265,225), "iiIII", new WidgetPointer(1265,29));
+	}
+	return;
+}

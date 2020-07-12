@@ -1,0 +1,89 @@
+void script_1581(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ivar1 = 494;
+	ivar2 = 32243761;
+	switch (arg0) {
+		case 32243727:
+		case 32309275:
+		case 31981571:
+			ovar0 = (object)globalstring_212;
+			break;
+		case 32309276:
+		case 31981576:
+		case 32243728:
+			ovar0 = (object)globalstring_213;
+			break;
+		case 32309277:
+		case 31981581:
+		case 32243729:
+			ovar0 = (object)globalstring_214;
+			break;
+		case 32309278:
+		case 31981586:
+		case 32243730:
+			ovar0 = (object)globalstring_215;
+			break;
+		case 32309279:
+		case 32243731:
+			ovar0 = (object)globalstring_216;
+	}
+	switch (arg0) {
+		case 32309278:
+		case 32309279:
+		case 32309276:
+		case 32309277:
+		case 32309275:
+			ivar1 = 495;
+			ivar2 = 32309304;
+			break;
+		case 31981576:
+		case 31981581:
+		case 31981586:
+		case 31981571:
+			ivar1 = 495;
+			ivar2 = 31981595;
+	}
+	ovar1 = ovar0;
+	ivar3 = cs2method_10956(arg0);
+	if (cs2method_10242(2147483647, ivar1, (object)((string)ovar1 + " ")) > ivar3) {
+		while (cs2method_10242(2147483647, ivar1, (object)((string)ovar1 + "... ")) > ivar3) {
+			ovar1 = cs2method_10547(0, subtract(cs2method_10366(ovar1), 1), ovar1);
+		}
+		cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(ivar2), (string)ovar0, 25, 5000, "IIsii", new WidgetPointer(arg0));
+		cs2method_20295(40, new WidgetPointer(ivar2), "I", new WidgetPointer(arg0));
+		ovar0 = (object)((string)ovar1 + "...");
+	} else {
+		cs2method_20835(-1, "", new WidgetPointer(arg0));
+		cs2method_20295(-1, "", new WidgetPointer(arg0));
+	}
+	switch (arg0) {
+		case 32309278:
+		case 32243727:
+		case 32309279:
+		case 32309276:
+		case 32309277:
+		case 32309275:
+		case 32243731:
+		case 32243730:
+		case 32243729:
+		case 32243728:
+			if (compareTo(ovar0, (object)"") == 0 || compareTo(ovar0, (object)"null") == 0) {
+				ovar0 = (object)"none set";
+			}
+			break;
+		case 31981576:
+		case 31981581:
+		case 31981571:
+		case 31981586:
+			if (compareTo(ovar0, (object)"") == 0 || compareTo(ovar0, (object)"null") == 0) {
+				ovar0 = (object)"---";
+			}
+	}
+	setWidgetText(new WidgetPointer(arg0), ovar0);
+	return;
+}

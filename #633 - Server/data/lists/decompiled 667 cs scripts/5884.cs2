@@ -1,0 +1,59 @@
+void script_5884() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	cs2func_script_5886_struct(2,0,0) structdump_1;
+	ivar0 = -1;
+	if (globalint_1785 == 1) {
+		return;
+	}
+	if (globalint_1781 < 0 || globalint_1781 >= 13) {
+		return;
+	}
+	globalint_1785 = 1;
+	ivar1 = 0;
+	ivar2 = 0;
+	stack_dump0 = bitconfig_10860;
+	structdump_1 = script_5886(stack_dump0);
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	cs2method_20219(5885, ivar1, ivar2, "ii", new WidgetPointer(1253,52));
+	ivar3 = script_5936(bitconfig_10860);
+	ivar4 = getGeneralRequirementAttribute(ivar3, 2268);
+	ivar5 = getItemIdInContainerSlot(665, bitconfig_10860);
+	ivar6 = cs2method_10136(665, bitconfig_10860);
+	cs2method_10380(ivar5, ivar6, 82116643);
+	if (bitconfig_10861 > 0) {
+		ivar0 = script_5941(bitconfig_10860);
+		cs2method_10467(ivar0, 82116809);
+		cs2method_10467(ivar0, 82116642);
+		setWidgetText(new WidgetPointer(1253,162), script_5909(ivar4, bitconfig_10865, ivar5, ivar6));
+	} else {
+		setWidgetText(new WidgetPointer(1253,162), (object)"");
+	}
+	cs2method_10380(ivar5, ivar6, 82116810);
+	setWidgetText(new WidgetPointer(1253,161), (object)("Spins remaining: " + toString(add(add(bitconfig_10862, bitconfig_11026), globalint_1800))));
+	if (cs2method_10669() == 0) {
+		setWidgetText(new WidgetPointer(1253,161), (object)"Members get two spins a day. Subscribe now to claim your earned spin.");
+		setWidgetIsHidden(true, new WidgetPointer(1253,259));
+		setWidgetText(new WidgetPointer(1253,264), (object)"Subscribe");
+		cs2method_10375(1, 82116866, (object)"Subscribe");
+		if (isMembersItem(ivar5) == 1 && cs2method_10669() == 0) {
+			setWidgetText(new WidgetPointer(1253,180), (object)"Subscribe to claim");
+			cs2method_10375(1, 82116785, (object)"Subscribe");
+		}
+	} else {
+		setWidgetText(new WidgetPointer(1253,264), (object)"Play again");
+		cs2method_10375(1, 82116866, (object)"Play");
+		setWidgetText(new WidgetPointer(1253,180), (object)"Claim item");
+		cs2method_10375(1, 82116785, (object)"Claim");
+	}
+	script_5910(ivar4);
+	script_1968();
+	return;
+}

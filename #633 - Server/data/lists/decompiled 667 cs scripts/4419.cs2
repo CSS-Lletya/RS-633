@@ -1,0 +1,16 @@
+void script_4419(int arg0) {
+	if (cs2method_10090(cs2method_10740(arg0)) > 69) {
+		script_4544(arg0, -1, -1, -1, 14, 70, 3, 1);
+		cs2method_10467(6169, 72548410);
+		cs2method_10467(6169, 72548411);
+		cs2method_10129(0, 72548392);
+	} else {
+		if (cs2method_10090(cs2method_10740(arg0)) == 14) {
+			script_4544(arg0, -1, -1, -1, 14, 70, 3, 1);
+			cs2method_10467(6168, 72548410);
+			cs2method_10467(6168, 72548411);
+			cs2method_10129(1, 72548392);
+		}
+	}
+	return;
+}

@@ -1,0 +1,31 @@
+void script_2930(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9) {
+	int ivar10;
+	if (arg7 < arg8) {
+		arg7 = add(arg7, 1);
+		cs2method_20219(2930, new WidgetPointer(arg0), arg1, arg2, new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), arg6, arg7, arg8, arg9, "I1iIIIiiii", new WidgetPointer(arg0));
+		return;
+	}
+	ivar10 = cs2method_10956(arg0);
+	if (arg1 == 1) {
+		if (subtract(ivar10, arg2) < arg6) {
+			cs2method_10893(cs2method_10586(add(ivar10, arg9), add(arg6, arg2)), 31, 0, 0, arg0);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			cs2method_10893(add(arg6, arg2), 31, 0, 0, arg0);
+		}
+		cs2method_10467(2569, arg3);
+		cs2method_10467(2568, arg4);
+		cs2method_10467(2568, arg5);
+	} else {
+		if (ivar10 > 32) {
+			cs2method_10893(cs2method_10004(subtract(ivar10, arg9), 32), 31, 0, 0, arg0);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			cs2method_10893(32, 31, 0, 0, arg0);
+		}
+		cs2method_10467(2567, arg3);
+		cs2method_10467(2566, arg4);
+		cs2method_10467(2566, arg5);
+	}
+	return;
+}

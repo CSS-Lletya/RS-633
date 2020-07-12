@@ -1,0 +1,67 @@
+void script_5692(int arg0,int arg1,int arg2) {
+	createChildWidget(79822920, 5, cs2method_10860(79822920));
+	setWidgetSize(36, 32, 0, 0);
+	setWidgetPosition(10, add(arg1, 5), 0, 0);
+	if (getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg2, 2215)) == -1 || arg2 == -1) {
+		return;
+	}
+	if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg2, 2215))) < getGeneralRequirementAttribute(arg2, 2212)) {
+		setWidgetSize(25, 25, 0, 0);
+		cs2method_10469(8277);
+		setWidgetPosition(13, add(arg1, 9), 0, 0);
+		cs2method_20211(5693, -2147483643, 1, "i1");
+		cs2method_20139(5694, "");
+	} else if (getGeneralRequirementAttribute(arg2, 2213) == -1) {
+		cs2method_10469(getGeneralRequirementAttribute(arg2, 2214));
+	} else {
+		setItemOnWidget_10672(getGeneralRequirementAttribute(arg2, 2213), -1);
+	}
+	createChildWidget(79822920, 4, cs2method_10860(79822920));
+	setWidgetPosition(45, add(arg1, 5), 0, 0);
+	setWidgetFont(4040);
+	cs2method_10320(1);
+	if (getGeneralRequirementAttribute(arg2, 2212) == 0) {
+		setWidgetText((object)"");
+	} else {
+		setWidgetText((object)toString(getGeneralRequirementAttribute(arg2, 2212)));
+	}
+	setWidgetRGB(new Color(219, 144, 0));
+	setWidgetTextAlignment(1, 1, 13);
+	setWidgetSize(32, 32, 0, 0);
+	if (getGeneralRequirementAttribute(arg2, 2217) == 1) {
+		createChildWidget(79822920, 4, cs2method_10860(79822920));
+		setWidgetPosition(80, add(arg1, 5), 0, 0);
+		setWidgetSize(32, 32, 0, 0);
+		cs2method_20211(5693, -2147483643, 0, "i1");
+		cs2method_20139(5694, "");
+	}
+	createChildWidget(79822920, 4, cs2method_10860(79822920));
+	setWidgetPosition(100, add(arg1, 8), 0, 0);
+	setWidgetText((object)getGeneralRequirementAttribute(arg2, 2210));
+	setWidgetFont(4040);
+	cs2method_10320(1);
+	setWidgetRGB(new Color(230, 190, 120));
+	setWidgetTextAlignment(1, 1, 12);
+	setWidgetSize(430, 16, 0, 0);
+	if (compareTo((object)"", (object)getGeneralRequirementAttribute(arg2, 2216)) != 0) {
+		createChildWidget(79822920, 4, cs2method_10860(79822920));
+		setWidgetPosition(100, add(arg1, 23), 0, 0);
+		setWidgetFont(3793);
+		cs2method_10320(1);
+		setWidgetText((object)getGeneralRequirementAttribute(arg2, 2216));
+		setWidgetRGB(new Color(219, 144, 0));
+		setWidgetTextAlignment(1, 1, 13);
+		setWidgetSize(430, 16, 0, 0);
+	}
+	if (cs2method_10366((object)getGeneralRequirementAttribute(arg2, 2211)) > 0) {
+		createChildWidget(79822920, 5, cs2method_10860(79822920));
+		setWidgetPosition(15, add(arg1, 10), 2, 0);
+		cs2method_10469(8485);
+		setWidgetSize(17, 19, 0, 0);
+	}
+	if (cs2method_10551(79822878, arg0) == 1) {
+		setWidgetPosition(5, arg1, 0, 0);
+		cs2method_20745(-1, "");
+	}
+	return;
+}

@@ -1,0 +1,7 @@
+void script_1608() {
+	int ivar0;
+	ivar0 = cs2method_10809(getItemAttribute(getItemIdInContainerSlot(94, 3), 644));
+	cs2method_10535(ivar0, 35979346);
+	cs2method_10569(35979346);
+	return;
+}

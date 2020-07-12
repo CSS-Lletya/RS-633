@@ -1,0 +1,15 @@
+void script_6171(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 0;
+	globalint_1911 = arg0;
+	while (ivar2 < cs2method_10624(5838)) {
+		if (cs2method_10551(arg1, ivar2) == 1 && ivar2 != arg0) {
+			cs2method_10469(10734);
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	if (cs2method_10551(arg1, arg0) == 1) {
+		cs2method_10469(10735);
+	}
+	return;
+}

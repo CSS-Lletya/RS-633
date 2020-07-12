@@ -1,0 +1,47 @@
+void script_5589(int arg0,object arg1,object arg2,object arg3,object arg4,object arg5) {
+	setWidgetIsHidden(false, new WidgetPointer(1188,11));
+	setWidgetIsHidden(false, new WidgetPointer(1188,13));
+	setWidgetIsHidden(false, new WidgetPointer(1188,14));
+	setWidgetIsHidden(false, new WidgetPointer(1188,15));
+	setWidgetIsHidden(false, new WidgetPointer(1188,16));
+	if (arg0 == 2) {
+		setWidgetText(new WidgetPointer(1188,3), arg1);
+		setWidgetText(new WidgetPointer(1188,24), arg2);
+		setWidgetIsHidden(true, new WidgetPointer(1188,14));
+		setWidgetIsHidden(true, new WidgetPointer(1188,15));
+		setWidgetIsHidden(true, new WidgetPointer(1188,16));
+		cs2method_10444(0, 55, 1, 0, 77856779);
+		cs2method_10444(0, 80, 1, 0, 77856781);
+	} else if (arg0 == 3) {
+		setWidgetText(new WidgetPointer(1188,3), arg1);
+		setWidgetText(new WidgetPointer(1188,24), arg2);
+		setWidgetText(new WidgetPointer(1188,29), arg3);
+		setWidgetIsHidden(true, new WidgetPointer(1188,15));
+		setWidgetIsHidden(true, new WidgetPointer(1188,16));
+		cs2method_10444(0, 45, 1, 0, 77856779);
+		cs2method_10444(0, 70, 1, 0, 77856781);
+		cs2method_10444(0, 95, 1, 0, 77856782);
+	} else if (arg0 == 4) {
+		setWidgetText(new WidgetPointer(1188,3), arg1);
+		setWidgetText(new WidgetPointer(1188,24), arg2);
+		setWidgetText(new WidgetPointer(1188,29), arg3);
+		setWidgetText(new WidgetPointer(1188,34), arg4);
+		setWidgetIsHidden(true, new WidgetPointer(1188,16));
+		cs2method_10444(0, 40, 1, 0, 77856779);
+		cs2method_10444(0, 60, 1, 0, 77856781);
+		cs2method_10444(0, 80, 1, 0, 77856782);
+		cs2method_10444(0, 100, 1, 0, 77856783);
+	} else {
+		setWidgetText(new WidgetPointer(1188,3), arg1);
+		setWidgetText(new WidgetPointer(1188,24), arg2);
+		setWidgetText(new WidgetPointer(1188,29), arg3);
+		setWidgetText(new WidgetPointer(1188,34), arg4);
+		setWidgetText(new WidgetPointer(1188,39), arg5);
+		cs2method_10444(0, 33, 1, 0, 77856779);
+		cs2method_10444(0, 52, 1, 0, 77856781);
+		cs2method_10444(0, 71, 1, 0, 77856782);
+		cs2method_10444(0, 90, 1, 0, 77856783);
+		cs2method_10444(0, 109, 1, 0, 77856784);
+	}
+	return;
+}

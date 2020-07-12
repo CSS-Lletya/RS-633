@@ -1,0 +1,21 @@
+void script_1560(int arg0) {
+	flow_0:
+		IF (arg0 == 1) 
+			GOTO	flow_1
+		GOTO	flow_4
+	flow_1:
+		IF (cs2method_10837(49283082) == 1) 
+			GOTO	flow_2
+		IF (cs2method_10837(49283083) == 1 && getDataByKey('i', '1', 370, cs2method_10125(0)) == 1) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_2:
+	flow_3:
+		script_1561();
+	flow_4:
+		script_84();
+		script_89();
+		script_192();
+		script_178();
+		return;
+}

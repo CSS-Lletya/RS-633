@@ -1,0 +1,164 @@
+void script_5355(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	flow_0:
+		ivar2 = 0;
+		ivar3 = 0;
+		ivar4 = 0;
+		ivar5 = 0;
+		ivar6 = 0;
+		ivar7 = 0;
+		ivar8 = 0;
+		ivar9 = 0;
+		ivar10 = 0;
+		ivar11 = -1;
+		ovar0 = (object)getGeneralRequirementAttribute(arg0, 1930);
+		IF (getGeneralRequirementAttribute(arg0, 1937) == 4 && ivar9 < cs2method_10624(5184)) 
+			GOTO	flow_2
+		GOTO	flow_9
+	flow_1:
+	flow_2:
+		IF (ivar10 == 0) 
+			GOTO	flow_3
+		GOTO	flow_9
+	flow_3:
+		if (getDataByKey('i', 'J', 5184, ivar9) == arg0) {
+			if (cs2method_10855() == 1) {
+				ovar0 = (object)getDataByKey('i', 's', 5187, ivar9);
+			} else {
+				ovar0 = (object)getDataByKey('i', 's', 5186, ivar9);
+			}
+			ivar10 = 1;
+		}
+		ivar9 = add(ivar9, 1);
+		GOTO	flow_1
+	flow_9:
+		setWidgetText(new WidgetPointer(1143,45), ovar0);
+		if (arg1 == 1) {
+			setWidgetIsHidden(true, new WidgetPointer(1143,46));
+			setWidgetIsHidden(true, new WidgetPointer(1143,47));
+			setWidgetIsHidden(true, new WidgetPointer(1143,39));
+			cs2method_10444(0, 186, 1, 0, 74907696);
+			cs2method_10444(0, 228, 1, 0, 74907700);
+			setWidgetText(new WidgetPointer(1143,139), (object)"Reclaim");
+			cs2method_10375(1, 74907787, (object)"Reclaim");
+		} else if (getGeneralRequirementAttribute(arg0, 1933) > 0) {
+			setWidgetText(new WidgetPointer(1143,47), cs2method_10445((object)"Item Cost: ", cs2method_10595(getGeneralRequirementAttribute(arg0, 1933), 1)));
+		} else {
+			setWidgetText(new WidgetPointer(1143,47), cs2method_10445((object)"Item Cost: ", cs2method_10595(getGeneralRequirementAttribute(arg0, 1932), 1)));
+		}
+		setWidgetIsHidden(false, new WidgetPointer(1143,46));
+		setWidgetIsHidden(false, new WidgetPointer(1143,47));
+		setWidgetIsHidden(false, new WidgetPointer(1143,39));
+		cs2method_10444(0, 239, 1, 0, 74907696);
+		cs2method_10444(0, 266, 1, 0, 74907700);
+		setWidgetText(new WidgetPointer(1143,139), (object)"Buy");
+		cs2method_10375(1, 74907787, (object)"Buy");
+		setWidgetText(new WidgetPointer(1143,46), cs2method_10445((object)"My Points: ", cs2method_10595(globalint_1648, 1)));
+		setWidgetIsHidden(false, new WidgetPointer(1143,48));
+		setWidgetIsHidden(false, new WidgetPointer(1143,49));
+		if (getGeneralRequirementAttribute(arg0, 1950) != -1) {
+			ivar2 = 5;
+		} else if (getGeneralRequirementAttribute(arg0, 1949) != -1) {
+			ivar2 = 4;
+		} else if (getGeneralRequirementAttribute(arg0, 1948) != -1) {
+			ivar2 = 3;
+		} else if (getGeneralRequirementAttribute(arg0, 1947) != -1) {
+			ivar2 = 2;
+		} else {
+			ivar2 = 1;
+			setWidgetIsHidden(true, new WidgetPointer(1143,48));
+			setWidgetIsHidden(true, new WidgetPointer(1143,49));
+			cs2method_10444(0, 260, 1, 0, 74907700);
+		}
+		ivar6 = 63;
+		ivar7 = 57;
+		ivar5 = divide(subtract(cs2method_10956(74907700), multiply(ivar2, ivar6)), add(ivar2, 1));
+		ivar8 = ivar5;
+		clearExtraChildren(new WidgetPointer(1143,52));
+		clearExtraChildren(new WidgetPointer(1143,40));
+		ivar9 = 0;
+		while (ivar9 < ivar2) {
+			switch (ivar9) {
+				case 0:
+					ivar11 = arg0;
+					break;
+				case 1:
+					ivar11 = getGeneralRequirementAttribute(arg0, 1947);
+					break;
+				case 2:
+					ivar11 = getGeneralRequirementAttribute(arg0, 1948);
+					break;
+				case 3:
+					ivar11 = getGeneralRequirementAttribute(arg0, 1949);
+					break;
+				case 4:
+					ivar11 = getGeneralRequirementAttribute(arg0, 1950);
+			}
+			createChildWidget(74907700, 3, ivar3);
+			ivar3 = add(ivar3, 1);
+			setWidgetRGB(new Color(0, 0, 0));
+			setWidgetSize(ivar6, ivar7, 0, 0);
+			setWidgetPosition(ivar8, 0, 0, 0);
+			cs2method_10305(100);
+			setWidgetFilled(1);
+			if (ivar2 > 1) {
+				createChildWidget(74907688, 4, ivar4);
+				setWidgetSize(ivar6, ivar7, 0, 0);
+				setWidgetPosition(ivar8, 0, 0, 0);
+				setWidgetContextMenuOption(1, (object)"Select");
+				cs2method_20115(5358, ivar4, new WidgetPointer(1143,52), "iI");
+				ivar4 = add(ivar4, 1);
+			}
+			createChildWidget(74907700, 5, ivar3);
+			cs2method_10469(7766);
+			setWidgetSize(ivar6, ivar7, 0, 0);
+			setWidgetPosition(ivar8, 0, 0, 0);
+			if (ivar2 > 1) {
+				cs2method_20211(5356, ivar3, new WidgetPointer(1143,52), ivar11, "iIJ");
+				cs2method_20139(5357, ivar3, new WidgetPointer(1143,52), "iI");
+			}
+			ivar3 = add(ivar3, 1);
+			createChildWidget(74907700, 5, ivar3);
+			ivar3 = add(ivar3, 1);
+			if (getGeneralRequirementAttribute(ivar11, 1937) == 1) {
+				setWidgetSize(36, 32, 0, 0);
+				setWidgetPosition(add(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), 2), add(divide(subtract(ivar7, cs2method_10630()), 2), 1), 0, 0);
+				setItemOnWidget_10672(getGeneralRequirementAttribute(ivar11, 1935), -1);
+			} else if (getGeneralRequirementAttribute(ivar11, 1937) == 9) {
+				setWidgetSize(36, 32, 0, 0);
+				setWidgetPosition(add(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), 2), add(divide(subtract(ivar7, cs2method_10630()), 2), 1), 0, 0);
+				setItemOnWidget_10672(getGeneralRequirementAttribute(ivar11, 1935), -1);
+			} else if (getGeneralRequirementAttribute(ivar11, 1937) == 2) {
+				cs2method_10469(getGeneralRequirementAttribute(ivar11, 1420));
+				setWidgetSize(48, 48, 0, 0);
+				setWidgetPosition(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), divide(subtract(ivar7, cs2method_10630()), 2), 0, 0);
+			} else if (getGeneralRequirementAttribute(ivar11, 1937) == 3) {
+				cs2method_10469(getGeneralRequirementAttribute(ivar11, 1441));
+				setWidgetSize(40, 50, 0, 0);
+				setWidgetPosition(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), divide(subtract(ivar7, cs2method_10630()), 2), 0, 0);
+			} else if (getGeneralRequirementAttribute(ivar11, 1937) == 4) {
+				cs2method_10469(7883);
+				setWidgetSize(42, 42, 0, 0);
+				setWidgetPosition(add(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), 1), add(divide(subtract(ivar7, cs2method_10630()), 2), 1), 0, 0);
+			} else {
+				if (getGeneralRequirementAttribute(ivar11, 1937) == 5) {
+					setWidgetSize(36, 32, 0, 0);
+					setWidgetPosition(add(ivar8, divide(subtract(ivar6, cs2method_10040()), 2)), divide(subtract(ivar7, cs2method_10630()), 2), 0, 0);
+					setItemOnWidget_10672(getGeneralRequirementAttribute(ivar11, 1935), -1);
+				}
+			}
+			ivar8 = add(add(ivar8, ivar6), ivar5);
+			ivar9 = add(ivar9, 1);
+		}
+		return;
+}

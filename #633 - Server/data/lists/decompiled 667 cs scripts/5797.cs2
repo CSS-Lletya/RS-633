@@ -1,0 +1,44 @@
+int script_5797(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10) {
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	ivar11 = 1;
+	ivar12 = arg4;
+	ivar13 = arg4;
+	cs2method_10893(0, ivar12, 1, 0, arg6);
+	if (arg3 == 1) {
+		clearExtraChildren(new WidgetPointer(arg6));
+		if (arg7 != -1) {
+			clearExtraChildren(new WidgetPointer(arg7));
+		}
+		clearExtraChildren(new WidgetPointer(arg8));
+		setWidgetScrollMax(0, 0, arg9);
+		cs2method_10893(0, 0, 1, 1, arg6);
+		cs2method_10893(17, 0, 1, 1, arg9);
+	}
+	while (ivar11 < add(arg2, 1)) {
+		ivar13 = script_5798(arg0, arg1, ivar11, ivar12, arg6, arg7, arg10, (object)"");
+		if (ivar12 == ivar13) {
+			ivar11 = add(arg2, 1);
+		} else {
+			ivar11 = add(ivar11, 1);
+		}
+		ivar12 = ivar13;
+	}
+	cs2method_10893(cs2method_10956(arg6), ivar12, 0, 0, arg6);
+	if (arg7 != -1) {
+		cs2method_10893(cs2method_10956(arg7), ivar12, 0, 0, arg7);
+	}
+	if (ivar12 < arg5) {
+		setWidgetIsHidden(true, new WidgetPointer(arg8));
+		cs2method_10893(3, 0, 1, 1, arg9);
+	} else {
+		ivar12 = add(ivar12, 5);
+		setWidgetScrollMax(0, cs2method_10004(ivar12, cs2method_10090(arg9)), arg9);
+		cs2method_10893(add(cs2method_10956(arg8), 2), 0, 1, 1, arg9);
+		setWidgetIsHidden(false, new WidgetPointer(arg8));
+		script_31(arg8, arg9, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	globalint_1772 = ivar13;
+	return ivar13;
+}

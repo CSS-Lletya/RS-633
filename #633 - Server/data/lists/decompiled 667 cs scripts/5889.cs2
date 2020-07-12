@@ -1,0 +1,48 @@
+void script_5889(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = -1;
+	ivar6 = -1;
+	while (ivar1 < 13) {
+		ivar6 = script_5939(ivar1);
+		ivar2 = script_5933(ivar1);
+		switch (ivar6) {
+			case 0:
+				ivar3 = 9873;
+				ivar4 = 9874;
+				ivar5 = 9875;
+				break;
+			case 1:
+				ivar3 = 9876;
+				ivar4 = 9877;
+				ivar5 = 9878;
+				break;
+			case 2:
+				ivar3 = 9879;
+				ivar4 = 9880;
+				ivar5 = 9881;
+				break;
+			case 3:
+				ivar3 = 9882;
+				ivar4 = 9883;
+				ivar5 = 9884;
+		}
+		if (arg0 == 0) {
+			cs2method_10467(ivar3, ivar2);
+		} else if (arg0 == 1) {
+			cs2method_10467(ivar4, ivar2);
+		} else {
+			cs2method_10467(ivar5, ivar2);
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

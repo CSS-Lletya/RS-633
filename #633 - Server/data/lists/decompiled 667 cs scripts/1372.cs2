@@ -1,0 +1,5 @@
+void script_1372() {
+	cs2method_10805(globalint_172);
+	setWidgetText(new WidgetPointer(755,14), (object)(toString(globalint_172) + "%"));
+	return;
+}

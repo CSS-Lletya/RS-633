@@ -1,0 +1,10 @@
+void script_463(int arg0) {
+	if (cs2method_10453(3) < 25) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=c80000>" + "A Constitution level of " + toString(25) + " is required." + "</col>"));
+	} else if (bitconfig_2086 < 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=c80000>" + "1 Commendation required." + "</col>"));
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)(toString(multiply(divide(cs2method_10206(cs2method_10453(3), 2), 600), 35)) + " XP per Commendation."));
+	}
+	return;
+}

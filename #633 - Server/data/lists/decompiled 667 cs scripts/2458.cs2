@@ -1,0 +1,74 @@
+int script_2458(int arg0) {
+	if (cs2method_10842() >= 2) {
+		switch (arg0) {
+			case 0:
+				return 48889929;
+			case 1:
+				return 48889930;
+			case 2:
+				return 48889931;
+			case 3:
+				return 48889932;
+			case 4:
+				return 48889933;
+			case 5:
+				return 48889934;
+			case 6:
+				return 48889935;
+			case 7:
+				return 48889936;
+			case 8:
+				return 48889937;
+			case 9:
+				return 48889938;
+			case 10:
+				return 48889939;
+			case 11:
+				return 48889940;
+			case 12:
+				return 48889941;
+			case 13:
+				return 48889942;
+			case 14:
+				return 48889943;
+			case 15:
+				return 48889944;
+		}
+	} else {
+		switch (arg0) {
+			case 0:
+				return 35913842;
+			case 1:
+				return 35913843;
+			case 2:
+				return 35913844;
+			case 3:
+				return 35913845;
+			case 4:
+				return 35913846;
+			case 5:
+				return 35913847;
+			case 6:
+				return 35913848;
+			case 7:
+				return 35913849;
+			case 8:
+				return 35913813;
+			case 9:
+				return 35913814;
+			case 10:
+				return 35913815;
+			case 11:
+				return 35913816;
+			case 12:
+				return 35913817;
+			case 13:
+				return 35913818;
+			case 14:
+				return 35913819;
+			case 15:
+				return 35913820;
+		}
+	}
+	return -1;
+}

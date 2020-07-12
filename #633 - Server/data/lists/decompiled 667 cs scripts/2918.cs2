@@ -1,0 +1,24 @@
+void script_2918(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 0;
+	ivar2 = 33;
+	if (arg0 == 0) {
+		return;
+	}
+	ivar2 = 30;
+	if (cs2method_10090(57802756) < add(cs2method_10090(57802774), 146)) {
+		cs2method_10444(0, 0, 1, 1, 57802760);
+		cs2method_10444(0, add(cs2method_10826(57802760), ivar2), 1, 0, 57802774);
+		setWidgetIsHidden(true, new WidgetPointer(744,23));
+	} else {
+		ivar1 = add(cs2method_10826(48758807), cs2method_10090(48758807));
+		cs2method_10444(0, 0, 1, 1, 57802760);
+		if (subtract(cs2method_10826(57802760), 2) < ivar1) {
+			cs2method_10444(0, add(ivar1, 2), 1, 0, 57802760);
+		}
+		cs2method_10444(0, add(cs2method_10826(57802760), ivar2), 1, 0, 57802774);
+		setWidgetIsHidden(false, new WidgetPointer(744,23));
+	}
+	return;
+}

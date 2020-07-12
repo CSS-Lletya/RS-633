@@ -1,0 +1,279 @@
+void script_1439(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	globalint_656 = cs2method_10586(globalint_656, subtract(globalint_657, 1));
+	ivar3 = 0;
+	if (globalint_658 > 0 || globalint_659 > 0 || globalint_660 > 0 || globalint_661 > 0 || globalint_662 > 0 || globalint_663 > 0 || globalint_664 > 0 || globalint_665 > 0 || globalint_666 > 0 || globalint_667 > 0 || globalint_668 > 0 || globalint_669 > 0 || globalint_670 > 0 || globalint_658 > 13 || globalint_672 > 0 || globalint_673 > 0) {
+		ivar3 = 1;
+	}
+	if (ivar3 == 0 || globalint_656 > 0) {
+		createChildWidget(arg2, 4, cs2method_10860(arg2));
+		setWidgetSize(2, 14, 1, 0);
+		setWidgetPosition(0, 0, 1, 2);
+		setWidgetTextAlignment(1, 1, 0);
+		setWidgetFont(494);
+		setWidgetRGB(new Color(255, 152, 31));
+		if (ivar3 == 0) {
+			setWidgetText((object)(toString(add(globalint_656, 1)) + " / " + toString(globalint_657)));
+		} else {
+			setWidgetText((object)(toString(globalint_656) + " / " + toString(subtract(globalint_657, 1))));
+		}
+	}
+	if (globalint_656 > 0) {
+		createChildWidget(arg2, 4, cs2method_10860(arg2));
+		setWidgetSize(2, 17, 1, 1);
+		setWidgetPosition(0, 1, 1, 0);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetFont(495);
+		setWidgetRGB(new Color(255, 152, 31));
+		switch (globalint_656) {
+			case 1:
+				setWidgetText((object)globalstring_73);
+				break;
+			case 2:
+				setWidgetText((object)globalstring_74);
+				break;
+			case 3:
+				setWidgetText((object)globalstring_75);
+				break;
+			case 4:
+				setWidgetText((object)globalstring_76);
+				break;
+			case 5:
+				setWidgetText((object)globalstring_77);
+				break;
+			case 6:
+				setWidgetText((object)globalstring_78);
+				break;
+			case 7:
+				setWidgetText((object)globalstring_79);
+				break;
+			case 8:
+				setWidgetText((object)globalstring_80);
+				break;
+			case 9:
+				setWidgetText((object)globalstring_81);
+				break;
+			case 10:
+				setWidgetText((object)globalstring_82);
+				break;
+			case 11:
+				setWidgetText((object)globalstring_83);
+				break;
+			case 12:
+				setWidgetText((object)globalstring_84);
+				break;
+			case 13:
+				setWidgetText((object)globalstring_85);
+				break;
+			case 14:
+				setWidgetText((object)globalstring_86);
+				break;
+			case 15:
+				setWidgetText((object)globalstring_87);
+				break;
+			case 16:
+				setWidgetText((object)globalstring_88);
+				break;
+			case 17:
+				setWidgetText((object)globalstring_89);
+				break;
+			case 18:
+				setWidgetText((object)globalstring_90);
+				break;
+			case 19:
+				setWidgetText((object)globalstring_91);
+				break;
+			case 20:
+				setWidgetText((object)globalstring_92);
+				break;
+			case 21:
+				setWidgetText((object)globalstring_93);
+				break;
+			case 22:
+				setWidgetText((object)globalstring_94);
+				break;
+			case 23:
+				setWidgetText((object)globalstring_95);
+				break;
+			case 24:
+				setWidgetText((object)globalstring_96);
+				break;
+			case 25:
+				setWidgetText((object)globalstring_97);
+				break;
+			case 26:
+				setWidgetText((object)globalstring_98);
+				break;
+			case 27:
+				setWidgetText((object)globalstring_99);
+				break;
+			case 28:
+				setWidgetText((object)globalstring_100);
+				break;
+			case 29:
+				setWidgetText((object)globalstring_101);
+				break;
+			case 30:
+				setWidgetText((object)globalstring_102);
+				break;
+			case 31:
+				setWidgetText((object)globalstring_103);
+				break;
+			case 32:
+				setWidgetText((object)globalstring_104);
+				break;
+			case 33:
+				setWidgetText((object)globalstring_105);
+				break;
+			case 34:
+				setWidgetText((object)globalstring_106);
+				break;
+			case 35:
+				setWidgetText((object)globalstring_107);
+				break;
+			case 36:
+				setWidgetText((object)globalstring_108);
+				break;
+			case 37:
+				setWidgetText((object)globalstring_109);
+				break;
+			case 38:
+				setWidgetText((object)globalstring_110);
+				break;
+			case 39:
+				setWidgetText((object)globalstring_111);
+				break;
+			case 40:
+				setWidgetText((object)globalstring_112);
+				break;
+			case 41:
+				setWidgetText((object)globalstring_113);
+				break;
+			case 42:
+				setWidgetText((object)globalstring_114);
+				break;
+			case 43:
+				setWidgetText((object)globalstring_115);
+				break;
+			case 44:
+				setWidgetText((object)globalstring_116);
+				break;
+			case 45:
+				setWidgetText((object)globalstring_117);
+				break;
+			case 46:
+				setWidgetText((object)globalstring_118);
+				break;
+			case 47:
+				setWidgetText((object)globalstring_119);
+				break;
+			case 48:
+				setWidgetText((object)globalstring_120);
+				break;
+			case 49:
+				setWidgetText((object)globalstring_121);
+		}
+		return;
+	}
+	ivar4 = 0;
+	ovar0 = (object)"";
+	ivar5 = 0;
+	while (ivar4 < 16) {
+		switch (ivar4) {
+			case 0:
+				ovar0 = (object)globalstring_57;
+				ivar5 = globalint_658;
+				break;
+			case 1:
+				ovar0 = (object)globalstring_58;
+				ivar5 = globalint_659;
+				break;
+			case 2:
+				ovar0 = (object)globalstring_59;
+				ivar5 = globalint_660;
+				break;
+			case 3:
+				ovar0 = (object)globalstring_60;
+				ivar5 = globalint_661;
+				break;
+			case 4:
+				ovar0 = (object)globalstring_61;
+				ivar5 = globalint_662;
+				break;
+			case 5:
+				ovar0 = (object)globalstring_62;
+				ivar5 = globalint_663;
+				break;
+			case 6:
+				ovar0 = (object)globalstring_63;
+				ivar5 = globalint_664;
+				break;
+			case 7:
+				ovar0 = (object)globalstring_64;
+				ivar5 = globalint_665;
+				break;
+			case 8:
+				ovar0 = (object)globalstring_65;
+				ivar5 = globalint_666;
+				break;
+			case 9:
+				ovar0 = (object)globalstring_66;
+				ivar5 = globalint_667;
+				break;
+			case 10:
+				ovar0 = (object)globalstring_67;
+				ivar5 = globalint_668;
+				break;
+			case 11:
+				ovar0 = (object)globalstring_68;
+				ivar5 = globalint_669;
+				break;
+			case 12:
+				ovar0 = (object)globalstring_69;
+				ivar5 = globalint_670;
+				break;
+			case 13:
+				ovar0 = (object)globalstring_70;
+				ivar5 = globalint_671;
+				break;
+			case 14:
+				ovar0 = (object)globalstring_71;
+				ivar5 = globalint_672;
+				break;
+			case 15:
+				ovar0 = (object)globalstring_72;
+				ivar5 = globalint_673;
+				break;
+			default:
+				ovar0 = (object)"";
+				ivar5 = 0;
+		}
+		if (cs2method_10366(ovar0) > 0) {
+			createChildWidget(arg2, 4, cs2method_10860(arg2));
+			if (ivar4 == subtract(16, 1)) {
+				setWidgetSize(6, 17, 1, 0);
+			} else {
+				setWidgetSize(2, 12, 1, 0);
+			}
+			setWidgetPosition(0, add(multiply(ivar4, 12), 1), 1, 0);
+			setWidgetTextAlignment(0, 0, 0);
+			setWidgetFont(495);
+			setWidgetRGB(new Color(255, 152, 31));
+			setWidgetText(ovar0);
+			if (ivar5 > 0) {
+				setWidgetContextMenuOption(1, (object)"Go");
+				cs2method_20115(2065, -2147483644, ivar5, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), "iiIII");
+				cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+				cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 16750623, "Iii");
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	return;
+}

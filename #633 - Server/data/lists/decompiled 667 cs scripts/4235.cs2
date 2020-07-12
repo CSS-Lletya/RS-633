@@ -1,0 +1,7 @@
+void script_4235() {
+	if (globalint_1494 > 100) {
+		globalint_1494 = 100;
+	}
+	cs2method_10893(cs2method_10542(globalint_1494, 100, 16384), 16384, 2, 2, 31522831);
+	return;
+}

@@ -1,0 +1,12 @@
+void script_6231() {
+	if (standart_config_2611 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(906,30));
+		setWidgetIsHidden(true, new WidgetPointer(906,33));
+		standart_config_2522 = 1;
+		script_196();
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(906,33));
+		script_3062(59375616);
+	}
+	return;
+}

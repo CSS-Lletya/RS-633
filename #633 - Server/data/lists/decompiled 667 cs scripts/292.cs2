@@ -1,0 +1,11 @@
+int script_292(int arg0,int arg1,int arg2,int arg3) {
+	if (arg0 == -1) {
+		arg0 = 280;
+	}
+	createChildWidget(arg1, 5, cs2method_10860(arg1));
+	setWidgetPosition(arg3, arg2, 2, 0);
+	setWidgetSize(20, 20, 0, 0);
+	cs2method_10470(0);
+	cs2method_10469(getGeneralRequirementAttribute(arg0, 130));
+	return add(arg3, 10);
+}

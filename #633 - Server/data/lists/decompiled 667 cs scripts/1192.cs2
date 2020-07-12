@@ -1,0 +1,7 @@
+void script_1192(int arg0,int arg1) {
+	cs2method_10893(add(cs2method_10242(512, 495, cs2method_10100(arg1)), 34), cs2method_10090(arg0), 0, 0, arg0);
+	cs2method_20914(1193, 1, 1002, 1, "1Y", new WidgetPointer(arg0));
+	cs2method_20219(1193, 0, "1", new WidgetPointer(arg0));
+	script_1194();
+	return;
+}

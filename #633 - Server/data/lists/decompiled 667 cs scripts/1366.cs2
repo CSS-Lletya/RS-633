@@ -1,0 +1,17 @@
+void script_1366(int arg0,int arg1) {
+	if (standart_config_380 == 25) {
+		setWidgetText(new WidgetPointer(arg0), (object)"Time until next game starts: 0");
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	} else if (standart_config_380 > 0) {
+		setWidgetText(new WidgetPointer(arg0), (object)("Time until next game starts: " + toString(standart_config_380)));
+		if (standart_config_380 <= 15 && standart_config_380 >= 6) {
+			setWidgetIsHidden(false, new WidgetPointer(arg1));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(arg1));
+		}
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)"Waiting for players to join the other team.");
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	}
+	return;
+}

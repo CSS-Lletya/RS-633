@@ -1,0 +1,23 @@
+void script_5207(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar3 = 0;
+	ivar4 = 5526;
+	ivar5 = 5523;
+	while (ivar3 < cs2method_10860(arg0)) {
+		if (cs2method_10551(arg0, ivar3) == 1 && cs2method_10119() == ivar4) {
+			cs2method_10865();
+			cs2method_10469(ivar5);
+		}
+		ivar3 = add(ivar3, 1);
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10865();
+		cs2method_10469(ivar4);
+	}
+	globalint_1601 = arg2;
+	script_5202(0);
+	script_5204();
+	return;
+}

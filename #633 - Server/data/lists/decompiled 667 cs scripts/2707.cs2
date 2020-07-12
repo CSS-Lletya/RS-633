@@ -1,0 +1,67 @@
+void script_2707(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,object arg7) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	if (arg0 == -1 || arg2 == -1 || compareTo(arg7, (object)"") == 0) {
+		return;
+	}
+	if (globalint_1 < add(cs2method_10878(), arg3)) {
+		if (globalint_1 < cs2method_10878()) {
+			globalint_1 = cs2method_10878();
+		}
+		globalint_1 = add(globalint_1, 2);
+		return;
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		arg5 = add(arg5, script_1743());
+		arg6 = add(arg6, script_1744());
+	}
+	globalint_1 = add(add(cs2method_10878(), arg3), 10);
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = -1;
+	if (globalint_2 != 1) {
+		ivar9 = cs2method_10740(arg2);
+		if (ivar9 != -1 && arg4 >= cs2method_10956(ivar9)) {
+			arg4 = cs2method_10956(ivar9);
+		}
+		ivar7 = add(6, cs2method_10242(subtract(arg4, 6), 495, arg7));
+		ivar8 = add(6, multiply(16, getLineCount(subtract(arg4, 6), 495, arg7)));
+		cs2method_10893(ivar7, ivar8, 0, 0, arg2);
+		arg5 = subtract(subtract(arg5, 5), ivar7);
+		arg6 = subtract(subtract(arg6, 3), ivar8);
+		if (ivar9 != -1) {
+			if (add(arg5, ivar7) > cs2method_10956(ivar9)) {
+				arg5 = subtract(cs2method_10956(ivar9), ivar7);
+			}
+			if (add(arg6, ivar8) > cs2method_10090(ivar9)) {
+				arg6 = subtract(cs2method_10090(ivar9), ivar8);
+			}
+		}
+		if (arg5 < 0) {
+			arg5 = 0;
+		}
+		if (arg6 < 0) {
+			arg6 = 0;
+		}
+		cs2method_10444(arg5, arg6, 0, 0, arg2);
+		clearExtraChildren(new WidgetPointer(arg2));
+		createChildWidget(arg2, 3, 0);
+		setWidgetSize(ivar7, ivar8, 0, 0);
+		setWidgetFilled(1);
+		setWidgetRGB(new Color(14, 14, 14));
+		createChildWidget(arg2, 3, 1);
+		setWidgetSize(ivar7, ivar8, 0, 0);
+		setWidgetFilled(0);
+		setWidgetRGB(new Color(235, 236, 230));
+		createChildWidget(arg2, 4, 2);
+		setWidgetSize(subtract(arg4, 6), ivar8, 0, 0);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetText(arg7);
+		setWidgetTextAlignment(1, 1, 16);
+		setWidgetFont(495);
+		setWidgetRGB(new Color(245, 178, 65));
+		globalint_2 = 1;
+	}
+	return;
+}

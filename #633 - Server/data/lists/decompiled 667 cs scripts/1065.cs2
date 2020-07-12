@@ -1,0 +1,25 @@
+void script_1065(int arg0,int arg1) {
+	if (cs2method_10774(arg0) > arg1) {
+		setWidgetScrollMax(subtract(cs2method_10916(arg0), 10), 0, arg0);
+		cs2method_10085(subtract(cs2method_10774(arg0), 10), 0, arg0);
+		if (cs2method_10774(arg0) < arg1) {
+			setWidgetScrollMax(add(arg1, cs2method_10956(arg0)), 0, arg0);
+			cs2method_10085(arg1, 0, arg0);
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			return;
+		}
+	} else if (cs2method_10774(arg0) < arg1) {
+		setWidgetScrollMax(add(cs2method_10916(arg0), 10), 0, arg0);
+		cs2method_10085(add(cs2method_10774(arg0), 10), 0, arg0);
+		if (cs2method_10774(arg0) > arg1) {
+			setWidgetScrollMax(add(arg1, cs2method_10956(arg0)), 0, arg0);
+			cs2method_10085(arg1, 0, arg0);
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			return;
+		}
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	return;
+}

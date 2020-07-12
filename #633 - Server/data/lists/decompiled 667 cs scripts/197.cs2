@@ -1,0 +1,19 @@
+void script_197(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	opc_struct10644(0,2,0) structdump_1;
+	ivar2 = subtract(arg1, 1);
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	stack_dump0 = arg0;
+	structdump_1 = cs2method_10644(stack_dump0);
+	ovar1 = structdump_1.objectpart_1;
+	ovar0 = structdump_1.objectpart_0;
+	cs2method_10873(ivar2, ovar0);
+	if (cs2method_10551(72613910, add(multiply(arg0, 2), 1)) == 1) {
+		setWidgetText((object)getDataByKey('i', 's', 5853, ivar2));
+	}
+	return;
+}

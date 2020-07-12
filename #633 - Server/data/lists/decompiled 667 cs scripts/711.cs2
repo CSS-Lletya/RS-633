@@ -1,0 +1,160 @@
+void script_711() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	object ovar0;
+	object ovar1;
+	cs2method_20000(2023, -2147483644, 1, "ii", new WidgetPointer(916,24));
+	cs2method_20000(2023, -2147483644, -1, "ii", new WidgetPointer(916,25));
+	script_2020(1, 41, 60030986, (object)"1");
+	script_2020(5, 41, 60030987, (object)"5");
+	script_2020(10, 41, 60030988, (object)"10");
+	ivar0 = cs2method_10956(60030990);
+	ivar1 = cs2method_10956(59310083);
+	ivar2 = subtract(subtract(ivar1, ivar0), add(multiply(41, 3), multiply(5, 2)));
+	ivar3 = 0;
+	ivar4 = 0;
+	ovar0 = (object)"All";
+	ovar1 = (object)"Custom";
+	if (script_1103() == 1) {
+		ivar3 = add(cs2method_10004(cs2method_10355(494, ovar0), cs2method_10355(494, ovar1)), 20);
+		script_2020(bitconfig_8094, ivar3, 60030989, ovar0);
+		script_2020(-1, ivar3, 59310086, ovar1);
+		ivar2 = subtract(ivar2, add(multiply(ivar3, 2), 5));
+		ivar4 = cs2method_10542(2, 5, ivar2);
+		cs2method_10444(ivar4, 0, 0, 1, 60030989);
+		ivar4 = add(add(ivar4, ivar3), 5);
+		cs2method_10444(ivar4, 0, 0, 1, 59310086);
+		ivar4 = add(ivar4, ivar3);
+		ivar4 = add(ivar4, divide(ivar2, 5));
+		cs2method_10444(ivar4, 0, 0, 1, 60030986);
+		ivar4 = add(add(ivar4, 41), 5);
+		cs2method_10444(ivar4, 0, 0, 1, 60030987);
+		ivar4 = add(add(ivar4, 41), 5);
+		cs2method_10444(ivar4, 0, 0, 1, 60030988);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(916,13));
+		setWidgetIsHidden(true, new WidgetPointer(905,6));
+		ivar4 = divide(ivar2, 2);
+		cs2method_10444(ivar4, 0, 0, 1, 60030986);
+		ivar4 = add(add(ivar4, 41), 5);
+		cs2method_10444(ivar4, 0, 0, 1, 60030987);
+		ivar4 = add(add(ivar4, 41), 5);
+		cs2method_10444(ivar4, 0, 0, 1, 60030988);
+	}
+	cs2method_10444(subtract(ivar0, 5), 0, 2, 1, 60030983);
+	cs2method_10444(ivar0, 0, 2, 1, 59310085);
+	ivar5 = subtract(ivar1, ivar0);
+	if (globalint_92 == 1) {
+		cs2method_10893(add(ivar5, 5), 0, 0, 1, 60030983);
+		cs2method_10893(ivar5, 0, 0, 1, 59310085);
+		script_2192(0, ivar5);
+	} else {
+		cs2method_10893(5, 0, 0, 1, 60030983);
+		cs2method_10893(0, 0, 0, 1, 59310085);
+		script_2192(1, ivar5);
+	}
+	cs2method_10893(add(multiply(cs2method_10111(60030982), 2), ivar0), 0, 1, 1, 60030982);
+	ovar1 = (object)"Show/Hide additional number buttons";
+	ivar6 = 3883;
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(905,29), (string)ovar1, 25, 519, "IiIsii", new WidgetPointer(916,26));
+	cs2method_20295(299, new WidgetPointer(905,29), new WidgetPointer(916,27), ivar6, "IId", new WidgetPointer(916,26));
+	ivar2 = divide(subtract(70, 56), 2);
+	ivar3 = 0;
+	if (globalint_755 != -1) {
+		ivar3 = cs2method_10242(2147483647, 494, (object)globalstring_132);
+	}
+	if (globalint_756 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_133), ivar3);
+	}
+	if (globalint_757 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_134), ivar3);
+	}
+	if (globalint_758 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_135), ivar3);
+	}
+	if (globalint_759 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_136), ivar3);
+	}
+	if (globalint_760 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_137), ivar3);
+	}
+	if (globalint_1139 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_280), ivar3);
+	}
+	if (globalint_1140 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_281), ivar3);
+	}
+	if (globalint_1141 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_282), ivar3);
+	}
+	if (globalint_1142 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_283), ivar3);
+	}
+	if (globalint_120 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_275), ivar3);
+	}
+	if (globalint_185 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_316), ivar3);
+	}
+	if (globalint_87 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_317), ivar3);
+	}
+	if (globalint_90 != -1) {
+		ivar3 = cs2method_10004(cs2method_10242(2147483647, 494, (object)globalstring_318), ivar3);
+	}
+	ivar3 = add(ivar3, 4);
+	ivar3 = cs2method_10004(add(ivar3, multiply(4, 2)), 56);
+	ivar4 = script_1883(ivar2, ivar3, ivar2, globalint_755, 59310094, (object)globalstring_132);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_756, 59310095, (object)globalstring_133);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_757, 59310096, (object)globalstring_134);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_758, 59310097, (object)globalstring_135);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_759, 59310098, (object)globalstring_136);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_760, 59310099, (object)globalstring_137);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_1139, 59310100, (object)globalstring_280);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_1140, 59310106, (object)globalstring_281);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_1141, 59310101, (object)globalstring_282);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_1142, 59310102, (object)globalstring_283);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_120, 59310103, (object)globalstring_275);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_185, 59310104, (object)globalstring_316);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_87, 59310105, (object)globalstring_317);
+	ivar4 = script_1883(ivar4, ivar3, ivar2, globalint_90, 59310107, (object)globalstring_318);
+	script_2047();
+	ivar3 = subtract(cs2method_10956(59310087), 50);
+	ivar7 = 3877;
+	ivar6 = 3879;
+	ivar8 = 3878;
+	ivar9 = 3880;
+	if (ivar4 > ivar3) {
+		cs2method_10893(ivar3, 0, 0, 1, 59310093);
+		setWidgetScrollMax(ivar4, 0, 59310093);
+		cs2method_10085(globalint_93, 0, 59310093);
+		cs2method_20835(2369, new WidgetPointer(-32768,3), ivar8, -4, "Idi", new WidgetPointer(905,11));
+		cs2method_20835(2369, new WidgetPointer(-32768,3), ivar9, 4, "Idi", new WidgetPointer(905,12));
+		cs2method_20238(2369, new WidgetPointer(-32768,3), ivar8, -6, "Idi", new WidgetPointer(905,11));
+		cs2method_20238(2369, new WidgetPointer(-32768,3), ivar9, 6, "Idi", new WidgetPointer(905,12));
+		cs2method_20295(44, new WidgetPointer(-32768,3), ivar7, "Id", new WidgetPointer(905,11));
+		cs2method_20295(44, new WidgetPointer(-32768,3), ivar6, "Id", new WidgetPointer(905,12));
+		script_2370();
+	} else {
+		cs2method_10893(ivar4, 0, 0, 1, 59310093);
+		setWidgetScrollMax(0, 0, 59310093);
+		cs2method_10085(0, 0, 59310093);
+		cs2method_10773(59310091);
+		cs2method_10773(59310092);
+		cs2method_10149(150, 59310091);
+		cs2method_10149(150, 59310092);
+	}
+	cs2method_10467(ivar7, 59310091);
+	cs2method_10467(ivar6, 59310092);
+	cs2method_20914(711, 754, 1, "Y", new WidgetPointer(905,2));
+	cs2method_20889(2025, 1363, 1, "Y", new WidgetPointer(905,2));
+	return;
+}

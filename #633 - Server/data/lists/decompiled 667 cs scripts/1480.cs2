@@ -1,0 +1,8 @@
+void script_1480(int arg0,int arg1) {
+	if (globalint_188 == 0) {
+		script_41(49938531);
+		return;
+	}
+	script_569(arg0, arg1, 49938531, 25, 150, (object)("Item is in tab " + toString(script_1468(arg1))));
+	return;
+}

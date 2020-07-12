@@ -1,0 +1,50 @@
+void script_161(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6,object arg7,object arg8,object arg9,object arg10,object arg11,object arg12,object arg13,object arg14) {
+	if (cs2method_10551(arg2, arg3) == 1) {
+		if (cs2method_10234(arg0, arg1) != -1) {
+			setItemOnWidget_10672(cs2method_10234(arg0, arg1), cs2method_10925(arg0, arg1));
+			cs2method_11002(getItemName(cs2method_10234(arg0, arg1)));
+			setWidgetContextMenuOption(1, arg6);
+			setWidgetContextMenuOption(2, arg7);
+			setWidgetContextMenuOption(3, arg8);
+			setWidgetContextMenuOption(4, arg9);
+			setWidgetContextMenuOption(5, arg10);
+			setWidgetContextMenuOption(6, arg11);
+			setWidgetContextMenuOption(7, arg12);
+			setWidgetContextMenuOption(8, arg13);
+			setWidgetContextMenuOption(9, arg14);
+			setWidgetContextMenuOption(10, (object)("Examine" + "<col=ff9040>"));
+			if (arg4 > 0) {
+				cs2method_10979(5);
+				cs2method_10337(10);
+			}
+			if (arg4 == 1) {
+				cs2method_20191(155, arg0, -2147483643, -2147483641, new WidgetPointer(-32768,3), arg4, new WidgetPointer(arg5), (string)arg6, (string)arg7, (string)arg8, (string)arg9, (string)arg10, (string)arg11, (string)arg12, (string)arg13, (string)arg14, "viiIiIsssssssss");
+			} else {
+				if (arg4 == 2) {
+					cs2method_20191(156, arg0, -2147483643, -2147483641, new WidgetPointer(-32768,3), arg4, new WidgetPointer(arg5), (string)arg6, (string)arg7, (string)arg8, (string)arg9, (string)arg10, (string)arg11, (string)arg12, (string)arg13, (string)arg14, "viiIiIsssssssss");
+				}
+			}
+			cs2method_10167(3355443);
+			cs2method_10253(1);
+		} else {
+			setItemOnWidget_10672(-1, 0);
+			cs2method_11002((object)"");
+			setWidgetContextMenuOption(1, (object)"");
+			setWidgetContextMenuOption(2, (object)"");
+			setWidgetContextMenuOption(3, (object)"");
+			setWidgetContextMenuOption(4, (object)"");
+			setWidgetContextMenuOption(5, (object)"");
+			setWidgetContextMenuOption(6, (object)"");
+			setWidgetContextMenuOption(7, (object)"");
+			setWidgetContextMenuOption(8, (object)"");
+			setWidgetContextMenuOption(9, (object)"");
+			setWidgetContextMenuOption(10, (object)"");
+			if (arg4 > 0) {
+				cs2method_10979(0);
+				cs2method_10337(0);
+			}
+			cs2method_20191(-1, "");
+		}
+	}
+	return;
+}

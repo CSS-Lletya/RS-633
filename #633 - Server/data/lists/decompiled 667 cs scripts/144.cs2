@@ -1,0 +1,19 @@
+void script_144(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (cs2method_10878() >= arg3) {
+			cs2method_10714();
+			return;
+		}
+		if (cs2method_10620(cs2method_10878(), 40) < 20) {
+			ivar4 = subtract(cs2method_10878(), arg2);
+			ivar4 = multiply(ivar4, 255);
+			ivar4 = divide(ivar4, subtract(arg3, arg2));
+			cs2method_10305(ivar4);
+		} else {
+			cs2method_10305(255);
+		}
+	}
+	return;
+}

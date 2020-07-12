@@ -1,0 +1,91 @@
+void script_2610(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (bitconfig_6357 == 2) {
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		if (bitconfig_6372 == 15) {
+			if (bitconfig_6373 > 0) {
+				ovar0 = (object)("Collected " + toString(bitconfig_6373) + " out of 4 rocks");
+				cs2method_10467(1985, 2424868);
+			} else {
+				ovar0 = (object)"Send a squad to collect rocks";
+				cs2method_10467(1990, 2424868);
+			}
+			cs2method_20835(38, new WidgetPointer(37,0), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,0));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,0));
+			if (bitconfig_6373 > 1) {
+				ovar0 = (object)("Collected " + toString(bitconfig_6373) + " out of 4 rocks");
+				cs2method_10467(1985, 2424871);
+			} else {
+				ovar0 = (object)"Send a squad to collect rocks.";
+				cs2method_10467(1990, 2424871);
+			}
+			cs2method_20835(38, new WidgetPointer(37,3), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,3));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,3));
+			if (bitconfig_6373 > 2) {
+				ovar0 = (object)("Collected " + toString(bitconfig_6373) + " out of 4 rocks");
+				cs2method_10467(1985, 2424870);
+			} else {
+				ovar0 = (object)"Send a squad to collect rocks.";
+				cs2method_10467(1990, 2424870);
+			}
+			cs2method_20835(38, new WidgetPointer(37,4), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,4));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,4));
+			if (bitconfig_6373 > 3) {
+				ovar0 = (object)("Collected " + toString(bitconfig_6373) + " out of 4 rocks");
+				cs2method_10467(1985, 2424869);
+			} else {
+				ovar0 = (object)"Send a squad to collect rocks.";
+				cs2method_10467(1990, 2424869);
+			}
+			cs2method_20835(38, new WidgetPointer(37,5), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,5));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,5));
+		} else {
+			if (bitconfig_6368 > 0) {
+				ovar0 = (object)"Collected wheels";
+				cs2method_10467(1981, 2424868);
+			} else {
+				ovar0 = (object)"Send a squad to collect wheels.";
+				cs2method_10467(1986, 2424868);
+			}
+			cs2method_20835(38, new WidgetPointer(37,0), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,0));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,0));
+			if (bitconfig_6370 > 0) {
+				ovar0 = (object)"Collected logs";
+				cs2method_10467(1982, 2424871);
+			} else {
+				ovar0 = (object)"Send a squad to collect logs.";
+				cs2method_10467(1987, 2424871);
+			}
+			cs2method_20835(38, new WidgetPointer(37,3), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,3));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,3));
+			if (bitconfig_6371 > 0) {
+				ovar0 = (object)"Collected rope";
+				cs2method_10467(1983, 2424870);
+			} else {
+				ovar0 = (object)"Send a squad to collect rope.";
+				cs2method_10467(1988, 2424870);
+			}
+			cs2method_20835(38, new WidgetPointer(37,4), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,4));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,4));
+			if (bitconfig_6369 > 0) {
+				ovar0 = (object)"Collected metal limbs";
+				cs2method_10467(1984, 2424869);
+			} else {
+				ovar0 = (object)"Send a squad to collect metal limbs.";
+				cs2method_10467(1989, 2424869);
+			}
+			cs2method_20835(38, new WidgetPointer(37,5), new WidgetPointer(37,41), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(37,5));
+			cs2method_20295(40, new WidgetPointer(37,41), "I", new WidgetPointer(37,5));
+		}
+	} else if (bitconfig_6357 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	} else if (bitconfig_6357 == 3) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	} else {
+		if (bitconfig_6357 == 4) {
+			setWidgetIsHidden(true, new WidgetPointer(arg0));
+		}
+	}
+	return;
+}

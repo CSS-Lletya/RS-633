@@ -1,0 +1,54 @@
+void script_5538(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = 0;
+	switch (arg0) {
+		case 77201410:
+			ivar1 = globalint_1806;
+			break;
+		case 77201411:
+			ivar1 = globalint_1807;
+			break;
+		case 77201412:
+			ivar1 = globalint_1808;
+			break;
+		case 77201413:
+			ivar1 = globalint_1809;
+			break;
+		case 77201414:
+			ivar1 = globalint_1810;
+			break;
+		case 77201438:
+			ivar1 = globalint_1808;
+	}
+	switch (globalint_1725) {
+		case 1:
+			ovar0 = getItemName(getDataByKey('i', 'o', 5350, ivar1));
+			break;
+		case 2:
+			ovar0 = getItemName(getDataByKey('i', 'o', 5353, ivar1));
+			break;
+		case 3:
+			ovar0 = getItemName(getDataByKey('i', 'o', 5356, ivar1));
+			break;
+		case 4:
+			ovar0 = getItemName(getDataByKey('i', 'o', 5359, ivar1));
+			break;
+		case 11:
+			if (ivar1 == 1) {
+				ovar0 = getItemName(getDataByKey('i', 'o', 5732, bitconfig_4293));
+			} else if (ivar1 == 2) {
+				ovar0 = getItemName(getDataByKey('i', 'o', 5733, bitconfig_11047));
+			} else {
+				ovar0 = getItemName(getDataByKey('i', 'o', 5731, ivar1));
+			}
+			break;
+		case 12:
+			ovar0 = getItemName(getDataByKey('i', 'o', 5734, ivar1));
+	}
+	if (ivar1 > 0 && ivar1 <= script_5550()) {
+		script_1163(arg0, -1, 77201408, 25, 190, ovar0);
+	}
+	return;
+}

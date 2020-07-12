@@ -1,0 +1,31 @@
+void script_5666() {
+	flow_0:
+		SWITCH (standart_config_2478) {
+			case 2:
+				 GOTO flow_4
+			case 3:
+				 GOTO flow_8
+		}
+		if (bitconfig_10444 == 0) {
+			cs2method_10467(4084, 79560723);
+		} else {
+			cs2method_10467(4086, 79560723);
+		}
+	flow_3:
+		GOTO	flow_11
+	flow_4:
+		if (bitconfig_10445 == 0) {
+			cs2method_10467(4084, 79560723);
+		} else {
+			cs2method_10467(4086, 79560723);
+		}
+		GOTO	flow_11
+	flow_8:
+		if (bitconfig_10446 == 0) {
+			cs2method_10467(4084, 79560723);
+		} else {
+			cs2method_10467(4086, 79560723);
+		}
+	flow_11:
+		return;
+}

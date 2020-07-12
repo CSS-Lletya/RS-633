@@ -1,0 +1,67 @@
+void script_2952(int arg0,int arg1,int arg2) {
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	switch (arg2) {
+		case 3:
+			ovar0 = (object)"accountappeal";
+			ovar1 = (object)"passwordchoice.ws";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 4:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=messages";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 11:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=security";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 18:
+			ovar0 = (object)"accountappeal";
+			ovar1 = (object)"lockchoice.ws";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 30:
+			ovar0 = (object)"dob";
+			ovar1 = (object)"set_members_dob.ws";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 31:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=charname";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 19:
+		case 32:
+		case 40:
+		case 12:
+			ovar0 = (object)"dob";
+			ovar1 = (object)"set_members_dob.ws";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		case 21:
+			setScriptCallOnMousePressed(3234, "", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(arg1));
+			break;
+		case 38:
+			ovar0 = (object)"www";
+			ovar1 = (object)"combat.ws";
+			setScriptCallOnMousePressed(2931, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+			break;
+		default:
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(2953, "", new WidgetPointer(arg1));
+	}
+	return;
+}

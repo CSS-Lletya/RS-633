@@ -1,0 +1,5 @@
+int script_6133(int arg0,int arg1,int arg2,int arg3) {
+	arg0 = subtract(arg2, arg0);
+	arg1 = subtract(arg3, arg1);
+	return add(multiply(arg0, arg0), multiply(arg1, arg1));
+}

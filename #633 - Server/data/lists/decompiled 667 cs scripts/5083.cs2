@@ -1,0 +1,10 @@
+void script_5083(int arg0,int arg1,int arg2) {
+	if (cs2method_10878() < arg2) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg0));
+	if (arg1 == globalint_160) {
+		script_72(73007131, 73007130, cs2method_10424(73007130));
+	}
+	return;
+}

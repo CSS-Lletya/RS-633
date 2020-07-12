@@ -1,0 +1,46 @@
+void script_2739(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar2 = cs2method_10594(93);
+	ivar3 = -1;
+	ivar4 = divide(ivar2, 4);
+	ivar5 = divide(subtract(cs2method_10956(arg0), multiply(4, 36)), 3);
+	ivar6 = divide(subtract(cs2method_10090(arg0), multiply(ivar4, 32)), 6);
+	ivar7 = 0;
+	while (ivar7 < ivar2) {
+		createChildWidget(arg0, 5, ivar7);
+		ivar3 = getItemIdInContainerSlot(93, ivar7);
+		if (ivar3 != -1) {
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(multiply(cs2method_10620(ivar7, 4), add(36, ivar5)), multiply(divide(ivar7, 4), add(32, ivar6)), 0, 0);
+			setItemOnWidget_10672(ivar3, cs2method_10136(93, ivar7));
+			cs2method_11002(cs2method_10445((object)"<col=ff9040>", getItemName(ivar3)));
+			setWidgetContextMenuOption(1, (object)"Equip");
+			setWidgetContextMenuOption(10, (object)"Examine");
+			cs2method_10167(3153952);
+			if (arg1 == ivar7) {
+				cs2method_10253(2);
+			} else {
+				cs2method_10253(1);
+			}
+			cs2method_20115(1620, new WidgetPointer(-32768,3), -2147483643, 100, 0, 8, "Iiiii");
+			cs2method_20935(2738, new WidgetPointer(arg0), ivar7, "Ii");
+			cs2method_20346(2738, new WidgetPointer(arg0), -1, "Ii");
+			cs2method_20930(5495, ivar3, "o");
+			cs2method_20139(5495, -1, "o");
+		} else {
+			cs2method_10692(1);
+		}
+		ivar7 = add(ivar7, 1);
+	}
+	if (arg1 != -1 && getItemIdInContainerSlot(93, arg1) == -1) {
+		arg1 = -1;
+	}
+	cs2method_20572(2738, new WidgetPointer(-32768,3), arg1, 93, 1, "IiY", new WidgetPointer(arg0));
+	return;
+}

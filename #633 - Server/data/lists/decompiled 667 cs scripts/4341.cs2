@@ -1,0 +1,34 @@
+cs2func_script_4341_struct(0,2,0) script_4341(int arg0,int arg1,int arg2) {
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ovar0 = (object)toString(arg1);
+	ovar1 = (object)toString(arg2);
+	ivar3 = 0;
+	ovar2 = (object)"";
+	ivar3 = add(add(multiply(60, arg1), arg0), arg2);
+	if (ivar3 < 0) {
+		ivar3 = add(1440, ivar3);
+	}
+	arg2 = cs2method_10620(ivar3, 60);
+	arg1 = divide(ivar3, 60);
+	if (arg1 > 23) {
+		arg1 = subtract(arg1, 24);
+	} else {
+		if (arg1 < 0) {
+			arg1 = subtract(24, arg1);
+		}
+	}
+	if (arg1 < 10) {
+		ovar0 = (object)("0" + toString(arg1));
+	} else {
+		ovar0 = (object)toString(arg1);
+	}
+	if (arg2 < 10) {
+		ovar1 = (object)("0" + toString(arg2));
+	} else {
+		ovar1 = (object)toString(arg2);
+	}
+	return newstruct cs2func_script_4341_struct(ovar0, ovar1);
+}

@@ -1,0 +1,22 @@
+void script_6365() {
+	int ivar0;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar0 = getItemIdInContainerSlot(94, 5);
+	ovar0 = (object)("Damage : " + toString(standart_config_2674));
+	ovar1 = (object)("Hit Bonus : " + toString(script_6427(ivar0, standart_config_2676)));
+	ovar2 = (object)("Type : " + getDataByKey('i', 's', 5970, standart_config_2676));
+	ovar3 = (object)"Class : None";
+	setWidgetIsHidden(false, new WidgetPointer(667,123));
+	if (ivar0 != -1 && standart_config_2674 > 0) {
+		setWidgetIsHidden(true, new WidgetPointer(667,123));
+		ovar3 = (object)("Class : " + getDataByKey('i', 's', 5969, script_6423(ivar0)));
+	}
+	setWidgetText(new WidgetPointer(667,119), ovar0);
+	setWidgetText(new WidgetPointer(667,120), ovar1);
+	setWidgetText(new WidgetPointer(667,121), ovar2);
+	setWidgetText(new WidgetPointer(667,122), (object)"");
+	return;
+}

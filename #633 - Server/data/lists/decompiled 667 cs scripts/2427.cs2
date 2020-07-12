@@ -1,0 +1,4 @@
+void script_2427(int arg0) {
+	cs2method_10380(getDataByKey('i', 'o', 172, globalint_809), 72, arg0);
+	return;
+}

@@ -1,0 +1,10 @@
+void script_3141(int arg0,object arg1) {
+	if (cs2method_10562(arg0, arg1) == 1) {
+		globalint_547 = 0;
+		script_3143(0, (object)("Switched to game world " + toString(arg0)));
+	} else {
+		script_3143(1, (object)("Sorry, we couldn't contact world " + toString(arg0) + "." + "<br>" + "Please choose a different world."));
+	}
+	script_3116();
+	return;
+}

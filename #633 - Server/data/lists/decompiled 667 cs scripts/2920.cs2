@@ -1,0 +1,43 @@
+void script_2920(int arg0,int arg1,object arg2) {
+	cs2method_10070(59375711, 914);
+	script_3181();
+	if (cs2method_10366(arg2) > 0) {
+		globalstring_277 = (string)cs2method_10222(arg2);
+	} else {
+		globalstring_277 = "";
+	}
+	setWidgetText(new WidgetPointer(914,27), (object)globalstring_277);
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, 5)) == 0) {
+		script_3161(0);
+	}
+	setScriptCallOnKeyPress(3185, -2147483640, false, new WidgetPointer(-32768,3), "izI", new WidgetPointer(914,27));
+	cs2method_20000(3182, "", new WidgetPointer(914,16));
+	globalint_1097 = cs2method_10366((object)globalstring_277);
+	setScriptCallOnMousePressed(1878, -2147483647, new WidgetPointer(914,27), new WidgetPointer(914,28), "iII", new WidgetPointer(914,27));
+	script_1879(59899931, 59899932, (object)globalstring_277);
+	setWidgetIsHidden(true, new WidgetPointer(914,28));
+	if (arg0 == 1) {
+		if (globalint_6 == 0) {
+			cs2method_10467(4084, 59899927);
+		} else {
+			cs2method_10467(4086, 59899927);
+		}
+		if (arg1 == 5 || arg1 == 6) {
+			setWidgetText(new WidgetPointer(914,22), (object)"Suggest to mute this player for 48 hours");
+		} else {
+			setWidgetText(new WidgetPointer(914,22), (object)"Mute this player for 48 hours");
+		}
+		cs2method_10893(add(cs2method_10355(3793, cs2method_10100(59899926)), 18), cs2method_10090(59899925), 0, 0, 59899925);
+		cs2method_10444(16, 32, 0, 0, 59899918);
+		cs2method_10444(21, 62, 0, 0, 59899919);
+		cs2method_10444(299, 60, 0, 0, 59899920);
+		setWidgetIsHidden(false, new WidgetPointer(914,21));
+	} else {
+		cs2method_10444(16, 42, 0, 0, 59899918);
+		cs2method_10444(21, 82, 0, 0, 59899919);
+		cs2method_10444(299, 80, 0, 0, 59899920);
+		setWidgetIsHidden(true, new WidgetPointer(914,21));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(906,60));
+	return;
+}

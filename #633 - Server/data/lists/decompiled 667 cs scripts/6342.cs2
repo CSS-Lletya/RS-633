@@ -1,0 +1,11 @@
+void script_6342() {
+	if (globalint_1947 == 0) {
+		script_6341(1, 0);
+	} else {
+		script_6339(1);
+	}
+	if (cs2method_10842() >= 2) {
+		script_1652(1);
+	}
+	return;
+}

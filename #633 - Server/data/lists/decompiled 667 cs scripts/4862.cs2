@@ -1,0 +1,98 @@
+void script_4862() {
+	if (cs2method_10575() == 1) {
+		if (script_4949(4) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,12));
+		}
+		if (script_4949(5) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,14));
+		}
+		if (script_4949(6) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,16));
+		}
+		if (script_4949(7) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,18));
+		}
+		if (script_4949(8) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,20));
+		}
+		if (script_4949(9) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,22));
+		}
+		if (script_4949(10) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,24));
+		}
+		if (script_4949(11) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,26));
+		}
+		if (script_4949(12) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,28));
+		}
+		if (script_4949(13) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,30));
+		}
+		if (script_4949(14) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,32));
+		}
+		if (script_4949(15) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1261,34));
+		}
+		if (script_4949(16) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,3));
+		}
+		if (script_4949(17) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,4));
+		}
+		if (script_4949(18) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,5));
+		}
+		if (script_4949(19) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,6));
+		}
+		if (script_4949(20) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,7));
+		}
+		if (script_4949(21) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,8));
+		}
+		if (script_4949(22) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,9));
+		}
+		if (script_4949(23) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,10));
+		}
+		if (script_4949(24) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,11));
+		}
+		if (script_4949(25) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,12));
+		}
+		if (script_4949(26) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,13));
+		}
+		if (script_4949(27) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,14));
+		}
+		if (script_4949(28) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,15));
+		}
+		if (script_4949(29) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,16));
+		}
+		if (script_4949(30) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,17));
+		}
+		if (script_4949(31) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,18));
+		}
+		if (script_4949(32) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,19));
+		}
+		if (script_4949(33) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,20));
+		}
+		if (script_4949(34) <= 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1258,21));
+		}
+	}
+	return;
+}

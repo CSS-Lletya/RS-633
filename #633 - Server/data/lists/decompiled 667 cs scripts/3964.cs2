@@ -1,0 +1,10 @@
+void script_3964() {
+	if (globalint_1414 == 1) {
+		setWidgetText(new WidgetPointer(596,38), (object)"Username:");
+	} else if (globalint_1414 == 2) {
+		setWidgetText(new WidgetPointer(596,38), (object)"Email:");
+	} else {
+		setWidgetText(new WidgetPointer(596,38), (object)"Login:");
+	}
+	return;
+}

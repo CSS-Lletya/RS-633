@@ -1,0 +1,15 @@
+void script_4586(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = -1;
+	if (arg2 > 0 && arg3 > 0) {
+		ivar4 = getDataByKey('i', 'g', 3703, arg2);
+		if (ivar4 != -1) {
+			setWidgetText(new WidgetPointer(arg0), (object)getDataByKey('i', 's', ivar4, arg3));
+			setWidgetIsHidden(false, new WidgetPointer(arg1));
+			return;
+		}
+	}
+	setWidgetText(new WidgetPointer(arg0), (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(arg1));
+	return;
+}

@@ -1,0 +1,497 @@
+void script_6324(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	object ovar0;
+	object ovar1;
+	ivar3 = -1;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = -1;
+	ivar7 = -1;
+	ovar0 = (object)"";
+	ivar8 = 0;
+	ivar9 = 0;
+	ovar1 = (object)"Activate";
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = 0;
+	ivar14 = -1;
+	ivar15 = 0;
+	ivar16 = -1;
+	ivar17 = -1;
+	switch (arg0) {
+		case 85196842:
+			ivar17 = 85196844;
+			ivar3 = standart_config_2757;
+			ivar4 = bitconfig_11397;
+			ivar5 = bitconfig_11398;
+			ivar12 = 85196869;
+			ivar13 = script_6350(globalint_1955, ivar12);
+			ivar14 = 85196845;
+			ivar16 = 85196811;
+			globalint_1935 = 1;
+			break;
+		case 85196871:
+			ivar17 = 85196847;
+			ivar3 = standart_config_2758;
+			ivar4 = bitconfig_11399;
+			ivar5 = bitconfig_11400;
+			ivar12 = 85196874;
+			ivar13 = script_6350(globalint_1956, ivar12);
+			ivar14 = 85196872;
+			ivar16 = 85196810;
+			globalint_1936 = 1;
+			break;
+		case 85196875:
+			ivar17 = 85196849;
+			ivar3 = standart_config_2759;
+			ivar4 = bitconfig_11401;
+			ivar5 = bitconfig_11402;
+			ivar12 = 85196878;
+			ivar13 = script_6350(globalint_1957, ivar12);
+			ivar14 = 85196876;
+			ivar16 = 85196809;
+			globalint_1937 = 1;
+			break;
+		case 85196879:
+			ivar17 = 85196851;
+			ivar3 = standart_config_2760;
+			ivar4 = bitconfig_11403;
+			ivar5 = bitconfig_11404;
+			ivar12 = 85196882;
+			ivar13 = script_6350(globalint_1958, ivar12);
+			ivar14 = 85196880;
+			ivar16 = 85196808;
+			globalint_1938 = 1;
+			break;
+		case 85196883:
+			ivar17 = 85196853;
+			ivar3 = standart_config_2761;
+			ivar4 = bitconfig_11405;
+			ivar5 = bitconfig_11406;
+			ivar12 = 85196886;
+			ivar13 = script_6350(globalint_1959, ivar12);
+			ivar14 = 85196884;
+			ivar16 = 85196807;
+			globalint_1939 = 1;
+			break;
+		case 85196887:
+			ivar17 = 85196855;
+			ivar3 = standart_config_2762;
+			ivar4 = bitconfig_11407;
+			ivar5 = bitconfig_11408;
+			ivar12 = 85196890;
+			ivar13 = script_6350(globalint_1960, ivar12);
+			ivar14 = 85196888;
+			ivar16 = 85196806;
+			globalint_1940 = 1;
+			break;
+		case 85196891:
+			ivar17 = 85196857;
+			ivar3 = standart_config_2763;
+			ivar4 = bitconfig_11409;
+			ivar5 = bitconfig_11410;
+			ivar12 = 85196894;
+			ivar13 = script_6350(globalint_1961, ivar12);
+			ivar14 = 85196892;
+			ivar16 = 85196805;
+			globalint_1941 = 1;
+			break;
+		case 85196895:
+			ivar17 = 85196859;
+			ivar3 = standart_config_2764;
+			ivar4 = bitconfig_11411;
+			ivar5 = bitconfig_11412;
+			ivar12 = 85196898;
+			ivar13 = script_6350(globalint_1962, ivar12);
+			ivar14 = 85196896;
+			ivar16 = 85196804;
+			globalint_1942 = 1;
+			break;
+		case 85196899:
+			ivar17 = 85196861;
+			ivar3 = standart_config_2765;
+			ivar4 = bitconfig_11413;
+			ivar5 = bitconfig_11414;
+			ivar12 = 85196902;
+			ivar13 = script_6350(globalint_1963, ivar12);
+			ivar14 = 85196900;
+			ivar16 = 85196803;
+			globalint_1943 = 1;
+			break;
+		case 85196903:
+			ivar17 = 85196863;
+			ivar3 = standart_config_2766;
+			ivar4 = bitconfig_11415;
+			ivar5 = bitconfig_11416;
+			ivar12 = 85196906;
+			ivar13 = script_6350(globalint_1964, ivar12);
+			ivar14 = 85196904;
+			ivar16 = 85196802;
+			globalint_1944 = 1;
+			break;
+		case 85196907:
+			ivar17 = 85196865;
+			ivar3 = standart_config_2767;
+			ivar4 = bitconfig_11417;
+			ivar5 = bitconfig_11418;
+			ivar12 = 85196910;
+			ivar13 = script_6350(globalint_1965, ivar12);
+			ivar14 = 85196908;
+			ivar16 = 85196801;
+			globalint_1945 = 1;
+			break;
+		case 85196911:
+			ivar17 = 85196867;
+			ivar3 = standart_config_2768;
+			ivar4 = bitconfig_11419;
+			ivar5 = bitconfig_11420;
+			ivar12 = 85196914;
+			ivar13 = script_6350(globalint_1966, ivar12);
+			ivar14 = 85196912;
+			ivar16 = 85196800;
+			globalint_1946 = 1;
+	}
+	cs2method_10467(-1, ivar14);
+	cs2method_20219(-1, "", new WidgetPointer(ivar14));
+	cs2method_10149(255, ivar16);
+	cs2method_20889(-1, "", new WidgetPointer(ivar16));
+	if (cs2method_10403(arg0) == 1) {
+		flow_14:
+			IF (arg1 == 1) 
+				GOTO	flow_18
+			IF (ivar3 == -1) 
+				GOTO	flow_15
+			GOTO	flow_19
+		flow_15:
+			IF (ivar5 == 0) 
+				GOTO	flow_16
+			GOTO	flow_17
+		flow_16:
+			IF (ivar4 != 9) 
+				GOTO	flow_18
+		flow_17:
+			IF (ivar4 == 0) 
+				GOTO	flow_18
+			GOTO	flow_19
+		flow_18:
+			cs2method_10865();
+			cs2method_10245();
+			cs2method_11002((object)"");
+			setItemOnWidget_10672(-1, -1);
+			cs2method_10469(11777);
+			setWidgetPosition(0, 0, 1, 1);
+			setWidgetSize(30, 30, 0, 0);
+			cs2method_10628((object)"");
+			cs2method_20191(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI");
+			setWidgetRGB(new Color(255, 255, 255));
+			setWidgetContextMenuOption(10, (object)"Customise Keybind");
+			cs2method_20115(6351, new WidgetPointer(-32768,3), -2147483644, "Ii");
+			cs2method_20003(-1, "");
+			cs2method_20560(-1, "");
+			cs2method_20538(-1, "");
+			script_6359();
+			cs2method_20889(-1, "", new WidgetPointer(ivar17));
+			cs2method_10149(255, ivar17);
+			cs2method_20219(-1, "", new WidgetPointer(ivar17));
+			GOTO	flow_102
+		flow_19:
+			if (ivar3 != -1) {
+				cs2method_10865();
+				cs2method_10245();
+				ivar11 = getItemAttribute(ivar3, 2281);
+				if (ivar11 != -1) {
+					ovar0 = (object)getGeneralRequirementAttribute(ivar11, 2680);
+					ivar3 = script_6347(ivar3);
+					setItemOnWidget_10672(ivar3, -1);
+					cs2method_20560(6348, new WidgetPointer(arg0), ivar3, 93, 94, 2, "IoY");
+				}
+				if (cs2method_10366(ovar0) < 1) {
+					ovar0 = getItemName(ivar3);
+					cs2method_20560(6325, new WidgetPointer(arg0), ivar3, 93, 94, 2, "IoY");
+					script_6326(arg0, ivar3);
+					setItemOnWidget_10672(ivar3, -1);
+				}
+				setWidgetSize(36, 32, 0, 0);
+				setWidgetPosition(3, 0, 1, 1);
+				if (getItemAmtInContainer(93, ivar3) > 0 || getItemAmtInContainer(94, ivar3) < 1) {
+					setWidgetContextMenuOption(1, getItemOption(ivar3, 1));
+					setWidgetContextMenuOption(2, getItemOption(ivar3, 2));
+					setWidgetContextMenuOption(3, getItemOption(ivar3, 3));
+					setWidgetContextMenuOption(4, getItemOption(ivar3, 4));
+					setWidgetContextMenuOption(5, getItemOption(ivar3, 5));
+					setWidgetContextMenuOption(6, getItemOption(ivar3, 6));
+					setWidgetContextMenuOption(7, getItemOption(ivar3, 7));
+					setWidgetContextMenuOption(8, getItemOption(ivar3, 8));
+					setWidgetContextMenuOption(9, getItemOption(ivar3, 9));
+				} else {
+					if (getItemAmtInContainer(94, ivar3) > 0) {
+						if (getItemAttribute(ivar3, 2281) != -1) {
+							setWidgetContextMenuOption(1, (object)"Operate");
+							ivar15 = 1;
+						} else {
+							if (cs2method_10366((object)getItemAttribute(ivar3, 528)) > 0) {
+								setWidgetContextMenuOption(1, (object)getItemAttribute(ivar3, 528));
+								ivar15 = 1;
+							}
+							if (cs2method_10366((object)getItemAttribute(ivar3, 529)) > 0) {
+								setWidgetContextMenuOption(2, (object)getItemAttribute(ivar3, 529));
+								ivar15 = 1;
+							}
+							if (cs2method_10366((object)getItemAttribute(ivar3, 530)) > 0) {
+								setWidgetContextMenuOption(3, (object)getItemAttribute(ivar3, 530));
+								ivar15 = 1;
+							}
+							if (cs2method_10366((object)getItemAttribute(ivar3, 531)) > 0) {
+								setWidgetContextMenuOption(4, (object)getItemAttribute(ivar3, 531));
+								ivar15 = 1;
+							}
+							if (cs2method_10366((object)getItemAttribute(ivar3, 1211)) > 0) {
+								setWidgetContextMenuOption(5, (object)getItemAttribute(ivar3, 1211));
+								ivar15 = 1;
+							}
+						}
+						if (ivar15 == 0) {
+							setWidgetContextMenuOption(1, (object)"Remove");
+						}
+					}
+				}
+				setWidgetContextMenuOption(10, (object)"Customise Keybind");
+				cs2method_20115(6351, new WidgetPointer(-32768,3), -2147483644, "Ii");
+				cs2method_11002((object)((string)script_4033(ivar3) + (string)ovar0));
+				script_6359();
+				if (arg2 == 0) {
+					if (script_6357(ivar13) == 1) {
+						cs2method_10074(script_6329(ivar3), script_6358(ivar13));
+					} else {
+						cs2method_10948(script_6329(ivar3), ivar13, 8, -1, 0, -1, 0, -1, 0, -1, 0);
+					}
+				}
+				cs2method_10692(0);
+				setWidgetIsHidden(true, new WidgetPointer(1301,0));
+				cs2method_20191(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI");
+				cs2method_20889(-1, "", new WidgetPointer(ivar17));
+				cs2method_10149(255, ivar17);
+				cs2method_20219(-1, "", new WidgetPointer(ivar17));
+			} else {
+				if (ivar4 > 0 && (ivar5 > 0 || ivar4 == 9)) {
+					flow_48:
+						cs2method_10865();
+						cs2method_10245();
+						setWidgetRGB(new Color(255, 255, 255));
+						SWITCH (ivar4) {
+							case 1:
+								 GOTO flow_49
+							case 2:
+								 GOTO flow_50
+							case 3:
+								 GOTO flow_51
+							case 5:
+								 GOTO flow_52
+							case 4:
+								 GOTO flow_53
+							case 7:
+								 GOTO flow_54
+							case 6:
+								 GOTO flow_70
+							case 11:
+								 GOTO flow_70
+							case 8:
+								 GOTO flow_71
+							case 9:
+								 GOTO flow_75
+						}
+						return;
+					flow_49:
+						ivar10 = 5961;
+						GOTO	flow_76
+					flow_50:
+						ivar10 = 5962;
+						GOTO	flow_76
+					flow_51:
+						ivar10 = 5963;
+						GOTO	flow_76
+					flow_52:
+						ivar10 = 5965;
+						GOTO	flow_76
+					flow_53:
+						ivar10 = 5964;
+						GOTO	flow_76
+					flow_54:
+						ivar6 = getDataByKey('i', 'J', 5966, ivar5);
+						ivar7 = getGeneralRequirementAttribute(ivar6, 2530);
+						ovar0 = (object)getGeneralRequirementAttribute(ivar6, 2523);
+						ivar8 = 30;
+						ivar9 = 30;
+						if (ivar6 == 10768) {
+							ivar8 = 20;
+							ivar9 = 20;
+						}
+						cs2method_10149(255, ivar16);
+						cs2method_20889(6354, new WidgetPointer(ivar16), ivar6, 0, 2960, 1582, 2, "IJ1Y", new WidgetPointer(ivar16));
+						switch (arg0) {
+							case 85196842:
+								globalint_1935 = 0;
+								break;
+							case 85196871:
+								globalint_1936 = 0;
+								break;
+							case 85196875:
+								globalint_1937 = 0;
+								break;
+							case 85196879:
+								globalint_1938 = 0;
+								break;
+							case 85196883:
+								globalint_1939 = 0;
+								break;
+							case 85196887:
+								globalint_1940 = 0;
+								break;
+							case 85196891:
+								globalint_1941 = 0;
+								break;
+							case 85196895:
+								globalint_1942 = 0;
+								break;
+							case 85196899:
+								globalint_1943 = 0;
+								break;
+							case 85196903:
+								globalint_1944 = 0;
+								break;
+							case 85196907:
+								globalint_1945 = 0;
+								break;
+							case 85196911:
+								globalint_1946 = 0;
+						}
+						script_6355(ivar16, ivar6, 1);
+						GOTO	flow_76
+					flow_70:
+						ivar6 = getDataByKey('i', 'J', 5967, ivar5);
+						ivar7 = getGeneralRequirementAttribute(ivar6, 2530);
+						ovar0 = (object)getGeneralRequirementAttribute(ivar6, 2523);
+						ivar8 = 30;
+						ivar9 = 30;
+						ovar1 = (object)"Cast";
+						GOTO	flow_76
+					flow_71:
+						ivar6 = 10599;
+						if (standart_config_173 == 0) {
+							ivar7 = 8655;
+						} else {
+							ivar7 = 8657;
+						}
+						ovar0 = (object)getGeneralRequirementAttribute(ivar6, 2523);
+						ivar8 = 20;
+						ivar9 = 20;
+						GOTO	flow_76
+					flow_75:
+						ivar6 = getDataByKey('i', 'J', 3874, ivar5);
+						ivar7 = getGeneralRequirementAttribute(ivar6, 1420);
+						ovar0 = (object)getGeneralRequirementAttribute(ivar6, 1419);
+						ivar8 = 30;
+						ivar9 = 30;
+						ovar1 = (object)"Perform";
+					flow_76:
+						if (ivar10 != -1) {
+							ivar6 = getDataByKey('i', 'J', ivar10, ivar5);
+							if (ivar6 == -1) {
+								return;
+							}
+							ivar7 = getGeneralRequirementAttribute(ivar6, 2530);
+							ovar0 = (object)getGeneralRequirementAttribute(ivar6, 2523);
+							ivar8 = 30;
+							ivar9 = 30;
+						}
+						setItemOnWidget_10672(-1, -1);
+						cs2method_10469(ivar7);
+						setWidgetSize(ivar8, ivar9, 0, 0);
+						setWidgetPosition(0, 0, 1, 1);
+						if (getGeneralRequirementAttribute(ivar6, 2590) == 1) {
+							cs2method_10245();
+							setWidgetContextMenuOption(10, (object)"Customise Keybind");
+							cs2method_20115(6351, new WidgetPointer(-32768,3), -2147483644, "Ii");
+							script_6359();
+							if (arg2 == 0) {
+								if (script_6357(ivar13) == 1) {
+									cs2method_10803(script_6358(ivar13));
+								} else {
+									cs2method_10989(ivar13, 8);
+								}
+							}
+							cs2method_10628((object)"Cast");
+							cs2method_20935(6334, new WidgetPointer(-32768,3), "I");
+							cs2method_20346(6335, new WidgetPointer(-32768,3), "I");
+							cs2method_10240(getGeneralRequirementAttribute(ivar6, 2531), 158);
+						} else {
+							setWidgetContextMenuOption(1, ovar1);
+							setWidgetContextMenuOption(10, (object)"Customise Keybind");
+							cs2method_20115(6351, new WidgetPointer(-32768,3), -2147483644, "Ii");
+							script_6359();
+							if (arg2 == 0) {
+								if (script_6357(ivar13) == 1) {
+									cs2method_10074(1, script_6358(ivar13));
+								} else {
+									cs2method_10948(1, ivar13, 8, -1, 0, -1, 0, -1, 0, -1, 0);
+								}
+							}
+							cs2method_10628((object)"");
+							cs2method_20935(-1, "");
+							cs2method_20346(-1, "");
+						}
+						if (getGeneralRequirementAttribute(ivar6, 2589) == 1) {
+							setWidgetContextMenuOption(9, (object)"Auto-cast");
+							cs2method_10149(255, ivar17);
+							cs2method_20219(-1, "", new WidgetPointer(ivar17));
+							cs2method_20889(21, new WidgetPointer(-32768,3), ivar6, 108, 1, "IJY", new WidgetPointer(ivar17));
+						} else {
+							cs2method_20889(-1, "", new WidgetPointer(ivar17));
+							cs2method_10149(255, ivar17);
+							cs2method_20219(-1, "", new WidgetPointer(ivar17));
+						}
+						cs2method_11002((object)("<col=00ff00>" + (string)ovar0));
+						cs2method_10692(0);
+						if (ivar4 == 8) {
+							cs2method_20003(6345, new WidgetPointer(-32768,3), 173, 1, "IY");
+							cs2method_20560(-1, "");
+						} else {
+							if (ivar4 != 7 && ivar4 != 9) {
+								cs2method_20003(6332, new WidgetPointer(arg0), getGeneralRequirementAttribute(ivar6, 2528), ivar6, 300, 1, "IiJY");
+								script_6333(arg0, getGeneralRequirementAttribute(ivar6, 2528), ivar6);
+								cs2method_20560(6332, new WidgetPointer(arg0), getGeneralRequirementAttribute(ivar6, 2528), ivar6, 94, 93, 2, "IiJY");
+								cs2method_20538(6332, new WidgetPointer(arg0), getGeneralRequirementAttribute(ivar6, 2528), ivar6, 0, 2, 1, 4, 6, 3, 6, "IiJY");
+							}
+						}
+						setWidgetIsHidden(true, new WidgetPointer(1301,0));
+						if (ivar4 != 9) {
+							cs2method_20211(6360, new WidgetPointer(arg0), -1, ivar6, "IiJ");
+							cs2method_20139(6361, "");
+						}
+						cs2method_20191(6330, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(-32768,6), "IiI");
+						script_6400(ivar6, -1);
+				}
+			}
+		flow_102:
+			if (arg1 == 0) {
+				ivar13 = script_6350(ivar13, ivar12);
+				setWidgetText(new WidgetPointer(ivar12), (object)getDataByKey('i', 's', 5972, ivar13));
+			}
+	}
+	return;
+}

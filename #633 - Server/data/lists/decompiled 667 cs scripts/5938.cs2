@@ -1,0 +1,16 @@
+int script_5938(int arg0) {
+	int ivar1;
+	int ivar2;
+	int stack_dump0;
+	cs2func_script_6188_struct(2,0,0) structdump_1;
+	ivar1 = -1;
+	ivar2 = 0;
+	stack_dump0 = arg0;
+	structdump_1 = script_6188(stack_dump0);
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	if (getItemAttribute(ivar1, 2400) == 1) {
+		return 1;
+	}
+	return 0;
+}

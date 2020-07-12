@@ -1,0 +1,5 @@
+void script_4069() {
+	globalint_1431 = 1;
+	cs2method_20219(4070, cs2method_10878(), "i", new WidgetPointer(1058,68));
+	return;
+}

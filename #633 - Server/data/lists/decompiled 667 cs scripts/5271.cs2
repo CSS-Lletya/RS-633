@@ -1,0 +1,36 @@
+int script_5271(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ovar1 = (object)"";
+	if (arg1 == -1) {
+		ovar1 = (object)"Your coord";
+	} else if (arg1 == -2) {
+		ovar1 = (object)"Safe Clanwars";
+	} else {
+		ovar1 = (object)script_2055(arg1);
+	}
+	ovar2 = (object)" - ";
+	if (cs2method_10956(arg0) < 260) {
+		ovar2 = (object)"<br>";
+	}
+	ovar3 = (object)"max";
+	if (arg2 >= 0) {
+		ovar3 = (object)toString(arg2);
+	}
+	createChildWidget(arg0, 4, arg3);
+	setWidgetText((object)((string)arg4 + (string)ovar2 + "@ " + (string)ovar1 + " - Max: " + (string)ovar3));
+	cs2method_10320(1);
+	setWidgetRGB(new Color(204, 204, 204));
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 13421772, "Iii");
+	setWidgetContextMenuOption(1, (object)"Spawn");
+	setWidgetContextMenuOption(2, (object)"Pick spawn number");
+	setWidgetContextMenuOption(3, (object)"Kill");
+	createChildWidget(arg0, 3, add(arg3, 1));
+	setWidgetRGB(new Color(255, 255, 255));
+	cs2method_10305(226);
+	setWidgetFilled(1);
+	return add(arg3, 2);
+}

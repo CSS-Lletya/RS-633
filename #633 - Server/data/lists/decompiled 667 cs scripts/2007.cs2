@@ -1,0 +1,23 @@
+void script_2007(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	cs2method_10185(arg0, -1, arg1);
+	ivar4 = subtract(cs2method_10956(arg0), cs2method_10956(arg1));
+	ivar5 = cs2method_10542(cs2method_10671(), 255, ivar4);
+	cs2method_10444(ivar5, 0, 0, 0, arg1);
+	if (cs2method_10671() > 0) {
+		if (arg3 == 1) {
+			cs2method_10467(4123, 48758892);
+		} else {
+			cs2method_10467(4118, 48758892);
+		}
+	} else if (arg3 == 1) {
+		cs2method_10467(4124, 48758892);
+	} else {
+		cs2method_10467(4119, 48758892);
+	}
+	if (arg2 == 1) {
+		globalint_1394 = cs2method_10671();
+	}
+	return;
+}

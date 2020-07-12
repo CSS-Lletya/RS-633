@@ -1,0 +1,34 @@
+void script_2696(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10) {
+	if (arg10 == 1) {
+		clearExtraChildren(new WidgetPointer(742,21));
+		clearExtraChildren(new WidgetPointer(742,22));
+		setWidgetIsHidden(true, new WidgetPointer(742,20));
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(742,4));
+	} else if (arg10 == 2) {
+		clearExtraChildren(new WidgetPointer(911,73));
+		clearExtraChildren(new WidgetPointer(911,66));
+		setWidgetIsHidden(true, new WidgetPointer(911,74));
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(911,1));
+	} else {
+		clearExtraChildren(new WidgetPointer(882,6));
+		clearExtraChildren(new WidgetPointer(882,7));
+		setWidgetIsHidden(true, new WidgetPointer(882,5));
+		setScriptCallOnMousePressed(-1, "", new WidgetPointer(882,4));
+	}
+	if (cs2method_10551(arg0, arg2) == 1) {
+		cs2method_10469(2554);
+	}
+	if (arg4 != -1 && cs2method_10551(arg0, arg4) == 1) {
+		setWidgetRGB(new Color(235, 224, 188));
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_20723(2695, new WidgetPointer(-32768,3), -2147483643, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, "IiiiiJiiiii");
+		cs2method_20211(2691, new WidgetPointer(-32768,3), arg2, 1, arg3, 8419437, 1, "Ii1ii1");
+		cs2method_20139(2691, new WidgetPointer(-32768,3), arg2, 0, arg3, 6249298, 1, "Ii1ii1");
+		if (cs2method_10551(arg0, arg3) == 1) {
+			setWidgetRGB(new Color(95, 91, 82));
+			setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+		}
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+void script_5547(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (globalint_1724 < script_5550() && globalint_1726 == 0) {
+		globalint_1808 = globalint_1809;
+		cs2method_10677(9178, 1, 0, 50);
+		globalint_1724 = add(globalint_1724, 1);
+		ivar1 = script_5545();
+		cs2method_20219(5551, -100, ivar1, 0, arg0, "iiii", new WidgetPointer(1178,78));
+		globalint_1726 = 1;
+	}
+	return;
+}

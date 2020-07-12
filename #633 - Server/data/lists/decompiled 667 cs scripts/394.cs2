@@ -1,0 +1,14 @@
+void script_394(int arg0) {
+	if (globalint_1391 == 0) {
+		cs2method_10149(cs2method_10004(subtract(cs2method_10964(arg0), 10), 0), arg0);
+		if (cs2method_10964(arg0) == 0) {
+			globalint_1391 = 1;
+		}
+	} else {
+		cs2method_10149(cs2method_10586(add(cs2method_10964(arg0), 10), 255), arg0);
+		if (cs2method_10964(arg0) == 255) {
+			globalint_1391 = 0;
+		}
+	}
+	return;
+}

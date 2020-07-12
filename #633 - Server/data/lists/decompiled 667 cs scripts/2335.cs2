@@ -1,0 +1,71 @@
+void script_2335(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,int arg12,int arg13,int arg14,int arg15,int arg16) {
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	if (bitconfig_8725 < 4000) {
+		setWidgetText(new WidgetPointer(arg15), (object)toString(bitconfig_8725));
+	} else {
+		setWidgetText(new WidgetPointer(arg15), (object)"Max");
+	}
+	if (bitconfig_3939 < 4000) {
+		setWidgetText(new WidgetPointer(arg10), (object)toString(bitconfig_3939));
+	} else {
+		setWidgetText(new WidgetPointer(arg10), (object)"Max");
+	}
+	if (bitconfig_3941 < 4000) {
+		setWidgetText(new WidgetPointer(arg11), (object)toString(bitconfig_3941));
+	} else {
+		setWidgetText(new WidgetPointer(arg11), (object)"Max");
+	}
+	if (bitconfig_3938 < 4000) {
+		setWidgetText(new WidgetPointer(arg12), (object)toString(bitconfig_3938));
+	} else {
+		setWidgetText(new WidgetPointer(arg12), (object)"Max");
+	}
+	if (bitconfig_3942 < 4000) {
+		setWidgetText(new WidgetPointer(arg13), (object)toString(bitconfig_3942));
+	} else {
+		setWidgetText(new WidgetPointer(arg13), (object)"Max");
+	}
+	ivar17 = cs2method_10242(512, 494, cs2method_10100(arg15));
+	ivar18 = cs2method_10242(512, 494, cs2method_10100(arg10));
+	ivar19 = cs2method_10242(512, 494, cs2method_10100(arg11));
+	ivar20 = cs2method_10242(512, 494, cs2method_10100(arg12));
+	ivar21 = cs2method_10242(512, 494, cs2method_10100(arg13));
+	ivar22 = arg5;
+	ivar22 = cs2method_10004(ivar22, add(add(arg16, 10), ivar17));
+	ivar22 = cs2method_10004(ivar22, add(add(arg6, 10), ivar18));
+	ivar22 = cs2method_10004(ivar22, add(add(arg7, 10), ivar19));
+	ivar22 = cs2method_10004(ivar22, add(add(arg8, 10), ivar20));
+	ivar22 = cs2method_10004(ivar22, add(add(arg9, 10), ivar21));
+	cs2method_10893(ivar22, cs2method_10090(arg0), 0, 0, arg0);
+	if (bitconfig_8725 < 40) {
+		setWidgetRGB(16750623, arg14);
+	} else {
+		setWidgetRGB(6750207, arg14);
+	}
+	if (bitconfig_3939 < 40) {
+		setWidgetRGB(16750623, arg1);
+	} else {
+		setWidgetRGB(6750207, arg1);
+	}
+	if (bitconfig_3941 < 40) {
+		setWidgetRGB(16750623, arg2);
+	} else {
+		setWidgetRGB(6750207, arg2);
+	}
+	if (bitconfig_3938 < 40) {
+		setWidgetRGB(16750623, arg3);
+	} else {
+		setWidgetRGB(6750207, arg3);
+	}
+	if (bitconfig_3942 < 40) {
+		setWidgetRGB(16750623, arg4);
+	} else {
+		setWidgetRGB(6750207, arg4);
+	}
+	return;
+}

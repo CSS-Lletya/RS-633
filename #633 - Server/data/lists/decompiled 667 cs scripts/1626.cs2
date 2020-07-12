@@ -1,0 +1,18 @@
+void script_1626() {
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"Curtsy";
+	ovar1 = (object)"Bow";
+	if (cs2method_10855() > 0) {
+		cs2method_10467(2317, 30408708);
+		cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(464,54), (string)ovar0, 50, 150, "IIsii", new WidgetPointer(464,4));
+		cs2method_10375(1, 30408708, ovar0);
+		cs2method_10375(2, 30408708, ovar1);
+	} else {
+		cs2method_10467(703, 30408708);
+		cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(464,54), (string)ovar1, 50, 150, "IIsii", new WidgetPointer(464,4));
+		cs2method_10375(2, 30408708, ovar0);
+		cs2method_10375(1, 30408708, ovar1);
+	}
+	return;
+}

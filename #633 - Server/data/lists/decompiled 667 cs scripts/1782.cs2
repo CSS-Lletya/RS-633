@@ -1,0 +1,26 @@
+void script_1782() {
+	if (standart_config_1149 != -1) {
+		script_1801();
+		if (globalint_258 == 0) {
+			script_1363(51839119);
+			cs2method_20835(95, new WidgetPointer(-32768,3), "I", new WidgetPointer(791,143));
+			cs2method_20295(97, new WidgetPointer(-32768,3), "I", new WidgetPointer(791,143));
+			if (globalint_259 == 0) {
+				setWidgetText(new WidgetPointer(791,146), (object)"Accept");
+				setWidgetFont(496, 51839122);
+			} else {
+				setWidgetText(new WidgetPointer(791,146), (object)("Accept -" + "<br>" + "Opponent has accepted."));
+				setWidgetFont(494, 51839122);
+			}
+		} else {
+			script_1360(51839119);
+			cs2method_20835(-1, "", new WidgetPointer(791,143));
+			cs2method_20295(-1, "", new WidgetPointer(791,143));
+			setWidgetText(new WidgetPointer(791,146), (object)"Waiting for opponent...");
+			setWidgetFont(495, 51839122);
+		}
+	} else {
+		script_1802();
+	}
+	return;
+}

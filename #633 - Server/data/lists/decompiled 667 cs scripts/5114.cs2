@@ -1,0 +1,51 @@
+void script_5114(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	object ovar0;
+	setWidgetIsHidden(true, new WidgetPointer(1116,85));
+	setWidgetText(new WidgetPointer(1116,600), cs2method_10100(arg0));
+	cs2method_10467(cs2method_10825(arg1), 73138778);
+	cs2method_10467(cs2method_10825(arg2), 73138791);
+	setWidgetRGB(cs2method_10413(arg1), 73138778);
+	setWidgetRGB(cs2method_10413(arg2), 73138791);
+	setWidgetRGB(cs2method_10413(arg3), 73138787);
+	setWidgetRGB(cs2method_10413(arg4), 73138788);
+	ovar0 = (object)"";
+	switch (cs2method_10825(arg5)) {
+		case 6194:
+			cs2method_10467(6199, 73138767);
+			ovar0 = (object)"This clan is flagged as a nemesis.";
+			break;
+		case 6195:
+			cs2method_10467(6200, 73138767);
+			ovar0 = (object)"This clan is flagged as an enemy.";
+			break;
+		case 6196:
+			cs2method_10467(6201, 73138767);
+			ovar0 = (object)"This clan is flagged as neutral.";
+			break;
+		case 6197:
+			cs2method_10467(6202, 73138767);
+			ovar0 = (object)"This clan is flagged as a friend.";
+			break;
+		case 6198:
+			cs2method_10467(6203, 73138767);
+			ovar0 = (object)"This clan is flagged as an ally.";
+	}
+	cs2method_20835(4538, new WidgetPointer(1116,51), new WidgetPointer(1116,591), -1, (string)ovar0, 180, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1116,591));
+	cs2method_20295(40, new WidgetPointer(1116,51), "I", new WidgetPointer(1116,591));
+	script_5106();
+	if (arg6 == 1) {
+		if (cs2method_10416(73138179) == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1116,4));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(1116,3));
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1116,115));
+		setWidgetIsHidden(true, new WidgetPointer(1116,122));
+		setWidgetIsHidden(true, new WidgetPointer(1116,108));
+		setWidgetIsHidden(true, new WidgetPointer(1116,101));
+		setWidgetIsHidden(true, new WidgetPointer(1116,94));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1116,40));
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+void script_425() {
+	if (globalint_1366 == 1) {
+		cs2method_10375(1, 66781200, (object)"Accept Victory");
+		setWidgetText(new WidgetPointer(1019,16), (object)"Accept Victory");
+		setWidgetText(new WidgetPointer(1019,0), (object)"Your opponent has logged out. You may end the Conquest now and be declared the winner.");
+	} else {
+		cs2method_10375(1, 66781200, (object)"Resign");
+		setWidgetText(new WidgetPointer(1019,16), (object)"Resign");
+		setWidgetText(new WidgetPointer(1019,0), (object)"If you resign, the Conquest will end immediately.");
+		cs2method_10450();
+	}
+	return;
+}

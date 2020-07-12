@@ -1,0 +1,18 @@
+void script_1264() {
+	object ovar0;
+	ovar0 = (object)"null";
+	if (standart_config_170 == 0) {
+		cs2method_10467(762, 17104910);
+		ovar0 = (object)("Mouse buttons" + "<br>" + "(currently 2)");
+		cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,14));
+	} else {
+		if (standart_config_170 == 1) {
+			cs2method_10467(761, 17104910);
+			ovar0 = (object)("Mouse buttons" + "<br>" + "(currently 1)");
+			cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,14));
+		}
+	}
+	script_5641(17104910, cs2method_10620(add(standart_config_170, 1), 2));
+	globalint_2 = 0;
+	return;
+}

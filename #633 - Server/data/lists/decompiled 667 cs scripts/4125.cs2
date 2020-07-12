@@ -1,0 +1,6 @@
+void script_4125(int arg0,int arg1,int arg2,object arg3) {
+	if (cs2method_10403(arg0) == 1) {
+		script_1163(arg0, arg1, arg2, 0, 180, (object)((string)arg3 + getWidgetAttribute(718)));
+	}
+	return;
+}

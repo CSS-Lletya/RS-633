@@ -1,0 +1,8 @@
+void script_4088(int arg0) {
+	if (bitconfig_8701 == 1) {
+		cs2method_10467(3012, arg0);
+	} else {
+		cs2method_10467(3010, arg0);
+	}
+	return;
+}

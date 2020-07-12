@@ -1,0 +1,27 @@
+void script_4554(int arg0) {
+	cs2method_10893(subtract(cs2method_10111(38600749), cs2method_10111(38600747)), 0, 0, 1, 38600759);
+	cs2method_10893(subtract(subtract(cs2method_10956(38600755), cs2method_10956(38600759)), 2), 0, 0, 1, 38600761);
+	setWidgetScrollMax(0, 0, 38600755);
+	cs2method_10085(0, 0, 38600755);
+	script_31(38600756, 38600755, 792, 789, 790, 791, 773, 788);
+	setWidgetScrollMax(0, 0, 38600727);
+	cs2method_10085(0, 0, 38600727);
+	script_31(38600728, 38600727, 792, 789, 790, 791, 773, 788);
+	cs2method_20636(4558, new WidgetPointer(589,55), new WidgetPointer(589,56), new WidgetPointer(589,57), new WidgetPointer(589,53), new WidgetPointer(589,51), new WidgetPointer(589,52), "IIIIII", new WidgetPointer(589,51));
+	cs2method_20694(4558, new WidgetPointer(589,55), new WidgetPointer(589,56), new WidgetPointer(589,57), new WidgetPointer(589,53), new WidgetPointer(589,51), new WidgetPointer(589,52), "IIIIII", new WidgetPointer(589,51));
+	script_4559(38600759, 38600760, 38600761, 38600757, 38600755, 38600756);
+	if (cs2method_10997() > 0) {
+		setWidgetText(new WidgetPointer(589,41), (object)"Leave chat channel");
+		cs2method_10375(1, 38600743, (object)"Leave chat channel");
+	} else {
+		setWidgetText(new WidgetPointer(589,41), (object)"Join chat channel");
+		cs2method_10375(1, 38600743, (object)"Join chat channel");
+	}
+	globalstring_349 = "";
+	script_3024(38600735);
+	globalint_1507 = cs2method_10366((object)globalstring_349);
+	setScriptCallOnMousePressed(4570, -2147483647, new WidgetPointer(589,27), new WidgetPointer(589,28), "iII", new WidgetPointer(589,27));
+	script_4571(38600731, 38600732, (object)globalstring_349);
+	setWidgetIsHidden(true, new WidgetPointer(589,28));
+	return;
+}

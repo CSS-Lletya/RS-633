@@ -1,0 +1,42 @@
+void script_5926(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = -1;
+	arg1 = add(arg1, 1);
+	if (arg1 < 3) {
+		cs2method_20219(5926, new WidgetPointer(-32768,3), arg1, arg2, "Iii", new WidgetPointer(arg0));
+		return;
+	}
+	arg1 = 0;
+	arg2 = add(arg2, 1);
+	if (arg2 >= add(4, 15)) {
+		arg2 = 0;
+	}
+	switch (arg2) {
+		case 0:
+			ivar3 = 9964;
+			break;
+		case 1:
+			ivar3 = 9965;
+			break;
+		case 2:
+			ivar3 = 9966;
+			break;
+		case 3:
+			ivar3 = 9967;
+			break;
+		case 4:
+			ivar3 = 9968;
+			break;
+		case 5:
+			ivar3 = 9969;
+			break;
+		case 6:
+			ivar3 = 9970;
+			break;
+		default:
+			ivar3 = -1;
+	}
+	cs2method_10467(script_6267(ivar3), arg0);
+	cs2method_20219(5926, new WidgetPointer(-32768,3), arg1, arg2, "Iii", new WidgetPointer(arg0));
+	return;
+}

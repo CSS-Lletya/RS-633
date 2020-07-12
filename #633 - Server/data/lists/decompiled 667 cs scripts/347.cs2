@@ -1,0 +1,17 @@
+void script_347(int arg0,int arg1,int arg2) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg2 == -1) {
+			cs2method_20745(1518, new WidgetPointer(-32768,3), -2147483643, 0, "Iii");
+			cs2method_20723(347, new WidgetPointer(-32768,3), -2147483643, -2147483647, "Iii");
+		} else {
+			arg2 = subtract(arg2, divide(cs2method_10040(), 2));
+			if (arg2 >= 0) {
+				cs2method_20745(1518, new WidgetPointer(-32768,3), -2147483643, 1, "Iii");
+			} else {
+				cs2method_20745(1518, new WidgetPointer(-32768,3), -2147483643, -1, "Iii");
+			}
+			cs2method_20723(347, new WidgetPointer(-32768,3), -2147483643, -1, "Iii");
+		}
+	}
+	return;
+}

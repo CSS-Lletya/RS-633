@@ -1,0 +1,18 @@
+void script_4223() {
+	cs2method_10938(61866063, (object)"Make 100");
+	cs2method_10938(61866064, (object)"Make 50");
+	cs2method_10938(61866065, (object)"Make 10");
+	cs2method_10938(61866010, (object)"Make 100");
+	cs2method_10938(61866011, (object)"Make 50");
+	cs2method_10938(61866012, (object)"Make 10");
+	cs2method_10938(61866016, (object)"Make 100");
+	cs2method_10938(61866017, (object)"Make 50");
+	cs2method_10938(61866018, (object)"Make 10");
+	cs2method_10938(61866022, (object)"Make 100");
+	cs2method_10938(61866023, (object)"Make 50");
+	cs2method_10938(61866024, (object)"Make 10");
+	cs2method_10938(61866028, (object)"Make 100");
+	cs2method_10938(61866029, (object)"Make 50");
+	cs2method_10938(61866030, (object)"Make 10");
+	return;
+}

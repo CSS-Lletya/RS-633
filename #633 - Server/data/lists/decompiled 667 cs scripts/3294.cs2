@@ -1,0 +1,19 @@
+void script_3294(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	ivar5 = 0;
+	ivar6 = 0;
+	if (cs2method_10551(arg0, 1) == 1) {
+		if (cs2method_10551(arg0, 2) == 1) {
+			setWidgetPosition(0, add(arg3, 16), 0, 0);
+		}
+		if (cs2method_10551(arg0, 3) == 1) {
+			setWidgetPosition(0, add(subtract(add(arg3, cs2method_10630()), 5), 16), 0, 0);
+		}
+		ivar5 = subtract(subtract(cs2method_10090(arg0), 32), cs2method_10630());
+		ivar6 = subtract(cs2method_10919(arg1), cs2method_10090(arg1));
+		arg3 = divide(multiply(arg3, ivar6), ivar5);
+		script_3296(arg0, arg1, arg2, arg3, arg4);
+	}
+	return;
+}

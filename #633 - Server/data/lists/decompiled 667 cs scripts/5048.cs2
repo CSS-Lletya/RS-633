@@ -1,0 +1,27 @@
+void script_5048() {
+	int ivar0;
+	int ivar1;
+	int stack_dump0;
+	ivar0 = multiply(globalint_1396, add(add(112, 2), 2));
+	ivar1 = 0;
+	while (ivar1 < 200) {
+		if (cs2method_10551(72810511, ivar1) == 1) {
+			setWidgetSize(subtract(multiply(globalint_1396, getWidgetAttribute(1476)), 1), subtract(multiply(globalint_1396, getWidgetAttribute(1477)), 1), 0, 0);
+			stack_dump0 = 1474;
+			/* 
+				java.lang.RuntimeException: Stack underflow
+					at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	cs2method_10444(cs2method_10542(cs2method_10004(subtract(globalint_1396, 3), 0), cs2method_10004(subtract(21, 3), 1), subtract(cs2method_10956(cs2method_10740(72810544)), cs2method_10956(72810544))), 0, 0, 1, 72810544);
+	return;
+}

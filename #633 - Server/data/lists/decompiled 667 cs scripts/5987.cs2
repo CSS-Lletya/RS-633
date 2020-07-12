@@ -1,0 +1,78 @@
+void script_5987(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	if (arg0 == -1) {
+		return;
+	}
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar2 = 0;
+	ivar2 = cs2method_10860(arg0);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetSize(22, 27, 1, 0);
+	cs2method_10469(6084);
+	cs2method_10470(1);
+	cs2method_10567(1);
+	ivar2 = cs2method_10860(arg0);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(0, 0, 0, 1);
+	setWidgetSize(11, 27, 0, 0);
+	cs2method_10469(6083);
+	cs2method_10470(1);
+	ivar2 = cs2method_10860(arg0);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(0, 0, 2, 1);
+	setWidgetSize(11, 27, 0, 0);
+	cs2method_10469(6083);
+	cs2method_10470(1);
+	cs2method_10567(1);
+	ivar2 = cs2method_10860(arg0);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(21, 0, 0, 1);
+	setWidgetSize(11, 27, 0, 0);
+	cs2method_10469(6085);
+	cs2method_10470(1);
+	cs2method_10567(1);
+	ivar3 = -1;
+	switch (arg1) {
+		case 1:
+			ivar3 = 7381;
+			break;
+		case 2:
+			ivar3 = 7380;
+			break;
+		case 3:
+			ivar3 = 7384;
+			break;
+		case 4:
+			ivar3 = 7378;
+			break;
+		case 5:
+			ivar3 = 7377;
+			break;
+		case 6:
+			ivar3 = 7379;
+			break;
+		case 7:
+			ivar3 = 7376;
+			break;
+		case 9:
+			ivar3 = 7382;
+			break;
+		case 8:
+			ivar3 = 7383;
+			break;
+		case 10:
+			ivar3 = 7385;
+			break;
+		default:
+			return;
+	}
+	ivar2 = cs2method_10860(arg0);
+	createChildWidget(arg0, 5, ivar2);
+	setWidgetPosition(5, 0, 0, 1);
+	setWidgetSize(20, 20, 0, 0);
+	cs2method_10469(ivar3);
+	cs2method_10470(1);
+	return;
+}

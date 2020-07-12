@@ -1,0 +1,8 @@
+void script_5283() {
+	if (cs2method_10111(36372528) < 455) {
+		cs2method_10492(7557, 1, 0, 200, cs2method_10099(20, 20));
+		cs2method_10444(add(cs2method_10111(36372528), 10), cs2method_10826(36372528), 0, 0, 36372528);
+		cs2method_10444(add(cs2method_10111(36372529), 10), cs2method_10826(36372529), 0, 0, 36372529);
+	}
+	return;
+}

@@ -1,0 +1,96 @@
+void script_3364(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,object arg7) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	flow_0:
+		ivar7 = 0;
+		ivar8 = 0;
+		ivar9 = 0;
+		ivar10 = 0;
+		ivar11 = 0;
+		ivar12 = 0;
+		ivar13 = 0;
+		ivar14 = 0;
+		ivar15 = -1;
+		IF (arg1 == -1) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (cs2method_10403(arg0) == 1) 
+			GOTO	flow_3
+	flow_2:
+		IF (cs2method_10551(arg0, arg1) == 1) 
+			GOTO	flow_3
+		GOTO	flow_25
+	flow_3:
+		if (script_4761(arg3) == 0) {
+			return;
+		}
+		if (globalint_2 != 1) {
+			ivar7 = add(script_1743(), arg5);
+			ivar8 = add(add(script_1744(), cs2method_10630()), arg6);
+			ivar15 = cs2method_10740(arg2);
+			if (ivar15 != -1 && arg4 >= cs2method_10956(ivar15)) {
+				arg4 = cs2method_10956(ivar15);
+			}
+			ivar13 = add(4, cs2method_10242(subtract(arg4, 4), 495, arg7));
+			ivar14 = add(add(4, multiply(13, getLineCount(subtract(arg4, 4), 495, arg7))), 3);
+			if (ivar15 != -1) {
+				ivar9 = subtract(ivar7, cs2method_10774(ivar15));
+				ivar10 = subtract(ivar8, cs2method_10424(ivar15));
+				if (ivar9 < 0) {
+					ivar7 = cs2method_10774(ivar15);
+					ivar9 = 0;
+				}
+				if (ivar10 < 0) {
+					ivar8 = cs2method_10424(ivar15);
+					ivar10 = 0;
+				}
+				if (ivar9 > 0) {
+					ivar11 = add(subtract(ivar9, cs2method_10956(ivar15)), ivar13);
+					if (ivar11 > 0) {
+						ivar7 = subtract(ivar7, ivar11);
+					}
+				}
+				if (ivar10 > 0) {
+					ivar12 = add(subtract(ivar10, cs2method_10090(ivar15)), ivar14);
+					if (ivar12 > 0) {
+						ivar8 = subtract(subtract(subtract(ivar8, ivar12), cs2method_10630()), 10);
+					}
+				}
+			}
+			if (ivar7 < 0) {
+				ivar7 = 0;
+			}
+			if (ivar8 < 0) {
+				ivar8 = 0;
+			}
+			cs2method_10893(ivar13, ivar14, 0, 0, arg2);
+			cs2method_10444(ivar7, ivar8, 0, 0, arg2);
+			clearExtraChildren(new WidgetPointer(arg2));
+			createChildWidget(arg2, 3, 0);
+			setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+			setWidgetFilled(1);
+			setWidgetRGB(new Color(14, 14, 14));
+			createChildWidget(arg2, 3, 1);
+			setWidgetSize(cs2method_10956(arg2), cs2method_10090(arg2), 0, 0);
+			setWidgetFilled(0);
+			setWidgetRGB(new Color(235, 236, 230));
+			createChildWidget(arg2, 4, 2);
+			setWidgetSize(subtract(arg4, 4), cs2method_10090(arg2), 0, 0);
+			setWidgetPosition(2, 0, 0, 0);
+			setWidgetText(arg7);
+			setWidgetTextAlignment(0, 1, 0);
+			setWidgetFont(495);
+			setWidgetRGB(new Color(245, 178, 65));
+			globalint_2 = 1;
+		}
+	flow_25:
+		return;
+}

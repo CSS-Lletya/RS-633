@@ -1,0 +1,318 @@
+void script_6263() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	object ovar0;
+	object ovar1;
+	cs2func_script_6264_struct(8,0,0) structdump_0;
+	setWidgetText(new WidgetPointer(925,32), (object)toString(bitconfig_7295));
+	setWidgetText(new WidgetPointer(925,14), (object)toString(bitconfig_7285));
+	if (bitconfig_11303 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,2));
+		setWidgetIsHidden(true, new WidgetPointer(925,1));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(925,2));
+		setWidgetIsHidden(false, new WidgetPointer(925,1));
+	}
+	cs2method_10380(globalint_1118, globalint_1119, 60620829);
+	cs2method_10724(60620829, getItemName(globalint_1118));
+	cs2method_10380(globalint_1120, globalint_1121, 60620830);
+	cs2method_10724(60620830, getItemName(globalint_1120));
+	switch (globalint_1118) {
+		case 384:
+			setWidgetText(new WidgetPointer(925,63), (object)"Shark");
+			break;
+		case 372:
+			setWidgetText(new WidgetPointer(925,63), (object)"Swordfish");
+			break;
+		case 378:
+			setWidgetText(new WidgetPointer(925,63), (object)"Lobster");
+			break;
+		case 360:
+			setWidgetText(new WidgetPointer(925,63), (object)"Tuna");
+			break;
+		case 332:
+			setWidgetText(new WidgetPointer(925,63), (object)"Salmon");
+			break;
+		case 350:
+			setWidgetText(new WidgetPointer(925,63), (object)"Pike");
+			break;
+		case 336:
+			setWidgetText(new WidgetPointer(925,63), (object)"Trout");
+			break;
+		case 346:
+			setWidgetText(new WidgetPointer(925,63), (object)"Herring");
+			break;
+		case 328:
+			setWidgetText(new WidgetPointer(925,63), (object)"Sardine");
+			break;
+		case 318:
+			setWidgetText(new WidgetPointer(925,63), (object)"Shrimp");
+			break;
+		default:
+			setWidgetText(new WidgetPointer(925,63), (object)"");
+	}
+	switch (globalint_1120) {
+		case 384:
+			setWidgetText(new WidgetPointer(925,64), (object)"Shark");
+			break;
+		case 372:
+			setWidgetText(new WidgetPointer(925,64), (object)"Swordfish");
+			break;
+		case 378:
+			setWidgetText(new WidgetPointer(925,64), (object)"Lobster");
+			break;
+		case 360:
+			setWidgetText(new WidgetPointer(925,64), (object)"Tuna");
+			break;
+		case 332:
+			setWidgetText(new WidgetPointer(925,64), (object)"Salmon");
+			break;
+		case 350:
+			setWidgetText(new WidgetPointer(925,64), (object)"Pike");
+			break;
+		case 336:
+			setWidgetText(new WidgetPointer(925,64), (object)"Trout");
+			break;
+		case 346:
+			setWidgetText(new WidgetPointer(925,64), (object)"Herring");
+			break;
+		case 328:
+			setWidgetText(new WidgetPointer(925,64), (object)"Sardine");
+			break;
+		case 318:
+			setWidgetText(new WidgetPointer(925,64), (object)"Shrimp");
+			break;
+		default:
+			setWidgetText(new WidgetPointer(925,64), (object)"");
+	}
+	ivar0 = -1;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = -1;
+	ivar7 = -1;
+	structdump_0 = script_6264();
+	ivar7 = structdump_0.intpart_7;
+	ivar6 = structdump_0.intpart_6;
+	ivar5 = structdump_0.intpart_5;
+	ivar4 = structdump_0.intpart_4;
+	ivar3 = structdump_0.intpart_3;
+	ivar2 = structdump_0.intpart_2;
+	ivar1 = structdump_0.intpart_1;
+	ivar0 = structdump_0.intpart_0;
+	if (ivar4 == 0) {
+		setWidgetText(new WidgetPointer(925,65), (object)"(Insufficient tokens)");
+	} else {
+		setWidgetText(new WidgetPointer(925,65), (object)(toString(ivar4) + " tokens"));
+	}
+	if (ivar4 == 0 || bitconfig_7295 < ivar4) {
+		setWidgetIsHidden(false, new WidgetPointer(925,176));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,176));
+	}
+	ovar0 = (object)("Noted raw fish appropriate for your Fishing level:" + "<br>");
+	if (bitconfig_11303 == 1) {
+		if (ivar0 != -1) {
+			ovar0 = (object)((string)ovar0 + toString(ivar1) + "x " + (string)getItemName(ivar0) + "<br>");
+		}
+		if (ivar2 != -1) {
+			ovar0 = (object)((string)ovar0 + toString(ivar3) + "x " + (string)getItemName(ivar2) + "<br>");
+		}
+		setWidgetText(new WidgetPointer(925,197), ovar0);
+		setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(ivar4) + " tokens"));
+	}
+	ovar1 = (object)("This tackle box holds:" + "<br>");
+	ivar8 = 0;
+	ivar9 = add(bitconfig_7306, 1);
+	if (script_2189(ivar9, 0) == 1) {
+		ivar8 = add(ivar8, 1);
+	}
+	if (script_2189(ivar9, 1) == 1) {
+		ivar8 = add(ivar8, 1);
+	}
+	if (script_2189(ivar9, 2) == 1) {
+		ivar8 = add(ivar8, 1);
+	}
+	if (script_2189(ivar9, 3) == 1) {
+		ivar8 = add(ivar8, 1);
+	}
+	if (script_2189(ivar9, 4) == 1) {
+		ivar8 = add(ivar8, 1);
+	}
+	if (ivar8 == 1) {
+		ovar1 = (object)((string)ovar1 + toString(ivar8) + " fishing tool" + "<br>");
+	} else {
+		if (ivar8 > 0) {
+			ovar1 = (object)((string)ovar1 + toString(ivar8) + " fishing tools" + "<br>");
+		}
+	}
+	ivar10 = 0;
+	if (script_2189(ivar9, 5) == 1) {
+		ivar10 = add(ivar10, 1);
+	}
+	if (script_2189(ivar9, 6) == 1) {
+		ivar10 = add(ivar10, 1);
+	}
+	if (script_2189(ivar9, 7) == 1) {
+		ivar10 = add(ivar10, 1);
+	}
+	if (ivar10 == 1) {
+		ovar1 = (object)((string)ovar1 + toString(ivar10) + " stack of " + toString(script_6261(ivar9)) + " bait" + "<br>");
+	} else {
+		if (ivar10 > 0) {
+			ovar1 = (object)((string)ovar1 + toString(ivar10) + " stacks of " + toString(script_6261(ivar9)) + " bait" + "<br>");
+		}
+	}
+	ivar11 = 0;
+	if (script_2189(ivar9, 8) == 1) {
+		ivar11 = add(ivar11, 1);
+	}
+	if (script_2189(ivar9, 9) == 1) {
+		ivar11 = add(ivar11, 1);
+	}
+	if (ivar11 == 1) {
+		ovar1 = (object)((string)ovar1 + toString(ivar11) + " fishing gloves" + "<br>");
+	} else {
+		if (ivar11 > 0) {
+			ovar1 = (object)((string)ovar1 + toString(ivar11) + " fishing gloves" + "<br>");
+		}
+	}
+	ivar12 = 0;
+	if (script_2189(ivar9, 10) == 1) {
+		ivar12 = add(ivar12, 1);
+	}
+	if (ivar12 == 1) {
+		ovar1 = (object)((string)ovar1 + toString(ivar12) + " stack of " + toString(script_6262(ivar9)) + " raw fish" + "<br>");
+	} else {
+		if (ivar12 > 0) {
+			ovar1 = (object)((string)ovar1 + toString(ivar12) + " stacks of " + toString(script_6262(ivar9)) + " raw fish" + "<br>");
+		}
+	}
+	ovar1 = (object)((string)ovar1 + "The fishing outfit" + "<br>");
+	ivar4 = getDataByKey('i', 'i', 5886, ivar9);
+	if (bitconfig_11303 == 2) {
+		setWidgetText(new WidgetPointer(925,197), ovar1);
+		setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(ivar4) + " tokens"));
+	}
+	setWidgetText(new WidgetPointer(925,25), (object)(toString(ivar4) + " tokens"));
+	ivar13 = getDataByKey('i', 'i', 5887, ivar9);
+	setWidgetText(new WidgetPointer(925,24), (object)("Requires " + toString(ivar13) + " medals"));
+	if (script_259(15666) == 0 && script_259(15667) == 0 && script_259(15668) == 0 && script_259(15669) == 0 && script_259(15670) == 0 && bitconfig_7306 > 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,87));
+	} else if (bitconfig_7295 < ivar4 || bitconfig_7285 < ivar13 || bitconfig_7306 == 5) {
+		setWidgetIsHidden(false, new WidgetPointer(925,185));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,185));
+	}
+	switch (bitconfig_7306) {
+		case 0:
+			setWidgetText(new WidgetPointer(925,21), (object)"Beginner's tackle box");
+			cs2method_10380(15666, -1, 60620988);
+			break;
+		case 1:
+			setWidgetText(new WidgetPointer(925,21), (object)"Basic tackle box");
+			cs2method_10380(15667, -1, 60620988);
+			break;
+		case 2:
+			setWidgetText(new WidgetPointer(925,21), (object)"Standard tackle box");
+			cs2method_10380(15668, -1, 60620988);
+			break;
+		case 3:
+			setWidgetText(new WidgetPointer(925,21), (object)"Professional tackle box");
+			cs2method_10380(15669, -1, 60620988);
+			break;
+		case 4:
+			setWidgetText(new WidgetPointer(925,21), (object)"Champion's tackle box");
+			cs2method_10380(15670, -1, 60620988);
+			break;
+		case 5:
+			setWidgetText(new WidgetPointer(925,21), (object)"Champion's tackle box");
+			setWidgetText(new WidgetPointer(925,25), (object)"(Purchased)");
+			setWidgetText(new WidgetPointer(925,24), (object)"");
+			cs2method_10380(15670, -1, 60620988);
+	}
+	cs2method_10158(0, 0, 250, 1666, 0, 1440, 60620988);
+	cs2method_10274(24427, 0, 60620890);
+	if (bitconfig_11307 == 1) {
+		setWidgetText(new WidgetPointer(925,91), (object)"(Purchased)");
+	} else {
+		if (bitconfig_11303 == 3) {
+			setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(140) + " tokens"));
+			setWidgetText(new WidgetPointer(925,197), (object)"Wear this fishing hat to increase the amount of Fishing experience you earn.");
+		}
+		setWidgetText(new WidgetPointer(925,91), (object)(toString(140) + " tokens"));
+	}
+	if (bitconfig_11307 == 1 && script_259(24427) == 0 && bitconfig_11311 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,87));
+	} else if (bitconfig_7295 < 140 || bitconfig_11307 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(925,87));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,87));
+	}
+	cs2method_10274(24428, 0, 60620916);
+	if (bitconfig_11308 == 1) {
+		setWidgetText(new WidgetPointer(925,117), (object)"(Purchased)");
+	} else {
+		if (bitconfig_11303 == 4) {
+			setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(140) + " tokens"));
+			setWidgetText(new WidgetPointer(925,197), (object)"Wear this fishing jacket to increase the amount of Fishing experience you earn.");
+		}
+		setWidgetText(new WidgetPointer(925,117), (object)(toString(140) + " tokens"));
+	}
+	if (bitconfig_11308 == 1 && script_259(24428) == 0 && bitconfig_11312 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,113));
+	} else if (bitconfig_7295 < 140 || bitconfig_11308 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(925,113));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,113));
+	}
+	cs2method_10274(24429, 0, 60620968);
+	if (bitconfig_11309 == 1) {
+		setWidgetText(new WidgetPointer(925,169), (object)"(Purchased)");
+	} else {
+		if (bitconfig_11303 == 5) {
+			setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(140) + " tokens"));
+			setWidgetText(new WidgetPointer(925,197), (object)"Wear these fishing waders to increase the amount of Fishing experience you earn.");
+		}
+		setWidgetText(new WidgetPointer(925,169), (object)(toString(140) + " tokens"));
+	}
+	if (bitconfig_11309 == 1 && script_259(24429) == 0 && bitconfig_11313 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,165));
+	} else if (bitconfig_7295 < 140 || bitconfig_11309 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(925,165));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,165));
+	}
+	cs2method_10274(24430, 0, 60620942);
+	if (bitconfig_11310 == 1) {
+		setWidgetText(new WidgetPointer(925,143), (object)"(Purchased)");
+	} else {
+		if (bitconfig_11303 == 6) {
+			setWidgetText(new WidgetPointer(925,198), (object)("Cost: " + toString(140) + " tokens"));
+			setWidgetText(new WidgetPointer(925,197), (object)"Wear these fishing boots to increase the amount of Fishing experience you earn.");
+		}
+		setWidgetText(new WidgetPointer(925,143), (object)(toString(140) + " tokens"));
+	}
+	if (bitconfig_11310 == 1 && script_259(24430) == 0 && bitconfig_11314 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(925,139));
+	} else if (bitconfig_7295 < 140 || bitconfig_11310 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(925,139));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(925,139));
+	}
+	return;
+}

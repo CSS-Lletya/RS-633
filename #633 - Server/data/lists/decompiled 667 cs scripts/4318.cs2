@@ -1,0 +1,23 @@
+void script_4318() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = 71827533;
+	ivar1 = 71827534;
+	ivar2 = 23;
+	ivar3 = cs2method_10004(cs2method_10090(ivar1), multiply(add(divide(globalint_1517, 2), 1), ivar2));
+	ivar4 = cs2method_10424(ivar1);
+	if (ivar3 > cs2method_10090(71827534)) {
+		setWidgetScrollMax(cs2method_10956(ivar1), ivar3, ivar1);
+		cs2method_10085(0, ivar4, ivar1);
+		setWidgetIsHidden(false, new WidgetPointer(ivar0));
+		script_31(ivar0, ivar1, 5666, 5663, 5664, 5665, 5686, 5685);
+	} else {
+		setWidgetScrollMax(cs2method_10956(ivar1), cs2method_10090(ivar1), ivar1);
+		cs2method_10085(0, 0, ivar1);
+		script_31(ivar0, ivar1, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	return;
+}

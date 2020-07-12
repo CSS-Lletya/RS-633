@@ -1,0 +1,13 @@
+int script_6304() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	while (ivar0 < 10) {
+		if (cs2method_10366((object)script_6302(ivar0)) > 0) {
+			ivar1 = add(ivar1, 1);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return ivar1;
+}

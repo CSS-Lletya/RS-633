@@ -1,0 +1,3 @@
+int script_6417(int arg0,int arg1,object arg2,object arg3) {
+	return script_6420(arg0, arg1, (object)((string)arg3 + (string)arg2 + "</col>"));
+}

@@ -1,0 +1,55 @@
+void script_2710(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int stack_dump0;
+	cs2func_script_1239_struct(2,0,0) structdump_1;
+	cs2method_10149(0, arg2);
+	cs2method_20219(-1, "", new WidgetPointer(arg2));
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	cs2method_20219(-1, "", new WidgetPointer(arg0));
+	cs2method_20808(-1, "", new WidgetPointer(arg0));
+	setWidgetIsHidden(true, new WidgetPointer(arg0));
+	cs2method_10570(1);
+	cs2method_20219(-1, "", new WidgetPointer(arg1));
+	setWidgetRGB(0, arg1);
+	cs2method_10149(0, arg1);
+	setWidgetIsHidden(false, new WidgetPointer(arg1));
+	if (globalint_994 == 1) {
+		globalint_986 = 1;
+	} else {
+		if (globalint_994 != 2) {
+			if (cs2method_10439() > 400) {
+				globalint_994 = 1;
+				globalint_986 = 1;
+				if (cs2method_10842() > 1) {
+					cs2method_10673(1);
+				}
+				if (cs2method_10932() > 1) {
+					cs2method_10698(1);
+				}
+			} else {
+				globalint_994 = 2;
+			}
+		}
+	}
+	setScriptCallOnMousePressed(2713, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), "IIIIII", new WidgetPointer(arg3));
+	cs2method_20835(2961, new WidgetPointer(arg4), new WidgetPointer(arg5), 1, "II1", new WidgetPointer(arg3));
+	cs2method_20295(2961, new WidgetPointer(arg4), new WidgetPointer(arg5), 0, "II1", new WidgetPointer(arg3));
+	globalint_986 = 1;
+	if (globalint_986 == 1) {
+		cs2method_10467(2700, arg4);
+		return;
+	}
+	ivar6 = -1;
+	ivar7 = 0;
+	stack_dump0 = 0;
+	structdump_1 = script_1239(stack_dump0);
+	ivar7 = structdump_1.intpart_1;
+	ivar6 = structdump_1.intpart_0;
+	cs2method_10583(ivar6, 1000, 100, 100);
+	cs2method_10258(ivar6, 0, 100, 100);
+	cs2method_10467(2703, arg4);
+	globalint_177 = add(add(cs2method_10878(), 30), 30);
+	cs2method_20219(2712, new WidgetPointer(arg0), new WidgetPointer(arg2), new WidgetPointer(arg1), "III", new WidgetPointer(arg2));
+	return;
+}

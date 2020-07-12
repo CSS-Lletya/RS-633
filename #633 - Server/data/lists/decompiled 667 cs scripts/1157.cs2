@@ -1,0 +1,28 @@
+void script_1157(int arg0) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (cs2method_10842() >= 2) {
+		setWidgetIsHidden(false, new WidgetPointer(746,22));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(752,3));
+	setWidgetIsHidden(true, new WidgetPointer(752,7));
+	setWidgetIsHidden(true, new WidgetPointer(752,8));
+	if (script_42(globalint_266) == 0) {
+		globalstring_38 = "";
+		globalstring_39 = "";
+		globalint_266 = 1;
+	}
+	if (cs2method_10366((object)globalstring_38) > 0) {
+		setWidgetText(new WidgetPointer(752,4), (object)("Edit the name of your caller:" + "<br>" + "(Delete it to disable this feature.)"));
+	} else {
+		setWidgetText(new WidgetPointer(752,4), (object)"Enter the name of your caller:");
+	}
+	globalint_5 = 12;
+	script_1564((object)globalstring_38);
+	setScriptCallOnMousePressed(1805, "", new WidgetPointer(752,3));
+	script_2026();
+	setScriptCallOnKeyPress(112, -2147483640, false, "iz", new WidgetPointer(752,5));
+	script_1188();
+	return;
+}

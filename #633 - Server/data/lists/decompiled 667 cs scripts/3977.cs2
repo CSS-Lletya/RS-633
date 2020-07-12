@@ -1,0 +1,239 @@
+void script_3977(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	int stack_dump0;
+	cs2func_script_3995_struct(2,1,0) structdump_1;
+	flow_0:
+		script_41(69206147);
+		if (arg0 == 0 && standart_config_281 < 1000) {
+			arg0 = 4094;
+		}
+		if (script_3999(arg0) == 1) {
+			return;
+		}
+		ivar1 = -1;
+		ovar0 = (object)"";
+		ovar1 = (object)"";
+		ivar1 = script_5795(arg0);
+		ivar2 = add(multiply(subtract(getGeneralRequirementAttribute(ivar1, 1293), 1), 5), getGeneralRequirementAttribute(ivar1, 1272));
+		ivar3 = getDataByKey('i', 'J', 3494, ivar2);
+		script_5796(arg0, 1, 69206146, 69206104, 69206140, 69206145, 69206144, -1);
+		if (ivar1 != -1) {
+			if (getGeneralRequirementAttribute(ivar1, 1270) != 4094) {
+				ovar0 = (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(ivar1, 1270)), 951);
+			} else {
+				ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1292);
+			}
+			setWidgetFont(3793, 69206140);
+			setWidgetTextAlignment(0, 0, 13, 69206140);
+			ovar1 = (object)("Task area: " + getDataByKey('i', 's', 3487, getGeneralRequirementAttribute(ivar1, 1267)));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(1056,131), (string)ovar1, 45, 135, "IIsii", new WidgetPointer(1056,128));
+			ovar1 = (object)("Task difficulty: " + getDataByKey('i', 's', 3488, getGeneralRequirementAttribute(ivar1, 1272)));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(1056,131), (string)ovar1, 45, 135, "IIsii", new WidgetPointer(1056,129));
+		}
+		ovar2 = (object)"";
+		if (compareTo(ovar0, (object)"") == 0 && standart_config_281 == 1000 && getGeneralRequirementAttribute(ivar1, 1322) == 0) {
+			ovar0 = (object)"Completing this Task will earn you coins. The more Tasks you complete, the more any Task is worth.";
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1056,73));
+		setWidgetIsHidden(true, new WidgetPointer(1056,74));
+		setWidgetIsHidden(true, new WidgetPointer(1056,75));
+		setWidgetIsHidden(true, new WidgetPointer(1056,76));
+		setWidgetIsHidden(true, new WidgetPointer(1056,77));
+		setWidgetIsHidden(true, new WidgetPointer(1056,78));
+		setWidgetIsHidden(true, new WidgetPointer(1056,79));
+		setWidgetIsHidden(true, new WidgetPointer(1056,80));
+		setWidgetIsHidden(true, new WidgetPointer(1056,81));
+		setWidgetIsHidden(true, new WidgetPointer(1056,82));
+		setWidgetIsHidden(true, new WidgetPointer(1056,83));
+		setWidgetIsHidden(true, new WidgetPointer(1056,84));
+		setWidgetIsHidden(true, new WidgetPointer(1056,163));
+		setWidgetIsHidden(true, new WidgetPointer(1056,164));
+		setWidgetIsHidden(true, new WidgetPointer(1056,165));
+		setWidgetIsHidden(true, new WidgetPointer(1056,166));
+		ivar4 = 10;
+		ivar5 = 0;
+		ivar6 = 15;
+		ivar7 = 0;
+		ovar3 = (object)"";
+		ivar8 = 0;
+		stack_dump0 = arg0;
+		structdump_1 = script_3995(stack_dump0);
+		ivar8 = structdump_1.intpart_1;
+		ovar3 = structdump_1.objectpart_0;
+		ivar7 = structdump_1.intpart_0;
+		if (cs2method_10145() == 1 || cs2method_10145() == 3 || cs2method_10145() == 2) {
+			setWidgetIsHidden(true, new WidgetPointer(1056,116));
+			setWidgetIsHidden(true, new WidgetPointer(1056,136));
+		} else {
+			if (cs2method_10145() == 0) {
+				setWidgetText(new WidgetPointer(1056,115), (object)"    Pin");
+				setWidgetText(new WidgetPointer(1056,135), (object)"     Back");
+			}
+			setWidgetIsHidden(false, new WidgetPointer(1056,116));
+			setWidgetIsHidden(false, new WidgetPointer(1056,136));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1274), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1282) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(1, ivar4, 69206089, ivar5, 69206090, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1274));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1275), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1283) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(2, ivar4, 69206091, ivar5, 69206092, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1275));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1276), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1284) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(3, ivar4, 69206093, ivar5, 69206094, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1276));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1277), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1285) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(4, ivar4, 69206095, ivar5, 69206096, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1277));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1278), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1286) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(5, ivar4, 69206097, ivar5, 69206098, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1278));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1279), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1287) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(6, ivar4, 69206099, ivar5, 69206100, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1279));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1280), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1288) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(7, ivar4, 69206179, ivar5, 69206180, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1280));
+		}
+		if (compareTo((object)getGeneralRequirementAttribute(ivar1, 1281), (object)"") != 0) {
+			if (getGeneralRequirementAttribute(ivar1, 1289) != -1) {
+				ivar5 = arg0;
+			} else {
+				ivar5 = 4094;
+			}
+			ivar4 = script_3978(8, ivar4, 69206181, ivar5, 69206182, 69206134, (object)getGeneralRequirementAttribute(ivar1, 1281));
+		}
+		ivar4 = cs2method_10004(ivar4, cs2method_10090(69206134));
+		setWidgetScrollMax(0, ivar4, 69206134);
+		script_31(69206135, 69206134, 4343, 4340, 4341, 4342, 4337, 4336);
+		if (ivar4 > cs2method_10090(69206134)) {
+			setWidgetIsHidden(false, new WidgetPointer(1056,119));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1056,119));
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1056,63));
+		setWidgetIsHidden(true, new WidgetPointer(1056,64));
+		setWidgetIsHidden(true, new WidgetPointer(1056,65));
+		setWidgetIsHidden(true, new WidgetPointer(1056,66));
+		setWidgetIsHidden(true, new WidgetPointer(1056,67));
+		setWidgetIsHidden(true, new WidgetPointer(1056,68));
+		setWidgetIsHidden(true, new WidgetPointer(1056,69));
+		setWidgetIsHidden(true, new WidgetPointer(1056,70));
+		ivar4 = script_3978(0, 10, 69206078, 4094, -1, 69206087, ovar0);
+		if (ivar3 != -1 && ivar3 != 1645) {
+			ivar4 = script_3978(0, ivar4, 69206079, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1273));
+			ivar4 = script_3978(0, ivar4, 69206080, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1292));
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1274), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206081, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1274));
+			}
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1275), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206082, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1275));
+			}
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1276), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206083, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1276));
+			}
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1277), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206084, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1277));
+			}
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1278), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206085, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1278));
+			}
+			if (compareTo((object)getGeneralRequirementAttribute(ivar3, 1279), (object)"") != 0) {
+				ivar4 = script_3978(0, ivar4, 69206086, 4094, -1, 69206087, (object)getGeneralRequirementAttribute(ivar3, 1279));
+			}
+		}
+		ivar4 = cs2method_10004(ivar4, cs2method_10090(69206087));
+		setWidgetScrollMax(0, ivar4, 69206087);
+		script_31(69206107, 69206087, 4343, 4340, 4341, 4342, 4337, 4336);
+		if (ivar4 > cs2method_10090(69206087)) {
+			setWidgetIsHidden(false, new WidgetPointer(1056,91));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1056,91));
+		}
+		ovar4 = (object)"";
+		ivar9 = 5;
+		IF (getGeneralRequirementAttribute(ivar1, 1267) == 60) 
+			GOTO	flow_80
+		GOTO	flow_85
+	flow_80:
+		setWidgetIsHidden(true, new WidgetPointer(1056,85));
+		setWidgetIsHidden(true, new WidgetPointer(1056,125));
+		if (standart_config_281 < 135 && bitconfig_9029 == 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1056,87));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(1056,87));
+		}
+		GOTO	flow_92
+	flow_85:
+		setWidgetIsHidden(false, new WidgetPointer(1056,87));
+		IF (script_3227(arg0) == 2) 
+			GOTO	flow_88
+		IF (bitconfig_9030 == 1) 
+			GOTO	flow_86
+		GOTO	flow_87
+	flow_86:
+		IF (bitconfig_10700 != arg0) 
+			GOTO	flow_88
+	flow_87:
+		IF (script_3999(arg0) == 1 || arg0 == bitconfig_8576) 
+			GOTO	flow_88
+		GOTO	flow_89
+	flow_88:
+		setWidgetIsHidden(true, new WidgetPointer(1056,85));
+		GOTO	flow_90
+	flow_89:
+		setWidgetIsHidden(false, new WidgetPointer(1056,85));
+	flow_90:
+		if (bitconfig_10700 == arg0) {
+			setWidgetIsHidden(false, new WidgetPointer(1056,125));
+		}
+	flow_92:
+		cs2method_10893(0, add(15, ivar4), 1, 0, 69206108);
+		return;
+}

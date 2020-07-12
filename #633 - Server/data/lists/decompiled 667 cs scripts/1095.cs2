@@ -1,0 +1,7 @@
+void script_1095() {
+	opc_struct10777(2,0,0) structdump_0;
+	script_1097();
+	structdump_0 = cs2method_10777();
+	cs2method_10893(structdump_0.intpart_0, structdump_0.intpart_1, 0, 0, 48889867);
+	return;
+}

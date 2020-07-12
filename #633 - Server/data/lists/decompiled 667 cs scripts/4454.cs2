@@ -1,0 +1,13 @@
+void script_4454(int arg0,int arg1) {
+	if (cs2method_10600() == 1) {
+		cs2method_20219(-1, "", new WidgetPointer(1110,53));
+		script_4444(globalint_1506);
+	} else {
+		cs2method_10467(6256, 72745052);
+		if (subtract(cs2method_10878(), arg1) > 200) {
+			script_4445();
+			cs2method_20219(4454, new WidgetPointer(arg0), cs2method_10878(), "Ii", new WidgetPointer(1110,53));
+		}
+	}
+	return;
+}

@@ -1,0 +1,41 @@
+void script_2848(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	ivar6 = 0;
+	ivar7 = 0;
+	if (arg2 != -1) {
+		if (arg3 == -1) {
+			if (cs2method_10403(arg2) == 1 && arg2 == 31064075) {
+				ivar6 = arg4;
+				ivar7 = arg5;
+				if (cs2method_10551(arg0, arg1) == 1) {
+					setWidgetPosition(getDataByKey('i', 'i', 905, arg1), getDataByKey('i', 'i', 906, arg1), 0, 0);
+				}
+			}
+		} else {
+			if (arg3 < 9) {
+				return;
+			}
+			if (script_2849(subtract(arg3, 9)) == 0) {
+				if (cs2method_10551(arg2, arg3) == 1) {
+					ivar6 = cs2method_10646();
+					ivar7 = cs2method_10207();
+				}
+				if (cs2method_10551(arg0, arg1) == 1) {
+					switch (cs2method_10742(2)) {
+						case 0:
+							cs2method_10508(8502, 1, 0);
+							break;
+						case 1:
+							cs2method_10508(8518, 1, 0);
+							break;
+						case 2:
+							cs2method_10508(8515, 1, 0);
+					}
+					setWidgetPosition(ivar6, ivar7, 0, 0);
+				}
+			}
+		}
+	}
+	return;
+}

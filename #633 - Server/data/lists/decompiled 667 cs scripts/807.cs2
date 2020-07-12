@@ -1,0 +1,12 @@
+int script_807(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10453(arg0) > 0) {
+		if (arg0 == 5) {
+			ivar1 = cs2method_10542(script_5256(), script_5255(), 100);
+		} else {
+			ivar1 = divide(multiply(100, cs2method_10391(arg0)), cs2method_10453(arg0));
+		}
+	}
+	return ivar1;
+}

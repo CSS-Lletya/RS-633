@@ -1,0 +1,8 @@
+void script_2308(int arg0,int arg1) {
+	if (cs2method_10842() >= 2) {
+		cs2method_10467(8624, arg0);
+	} else {
+		cs2method_10467(784, arg0);
+	}
+	return;
+}

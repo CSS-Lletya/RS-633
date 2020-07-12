@@ -1,0 +1,14 @@
+void script_2958() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 1019;
+	ivar1 = 1020;
+	if (cs2method_10842() >= 2) {
+		ivar0 = 8558;
+		ivar1 = 8560;
+		cs2method_10467(8558, 49217551);
+	}
+	cs2method_20333(44, new WidgetPointer(-32768,3), ivar1, "Id", new WidgetPointer(751,15));
+	cs2method_20295(44, new WidgetPointer(-32768,3), ivar0, "Id", new WidgetPointer(751,15));
+	return;
+}

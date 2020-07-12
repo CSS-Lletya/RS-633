@@ -1,0 +1,26 @@
+void script_3356(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = cs2method_10234(arg2, arg1);
+	if (ivar3 == -1) {
+		cs2method_10380(-1, 0, arg0);
+		cs2method_10893(32, 32, 0, 0, arg0);
+		cs2method_10444(0, 0, 1, 1, arg0);
+		cs2method_10467(getDataByKey('i', 'd', 796, arg1), arg0);
+		cs2method_10163(0, arg0);
+		cs2method_10550(0, arg0);
+		cs2method_20000(-1, "", new WidgetPointer(arg0));
+		cs2method_10831(arg0);
+		return;
+	}
+	cs2method_10893(36, 32, 0, 0, arg0);
+	cs2method_10444(2, 0, 0, 1, arg0);
+	cs2method_10380(ivar3, cs2method_10925(arg2, arg1), arg0);
+	cs2method_10163(1, arg0);
+	cs2method_10550(3153952, arg0);
+	cs2method_10831(arg0);
+	cs2method_10375(10, arg0, (object)("Examine" + "<col=ff9040>"));
+	cs2method_10724(arg0, (object)("<col=ff9040>" + (string)getItemName(ivar3)));
+	cs2method_20835(5495, ivar3, "o", new WidgetPointer(arg0));
+	cs2method_20295(5495, -1, "o", new WidgetPointer(arg0));
+	return;
+}

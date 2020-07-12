@@ -1,0 +1,14 @@
+void script_4059(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 5;
+	if (cs2method_10826(arg0) >= 0) {
+		cs2method_10444(0, 0, 1, 0, arg0);
+		globalint_1432 = 0;
+		cs2method_10375(1, 69337090, (object)"Select");
+		cs2method_10375(1, 69337091, (object)"Select");
+		cs2method_20219(-1, "", new WidgetPointer(arg1));
+	} else {
+		cs2method_10444(0, add(cs2method_10826(arg0), ivar2), 1, 0, arg0);
+	}
+	return;
+}

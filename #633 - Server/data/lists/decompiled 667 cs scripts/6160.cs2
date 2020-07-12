@@ -1,0 +1,21 @@
+void script_6160() {
+	script_6162();
+	switch (cs2method_10145()) {
+		case 1:
+			cs2method_10467(10719, 83427369);
+			break;
+		case 2:
+			cs2method_10467(10720, 83427369);
+			break;
+		case 3:
+			cs2method_10467(10718, 83427369);
+			break;
+		default:
+			cs2method_10467(10717, 83427369);
+	}
+	cs2method_20219(6164, new WidgetPointer(1273,13), 0, "Ii", new WidgetPointer(1273,13));
+	if (isMember() == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1273,30));
+	}
+	return;
+}

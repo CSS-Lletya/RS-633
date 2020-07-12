@@ -1,0 +1,4 @@
+void script_5525() {
+	script_1163(60030980, -1, 59310109, 25, 190, (object)"Back to tool selection");
+	return;
+}

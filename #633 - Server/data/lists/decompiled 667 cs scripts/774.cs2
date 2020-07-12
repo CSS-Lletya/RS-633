@@ -1,0 +1,5 @@
+void script_774(int arg0,int arg1) {
+	cs2method_10274(standart_config_851, 1, arg0);
+	cs2method_10274(standart_config_852, 1, arg1);
+	return;
+}

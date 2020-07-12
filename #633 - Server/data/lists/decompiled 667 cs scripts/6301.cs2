@@ -1,0 +1,9 @@
+void script_6301() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 < 10) {
+		script_6303(ivar0, (object)"");
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

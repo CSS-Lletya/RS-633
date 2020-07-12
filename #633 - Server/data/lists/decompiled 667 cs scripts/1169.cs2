@@ -1,0 +1,6 @@
+void script_1169(int arg0,int arg1,object arg2) {
+	int ivar2;
+	ivar2 = (int)getDataByKey('i', 'I', 737, arg1);
+	cs2method_20219(1168, arg0, (string)arg2, new WidgetPointer(ivar2), "isI", new WidgetPointer(ivar2));
+	return;
+}

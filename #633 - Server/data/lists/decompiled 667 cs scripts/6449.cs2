@@ -1,0 +1,65 @@
+int script_6449(int arg0,int arg1,int arg2,object arg3) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int stack_dump0;
+	int stack_dump1;
+	opc_struct10678(2,0,0) structdump_2;
+	opc_struct10678(2,0,0) structdump_3;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 12;
+	ivar7 = -1;
+	if (arg2 == 85655560) {
+		ivar7 = 85655587;
+	} else {
+		if (arg2 == 85655617) {
+			ivar7 = 85655618;
+		}
+	}
+	ivar3 = cs2method_10466(62, subtract(arg1, 1), arg3);
+	switch (arg0) {
+		case 96:
+			if (cs2method_10466(62, subtract(arg1, 1), arg3) == subtract(arg1, 1) && cs2method_10466(60, subtract(arg1, 4), arg3) == subtract(arg1, 4)) {
+				return subtract(arg1, 4);
+			}
+			return cs2method_10004(subtract(arg1, 1), 0);
+		case 97:
+			if (cs2method_10466(60, arg1, arg3) == arg1 && cs2method_10466(62, add(arg1, 3), arg3) == add(arg1, 3)) {
+				return add(arg1, 4);
+			}
+			return cs2method_10586(add(arg1, 1), cs2method_10366(arg3));
+		case 98:
+			ivar3 = subtract(cs2method_10826(ivar7), ivar6);
+			if (ivar3 >= 0) {
+				ivar3 = cs2method_10102(cs2method_10111(ivar7), ivar3, arg2);
+				stack_dump0 = ivar3;
+				stack_dump1 = arg2;
+				structdump_2 = cs2method_10678(stack_dump0, stack_dump1);
+				ivar5 = structdump_2.intpart_1;
+				ivar4 = structdump_2.intpart_0;
+				script_6446(ivar4, ivar5, arg2, ivar7);
+				return ivar3;
+			}
+			return 0;
+		case 99:
+			ivar3 = add(cs2method_10826(ivar7), ivar6);
+			if (ivar3 <= cs2method_10090(arg2)) {
+				ivar3 = cs2method_10102(cs2method_10111(ivar7), ivar3, arg2);
+				stack_dump0 = ivar3;
+				stack_dump1 = arg2;
+				structdump_3 = cs2method_10678(stack_dump0, stack_dump1);
+				ivar5 = structdump_3.intpart_1;
+				ivar4 = structdump_3.intpart_0;
+				script_6446(ivar4, ivar5, arg2, ivar7);
+				return ivar3;
+			}
+			return cs2method_10366(arg3);
+		case 102:
+			return 0;
+	}
+	return cs2method_10366(arg3);
+}

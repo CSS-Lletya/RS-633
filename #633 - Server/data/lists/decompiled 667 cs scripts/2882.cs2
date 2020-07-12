@@ -1,0 +1,11 @@
+void script_2882() {
+	if (bitconfig_4393 == 1 || bitconfig_542 == 1) {
+		return;
+	}
+	if (bitconfig_7078 == 0) {
+		script_39(12255243, 12255249, 25, 189, (object)"Playlist on");
+	} else {
+		script_39(12255243, 12255249, 25, 189, (object)"Playlist off");
+	}
+	return;
+}

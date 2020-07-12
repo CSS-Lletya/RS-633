@@ -1,0 +1,18 @@
+void script_726(int arg0,int arg1) {
+	if (cs2method_10837(arg1) == 0 || globalint_199 == -1) {
+		clearExtraChildren(new WidgetPointer(arg0));
+		globalint_199 = -1;
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		cs2method_20374(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	cs2method_20219(727, new WidgetPointer(arg0), new WidgetPointer(arg1), "II", new WidgetPointer(arg0));
+	cs2method_20374(726, new WidgetPointer(arg0), new WidgetPointer(arg1), "II", new WidgetPointer(arg0));
+	createChildWidget(arg0, 3, 0);
+	setWidgetPosition(0, 0, 3, 3);
+	setWidgetSize(16384, 16384, 2, 2);
+	setWidgetRGB(new Color(globalint_199));
+	cs2method_10305(globalint_213);
+	setWidgetFilled(1);
+	return;
+}

@@ -1,0 +1,5 @@
+void script_1932() {
+	setWidgetIsHidden(false, new WidgetPointer(811,4));
+	setWidgetRGB(16777215, 53149701);
+	return;
+}

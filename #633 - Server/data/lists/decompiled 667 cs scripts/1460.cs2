@@ -1,0 +1,20 @@
+void script_1460(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar2 = (int)getDataByKey('i', 'I', 1614, arg0);
+	ivar3 = (int)getDataByKey('i', 'I', 1615, arg0);
+	setWidgetIsHidden(false, new WidgetPointer(ivar2));
+	setWidgetIsHidden(false, new WidgetPointer(ivar3));
+	cs2method_10274(getItemIdInContainerSlot(95, arg1), cs2method_10136(95, arg1), ivar3);
+	cs2method_10163(1, ivar3);
+	cs2method_10550(3355443, ivar3);
+	cs2method_10831(ivar2);
+	cs2method_10375(1, ivar2, (object)("View tab " + toString(arg0)));
+	cs2method_10375(2, ivar2, (object)("Collapse tab " + toString(arg0)));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar2));
+	ovar0 = (object)("Click here to select tab " + toString(arg0));
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(762,121), (string)ovar0, 25, 150, "IIsii", new WidgetPointer(ivar2));
+	cs2method_20295(40, new WidgetPointer(762,121), "I", new WidgetPointer(ivar2));
+	return;
+}

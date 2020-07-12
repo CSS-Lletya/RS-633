@@ -1,0 +1,9 @@
+void script_6384() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 86;
+	cs2method_10893(cs2method_10586(cs2method_10004(cs2method_10542(ivar0, 100, globalint_1948), 0), ivar0), cs2method_10090(85393418), 0, 0, 85393418);
+	ivar1 = cs2method_10542(bitconfig_7198, script_2916(), 100);
+	cs2method_10893(cs2method_10586(cs2method_10004(cs2method_10542(ivar0, 100, ivar1), 0), ivar0), cs2method_10090(85393420), 0, 0, 85393420);
+	return;
+}

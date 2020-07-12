@@ -1,0 +1,17 @@
+void script_570(object arg0) {
+	setWidgetIsHidden(true, new WidgetPointer(752,8));
+	setWidgetIsHidden(true, new WidgetPointer(752,3));
+	setWidgetIsHidden(false, new WidgetPointer(752,7));
+	setScriptCallOnKeyPress(574, -2147483640, false, "iz", new WidgetPointer(389,9));
+	setWidgetText(new WidgetPointer(389,6), arg0);
+	setWidgetIsHidden(false, new WidgetPointer(389,5));
+	cs2method_10380(-1, -1, 25493519);
+	script_1188();
+	globalstring_22 = "";
+	setWidgetText(new WidgetPointer(389,9), (object)"*");
+	clearExtraChildren(new WidgetPointer(389,4));
+	setWidgetScrollMax(0, 15, 25493508);
+	script_31(25493512, 25493508, 792, 789, 790, 791, 773, 788);
+	cs2method_20590(572, "", new WidgetPointer(389,9));
+	return;
+}

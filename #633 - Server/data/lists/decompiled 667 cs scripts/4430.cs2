@@ -1,0 +1,6 @@
+void script_4430(int arg0,int arg1) {
+	cs2method_10467(6242, arg1);
+	cs2method_20147(-1, "", new WidgetPointer(arg0));
+	setWidgetIsHidden(true, new WidgetPointer(1110,86));
+	return;
+}

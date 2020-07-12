@@ -1,0 +1,14 @@
+void script_3009(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	cs2method_10893(13, 88, 0, 0, arg1);
+	cs2method_10467(4681, arg1);
+	cs2method_10893(26, 88, 1, 0, arg2);
+	cs2method_10467(4682, arg2);
+	cs2method_10893(13, 88, 0, 0, arg3);
+	cs2method_10467(4684, arg3);
+	cs2method_10467(2673, arg5);
+	cs2method_10893(13, 88, 0, 0, arg6);
+	cs2method_10467(4683, arg6);
+	cs2method_20333(-1, "", new WidgetPointer(arg0));
+	cs2method_20295(-1, "", new WidgetPointer(arg0));
+	return;
+}

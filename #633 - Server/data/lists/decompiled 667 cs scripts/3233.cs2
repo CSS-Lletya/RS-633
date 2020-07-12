@@ -1,0 +1,9 @@
+void script_3233(object arg0) {
+	int ivar0;
+	ivar0 = 39059469;
+	if (cs2method_10637() == 1) {
+		ivar0 = 63897604;
+	}
+	setWidgetText(new WidgetPointer(ivar0), arg0);
+	return;
+}

@@ -1,0 +1,22 @@
+void script_6166() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = cs2method_10624(5838);
+	setWidgetIsHidden(false, new WidgetPointer(1273,14));
+	while (ivar0 < cs2method_10624(5838)) {
+		createChildWidget(83427342, 5, ivar0);
+		ivar0 = add(ivar0, 1);
+	}
+	ivar1 = script_6173(ivar1, 83427342);
+	ivar0 = 0;
+	while (ivar0 < divide(cs2method_10624(5838), 2)) {
+		if (cs2method_10551(83427342, ivar0) == 1) {
+			cs2method_10840();
+			ivar1 = script_6172(ivar0, ivar1);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	cs2method_20219(6167, 0, ivar1, "ii", new WidgetPointer(1273,14));
+	return;
+}

@@ -1,0 +1,45 @@
+void script_5881() {
+	int ivar0;
+	int ivar1;
+	ivar0 = cs2method_10004(0, add(add(globalint_1800, bitconfig_10862), bitconfig_11026));
+	setWidgetText(new WidgetPointer(1253,95), (object)toString(ivar0));
+	setWidgetText(new WidgetPointer(1253,161), (object)toString(ivar0));
+	setWidgetText(new WidgetPointer(1253,88), (object)toString(bitconfig_10862));
+	setWidgetText(new WidgetPointer(1253,89), (object)toString(globalint_1800));
+	setWidgetText(new WidgetPointer(1253,90), (object)toString(bitconfig_11026));
+	setWidgetText(new WidgetPointer(1139,10), (object)toString(ivar0));
+	setWidgetRGB(14014940, 82116696);
+	setWidgetRGB(14014940, 82116697);
+	setWidgetRGB(14014940, 82116698);
+	setWidgetRGB(14014940, 82116693);
+	setWidgetRGB(14014940, 82116694);
+	setWidgetRGB(14014940, 82116695);
+	ivar1 = 0;
+	if (bitconfig_10862 > 0) {
+		setWidgetRGB(15906625, 82116696);
+		setWidgetRGB(15906625, 82116693);
+	} else if (bitconfig_11026 > 0) {
+		setWidgetRGB(15906625, 82116698);
+		setWidgetRGB(15906625, 82116695);
+	} else {
+		if (globalint_1800 > 0) {
+			setWidgetRGB(15906625, 82116697);
+			setWidgetRGB(15906625, 82116694);
+		}
+	}
+	ivar1 = 1;
+	if (cs2method_10669() == 1) {
+		ivar1 = 2;
+	}
+	if (bitconfig_10862 >= ivar1) {
+		setWidgetRGB(14822444, 82116696);
+	}
+	if (globalint_1800 >= 600) {
+		setWidgetRGB(14822444, 82116697);
+	}
+	if (bitconfig_11026 >= 10) {
+		setWidgetRGB(14822444, 82116698);
+	}
+	script_1968();
+	return;
+}

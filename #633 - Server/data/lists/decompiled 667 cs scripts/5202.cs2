@@ -1,0 +1,47 @@
+void script_5202(int arg0) {
+	int ivar1;
+	if (arg0 == 1) {
+		globalint_1597 = bitconfig_9671;
+		globalint_1598 = bitconfig_9672;
+		globalint_1599 = bitconfig_9673;
+		globalint_1600 = bitconfig_9674;
+		globalint_1601 = bitconfig_9675;
+	}
+	switch (globalint_1600) {
+		case 0:
+			cs2method_10461(43803, 73531466);
+			break;
+		case 1:
+			cs2method_10461(43796, 73531466);
+			break;
+		case 2:
+			cs2method_10461(43790, 73531466);
+			break;
+		case 3:
+			cs2method_10461(43779, 73531466);
+			break;
+		case 4:
+			cs2method_10461(43795, 73531466);
+	}
+	switch (bitconfig_9646) {
+		case 1:
+			cs2method_10882(2, 1303, 1298, 73531466);
+			break;
+		case 2:
+			cs2method_10882(2, 1303, 1303, 73531466);
+			break;
+		case 3:
+			cs2method_10882(2, 1303, 1301, 73531466);
+	}
+	ivar1 = getDataByKey('i', 'J', 4850, globalint_1601);
+	if (ivar1 == -1) {
+		cs2method_10882(1, 1304, 1299, 73531466);
+	} else {
+		cs2method_10882(1, 1304, getGeneralRequirementAttribute(ivar1, 1884), 73531466);
+	}
+	cs2method_10408(0, 41506, globalint_1597, 73531466);
+	cs2method_10408(1, 41497, script_5183(globalint_1597, 0, 0, -9), 73531466);
+	cs2method_10408(2, 13434, globalint_1598, 73531466);
+	cs2method_10408(3, 7102, globalint_1599, 73531466);
+	return;
+}

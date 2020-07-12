@@ -1,0 +1,8 @@
+void script_6416(object arg0) {
+	setWidgetIsHidden(false, new WidgetPointer(746,213));
+	globalint_1688 = 1;
+	clearExtraChildren(new WidgetPointer(746,213));
+	script_5490(arg0);
+	script_5489();
+	return;
+}

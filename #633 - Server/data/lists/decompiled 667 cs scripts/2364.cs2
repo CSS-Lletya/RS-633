@@ -1,0 +1,30 @@
+void script_2364(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int stack_dump0;
+	ivar1 = 1;
+	ivar2 = 0;
+	ivar3 = -1;
+	ivar4 = -1;
+	while (ivar1 < 9) {
+		ivar3 = (int)getDataByKey('i', 'I', 2352, ivar1);
+		if (cs2method_10403(ivar3) == 1) {
+			stack_dump0 = 1224;
+			/* 
+				java.lang.RuntimeException: Stack underflow
+					at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

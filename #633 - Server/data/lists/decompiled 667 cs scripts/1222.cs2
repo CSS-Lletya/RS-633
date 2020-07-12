@@ -1,0 +1,11 @@
+void script_1222(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	ivar4 = subtract(cs2method_10956(48889888), add(add(arg2, divide(arg0, 2)), 42));
+	ivar5 = subtract(cs2method_10090(48889888), arg3);
+	cs2method_10893(arg0, arg1, 0, 0, 48889900);
+	ivar4 = cs2method_10004(ivar4, 0);
+	ivar5 = cs2method_10004(ivar5, 0);
+	cs2method_10444(ivar4, ivar5, 2, 2, 48889900);
+	return;
+}

@@ -1,0 +1,41 @@
+void script_2435() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	if (globalint_815 > 0) {
+		globalint_815 = subtract(globalint_815, 1);
+	} else {
+		script_2436();
+		return;
+	}
+	ivar0 = divide(globalint_815, 50);
+	ivar1 = divide(ivar0, 60);
+	ivar0 = subtract(ivar0, multiply(ivar1, 60));
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	if (ivar1 == 0) {
+		ovar0 = (object)"00";
+	} else if (ivar1 < 10) {
+		ovar0 = (object)("0" + toString(ivar1));
+	} else {
+		ovar0 = (object)toString(ivar1);
+	}
+	if (ivar0 == 0) {
+		ovar1 = (object)"00";
+	} else if (ivar0 < 10) {
+		ovar1 = (object)("0" + toString(ivar0));
+	} else {
+		ovar1 = (object)toString(ivar0);
+	}
+	if (cs2method_10842() < 2) {
+		setWidgetIsHidden(false, new WidgetPointer(548,41));
+		setWidgetIsHidden(false, new WidgetPointer(548,40));
+		setWidgetText(new WidgetPointer(548,41), (object)((string)ovar0 + ":" + (string)ovar1));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(746,187));
+		setWidgetIsHidden(false, new WidgetPointer(746,186));
+		setWidgetText(new WidgetPointer(746,187), (object)((string)ovar0 + ":" + (string)ovar1));
+	}
+	return;
+}

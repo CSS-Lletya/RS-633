@@ -1,0 +1,110 @@
+void script_2136(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	int stack_dump1;
+	clearExtraChildren(new WidgetPointer(arg0));
+	ivar1 = add(add(118, bitconfig_5855), bitconfig_5855);
+	createChildWidget(arg0, 4, 0);
+	setWidgetSize(200, 32, 0, 0);
+	setWidgetPosition(ivar1, 36, 0, 0);
+	setWidgetFont(497);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(52, 46, 16));
+	cs2method_10320(0);
+	setWidgetText((object)getDataByKey('i', 's', 2224, bitconfig_5856));
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 3419664, "Iii");
+	setWidgetContextMenuOption(1, (object)"Select");
+	createChildWidget(arg0, 4, 1);
+	setWidgetSize(200, 32, 0, 0);
+	setWidgetPosition(ivar1, 70, 0, 0);
+	setWidgetFont(497);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(52, 46, 16));
+	cs2method_10320(0);
+	setWidgetText((object)getDataByKey('i', 's', 2224, bitconfig_5858));
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 3419664, "Iii");
+	setWidgetContextMenuOption(1, (object)"Select");
+	createChildWidget(arg0, 4, 2);
+	setWidgetSize(200, 32, 0, 0);
+	setWidgetPosition(ivar1, 104, 0, 0);
+	setWidgetFont(497);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(52, 46, 16));
+	cs2method_10320(0);
+	setWidgetText((object)getDataByKey('i', 's', 2224, bitconfig_5860));
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 3419664, "Iii");
+	setWidgetContextMenuOption(1, (object)"Select");
+	createChildWidget(arg0, 6, 3);
+	setWidgetSize(226, 144, 0, 0);
+	setWidgetPosition(0, 147, 1, 0);
+	switch (bitconfig_5857) {
+		case 0:
+			cs2method_10272(getDataByKey('i', 'm', 2225, bitconfig_5862));
+			break;
+		case 1:
+			cs2method_10272(getDataByKey('i', 'm', 2226, bitconfig_5862));
+			break;
+		case 2:
+			cs2method_10272(getDataByKey('i', 'm', 2227, bitconfig_5862));
+			break;
+		default:
+			cs2method_10272(getDataByKey('i', 'm', 2228, bitconfig_5862));
+	}
+	ivar2 = multiply(subtract(bitconfig_5855, 5), 4);
+	ivar3 = multiply(subtract(bitconfig_5859, 4), 4);
+	cs2method_10021(ivar2, ivar3, cs2method_10206(bitconfig_5861, 2), cs2method_10206(bitconfig_5861, 2), cs2method_10206(bitconfig_5861, 2), add(add(400, bitconfig_5863), bitconfig_5863));
+	ivar4 = bitconfig_5855;
+	ivar5 = divide(bitconfig_5859, 2);
+	ivar6 = 0;
+	switch (bitconfig_5863) {
+		case 0:
+			stack_dump0 = ivar5;
+			stack_dump1 = ivar6;
+			ivar6 = ivar4;
+			stack_dump0 = stack_dump0;
+			ivar5 = stack_dump1;
+			ivar4 = stack_dump0;
+			break;
+		case 1:
+			stack_dump0 = ivar6;
+			stack_dump1 = ivar4;
+			ivar6 = ivar5;
+			stack_dump0 = stack_dump0;
+			ivar5 = stack_dump1;
+			ivar4 = stack_dump0;
+			break;
+		case 2:
+			stack_dump0 = ivar4;
+			stack_dump1 = ivar6;
+			ivar6 = ivar5;
+			stack_dump0 = stack_dump0;
+			ivar5 = stack_dump1;
+			ivar4 = stack_dump0;
+	}
+	cs2method_20745(2137, ivar4, ivar5, ivar6, ivar2, ivar3, new WidgetPointer(-32768,3), -2147483643, "iiiiiIi");
+	createChildWidget(arg0, 3, 4);
+	setWidgetSize(226, 144, 0, 0);
+	setWidgetPosition(0, 147, 1, 0);
+	setWidgetRGB(new Color(script_693(add(bitconfig_5861, 95), add(bitconfig_5859, 85), add(bitconfig_5855, 29))));
+	setWidgetFilled(1);
+	cs2method_10305(0);
+	cs2method_20745(2138, new WidgetPointer(-32768,3), -2147483643, 0, "Iii");
+	createChildWidget(arg0, 5, 5);
+	setWidgetSize(19, 16, 0, 0);
+	setWidgetPosition(349, add(bitconfig_5859, 148), 0, 0);
+	cs2method_10567(1);
+	cs2method_10469(1538);
+	cs2method_20211(2140, new WidgetPointer(-32768,3), -2147483643, 125, "Iii");
+	cs2method_20139(2140, new WidgetPointer(-32768,3), -2147483643, 0, "Iii");
+	setWidgetContextMenuOption(1, (object)"Change spin");
+	cs2method_20115(2139, -2147483644, new WidgetPointer(arg0), cs2method_10261(), ivar2, ivar3, "iIiii");
+	return;
+}

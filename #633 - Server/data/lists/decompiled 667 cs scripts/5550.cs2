@@ -1,0 +1,17 @@
+int script_5550() {
+	switch (globalint_1725) {
+		case 1:
+			return 13;
+		case 2:
+			return 8;
+		case 3:
+			return 13;
+		case 4:
+			return 5;
+		case 11:
+			return 8;
+		case 12:
+			return script_6070();
+	}
+	return 1;
+}

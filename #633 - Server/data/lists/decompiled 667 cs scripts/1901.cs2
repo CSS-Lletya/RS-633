@@ -1,0 +1,118 @@
+void script_1901(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	if (arg0 == 104) {
+		if (arg6 == 0) {
+			return;
+		}
+		if (globalint_128 <= 0) {
+			globalint_128 = subtract(arg6, 1);
+		} else {
+			globalint_128 = subtract(globalint_128, 1);
+		}
+		if (cs2method_10551(arg4, add(globalint_128, 1)) == 1) {
+			if (cs2method_10551(arg4, 0) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetRGB(new Color(87, 126, 69));
+				setWidgetFilled(1);
+			}
+			if (cs2method_10207() < cs2method_10424(arg4)) {
+				script_72(arg5, arg4, subtract(cs2method_10424(arg4), cs2method_10630()));
+			} else {
+				if (add(cs2method_10207(), cs2method_10630()) > add(cs2method_10090(arg4), cs2method_10424(arg4))) {
+					script_72(arg5, arg4, cs2method_10919(arg4));
+				}
+			}
+		}
+		return;
+	}
+	if (arg0 == 105) {
+		if (arg6 == 0) {
+			return;
+		}
+		if (globalint_128 == subtract(arg6, 1)) {
+			globalint_128 = 0;
+		} else {
+			globalint_128 = add(globalint_128, 1);
+		}
+		if (cs2method_10551(arg4, add(globalint_128, 1)) == 1) {
+			if (cs2method_10551(arg4, 0) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetRGB(new Color(87, 126, 69));
+				setWidgetFilled(1);
+			}
+			if (add(cs2method_10207(), cs2method_10630()) > add(cs2method_10090(arg4), cs2method_10424(arg4))) {
+				script_72(arg5, arg4, add(cs2method_10424(arg4), cs2method_10630()));
+			} else {
+				if (cs2method_10207() < cs2method_10424(arg4)) {
+					script_72(arg5, arg4, 0);
+				}
+			}
+		}
+		return;
+	}
+	if (arg0 == 102) {
+		script_1050(globalint_126, (object)globalstring_27);
+		return;
+	}
+	if (arg0 == 13) {
+		script_1054();
+		return;
+	}
+	ivar7 = cs2method_10366((object)globalstring_30);
+	ivar8 = cs2method_10806(0, (object)globalstring_30);
+	ivar9 = 0;
+	ivar10 = -1;
+	if (arg0 == 84) {
+		if (globalint_128 < 0) {
+			if (ivar7 > 0) {
+				globalint_129 = 0;
+				cs2method_20219(-1, "", new WidgetPointer(arg3));
+				script_1904(arg2, arg4, arg5);
+			} else {
+				script_1054();
+			}
+		} else {
+			if (ivar8 > 0 && cs2method_10551(arg4, add(globalint_128, 1)) == 1 && ivar9 < ivar8) {
+				while (true) {
+					ivar10 = cs2method_10552();
+					if (compareTo(cs2method_10775(), cs2method_10503(ivar10)) == 0) {
+						script_1071(arg2, ivar10, 0);
+						return;
+					}
+					ivar9 = add(ivar9, 1);
+				}
+			}
+		}
+		return;
+	}
+	if (arg0 == 85) {
+		if (ivar7 > 0) {
+			globalstring_30 = (string)cs2method_10547(0, subtract(ivar7, 1), (object)globalstring_30);
+		} else if (globalint_127 == 0) {
+			script_1054();
+		} else {
+			globalint_128 = -1;
+			setWidgetIsHidden(true, new WidgetPointer(137,7));
+			setWidgetIsHidden(true, new WidgetPointer(137,9));
+			setWidgetIsHidden(true, new WidgetPointer(137,13));
+			setWidgetIsHidden(false, new WidgetPointer(137,17));
+			setWidgetIsHidden(false, new WidgetPointer(137,1));
+			setWidgetIsHidden(true, new WidgetPointer(137,3));
+			script_1068(arg2, 0);
+			return;
+		}
+	} else if (cs2method_10522(arg1) == 1 && ivar7 < 80) {
+		globalstring_30 = (string)cs2method_10222(cs2method_10693(arg1, (object)globalstring_30));
+	} else {
+		return;
+	}
+	setWidgetText(new WidgetPointer(arg3), (object)("Search for: " + globalstring_30 + "*"));
+	globalint_129 = 50;
+	cs2method_20219(1903, new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), "IIII", new WidgetPointer(arg3));
+	return;
+}

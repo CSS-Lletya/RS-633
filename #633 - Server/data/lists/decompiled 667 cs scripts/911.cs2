@@ -1,0 +1,12 @@
+void script_911() {
+	if (bitconfig_4532 == 1 && globalint_118 < 253) {
+		globalint_118 = add(globalint_118, 3);
+		cs2method_10149(subtract(255, globalint_118), 47251459);
+	} else {
+		if (bitconfig_4532 == 0 && globalint_118 > 3) {
+			globalint_118 = subtract(globalint_118, 3);
+			cs2method_10149(subtract(255, globalint_118), 47251459);
+		}
+	}
+	return;
+}

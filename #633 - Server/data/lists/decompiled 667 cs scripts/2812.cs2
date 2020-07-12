@@ -1,0 +1,11 @@
+void script_2812(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = cs2method_10964(arg1);
+	ivar3 = cs2method_10586(cs2method_10004(add(ivar2, multiply(arg0, 1)), 225), 255);
+	if (ivar3 == 225 || ivar3 == 255) {
+		cs2method_20219(2812, subtract(0, arg0), new WidgetPointer(arg1), "iI", new WidgetPointer(arg1));
+	}
+	cs2method_10149(ivar3, arg1);
+	return;
+}

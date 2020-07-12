@@ -1,0 +1,73 @@
+void script_178() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	cs2method_20807(177, "", new WidgetPointer(751,3));
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 8;
+	if (cs2method_10842() >= 2) {
+		setWidgetIsHidden(false, new WidgetPointer(751,4));
+		cs2method_10893(cs2method_10956(49217539), 27, 0, 0, 49217539);
+		cs2method_10444(-3, 0, 0, 0, 49217541);
+		cs2method_10893(63, 27, 0, 0, 49217550);
+		cs2method_10467(8558, 49217551);
+		while (ivar0 < ivar2) {
+			if (globalint_42 == ivar0 && globalint_41 == ivar0) {
+				cs2method_10467(8562, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (globalint_42 == ivar0) {
+				cs2method_10467(8560, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (globalint_41 == ivar0) {
+				cs2method_10467(8561, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (cs2method_10620(divide(script_179(ivar0), 25), 2) == 1) {
+				cs2method_10467(8559, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else {
+				cs2method_10467(8558, (int)getDataByKey('i', 'I', 683, ivar0));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(751,4));
+		cs2method_10893(cs2method_10956(49217539), 22, 0, 0, 49217539);
+		cs2method_10444(0, 0, 0, 0, 49217541);
+		cs2method_10893(57, 22, 0, 0, 49217550);
+		cs2method_10467(1024, 49217551);
+		while (ivar0 < ivar2) {
+			if (globalint_42 == ivar0 && globalint_41 == ivar0) {
+				cs2method_10467(1023, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (globalint_42 == ivar0) {
+				cs2method_10467(1020, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (globalint_41 == ivar0) {
+				cs2method_10467(1022, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else if (cs2method_10620(divide(script_179(ivar0), 25), 2) == 1) {
+				cs2method_10467(1021, (int)getDataByKey('i', 'I', 683, ivar0));
+			} else {
+				cs2method_10467(1019, (int)getDataByKey('i', 'I', 683, ivar0));
+			}
+			ivar0 = add(ivar0, 1);
+		}
+	}
+	if (script_185(1) == 1) {
+		setWidgetText(getDataByKey('i', 'I', 684, 1), (object)("<col=ffff00>" + "Filter"));
+	} else {
+		setWidgetText(getDataByKey('i', 'I', 684, 1), (object)"All");
+	}
+	ivar0 = 2;
+	while (ivar0 < ivar2) {
+		ivar1 = script_185(ivar0);
+		if (ivar0 == 3 && ivar1 == 1 && cs2method_10223() < 0) {
+			setWidgetText(getDataByKey('i', 'I', 684, ivar0), (object)("<col=ffff00>" + "Loading"));
+		} else if (ivar1 == 1) {
+			setWidgetText(getDataByKey('i', 'I', 684, ivar0), (object)("<col=ffff00>" + "Friends"));
+		} else if (ivar1 == 2) {
+			setWidgetText(getDataByKey('i', 'I', 684, ivar0), (object)("<col=ff0000>" + "Off"));
+		} else if (ivar1 == 3) {
+			setWidgetText(getDataByKey('i', 'I', 684, ivar0), (object)("<col=00ffff>" + "Hide"));
+		} else {
+			setWidgetText(getDataByKey('i', 'I', 684, ivar0), (object)"On");
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	setWidgetIsHidden(false, new WidgetPointer(751,5));
+	return;
+}

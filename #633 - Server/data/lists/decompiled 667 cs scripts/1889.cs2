@@ -1,0 +1,6 @@
+string script_1889() {
+	if (script_1431() == 1) {
+		return "World " + toString(cs2method_10847()) + " (PvP)";
+	}
+	return "World " + toString(cs2method_10847());
+}

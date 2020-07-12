@@ -1,0 +1,8 @@
+void script_53(int arg0,int arg1,int arg2) {
+	setWidgetText(new WidgetPointer(arg0), (object)(toString(script_5256()) + " / " + toString(script_5255())));
+	cs2method_10893(cs2method_10355(495, cs2method_10100(arg0)), cs2method_10090(arg0), 0, 0, arg0);
+	if (arg2 == 1) {
+		script_5264(arg0, arg1);
+	}
+	return;
+}

@@ -1,0 +1,28 @@
+void script_1923() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = globalint_550;
+	ivar1 = globalint_554;
+	ivar2 = globalint_555;
+	ivar3 = 0;
+	if (ivar0 == 0) {
+		ivar1 = cs2method_10004(0, cs2method_10586(subtract(5, ivar1), 5));
+		ivar2 = cs2method_10004(0, cs2method_10586(subtract(5, ivar2), 5));
+		setWidgetText(new WidgetPointer(804,34), (object)toString(ivar1));
+		setWidgetText(new WidgetPointer(804,33), (object)toString(ivar2));
+		setWidgetIsHidden(false, new WidgetPointer(804,2));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(804,2));
+		if (cs2method_10620(ivar0, 100) != 0) {
+			ivar3 = 1;
+		}
+		ivar0 = divide(divide(multiply(ivar0, 60), 100), 60);
+		if (ivar3 == 1) {
+			ivar0 = add(ivar0, 1);
+		}
+		setWidgetText(new WidgetPointer(804,1), (object)("Game start : " + toString(ivar0) + " mins"));
+	}
+	return;
+}

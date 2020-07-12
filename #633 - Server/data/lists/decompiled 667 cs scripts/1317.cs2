@@ -1,0 +1,15 @@
+void script_1317() {
+	cs2method_10461(18789, 17170432);
+	cs2method_10461(18813, 17170460);
+	cs2method_10461(18814, 17170461);
+	if (bitconfig_4835 < 1) {
+		cs2method_10461(-1, 17170461);
+	}
+	if (bitconfig_4835 < 2) {
+		cs2method_10461(-1, 17170460);
+	}
+	if (bitconfig_4835 < 3) {
+		cs2method_10461(-1, 17170432);
+	}
+	return;
+}

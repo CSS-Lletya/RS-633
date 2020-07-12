@@ -1,0 +1,12 @@
+void script_752() {
+	if (bitconfig_4534 == 0 && bitconfig_4290 == 0) {
+		setWidgetText(new WidgetPointer(662,43), (object)"---");
+		return;
+	}
+	if (bitconfig_4290 == 0) {
+		setWidgetText(new WidgetPointer(662,43), (object)(toString(bitconfig_4534) + ".00"));
+	} else {
+		setWidgetText(new WidgetPointer(662,43), (object)(toString(bitconfig_4534) + ".30"));
+	}
+	return;
+}

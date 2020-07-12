@@ -1,0 +1,290 @@
+void script_2162(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	int ivar27;
+	object ovar0;
+	object ovar1;
+	do {
+		flow_17:
+			ivar10 = 0;
+			ivar23 = 0;
+			if (arg2 == 1) {
+				ivar23 = subtract(ivar18, 1);
+			}
+			ivar24 = 5;
+			ivar25 = 0;
+			ivar26 = -1;
+			if (arg0 == 1) {
+				ivar26 = bitconfig_6913;
+			} else if (getGeneralRequirementAttribute(ivar5, 693) > 0) {
+				ivar26 = subtract(bitconfig_697, multiply(1000, subtract(getGeneralRequirementAttribute(ivar5, 693), 1)));
+			} else {
+				ivar26 = subtract(bitconfig_697, multiply(1000, subtract(arg0, 1)));
+			}
+			ivar27 = -1;
+			while (true) {
+				flow_25:
+					IF (arg2 == 0) 
+						GOTO	flow_26
+					GOTO	flow_27
+				flow_26:
+					IF (ivar23 < ivar18) 
+						GOTO	flow_29
+				flow_27:
+					IF (arg2 == 1 && ivar23 >= 0) 
+						GOTO	flow_29
+					break;
+				flow_29:
+					ivar21 = getDataByKey('i', 'i', ivar17, ivar23);
+					if (cs2method_10551(ivar7, add(add(globalint_273, ivar23), 1)) == 1) {
+						setWidgetPosition(0, ivar24, 0, 0);
+						ovar0 = (object)getDataByKey('i', 's', ivar15, ivar21);
+						setWidgetText(ovar0);
+						cs2method_10692(0);
+						ivar24 = add(ivar24, cs2method_10630());
+					}
+					ivar13 = 0;
+					while (ivar11 < globalint_272) {
+						ivar27 = getDataByKey('i', 'J', ivar6, globalarray_0[ivar10]);
+						if (ivar27 != -1) {
+							ivar11 = add(ivar11, 1);
+							switch (arg1) {
+								flow_35:
+									case 0:
+									ivar22 = getGeneralRequirementAttribute(ivar27, 856);
+									if (ivar22 == 4 && standart_config_281 == 1000) {
+										ivar22 = 0;
+									}
+									break;
+									case 1:
+									switch (arg0) {
+										case 1:
+											ivar22 = globalarray_1[ivar10];
+											break;
+										case 3:
+											ivar22 = getGeneralRequirementAttribute(ivar27, 677);
+									}
+									break;
+									case 2:
+									SWITCH (arg0) {
+										case 1:
+											 GOTO flow_44
+										case 3:
+											 GOTO flow_45
+									}
+									break;
+								flow_44:
+									ivar22 = getGeneralRequirementAttribute(ivar27, 848);
+									break;
+								flow_45:
+									ivar22 = getGeneralRequirementAttribute(ivar27, 678);
+							}
+							if (ivar22 != ivar21) {
+								ivar14 = 0;
+							}
+							if (ivar14 == 1 && arg3 == 0 && globalarray_1[ivar10] == 0) {
+								ivar12 = script_2149(ivar27);
+								if (ivar12 == 0) {
+									ivar14 = 0;
+								}
+							}
+							if (ivar14 == 1 && arg4 == 1 && globalarray_1[ivar10] == 2) {
+								ivar14 = 0;
+							}
+							if (ivar14 == 1 && cs2method_10551(ivar7, globalarray_0[ivar10]) == 1) {
+								setWidgetPosition(10, ivar24, 0, 0);
+								cs2method_10692(0);
+								if (getGeneralRequirementAttribute(ivar27, 694) == 1) {
+									if (globalarray_1[ivar10] == 0) {
+										setWidgetContextMenuOption(1, (object)"View Quest Overview");
+										setWidgetContextMenuOption(2, (object)"View Quest Journal");
+										setWidgetContextMenuOption(3, (object)"Toggle Map Hint");
+									} else if (globalarray_1[ivar10] == 1) {
+										setWidgetContextMenuOption(1, (object)"View Quest Journal");
+										setWidgetContextMenuOption(2, (object)"View Quest Overview");
+										setWidgetContextMenuOption(3, (object)"Toggle Map Hints");
+									} else {
+										setWidgetContextMenuOption(1, (object)"View Quest Journal");
+										setWidgetContextMenuOption(2, (object)"View Quest Overview");
+										setWidgetContextMenuOption(3, (object)"");
+									}
+								} else if (globalarray_1[ivar10] == 0) {
+									setWidgetContextMenuOption(2, (object)"Toggle Map Hint");
+								} else {
+									setWidgetContextMenuOption(2, (object)"");
+								}
+								setWidgetContextMenuOption(1, (object)"View Quest Journal");
+								setWidgetContextMenuOption(3, (object)"");
+								cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+								if (globalarray_0[ivar10] == ivar26) {
+									setWidgetRGB(new Color(0, 255, 255));
+									cs2method_20139(1949, new WidgetPointer(-32768,3), -2147483643, 65535, new WidgetPointer(ivar9), "IiiI");
+								} else if (globalarray_1[ivar10] == 0) {
+									setWidgetRGB(new Color(255, 0, 0));
+									cs2method_20139(1949, new WidgetPointer(-32768,3), -2147483643, 16711680, new WidgetPointer(ivar9), "IiiI");
+								} else if (globalarray_1[ivar10] == 1) {
+									setWidgetRGB(new Color(255, 255, 0));
+									cs2method_20139(1949, new WidgetPointer(-32768,3), -2147483643, 16776960, new WidgetPointer(ivar9), "IiiI");
+								} else {
+									setWidgetRGB(new Color(0, 255, 0));
+									cs2method_20139(1949, new WidgetPointer(-32768,3), -2147483643, 65280, new WidgetPointer(ivar9), "IiiI");
+								}
+								ivar24 = add(ivar24, cs2method_10630());
+								ivar13 = add(ivar13, 1);
+								if (getDataByKey('i', 'i', ivar16, ivar21) == 1 && compareTo((object)getGeneralRequirementAttribute(ivar27, 857), (object)"") != 0 && cs2method_10551(ivar7, add(add(globalint_273, ivar23), 1)) == 1) {
+									setWidgetText((object)getGeneralRequirementAttribute(ivar27, 857));
+								}
+								ivar25 = add(ivar25, 1);
+							}
+							ivar14 = 1;
+						}
+						ivar10 = add(ivar10, 1);
+					}
+					if (ivar13 != 0) {
+						ivar24 = add(ivar24, 10);
+					} else {
+						if (cs2method_10551(ivar7, add(add(globalint_273, ivar23), 1)) == 1) {
+							setWidgetText((object)"");
+							cs2method_10692(1);
+						}
+						ivar24 = subtract(ivar24, 20);
+					}
+					ivar10 = 0;
+					ivar11 = 0;
+					if (arg2 == 0) {
+						ivar23 = add(ivar23, 1);
+					} else {
+						ivar23 = subtract(ivar23, 1);
+					}
+			}
+			ovar1 = (object)"";
+			if (arg0 == 1) {
+				if (ivar25 == globalint_272) {
+					ovar1 = (object)("Showing all " + toString(globalint_272) + " items");
+				} else {
+					ovar1 = (object)("Showing " + toString(ivar25) + " of " + toString(globalint_272) + " items");
+				}
+				setWidgetText(new WidgetPointer(190,12), ovar1);
+			}
+			IF (globalint_695 == 1 || ivar20 != add(ivar24, 5)) 
+				GOTO	flow_101
+			IF (arg2 == 1) 
+				GOTO	flow_98
+			GOTO	flow_99
+		flow_98:
+			IF (globalint_694 == 0) 
+				GOTO	flow_101
+		flow_99:
+			IF (arg2 == 0 && globalint_694 == 1) 
+				GOTO	flow_101
+			GOTO	flow_102
+		flow_101:
+			setWidgetScrollMax(cs2method_10956(ivar7), add(ivar24, 5), ivar7);
+			ivar20 = ivar24;
+			cs2method_10085(0, 0, ivar7);
+			script_31(ivar8, ivar7, 5666, 5663, 5664, 5665, 5686, 5685);
+			break;
+		flow_102:
+			cs2method_10085(0, ivar19, ivar7);
+	} while (false);
+	if (arg1 == -1 || arg2 == -1 || arg3 == -1 || arg4 == -1) {
+		return;
+	}
+	globalarray_0 = new int[add(globalint_273, 1)];
+	globalarray_1 = new int[add(globalint_273, 1)];
+	ivar5 = getDataByKey('i', 'J', 169, arg0);
+	if (ivar5 == -1) {
+		return;
+	}
+	ivar6 = getGeneralRequirementAttribute(ivar5, 61);
+	ivar7 = getGeneralRequirementAttribute(ivar5, 152);
+	ivar8 = getGeneralRequirementAttribute(ivar5, 153);
+	ivar9 = getGeneralRequirementAttribute(ivar5, 670);
+	globalint_698 = script_1432();
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 1;
+	ivar13 = 0;
+	ivar14 = 1;
+	ivar15 = getDataByKey('i', 'g', getGeneralRequirementAttribute(ivar5, 673), arg1);
+	ivar16 = getDataByKey('i', 'g', getGeneralRequirementAttribute(ivar5, 676), arg1);
+	ivar17 = getDataByKey('i', 'g', getGeneralRequirementAttribute(ivar5, 675), arg1);
+	if (ivar17 == -1) {
+		ivar17 = 223;
+	}
+	if (ivar15 == -1) {
+		return;
+	}
+	ivar18 = cs2method_10624(ivar15);
+	ivar19 = cs2method_10424(ivar7);
+	ivar20 = cs2method_10919(ivar7);
+	ivar21 = 0;
+	ivar22 = 0;
+	ovar0 = (object)"";
+	script_2164(arg0);
+	while (ivar10 <= globalint_273) {
+		globalarray_0[ivar10] = ivar10;
+		ivar10 = add(ivar10, 1);
+	}
+	ivar10 = 0;
+	script_2163(0, ivar6, 0, globalint_273);
+	switch (arg0) {
+		while (true) {
+			case 1:
+				if (ivar10 <= globalint_273) {
+					globalarray_0[ivar10] = script_2193(globalarray_0[ivar10]);
+					ivar10 = add(ivar10, 1);
+				}
+		}
+		flow_14:
+			GOTO	flow_17
+			while (true) {
+				case 3:
+					if (ivar10 <= globalint_273) {
+						globalarray_0[ivar10] = 0;
+						ivar10 = add(ivar10, 1);
+					}
+			}
+	}
+	if (arg0 == 1) {
+		globalint_692 = arg3;
+		globalint_1103 = arg4;
+		globalint_694 = arg2;
+		if (globalint_692 == 1) {
+			setWidgetIsHidden(true, new WidgetPointer(190,4));
+			setWidgetIsHidden(false, new WidgetPointer(190,5));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(190,4));
+			setWidgetIsHidden(true, new WidgetPointer(190,5));
+		}
+		if (globalint_1103 == 0) {
+			setWidgetIsHidden(true, new WidgetPointer(190,8));
+			setWidgetIsHidden(false, new WidgetPointer(190,9));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(190,8));
+			setWidgetIsHidden(true, new WidgetPointer(190,9));
+		}
+	}
+	globalint_695 = 0;
+	return;
+}

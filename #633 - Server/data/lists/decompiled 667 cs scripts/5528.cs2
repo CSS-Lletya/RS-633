@@ -1,0 +1,12 @@
+int script_5528(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	clearExtraChildren(new WidgetPointer(arg4));
+	if (arg3 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg4));
+		return arg0;
+	}
+	script_5530(arg0, arg1, arg3, arg4);
+	setWidgetIsHidden(false, new WidgetPointer(arg4));
+	cs2method_20333(5531, subtract(arg0, arg2), add(add(arg1, arg2), arg2), arg3, new WidgetPointer(arg4), "iioI", new WidgetPointer(arg4));
+	cs2method_20295(5529, arg0, arg1, arg3, new WidgetPointer(arg4), "iioI", new WidgetPointer(arg4));
+	return add(add(arg0, arg1), arg2);
+}

@@ -1,0 +1,36 @@
+void script_3367(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = -1;
+	createChildWidget(79691779, 4, cs2method_10860(79691779));
+	setWidgetPosition(0, 25, 1, 2);
+	setWidgetSize(0, 33, 1, 0);
+	ivar3 = add(cs2method_10355(3795, arg2), cs2method_10355(3795, (object)"New"));
+	cs2method_20745(3368, -2147483643, (string)arg2, add(cs2method_10878(), multiply(arg0, arg1)), "isi");
+	ivar2 = cs2method_10646();
+	createChildWidget(79691779, 5, cs2method_10860(79691779));
+	setWidgetPosition(0, 24, 1, 2);
+	setWidgetSize(ivar3, 33, 0, 0);
+	cs2method_10470(1);
+	ivar4 = 9240;
+	cs2method_20745(4226, -2147483643, ivar4, add(cs2method_10878(), multiply(arg0, arg1)), "idi");
+	cs2method_10981();
+	ivar2 = cs2method_10646();
+	ivar3 = cs2method_10040();
+	createChildWidget(79691779, 5, cs2method_10860(79691779));
+	setWidgetPosition(subtract(ivar2, 50), 24, 0, 2);
+	setWidgetSize(50, 33, 0, 0);
+	ivar4 = 9239;
+	cs2method_20745(4226, -2147483643, ivar4, add(cs2method_10878(), multiply(arg0, arg1)), "idi");
+	cs2method_10981();
+	createChildWidget(79691779, 5, cs2method_10860(79691779));
+	setWidgetPosition(add(ivar2, ivar3), 24, 0, 2);
+	setWidgetSize(50, 33, 0, 0);
+	ivar4 = 9241;
+	cs2method_20745(4226, -2147483643, ivar4, add(cs2method_10878(), multiply(arg0, arg1)), "idi");
+	cs2method_10981();
+	return;
+}

@@ -1,0 +1,7 @@
+void script_6170(int arg0,int arg1) {
+	if (arg1 != globalint_1911 && cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10469(10734);
+	}
+	script_5219(83427346);
+	return;
+}

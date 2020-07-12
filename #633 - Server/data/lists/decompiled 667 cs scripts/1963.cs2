@@ -1,0 +1,8 @@
+void script_1963(int arg0,int arg1) {
+	if (standart_config_261 != arg1) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=ff981f>" + (string)cs2method_10222(cs2method_10100(arg0)) + "</col>"));
+	} else {
+		setWidgetText(new WidgetPointer(arg0), cs2method_10222(cs2method_10100(arg0)));
+	}
+	return;
+}

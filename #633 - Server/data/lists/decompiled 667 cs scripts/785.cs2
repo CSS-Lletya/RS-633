@@ -1,0 +1,83 @@
+void script_785(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = -1;
+	switch (arg0) {
+		case 85196844:
+			ivar3 = bitconfig_11397;
+			ivar4 = bitconfig_11398;
+			break;
+		case 85196847:
+			ivar3 = bitconfig_11399;
+			ivar4 = bitconfig_11400;
+			break;
+		case 85196849:
+			ivar3 = bitconfig_11401;
+			ivar4 = bitconfig_11402;
+			break;
+		case 85196851:
+			ivar3 = bitconfig_11403;
+			ivar4 = bitconfig_11404;
+			break;
+		case 85196853:
+			ivar3 = bitconfig_11405;
+			ivar4 = bitconfig_11406;
+			break;
+		case 85196855:
+			ivar3 = bitconfig_11407;
+			ivar4 = bitconfig_11408;
+			break;
+		case 85196857:
+			ivar3 = bitconfig_11409;
+			ivar4 = bitconfig_11410;
+			break;
+		case 85196859:
+			ivar3 = bitconfig_11411;
+			ivar4 = bitconfig_11412;
+			break;
+		case 85196861:
+			ivar3 = bitconfig_11413;
+			ivar4 = bitconfig_11414;
+			break;
+		case 85196863:
+			ivar3 = bitconfig_11415;
+			ivar4 = bitconfig_11416;
+			break;
+		case 85196865:
+			ivar3 = bitconfig_11417;
+			ivar4 = bitconfig_11418;
+			break;
+		case 85196867:
+			ivar3 = bitconfig_11419;
+			ivar4 = bitconfig_11420;
+	}
+	if (ivar3 != 6) {
+		cs2method_20889(-1, "", new WidgetPointer(arg0));
+		cs2method_10149(255, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	ivar5 = getDataByKey('i', 'J', 5967, ivar4);
+	if (ivar5 != arg2) {
+		cs2method_20889(-1, "", new WidgetPointer(arg0));
+		cs2method_10149(255, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	if (arg1 == 1) {
+		cs2method_10149(cs2method_10586(add(cs2method_10964(arg0), 5), 255), arg0);
+		if (cs2method_10964(arg0) >= 255) {
+			arg1 = 0;
+		}
+	} else {
+		cs2method_10149(cs2method_10004(subtract(cs2method_10964(arg0), 5), 0), arg0);
+		if (cs2method_10964(arg0) <= 0) {
+			arg1 = 1;
+		}
+	}
+	cs2method_20219(785, new WidgetPointer(arg0), arg1, arg2, "I1J", new WidgetPointer(arg0));
+	return;
+}

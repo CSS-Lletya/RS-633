@@ -1,0 +1,10 @@
+void script_5426() {
+	globalint_1685 = subtract(globalint_1685, 2);
+	if (globalint_1685 > -60) {
+		cs2method_10444(globalint_1685, 0, 0, 1, 75956252);
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(1159,30));
+		setWidgetIsHidden(true, new WidgetPointer(1159,28));
+	}
+	return;
+}

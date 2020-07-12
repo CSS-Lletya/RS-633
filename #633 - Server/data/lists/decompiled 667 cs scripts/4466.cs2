@@ -1,0 +1,45 @@
+void script_4466(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = -1;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar0 = cs2method_10283(arg0);
+	if (ivar0 >= 0) {
+		if (ivar0 == -1) {
+			return;
+		}
+		ivar1 = cs2method_10370(ivar0);
+		ivar2 = cs2method_10283(cs2method_10222(cs2method_10664()));
+		if (ivar2 >= 0) {
+			if (ivar2 == ivar0) {
+				cs2method_10986(43, 0, (object)"You cannot temporarily ban yourself.");
+				return;
+			}
+			ivar3 = cs2method_10370(ivar2);
+			if (ivar2 == -1) {
+				return;
+			}
+			if (ivar3 >= cs2method_10753()) {
+				if (ivar1 > -1) {
+					cs2method_10986(43, 0, (object)"You can only temporarily ban guests.");
+					cs2method_10986(43, 0, (object)"A clan admin can remove your clanmate.");
+				} else if (ivar3 > ivar1) {
+					cs2method_10342(cs2method_10283(arg0));
+					cs2method_10702(2);
+					cs2method_10393((object)"[Attempting to kick/ban user from this channel.]");
+				} else {
+					cs2method_10986(43, 0, (object)"You can only kick people with a lower rank than yourself.");
+				}
+			} else {
+				cs2method_10986(43, 0, (object)"You do not have sufficient rank to kick.");
+			}
+		}
+	} else {
+		cs2method_10986(43, 0, (object)"Could not find that guest to kick from your Clan Chat.");
+	}
+	return;
+}

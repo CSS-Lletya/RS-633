@@ -1,0 +1,37 @@
+void script_1182(int arg0) {
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	opc_struct10898(4,3,0) structdump_1;
+	if (cs2method_10401() == 0) {
+		cs2method_20219(1181, arg0, "i", new WidgetPointer(909,14));
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(909,14));
+	ivar1 = 0;
+	ovar0 = (object)"";
+	ivar2 = 0;
+	ovar1 = (object)"";
+	stack_dump0 = arg0;
+	structdump_1 = cs2method_10898(stack_dump0);
+	ovar1 = structdump_1.objectpart_2;
+	ivar1 = structdump_1.intpart_3;
+	ivar1 = structdump_1.intpart_2;
+	ovar0 = structdump_1.objectpart_1;
+	ivar1 = structdump_1.intpart_1;
+	ovar0 = structdump_1.objectpart_0;
+	ivar2 = structdump_1.intpart_0;
+	if (ivar2 == -1) {
+		cs2method_10998((object)"Sorry, you can't join that person.");
+	} else if (cs2method_10562(arg0, ovar1) == 1) {
+		globalint_547 = 0;
+		script_3143(0, (object)("Switched to game world " + toString(arg0)));
+		script_3062(59375802);
+	} else {
+		script_3143(1, (object)("Sorry, we couldn't contact world " + toString(arg0) + "." + "<br>" + "Please choose a different world."));
+		cs2method_10998((object)("Sorry, we couldn't contact world " + toString(arg0) + ". Please choose a different world."));
+	}
+	return;
+}

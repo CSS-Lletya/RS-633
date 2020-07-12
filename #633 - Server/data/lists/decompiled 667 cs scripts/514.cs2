@@ -1,0 +1,20 @@
+void script_514() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	if (cs2method_10842() >= 2) {
+		ivar0 = cs2method_10956(48889867);
+		ivar1 = cs2method_10090(48889867);
+		if (globalint_51 < ivar0) {
+			globalint_51 = add(globalint_51, 15);
+			cs2method_10893(globalint_51, ivar1, 0, 0, 39976961);
+		}
+	} else {
+		if (globalint_51 < 512) {
+			globalint_51 = add(globalint_51, 15);
+			cs2method_10893(globalint_51, 334, 0, 0, 39976961);
+		}
+	}
+	return;
+}

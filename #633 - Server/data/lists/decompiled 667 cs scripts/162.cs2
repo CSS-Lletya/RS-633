@@ -1,0 +1,12 @@
+void script_162(int arg0,int arg1,int arg2,int arg3) {
+	if (cs2method_10551(arg1, arg0) == 1) {
+		arg3 = subtract(arg3, cs2method_10424(arg1));
+		if (arg3 < 10) {
+			script_157(arg2, arg1, subtract(cs2method_10424(arg1), 4), 1);
+		}
+		if (add(arg3, cs2method_10630()) > subtract(cs2method_10090(arg1), 10)) {
+			script_157(arg2, arg1, add(cs2method_10424(arg1), 4), 1);
+		}
+	}
+	return;
+}

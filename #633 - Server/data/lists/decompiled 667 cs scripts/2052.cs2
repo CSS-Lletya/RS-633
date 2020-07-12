@@ -1,0 +1,18 @@
+void script_2052(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6,object arg7,object arg8) {
+	cs2method_10692(0);
+	setWidgetSize(arg0, arg1, 0, 0);
+	setWidgetPosition(arg2, arg3, 1, 1);
+	setWidgetRGB(new Color(arg4));
+	setWidgetFont(591);
+	setWidgetTextAlignment(1, 1, 13);
+	setWidgetText(arg6);
+	if (arg5 != -1) {
+		cs2method_11002((object)("<col=ff9040>" + (string)arg7 + "</col>"));
+		setWidgetContextMenuOption(1, arg8);
+		cs2method_20115(2053, -2147483644, new WidgetPointer(-32768,3), arg5, "iIc");
+	} else {
+		setWidgetContextMenuOption(1, (object)"");
+		cs2method_20115(-1, "");
+	}
+	return;
+}

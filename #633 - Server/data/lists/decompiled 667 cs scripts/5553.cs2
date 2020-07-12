@@ -1,0 +1,9 @@
+void script_5553(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (cs2method_10825(arg0) == arg1) {
+		cs2method_10467(arg2, arg0);
+	}
+	if (cs2method_10825(arg0) == arg3) {
+		cs2method_10467(arg4, arg0);
+	}
+	return;
+}

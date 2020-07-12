@@ -1,0 +1,53 @@
+void script_5551(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	flow_0:
+		ivar4 = 0;
+		ivar5 = 5;
+		IF (arg0 == 0) 
+			GOTO	flow_1
+		GOTO	flow_7
+	flow_1:
+		arg3 = subtract(arg3, 1);
+		setWidgetIsHidden(false, new WidgetPointer(1178,55));
+		script_5539();
+		clearExtraChildren(new WidgetPointer(1178,78));
+		cs2method_20219(-1, "", new WidgetPointer(1178,78));
+		globalint_1726 = 0;
+		if (arg3 > 0) {
+			if (arg2 == 0) {
+				script_5547(arg3);
+			}
+			if (arg2 == 1) {
+				script_5549(arg3);
+			}
+		}
+		GOTO	flow_21
+	flow_7:
+		IF (ivar4 < arg1) 
+			GOTO	flow_8
+		GOTO	flow_15
+	flow_8:
+		if (cs2method_10551(77201486, ivar4) == 1) {
+			if (arg2 == 0) {
+				setWidgetPosition(subtract(cs2method_10646(), ivar5), 0, 0, 1);
+			} else if (arg2 == 1) {
+				setWidgetPosition(add(cs2method_10646(), ivar5), 0, 0, 1);
+			} else {
+				arg0 = 0;
+			}
+		}
+		ivar4 = add(ivar4, 1);
+		GOTO	flow_7
+	flow_15:
+		if (arg2 == 0) {
+			arg0 = add(arg0, ivar5);
+		} else if (arg2 == 1) {
+			arg0 = subtract(arg0, ivar5);
+		} else {
+			arg0 = 0;
+		}
+		cs2method_20219(5551, arg0, arg1, arg2, arg3, "iiii", new WidgetPointer(1178,78));
+	flow_21:
+		return;
+}

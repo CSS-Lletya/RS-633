@@ -1,0 +1,10 @@
+void script_52(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (cs2method_10551(arg3, arg4) == 1) {
+		if (cs2method_10453(5) < arg0) {
+			cs2method_10469(arg1);
+		} else {
+			cs2method_10469(arg2);
+		}
+	}
+	return;
+}

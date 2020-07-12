@@ -1,0 +1,124 @@
+void script_4851(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	setWidgetIsHidden(true, new WidgetPointer(1258,201));
+	clearExtraChildren(new WidgetPointer(arg2));
+	clearExtraChildren(new WidgetPointer(arg3));
+	clearExtraChildren(new WidgetPointer(arg4));
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 1;
+	ivar9 = 0;
+	ivar10 = 28;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	ivar14 = 0;
+	ivar15 = 0;
+	switch (bitconfig_9558) {
+		case 1:
+			ivar14 = bitconfig_9562;
+			ivar15 = bitconfig_9566;
+			break;
+		case 2:
+			ivar14 = bitconfig_9571;
+			ivar15 = bitconfig_9575;
+			break;
+		case 3:
+			ivar14 = bitconfig_9580;
+			ivar15 = bitconfig_9584;
+	}
+	createChildWidget(arg4, 3, 0);
+	cs2method_10692(1);
+	createChildWidget(arg2, 4, 0);
+	cs2method_10692(1);
+	createChildWidget(arg3, 5, 0);
+	cs2method_10692(1);
+	if (ivar15 == 0) {
+		ivar11 = script_4819(bitconfig_9558);
+		ivar12 = script_4822(bitconfig_9558);
+		ivar13 = script_4825(bitconfig_9558);
+		if (ivar11 == -1 || ivar12 == -1 || ivar13 == -1) {
+			return;
+		}
+		ivar6 = cs2method_10586(cs2method_10586(cs2method_10624(ivar11), cs2method_10624(ivar13)), cs2method_10624(ivar12));
+		while (ivar8 <= ivar6) {
+			ivar7 = getDataByKey('i', 'i', ivar11, ivar8);
+			createChildWidget(arg4, 3, ivar8);
+			setWidgetSize(0, ivar10, 1, 0);
+			setWidgetFilled(1);
+			if (cs2method_10620(ivar8, 2) == 0) {
+				setWidgetRGB(new Color(32, 31, 26));
+				cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 2105114, "Iii");
+			} else {
+				setWidgetRGB(new Color(26, 23, 18));
+				cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 1709842, "Iii");
+			}
+			setWidgetPosition(0, ivar9, 0, 0);
+			if (script_4828(bitconfig_9558) == 0) {
+				cs2method_20115(4803, ivar8, "i");
+				setWidgetContextMenuOption(1, (object)"Select");
+				cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 4537648, "Iii");
+			}
+			if (ivar14 == ivar7) {
+				setWidgetIsHidden(false, new WidgetPointer(1258,201));
+				cs2method_10444(0, ivar9, 0, 0, 82444489);
+			}
+			createChildWidget(arg2, 4, ivar8);
+			setWidgetSize(30, ivar10, 1, 0);
+			setWidgetPosition(30, ivar9, 0, 0);
+			setWidgetText((object)getDataByKey('i', 's', ivar12, ivar7));
+			setWidgetRGB(new Color(229, 225, 187));
+			setWidgetFont(494);
+			setWidgetTextAlignment(0, 1, 0);
+			createChildWidget(arg3, 5, ivar8);
+			setWidgetSize(22, 22, 0, 0);
+			setWidgetPosition(5, add(4, ivar9), 0, 0);
+			cs2method_10469(getDataByKey('i', 'd', ivar13, ivar7));
+			ivar9 = multiply(ivar10, ivar8);
+			ivar8 = add(ivar8, 1);
+		}
+	} else {
+		createChildWidget(arg4, 3, ivar8);
+		setWidgetSize(0, ivar10, 1, 0);
+		setWidgetFilled(1);
+		if (cs2method_10620(ivar8, 2) == 0) {
+			setWidgetRGB(new Color(32, 31, 26));
+			cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 2105114, "Iii");
+		} else {
+			setWidgetRGB(new Color(26, 23, 18));
+			cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 1709842, "Iii");
+		}
+		setWidgetPosition(0, ivar9, 0, 0);
+		cs2method_20115(4803, ivar8, "i");
+		setWidgetContextMenuOption(1, (object)"Select");
+		cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 4537648, "Iii");
+		setWidgetIsHidden(false, new WidgetPointer(1258,201));
+		cs2method_10444(0, ivar9, 0, 0, 82444489);
+		createChildWidget(arg2, 4, ivar8);
+		setWidgetSize(30, ivar10, 1, 0);
+		setWidgetPosition(30, ivar9, 0, 0);
+		setWidgetText((object)"Reset hotspot");
+		setWidgetRGB(new Color(229, 225, 187));
+		setWidgetFont(494);
+		setWidgetTextAlignment(0, 1, 0);
+		createChildWidget(arg3, 5, ivar8);
+		setWidgetSize(22, 22, 0, 0);
+		setWidgetPosition(5, add(4, ivar9), 0, 0);
+		cs2method_10469(6496);
+		cs2method_10821(49149);
+		ivar9 = multiply(ivar10, ivar8);
+	}
+	cs2method_10085(0, 0, arg0);
+	setWidgetScrollMax(0, ivar9, arg0);
+	script_31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685);
+	return;
+}

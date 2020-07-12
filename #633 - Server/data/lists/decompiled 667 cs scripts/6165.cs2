@@ -1,0 +1,22 @@
+void script_6165(int arg0) {
+	setWidgetText(new WidgetPointer(1273,68), (object)"0");
+	clearExtraChildren(new WidgetPointer(1273,13));
+	clearExtraChildren(new WidgetPointer(1273,14));
+	clearExtraChildren(new WidgetPointer(1273,15));
+	clearExtraChildren(new WidgetPointer(1273,16));
+	globalint_1911 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(1273,14));
+	setWidgetIsHidden(true, new WidgetPointer(1273,15));
+	setWidgetIsHidden(true, new WidgetPointer(1273,16));
+	switch (arg0) {
+		case 0:
+			script_6166();
+			break;
+		case 1:
+			script_6168();
+			break;
+		case 2:
+			script_6169();
+	}
+	return;
+}

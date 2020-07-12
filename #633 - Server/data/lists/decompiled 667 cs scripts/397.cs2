@@ -1,0 +1,10 @@
+void script_397() {
+	if (globalint_743 == -1 && standart_config_1109 != -1) {
+		if (script_5567(995, multiply(standart_config_1111, standart_config_1110)) == 0) {
+			setWidgetRGB(16711680, 29425689);
+		} else {
+			setWidgetRGB(globalint_1241, 29425689);
+		}
+	}
+	return;
+}

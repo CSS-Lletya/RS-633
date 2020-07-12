@@ -1,0 +1,22 @@
+void script_1453(int arg0) {
+	int ivar1;
+	ivar1 = getItemIdInContainerSlot(95, arg0);
+	setItemOnWidget_10672(ivar1, cs2method_10136(95, arg0));
+	cs2method_11002((object)("<col=ff981f>" + (string)getItemName(getItemIdInContainerSlot(95, arg0))));
+	setWidgetContextMenuOption(1, (object)"Withdraw-1");
+	setWidgetContextMenuOption(2, (object)"Withdraw-5");
+	setWidgetContextMenuOption(3, (object)"Withdraw-10");
+	setWidgetContextMenuOption(4, (object)("Withdraw-" + toString(standart_config_1249)));
+	setWidgetContextMenuOption(5, (object)"Withdraw-X");
+	setWidgetContextMenuOption(6, (object)"Withdraw-All");
+	setWidgetContextMenuOption(7, (object)"Withdraw-All but one");
+	setWidgetContextMenuOption(10, (object)("Examine" + "<col=ff9040>"));
+	cs2method_10460(49938432, -1);
+	cs2method_10979(5);
+	cs2method_10337(5);
+	cs2method_20857(1454, -2147483646, "i");
+	cs2method_20191(1482, new WidgetPointer(-32768,6), "I");
+	cs2method_20930(5495, ivar1, "o");
+	cs2method_20139(5495, -1, "o");
+	return;
+}

@@ -1,0 +1,150 @@
+void script_3431(int arg0,int arg1,int arg2) {
+	if (arg1 == 1) {
+		if (arg0 == 3) {
+			setWidgetRGB(arg2, 3538969);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3538971);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3538973);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3538975);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3538977);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3538979);
+			}
+		}
+	} else if (arg1 == 2) {
+		if (arg0 == 3) {
+			setWidgetRGB(arg2, 3538981);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3538983);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3538985);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3538987);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3538989);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3538991);
+			}
+		}
+	} else if (arg1 == 3) {
+		if (arg0 == 1) {
+			setWidgetRGB(arg2, 3538993);
+		} else if (arg0 == 2) {
+			setWidgetRGB(arg2, 3538995);
+		} else if (arg0 == 3) {
+			setWidgetRGB(arg2, 3538997);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3538999);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3539001);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3539003);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3539005);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3539007);
+			}
+		}
+	} else if (arg1 == 4) {
+		if (arg0 == 1) {
+			setWidgetRGB(arg2, 3539009);
+		} else if (arg0 == 2) {
+			setWidgetRGB(arg2, 3539011);
+		} else if (arg0 == 3) {
+			setWidgetRGB(arg2, 3539013);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3539015);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3539017);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3539019);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3539021);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3539023);
+			}
+		}
+	} else if (arg1 == 5) {
+		if (arg0 == 1) {
+			setWidgetRGB(arg2, 3539025);
+		} else if (arg0 == 2) {
+			setWidgetRGB(arg2, 3539027);
+		} else if (arg0 == 3) {
+			setWidgetRGB(arg2, 3539029);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3539031);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3539033);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3539035);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3539037);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3539039);
+			}
+		}
+	} else if (arg1 == 6) {
+		if (arg0 == 1) {
+			setWidgetRGB(arg2, 3539041);
+		} else if (arg0 == 2) {
+			setWidgetRGB(arg2, 3539043);
+		} else if (arg0 == 3) {
+			setWidgetRGB(arg2, 3539045);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3539047);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3539049);
+		} else if (arg0 == 6) {
+			setWidgetRGB(arg2, 3539051);
+		} else if (arg0 == 7) {
+			setWidgetRGB(arg2, 3539053);
+		} else {
+			if (arg0 == 8) {
+				setWidgetRGB(arg2, 3539055);
+			}
+		}
+	} else if (arg1 == 7) {
+		if (arg0 == 1) {
+			setWidgetRGB(arg2, 3539057);
+		} else if (arg0 == 2) {
+			setWidgetRGB(arg2, 3539059);
+		} else if (arg0 == 3) {
+			setWidgetRGB(arg2, 3539061);
+		} else if (arg0 == 4) {
+			setWidgetRGB(arg2, 3539063);
+		} else if (arg0 == 5) {
+			setWidgetRGB(arg2, 3539065);
+		} else {
+			if (arg0 == 6) {
+				setWidgetRGB(arg2, 3539067);
+			}
+		}
+	} else {
+		if (arg1 == 8) {
+			if (arg0 == 1) {
+				setWidgetRGB(arg2, 3539069);
+			} else if (arg0 == 2) {
+				setWidgetRGB(arg2, 3539071);
+			} else if (arg0 == 3) {
+				setWidgetRGB(arg2, 3539073);
+			} else if (arg0 == 4) {
+				setWidgetRGB(arg2, 3539075);
+			} else if (arg0 == 5) {
+				setWidgetRGB(arg2, 3539077);
+			} else {
+				if (arg0 == 6) {
+					setWidgetRGB(arg2, 3539079);
+				}
+			}
+		}
+	}
+	return;
+}

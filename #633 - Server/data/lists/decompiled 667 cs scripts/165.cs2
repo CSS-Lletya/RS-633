@@ -1,0 +1,15 @@
+void script_165(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = script_166(arg1);
+	if (ivar2 == 7) {
+		cs2method_10467(833, arg0);
+		setWidgetRGB(16711680, (int)getDataByKey('i', 'I', 688, arg1));
+	} else if (ivar2 == 6) {
+		cs2method_10467(834, arg0);
+		setWidgetRGB(65280, (int)getDataByKey('i', 'I', 688, arg1));
+	} else {
+		cs2method_10467(943, arg0);
+		setWidgetRGB(13421772, (int)getDataByKey('i', 'I', 688, arg1));
+	}
+	return;
+}

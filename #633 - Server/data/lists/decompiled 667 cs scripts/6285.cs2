@@ -1,0 +1,14 @@
+void script_6285(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10620(cs2method_10878(), 6) == 0 && cs2method_10551(84934670, arg0) == 1) {
+		ivar1 = cs2method_10354();
+		if (ivar1 >= 235) {
+			cs2method_10714();
+			cs2method_20219(-1, "", new WidgetPointer(1296,14));
+		} else {
+			cs2method_10305(add(ivar1, 20));
+		}
+	}
+	return;
+}

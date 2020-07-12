@@ -1,0 +1,10 @@
+int script_2151(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = getDataByKey('i', 'J', 169, arg0);
+	ivar3 = getDataByKey('i', 'J', getGeneralRequirementAttribute(ivar2, 61), arg1);
+	if (script_1432() < getGeneralRequirementAttribute(ivar3, 896)) {
+		return 0;
+	}
+	return 1;
+}

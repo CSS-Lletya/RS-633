@@ -1,0 +1,16 @@
+void script_1658() {
+	if (globalint_1734 == 1) {
+		cs2method_10641(0, 77332523);
+		setWidgetIsHidden(false, new WidgetPointer(1180,41));
+		cs2method_10893(172, 179, 0, 0, 77332486);
+		cs2method_10375(1, 77332523, (object)"Hide");
+		globalint_1734 = 0;
+	} else {
+		cs2method_10641(32768, 77332523);
+		setWidgetIsHidden(true, new WidgetPointer(1180,41));
+		cs2method_10893(172, 50, 0, 0, 77332486);
+		cs2method_10375(1, 77332523, (object)"Unhide");
+		globalint_1734 = 1;
+	}
+	return;
+}

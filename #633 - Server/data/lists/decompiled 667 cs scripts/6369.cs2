@@ -1,0 +1,7 @@
+void script_6369() {
+	globalint_2103 = -1;
+	globalint_2104 = 0;
+	globalint_2105 = 0;
+	globalstring_376 = "Unknown";
+	return;
+}

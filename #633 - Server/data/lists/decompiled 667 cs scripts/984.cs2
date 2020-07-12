@@ -1,0 +1,202 @@
+cs2func_script_984_struct(2,2,0) script_984(int arg0,int arg1) {
+	switch (arg0) {
+		flow_1:
+			case 0:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_984_struct(1, 21340, (object)"Members: Dwarven Army Axe", (object)("Members can now wield a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_984_struct(5, 3196, (object)("Black halberd" + "<br>" + " (with 10 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "black halberds" + "</col>" + ". (You also need level 10 Attack.)"));
+				case 2:
+					return newstruct cs2func_script_984_struct(5, 6599, (object)("White halberd" + "<br>" + " (with 10 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "white halberds" + "</col>" + ". (You also need level 10 Attack.)"));
+				case 3:
+					return newstruct cs2func_script_984_struct(10, 3198, (object)("Mithril halberd" + "<br>" + " (with 20 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "mithril halberds" + "</col>" + ". (You also need level 20 Attack.)"));
+				case 4:
+					return newstruct cs2func_script_984_struct(15, 3200, (object)("Adamant halberd" + "<br>" + " (with 30 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "adamant halberds" + "</col>" + ". (You also need level 30 Attack.)"));
+				case 5:
+					return newstruct cs2func_script_984_struct(20, 3202, (object)("Rune halberd" + "<br>" + " (with 40 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "rune halberds" + "</col>" + ". (You also need level 40 Attack.)"));
+				case 6:
+					return newstruct cs2func_script_984_struct(30, 3204, (object)("Dragon halberd" + "<br>" + " (with 60 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "dragon halberds" + "</col>" + ". (They also need level 60 Attack.)"));
+				case 7:
+					return newstruct cs2func_script_984_struct(42, 8841, (object)"Members: Void knight mace", (object)("Members now have the Strength level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_984_struct(50, 4153, (object)("Granite maul" + "<br>" + " (with 50 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "granite mauls" + "</col>" + ". (They also need level 50 Attack.)"));
+				case 9:
+					return newstruct cs2func_script_984_struct(50, 14679, (object)("Granite mace" + "<br>" + " (with 50 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "granite maces" + "</col>" + ". (They also need level 50 Attack.)"));
+				case 10:
+					return newstruct cs2func_script_984_struct(60, 6528, (object)"Tzhaar-Ket-Om", (object)("Members can now wield " + "<col=000080>" + "Tzhaar-Ket-Om" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_984_struct(70, 4718, (object)("Dharok's greataxe" + "<br>" + " (with 70 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "Dharok's greataxe" + "</col>" + ". (They also need level 70 Attack.)"));
+				case 12:
+					return newstruct cs2func_script_984_struct(70, 4747, (object)("Torag's hammers" + "<br>" + " (with 70 Attack)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "Torag's hammers" + "</col>" + ". (They also need level 70 Attack.)"));
+				case 13:
+					return newstruct cs2func_script_984_struct(75, 15403, (object)"Members: Balmung (after Blood Runs Deep and with 75 Attack)", (object)("Members can now wield " + "<col=000080>" + "Balmung" + "</col>" + " (after Blood Runs Deep, with 75 Attack)."));
+			}
+			break;
+			case 1:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_984_struct(20, 8921, (object)("Members: Black mask" + "<br>" + " (with 10 Defence)"), (object)("Members can now wear " + "<col=000080>" + "black masks (with 10 Defence)" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_984_struct(20, 15492, (object)("Members: Full Slayer helmet" + "<br>" + " (after Smoking Kills with 20 Ranged, Magic and 10 Defence)"), (object)("Members can now wear " + "<col=000080>" + "full slayer helmets" + "</col>" + " (after Smoking Kills with 20 Ranged, Magic and 10 Defence)."));
+				case 2:
+					return newstruct cs2func_script_984_struct(42, 11665, (object)"Members: Void melee helm", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_984_struct(42, 11664, (object)"Members: Void ranger helm", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_984_struct(42, 11663, (object)"Members: Void mage helm", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_984_struct(42, 8839, (object)"Members: Void knight top", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_984_struct(42, 8840, (object)"Members: Void knight robe", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_984_struct(42, 8842, (object)"Members: Void knight gloves", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_984_struct(42, 19712, (object)"Members: Void knight deflector", (object)("Members now have the Strength level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_984_struct(42, 7620, (object)"Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", (object)("<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."));
+				case 10:
+					return newstruct cs2func_script_984_struct(50, 10589, (object)("Granite helm" + "<br>" + " (with 50 Defence)"), (object)("Members now have the Strength level required to wear " + "<col=000080>" + "granite helms" + "</col>" + ". (They also need level 50 Defence.)"));
+				case 11:
+					return newstruct cs2func_script_984_struct(50, 10564, (object)("Granite body" + "<br>" + " (with 50 Defence)"), (object)("Members now have the Strength level required to wear " + "<col=000080>" + "granite bodies" + "</col>" + ". (They also need level 50 Defence.)"));
+				case 12:
+					return newstruct cs2func_script_984_struct(50, 6809, (object)("Granite legs" + "<br>" + " (with 50 Defence)"), (object)("Members now have the Strength level required to wear " + "<col=000080>" + "granite legs" + "</col>" + ". (They also need level 50 Defence.)"));
+				case 13:
+					return newstruct cs2func_script_984_struct(50, 3122, (object)("Granite shield" + "<br>" + " (with 50 Defence)"), (object)("Members now have the Strength level required to wield " + "<col=000080>" + "granite shields" + "</col>" + ". (They also need level 50 Defence.)"));
+				case 14:
+					return newstruct cs2func_script_984_struct(80, 20135, (object)("Members: Torva full helm" + "<br>" + " (with 80 Defence and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva full helms" + "</col>" + ". (They also need level 80 Defence and Constitution.)"));
+				case 15:
+					return newstruct cs2func_script_984_struct(80, 20139, (object)("Members: Torva platebody" + "<br>" + " (with 80 Defence and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva platebodies" + "</col>" + ". (They also need level 80 Defence and Constitution.)"));
+				case 16:
+					return newstruct cs2func_script_984_struct(80, 20143, (object)("Members: Torva platelegs" + "<br>" + " (with 80 Defence and Constitution)"), (object)("Members can now wear " + "<col=000080>" + "torva platelegs" + "</col>" + ". (They also need level 80 Defence and Constitution.)"));
+			}
+			break;
+			case 2:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_984_struct(19, 6515, (object)("River crossing to Al Kharid" + "<br>" + " (with 8 Agility and 37 Ranged)"), (object)("You now have the Strength level required to cross the " + "<col=000080>" + "River Lum" + "</col>" + " to " + "<col=000080>" + "Al Kharid" + "</col>" + ". (You also need level 8 Agility and level 37 Ranged.)"));
+				case 1:
+					return newstruct cs2func_script_984_struct(21, 6515, (object)("Karamja crossing, south of the volcano" + "<br>" + " (with 53 Agility and 42 Ranged)"), (object)("You now have the Strength level required to use the " + "<col=000080>" + "Karamja crossing, south of the volcano" + "</col>" + ". (You also need level 53 Agility and level 42 Ranged."));
+				case 2:
+					return newstruct cs2func_script_984_struct(22, 6515, (object)("Water Obelisk Island escape" + "<br>" + " (with 36 Agility and 39 Ranged)"), (object)("You now have the Strength level required to make the " + "<col=000080>" + "Water Obelisk Island escape" + "</col>" + ". (You also need level 36 Agility and level 39 Ranged)."));
+				case 3:
+					return newstruct cs2func_script_984_struct(35, 6517, (object)("Catherby cliff" + "<br>" + " (after Fishing Contest, with 32 Agility and 35 Ranged)"), (object)("You now have the Strength level required to scale " + "<col=000080>" + "Catherby cliff" + "</col>" + " (after Fishing Contest, with level 32 Agility and level 35 Ranged)."));
+				case 4:
+					return newstruct cs2func_script_984_struct(37, 6517, (object)("Falador wall" + "<br>" + " (with 11 Agility and 19 Ranged)"), (object)("You now have the Strength level required to scale " + "<col=000080>" + "Falador wall" + "</col>" + ". (You also need level 11 Agility and level 19 Ranged.)"));
+				case 5:
+					return newstruct cs2func_script_984_struct(38, 6517, (object)("Yanille wall" + "<br>" + " (with 39 Agility and 21 Ranged)"), (object)("You now have the Strength level required to scale " + "<col=000080>" + "Yanille wall" + "</col>" + ". (You also need level 39 Agility and level 21 Ranged.)"));
+				case 6:
+					return newstruct cs2func_script_984_struct(60, 6515, (object)("Cross Bandos's Throne Room " + "<br>" + " (after The Chosen Commander and with 60 Agility and 60 Ranged)"), (object)("Members now have the Strength level required to cross " + "<col=000080>" + "Bandos's throne room" + "</col>" + " (after The Chosen Commander and with 60 Agility and 60 Ranged)."));
+				case 7:
+					return newstruct cs2func_script_984_struct(80, 6515, (object)("Cross cave, south of Dorgesh-Kaan " + "<br>" + " (after Death to the Dorgeshuun, with 80 Agility and 80 Ranged)"), (object)("You now have the Strength level required to " + "<col=000080>" + "cross the cave, south of Dorgesh-Kaan" + "</col>" + " (after Death to the Dorgeshuun, with 80 Agility and 80 Ranged)."));
+			}
+			break;
+			case 3:
+			if (arg1 == 0) {
+				return newstruct cs2func_script_984_struct(60, 4043, (object)"God Wars Dungeon access via the Strength route", (object)("You can now access the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + " via the " + "<col=000080>" + "Strength route" + "</col>" + "."));
+			}
+			if (arg1 == 1) {
+				return newstruct cs2func_script_984_struct(70, 8122, (object)"Bandos's Stronghold of the God Wars Dungeon", (object)("You can now enter the " + "<col=000080>" + "Bandos's Stronghold" + "</col>" + " of the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + "."));
+			}
+			break;
+			case 4:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_984_struct(-1, 7620, (object)"To start fishing like a barbarian, talk to Otto Godblessed when you have at least level 48 Fishing and level 15 Agility.", (object)"");
+				case 1:
+					return newstruct cs2func_script_984_struct(15, 11328, (object)("Leaping trout" + "<br>" + " (with 15 Agility and 48 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping trout" + "</col>" + ". (They also need level 15 Agility and level 48 Fishing.)"));
+				case 2:
+					return newstruct cs2func_script_984_struct(30, 11330, (object)("Leaping salmon" + "<br>" + " (with 30 Agility and 58 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping salmon" + "</col>" + ". (They also need level 30 Agility and level 58 Fishing.)"));
+				case 3:
+					return newstruct cs2func_script_984_struct(35, 11322, (object)("Tuna" + "<br>" + " (with 55 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "tuna" + "</col>" + " without a harpoon. (They also need level 55 Fishing.)"));
+				case 4:
+					return newstruct cs2func_script_984_struct(45, 11332, (object)("Leaping sturgeon" + "<br>" + " (with 45 Agility and 70 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping sturgeon" + "</col>" + ". (They also need level 45 Agility and level 70 Fishing.)"));
+				case 5:
+					return newstruct cs2func_script_984_struct(50, 11321, (object)("Swordfish" + "<br>" + " (with 70 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "swordfish" + "</col>" + " without a harpoon. (They also need level 70 Fishing.)"));
+				case 6:
+					return newstruct cs2func_script_984_struct(76, 11320, (object)("Shark" + "<br>" + " (with 96 Fishing)"), (object)("Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "shark" + "</col>" + " without a harpoon. (They also need level 96 Fishing.)"));
+			}
+			break;
+			case 5:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_984_struct(-1, 15707, (object)("Dungeoneering skill tasks" + "<br>" + "As your Strength level increases, you will be able to attempt higher-level strength tasks within Daemonheim. You will also be more likely to succeed when attempting strength tasks within Daemonheim."), (object)"");
+				case 1:
+					return newstruct cs2func_script_984_struct(1, 16405, (object)"Novite maul (Tier 1)", (object)("You can now wield " + "<col=000080>" + "novite mauls" + "</col>" + " within Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_984_struct(10, 16407, (object)"Bathus maul (Tier 2)", (object)("You can now wield " + "<col=000080>" + "bathus mauls" + "</col>" + " within Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_984_struct(20, 16409, (object)"Marmaros maul (Tier 3)", (object)("You can now wield " + "<col=000080>" + "marmaros mauls" + "</col>" + " within Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_984_struct(30, 16411, (object)"Kratonite maul (Tier 4)", (object)("You can now wield " + "<col=000080>" + "kratonite mauls" + "</col>" + " within Daemonheim."));
+				case 5:
+					return newstruct cs2func_script_984_struct(40, 16413, (object)"Fractite maul (Tier 5)", (object)("You can now wield " + "<col=000080>" + "fractite mauls" + "</col>" + " within Daemonheim."));
+				case 6:
+					return newstruct cs2func_script_984_struct(50, 16415, (object)"Members: Zephyrium maul (Tier 6)", (object)("Members can now wield " + "<col=000080>" + "zephyrium mauls" + "</col>" + " within Daemonheim."));
+				case 7:
+					return newstruct cs2func_script_984_struct(60, 16417, (object)"Members: Argonite maul (Tier 7)", (object)("Members can now wield " + "<col=000080>" + "argonite mauls" + "</col>" + " within Daemonheim."));
+				case 8:
+					return newstruct cs2func_script_984_struct(70, 16419, (object)"Members: Katagon maul (Tier 8)", (object)("Members can now wield " + "<col=000080>" + "katagon mauls" + "</col>" + " within Daemonheim."));
+				case 9:
+					return newstruct cs2func_script_984_struct(80, 16421, (object)"Members: Gorgonite maul (Tier 9)", (object)("Members can now wield " + "<col=000080>" + "gorgonite mauls" + "</col>" + " within Daemonheim."));
+				case 10:
+					return newstruct cs2func_script_984_struct(90, 16423, (object)"Members: Promethium maul (Tier 10)", (object)("Members can now wield " + "<col=000080>" + "promethium mauls" + "</col>" + " within Daemonheim."));
+				case 11:
+					return newstruct cs2func_script_984_struct(99, 16425, (object)"Members: Primal maul (Tier 11)", (object)("Members can now wield " + "<col=000080>" + "primal mauls" + "</col>" + " within Daemonheim."));
+			}
+			break;
+			case 6:
+			if (arg1 == 0) {
+				return newstruct cs2func_script_984_struct(-1, 20070, (object)"You can enter the Warriors' Guild when your Attack and Strength levels add up to 130 or more, or when you reach level 99 in either Attack or Strength.", (object)"");
+			}
+			if (arg1 == 1) {
+				return newstruct cs2func_script_984_struct(99, 9750, (object)"Skill mastery", (object)("<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Strength" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "the guard of the Strength training area" + "<col=000080>" + " at the " + "<col=800000>" + "Warriors' Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Strength" + "<col=000080>" + " skill!"));
+			}
+			break;
+			case 7:
+			SWITCH (arg1) {
+				case 0:
+					 GOTO flow_80
+				case 1:
+					 GOTO flow_81
+				case 2:
+					 GOTO flow_82
+				case 3:
+					 GOTO flow_83
+				case 4:
+					 GOTO flow_84
+				case 5:
+					 GOTO flow_85
+				case 6:
+					 GOTO flow_86
+				case 7:
+					 GOTO flow_87
+				case 8:
+					 GOTO flow_88
+				case 9:
+					 GOTO flow_89
+			}
+			break;
+		flow_80:
+			return newstruct cs2func_script_984_struct(85, 21537, (object)("Members: Battle-mage helm" + "<br>" + " (with 85 Defence and 85 Magic)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage helms" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)"));
+		flow_81:
+			return newstruct cs2func_script_984_struct(85, 21539, (object)("Members: Battle-mage robe" + "<br>" + " (with 85 Defence and 85 Magic)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage robes" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)"));
+		flow_82:
+			return newstruct cs2func_script_984_struct(85, 21541, (object)("Members: Battle-mage legs" + "<br>" + " (with 85 Defence and 85 Magic)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage legs" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)"));
+		flow_83:
+			return newstruct cs2func_script_984_struct(85, 21543, (object)("Members: Battle-mage gloves" + "<br>" + " (with 85 Defence and 85 Magic)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)"));
+		flow_84:
+			return newstruct cs2func_script_984_struct(85, 21545, (object)("Members: Battle-mage boots" + "<br>" + " (with 85 Defence and 85 Magic)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage boots" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)"));
+		flow_85:
+			return newstruct cs2func_script_984_struct(85, 21557, (object)("Members: Vanguard helm" + "<br>" + " (with 85 Defence and 85 Ranged)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard helms" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)"));
+		flow_86:
+			return newstruct cs2func_script_984_struct(85, 21559, (object)("Members: Vanguard body" + "<br>" + " (with 85 Defence and 85 Ranged)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard body armour" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)"));
+		flow_87:
+			return newstruct cs2func_script_984_struct(85, 21561, (object)("Members: Vanguard legs" + "<br>" + " (with 85 Defence and 85 Ranged)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard leg armour" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)"));
+		flow_88:
+			return newstruct cs2func_script_984_struct(85, 21563, (object)("Members: Vanguard gloves" + "<br>" + " (with 85 Defence and 85 Ranged)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)"));
+		flow_89:
+			return newstruct cs2func_script_984_struct(85, 21565, (object)("Members: Vanguard boots" + "<br>" + " (with 85 Defence and 85 Ranged)"), (object)("Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard boots" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)"));
+	}
+	return newstruct cs2func_script_984_struct(0, -1, (object)"", (object)"");
+}

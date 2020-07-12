@@ -1,0 +1,618 @@
+void script_6407(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	flow_0:
+		SWITCH (arg0) {
+			case 10562:
+				 GOTO flow_1
+			case 10563:
+				 GOTO flow_6
+			case 10564:
+				 GOTO flow_11
+			case 10565:
+				 GOTO flow_16
+			case 10566:
+				 GOTO flow_21
+			case 10567:
+				 GOTO flow_26
+			case 10568:
+				 GOTO flow_31
+			case 10569:
+				 GOTO flow_36
+			case 10570:
+				 GOTO flow_41
+			case 10571:
+				 GOTO flow_46
+			case 10572:
+				 GOTO flow_51
+			case 10573:
+				 GOTO flow_56
+			case 10587:
+				 GOTO flow_61
+			case 10588:
+				 GOTO flow_66
+			case 10589:
+				 GOTO flow_71
+			case 10590:
+				 GOTO flow_76
+			case 10591:
+				 GOTO flow_81
+			case 10592:
+				 GOTO flow_86
+			case 10593:
+				 GOTO flow_91
+			case 10594:
+				 GOTO flow_96
+			case 10595:
+				 GOTO flow_101
+			case 10596:
+				 GOTO flow_106
+			case 10597:
+				 GOTO flow_111
+			case 10598:
+				 GOTO flow_116
+			case 10756:
+				 GOTO flow_121
+			case 10757:
+				 GOTO flow_126
+			case 10758:
+				 GOTO flow_131
+			case 10759:
+				 GOTO flow_136
+			case 10760:
+				 GOTO flow_141
+			case 10761:
+				 GOTO flow_146
+			case 10762:
+				 GOTO flow_151
+			case 10763:
+				 GOTO flow_156
+			case 10764:
+				 GOTO flow_161
+			case 10765:
+				 GOTO flow_166
+			case 10766:
+				 GOTO flow_171
+			case 10767:
+				 GOTO flow_176
+			case 10754:
+				 GOTO flow_181
+			case 10575:
+				 GOTO flow_186
+			case 10576:
+				 GOTO flow_191
+			case 10577:
+				 GOTO flow_196
+			case 10578:
+				 GOTO flow_201
+			case 10579:
+				 GOTO flow_206
+			case 10580:
+				 GOTO flow_211
+			case 10581:
+				 GOTO flow_216
+			case 10582:
+				 GOTO flow_221
+			case 10583:
+				 GOTO flow_226
+			case 10584:
+				 GOTO flow_231
+			case 10585:
+				 GOTO flow_236
+			case 10586:
+				 GOTO flow_241
+			case 10600:
+				 GOTO flow_246
+			case 10601:
+				 GOTO flow_251
+			case 10602:
+				 GOTO flow_256
+			case 10603:
+				 GOTO flow_261
+			case 10604:
+				 GOTO flow_266
+			case 10605:
+				 GOTO flow_271
+			case 10606:
+				 GOTO flow_276
+			case 10607:
+				 GOTO flow_281
+			case 10608:
+				 GOTO flow_286
+			case 10609:
+				 GOTO flow_291
+			case 10610:
+				 GOTO flow_296
+			case 10611:
+				 GOTO flow_301
+		}
+		return;
+	flow_1:
+		if (arg3 == 1) {
+			globalint_1981 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1982 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_6:
+		if (arg3 == 1) {
+			globalint_1983 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1984 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_11:
+		if (arg3 == 1) {
+			globalint_1985 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1986 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_16:
+		if (arg3 == 1) {
+			globalint_1987 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1988 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_21:
+		if (arg3 == 1) {
+			globalint_1989 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1990 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_26:
+		if (arg3 == 1) {
+			globalint_1991 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1992 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_31:
+		if (arg3 == 1) {
+			globalint_1993 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1994 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_36:
+		if (arg3 == 1) {
+			globalint_1995 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1996 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_41:
+		if (arg3 == 1) {
+			globalint_1997 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_1998 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_46:
+		if (arg3 == 1) {
+			globalint_1999 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2000 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_51:
+		if (arg3 == 1) {
+			globalint_2001 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2002 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_56:
+		if (arg3 == 1) {
+			globalint_2003 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2004 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_61:
+		if (arg3 == 1) {
+			globalint_2005 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2006 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_66:
+		if (arg3 == 1) {
+			globalint_2007 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2008 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_71:
+		if (arg3 == 1) {
+			globalint_2009 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2010 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_76:
+		if (arg3 == 1) {
+			globalint_2011 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2012 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_81:
+		if (arg3 == 1) {
+			globalint_2013 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2014 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_86:
+		if (arg3 == 1) {
+			globalint_2015 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2016 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_91:
+		if (arg3 == 1) {
+			globalint_2017 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2018 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_96:
+		if (arg3 == 1) {
+			globalint_2019 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2020 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_101:
+		if (arg3 == 1) {
+			globalint_2021 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2022 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_106:
+		if (arg3 == 1) {
+			globalint_2023 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2024 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_111:
+		if (arg3 == 1) {
+			globalint_2025 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2026 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_116:
+		if (arg3 == 1) {
+			globalint_2027 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2028 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_121:
+		if (arg3 == 1) {
+			globalint_2029 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2030 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_126:
+		if (arg3 == 1) {
+			globalint_2031 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2032 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_131:
+		if (arg3 == 1) {
+			globalint_2033 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2034 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_136:
+		if (arg3 == 1) {
+			globalint_2035 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2036 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_141:
+		if (arg3 == 1) {
+			globalint_2037 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2038 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_146:
+		if (arg3 == 1) {
+			globalint_2039 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2040 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_151:
+		if (arg3 == 1) {
+			globalint_2041 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2042 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_156:
+		if (arg3 == 1) {
+			globalint_2043 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2044 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_161:
+		if (arg3 == 1) {
+			globalint_2045 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2046 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_166:
+		if (arg3 == 1) {
+			globalint_2047 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2048 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_171:
+		if (arg3 == 1) {
+			globalint_2049 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2050 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_176:
+		if (arg3 == 1) {
+			globalint_2051 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2052 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_181:
+		if (arg3 == 1) {
+			globalint_2053 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2054 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_186:
+		if (arg3 == 1) {
+			globalint_2055 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2056 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_191:
+		if (arg3 == 1) {
+			globalint_2057 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2058 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_196:
+		if (arg3 == 1) {
+			globalint_2059 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2060 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_201:
+		if (arg3 == 1) {
+			globalint_2061 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2062 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_206:
+		if (arg3 == 1) {
+			globalint_2063 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2064 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_211:
+		if (arg3 == 1) {
+			globalint_2065 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2066 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_216:
+		if (arg3 == 1) {
+			globalint_2067 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2068 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_221:
+		if (arg3 == 1) {
+			globalint_2069 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2070 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_226:
+		if (arg3 == 1) {
+			globalint_2071 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2072 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_231:
+		if (arg3 == 1) {
+			globalint_2073 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2074 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_236:
+		if (arg3 == 1) {
+			globalint_2075 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2076 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_241:
+		if (arg3 == 1) {
+			globalint_2077 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2078 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_246:
+		if (arg3 == 1) {
+			globalint_2079 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2080 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_251:
+		if (arg3 == 1) {
+			globalint_2081 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2082 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_256:
+		if (arg3 == 1) {
+			globalint_2083 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2084 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_261:
+		if (arg3 == 1) {
+			globalint_2085 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2086 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_266:
+		if (arg3 == 1) {
+			globalint_2087 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2088 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_271:
+		if (arg3 == 1) {
+			globalint_2089 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2090 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_276:
+		if (arg3 == 1) {
+			globalint_2091 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2092 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_281:
+		if (arg3 == 1) {
+			globalint_2093 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2094 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_286:
+		if (arg3 == 1) {
+			globalint_2095 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2096 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_291:
+		if (arg3 == 1) {
+			globalint_2097 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2098 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_296:
+		if (arg3 == 1) {
+			globalint_2099 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2100 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+		GOTO	flow_305
+	flow_301:
+		if (arg3 == 1) {
+			globalint_2101 = cs2method_10878();
+		}
+		if (arg4 == 1) {
+			globalint_2102 = add(multiply(subtract(arg2, arg1), 30), cs2method_10878());
+		}
+	flow_305:
+		script_6400(arg0, -1);
+		return;
+}

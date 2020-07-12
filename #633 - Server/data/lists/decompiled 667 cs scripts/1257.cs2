@@ -1,0 +1,11 @@
+void script_1257() {
+	if (bitconfig_305 == 1) {
+		return;
+	}
+	if (standart_config_263 == 0) {
+		cs2method_10467(180, 7471130);
+	} else {
+		cs2method_10467(181, 7471130);
+	}
+	return;
+}

@@ -1,0 +1,9 @@
+void script_3409(int arg0) {
+	object ovar0;
+	ovar0 = (object)"Access Forums";
+	script_3408(arg0, ovar0);
+	cs2method_10893(cs2method_10355(495, ovar0), cs2method_10090(arg0), 0, 0, arg0);
+	setWidgetText(new WidgetPointer(arg0), (object)("<u=64c8fa>" + (string)ovar0 + "</u>"));
+	cs2method_20000(3410, "", new WidgetPointer(arg0));
+	return;
+}

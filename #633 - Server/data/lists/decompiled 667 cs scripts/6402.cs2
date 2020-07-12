@@ -1,0 +1,16 @@
+void script_6402(int arg0,int arg1,int arg2) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg2 == 1) {
+			cs2method_10305(cs2method_10004(subtract(cs2method_10354(), 35), 0));
+			if (cs2method_10354() == 0) {
+				cs2method_20745(6402, new WidgetPointer(arg0), arg1, 0, "Ii1");
+			}
+		} else {
+			cs2method_10305(cs2method_10586(add(cs2method_10354(), 35), 255));
+			if (cs2method_10354() == 255) {
+				cs2method_20745(-1, "");
+			}
+		}
+	}
+	return;
+}

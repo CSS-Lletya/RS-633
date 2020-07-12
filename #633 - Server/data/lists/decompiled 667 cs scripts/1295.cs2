@@ -1,0 +1,8 @@
+void script_1295() {
+	setWidgetRGB(16711680, 9437331);
+	cs2method_20295(45, new WidgetPointer(-32768,3), 16711680, "Ii", new WidgetPointer(144,147));
+	setWidgetIsHidden(true, new WidgetPointer(144,186));
+	cs2method_10461(4910, 9437371);
+	cs2method_10535(1453, 9437371);
+	return;
+}

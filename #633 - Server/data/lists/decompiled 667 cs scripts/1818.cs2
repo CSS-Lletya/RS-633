@@ -1,0 +1,16 @@
+void script_1818(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	setWidgetText(new WidgetPointer(arg0), (object)"Defeat!");
+	cs2method_10444(64, 49, 0, 0, arg0);
+	setWidgetText(new WidgetPointer(arg1), (object)"Your clan has been defeated.");
+	cs2method_10444(41, 93, 0, 0, arg1);
+	cs2method_10444(41, 179, 0, 0, arg2);
+	cs2method_10893(180, 125, 0, 0, arg2);
+	cs2method_10444(38, 81, 0, 0, arg3);
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	setWidgetIsHidden(false, new WidgetPointer(arg1));
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	setWidgetIsHidden(false, new WidgetPointer(arg3));
+	setWidgetIsHidden(true, new WidgetPointer(arg4));
+	setWidgetIsHidden(false, new WidgetPointer(arg5));
+	return;
+}

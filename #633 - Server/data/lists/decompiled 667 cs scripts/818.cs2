@@ -1,0 +1,63 @@
+void script_818(int arg0) {
+	object ovar0;
+	ovar0 = (object)"No information is available about this beacon.";
+	switch (arg0) {
+		case 1:
+			cs2method_10461(41805, 37683203);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 130, "IIsii", new WidgetPointer(575,3));
+			break;
+		case 2:
+			cs2method_10461(41805, 37683204);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 160, "IIsii", new WidgetPointer(575,4));
+			break;
+		case 3:
+			cs2method_10461(41805, 37683205);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,5));
+			break;
+		case 4:
+			cs2method_10461(41805, 37683206);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,6));
+			break;
+		case 5:
+			cs2method_10461(41805, 37683207);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,7));
+			break;
+		case 6:
+			cs2method_10461(41805, 37683208);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,8));
+			break;
+		case 7:
+			cs2method_10461(41805, 37683209);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,9));
+			break;
+		case 8:
+			cs2method_10461(41805, 37683210);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,10));
+			break;
+		case 9:
+			cs2method_10461(41805, 37683211);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,11));
+			break;
+		case 10:
+			cs2method_10461(41805, 37683212);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,12));
+			break;
+		case 11:
+			cs2method_10461(41805, 37683213);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,13));
+			break;
+		case 12:
+			cs2method_10461(41805, 37683214);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,14));
+			break;
+		case 13:
+			cs2method_10461(41805, 37683215);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,15));
+			break;
+		case 14:
+			cs2method_10461(41805, 37683216);
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,16));
+	}
+	globalint_2 = 0;
+	return;
+}

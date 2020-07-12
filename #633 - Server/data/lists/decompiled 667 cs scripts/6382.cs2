@@ -1,0 +1,18 @@
+void script_6382(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 35;
+	if (arg1 == 0) {
+		cs2method_10149(cs2method_10004(subtract(cs2method_10964(arg0), ivar2), 0), arg0);
+		if (cs2method_10964(arg0) <= 0) {
+			cs2method_20219(6382, new WidgetPointer(-32768,3), 1, "Ii", new WidgetPointer(arg0));
+		}
+	} else {
+		cs2method_10149(cs2method_10586(add(cs2method_10964(arg0), ivar2), 255), arg0);
+		if (cs2method_10964(arg0) >= 255) {
+			setWidgetIsHidden(true, new WidgetPointer(arg0));
+			cs2method_20219(6382, new WidgetPointer(-32768,3), 0, "Ii", new WidgetPointer(arg0));
+			return;
+		}
+	}
+	return;
+}

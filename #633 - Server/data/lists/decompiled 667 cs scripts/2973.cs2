@@ -1,0 +1,38 @@
+void script_2973() {
+	if (cs2method_10391(22) < 56) {
+		setWidgetRGB(8815456, 30081051);
+	} else {
+		setWidgetRGB(15394756, 30081051);
+	}
+	if (cs2method_10391(22) < 57) {
+		setWidgetRGB(8815456, 30081047);
+	} else {
+		setWidgetRGB(15394756, 30081047);
+	}
+	if (cs2method_10391(22) < 59) {
+		setWidgetRGB(8815456, 30081043);
+	} else {
+		setWidgetRGB(15394756, 30081043);
+	}
+	if (cs2method_10391(22) < 62) {
+		setWidgetRGB(8815456, 30081039);
+	} else {
+		setWidgetRGB(15394756, 30081039);
+	}
+	if (cs2method_10391(22) < 65) {
+		setWidgetRGB(8815456, 30081031);
+	} else {
+		setWidgetRGB(15394756, 30081031);
+	}
+	if (cs2method_10391(22) < 70) {
+		setWidgetRGB(8815456, 30081035);
+	} else {
+		setWidgetRGB(15394756, 30081035);
+	}
+	if (cs2method_10391(22) < 80) {
+		setWidgetRGB(8815456, 30081027);
+	} else {
+		setWidgetRGB(15394756, 30081027);
+	}
+	return;
+}

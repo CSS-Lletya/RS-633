@@ -1,0 +1,7 @@
+void script_2106(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	arg4 = cs2method_10004(cs2method_10586(subtract(add(arg4, cs2method_10742(1)), cs2method_10742(1)), 5), -5);
+	arg5 = cs2method_10004(cs2method_10586(subtract(add(arg5, cs2method_10742(1)), cs2method_10742(1)), 5), -5);
+	cs2method_10444(add(arg2, arg4), add(arg3, arg5), 0, 0, arg1);
+	cs2method_20219(2106, new WidgetPointer(arg0), new WidgetPointer(arg1), arg2, arg3, arg4, arg5, "IIiiii", new WidgetPointer(arg0));
+	return;
+}

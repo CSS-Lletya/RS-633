@@ -1,0 +1,19 @@
+void script_1269() {
+	object ovar0;
+	ovar0 = (object)"null";
+	if (standart_config_427 == 0) {
+		cs2method_10467(761, 17104911);
+		ovar0 = (object)("Accept aid" + "<br>" + "(currently off)");
+		cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,15));
+		globalint_2 = 0;
+	} else {
+		if (standart_config_427 == 1) {
+			cs2method_10467(762, 17104911);
+			ovar0 = (object)("Accept aid" + "<br>" + "(currently on)");
+			cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,15));
+			globalint_2 = 0;
+		}
+	}
+	script_5641(17104911, standart_config_427);
+	return;
+}

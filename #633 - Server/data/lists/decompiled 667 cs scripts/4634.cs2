@@ -1,0 +1,44 @@
+void script_4634(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	if (cs2method_10553() == 2) {
+		cs2method_10897();
+	}
+	ivar1 = -1;
+	script_1174(11);
+	switch (arg0) {
+		case 1:
+			ivar1 = 0;
+	}
+	globalint_1100 = -1;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	globalint_200 = 0;
+	globalint_201 = 0;
+	ivar6 = 39059514;
+	ivar7 = 39059500;
+	if (cs2method_10637() == 1) {
+		ivar6 = 63897649;
+		ivar7 = 63897644;
+	}
+	setWidgetText(new WidgetPointer(ivar6), (object)"Logging in...");
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar7));
+	script_2950(-3, 0, 1, -1, 1, 1, 0, (object)"Logging In - Please Wait", (object)"Abort Login", (object)"");
+	setScriptCallOnMousePressed(4635, "", new WidgetPointer(596,14));
+	setWidgetIsHidden(false, new WidgetPointer(596,8));
+	globalint_1100 = -3;
+	cs2method_10841(ivar1);
+	if (cs2method_10637() == 1) {
+		cs2method_20219(2946, arg0, "i", new WidgetPointer(975,26));
+	} else {
+		cs2method_20219(2946, arg0, "i", new WidgetPointer(596,6));
+	}
+	return;
+}

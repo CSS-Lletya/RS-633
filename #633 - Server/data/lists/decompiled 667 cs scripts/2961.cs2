@@ -1,0 +1,18 @@
+void script_2961(int arg0,int arg1,int arg2) {
+	if (arg2 == 1) {
+		if (globalint_986 == 1) {
+			cs2method_10467(2702, arg0);
+		} else {
+			cs2method_10467(2701, arg0);
+		}
+		setWidgetRGB(15458492, arg1);
+	} else {
+		if (globalint_986 == 1) {
+			cs2method_10467(2700, arg0);
+		} else {
+			cs2method_10467(2703, arg0);
+		}
+		setWidgetRGB(11709087, arg1);
+	}
+	return;
+}

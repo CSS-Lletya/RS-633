@@ -1,0 +1,19 @@
+void script_3098(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5,object arg6) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar5 = 4044;
+	ivar6 = 4044;
+	ivar7 = 4046;
+	cs2method_20295(3071, new WidgetPointer(arg1), ivar5, new WidgetPointer(arg2), ivar7, new WidgetPointer(arg3), ivar6, "IdIdId", new WidgetPointer(arg0));
+	cs2method_10467(ivar5, arg1);
+	cs2method_10467(ivar7, arg2);
+	cs2method_10467(ivar6, arg3);
+	ivar5 = 4045;
+	ivar6 = 4045;
+	ivar7 = 4047;
+	cs2method_20333(3071, new WidgetPointer(arg1), ivar5, new WidgetPointer(arg2), ivar7, new WidgetPointer(arg3), ivar6, "IdIdId", new WidgetPointer(arg0));
+	setWidgetText(new WidgetPointer(906,257), arg5);
+	cs2method_10375(1, 59375869, arg6);
+	return;
+}

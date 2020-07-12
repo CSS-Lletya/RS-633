@@ -1,0 +1,10 @@
+void script_4327(int arg0,int arg1) {
+	if (cs2method_10551(arg1, arg0) == 1) {
+		if (arg1 == 71368704 && standart_config_2149 == arg0) {
+			cs2method_10469(6039);
+		} else {
+			cs2method_10469(6036);
+		}
+	}
+	return;
+}

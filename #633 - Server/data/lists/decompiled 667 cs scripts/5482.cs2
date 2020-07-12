@@ -1,0 +1,9 @@
+void script_5482() {
+	int ivar0;
+	int ivar1;
+	ivar0 = divide(multiply(65535, bitconfig_10192), 60);
+	cs2method_10641(ivar0, 77004808);
+	ivar1 = divide(divide(multiply(65535, bitconfig_10192), 60), 12);
+	cs2method_10641(ivar1, 77004809);
+	return;
+}

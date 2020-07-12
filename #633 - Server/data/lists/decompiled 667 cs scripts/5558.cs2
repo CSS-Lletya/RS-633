@@ -1,0 +1,16 @@
+void script_5558(int arg0) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (cs2method_10416(48890059) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(746,203));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(746,203));
+	}
+	if (cs2method_10416(35913928) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(548,200));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(548,200));
+	}
+	return;
+}

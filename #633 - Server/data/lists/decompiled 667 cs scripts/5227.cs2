@@ -1,0 +1,62 @@
+void script_5227() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	script_5228(4);
+	script_5228(5);
+	script_5228(6);
+	script_5228(7);
+	script_5228(8);
+	script_5228(9);
+	script_5228(10);
+	script_5228(11);
+	script_5228(12);
+	script_5228(13);
+	script_5228(14);
+	script_5228(15);
+	ivar0 = cs2method_10509(82509998);
+	if (ivar0 == -1) {
+		return;
+	}
+	ivar1 = 2;
+	if (cs2method_10826(82509998) > divide(cs2method_10090(ivar0), 2)) {
+		ivar1 = 0;
+	}
+	ovar0 = (object)"Teleport to the keep.";
+	cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(1259,174), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1259,174));
+	cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(1259,174));
+	cs2method_10375(1, 82509998, (object)"Teleport to keep");
+	ivar1 = 2;
+	if (cs2method_10826(82510001) > divide(cs2method_10090(ivar0), 2)) {
+		ivar1 = 0;
+	}
+	ovar0 = (object)"Teleport to the town square.";
+	cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(1259,177), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1259,177));
+	cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(1259,177));
+	cs2method_10375(1, 82510001, (object)"Teleport to town square");
+	ivar1 = 2;
+	if (cs2method_10826(82509999) > divide(cs2method_10090(ivar0), 2)) {
+		ivar1 = 0;
+	}
+	ovar0 = (object)"Teleport to the portal.";
+	cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(1259,175), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1259,175));
+	cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(1259,175));
+	cs2method_10375(1, 82509999, (object)"Teleport to portal");
+	ivar1 = 2;
+	if (cs2method_10826(82510000) > divide(cs2method_10090(ivar0), 2)) {
+		ivar1 = 0;
+	}
+	ovar0 = (object)"Teleport to the welcome area.";
+	cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(1259,176), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1259,176));
+	cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(1259,176));
+	cs2method_10375(1, 82510000, (object)"Teleport to welcome area");
+	ivar1 = 2;
+	if (cs2method_10826(82510002) > divide(cs2method_10090(ivar0), 2)) {
+		ivar1 = 0;
+	}
+	ovar0 = (object)"Teleport to the battlefield.";
+	cs2method_20835(4538, new WidgetPointer(1259,57), new WidgetPointer(1259,178), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, ivar1, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1259,178));
+	cs2method_20295(40, new WidgetPointer(1259,57), "I", new WidgetPointer(1259,178));
+	cs2method_10375(1, 82510000, (object)"Teleport to welcome area");
+	return;
+}

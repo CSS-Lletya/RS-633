@@ -1,0 +1,24 @@
+int script_6423(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (getItemAttribute(arg0, 2549) != 0) {
+		ivar1 = 3;
+	} else if (getItemAttribute(arg0, 2547) != 0) {
+		ivar1 = 1;
+	} else if (getItemAttribute(arg0, 2548) != 0) {
+		ivar1 = 2;
+	} else if (cs2method_10721(arg0) == 13) {
+		ivar1 = 4;
+	} else if (getItemAttribute(arg0, 2543) != 0) {
+		ivar1 = 5;
+	} else if (getItemAttribute(arg0, 2544) != 0) {
+		ivar1 = 6;
+	} else if (getItemAttribute(arg0, 2545) != 0) {
+		ivar1 = 7;
+	} else {
+		if (getItemAttribute(arg0, 2546) != 0) {
+			ivar1 = 8;
+		}
+	}
+	return ivar1;
+}

@@ -1,0 +1,55 @@
+void script_577(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = cs2method_10836(1, arg0);
+	ivar1 = cs2method_10956(25493508);
+	ivar2 = subtract(ivar1, 8);
+	if (ivar0 == -1) {
+		createChildWidget(25493508, 4, 0);
+		setWidgetPosition(0, 48, 0, 0);
+		setWidgetSize(ivar1, 16, 0, 0);
+		setWidgetFont(494);
+		setWidgetText((object)"Too many results. Please refine your search.");
+		setWidgetTextAlignment(1, 1, 0);
+		setWidgetRGB(new Color(160, 90, 0));
+		cs2method_10320(0);
+		setWidgetScrollMax(0, 15, 25493508);
+		script_578();
+		return;
+	}
+	if (ivar0 == 0) {
+		createChildWidget(25493508, 4, 0);
+		setWidgetPosition(0, 48, 0, 0);
+		setWidgetSize(ivar1, 16, 0, 0);
+		setWidgetFont(494);
+		setWidgetText((object)"No matching items found.");
+		setWidgetTextAlignment(1, 1, 0);
+		setWidgetRGB(new Color(160, 90, 0));
+		cs2method_10320(0);
+		setWidgetScrollMax(0, 15, 25493508);
+		script_578();
+		return;
+	}
+	ivar3 = 1;
+	ivar4 = cs2method_10722();
+	createChildWidget(25493508, 3, 0);
+	while (ivar4 != -1) {
+		createChildWidget(25493508, 4, ivar3);
+		setWidgetPosition(4, multiply(15, subtract(ivar3, 1)), 0, 0);
+		setWidgetSize(ivar2, 15, 0, 0);
+		setWidgetRGB(new Color(160, 90, 0));
+		setWidgetText(getItemName(ivar4));
+		setWidgetFont(495);
+		cs2method_10320(0);
+		cs2method_20211(579, ivar3, ivar4, "io");
+		cs2method_20723(580, ivar4, "o");
+		ivar4 = cs2method_10722();
+		ivar3 = add(ivar3, 1);
+	}
+	setWidgetScrollMax(0, multiply(15, subtract(ivar3, 1)), 25493508);
+	script_578();
+	return;
+}

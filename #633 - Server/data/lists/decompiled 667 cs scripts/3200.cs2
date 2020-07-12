@@ -1,0 +1,18 @@
+void script_3200(int arg0) {
+	if (cs2method_10366((object)globalstring_279) > 0) {
+		cs2method_10824(arg0, globalint_6, (object)globalstring_279, (object)"");
+	}
+	script_3194();
+	if (cs2method_10366((object)globalstring_279) > 0 && cs2method_10799((object)globalstring_279) == 0 && compareTo((object)globalstring_279, cs2method_10758()) != 0) {
+		if (arg0 == 5) {
+			globalint_1094 = 1;
+		}
+		script_3203();
+	} else {
+		globalint_1094 = 0;
+		if (arg0 == 5) {
+			script_2190(0, 6, 1, (object)"", (object)("Open a bug report form?" + "<br>" + "(opens a new window)"), (object)"", (object)"");
+		}
+	}
+	return;
+}

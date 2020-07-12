@@ -1,0 +1,7 @@
+void script_1427() {
+	if (globalint_1686 == 1 || globalint_1686 == 0) {
+		return;
+	}
+	globalint_1686 = 1;
+	return;
+}

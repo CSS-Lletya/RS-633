@@ -1,0 +1,18 @@
+void script_574(int arg0,int arg1) {
+	object ovar0;
+	if (arg0 == 84) {
+		globalint_81 = 0;
+		cs2method_20219(-1, "", new WidgetPointer(389,9));
+		script_576();
+		return;
+	}
+	ovar0 = script_74(0, arg0, arg1, (object)globalstring_22);
+	if (compareTo((object)globalstring_22, ovar0) == 0) {
+		return;
+	}
+	globalstring_22 = (string)ovar0;
+	setWidgetText(new WidgetPointer(389,9), (object)((string)cs2method_10991((object)globalstring_22) + "*"));
+	globalint_81 = 50;
+	cs2method_20219(575, "", new WidgetPointer(389,9));
+	return;
+}

@@ -1,0 +1,32 @@
+void script_2906(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = cs2method_10740(arg0);
+	ivar4 = 0;
+	if (arg1 == 10010) {
+		ivar4 = add(getItemAmtInContainer(94, 11259), getItemAmtInContainer(93, 11259));
+		if (ivar4 > 0) {
+			arg1 = 11259;
+		}
+	}
+	switch (arg1) {
+		case 11259:
+		case 10010:
+			if (ivar4 == 0) {
+				ivar4 = add(getItemAmtInContainer(93, 10010), getItemAmtInContainer(94, 10010));
+			}
+			break;
+		default:
+			ivar4 = getItemAmtInContainer(93, arg1);
+	}
+	setWidgetText(new WidgetPointer(arg2), getItemName(arg1));
+	if (ivar4 > 0) {
+		setWidgetRGB(16776960, arg2);
+		cs2method_10380(arg1, ivar4, arg0);
+	} else {
+		setWidgetRGB(13369344, arg2);
+		cs2method_10380(arg1, -1, arg0);
+	}
+	cs2method_10163(1, arg0);
+	return;
+}

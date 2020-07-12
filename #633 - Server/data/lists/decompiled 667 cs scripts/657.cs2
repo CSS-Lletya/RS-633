@@ -1,0 +1,9 @@
+void script_657(int arg0) {
+	if (cs2method_10551(arg0, 0) == 1) {
+		cs2method_10253(2);
+		if (AND(cs2method_10993(), 32) != 0) {
+			script_71(4);
+		}
+	}
+	return;
+}

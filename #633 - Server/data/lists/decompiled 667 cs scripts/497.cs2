@@ -1,0 +1,57 @@
+void script_497() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	if (globalint_1367 != -1) {
+		ivar0 = cs2method_30762(globalint_1367, 1134);
+		if (globalint_1368 > ivar0) {
+			ovar0 = (object)("Movement: " + "<col=00c800>" + toString(globalint_1368) + "<col=ff981f>" + "/" + toString(ivar0));
+		} else if (globalint_1368 < ivar0) {
+			ovar0 = (object)("Movement: " + "<col=c80000>" + toString(globalint_1368) + "<col=ff981f>" + "/" + toString(ivar0));
+		} else {
+			ovar0 = (object)("Movement: " + toString(globalint_1368) + "/" + toString(ivar0));
+		}
+		ivar1 = cs2method_30762(globalint_1367, 1135);
+		if (globalint_1369 > ivar1) {
+			ovar1 = (object)("Damage: " + "<col=00c800>" + toString(multiply(globalint_1369, 100)) + "<col=ff981f>" + "/" + toString(multiply(ivar1, 100)));
+		} else if (globalint_1369 < ivar1) {
+			ovar1 = (object)("Damage: " + "<col=c80000>" + toString(multiply(globalint_1369, 100)) + "<col=ff981f>" + "/" + toString(multiply(ivar1, 100)));
+		} else {
+			ovar1 = (object)("Damage: " + toString(multiply(globalint_1369, 100)) + "/" + toString(multiply(ivar1, 100)));
+		}
+		ivar2 = cs2method_30762(globalint_1367, 1136);
+		if (globalint_1370 > ivar2) {
+			ovar2 = (object)("Health: " + "<col=00c800>" + toString(multiply(globalint_1370, 100)) + "<col=ff981f>" + "/" + toString(multiply(ivar2, 100)));
+		} else if (globalint_1370 < ivar2) {
+			ovar2 = (object)("Health: " + "<col=c80000>" + toString(multiply(globalint_1370, 100)) + "<col=ff981f>" + "/" + toString(multiply(ivar2, 100)));
+		} else {
+			ovar2 = (object)("Health: " + toString(multiply(globalint_1370, 100)) + "/" + toString(multiply(ivar2, 100)));
+		}
+		ivar3 = cs2method_30762(globalint_1367, 1137);
+		if (globalint_1371 > ivar3) {
+			ovar3 = (object)("Range: " + "<col=00c800>" + toString(globalint_1371) + "<col=ff981f>" + "/" + toString(ivar3));
+		} else if (globalint_1371 < ivar3) {
+			ovar3 = (object)("Range: " + "<col=c80000>" + toString(globalint_1371) + "<col=ff981f>" + "/" + toString(ivar3));
+		} else {
+			ovar3 = (object)("Range: " + toString(globalint_1371) + "/" + toString(ivar3));
+		}
+		setWidgetText(new WidgetPointer(1012,8), ovar0);
+		setWidgetText(new WidgetPointer(1012,9), ovar1);
+		setWidgetText(new WidgetPointer(1012,10), ovar2);
+		setWidgetText(new WidgetPointer(1012,11), ovar3);
+	}
+	return;
+}

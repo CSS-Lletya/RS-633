@@ -1,0 +1,63 @@
+void script_2444() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	if (standart_config_1437 == 0) {
+		return;
+	}
+	if (cs2method_10416(2228234) == 0) {
+		cs2method_20219(2443, "", new WidgetPointer(34,9));
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(34,9));
+	script_1548(13);
+	setWidgetIsHidden(true, new WidgetPointer(34,16));
+	globalint_821 = 0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ovar0 = (object)"";
+	clearExtraChildren(new WidgetPointer(34,9));
+	if (cs2method_10062() == 1) {
+		setWidgetText(new WidgetPointer(34,13), (object)"The notes system is not available for users restricted to quick-chat.");
+		setWidgetIsHidden(false, new WidgetPointer(34,13));
+		return;
+	}
+	setWidgetText(new WidgetPointer(34,13), (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(34,13));
+	while (ivar1 < 30) {
+		ovar0 = script_2452(ivar1);
+		if (compareTo(ovar0, (object)"") != 0) {
+			ivar0 = script_2445(ivar0, ivar2, script_2453(ivar1), ovar0);
+			ivar2 = add(ivar2, 1);
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	if (ivar2 <= 0) {
+		setWidgetText(new WidgetPointer(34,13), (object)"No notes");
+		setWidgetIsHidden(false, new WidgetPointer(34,13));
+		setWidgetText(new WidgetPointer(34,1), (object)"Notes");
+	} else if (ivar2 > 0 && ivar2 <= 30) {
+		setWidgetText(new WidgetPointer(34,1), (object)("Notes (" + toString(ivar2) + "/" + "30" + ")"));
+	} else {
+		setWidgetText(new WidgetPointer(34,1), (object)"Notes");
+	}
+	if (ivar0 > 0 && ivar0 < 13) {
+		if (cs2method_10551(2228233, subtract(ivar2, 1)) == 1) {
+			cs2method_10893(cs2method_10040(), subtract(cs2method_10090(2228233), add(cs2method_10207(), cs2method_10630())), 0, 0, 2228236);
+			cs2method_10444(cs2method_10646(), add(cs2method_10207(), cs2method_10630()), 0, 0, 2228236);
+			setWidgetIsHidden(false, new WidgetPointer(34,12));
+		}
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(34,12));
+	}
+	if (ivar0 < 1) {
+		setWidgetScrollMax(0, 0, 2228233);
+	} else {
+		setWidgetScrollMax(0, add(multiply(ivar0, 15), 10), 2228233);
+	}
+	script_72(2228239, 2228233, cs2method_10424(2228233));
+	setWidgetIsHidden(true, new WidgetPointer(34,44));
+	return;
+}

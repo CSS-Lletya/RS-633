@@ -1,0 +1,36 @@
+void script_4369(int arg0,int arg1,int arg2,int arg3) {
+	globalstring_346 = (string)cs2method_10100(arg0);
+	switch (arg2) {
+		case 84:
+			script_4372(1);
+			break;
+		case 102:
+		case 103:
+		case 98:
+		case 99:
+		case 96:
+		case 97:
+			if (cs2method_10043() == 0) {
+				return;
+			}
+			script_1553(arg2, globalint_1498, (object)globalstring_346);
+			break;
+		case 85:
+			if (cs2method_10366((object)globalstring_346) > 0) {
+				globalstring_346 = (string)cs2method_10547(0, subtract(cs2method_10366((object)globalstring_346), 1), (object)globalstring_346);
+			}
+			break;
+		default:
+			if (arg2 == 67 && cs2method_10023() == 1) {
+				script_4367();
+				return;
+			}
+			if (cs2method_10366((object)globalstring_346) < 13) {
+				globalstring_346 = (string)script_74(0, arg2, arg1, (object)globalstring_346);
+			}
+	}
+	globalint_1498 = script_1552(globalint_1498, 5631, arg0, -1, (object)globalstring_346);
+	cs2method_10444(globalint_1498, cs2method_10826(arg3), 0, 0, arg3);
+	setWidgetText(new WidgetPointer(arg0), (object)globalstring_346);
+	return;
+}

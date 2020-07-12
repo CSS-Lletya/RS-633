@@ -1,0 +1,15 @@
+void script_3502() {
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3547(3), bitconfig_7387), cs2method_10624(3170))), -1, 65732799);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3545(4), bitconfig_7387), cs2method_10624(3170))), -1, 65732800);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3545(12), bitconfig_7387), cs2method_10624(3170))), -1, 65732801);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3546(13), bitconfig_7387), cs2method_10624(3170))), -1, 65732802);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3546(5), bitconfig_7387), cs2method_10624(3170))), -1, 65732803);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3547(11), bitconfig_7387), cs2method_10624(3170))), -1, 65732804);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3546(1), bitconfig_7387), cs2method_10624(3170))), -1, 65732805);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3547(14), bitconfig_7387), cs2method_10624(3170))), -1, 65732806);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3545(1), bitconfig_7387), cs2method_10624(3170))), -1, 65732807);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3545(9), bitconfig_7387), cs2method_10624(3170))), -1, 65732808);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3547(6), bitconfig_7387), cs2method_10624(3170))), -1, 65732809);
+	cs2method_10380(getDataByKey('i', 'O', 3170, cs2method_10620(add(script_3546(9), bitconfig_7387), cs2method_10624(3170))), -1, 65732810);
+	return;
+}

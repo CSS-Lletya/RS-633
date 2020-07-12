@@ -1,0 +1,18 @@
+void script_3947(int arg0,object arg1,object arg2,object arg3,object arg4,object arg5,object arg6) {
+	if (arg0 == 1) {
+		cs2method_10375(1, 67371181, arg1);
+		cs2method_10375(1, 67371182, arg2);
+		cs2method_10375(1, 67371183, arg3);
+		cs2method_10375(1, 67371184, arg4);
+		cs2method_10375(1, 67371185, arg5);
+		cs2method_10375(1, 67371186, arg6);
+	} else {
+		cs2method_10375(1, 58327063, arg1);
+		cs2method_10375(1, 58327064, arg2);
+		cs2method_10375(1, 58327065, arg3);
+		cs2method_10375(1, 58327066, arg4);
+		cs2method_10375(1, 58327067, arg5);
+		cs2method_10375(1, 58327068, arg6);
+	}
+	return;
+}

@@ -1,0 +1,6 @@
+int script_2727() {
+	if (cs2method_10184(cs2method_10834(), 10) == 1) {
+		return 1;
+	}
+	return 0;
+}

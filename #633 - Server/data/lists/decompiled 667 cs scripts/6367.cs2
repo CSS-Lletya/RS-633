@@ -1,0 +1,52 @@
+void script_6367() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	cs2func_script_6372_struct(3,0,0) structdump_0;
+	ivar0 = multiply(standart_config_2669, 6);
+	ivar1 = standart_config_2670;
+	ivar2 = standart_config_2671;
+	ivar3 = standart_config_2672;
+	ivar4 = subtract(standart_config_2669, multiply(divide(cs2method_10137(), 2), 10));
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ovar0 = cs2method_10445((object)"VS : ", (object)globalstring_376);
+	setWidgetText(new WidgetPointer(667,11), (object)("Total Armour : " + toString(ivar0)));
+	setWidgetText(new WidgetPointer(667,12), (object)("Life Bonus : " + toString(cs2method_10226(94, 1326))));
+	setWidgetText(new WidgetPointer(667,13), (object)("Prayer Bonus : " + toString(cs2method_10226(94, 2656))));
+	ivar1 = add(ivar4, standart_config_2670);
+	ivar2 = add(ivar4, standart_config_2671);
+	ivar3 = add(ivar4, standart_config_2672);
+	setWidgetText(new WidgetPointer(667,14), (object)("VS Offence : " + toString(multiply(divide(cs2method_10137(), 2), 10))));
+	setWidgetText(new WidgetPointer(667,15), (object)("Melee : " + toString(cs2method_10004(25, cs2method_10542(divide(ivar1, 10), 100, standart_config_2969))) + "%"));
+	setWidgetText(new WidgetPointer(667,16), (object)("Ranged : " + toString(cs2method_10004(25, cs2method_10542(divide(ivar2, 10), 100, standart_config_2970))) + "%"));
+	setWidgetText(new WidgetPointer(667,17), (object)("Magic : " + toString(cs2method_10004(25, cs2method_10542(divide(ivar3, 10), 100, standart_config_2971))) + "%"));
+	if (globalint_2103 != -1) {
+		structdump_0 = script_6372();
+		ivar8 = structdump_0.intpart_2;
+		ivar7 = structdump_0.intpart_1;
+		ivar5 = structdump_0.intpart_0;
+		ivar6 = cs2method_10586(100, script_6373(ivar8));
+		script_1125(43712517, ovar0);
+		setWidgetText(new WidgetPointer(667,6), (object)("Offence : " + toString(ivar7)));
+		setWidgetText(new WidgetPointer(667,7), (object)("Defence : " + toString(cs2method_30762(globalint_2103, 2580))));
+		setWidgetText(new WidgetPointer(667,8), (object)("Defend Chance : " + toString(ivar5) + "%"));
+		setWidgetText(new WidgetPointer(667,9), (object)("Hit Chance : " + toString(ivar6) + "%"));
+	} else {
+		setWidgetText(new WidgetPointer(667,5), (object)"VS : Unknown");
+		setWidgetText(new WidgetPointer(667,6), (object)"Offence : ???");
+		setWidgetText(new WidgetPointer(667,7), (object)"Defence : ???");
+		setWidgetText(new WidgetPointer(667,8), (object)"Defend Chance : ???");
+		setWidgetText(new WidgetPointer(667,9), (object)"Hit Chance : ???");
+	}
+	return;
+}

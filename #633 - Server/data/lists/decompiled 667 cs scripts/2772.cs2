@@ -1,0 +1,23 @@
+void script_2772(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = subtract(cs2method_10800(0), 2);
+	if (globalint_1007 != 2 || arg1 > ivar2) {
+		cs2method_20808(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	switch (cs2method_10742(2)) {
+		case 0:
+			cs2method_10508(6645, 1, 0);
+			break;
+		case 1:
+			cs2method_10508(6644, 1, 0);
+			break;
+		case 2:
+			cs2method_10508(6643, 1, 0);
+	}
+	cs2method_10767(0, arg1, 2500, 2400, 1, arg1);
+	if (arg1 < ivar2) {
+		cs2method_20808(2772, new WidgetPointer(arg0), add(arg1, 1), "Ii", new WidgetPointer(arg0));
+	}
+	return;
+}

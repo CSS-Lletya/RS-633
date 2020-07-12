@@ -1,0 +1,7 @@
+void script_5762() {
+	if (globalint_168 == 1) {
+		globalint_168 = -1;
+		script_71(globalint_168);
+	}
+	return;
+}

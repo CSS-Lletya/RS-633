@@ -1,0 +1,16 @@
+void script_1523() {
+	if (bitconfig_4895 == 2) {
+		createChildWidget(18022408, 4, 0);
+		setWidgetPosition(0, -2, 0, 0);
+		setWidgetSize(102, 23, 0, 0);
+		setWidgetFont(645);
+		setWidgetTextAlignment(0, 1, 0);
+		setWidgetText((object)"Back");
+		setWidgetRGB(new Color(70, 50, 10));
+		cs2method_10320(0);
+		cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 16777215, "Iii");
+		cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 4600330, "Iii");
+		cs2method_10375(1, 18022408, (object)"Back to Index");
+	}
+	return;
+}

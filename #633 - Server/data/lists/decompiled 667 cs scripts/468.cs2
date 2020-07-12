@@ -1,0 +1,16 @@
+void script_468(int arg0,int arg1) {
+	if (cs2method_10453(0) < 42 || cs2method_10453(2) < 42 || cs2method_10453(1) < 42 || cs2method_10453(3) < 42 || cs2method_10453(4) < 42 || cs2method_10453(6) < 42 || cs2method_10453(5) < 22) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=c80000>" + "Higher levels required...(show)" + "</col>"));
+		return;
+	}
+	if (arg0 == 66257161 && standart_config_1875 < 1250) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=c80000>" + "1250 Conquest ranking required." + "</col>"));
+		return;
+	}
+	if (bitconfig_2086 < arg1) {
+		setWidgetText(new WidgetPointer(arg0), (object)("<col=c80000>" + toString(arg1) + " Commendations required." + "</col>"));
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)(toString(arg1) + " Commendations."));
+	}
+	return;
+}

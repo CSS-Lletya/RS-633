@@ -1,0 +1,45 @@
+int script_6006(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	ivar1 = cs2method_10412(cs2method_10222(cs2method_10664()));
+	if (ivar1 < 0) {
+		return 0;
+	}
+	if (arg0 == -1) {
+		arg0 = cs2method_10548(ivar1);
+	}
+	switch (arg0) {
+		case 100:
+			if (clanbitconfig_233 == 1) {
+				return 1;
+			}
+			break;
+		case 101:
+			if (clanbitconfig_234 == 1) {
+				return 1;
+			}
+			break;
+		case 102:
+			if (clanbitconfig_235 == 1) {
+				return 1;
+			}
+			break;
+		case 103:
+			if (clanbitconfig_236 == 1) {
+				return 1;
+			}
+			break;
+		case 125:
+			if (clanbitconfig_237 == 1) {
+				return 1;
+			}
+			break;
+		case 126:
+			return 1;
+		case 127:
+			return 1;
+		default:
+			return 0;
+	}
+	return 0;
+}

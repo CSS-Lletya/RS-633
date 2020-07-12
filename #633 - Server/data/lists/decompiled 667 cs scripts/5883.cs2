@@ -1,0 +1,50 @@
+void script_5883(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	ivar4 = 82116690;
+	ivar5 = cs2method_10685(ivar4);
+	ivar6 = script_669(ivar5, 65535, 360);
+	if (arg0 > 0) {
+		arg2 = add(arg2, 1);
+		arg1 = add(arg1, 1);
+		if (arg1 >= add(multiply(divide(20, 5), arg0), multiply(arg0, 3))) {
+			arg1 = 0;
+			arg0 = add(arg0, 1);
+		}
+		cs2method_20219(5883, arg0, arg1, arg2, arg3, "iiii", new WidgetPointer(1253,82));
+	}
+	ivar7 = subtract(8, arg0);
+	ivar8 = add(ivar6, ivar7);
+	if (ivar8 > 359) {
+		ivar8 = cs2method_10004(0, subtract(ivar8, 359));
+	}
+	ivar9 = script_669(ivar8, 360, 65535);
+	globalint_1801 = ivar8;
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = script_5936(bitconfig_10860);
+	if (arg0 == 8) {
+		cs2method_20219(-1, "", new WidgetPointer(ivar4));
+		script_5892();
+		cs2method_20219(5898, new WidgetPointer(-32768,3), 0, "Ii", new WidgetPointer(1253,52));
+		if (ivar12 == -1) {
+			return;
+		}
+		ivar10 = getGeneralRequirementAttribute(ivar12, 2266);
+		ivar11 = getGeneralRequirementAttribute(ivar12, 2267);
+	} else {
+		script_5891();
+	}
+	globalint_1783 = script_5932(ivar8);
+	script_5899();
+	cs2method_10641(ivar9, ivar4);
+	script_5897(ivar6, ivar8);
+	return;
+}

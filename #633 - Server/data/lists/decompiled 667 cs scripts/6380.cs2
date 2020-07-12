@@ -1,0 +1,14 @@
+void script_6380(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 425;
+	ivar2 = cs2method_10542(standart_config_300, 1000, 100);
+	ivar3 = cs2method_10542(cs2method_10956(arg0), ivar1, 100);
+	if (ivar3 != ivar2) {
+		cs2method_20219(6381, new WidgetPointer(arg0), 1, 1, "Iii", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

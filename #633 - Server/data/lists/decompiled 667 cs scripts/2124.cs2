@@ -1,0 +1,23 @@
+void script_2124(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	int ivar9;
+	globalint_681 = cs2method_10869(2048);
+	globalint_684 = cs2method_10869(2048);
+	globalint_687 = cs2method_10869(2048);
+	globalint_690 = cs2method_10869(2048);
+	globalint_680 = subtract(25, cs2method_10742(50));
+	globalint_682 = subtract(25, cs2method_10742(50));
+	globalint_683 = subtract(25, cs2method_10742(50));
+	globalint_685 = subtract(25, cs2method_10742(50));
+	globalint_686 = subtract(25, cs2method_10742(50));
+	globalint_688 = subtract(25, cs2method_10742(50));
+	globalint_689 = subtract(25, cs2method_10742(50));
+	globalint_691 = subtract(25, cs2method_10742(50));
+	script_2127(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8);
+	cs2method_20219(2126, new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), new WidgetPointer(arg6), new WidgetPointer(arg7), new WidgetPointer(arg8), "IIIIIIII", new WidgetPointer(arg0));
+	ivar9 = add(cs2method_10878(), 100);
+	cs2method_20219(5613, new WidgetPointer(420,25), cs2method_10869(63), cs2method_10869(127), cs2method_10869(2), ivar9, "Iiiii", new WidgetPointer(420,25));
+	cs2method_20219(5613, new WidgetPointer(420,22), cs2method_10869(63), cs2method_10869(127), cs2method_10869(2), ivar9, "Iiiii", new WidgetPointer(420,22));
+	cs2method_20219(5613, new WidgetPointer(420,23), cs2method_10869(63), cs2method_10869(127), cs2method_10869(2), ivar9, "Iiiii", new WidgetPointer(420,23));
+	cs2method_20219(5613, new WidgetPointer(420,21), cs2method_10869(63), cs2method_10869(127), cs2method_10869(2), ivar9, "Iiiii", new WidgetPointer(420,21));
+	return;
+}

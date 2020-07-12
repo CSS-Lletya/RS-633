@@ -1,0 +1,17 @@
+void script_1927(int arg0) {
+	int ivar1;
+	ivar1 = 1;
+	while (ivar1 <= 6) {
+		if (ivar1 == getDataByKey('I', 'i', 2027, arg0) || ivar1 == globalint_544) {
+			setWidgetIsHidden(false, getDataByKey('i', 'I', 2031, ivar1));
+			setWidgetRGB(16777215, (int)getDataByKey('i', 'I', 2030, ivar1));
+			setWidgetRGB(16777215, (int)getDataByKey('i', 'I', 2029, ivar1));
+		} else {
+			setWidgetIsHidden(true, getDataByKey('i', 'I', 2031, ivar1));
+			setWidgetRGB(13150820, (int)getDataByKey('i', 'I', 2030, ivar1));
+			setWidgetRGB(13150820, (int)getDataByKey('i', 'I', 2029, ivar1));
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

@@ -1,0 +1,8 @@
+void script_1321(int arg0,int arg1) {
+	if (arg1 == 1) {
+		cs2method_10467(181, arg0);
+	} else {
+		cs2method_10467(180, arg0);
+	}
+	return;
+}

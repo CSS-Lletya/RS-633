@@ -1,0 +1,69 @@
+void script_4920() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	flow_0:
+		ivar0 = -1;
+		ivar1 = -1;
+		ivar2 = -1;
+		switch (bitconfig_9552) {
+			case 0:
+				ivar0 = 82510013;
+				ivar1 = 82510007;
+				ivar2 = 82509871;
+				break;
+			case 1:
+			case 3:
+			case 4:
+				ivar0 = 82641271;
+				ivar1 = 82641265;
+				ivar2 = 82641037;
+				break;
+			case 2:
+			case 5:
+				ivar0 = 82444911;
+				ivar1 = 82444905;
+				ivar2 = 82444423;
+				break;
+			case 6:
+				ivar0 = 82575678;
+				ivar1 = 82575672;
+				ivar2 = 82575462;
+		}
+		ovar0 = (object)"";
+		IF (globalint_1557 == 0 && globalint_1558 < 6 && globalint_1558 == 0 && globalint_1559 < 20) 
+			GOTO	flow_9
+		GOTO	flow_10
+	flow_9:
+		GOTO	flow_10
+	flow_10:
+		if (globalint_1557 == 0 && globalint_1558 == 0 && globalint_1559 == 0) {
+			setWidgetText(new WidgetPointer(ivar1), (object)"Due!");
+			return;
+		}
+		if (globalint_1557 > 0) {
+			ovar0 = cs2method_10445(ovar0, (object)(toString(globalint_1557) + "d "));
+		}
+		if (globalint_1558 > 0) {
+			ovar0 = cs2method_10445(ovar0, (object)(toString(globalint_1558) + "h "));
+		}
+		if (globalint_1559 > 0) {
+			ovar0 = cs2method_10445(ovar0, (object)(toString(globalint_1559) + "m"));
+		}
+		setWidgetText(new WidgetPointer(ivar1), ovar0);
+		ovar1 = (object)"";
+		if (cs2method_10575() == 1) {
+			/* 
+				mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:106
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		return;
+}

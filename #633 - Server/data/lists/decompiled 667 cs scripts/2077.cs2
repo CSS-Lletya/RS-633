@@ -1,0 +1,19 @@
+void script_2077() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	if (globalint_632 == 0) {
+		ivar0 = subtract(3, globalint_635);
+		if (ivar0 == 1) {
+			setWidgetText(new WidgetPointer(837,9), (object)("New game: " + toString(ivar0) + " min"));
+		} else {
+			setWidgetText(new WidgetPointer(837,9), (object)("New game: " + toString(ivar0) + " mins"));
+		}
+	} else {
+		ivar1 = subtract(20, globalint_636);
+		ivar0 = add(ivar1, 3);
+		setWidgetText(new WidgetPointer(837,9), (object)("New game: " + toString(ivar0) + " mins"));
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+void script_904() {
+	cs2method_10158(0, 0, 0, 0, 0, 400, 46989325);
+	cs2method_10444(add(cs2method_10111(46989325), 2), add(cs2method_10826(46989325), 2), 0, 0, 46989325);
+	return;
+}

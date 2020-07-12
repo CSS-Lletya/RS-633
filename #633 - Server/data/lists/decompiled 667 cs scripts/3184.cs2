@@ -1,0 +1,20 @@
+void script_3184() {
+	if (globalint_1200 == 1) {
+		setWidgetText(new WidgetPointer(933,277), (object)globalstring_312);
+		setWidgetText(new WidgetPointer(933,278), (object)getDataByKey('i', 's', 2857, globalint_1215));
+		setWidgetText(new WidgetPointer(933,279), (object)getDataByKey('i', 's', 2857, globalint_1216));
+		setWidgetText(new WidgetPointer(933,280), (object)getDataByKey('i', 's', 2857, globalint_1217));
+		setWidgetText(new WidgetPointer(933,281), (object)getDataByKey('i', 's', 2857, globalint_1218));
+		setWidgetText(new WidgetPointer(933,282), (object)getDataByKey('i', 's', 2857, globalint_1219));
+		setWidgetText(new WidgetPointer(933,283), (object)getDataByKey('i', 's', 2857, globalint_1220));
+	} else {
+		setWidgetText(new WidgetPointer(933,277), (object)"");
+		setWidgetText(new WidgetPointer(933,278), (object)"");
+		setWidgetText(new WidgetPointer(933,279), (object)"");
+		setWidgetText(new WidgetPointer(933,280), (object)"");
+		setWidgetText(new WidgetPointer(933,281), (object)"");
+		setWidgetText(new WidgetPointer(933,282), (object)"");
+		setWidgetText(new WidgetPointer(933,283), (object)"");
+	}
+	return;
+}

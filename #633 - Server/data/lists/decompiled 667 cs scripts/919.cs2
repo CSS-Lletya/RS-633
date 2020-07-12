@@ -1,0 +1,47 @@
+void script_919() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	ivar0 = getItemAmtInContainer(93, globalint_743);
+	ivar1 = getItemAmtInContainer(623, globalint_743);
+	ovar0 = (object)"Cost:";
+	ivar2 = -1;
+	if (globalint_744 == 0) {
+		ovar0 = (object)"None available";
+	} else if (globalint_744 == -1) {
+		ovar0 = (object)"Free sample!";
+	} else {
+		ivar2 = globalint_744;
+	}
+	setWidgetText(new WidgetPointer(449,24), ovar0);
+	if (subtract(subtract(2147483647, ivar0), ivar1) > 0) {
+		ivar0 = add(ivar0, ivar1);
+	} else {
+		ivar0 = 2147483647;
+	}
+	if (ivar2 > ivar0) {
+		setWidgetRGB(16711680, 29425689);
+	} else {
+		setWidgetRGB(globalint_1241, 29425689);
+	}
+	if (ivar2 > -1) {
+		cs2method_10194(globalint_743, ivar2, 29425687);
+	} else {
+		cs2method_10274(-1, -1, 29425687);
+	}
+	if (globalint_744 == -1) {
+		setWidgetText(new WidgetPointer(449,22), (object)"Take");
+		cs2method_10375(1, 29425685, (object)"Take 1");
+		cs2method_10375(2, 29425685, (object)"Take 5");
+		cs2method_10375(3, 29425685, (object)"Take 10");
+		cs2method_10375(4, 29425685, (object)"Take 50");
+	} else {
+		setWidgetText(new WidgetPointer(449,22), (object)"Buy");
+		cs2method_10375(1, 29425685, (object)"Buy 1");
+		cs2method_10375(2, 29425685, (object)"Buy 5");
+		cs2method_10375(3, 29425685, (object)"Buy 10");
+		cs2method_10375(4, 29425685, (object)"Buy 50");
+	}
+	return;
+}

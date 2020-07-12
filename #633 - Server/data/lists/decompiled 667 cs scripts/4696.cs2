@@ -1,0 +1,7 @@
+void script_4696() {
+	cs2method_20219(4697, 0, "i", new WidgetPointer(500,8));
+	if (cs2method_10416(32768011) == 0) {
+		cs2method_20219(4695, 0, 0, "ii", new WidgetPointer(500,11));
+	}
+	return;
+}

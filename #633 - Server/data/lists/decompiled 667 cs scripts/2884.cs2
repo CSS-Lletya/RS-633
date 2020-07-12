@@ -1,0 +1,11 @@
+void script_2884() {
+	if (bitconfig_4393 == 1 || bitconfig_542 == 1) {
+		return;
+	}
+	if (bitconfig_7079 == 0) {
+		script_39(12255246, 12255249, 25, 189, (object)"Shuffle on");
+	} else {
+		script_39(12255246, 12255249, 25, 189, (object)"Shuffle off");
+	}
+	return;
+}

@@ -1,0 +1,20 @@
+void script_969(int arg0) {
+	int ivar1;
+	ivar1 = cs2method_10620(cs2method_10878(), 32);
+	if (script_970(arg0) == 0) {
+		if (cs2method_10964(arg0) != 0) {
+			cs2method_10149(0, arg0);
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+		}
+	} else if (ivar1 < 8) {
+		cs2method_10149(0, arg0);
+	} else if (ivar1 < 16) {
+		cs2method_10149(85, arg0);
+	} else if (ivar1 < 24) {
+		cs2method_10149(255, arg0);
+	} else {
+		cs2method_10149(85, arg0);
+	}
+	return;
+}

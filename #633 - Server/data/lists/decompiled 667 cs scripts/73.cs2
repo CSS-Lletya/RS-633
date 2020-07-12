@@ -1,0 +1,597 @@
+void script_73(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	object ovar7;
+	cs2func_script_4590_struct(6,0,0) structdump_0;
+	cs2func_script_4729_struct(0,8,0) structdump_1;
+	cs2func_script_4590_struct(6,0,0) structdump_2;
+	int stack_dump3;
+	int stack_dump4;
+	int stack_dump5;
+	int stack_dump6;
+	object stack_dump7;
+	cs2func_script_802_struct(1,1,0) structdump_8;
+	cs2func_script_802_struct(1,1,0) structdump_9;
+	if (script_2709() == 0) {
+		if (arg0 == 84) {
+			cs2method_10998((object)"Chat is not available until your Date of Birth is recorded. Please enter your DOB above.");
+		}
+		return;
+	}
+	if (globalint_1954 == 13) {
+		script_1117(arg0);
+		return;
+	}
+	if (globalint_1954 > 0) {
+		script_6352(arg0);
+		return;
+	}
+	if (globalint_2106 != 1) {
+		if (arg0 == 84 || globalint_1947 == 1) {
+			globalint_2106 = 1;
+			script_6415();
+			script_6328(0);
+		}
+		if (arg0 != 80) {
+			return;
+		}
+	}
+	if (arg0 == 9) {
+		if (globalint_132 != -1) {
+			script_1052(globalint_133, globalint_132, (object)globalstring_29);
+		}
+		return;
+	}
+	if (arg0 == 10) {
+		if (script_1036() != -1) {
+			script_1051(0, (object)"");
+		}
+		return;
+	}
+	ivar2 = 0;
+	if (arg0 == 80) {
+		if (cs2method_10366((object)globalstring_276) > 0) {
+			ivar2 = cs2method_10196((object)globalstring_276);
+			if (ivar2 != -1) {
+				if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+					globalint_1650 = 1;
+					globalstring_23 = globalstring_276;
+					script_1558(0);
+					globalint_2106 = 1;
+					script_6415();
+					script_6328(0);
+					return;
+				}
+				if (cs2method_10371(ivar2) == 1) {
+					script_1050(1, (object)globalstring_276);
+				} else {
+					script_1050(3, (object)globalstring_276);
+				}
+				return;
+			}
+			if (globalint_183 > subtract(cs2method_10878(), 100)) {
+				return;
+			}
+			cs2method_10998((object)"That player is not on your Friends list.");
+			globalint_183 = cs2method_10878();
+			return;
+		}
+		if (globalint_183 > subtract(cs2method_10878(), 100)) {
+			return;
+		}
+		cs2method_10998((object)"You haven't received any messages to which you can reply.");
+		globalint_183 = cs2method_10878();
+		return;
+	}
+	ivar3 = 0;
+	ivar4 = 0;
+	if (arg0 == 11) {
+		ivar3 = 150;
+		ivar4 = subtract(cs2method_10878(), globalint_158);
+		if (ivar4 > 1500) {
+			globalint_159 = 0;
+		}
+		if (globalint_159 >= 7) {
+			ivar3 = 600;
+		} else if (globalint_159 >= 5) {
+			ivar3 = 450;
+		} else {
+			if (globalint_159 >= 3) {
+				ivar3 = 300;
+			}
+		}
+		if (ivar4 >= ivar3) {
+			globalint_158 = cs2method_10878();
+			globalint_159 = add(globalint_159, 1);
+			if (globalint_130 != -1) {
+				script_1069();
+			}
+			return;
+		}
+	}
+	ivar5 = 0;
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	ivar10 = -1;
+	ivar11 = -1;
+	if (cs2method_10433() > 0) {
+		if (arg0 == 104) {
+			script_75();
+		} else {
+			if (arg0 == 105) {
+				script_76();
+			}
+		}
+	} else {
+		if (cs2method_10062() == 1 || cs2method_10815() == 1) {
+			if (arg0 == 84) {
+				globalint_2106 = 0;
+				script_6415();
+				structdump_0 = script_4590();
+				ivar11 = structdump_0.intpart_5;
+				ivar10 = structdump_0.intpart_4;
+				ivar9 = structdump_0.intpart_3;
+				ivar8 = structdump_0.intpart_2;
+				ivar7 = structdump_0.intpart_1;
+				ivar6 = structdump_0.intpart_0;
+				if (globalint_41 == 4) {
+					script_1050(2, (object)"");
+				}
+				if (globalint_41 == 7) {
+					if (ivar6 >= 0) {
+						if (ivar7 >= ivar8) {
+							script_1050(8, (object)"");
+							return;
+						}
+						cs2method_10986(43, 0, (object)"Your rank is not high enough to talk in your clan chat.");
+						return;
+					}
+					globalint_41 = 0;
+					script_181(0);
+					script_178();
+					script_84();
+					script_89();
+					cs2method_10998((object)"You aren't in a Clan Chat channel.");
+					return;
+				}
+				script_1050(0, (object)"");
+				return;
+			}
+			return;
+		}
+	}
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ovar6 = (object)"";
+	ovar7 = (object)"";
+	structdump_1 = script_4729();
+	ovar7 = structdump_1.objectpart_7;
+	ovar3 = structdump_1.objectpart_6;
+	ovar6 = structdump_1.objectpart_5;
+	ovar2 = structdump_1.objectpart_4;
+	ovar5 = structdump_1.objectpart_3;
+	ovar1 = structdump_1.objectpart_2;
+	ovar4 = structdump_1.objectpart_1;
+	ovar0 = structdump_1.objectpart_0;
+	switch (arg0) {
+		case 84:
+			globalint_2106 = 0;
+			script_6415();
+			script_6328(1);
+			structdump_2 = script_4590();
+			ivar11 = structdump_2.intpart_5;
+			ivar10 = structdump_2.intpart_4;
+			ivar9 = structdump_2.intpart_3;
+			ivar8 = structdump_2.intpart_2;
+			ivar7 = structdump_2.intpart_1;
+			ivar6 = structdump_2.intpart_0;
+			if (cs2method_10366((object)globalstring_1) <= 0) {
+				globalint_1650 = 0;
+				globalstring_1 = "";
+				if (globalint_41 == 4) {
+					script_1050(2, (object)"");
+					return;
+				}
+				if (globalint_41 == 7) {
+					if (ivar6 >= 0) {
+						if (ivar7 >= ivar8) {
+							script_1050(8, (object)"");
+							return;
+						}
+						cs2method_10986(43, 0, (object)"Your rank is not high enough to talk in your clan chat.");
+						return;
+					}
+					globalint_41 = 0;
+					script_181(0);
+					script_178();
+					script_84();
+					script_89();
+					cs2method_10998((object)"You aren't in a Clan Chat channel.");
+					return;
+				}
+				script_1050(0, (object)"");
+				return;
+			}
+			if (compareTo((object)"/", (object)globalstring_1) == 0) {
+				globalstring_1 = "";
+				script_1050(2, (object)"");
+				return;
+			}
+			if (compareTo((object)"//", (object)globalstring_1) == 0) {
+				globalstring_1 = "";
+				if (ivar6 >= 0) {
+					if (ivar7 >= ivar8) {
+						script_1050(8, (object)"");
+						return;
+					}
+					cs2method_10986(43, 0, (object)"Your rank is not high enough to talk in your clan chat.");
+					return;
+				}
+				globalint_41 = 0;
+				script_181(0);
+				script_178();
+				script_84();
+				script_89();
+				cs2method_10998((object)"You aren't in a Clan Chat channel.");
+				return;
+			}
+			if (compareTo((object)"///", (object)globalstring_1) == 0) {
+				globalstring_1 = "";
+				if (ivar9 >= 0) {
+					if (ivar10 >= ivar11) {
+						script_1050(10, (object)"");
+						return;
+					}
+					cs2method_10986(43, 0, (object)"Guests cannot chat in this Clan Chat channel.");
+					return;
+				}
+				globalint_41 = 0;
+				script_181(0);
+				script_178();
+				script_84();
+				script_89();
+				cs2method_10998((object)"You aren't a guest in a visited Clan Chat channel.");
+				return;
+			}
+			if (cs2method_10433() > 0 && cs2method_10339(0, (object)globalstring_1, (object)"::") == 0) {
+				cs2method_10998((object)("<col=ff7f7f>" + "Use the reverse apostrophe (`) key to open the console to enter that command."));
+				cs2method_10998((object)("<col=ff7f7f>" + "It is usually located under the ESC key."));
+				globalstring_1 = "";
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar1, lower((object)globalstring_1)) == 0 || compareTo(ovar5, lower((object)globalstring_1)) == 0) {
+				globalint_1650 = 0;
+				globalint_1651 = 2;
+				cs2method_10702(2);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar3, lower((object)globalstring_1)) == 0 || compareTo(ovar7, lower((object)globalstring_1)) == 0) {
+				globalint_1650 = 0;
+				globalint_1651 = 3;
+				cs2method_10702(3);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar2, lower((object)globalstring_1)) == 0 || compareTo(ovar6, lower((object)globalstring_1)) == 0) {
+				globalint_1650 = 0;
+				globalint_1651 = 1;
+				cs2method_10702(1);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar0, lower((object)globalstring_1)) == 0 || compareTo(ovar4, lower((object)globalstring_1)) == 0) {
+				globalint_1650 = 0;
+				globalint_1651 = 0;
+				cs2method_10702(0);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (globalint_1650 == 1 && compareTo(cs2method_10547(0, 1, (object)globalstring_1), (object)"/") != 0) {
+				cs2method_10093((object)globalstring_23, (object)globalstring_1);
+				globalint_1650 = 0;
+				globalstring_1 = "";
+				script_1558(0);
+				return;
+			}
+			globalint_1650 = 0;
+			if (globalint_1651 == 1) {
+				if (script_4730(ivar9, ivar10, ivar11, ivar6, ivar7, ivar8) == 0) {
+					if (compareTo((object)"", cs2method_10505()) == 0) {
+						globalstring_1 = "";
+						globalint_41 = 0;
+						globalint_1651 = 0;
+						cs2method_10702(0);
+						script_181(0);
+						script_178();
+						script_84();
+						script_89();
+						cs2method_10998((object)"You aren't in a Friends Chat channel.");
+						return;
+					}
+					cs2method_10702(1);
+					cs2method_10393((object)globalstring_1);
+					globalstring_1 = "";
+				}
+			} else if (globalint_1651 == 2) {
+				if (script_4730(ivar9, ivar10, ivar11, ivar6, ivar7, ivar8) == 0) {
+					if (ivar6 >= 0) {
+						if (ivar7 >= ivar8) {
+							cs2method_10702(2);
+							cs2method_10393((object)globalstring_1);
+							globalstring_1 = "";
+						} else {
+							cs2method_10986(43, 0, (object)"Your rank is not high enough to talk in your clan chat.");
+							globalstring_1 = "";
+							cs2method_10702(0);
+							globalint_1651 = 0;
+							script_1558(0);
+							return;
+						}
+					} else {
+						globalint_41 = 0;
+						globalint_1651 = 0;
+						cs2method_10702(0);
+						script_181(0);
+						script_178();
+						script_84();
+						script_89();
+						cs2method_10998((object)"You aren't in a Clan Chat channel.");
+						globalstring_1 = "";
+						return;
+					}
+				}
+			} else if (globalint_1651 == 3) {
+				if (script_4730(ivar9, ivar10, ivar11, ivar6, ivar7, ivar8) == 0) {
+					if (ivar9 >= 0) {
+						if (ivar10 >= ivar11) {
+							if (compareTo((object)globalstring_1, (object)"") == 0) {
+								return;
+							}
+							cs2method_10702(3);
+							cs2method_10393((object)globalstring_1);
+							globalstring_1 = "";
+						} else {
+							cs2method_10986(43, 0, (object)"Guests cannot chat in this Clan Chat channel.");
+							globalstring_1 = "";
+							cs2method_10702(0);
+							globalint_1651 = 0;
+							script_1558(0);
+							return;
+						}
+					} else {
+						globalint_41 = 0;
+						cs2method_10702(0);
+						globalint_1651 = 0;
+						script_181(0);
+						script_178();
+						script_84();
+						script_89();
+						cs2method_10998((object)"You aren't a guest in a visited Clan Chat channel.");
+						globalstring_1 = "";
+						return;
+					}
+				}
+			} else {
+				if (compareTo(cs2method_10547(0, 1, (object)globalstring_1), (object)"/") == 0) {
+					cs2method_10702(1);
+					globalstring_1 = (string)cs2method_10547(1, cs2method_10366((object)globalstring_1), (object)globalstring_1);
+					if (compareTo((object)globalstring_1, (object)"") == 0) {
+						return;
+					}
+					if (compareTo(cs2method_10547(0, 1, (object)globalstring_1), (object)"/") == 0) {
+						globalstring_1 = (string)cs2method_10547(1, cs2method_10366((object)globalstring_1), (object)globalstring_1);
+						if (compareTo(cs2method_10547(0, 1, (object)globalstring_1), (object)"/") == 0) {
+							if (ivar9 >= 0) {
+								if (ivar10 >= ivar11) {
+									cs2method_10702(3);
+									globalstring_1 = (string)cs2method_10547(1, cs2method_10366((object)globalstring_1), (object)globalstring_1);
+									if (compareTo((object)globalstring_1, (object)"") == 0) {
+										return;
+									}
+								} else {
+									cs2method_10986(43, 0, (object)"Guests cannot chat in this Clan Chat channel.");
+									globalstring_1 = "";
+									cs2method_10702(0);
+									script_1558(0);
+									return;
+								}
+							} else {
+								globalint_41 = 0;
+								cs2method_10702(0);
+								script_181(0);
+								script_178();
+								script_84();
+								script_89();
+								cs2method_10998((object)"You aren't a guest in a visited Clan Chat channel.");
+								globalstring_1 = "";
+								return;
+							}
+						} else if (ivar6 >= 0) {
+							if (ivar7 >= ivar8) {
+								cs2method_10702(2);
+								if (compareTo((object)globalstring_1, (object)"") == 0) {
+									return;
+								}
+							} else {
+								cs2method_10986(43, 0, (object)"Your rank is not high enough to talk in your clan chat.");
+								globalstring_1 = "";
+								cs2method_10702(0);
+								script_1558(0);
+								return;
+							}
+						} else {
+							globalint_41 = 0;
+							cs2method_10702(0);
+							script_181(0);
+							script_178();
+							script_84();
+							script_89();
+							cs2method_10998((object)"You aren't in a Clan Chat channel.");
+							globalstring_1 = "";
+							return;
+						}
+					} else {
+						if (compareTo((object)"", cs2method_10505()) == 0) {
+							globalstring_1 = "";
+							globalint_41 = 0;
+							globalint_1651 = 0;
+							cs2method_10702(0);
+							script_181(0);
+							script_178();
+							script_84();
+							script_89();
+							cs2method_10998((object)"You aren't in a Friends Chat channel.");
+							return;
+						}
+						cs2method_10702(1);
+					}
+				}
+				cs2method_10393((object)globalstring_1);
+				cs2method_10702(0);
+			}
+			script_77((object)globalstring_1);
+			globalstring_1 = "";
+			break;
+		case 102:
+		case 103:
+		case 98:
+		case 99:
+		case 96:
+		case 97:
+			if (cs2method_10043() == 0) {
+				return;
+			}
+			globalint_1028 = script_1553(arg0, globalint_1028, (object)globalstring_1);
+			break;
+		case 13:
+			if (globalint_1650 == 1) {
+				if (cs2method_10366((object)globalstring_1) < 1) {
+					globalint_1650 = 0;
+					globalint_2106 = 0;
+					script_6415();
+					script_6328(1);
+				} else {
+					globalstring_1 = "";
+					globalint_1028 = 0;
+				}
+			} else if (cs2method_10366((object)globalstring_1) < 1) {
+				globalint_1651 = 0;
+				cs2method_10702(0);
+				globalint_2106 = 0;
+				script_6415();
+				script_6328(1);
+			} else {
+				globalstring_1 = "";
+				globalint_1028 = 0;
+			}
+			break;
+		case 83:
+			if (compareTo(ovar1, lower((object)globalstring_1)) == 0 || compareTo(ovar5, lower((object)globalstring_1)) == 0) {
+				globalint_1651 = 2;
+				globalint_1650 = 0;
+				cs2method_10702(2);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar3, lower((object)globalstring_1)) == 0 || compareTo(ovar7, lower((object)globalstring_1)) == 0) {
+				globalint_1651 = 3;
+				globalint_1650 = 0;
+				cs2method_10702(3);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar2, lower((object)globalstring_1)) == 0 || compareTo(ovar6, lower((object)globalstring_1)) == 0) {
+				globalint_1651 = 1;
+				globalint_1650 = 0;
+				cs2method_10702(1);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			if (compareTo(ovar0, lower((object)globalstring_1)) == 0 || compareTo(ovar4, lower((object)globalstring_1)) == 0) {
+				globalint_1651 = 0;
+				globalint_1650 = 0;
+				cs2method_10702(0);
+				globalstring_1 = "";
+				globalint_1028 = 0;
+				globalint_1652 = 1;
+				script_1558(0);
+				return;
+			}
+			stack_dump3 = globalint_1028;
+			stack_dump4 = 0;
+			stack_dump5 = arg0;
+			stack_dump6 = arg1;
+			stack_dump7 = (object)globalstring_1;
+			structdump_8 = script_802(stack_dump3, stack_dump4, stack_dump5, stack_dump6, stack_dump7);
+			stack_dump7 = structdump_8.objectpart_0;
+			globalint_1028 = structdump_8.intpart_0;
+			globalstring_1 = (string)stack_dump7;
+			break;
+		default:
+			if (globalint_1652 == 1) {
+				globalint_1652 = 0;
+				return;
+			}
+			stack_dump3 = globalint_1028;
+			stack_dump4 = 0;
+			stack_dump5 = arg0;
+			stack_dump6 = arg1;
+			stack_dump7 = (object)globalstring_1;
+			structdump_9 = script_802(stack_dump3, stack_dump4, stack_dump5, stack_dump6, stack_dump7);
+			stack_dump7 = structdump_9.objectpart_0;
+			globalint_1028 = structdump_9.intpart_0;
+			globalstring_1 = (string)stack_dump7;
+	}
+	script_1558(0);
+	return;
+}

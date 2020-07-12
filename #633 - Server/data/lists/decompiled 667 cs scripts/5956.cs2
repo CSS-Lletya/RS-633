@@ -1,0 +1,110 @@
+int script_5956(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10575() == 1) {
+		switch (arg0) {
+			case 1:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 2:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 3:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 4:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 5:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 6:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 7:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 8:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 9:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 10:
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+		}
+		return ivar1;
+	}
+	return 0;
+}

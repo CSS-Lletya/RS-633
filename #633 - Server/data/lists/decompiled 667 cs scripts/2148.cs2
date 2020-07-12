@@ -1,0 +1,8 @@
+int script_2148(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = getDataByKey('i', 'J', 169, arg0);
+	ivar3 = getDataByKey('i', 'J', getGeneralRequirementAttribute(ivar2, 61), arg1);
+	globalint_698 = script_1432();
+	return script_2149(ivar3);
+}

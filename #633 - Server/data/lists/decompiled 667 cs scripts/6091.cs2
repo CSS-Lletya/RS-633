@@ -1,0 +1,9 @@
+void script_6091() {
+	int ivar0;
+	ivar0 = standart_config_118;
+	if (standart_config_2565 == 1) {
+		ivar0 = 93;
+	}
+	script_6093(ivar0);
+	return;
+}

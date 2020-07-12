@@ -1,0 +1,12 @@
+void script_6408(int arg0,int arg1) {
+	flow_0:
+		SWITCH (arg0) {
+			case 10759:
+				 GOTO flow_1
+		}
+		return;
+	flow_1:
+		globalint_2036 = subtract(globalint_2036, multiply(arg1, 30));
+		script_6400(arg0, -1);
+		return;
+}

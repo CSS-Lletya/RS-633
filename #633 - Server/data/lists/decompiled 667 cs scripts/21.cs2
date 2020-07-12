@@ -1,0 +1,10 @@
+void script_21(int arg0,int arg1) {
+	if (bitconfig_276 == getGeneralRequirementAttribute(arg1, 2522)) {
+		cs2method_10149(0, arg0);
+		cs2method_20219(785, new WidgetPointer(arg0), 1, arg1, "I1J", new WidgetPointer(arg0));
+	} else {
+		cs2method_10149(255, arg0);
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

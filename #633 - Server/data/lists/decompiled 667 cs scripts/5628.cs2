@@ -1,0 +1,10 @@
+void script_5628(int arg0,int arg1) {
+	if (cs2method_10956(78577678) != arg0) {
+		script_5622();
+	} else {
+		if (cs2method_10090(78577678) != arg1) {
+			script_5622();
+		}
+	}
+	return;
+}

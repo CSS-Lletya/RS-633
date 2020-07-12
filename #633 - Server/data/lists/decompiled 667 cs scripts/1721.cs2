@@ -1,0 +1,73 @@
+void script_1721() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	object ovar0;
+	int stack_dump0;
+	cs2func_script_2791_struct(4,1,0) structdump_1;
+	ivar0 = 0;
+	ivar1 = 5;
+	ivar2 = divide(cs2method_10956(5767172), ivar1);
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 125;
+	ivar6 = 15;
+	ivar7 = -1;
+	ivar8 = 2200;
+	ovar0 = (object)"";
+	ivar9 = 0;
+	ivar10 = -1;
+	ivar11 = cs2method_10624(869);
+	ivar12 = multiply(divide(ivar11, ivar1), ivar5);
+	if (cs2method_10620(ivar11, ivar1) != 0) {
+		ivar12 = add(ivar12, ivar5);
+	}
+	clearExtraChildren(new WidgetPointer(88,5));
+	clearExtraChildren(new WidgetPointer(88,6));
+	setWidgetScrollMax(multiply(ivar1, ivar2), ivar12, 5767172);
+	while (ivar0 < ivar11) {
+		createChildWidget(5767173, 6, ivar0);
+		setWidgetSize(ivar2, ivar5, 0, 0);
+		stack_dump0 = ivar0;
+		structdump_1 = script_2791(stack_dump0);
+		ivar10 = structdump_1.intpart_3;
+		ivar8 = structdump_1.intpart_2;
+		ivar9 = structdump_1.intpart_1;
+		ovar0 = structdump_1.objectpart_0;
+		ivar7 = structdump_1.intpart_0;
+		cs2method_10272(ivar7);
+		cs2method_10021(1, 20, 5, 1950, 0, ivar8);
+		setWidgetPosition(multiply(ivar3, ivar2), multiply(ivar4, ivar5), 0, 0);
+		if (ivar9 == 1) {
+			setWidgetContextMenuOption(1, (object)"Speak-to");
+			cs2method_20211(1860, -2147483643, ivar10, "iA");
+			cs2method_20139(2607, -2147483643, "i");
+		}
+		createChildWidget(5767174, 4, ivar0);
+		setWidgetSize(ivar2, subtract(ivar5, multiply(ivar6, 2)), 0, 0);
+		setWidgetRGB(new Color(255, 153, 53));
+		setWidgetFont(494);
+		cs2method_10320(1);
+		setWidgetText(ovar0);
+		setWidgetTextAlignment(1, 0, 0);
+		setWidgetPosition(multiply(ivar3, ivar2), add(multiply(ivar4, ivar5), ivar6), 0, 0);
+		ivar3 = add(ivar3, 1);
+		if (ivar3 >= ivar1) {
+			ivar3 = 0;
+			ivar4 = add(ivar4, 1);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	script_4529(5767175, 5767172, 7337);
+	return;
+}

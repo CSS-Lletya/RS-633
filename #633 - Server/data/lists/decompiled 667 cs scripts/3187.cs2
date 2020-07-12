@@ -1,0 +1,6 @@
+void script_3187(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	ivar7 = cs2method_10355(2710, cs2method_10100(arg1));
+	cs2method_20219(3188, new WidgetPointer(arg0), arg2, ivar7, new WidgetPointer(arg3), new WidgetPointer(arg4), new WidgetPointer(arg5), new WidgetPointer(arg6), "I1iIIII", new WidgetPointer(arg0));
+	return;
+}

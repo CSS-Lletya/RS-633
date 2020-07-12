@@ -1,0 +1,65 @@
+int script_4733(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = divide(arg0, 32);
+	ivar2 = cs2method_10620(arg0, 32);
+	switch (ivar1) {
+		case 0:
+			return cs2method_10184(globalint_700, ivar2);
+		case 1:
+			return cs2method_10184(globalint_701, ivar2);
+		case 2:
+			return cs2method_10184(globalint_702, ivar2);
+		case 3:
+			return cs2method_10184(globalint_703, ivar2);
+		case 4:
+			return cs2method_10184(globalint_704, ivar2);
+		case 5:
+			return cs2method_10184(globalint_705, ivar2);
+		case 6:
+			return cs2method_10184(globalint_706, ivar2);
+		case 7:
+			return cs2method_10184(globalint_707, ivar2);
+		case 8:
+			return cs2method_10184(globalint_708, ivar2);
+		case 9:
+			return cs2method_10184(globalint_709, ivar2);
+		case 10:
+			return cs2method_10184(globalint_710, ivar2);
+		case 11:
+			return cs2method_10184(globalint_711, ivar2);
+		case 12:
+			return cs2method_10184(globalint_712, ivar2);
+		case 13:
+			return cs2method_10184(globalint_713, ivar2);
+		case 14:
+			return cs2method_10184(globalint_714, ivar2);
+		case 15:
+			return cs2method_10184(globalint_715, ivar2);
+		case 16:
+			return cs2method_10184(globalint_716, ivar2);
+		case 17:
+			return cs2method_10184(globalint_717, ivar2);
+		case 18:
+			return cs2method_10184(globalint_718, ivar2);
+		case 19:
+			return cs2method_10184(globalint_719, ivar2);
+		case 20:
+			return cs2method_10184(globalint_720, ivar2);
+		case 21:
+			return cs2method_10184(globalint_721, ivar2);
+		case 22:
+			return cs2method_10184(globalint_722, ivar2);
+		case 23:
+			return cs2method_10184(globalint_723, ivar2);
+		case 24:
+			return cs2method_10184(globalint_724, ivar2);
+		case 25:
+			return cs2method_10184(globalint_725, ivar2);
+		case 26:
+			return cs2method_10184(globalint_726, ivar2);
+		case 27:
+			return cs2method_10184(globalint_727, ivar2);
+	}
+	return 0;
+}

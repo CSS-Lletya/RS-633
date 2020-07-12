@@ -1,0 +1,65 @@
+void script_1797(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 0;
+	ivar3 = 0;
+	while (ivar2 < 10) {
+		switch (ivar2) {
+			case 0:
+				cs2method_10444(25, ivar3, 0, 0, 51838999);
+				cs2method_10444(4, ivar3, 0, 0, 51839000);
+				cs2method_10444(0, ivar3, 0, 0, 51839001);
+				break;
+			case 1:
+				cs2method_10444(25, ivar3, 0, 0, 51839002);
+				cs2method_10444(4, ivar3, 0, 0, 51839003);
+				cs2method_10444(0, ivar3, 0, 0, 51839004);
+				break;
+			case 2:
+				cs2method_10444(25, ivar3, 0, 0, 51839005);
+				cs2method_10444(4, ivar3, 0, 0, 51839006);
+				cs2method_10444(0, ivar3, 0, 0, 51839007);
+				break;
+			case 3:
+				cs2method_10444(25, ivar3, 0, 0, 51839008);
+				cs2method_10444(4, ivar3, 0, 0, 51839009);
+				cs2method_10444(0, ivar3, 0, 0, 51839010);
+				break;
+			case 4:
+				cs2method_10444(25, ivar3, 0, 0, 51839011);
+				cs2method_10444(4, ivar3, 0, 0, 51839012);
+				cs2method_10444(0, ivar3, 0, 0, 51839013);
+				break;
+			case 5:
+				cs2method_10444(25, ivar3, 0, 0, 51839014);
+				cs2method_10444(4, ivar3, 0, 0, 51839015);
+				cs2method_10444(0, ivar3, 0, 0, 51839016);
+				break;
+			case 6:
+				cs2method_10444(25, ivar3, 0, 0, 51839017);
+				cs2method_10444(4, ivar3, 0, 0, 51839018);
+				cs2method_10444(0, ivar3, 0, 0, 51839019);
+				break;
+			case 7:
+				cs2method_10444(25, ivar3, 0, 0, 51839020);
+				cs2method_10444(4, ivar3, 0, 0, 51839021);
+				cs2method_10444(0, ivar3, 0, 0, 51839022);
+				break;
+			case 8:
+				cs2method_10444(25, ivar3, 0, 0, 51839023);
+				cs2method_10444(4, ivar3, 0, 0, 51839024);
+				cs2method_10444(0, ivar3, 0, 0, 51839025);
+				break;
+			case 9:
+				cs2method_10444(25, ivar3, 0, 0, 51839026);
+				cs2method_10444(4, ivar3, 0, 0, 51839027);
+				cs2method_10444(0, ivar3, 0, 0, 51839028);
+		}
+		ivar3 = add(ivar3, 17);
+		ivar2 = add(ivar2, 1);
+	}
+	setWidgetScrollMax(0, ivar3, arg0);
+	cs2method_10085(0, 0, arg0);
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+	return;
+}

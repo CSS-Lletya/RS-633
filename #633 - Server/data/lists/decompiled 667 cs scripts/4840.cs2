@@ -1,0 +1,104 @@
+void script_4840() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int stack_dump0;
+	cs2func_script_4841_struct(6,0,0) structdump_1;
+	ivar0 = 0;
+	switch (bitconfig_9558) {
+		case 1:
+			ivar0 = bitconfig_9563;
+			break;
+		case 2:
+			ivar0 = bitconfig_9572;
+			break;
+		case 3:
+			ivar0 = bitconfig_9581;
+	}
+	if (ivar0 == 0) {
+		return;
+	}
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	stack_dump0 = bitconfig_9558;
+	structdump_1 = script_4841(stack_dump0);
+	ivar6 = structdump_1.intpart_5;
+	ivar5 = structdump_1.intpart_4;
+	ivar4 = structdump_1.intpart_3;
+	ivar3 = structdump_1.intpart_2;
+	ivar2 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	ivar10 = getDataByKey('i', 'd', 4286, ivar1);
+	ivar11 = getDataByKey('i', 'd', 4286, ivar3);
+	ivar12 = getDataByKey('i', 'd', 4286, ivar5);
+	switch (ivar0) {
+		case 1:
+			if (ivar2 > 0) {
+				setWidgetText(new WidgetPointer(1258,50), (object)toString(ivar2));
+			} else {
+				setWidgetText(new WidgetPointer(1258,50), (object)"");
+			}
+			ivar7 = 82444335;
+			ivar8 = 82444336;
+			ivar9 = 82444337;
+			break;
+		case 2:
+			if (ivar2 > 0) {
+				setWidgetText(new WidgetPointer(1258,59), (object)toString(ivar2));
+			} else {
+				setWidgetText(new WidgetPointer(1258,59), (object)"");
+			}
+			if (ivar4 > 0) {
+				setWidgetText(new WidgetPointer(1258,60), (object)toString(ivar4));
+			} else {
+				setWidgetText(new WidgetPointer(1258,60), (object)"");
+			}
+			ivar7 = 82444344;
+			ivar8 = 82444345;
+			ivar9 = 82444346;
+			break;
+		case 3:
+			if (ivar2 > 0) {
+				setWidgetText(new WidgetPointer(1258,68), (object)toString(ivar2));
+			} else {
+				setWidgetText(new WidgetPointer(1258,68), (object)"");
+			}
+			if (ivar4 > 0) {
+				setWidgetText(new WidgetPointer(1258,70), (object)toString(ivar4));
+			} else {
+				setWidgetText(new WidgetPointer(1258,70), (object)"");
+			}
+			if (ivar6 > 0) {
+				setWidgetText(new WidgetPointer(1258,69), (object)toString(ivar6));
+			} else {
+				setWidgetText(new WidgetPointer(1258,69), (object)"");
+			}
+			ivar7 = 82444353;
+			ivar8 = 82444354;
+			ivar9 = 82444355;
+			break;
+		default:
+			return;
+	}
+	cs2method_10467(ivar10, ivar7);
+	cs2method_10467(ivar11, ivar8);
+	cs2method_10467(ivar12, ivar9);
+	return;
+}

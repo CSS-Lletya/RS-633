@@ -1,0 +1,88 @@
+int script_2155(int arg0) {
+	int ivar1;
+	ivar1 = getGeneralRequirementAttribute(arg0, 859);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 860);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 861);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 862);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 863);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 864);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 865);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 866);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 867);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 868);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 869);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 870);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (script_2156(ivar1) == 0) {
+		return 0;
+	}
+	return 1;
+}

@@ -1,0 +1,18 @@
+void script_2164(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar1 = getDataByKey('i', 'J', 169, arg0);
+	ivar2 = getGeneralRequirementAttribute(ivar1, 61);
+	ivar3 = getGeneralRequirementAttribute(ivar1, 152);
+	ivar4 = 0;
+	while (ivar4 < add(globalint_273, 10)) {
+		if (cs2method_10551(ivar3, ivar4) == 1) {
+			setWidgetPosition(0, 0, 0, 0);
+			cs2method_10692(1);
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	return;
+}

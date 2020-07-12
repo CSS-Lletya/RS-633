@@ -1,0 +1,6 @@
+void script_6356() {
+	globalint_2106 = 1;
+	script_6415();
+	script_6328(0);
+	return;
+}

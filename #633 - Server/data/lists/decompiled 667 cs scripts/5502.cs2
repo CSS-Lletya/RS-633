@@ -1,0 +1,5 @@
+void script_5502() {
+	script_5503();
+	setWidgetText(new WidgetPointer(906,299), (object)("Please enter your email address below." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	return;
+}

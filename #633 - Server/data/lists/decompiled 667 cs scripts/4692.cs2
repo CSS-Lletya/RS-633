@@ -1,0 +1,54 @@
+void script_4692(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar2 = 36110359;
+	ivar3 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar4 = 0;
+	ivar5 = 0;
+	ovar2 = (object)"";
+	ivar6 = 0;
+	switch (arg0) {
+		case 36110346:
+			ivar6 = 1;
+			ovar1 = (object)"Nothing breaks for 30 seconds.";
+			break;
+		case 36110372:
+			ivar6 = 2;
+			ovar1 = (object)"Kill twice as many trolls when repairing things.";
+			break;
+		case 36110386:
+			ivar6 = 3;
+			ovar1 = (object)"Fix twice as fast and counter-acts troll magic run energy effects.";
+			break;
+		case 36110400:
+			ivar6 = 4;
+			ovar1 = (object)"Broken things don't hurt gatehouse health for 30 seconds.";
+			break;
+		default:
+			setWidgetIsHidden(true, new WidgetPointer(ivar2));
+			return;
+	}
+	setWidgetText(new WidgetPointer(551,29), (object)getDataByKey('i', 's', 3855, ivar6));
+	setWidgetText(new WidgetPointer(551,30), ovar1);
+	setWidgetText(new WidgetPointer(551,31), (object)("Cost: " + toString(getDataByKey('i', 'i', 3856, ivar6))));
+	ivar5 = getDataByKey('i', 'i', 3857, ivar6);
+	if (ivar5 == 50) {
+		ovar2 = (object)"30 sec";
+	}
+	if (ivar5 == 100) {
+		ovar2 = (object)"1 min";
+	}
+	setWidgetText(new WidgetPointer(551,32), (object)("Cooldown: " + (string)ovar2));
+	setWidgetRGB(3552566, arg0);
+	cs2method_10444(cs2method_10111(ivar2), arg1, 0, 0, ivar2);
+	setWidgetIsHidden(false, new WidgetPointer(ivar2));
+	return;
+}

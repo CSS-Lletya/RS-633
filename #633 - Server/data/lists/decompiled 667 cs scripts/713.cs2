@@ -1,0 +1,60 @@
+void script_713(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	ivar7 = getItemIdInContainerSlot(541, 0);
+	if (ivar7 != -1) {
+		cs2method_10274(ivar7, 1, arg1);
+		cs2method_10163(1, arg1);
+		cs2method_10550(3355443, arg1);
+		cs2method_10375(1, arg1, (object)"Remove");
+		cs2method_10375(10, arg1, (object)"Examine");
+		cs2method_10724(arg1, (object)("<col=ff9040>" + (string)getItemName(ivar7) + "</col>"));
+		if (bitconfig_5026 == 0) {
+			setWidgetText(new WidgetPointer(arg2), (object)("<col=ff0000>" + "Until" + "</col>" + "<br>" + "<col=ff0000>" + "logout" + "</col>"));
+			cs2method_10831(arg2);
+			cs2method_10375(2, arg2, (object)"Specify");
+		} else {
+			if (bitconfig_5026 == 1) {
+				setWidgetText(new WidgetPointer(arg2), (object)"1 hour");
+			} else {
+				setWidgetText(new WidgetPointer(arg2), (object)(toString(bitconfig_5026) + " hours"));
+			}
+			cs2method_10375(1, arg2, (object)"'Until logout'");
+			cs2method_10375(2, arg2, (object)"Edit");
+		}
+		cs2method_10724(arg2, (object)("<col=ff9040>" + "Duration" + "</col>"));
+		script_679(arg3);
+		cs2method_20835(94, new WidgetPointer(arg3), "I", new WidgetPointer(arg3));
+		cs2method_20295(92, new WidgetPointer(arg3), "I", new WidgetPointer(arg3));
+	} else {
+		cs2method_10274(-1, 0, arg1);
+		setWidgetText(new WidgetPointer(arg2), (object)"");
+		cs2method_10831(arg1);
+		cs2method_10831(arg2);
+		cs2method_10724(arg1, (object)"");
+		cs2method_10724(arg2, (object)"");
+		clearExtraChildren(new WidgetPointer(arg3));
+		cs2method_20835(-1, "", new WidgetPointer(arg3));
+		cs2method_20295(-1, "", new WidgetPointer(arg3));
+	}
+	ivar7 = cs2method_10234(541, 0);
+	if (ivar7 != -1) {
+		cs2method_10274(ivar7, 1, arg5);
+		cs2method_10163(1, arg5);
+		cs2method_10550(3355443, arg5);
+		cs2method_10375(10, arg5, (object)"Examine");
+		cs2method_10724(arg5, (object)("<col=ff9040>" + (string)getItemName(ivar7) + "</col>"));
+		if (bitconfig_5070 == 0) {
+			setWidgetText(new WidgetPointer(arg6), (object)("<col=ff0000>" + "Until" + "</col>" + "<br>" + "<col=ff0000>" + "logout" + "</col>"));
+		} else if (bitconfig_5070 == 1) {
+			setWidgetText(new WidgetPointer(arg6), (object)"1 hour");
+		} else {
+			setWidgetText(new WidgetPointer(arg6), (object)(toString(bitconfig_5070) + " hours"));
+		}
+	} else {
+		cs2method_10274(-1, 0, arg5);
+		setWidgetText(new WidgetPointer(arg6), (object)"");
+		cs2method_10831(arg5);
+		cs2method_10724(arg5, (object)"");
+	}
+	return;
+}

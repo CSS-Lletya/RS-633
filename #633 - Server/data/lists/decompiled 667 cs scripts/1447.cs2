@@ -1,0 +1,31 @@
+void script_1447(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 0;
+	ivar2 = (int)getDataByKey('i', 'I', 1617, ivar1);
+	while (ivar2 != -1) {
+		if (ivar1 == arg0) {
+			setWidgetIsHidden(false, new WidgetPointer(ivar2));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(ivar2));
+		}
+		ivar1 = add(ivar1, 1);
+		ivar2 = (int)getDataByKey('i', 'I', 1617, ivar1);
+	}
+	if (arg0 > 0) {
+		cs2method_20000(1446, subtract(arg0, 1), "i", new WidgetPointer(767,64));
+		cs2method_10149(0, 50266176);
+	} else {
+		cs2method_20000(-1, "", new WidgetPointer(767,64));
+		cs2method_10149(200, 50266176);
+	}
+	if (arg0 < subtract(ivar1, 1)) {
+		cs2method_20000(1446, add(arg0, 1), "i", new WidgetPointer(767,63));
+		cs2method_10149(0, 50266175);
+	} else {
+		cs2method_20000(-1, "", new WidgetPointer(767,63));
+		cs2method_10149(200, 50266175);
+	}
+	setWidgetText(new WidgetPointer(767,62), (object)("Page " + toString(add(arg0, 1)) + " of " + toString(ivar1)));
+	return;
+}

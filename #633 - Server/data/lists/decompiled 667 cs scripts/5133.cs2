@@ -1,0 +1,317 @@
+void script_5133() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	ivar0 = 0;
+	ivar1 = script_4293();
+	if (script_5131() == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1096,392));
+		setWidgetIsHidden(true, new WidgetPointer(1096,400));
+		setWidgetIsHidden(true, new WidgetPointer(1096,408));
+		setWidgetIsHidden(true, new WidgetPointer(1096,416));
+		setWidgetIsHidden(true, new WidgetPointer(1096,424));
+		setWidgetIsHidden(true, new WidgetPointer(1096,432));
+		setWidgetIsHidden(true, new WidgetPointer(1096,440));
+		setWidgetIsHidden(true, new WidgetPointer(1096,448));
+		setWidgetIsHidden(true, new WidgetPointer(1096,456));
+		setWidgetIsHidden(true, new WidgetPointer(1096,464));
+		setWidgetIsHidden(true, new WidgetPointer(1096,472));
+		switch (globalint_1569) {
+			case 0:
+				setWidgetIsHidden(false, new WidgetPointer(1096,392));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 1:
+				setWidgetIsHidden(false, new WidgetPointer(1096,400));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 2:
+				setWidgetIsHidden(false, new WidgetPointer(1096,408));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 3:
+				setWidgetIsHidden(false, new WidgetPointer(1096,416));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 4:
+				setWidgetIsHidden(false, new WidgetPointer(1096,424));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 5:
+				setWidgetIsHidden(false, new WidgetPointer(1096,432));
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+				break;
+			case 100:
+				setWidgetIsHidden(false, new WidgetPointer(1096,440));
+				if (ivar1 > globalint_1569) {
+					ivar0 = 1;
+				}
+				break;
+			case 101:
+				setWidgetIsHidden(false, new WidgetPointer(1096,448));
+				if (ivar1 > globalint_1569) {
+					ivar0 = 1;
+				}
+				break;
+			case 102:
+				setWidgetIsHidden(false, new WidgetPointer(1096,456));
+				if (ivar1 > globalint_1569) {
+					ivar0 = 1;
+				}
+				break;
+			case 103:
+				setWidgetIsHidden(false, new WidgetPointer(1096,464));
+				if (ivar1 > globalint_1569) {
+					ivar0 = 1;
+				}
+				break;
+			case 125:
+				setWidgetIsHidden(false, new WidgetPointer(1096,472));
+				if (ivar1 > globalint_1569) {
+					ivar0 = 1;
+				}
+				break;
+			case 126:
+				ivar0 = 0;
+				break;
+			case 127:
+				ivar0 = 0;
+				break;
+			default:
+				if (ivar1 >= 100) {
+					ivar0 = 1;
+				}
+		}
+	}
+	ovar0 = (object)"";
+	setWidgetIsHidden(false, new WidgetPointer(1096,559));
+	setWidgetIsHidden(false, new WidgetPointer(1096,571));
+	setWidgetIsHidden(false, new WidgetPointer(1096,604));
+	setWidgetIsHidden(false, new WidgetPointer(1096,615));
+	setWidgetIsHidden(false, new WidgetPointer(1096,637));
+	setWidgetIsHidden(false, new WidgetPointer(1096,484));
+	setWidgetIsHidden(false, new WidgetPointer(1096,593));
+	setWidgetIsHidden(false, new WidgetPointer(1096,582));
+	setWidgetIsHidden(false, new WidgetPointer(1096,626));
+	setWidgetIsHidden(false, new WidgetPointer(1096,548));
+	setWidgetIsHidden(false, new WidgetPointer(1096,535));
+	setWidgetIsHidden(false, new WidgetPointer(1096,753));
+	setWidgetIsHidden(false, new WidgetPointer(1096,740));
+	setWidgetIsHidden(false, new WidgetPointer(1096,649));
+	setWidgetIsHidden(false, new WidgetPointer(1096,660));
+	setWidgetIsHidden(false, new WidgetPointer(1096,672));
+	setWidgetIsHidden(false, new WidgetPointer(1096,685));
+	setWidgetIsHidden(false, new WidgetPointer(1096,697));
+	setWidgetIsHidden(false, new WidgetPointer(1096,794));
+	setWidgetIsHidden(false, new WidgetPointer(1096,805));
+	setWidgetIsHidden(false, new WidgetPointer(1096,816));
+	setWidgetIsHidden(false, new WidgetPointer(1096,709));
+	setWidgetIsHidden(false, new WidgetPointer(1096,783));
+	setWidgetIsHidden(false, new WidgetPointer(1096,721));
+	if (ivar0 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1096,559));
+		setWidgetIsHidden(true, new WidgetPointer(1096,571));
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may upgrade the citadel.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,604));
+		} else if (script_5145(ivar1) == 0) {
+			ovar0 = (object)"You may only allow upgrades to the citadel if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,604));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,604));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may downgrade the citadel.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,615));
+		} else if (script_5147(ivar1) == 0) {
+			ovar0 = (object)"You may only allow downgrades to the citadel if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,615));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,615));
+		}
+		if (script_6026(ivar1) == 0) {
+			ovar0 = (object)"You may only allow transfer of resources if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,637));
+		} else {
+			if (globalint_1569 >= 100) {
+				setWidgetIsHidden(true, new WidgetPointer(1096,637));
+			}
+		}
+		if (script_6012(ivar1) == 0) {
+			ovar0 = (object)"You may only allow recruiting if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,484));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,484));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may change the noticeboard.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,593));
+		} else if (script_6006(ivar1) == 0) {
+			ovar0 = (object)"You may only allow adding of notices if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,593));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,593));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may change the signpost.";
+			cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,582));
+		} else if (script_6008(ivar1) == 0) {
+			ovar0 = (object)"You may only allow adding to the signpost if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,582));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,582));
+		}
+		if (script_6010(ivar1) == 0) {
+			ovar0 = (object)"You may only allow editing of the clan battlefield if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,626));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,626));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may change who may lock the citadel.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,548));
+		} else if (script_5149(ivar1) == 0) {
+			ovar0 = (object)"You may only allow locking of the citadel if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,548));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,548));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may change who may lock the keep.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,535));
+		} else if (script_5148(ivar1) == 0) {
+			ovar0 = (object)"You may only allow locking of the keep if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,535));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,535));
+		}
+		if (script_5149(ivar1) == 0) {
+			ovar0 = (object)"You may only allow entry to the citadel if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,753));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,753));
+		}
+		if (script_5148(ivar1) == 0) {
+			ovar0 = (object)"You may only allow entry to the keep if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,740));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,740));
+		}
+		if (script_6014(ivar1) == 0) {
+			ovar0 = (object)"You may only allow starting of battles if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,649));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,649));
+		}
+		if (script_6016(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to lead Rated Clan Wars if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,660));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,660));
+		}
+		if (script_6018(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to call a vote if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,672));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,672));
+		}
+		if (script_6020(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to begin a meeting if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,685));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,685));
+		}
+		if (script_6022(ivar1) == 0) {
+			ovar0 = (object)"You may only set a rank as a party tech if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,697));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,697));
+		}
+		if (script_6024(ivar1) == 0) {
+			ovar0 = (object)"You may only set a rank as a theatre tech if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,794));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,794));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may set skill plot locks.";
+			cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,805));
+		} else if (script_5962(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to lock plots if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,805));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,805));
+		}
+		if (script_5964(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to checkresources if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,816));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,816));
+		}
+		if (globalint_1569 < 100) {
+			ovar0 = (object)"Only admins and above may set gathering goals.";
+			cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,709));
+		} else if (script_5225(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to gather resources if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,709));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,709));
+		}
+		if (globalint_1569 < 103) {
+			ovar0 = (object)"Only overseers and above may set the citadel's language.";
+			cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,783));
+		} else if (script_6028(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to change the stronghold's language if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,783));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,783));
+		}
+		if (globalint_1569 < 103) {
+			ovar0 = (object)"Only overseers and above may move the build tick.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,721));
+		} else if (script_6030(ivar1) == 0) {
+			ovar0 = (object)"You may only allow a rank to change the stronghold's build time if your rank has this permission.";
+			cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,721));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1096,721));
+		}
+	} else {
+		ovar0 = (object)"Your rank is not high enough to alter this permission.";
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,604));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,615));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,637));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,484));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,593));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,582));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,626));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,548));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,535));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,753));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,740));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,649));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,660));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,672));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,685));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,697));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,794));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,805));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,816));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,709));
+		cs2method_20835(5139, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,783));
+		cs2method_20835(5138, (string)ovar0, new WidgetPointer(-32768,3), "sI", new WidgetPointer(1096,721));
+	}
+	script_5135();
+	return;
+}

@@ -1,0 +1,66 @@
+void script_5448(int arg0) {
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar1 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar2 = 0;
+	ovar2 = (object)"";
+	globalint_1681 = arg0;
+	ivar2 = add(multiply(subtract(globalint_1680, 1), 6), arg0);
+	cs2method_10467(8430, 76546076);
+	cs2method_10467(8430, 76546075);
+	cs2method_10467(8430, 76546074);
+	cs2method_10467(8430, 76546073);
+	cs2method_10467(8430, 76546072);
+	cs2method_10467(8430, 76546071);
+	if (arg0 == 1) {
+		cs2method_10467(8433, 76546076);
+	} else if (arg0 == 2) {
+		cs2method_10467(8433, 76546075);
+	} else if (arg0 == 3) {
+		cs2method_10467(8433, 76546074);
+	} else if (arg0 == 4) {
+		cs2method_10467(8433, 76546073);
+	} else if (arg0 == 5) {
+		cs2method_10467(8433, 76546072);
+	} else {
+		if (arg0 == 6) {
+			cs2method_10467(8433, 76546071);
+		}
+	}
+	ivar1 = getDataByKey('i', 'J', 5213, ivar2);
+	ovar0 = (object)getGeneralRequirementAttribute(ivar1, 2095);
+	ovar1 = (object)getGeneralRequirementAttribute(ivar1, 2184);
+	if (getGeneralRequirementAttribute(ivar1, 2097) == 1) {
+		ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 2) {
+		ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 3) {
+		ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.");
+	} else if (getGeneralRequirementAttribute(ivar1, 2097) == 4) {
+		ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.");
+	} else {
+		if (getGeneralRequirementAttribute(ivar1, 2097) == 5) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums");
+		}
+	}
+	setWidgetText(new WidgetPointer(1168,2), ovar0);
+	cs2method_10677(8097, 1, 0, 180);
+	if (script_5451(ivar2) == 0) {
+		if (ivar2 == 1) {
+			setWidgetText(new WidgetPointer(1168,101), (object)"You must win against this monster in Endurance or Special mode before you can fight it here.");
+		} else if (ivar2 == 22 || ivar2 == 10 || ivar2 == 6 || ivar2 == 34 || ivar2 == 23 || ivar2 == 11 || ivar2 == 39) {
+			setWidgetText(new WidgetPointer(1168,101), (object)"You must win against this monster in Climber, Endurance or Special mode before you can fight it here.");
+		} else {
+			setWidgetText(new WidgetPointer(1168,101), (object)"You must win against this monster in Climber or Endurance mode before you can fight it here.");
+		}
+	} else {
+		setWidgetText(new WidgetPointer(1168,101), (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+	}
+	script_5475(76546149, 76546058, 76546061, ovar1);
+	return;
+}

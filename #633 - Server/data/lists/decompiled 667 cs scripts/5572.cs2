@@ -1,0 +1,103 @@
+void script_5572(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ivar1 = 1;
+	ovar0 = (object)"0";
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	ivar5 = 1;
+	switch (arg0) {
+		case 0:
+			ivar1 = globalint_1735;
+			ovar0 = (object)globalstring_197;
+			ivar2 = 77332487;
+			ivar3 = 77332575;
+			ivar4 = 77332566;
+			break;
+		case 1:
+			ivar1 = globalint_1736;
+			ovar0 = (object)globalstring_198;
+			ivar2 = 77332488;
+			ivar3 = 77332586;
+			ivar4 = 77332577;
+			ivar5 = -1;
+			break;
+		case 2:
+			ivar1 = globalint_1737;
+			ovar0 = (object)globalstring_199;
+			ivar2 = 77332492;
+			ivar3 = 77332597;
+			ivar4 = 77332588;
+			break;
+		case 3:
+			ivar1 = globalint_1738;
+			ovar0 = (object)globalstring_200;
+			ivar2 = 77332493;
+			ivar3 = 77332608;
+			ivar4 = 77332599;
+			ivar5 = -1;
+			break;
+		case 4:
+			ivar1 = globalint_1739;
+			ovar0 = (object)globalstring_307;
+			ivar2 = 77332494;
+			ivar3 = 77332619;
+			ivar4 = 77332610;
+			break;
+		case 5:
+			ivar1 = globalint_1740;
+			ovar0 = (object)globalstring_308;
+			ivar2 = 77332495;
+			ivar3 = 77332630;
+			ivar4 = 77332621;
+			ivar5 = -1;
+			break;
+		case 6:
+			ivar1 = globalint_1741;
+			ovar0 = (object)globalstring_309;
+			ivar2 = 77332496;
+			ivar3 = 77332641;
+			ivar4 = 77332632;
+			break;
+		case 7:
+			ivar1 = globalint_1742;
+			ovar0 = (object)globalstring_355;
+			ivar2 = 77332497;
+			ivar3 = 77332652;
+			ivar4 = 77332643;
+			ivar5 = -1;
+			break;
+		case 8:
+			ivar1 = globalint_1743;
+			ovar0 = (object)globalstring_356;
+			ivar2 = 77332498;
+			ivar3 = 77332663;
+			ivar4 = 77332654;
+			break;
+		case 9:
+			ivar1 = globalint_1744;
+			ovar0 = (object)globalstring_357;
+			ivar2 = 77332499;
+			ivar3 = 77332674;
+			ivar4 = 77332665;
+			ivar5 = -1;
+	}
+	if (ivar1 != 0 || compareTo(ovar0, (object)"0") == 0) {
+		return;
+	}
+	if (compareTo(ovar0, (object)"") == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(ivar2));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(ivar2));
+		setWidgetText(new WidgetPointer(ivar3), ovar0);
+		cs2method_10149(0, ivar4);
+		cs2method_10444(multiply(ivar5, 150), -30, 1, 1, ivar2);
+		cs2method_20219(5573, arg0, "i", new WidgetPointer(ivar2));
+	}
+	return;
+}

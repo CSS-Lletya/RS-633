@@ -1,0 +1,276 @@
+void script_5660() {
+	cs2method_10444(2, cs2method_10826(79626245), 2, 0, 79626245);
+	cs2method_10444(2, cs2method_10826(79626247), 2, 0, 79626247);
+	cs2method_10444(2, cs2method_10826(79626249), 2, 0, 79626249);
+	cs2method_10893(25, 25, 0, 0, 79626245);
+	cs2method_10893(25, 25, 0, 0, 79626247);
+	cs2method_10893(25, 25, 0, 0, 79626249);
+	switch (bitconfig_10440) {
+		case 1:
+			cs2method_10467(197, 79626245);
+			break;
+		case 2:
+			cs2method_10467(198, 79626245);
+			break;
+		case 5:
+			cs2method_10467(199, 79626245);
+			break;
+		case 6:
+			cs2method_10467(203, 79626245);
+			break;
+		case 3:
+			cs2method_10467(200, 79626245);
+			break;
+		case 4:
+			cs2method_10467(202, 79626245);
+			break;
+		case 7:
+			cs2method_10467(201, 79626245);
+			break;
+		case 12:
+			cs2method_10467(215, 79626245);
+			break;
+		case 11:
+			cs2method_10467(207, 79626245);
+			break;
+		case 13:
+			cs2method_10467(209, 79626245);
+			break;
+		case 14:
+			cs2method_10467(210, 79626245);
+			break;
+		case 15:
+			cs2method_10467(211, 79626245);
+			break;
+		case 16:
+			cs2method_10467(212, 79626245);
+			break;
+		case 17:
+			cs2method_10467(213, 79626245);
+			break;
+		case 18:
+			cs2method_10467(214, 79626245);
+			break;
+		case 8:
+			cs2method_10467(204, 79626245);
+			break;
+		case 9:
+			cs2method_10467(205, 79626245);
+			break;
+		case 10:
+			cs2method_10467(206, 79626245);
+			break;
+		case 19:
+			cs2method_10467(208, 79626245);
+			break;
+		case 20:
+			cs2method_10467(216, 79626245);
+			break;
+		case 21:
+			cs2method_10467(217, 79626245);
+			break;
+		case 22:
+			cs2method_10467(221, 79626245);
+			break;
+		case 23:
+			cs2method_10467(220, 79626245);
+			break;
+		case 24:
+			cs2method_10467(222, 79626245);
+			break;
+		case 25:
+			cs2method_10467(3028, 79626245);
+			break;
+		case 30:
+			cs2method_10467(1817, 79626245);
+			cs2method_10444(4, cs2method_10826(79626245), 2, 0, 79626245);
+			cs2method_10893(22, 22, 0, 0, 79626245);
+			break;
+		case 31:
+			cs2method_10467(1818, 79626245);
+			cs2method_10444(4, cs2method_10826(79626245), 2, 0, 79626245);
+			cs2method_10893(22, 22, 0, 0, 79626245);
+			break;
+		default:
+			cs2method_10467(-1, 79626245);
+	}
+	switch (bitconfig_10441) {
+		case 1:
+			cs2method_10467(197, 79626247);
+			break;
+		case 2:
+			cs2method_10467(198, 79626247);
+			break;
+		case 5:
+			cs2method_10467(199, 79626247);
+			break;
+		case 6:
+			cs2method_10467(203, 79626247);
+			break;
+		case 3:
+			cs2method_10467(200, 79626247);
+			break;
+		case 4:
+			cs2method_10467(202, 79626247);
+			break;
+		case 7:
+			cs2method_10467(201, 79626247);
+			break;
+		case 12:
+			cs2method_10467(215, 79626247);
+			break;
+		case 11:
+			cs2method_10467(207, 79626247);
+			break;
+		case 13:
+			cs2method_10467(209, 79626247);
+			break;
+		case 14:
+			cs2method_10467(210, 79626247);
+			break;
+		case 15:
+			cs2method_10467(211, 79626247);
+			break;
+		case 16:
+			cs2method_10467(212, 79626247);
+			break;
+		case 17:
+			cs2method_10467(213, 79626247);
+			break;
+		case 18:
+			cs2method_10467(214, 79626247);
+			break;
+		case 8:
+			cs2method_10467(204, 79626247);
+			break;
+		case 9:
+			cs2method_10467(205, 79626247);
+			break;
+		case 10:
+			cs2method_10467(206, 79626247);
+			break;
+		case 19:
+			cs2method_10467(208, 79626247);
+			break;
+		case 20:
+			cs2method_10467(216, 79626247);
+			break;
+		case 21:
+			cs2method_10467(217, 79626247);
+			break;
+		case 22:
+			cs2method_10467(221, 79626247);
+			break;
+		case 23:
+			cs2method_10467(220, 79626247);
+			break;
+		case 24:
+			cs2method_10467(222, 79626247);
+			break;
+		case 25:
+			cs2method_10467(3028, 79626247);
+			break;
+		case 30:
+			cs2method_10467(1817, 79626247);
+			cs2method_10444(4, cs2method_10826(79626247), 2, 0, 79626247);
+			cs2method_10893(22, 22, 0, 0, 79626247);
+			break;
+		case 31:
+			cs2method_10467(1818, 79626247);
+			cs2method_10444(4, cs2method_10826(79626247), 2, 0, 79626247);
+			cs2method_10893(22, 22, 0, 0, 79626247);
+			break;
+		default:
+			cs2method_10467(-1, 79626247);
+	}
+	switch (bitconfig_10442) {
+		case 1:
+			cs2method_10467(197, 79626249);
+			break;
+		case 2:
+			cs2method_10467(198, 79626249);
+			break;
+		case 5:
+			cs2method_10467(199, 79626249);
+			break;
+		case 6:
+			cs2method_10467(203, 79626249);
+			break;
+		case 3:
+			cs2method_10467(200, 79626249);
+			break;
+		case 4:
+			cs2method_10467(202, 79626249);
+			break;
+		case 7:
+			cs2method_10467(201, 79626249);
+			break;
+		case 12:
+			cs2method_10467(215, 79626249);
+			break;
+		case 11:
+			cs2method_10467(207, 79626249);
+			break;
+		case 13:
+			cs2method_10467(209, 79626249);
+			break;
+		case 14:
+			cs2method_10467(210, 79626249);
+			break;
+		case 15:
+			cs2method_10467(211, 79626249);
+			break;
+		case 16:
+			cs2method_10467(212, 79626249);
+			break;
+		case 17:
+			cs2method_10467(213, 79626249);
+			break;
+		case 18:
+			cs2method_10467(214, 79626249);
+			break;
+		case 8:
+			cs2method_10467(204, 79626249);
+			break;
+		case 9:
+			cs2method_10467(205, 79626249);
+			break;
+		case 10:
+			cs2method_10467(206, 79626249);
+			break;
+		case 19:
+			cs2method_10467(208, 79626249);
+			break;
+		case 20:
+			cs2method_10467(216, 79626249);
+			break;
+		case 21:
+			cs2method_10467(217, 79626249);
+			break;
+		case 22:
+			cs2method_10467(221, 79626249);
+			break;
+		case 23:
+			cs2method_10467(220, 79626249);
+			break;
+		case 24:
+			cs2method_10467(222, 79626249);
+			break;
+		case 25:
+			cs2method_10467(3028, 79626249);
+			break;
+		case 30:
+			cs2method_10467(1817, 79626249);
+			cs2method_10444(4, cs2method_10826(79626249), 2, 0, 79626249);
+			cs2method_10893(22, 22, 0, 0, 79626249);
+			break;
+		case 31:
+			cs2method_10467(1818, 79626249);
+			cs2method_10444(4, cs2method_10826(79626249), 2, 0, 79626249);
+			cs2method_10893(22, 22, 0, 0, 79626249);
+			break;
+		default:
+			cs2method_10467(-1, 79626249);
+	}
+	return;
+}

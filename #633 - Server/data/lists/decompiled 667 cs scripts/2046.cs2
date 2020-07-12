@@ -1,0 +1,12 @@
+void script_2046(int arg0) {
+	cs2method_20219(2045, new WidgetPointer(arg0), new WidgetPointer(755,28), 0, 0, 0, "IIiii", new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(755,36));
+	clearExtraChildren(new WidgetPointer(755,37));
+	clearExtraChildren(new WidgetPointer(755,38));
+	clearExtraChildren(new WidgetPointer(755,39));
+	clearExtraChildren(new WidgetPointer(755,40));
+	clearExtraChildren(new WidgetPointer(755,41));
+	clearExtraChildren(new WidgetPointer(755,42));
+	return;
+}

@@ -1,0 +1,15 @@
+void script_5649(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10842() >= 2) {
+		ivar1 = cs2method_10416(48890056);
+	} else {
+		ivar1 = cs2method_10416(35913780);
+	}
+	if (ivar1 == 0) {
+		cs2method_10444(8, 80, 2, 0, 24969216);
+	} else {
+		cs2method_10444(8, 7, 2, 0, 24969216);
+	}
+	return;
+}

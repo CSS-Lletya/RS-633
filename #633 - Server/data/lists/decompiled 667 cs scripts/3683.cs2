@@ -1,0 +1,7 @@
+void script_3683() {
+	script_1548(14);
+	globalstring_196 = "";
+	cs2method_20219(832, "", new WidgetPointer(187,18));
+	cs2method_10467(3245, 12255250);
+	return;
+}

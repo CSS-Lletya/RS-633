@@ -1,0 +1,26 @@
+void script_2753(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	if (arg1 != 1) {
+		return;
+	}
+	if (cs2method_10551(arg2, arg3) == 1) {
+		cs2method_10714();
+	}
+	if (globalint_5 != arg0 || cs2method_10366(arg4) <= 0) {
+		return;
+	}
+	globalstring_22 = (string)cs2method_10222(arg4);
+	setWidgetText(new WidgetPointer(752,5), cs2method_10991((object)globalstring_22));
+	if (globalint_5 == 8) {
+		cs2method_10066((object)globalstring_22);
+		script_1548(0);
+	} else if (globalint_5 == 9) {
+		cs2method_10558((object)globalstring_22);
+		script_1548(0);
+	} else {
+		if (globalint_5 == 10) {
+			cs2method_10215((object)globalstring_22);
+			script_1548(0);
+		}
+	}
+	return;
+}

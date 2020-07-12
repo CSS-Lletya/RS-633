@@ -1,0 +1,18 @@
+void script_1408() {
+	cs2method_10467(180, 49545228);
+	cs2method_10467(180, 49545229);
+	cs2method_10467(180, 49545231);
+	cs2method_10467(180, 49545232);
+	if (bitconfig_49 == 0) {
+		cs2method_10467(181, 49545228);
+	} else if (bitconfig_49 == 1) {
+		cs2method_10467(181, 49545229);
+	} else if (bitconfig_49 == 2) {
+		cs2method_10467(181, 49545231);
+	} else {
+		if (bitconfig_49 == 3) {
+			cs2method_10467(181, 49545232);
+		}
+	}
+	return;
+}

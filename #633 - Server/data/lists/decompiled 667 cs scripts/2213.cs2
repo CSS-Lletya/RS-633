@@ -1,0 +1,79 @@
+void script_2213() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	cs2method_10467(4063, 44105829);
+	cs2method_10533(0, 44105829);
+	cs2method_10967(1, 44105829);
+	cs2method_10467(4063, 44105836);
+	cs2method_10533(0, 44105836);
+	cs2method_10967(0, 44105836);
+	cs2method_10467(4065, 44105830);
+	cs2method_10533(0, 44105830);
+	cs2method_10967(1, 44105830);
+	cs2method_10467(4065, 44105837);
+	cs2method_10533(0, 44105837);
+	cs2method_10967(0, 44105837);
+	globalint_1411 = 1;
+	cs2method_10467(4086, 44105768);
+	cs2method_10892();
+	globalstring_122 = "";
+	globalstring_326 = "";
+	globalstring_124 = "";
+	globalstring_125 = "";
+	globalstring_123 = "";
+	globalstring_327 = "";
+	globalstring_328 = "";
+	globalstring_329 = "";
+	globalint_1407 = 0;
+	globalint_1408 = 0;
+	globalint_1101 = 0;
+	script_3213(-1, (object)"");
+	setWidgetText(new WidgetPointer(673,43), cs2method_10310());
+	setWidgetText(new WidgetPointer(673,119), cs2method_10310());
+	setWidgetText(new WidgetPointer(673,90), (object)"");
+	setWidgetText(new WidgetPointer(673,80), (object)"");
+	cs2method_10467(4057, 44105821);
+	cs2method_10467(4057, 44105840);
+	cs2method_10467(4057, 44105811);
+	cs2method_10467(4057, 44105801);
+	cs2method_10467(4057, 44105776);
+	setWidgetIsHidden(true, new WidgetPointer(673,98));
+	setWidgetIsHidden(true, new WidgetPointer(673,117));
+	setWidgetIsHidden(true, new WidgetPointer(673,88));
+	setWidgetIsHidden(true, new WidgetPointer(673,78));
+	setWidgetIsHidden(true, new WidgetPointer(673,124));
+	if (globalint_1407 != 0) {
+		setWidgetText(new WidgetPointer(673,42), (object)toString(globalint_1407));
+		cs2method_10467(4059, 44105776);
+	} else {
+		setWidgetText(new WidgetPointer(673,42), (object)"");
+	}
+	ivar0 = cs2method_10355(3793, cs2method_10100(44105798));
+	cs2method_10893(ivar0, cs2method_10090(44105788), 0, 0, 44105788);
+	ivar1 = cs2method_10355(3793, cs2method_10100(44105799));
+	cs2method_10893(ivar1, cs2method_10090(44105790), 0, 0, 44105790);
+	ivar2 = cs2method_10355(3793, cs2method_10100(44105789));
+	cs2method_10893(ivar2, cs2method_10090(44105789), 0, 0, 44105789);
+	ovar0 = cs2method_10100(44105789);
+	setWidgetText(new WidgetPointer(673,61), cs2method_10445(cs2method_10445(cs2method_10100(44105798), cs2method_10445((object)" ", cs2method_10445(cs2method_10100(44105789), (object)" "))), cs2method_10100(44105799)));
+	cs2method_10444(0, cs2method_10826(44105789), 1, 0, 44105789);
+	cs2method_10893(cs2method_10355(3793, cs2method_10100(44105789)), cs2method_10090(44105789), 0, 0, 44105789);
+	cs2method_10444(cs2method_10111(44105789), cs2method_10826(44105788), 0, 0, 44105788);
+	setWidgetText(new WidgetPointer(673,61), ovar0);
+	cs2method_10893(ivar2, cs2method_10090(44105789), 0, 0, 44105789);
+	cs2method_10444(add(add(cs2method_10111(44105788), cs2method_10956(44105788)), cs2method_10355(3793, (object)" ")), cs2method_10826(44105789), 0, 0, 44105789);
+	cs2method_10444(add(add(cs2method_10111(44105789), cs2method_10956(44105789)), cs2method_10355(3793, (object)" ")), cs2method_10826(44105790), 0, 0, 44105790);
+	globalint_1099 = 0;
+	if (cs2method_10366(cs2method_10310()) > 0) {
+		script_3218(44105817, 44105818, 44105819, 7, (object)"");
+	}
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(673,99), new WidgetPointer(673,43), new WidgetPointer(673,100), 6, "iIIIi", new WidgetPointer(673,43));
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(673,118), new WidgetPointer(673,119), new WidgetPointer(673,120), 14, "iIIIi", new WidgetPointer(673,119));
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(673,89), new WidgetPointer(673,90), new WidgetPointer(673,91), 7, "iIIIi", new WidgetPointer(673,90));
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(673,79), new WidgetPointer(673,80), new WidgetPointer(673,81), 8, "iIIIi", new WidgetPointer(673,80));
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(673,125), new WidgetPointer(673,42), new WidgetPointer(673,126), 15, "iIIIi", new WidgetPointer(673,42));
+	cs2method_20219(4030, "", new WidgetPointer(673,26));
+	return;
+}

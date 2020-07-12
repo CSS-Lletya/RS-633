@@ -1,0 +1,6 @@
+void script_5944() {
+	int ivar0;
+	ivar0 = 82051072;
+	script_5945(cs2method_10111(ivar0), cs2method_10826(ivar0));
+	return;
+}

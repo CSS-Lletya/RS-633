@@ -1,0 +1,52 @@
+void script_828() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int stack_dump0;
+	int stack_dump1;
+	script_2872();
+	globalarray_0 = new int[add(1091, 1)];
+	ivar0 = 0;
+	if (globalint_89 == 0 || globalint_89 == -1) {
+		globalstring_196 = "";
+		globalint_89 = 1;
+	}
+	while (ivar0 <= 1091) {
+		globalarray_0[ivar0] = ivar0;
+		createChildWidget(12255233, 4, multiply(ivar0, 2));
+		createChildWidget(12255233, 5, add(multiply(ivar0, 2), 1));
+		ivar0 = add(ivar0, 1);
+	}
+	script_520(0, 0, 1091, 1347);
+	cs2method_10578(1133, -1, 12255236);
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	while (ivar1 <= 1091) {
+		ivar0 = globalarray_0[ivar1];
+		if (cs2method_10551(12255233, multiply(ivar0, 2)) == 1 && cs2method_10551(12255233, add(multiply(ivar0, 2), 1)) == 1) {
+			if (getDataByKey('i', 'M', 1351, ivar0) != 147 && getDataByKey('i', 'i', 1350, ivar0) == 0) {
+				setWidgetTextAlignment(0, 1, 0);
+				stack_dump0 = 1345;
+				stack_dump1 = ivar0;
+				/* 
+					mgi.tools.jagdecs2.DecompilerException: TODO Special opcode:30372
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:461)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			}
+			if (ivar1 < 1091) {
+				cs2method_10545(1133, globalarray_0[add(ivar1, 1)]);
+			}
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	script_31(12255234, 12255233, 792, 789, 790, 791, 773, 788);
+	script_3680();
+	return;
+}

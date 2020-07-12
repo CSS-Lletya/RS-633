@@ -1,0 +1,86 @@
+void script_4725() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar0;
+	ivar0 = 20316177;
+	ivar1 = 20316179;
+	ivar2 = 20316171;
+	ivar3 = 20316172;
+	ivar4 = 20316174;
+	ivar5 = 20316173;
+	ivar6 = 20316178;
+	ovar0 = (object)"";
+	clearExtraChildren(new WidgetPointer(ivar2));
+	clearExtraChildren(new WidgetPointer(ivar5));
+	ivar7 = 15;
+	ivar8 = 1;
+	ivar9 = 0;
+	ivar10 = -1;
+	ivar11 = -1;
+	while (ivar8 <= 15) {
+		ivar9 = cs2method_10860(ivar2);
+		createChildWidget(ivar2, 4, ivar9);
+		setWidgetSize(5, ivar7, 1, 0);
+		setWidgetPosition(5, multiply(ivar9, ivar7), 0, 0);
+		setWidgetText((object)script_5329(ivar8));
+		setWidgetFont(3793);
+		setWidgetRGB(new Color(190, 178, 140));
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 1, 0);
+		ivar10 = 7715;
+		ivar11 = 7716;
+		createChildWidget(ivar5, 5, ivar9);
+		cs2method_10469(ivar10);
+		setWidgetContextMenuOption(1, (object)"Target");
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(18, add(1, multiply(ivar9, ivar7)), 2, 0);
+		cs2method_20211(5336, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		cs2method_20139(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		cs2method_10628((object)"Add Actor");
+		cs2method_10240(176, -1);
+		createChildWidget(ivar6, 3, cs2method_10860(ivar6));
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(18, add(1, multiply(ivar9, ivar7)), 2, 0);
+		ovar0 = (object)"Add someone to the actor list. Click this, then click on the person you would like to add.";
+		cs2method_20930(4538, new WidgetPointer(310,26), new WidgetPointer(-32768,3), -2147483643, (string)ovar0, 90, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+		cs2method_20139(40, new WidgetPointer(310,26), "I");
+		ivar10 = 7718;
+		ivar11 = 7719;
+		createChildWidget(ivar4, 5, ivar9);
+		cs2method_10469(ivar10);
+		setWidgetContextMenuOption(1, (object)"Remove");
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(3, add(1, multiply(ivar9, ivar7)), 2, 0);
+		cs2method_20211(5336, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		cs2method_20139(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		createChildWidget(ivar6, 3, cs2method_10860(ivar6));
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(3, add(1, multiply(ivar9, ivar7)), 2, 0);
+		ovar0 = (object)"Add someone to the actor list. Click this, then click on the person you would like to add.";
+		ovar0 = (object)"Remove this person from the actor list.";
+		cs2method_20930(4538, new WidgetPointer(310,26), new WidgetPointer(-32768,3), -2147483643, (string)ovar0, 90, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+		cs2method_20139(40, new WidgetPointer(310,26), "I");
+		ivar8 = add(ivar8, 1);
+	}
+	if (globalint_1606 == 0) {
+		ivar10 = 6009;
+		ivar11 = 6010;
+	} else {
+		ivar10 = 6004;
+		ivar11 = 6005;
+	}
+	cs2method_10467(ivar10, 20316180);
+	cs2method_20333(44, new WidgetPointer(-32768,3), ivar11, "Id", new WidgetPointer(310,20));
+	cs2method_20295(44, new WidgetPointer(-32768,3), ivar10, "Id", new WidgetPointer(310,20));
+	return;
+}

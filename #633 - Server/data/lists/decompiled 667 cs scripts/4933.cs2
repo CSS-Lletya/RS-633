@@ -1,0 +1,4 @@
+void script_4933() {
+	bitconfig_10861 = 0;
+	return;
+}

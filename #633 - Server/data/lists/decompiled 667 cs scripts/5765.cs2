@@ -1,0 +1,16 @@
+int script_5765(int arg0) {
+	if (arg0 == -1) {
+		return script_5766(10);
+	}
+	if (cs2method_10453(arg0) >= 10) {
+		return 1;
+	}
+	if (arg0 == 0) {
+		if (cs2method_10453(0) > 10 || cs2method_10453(2) > 10 || cs2method_10453(1) > 10 || cs2method_10453(6) > 10 || cs2method_10453(4) > 10 || script_1432() > 10) {
+			return 1;
+		}
+	} else {
+		return 0;
+	}
+	return 0;
+}

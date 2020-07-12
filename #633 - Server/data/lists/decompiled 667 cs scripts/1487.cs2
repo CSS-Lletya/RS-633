@@ -1,0 +1,16 @@
+void script_1487() {
+	object ovar0;
+	ovar0 = (object)"";
+	if (standart_config_115 == 0) {
+		cs2method_10467(1431, 49938451);
+		cs2method_10467(1427, 49938452);
+		ovar0 = (object)"Switch to note withdrawal mode";
+	} else {
+		cs2method_10467(1433, 49938451);
+		cs2method_10467(1428, 49938452);
+		ovar0 = (object)"Switch to item withdrawal mode";
+	}
+	cs2method_10375(1, 49938451, ovar0);
+	cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(762,121), (string)ovar0, 25, 150, "IIsii", new WidgetPointer(762,19));
+	return;
+}

@@ -1,0 +1,4 @@
+void script_954() {
+	cs2method_10893(cs2method_10542(subtract(1000, bitconfig_4564), 1000, 182), 6, 0, 0, 47841309);
+	return;
+}

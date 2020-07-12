@@ -1,0 +1,82 @@
+Packet: 17 Length: -1
+Packet: 46 Length: 3
+Packet: 47 Length: 3
+Packet: 76 Length: 3
+Packet: 38 Length: 3
+Packet: 33 Length: 16
+Packet: 69 Length: -1
+Packet: 62 Length: 6
+Packet: 49 Length: -1
+Packet: 61 Length: 6
+Packet: 19 Length: 8
+Packet: 32 Length: 8
+Packet: 68 Length: -1
+Packet: 35 Length: -1
+Packet: 0 Length: 7
+java.lang.Runtime
+java.lang.Runtime
+Packet: 45 Length: -1
+Packet: 43 Length: 18
+Packet: 29 Length: 8
+Packet: 71 Length: 2
+Packet: 28 Length: -1
+Packet: 11 Length: 8
+Packet: 82 Length: -1
+Class108
+java.awt.Component
+Packet: 14 Length: 3
+Packet: 25 Length: 3
+Packet: 70 Length: 4
+Packet: 20 Length: -1
+Packet: 44 Length: 3
+Packet: 84 Length: 7
+Packet: 21 Length: 3
+Packet: 3 Length: -1
+Packet: 27 Length: 3
+Packet: 23 Length: 4
+Packet: 40 Length: -1
+Packet: 67 Length: 2
+Packet: 53 Length: 7
+Packet: 42 Length: 2
+Packet: 66 Length: 15
+Packet: 73 Length: -1
+Packet: 24 Length: 3
+Packet: 63 Length: -1
+Packet: 50 Length: 0
+Packet: 83 Length: 4
+Packet: 81 Length: 4
+Packet: 39 Length: 0
+Packet: 34 Length: 11
+Packet: 74 Length: 8
+Packet: 57 Length: 12
+Packet: 55 Length: 6
+Packet: 51 Length: 3
+Packet: 9 Length: 8
+javax.sound.sampled.SourceDataLine
+Packet: 36 Length: 5
+Packet: 48 Length: 2
+Class49
+Packet: 10 Length: 16
+Packet: 7 Length: -1
+Packet: 26 Length: 7
+Packet: 22 Length: 3
+Packet: 78 Length: -1
+Packet: 12 Length: 8
+Packet: 16 Length: 1
+Packet: 54 Length: -1
+Class11_Sub17
+Class108
+Packet: 64 Length: -1
+Packet: 56 Length: 4
+Packet: 41 Length: 2
+java.awt.Component
+[I
+java.awt.Point
+Packet: 58 Length: 15
+Packet: 37 Length: 7
+jaclib.peer.PeerReference
+Packet: 77 Length: 1
+Packet: 8 Length: 2
+Packet: 52 Length: 3
+Packet: 2 Length: 11
+Packet: 79 Length: -1

@@ -1,0 +1,12 @@
+void script_1455() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 < cs2method_10594(95)) {
+		if (cs2method_10551(49938527, ivar0) == 1) {
+			cs2method_10692(1);
+			setWidgetPosition(0, 0, 0, 0);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

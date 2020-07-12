@@ -1,0 +1,70 @@
+void script_2223() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	opc_struct10322(2,0,0) structdump_0;
+	cs2method_10070(48758833, 669);
+	cs2method_10467(4088, 43843611);
+	cs2method_10467(4063, 43843612);
+	cs2method_10533(0, 43843612);
+	cs2method_10967(1, 43843612);
+	cs2method_10467(4063, 43843613);
+	cs2method_10533(0, 43843613);
+	cs2method_10967(0, 43843613);
+	cs2method_10467(4065, 43843605);
+	cs2method_10533(0, 43843605);
+	cs2method_10967(1, 43843605);
+	cs2method_10467(4065, 43843610);
+	cs2method_10533(0, 43843610);
+	cs2method_10967(0, 43843610);
+	ovar0 = (object)"";
+	ivar0 = cs2method_10355(3793, cs2method_10100(43843631));
+	cs2method_10893(ivar0, cs2method_10090(43843591), 0, 0, 43843591);
+	ivar1 = cs2method_10355(3793, cs2method_10100(43843632));
+	cs2method_10893(ivar1, cs2method_10090(43843593), 0, 0, 43843593);
+	ivar2 = cs2method_10355(3793, cs2method_10100(43843592));
+	cs2method_10893(ivar2, cs2method_10090(43843592), 0, 0, 43843592);
+	ovar1 = cs2method_10100(43843592);
+	setWidgetText(new WidgetPointer(669,8), cs2method_10445(cs2method_10445(cs2method_10100(43843631), cs2method_10445((object)" ", cs2method_10445(cs2method_10100(43843592), (object)" "))), cs2method_10100(43843632)));
+	cs2method_10444(0, cs2method_10826(43843592), 1, 0, 43843592);
+	cs2method_10893(cs2method_10355(3793, cs2method_10100(43843592)), cs2method_10090(43843592), 0, 0, 43843592);
+	cs2method_10444(cs2method_10111(43843592), cs2method_10826(43843591), 0, 0, 43843591);
+	setWidgetText(new WidgetPointer(669,8), ovar1);
+	cs2method_10893(ivar2, cs2method_10090(43843592), 0, 0, 43843592);
+	cs2method_10444(add(add(cs2method_10111(43843591), cs2method_10956(43843591)), cs2method_10355(3793, (object)" ")), cs2method_10826(43843592), 0, 0, 43843592);
+	cs2method_10444(add(add(cs2method_10111(43843592), cs2method_10956(43843592)), cs2method_10355(3793, (object)" ")), cs2method_10826(43843593), 0, 0, 43843593);
+	ivar3 = 0;
+	ivar4 = 0;
+	structdump_0 = cs2method_10322();
+	ivar3 = structdump_0.intpart_1;
+	ivar4 = structdump_0.intpart_0;
+	if (globalint_1407 < 13) {
+		setWidgetIsHidden(true, new WidgetPointer(669,14));
+		setWidgetIsHidden(true, new WidgetPointer(669,27));
+		setWidgetIsHidden(false, new WidgetPointer(669,13));
+		script_5637();
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(669,14));
+		setWidgetIsHidden(false, new WidgetPointer(669,27));
+		setWidgetIsHidden(true, new WidgetPointer(669,13));
+		script_5637();
+	}
+	ovar2 = (object)"dob";
+	ovar3 = (object)"set_members_dob.ws";
+	if (globalint_1088 == 1) {
+		ovar0 = (object)"Continue To Buy";
+		setScriptCallOnMousePressed(5634, (string)ovar2, (string)ovar3, "ss", new WidgetPointer(669,39));
+	} else {
+		ovar0 = (object)"Continue";
+		setScriptCallOnMousePressed(5636, "", new WidgetPointer(669,39));
+	}
+	cs2method_10060(15);
+	script_1174(8);
+	return;
+}

@@ -1,0 +1,132 @@
+void script_6087(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int stack_dump0;
+	cs2func_script_6095_struct(2,0,0) structdump_1;
+	if (script_4550(1265) == 0) {
+		return;
+	}
+	script_6082();
+	if (arg2 == -1) {
+		arg2 = 0;
+	}
+	standart_config_2565 = arg2;
+	ivar4 = 82903098;
+	ivar5 = 82903097;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = -1;
+	stack_dump0 = arg3;
+	structdump_1 = script_6095(stack_dump0);
+	ivar13 = structdump_1.intpart_1;
+	ivar12 = structdump_1.intpart_0;
+	ivar15 = divide(cs2method_10956(82903098), ivar12);
+	if (arg2 == 1) {
+		arg0 = 93;
+		arg1 = -1;
+		cs2method_20572(-1, "", new WidgetPointer(1265,94));
+	} else {
+		if (arg1 != -1) {
+			ivar6 = 0;
+			ivar7 = cs2method_10594(arg1);
+			ivar8 = 0;
+			while (ivar6 < ivar7) {
+				ivar14 = getItemIdInContainerSlot(arg1, ivar6);
+				if (isMember() == 0 && isMembersItem(ivar14) == 1) {
+					script_6088(ivar6, 1);
+				} else if (ivar14 == -1) {
+					script_6088(ivar6, 1);
+				} else {
+					script_6089(arg1, ivar6, ivar8, arg3);
+					ivar8 = add(ivar8, 1);
+				}
+				ivar6 = add(ivar6, 1);
+			}
+			ivar9 = divide(ivar8, ivar15);
+			if (cs2method_10620(ivar8, ivar15) != 0) {
+				ivar9 = add(ivar9, 1);
+			}
+			ivar11 = multiply(ivar9, ivar13);
+			ivar11 = add(ivar11, 8);
+			cs2method_20572(6092, standart_config_1496, arg1, 1, "vY", new WidgetPointer(1265,94));
+		}
+	}
+	ivar9 = 0;
+	ivar6 = 0;
+	ivar8 = 0;
+	if (arg0 != -1) {
+		ivar7 = cs2method_10594(arg0);
+		while (ivar6 < ivar7) {
+			ivar14 = getItemIdInContainerSlot(arg0, ivar6);
+			if (isMember() == 0 && isMembersItem(ivar14) == 1) {
+				script_6088(ivar6, 0);
+			} else if (ivar14 == -1) {
+				script_6088(ivar6, 0);
+			} else {
+				script_6089(arg0, ivar6, ivar8, arg3);
+				ivar8 = add(ivar8, 1);
+			}
+			ivar6 = add(ivar6, 1);
+		}
+	}
+	if (getDataByKey('v', 'i', 921, standart_config_118) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1265,52));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1265,52));
+	}
+	ivar16 = getItemAmtInContainer(93, standart_config_532);
+	if (standart_config_532 == 995) {
+		ivar16 = add(ivar16, getItemAmtInContainer(623, standart_config_532));
+	}
+	if (ivar16 == 0) {
+		setWidgetText(new WidgetPointer(1265,207), (object)"None!");
+		cs2method_10467(2180, 82903246);
+	} else {
+		setWidgetText(new WidgetPointer(1265,207), script_940(ivar16));
+		cs2method_10467(getDataByKey('o', 'd', 200, standart_config_532), 82903246);
+	}
+	ivar17 = cs2method_10242(cs2method_10956(82903117), 3793, cs2method_10100(82903247));
+	ivar17 = add(add(ivar17, 2), cs2method_10956(82903246));
+	cs2method_10893(ivar17, 15, 0, 0, 82903056);
+	ivar9 = divide(ivar8, ivar15);
+	if (cs2method_10620(ivar8, ivar15) != 0) {
+		ivar9 = add(ivar9, 1);
+	}
+	ivar10 = multiply(ivar9, ivar13);
+	cs2method_10893(0, ivar11, 1, 0, 82903062);
+	cs2method_10444(0, ivar11, 1, 0, 82903099);
+	cs2method_10893(0, ivar10, 1, 0, 82903099);
+	setWidgetScrollMax(0, add(ivar11, ivar10), 82903098);
+	script_31(82903097, 82903098, 5666, 5663, 5664, 5665, 5686, 5685);
+	if (arg2 == 1) {
+		cs2method_20572(6092, 93, 93, 1, "vY", new WidgetPointer(1265,93));
+		script_6093(93);
+		script_6097(1);
+	} else {
+		cs2method_20572(6092, standart_config_118, arg0, 1, "vY", new WidgetPointer(1265,93));
+		script_6093(standart_config_118);
+		script_6097(0);
+	}
+	if (arg1 == -1) {
+		cs2method_20572(-1, "", new WidgetPointer(1265,94));
+	}
+	return;
+}

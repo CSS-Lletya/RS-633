@@ -1,0 +1,145 @@
+void script_5871(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	if (bitconfig_8594 != arg0) {
+		return;
+	}
+	ivar2 = 79953936;
+	ivar3 = 79953937;
+	ivar4 = 79953922;
+	ivar5 = 79953923;
+	ivar6 = 79953975;
+	ivar7 = 79953978;
+	ivar8 = 79953966;
+	ivar9 = 79953969;
+	ivar10 = 1;
+	ivar11 = 1;
+	if (arg1 <= 0) {
+		arg1 = cs2method_10004(bitconfig_10854, 1);
+	}
+	if (arg1 == 1) {
+		ivar10 = 0;
+	}
+	ivar12 = script_5795(arg0);
+	ivar13 = 1;
+	ivar14 = 0;
+	ivar15 = 1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	while (ivar15 < 9) {
+		switch (ivar15) {
+			case 1:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1274);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1275);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1276);
+				break;
+			case 2:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1275);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1276);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1277);
+				break;
+			case 3:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1276);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1277);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1278);
+				break;
+			case 4:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1277);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1278);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1279);
+				break;
+			case 5:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1278);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1279);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1280);
+				break;
+			case 6:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1279);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1280);
+				ovar3 = (object)getGeneralRequirementAttribute(ivar12, 1281);
+				break;
+			case 7:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1280);
+				ovar2 = (object)getGeneralRequirementAttribute(ivar12, 1281);
+				break;
+			case 8:
+				ovar1 = (object)getGeneralRequirementAttribute(ivar12, 1281);
+		}
+		if (compareTo(ovar2, (object)"") == 0 && ivar14 == 0) {
+			ivar13 = ivar15;
+			ivar14 = 1;
+		}
+		if (compareTo(ovar3, (object)"") == 0 && ivar14 == 0 && ivar2 == -1) {
+			ivar13 = ivar15;
+			ivar14 = 1;
+		}
+		if (ivar15 == arg1) {
+			ovar0 = ovar1;
+		}
+		ivar15 = add(ivar15, 1);
+	}
+	if (ivar13 <= arg1) {
+		ivar11 = 0;
+	}
+	if (compareTo((object)getGeneralRequirementAttribute(ivar12, 1274), (object)"") == 0) {
+		arg1 = 0;
+		ivar13 = 0;
+	}
+	setWidgetText(new WidgetPointer(ivar4), (object)toString(arg1));
+	setWidgetText(new WidgetPointer(ivar5), (object)toString(ivar13));
+	cs2method_10085(0, 0, ivar2);
+	clearExtraChildren(new WidgetPointer(ivar2));
+	if (arg1 == 0 && ivar13 == 0) {
+		ovar0 = (object)"There are no hints available for this Task. Good luck!";
+	}
+	ivar16 = script_5798(arg0, ivar12, 0, 0, ivar2, -1, -1, ovar0);
+	ivar17 = cs2method_10090(79953934);
+	cs2method_20000(5870, arg0, add(arg1, 1), "ii", new WidgetPointer(1220,55));
+	setWidgetIsHidden((boolean)ivar11, new WidgetPointer(1220,58));
+	cs2method_20000(5870, arg0, subtract(arg1, 1), "ii", new WidgetPointer(1220,46));
+	setWidgetIsHidden((boolean)ivar10, new WidgetPointer(1220,49));
+	if (ivar13 < 2) {
+		setWidgetIsHidden(true, new WidgetPointer(1220,15));
+		ivar17 = add(ivar17, cs2method_10090(79953935));
+	} else if (bitconfig_9030 == 0 || script_3999(bitconfig_10700) == 0 && bitconfig_10700 == bitconfig_8576) {
+		setWidgetIsHidden(false, new WidgetPointer(1220,15));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1220,15));
+		ivar17 = add(ivar17, cs2method_10090(79953935));
+	}
+	cs2method_10893(cs2method_10956(79953934), ivar17, 0, 0, 79953934);
+	cs2method_10893(3, 0, 1, 1, ivar2);
+	if (ivar16 < ivar17) {
+		setWidgetIsHidden(true, new WidgetPointer(ivar3));
+		setWidgetScrollMax(0, cs2method_10090(ivar2), ivar2);
+		cs2method_10085(0, 0, ivar2);
+	} else {
+		ivar16 = add(ivar16, 5);
+		setWidgetScrollMax(0, cs2method_10004(ivar16, cs2method_10090(ivar2)), ivar2);
+		cs2method_10893(add(cs2method_10956(ivar3), 2), 0, 1, 1, ivar2);
+		cs2method_10085(0, 0, ivar2);
+		setWidgetIsHidden(false, new WidgetPointer(ivar3));
+		script_31(ivar3, ivar2, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	return;
+}

@@ -1,0 +1,11 @@
+void script_5445(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	clearExtraChildren(new WidgetPointer(arg1));
+	if (arg3 == 2) {
+		createChildWidget(arg1, 5, arg0);
+		setWidgetSize(88, 88, 0, 0);
+		setWidgetPosition(1, 1, 0, 0);
+		cs2method_10469(8276);
+	}
+	setWidgetText(new WidgetPointer(arg2), arg4);
+	return;
+}

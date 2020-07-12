@@ -1,0 +1,13 @@
+void script_114() {
+	cs2method_20914(1302, 168, 747, 2, "Y", new WidgetPointer(548,22));
+	cs2method_20914(1302, 168, 747, 2, "Y", new WidgetPointer(746,32));
+	if (cs2method_10842() >= 2) {
+		cs2method_20889(117, 1021, 1, "Y", new WidgetPointer(746,55));
+		script_1309(1);
+	} else {
+		cs2method_20889(117, 1021, 1, "Y", new WidgetPointer(548,113));
+		script_2756();
+		script_1312(1);
+	}
+	return;
+}

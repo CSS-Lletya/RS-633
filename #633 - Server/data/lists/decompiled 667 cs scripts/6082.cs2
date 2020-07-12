@@ -1,0 +1,14 @@
+void script_6082() {
+	clearExtraChildren(new WidgetPointer(1265,20));
+	clearExtraChildren(new WidgetPointer(1265,25));
+	clearExtraChildren(new WidgetPointer(1265,26));
+	clearExtraChildren(new WidgetPointer(1265,24));
+	clearExtraChildren(new WidgetPointer(1265,23));
+	clearExtraChildren(new WidgetPointer(1265,27));
+	clearExtraChildren(new WidgetPointer(1265,21));
+	clearExtraChildren(new WidgetPointer(1265,96));
+	clearExtraChildren(new WidgetPointer(1265,97));
+	clearExtraChildren(new WidgetPointer(1265,95));
+	clearExtraChildren(new WidgetPointer(1265,98));
+	return;
+}

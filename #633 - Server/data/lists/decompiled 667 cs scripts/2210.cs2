@@ -1,0 +1,7 @@
+void script_2210() {
+	if (cs2method_10111(globalint_1136) < 200) {
+		cs2method_20219(2210, "", new WidgetPointer(932,1));
+		cs2method_10444(add(1, cs2method_10111(globalint_1136)), cs2method_10826(globalint_1136), 0, 0, globalint_1136);
+	}
+	return;
+}

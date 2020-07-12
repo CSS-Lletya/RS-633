@@ -1,0 +1,30 @@
+void script_5861(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	int stack_dump0;
+	opc_struct10898(4,3,0) structdump_1;
+	ivar1 = 0;
+	ovar0 = (object)"";
+	ivar2 = 0;
+	ovar1 = (object)"";
+	ivar3 = 0;
+	ivar4 = 0;
+	ovar2 = (object)"";
+	stack_dump0 = arg0;
+	structdump_1 = cs2method_10898(stack_dump0);
+	ovar2 = structdump_1.objectpart_2;
+	ivar4 = structdump_1.intpart_3;
+	ivar3 = structdump_1.intpart_2;
+	ovar1 = structdump_1.objectpart_1;
+	ivar2 = structdump_1.intpart_1;
+	ovar0 = structdump_1.objectpart_0;
+	ivar1 = structdump_1.intpart_0;
+	ivar5 = cs2method_10562(arg0, ovar2);
+	return;
+}

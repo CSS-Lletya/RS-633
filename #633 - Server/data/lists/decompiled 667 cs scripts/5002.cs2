@@ -1,0 +1,46 @@
+void script_5002(int arg0) {
+	int ivar1;
+	int ivar2;
+	script_4408(arg0);
+	clearExtraChildren(new WidgetPointer(arg0));
+	createChildWidget(arg0, 5, 0);
+	setWidgetSize(18, 18, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	ivar1 = script_4964(arg0);
+	ivar2 = 0;
+	if (cs2method_10575() == 1) {
+		ivar2 = script_4949(ivar1);
+		switch (ivar2) {
+			case 17:
+				cs2method_10469(7431);
+				break;
+			case 18:
+				cs2method_10469(7430);
+				break;
+			case 19:
+				cs2method_10469(7433);
+				break;
+			case 1:
+				cs2method_10469(7422);
+				break;
+			case 2:
+				cs2method_10469(7423);
+				break;
+			case 3:
+				cs2method_10469(7424);
+				break;
+			case 4:
+				cs2method_10469(7425);
+				break;
+			case 5:
+				cs2method_10469(7426);
+				break;
+			case 6:
+				cs2method_10469(7427);
+				break;
+			case 7:
+				cs2method_10469(7428);
+		}
+	}
+	return;
+}

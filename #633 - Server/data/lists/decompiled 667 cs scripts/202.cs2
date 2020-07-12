@@ -1,0 +1,28 @@
+void script_202(int arg0,int arg1,object arg2,object arg3) {
+	switch (arg0) {
+		case 5:
+			if (cs2method_10028(arg3) == 1) {
+				globalint_1650 = 1;
+				globalstring_23 = (string)arg2;
+				globalint_2106 = 1;
+				script_6415();
+				script_6328(0);
+				script_1558(0);
+				return;
+			}
+			cs2method_10330(arg2);
+			break;
+		case 6:
+			cs2method_10267(arg2);
+			break;
+		case 7:
+			cs2method_10091(arg2);
+			break;
+		case 8:
+			cs2method_10609(arg2);
+			break;
+		case 9:
+			script_1633(arg2);
+	}
+	return;
+}

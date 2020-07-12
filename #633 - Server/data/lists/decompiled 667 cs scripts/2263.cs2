@@ -1,0 +1,14 @@
+void script_2263(int arg0,int arg1,object arg2,object arg3) {
+	if (arg1 != 1) {
+		cs2method_10375(1, arg0, (object)("Make 1 " + (string)arg3 + "(" + toString(arg1) + ") "));
+		cs2method_10375(2, arg0, (object)("Make 5 " + (string)arg3 + "(" + toString(multiply(arg1, 5)) + ")"));
+		cs2method_10375(3, arg0, (object)("Make X " + (string)arg3));
+		cs2method_10375(4, arg0, (object)("Make All " + (string)arg3));
+		return;
+	}
+	cs2method_10375(1, arg0, (object)("Make 1 " + (string)arg2));
+	cs2method_10375(2, arg0, (object)("Make 5 " + (string)arg3));
+	cs2method_10375(3, arg0, (object)("Make X " + (string)arg3));
+	cs2method_10375(4, arg0, (object)("Make All " + (string)arg3));
+	return;
+}

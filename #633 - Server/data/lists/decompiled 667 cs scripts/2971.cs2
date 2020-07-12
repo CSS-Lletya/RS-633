@@ -1,0 +1,118 @@
+void script_2971(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	flow_0:
+		ovar0 = (object)"";
+		ovar1 = (object)"";
+		ovar2 = (object)"";
+		ivar2 = -1;
+		ivar3 = -1;
+		SWITCH (arg0) {
+			case 0:
+				 GOTO flow_1
+			case 1:
+				 GOTO flow_2
+			case 2:
+				 GOTO flow_3
+			case 3:
+				 GOTO flow_4
+			case 4:
+				 GOTO flow_5
+			case 5:
+				 GOTO flow_6
+			case 6:
+				 GOTO flow_7
+			case 7:
+				 GOTO flow_8
+		}
+		ovar0 = (object)"Unknown";
+		ovar1 = (object)"This should not get here.";
+		ovar2 = (object)"This should never get here.";
+		ivar2 = 62129;
+		ivar3 = 30081093;
+		GOTO	flow_9
+	flow_1:
+		ovar0 = (object)"Nothing.";
+		ovar1 = (object)"There are no requirements for building this feature.";
+		ovar2 = (object)"This feature is an abscence of anything. Oddly, some creatures prefer the minimalist approach.";
+		ivar2 = 62129;
+		ivar3 = 30081093;
+		GOTO	flow_9
+	flow_2:
+		ovar0 = (object)"Pond";
+		ovar1 = (object)"You need a Construction level of 65 to build a pond.";
+		ovar2 = (object)"Ponds attract creatures with an affinity for water. They are essentially very small, man-made lakes...or glorified puddles, depending on your view.";
+		ivar3 = 30081092;
+		ivar2 = 62128;
+		GOTO	flow_9
+	flow_3:
+		ovar0 = (object)"Tall grass";
+		ovar1 = (object)"You need a Construction level of 62 to build tall grass.";
+		ovar2 = (object)"Tall grass is favoured by creatures who sneak and hide. It's also a favourite with people too lazy to trim their lawn. Essentially, it's a patch of land allowed to grow wild.";
+		ivar3 = 30081094;
+		ivar2 = 62134;
+		GOTO	flow_9
+	flow_4:
+		ovar0 = (object)"Abandoned house";
+		ovar1 = (object)"You need a Construction level of 57 to build an abandoned house.";
+		ovar2 = (object)"Something approximating an abandoned house: popular amongst creatures that think they're domesticated.";
+		ivar3 = 30081095;
+		ivar2 = 62132;
+		GOTO	flow_9
+	flow_5:
+		ovar0 = (object)"Thermal vent";
+		ovar1 = (object)"You need a Construction level of 59 to build a thermal vent.";
+		ovar2 = (object)"A home-made volcano, or, at least, something that looks like one. These are popular among earthy creatures.";
+		ivar3 = 30081096;
+		ivar2 = 62133;
+		GOTO	flow_9
+	flow_6:
+		ovar0 = (object)"Standing stones";
+		ovar1 = (object)"You need a Construction level of 70 to build standing stones.";
+		ovar2 = (object)"A circle of home-made mystical stones, popular among creatures that are more magically inclined.";
+		ivar3 = 30081097;
+		ivar2 = 62136;
+		GOTO	flow_9
+	flow_7:
+		ovar0 = (object)"Dark pit";
+		ovar1 = (object)"You need a Construction level of 80 to build a dark pit.";
+		ovar2 = (object)"A deep, dark, endless pit, popular among the more sinister creatures. Don't look too closely: you might fall in.";
+		ivar3 = 30081098;
+		ivar2 = 62131;
+		GOTO	flow_9
+	flow_8:
+		ovar0 = (object)"Boneyard";
+		ovar1 = (object)"You need a Construction level of 56 to build a boneyard.";
+		ovar2 = (object)"An animal graveyard, or a collection of well-made bone mockeries. Popular among scavengers and sinister creatures.";
+		ivar3 = 30081099;
+		ivar2 = 62135;
+	flow_9:
+		script_2973();
+		if (cs2method_10391(22) < arg1) {
+			setWidgetRGB(13421568, 30081061);
+			ovar2 = cs2method_10445(ovar2, (object)("<br>" + "<br>" + "You can pay Papa Mambo to build this for you."));
+		} else {
+			setWidgetRGB(52224, 30081061);
+		}
+		setWidgetText(new WidgetPointer(459,37), ovar0);
+		setWidgetText(new WidgetPointer(459,38), ovar1);
+		setWidgetText(new WidgetPointer(459,36), ovar2);
+		cs2method_10461(ivar2, 30081059);
+		setWidgetIsHidden(true, new WidgetPointer(459,69));
+		setWidgetIsHidden(true, new WidgetPointer(459,68));
+		setWidgetIsHidden(true, new WidgetPointer(459,70));
+		setWidgetIsHidden(true, new WidgetPointer(459,71));
+		setWidgetIsHidden(true, new WidgetPointer(459,72));
+		setWidgetIsHidden(true, new WidgetPointer(459,73));
+		setWidgetIsHidden(true, new WidgetPointer(459,74));
+		setWidgetIsHidden(true, new WidgetPointer(459,75));
+		if (ivar3 != -1) {
+			setWidgetIsHidden(false, new WidgetPointer(ivar3));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(459,69));
+		}
+		return;
+}

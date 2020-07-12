@@ -1,0 +1,24 @@
+void script_4636() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 39059514;
+	ivar1 = 39059500;
+	ivar2 = 39059513;
+	if (cs2method_10637() == 1) {
+		ivar0 = 63897649;
+		ivar1 = 63897644;
+	}
+	setWidgetText(new WidgetPointer(ivar0), (object)"Log In");
+	setWidgetText(new WidgetPointer(ivar2), (object)"Log In");
+	setScriptCallOnMousePressed(2944, "", new WidgetPointer(ivar1));
+	cs2method_20219(-1, "", new WidgetPointer(ivar1));
+	cs2method_20219(-1, "", new WidgetPointer(596,6));
+	if (cs2method_10665() == 1) {
+		cs2method_10662();
+	}
+	cs2method_10732();
+	script_2954();
+	script_2940(13);
+	return;
+}

@@ -1,0 +1,84 @@
+void script_1167() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar0 = -1;
+	switch (globalint_1001) {
+		case 1:
+			ivar0 = 738;
+			break;
+		case 2:
+			ivar0 = 739;
+			break;
+		case 3:
+			ivar0 = 740;
+			break;
+		case 4:
+			ivar0 = 741;
+			break;
+		case 5:
+			ivar0 = 742;
+			break;
+		default:
+			return;
+	}
+	setWidgetText(new WidgetPointer(885,14), (object)getDataByKey('i', 's', 205, globalint_1001));
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 16;
+	ivar4 = 16;
+	ivar5 = 56;
+	ivar6 = 50;
+	ivar7 = cs2method_10624(ivar0);
+	ivar8 = 5;
+	ivar9 = -1;
+	clearExtraChildren(new WidgetPointer(885,16));
+	while (ivar1 < ivar7) {
+		ivar9 = getDataByKey('i', 'o', ivar0, ivar1);
+		if (ivar9 != -1) {
+			createChildWidget(57999376, 5, ivar2);
+			setWidgetSize(36, 32, 0, 0);
+			cs2method_10426(getDataByKey('i', 'o', ivar0, ivar1), -1);
+			setWidgetPosition(add(11, add(ivar3, multiply(add(36, ivar5), cs2method_10620(ivar1, ivar8)))), add(6, add(ivar4, multiply(divide(ivar1, ivar8), add(32, ivar6)))), 0, 0);
+			setWidgetContextMenuOption(1, (object)"Examine");
+			cs2method_11002((object)("<col=ff9040>" + (string)getItemName(ivar9)));
+			createChildWidget(57999376, 4, add(ivar2, 1));
+			setWidgetSize(56, 10, 0, 0);
+			setWidgetFont(494);
+			setWidgetRGB(new Color(204, 153, 0));
+			cs2method_10320(1);
+			setWidgetTextAlignment(1, 0, 0);
+			if (compareTo(cs2method_10775(), (object)"") == 0) {
+				setWidgetText((object)"Getting data...");
+			}
+			setWidgetPosition(add(ivar3, multiply(add(ivar5, 36), cs2method_10620(ivar1, ivar8))), add(47, add(ivar4, multiply(divide(ivar1, ivar8), add(32, ivar6)))), 0, 0);
+			setWidgetIsHidden(false, getDataByKey('i', 'I', 737, ivar1));
+			cs2method_10444(add(ivar3, multiply(add(36, ivar5), cs2method_10620(ivar1, ivar8))), add(ivar4, multiply(divide(ivar1, ivar8), add(32, ivar6))), 0, 0, (int)getDataByKey('i', 'I', 737, ivar1));
+			ivar2 = add(ivar2, 2);
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	while (ivar1 < cs2method_10624(737)) {
+		setWidgetIsHidden(true, getDataByKey('i', 'I', 737, ivar1));
+		ivar1 = add(ivar1, 1);
+	}
+	if (ivar7 <= 15) {
+		cs2method_10085(0, 0, 57999376);
+		setWidgetScrollMax(0, 0, 57999376);
+		clearExtraChildren(new WidgetPointer(885,48));
+		setWidgetIsHidden(true, new WidgetPointer(885,48));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(885,48));
+		cs2method_10085(0, 0, 57999376);
+		setWidgetScrollMax(cs2method_10956(57999376), add(60, add(ivar4, multiply(divide(ivar7, ivar8), add(32, ivar6)))), 57999376);
+		script_31(57999408, 57999376, 792, 789, 790, 791, 773, 788);
+	}
+	return;
+}

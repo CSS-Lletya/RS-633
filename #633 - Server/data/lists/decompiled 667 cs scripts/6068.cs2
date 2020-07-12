@@ -1,0 +1,36 @@
+void script_6068(int arg0,int arg1,int arg2,int arg3) {
+	flow_0:
+		IF (cs2method_10145() == 0) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (arg0 == 37) 
+			GOTO	flow_8
+	flow_2:
+		IF (cs2method_10145() == 1) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_3:
+		IF (arg0 == 54) 
+			GOTO	flow_8
+	flow_4:
+		IF (cs2method_10145() == 2) 
+			GOTO	flow_5
+		GOTO	flow_6
+	flow_5:
+		IF (arg0 == 40) 
+			GOTO	flow_8
+	flow_6:
+		IF (cs2method_10145() == 3 && arg0 == 49) 
+			GOTO	flow_8
+		GOTO	flow_9
+	flow_8:
+		cs2method_10149(0, 77529089);
+		cs2method_10250(arg2);
+	flow_9:
+		if (arg0 == 69) {
+			cs2method_10149(0, 77529112);
+			cs2method_10250(arg3);
+		}
+		return;
+}

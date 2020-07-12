@@ -1,0 +1,17 @@
+void script_2434(int arg0) {
+	globalint_815 = divide(multiply(arg0, 300), 10);
+	if (globalint_815 > 0) {
+		if (cs2method_10842() < 2) {
+			cs2method_20219(2435, "", new WidgetPointer(548,2));
+			setWidgetIsHidden(false, new WidgetPointer(548,40));
+			setWidgetIsHidden(false, new WidgetPointer(548,41));
+		} else {
+			cs2method_20219(2435, "", new WidgetPointer(746,15));
+			setWidgetIsHidden(false, new WidgetPointer(746,187));
+			setWidgetIsHidden(false, new WidgetPointer(746,186));
+		}
+	} else {
+		script_2436();
+	}
+	return;
+}

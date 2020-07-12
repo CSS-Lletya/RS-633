@@ -1,0 +1,76 @@
+void script_490() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar0 = script_488(bitconfig_7539);
+	ivar1 = script_488(bitconfig_7540);
+	ivar2 = script_488(bitconfig_7541);
+	ivar3 = script_488(bitconfig_7542);
+	ivar4 = script_489(bitconfig_7539);
+	ivar5 = script_489(bitconfig_7540);
+	ivar6 = script_489(bitconfig_7541);
+	ivar7 = script_489(bitconfig_7542);
+	setWidgetRGB(16750623, 66519098);
+	setWidgetRGB(16750623, 66519100);
+	setWidgetRGB(16750623, 66519102);
+	setWidgetRGB(16750623, 66519104);
+	setWidgetRGB(16750623, 66519108);
+	setWidgetRGB(16750623, 66519110);
+	setWidgetRGB(16750623, 66519112);
+	setWidgetRGB(16750623, 66519114);
+	setWidgetRGB(16750623, 66519106);
+	if (ivar4 != -1) {
+		setWidgetRGB(5787714, ivar4);
+	}
+	if (ivar5 != -1) {
+		setWidgetRGB(5787714, ivar5);
+	}
+	if (ivar6 != -1) {
+		setWidgetRGB(5787714, ivar6);
+	}
+	if (ivar7 != -1) {
+		setWidgetRGB(5787714, ivar7);
+	}
+	if (ivar0 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(1015,96));
+		setWidgetIsHidden(false, new WidgetPointer(1015,97));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1015,96));
+		setWidgetIsHidden(true, new WidgetPointer(1015,97));
+		setWidgetText(new WidgetPointer(1015,100), (object)getGeneralRequirementAttribute(ivar0, 1150));
+		cs2method_10467(getGeneralRequirementAttribute(ivar0, 1153), 66519139);
+	}
+	if (ivar1 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(1015,90));
+		setWidgetIsHidden(false, new WidgetPointer(1015,93));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1015,90));
+		setWidgetIsHidden(true, new WidgetPointer(1015,93));
+		setWidgetText(new WidgetPointer(1015,92), (object)getGeneralRequirementAttribute(ivar1, 1150));
+		cs2method_10467(getGeneralRequirementAttribute(ivar1, 1153), 66519131);
+	}
+	if (ivar2 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(1015,84));
+		setWidgetIsHidden(false, new WidgetPointer(1015,87));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1015,84));
+		setWidgetIsHidden(true, new WidgetPointer(1015,87));
+		setWidgetText(new WidgetPointer(1015,86), (object)getGeneralRequirementAttribute(ivar2, 1150));
+		cs2method_10467(getGeneralRequirementAttribute(ivar2, 1153), 66519125);
+	}
+	if (ivar3 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(1015,78));
+		setWidgetIsHidden(false, new WidgetPointer(1015,81));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1015,78));
+		setWidgetIsHidden(true, new WidgetPointer(1015,81));
+		setWidgetText(new WidgetPointer(1015,80), (object)getGeneralRequirementAttribute(ivar3, 1150));
+		cs2method_10467(getGeneralRequirementAttribute(ivar3, 1153), 66519119);
+	}
+	return;
+}

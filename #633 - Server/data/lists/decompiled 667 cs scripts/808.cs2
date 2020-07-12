@@ -1,0 +1,34 @@
+void script_808() {
+	int ivar0;
+	int ivar1;
+	setWidgetIsHidden(false, new WidgetPointer(748,7));
+	ivar0 = cs2method_10542(bitconfig_7198, script_2916(), 100);
+	ivar1 = cs2method_10620(cs2method_10878(), 32);
+	if (ivar0 > 25) {
+		globalint_615 = 0;
+		if (cs2method_10964(49020935) != 0) {
+			cs2method_10149(0, 49020935);
+		} else {
+			return;
+		}
+	} else {
+		if (ivar1 == 1) {
+			if (globalint_615 <= 0) {
+				globalint_615 = cs2method_10878();
+			}
+			if (subtract(cs2method_10878(), globalint_615) < 1500) {
+				cs2method_10508(5644, 1, 0);
+			}
+		}
+		if (ivar1 < 8) {
+			cs2method_10149(0, 49020935);
+		} else if (ivar1 < 16) {
+			cs2method_10149(85, 49020935);
+		} else if (ivar1 < 24) {
+			cs2method_10149(255, 49020935);
+		} else {
+			cs2method_10149(85, 49020935);
+		}
+	}
+	return;
+}

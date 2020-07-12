@@ -1,0 +1,9 @@
+void script_1084(int arg0,int arg1,int arg2) {
+	if (cs2method_10416((int)getDataByKey('i', 'I', 1550, add(arg0, 1))) == 1) {
+		return;
+	}
+	if (cs2method_10551(arg1, arg2) == 1) {
+		cs2method_10692(1);
+	}
+	return;
+}

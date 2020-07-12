@@ -1,0 +1,55 @@
+cs2func_script_12_struct(1,1,0) script_12(int arg0) {
+	switch (arg0) {
+		case 1:
+			return newstruct cs2func_script_12_struct(15, (object)"Attack");
+		case 2:
+			return newstruct cs2func_script_12_struct(8, (object)"Strength");
+		case 5:
+			return newstruct cs2func_script_12_struct(15, (object)"Defence");
+		case 3:
+			return newstruct cs2func_script_12_struct(11, (object)"Ranged");
+		case 7:
+			return newstruct cs2func_script_12_struct(4, (object)"Prayer");
+		case 4:
+			return newstruct cs2func_script_12_struct(11, (object)"Magic");
+		case 6:
+			return newstruct cs2func_script_12_struct(3, (object)"Constitution");
+		case 8:
+			return newstruct cs2func_script_12_struct(10, (object)"Agility");
+		case 9:
+			return newstruct cs2func_script_12_struct(8, (object)"Herblore");
+		case 10:
+			return newstruct cs2func_script_12_struct(9, (object)"Thieving");
+		case 11:
+			return newstruct cs2func_script_12_struct(13, (object)"Crafting");
+		case 19:
+			return newstruct cs2func_script_12_struct(9, (object)"Fletching");
+		case 13:
+			return newstruct cs2func_script_12_struct(7, (object)"Mining");
+		case 14:
+			return newstruct cs2func_script_12_struct(16, (object)"Smithing");
+		case 15:
+			return newstruct cs2func_script_12_struct(8, (object)"Fishing");
+		case 16:
+			return newstruct cs2func_script_12_struct(16, (object)"Cooking");
+		case 17:
+			return newstruct cs2func_script_12_struct(9, (object)"Firemaking");
+		case 18:
+			return newstruct cs2func_script_12_struct(8, (object)"Woodcutting");
+		case 12:
+			return newstruct cs2func_script_12_struct(7, (object)"Runecrafting");
+		case 20:
+			return newstruct cs2func_script_12_struct(5, (object)"Slayer");
+		case 21:
+			return newstruct cs2func_script_12_struct(13, (object)"Farming");
+		case 22:
+			return newstruct cs2func_script_12_struct(16, (object)"Construction");
+		case 23:
+			return newstruct cs2func_script_12_struct(16, (object)"Hunter");
+		case 24:
+			return newstruct cs2func_script_12_struct(8, (object)"Summoning");
+		case 25:
+			return newstruct cs2func_script_12_struct(6, (object)"Dungeoneering");
+	}
+	return newstruct cs2func_script_12_struct(-1, (object)"");
+}

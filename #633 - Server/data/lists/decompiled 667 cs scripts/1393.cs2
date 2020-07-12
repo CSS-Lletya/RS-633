@@ -1,0 +1,16 @@
+int script_1393(int arg0) {
+	int ivar1;
+	if (arg0 <= 0) {
+		return -1;
+	}
+	arg0 = subtract(arg0, 1);
+	ivar1 = cs2method_10594(94);
+	if (arg0 < ivar1) {
+		return cs2method_10136(94, arg0);
+	}
+	arg0 = subtract(arg0, ivar1);
+	if (arg0 < cs2method_10594(93)) {
+		return cs2method_10136(93, arg0);
+	}
+	return -1;
+}

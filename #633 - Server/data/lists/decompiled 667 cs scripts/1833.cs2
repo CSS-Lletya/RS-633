@@ -1,0 +1,13 @@
+void script_1833(int arg0,int arg1) {
+	if (script_1820(arg0) == 0) {
+		return;
+	}
+	if (isMember() == 0 && getGeneralRequirementAttribute(getDataByKey('i', 'J', 1604, arg1), 557) == 1) {
+		return;
+	}
+	if (globalint_257 != arg1) {
+		globalint_257 = arg1;
+		script_1781();
+	}
+	return;
+}

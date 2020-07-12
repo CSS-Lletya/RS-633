@@ -1,0 +1,40 @@
+void script_3626(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int stack_dump0;
+	ivar7 = 0;
+	ivar8 = cs2method_10624(arg0);
+	ivar9 = -1;
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	cs2method_10508(9506, 1, 0);
+	while (ivar7 < ivar8) {
+		ivar9 = (int)getDataByKey('i', 'I', arg0, ivar7);
+		ivar10 = getDataByKey('i', 'i', arg3, cs2method_10620(add(ivar7, arg4), ivar8));
+		ivar13 = cs2method_10620(add(ivar10, arg5), cs2method_10624(3170));
+		if (cs2method_10403(ivar9) == 1) {
+			stack_dump0 = 1103;
+			/* 
+				java.lang.RuntimeException: Stack underflow
+					at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		cs2method_20219(3628, new WidgetPointer(ivar9), ivar11, ivar12, multiply(25, getDataByKey('i', 'i', arg1, ivar7)), multiply(25, getDataByKey('i', 'i', arg2, ivar7)), getDataByKey('i', 'O', 3170, ivar13), ivar13, 0, arg6, "IiiiiOiii", new WidgetPointer(ivar9));
+		ivar7 = add(ivar7, 1);
+	}
+	return;
+}

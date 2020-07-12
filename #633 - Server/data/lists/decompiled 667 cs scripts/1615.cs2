@@ -1,0 +1,14 @@
+void script_1615(int arg0,int arg1,int arg2) {
+	if (arg0 == 1) {
+		if (cs2method_10551(arg1, arg2) == 1) {
+			cs2method_10253(2);
+		}
+		globalint_1031 = add(1, arg2);
+	} else {
+		if (cs2method_10551(arg1, arg2) == 1) {
+			cs2method_10253(1);
+		}
+		globalint_1031 = 0;
+	}
+	return;
+}

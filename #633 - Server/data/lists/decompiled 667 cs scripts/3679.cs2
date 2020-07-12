@@ -1,0 +1,6 @@
+void script_3679(int arg0,int arg1) {
+	cs2method_10831(arg0);
+	cs2method_10375(5, arg0, (object)("Examine" + "<col=ff9040>"));
+	cs2method_10724(arg0, (object)("<col=ff981f>" + getDataByKey('i', 's', 3274, arg1) + " Piece"));
+	return;
+}

@@ -1,0 +1,16 @@
+void script_3943() {
+	setWidgetIsHidden(false, new WidgetPointer(1028,112));
+	setWidgetIsHidden(true, new WidgetPointer(1028,59));
+	setWidgetIsHidden(true, new WidgetPointer(1028,139));
+	setWidgetIsHidden(true, new WidgetPointer(1028,138));
+	setWidgetIsHidden(true, new WidgetPointer(1028,137));
+	setWidgetIsHidden(true, new WidgetPointer(1028,109));
+	script_383();
+	setScriptCallOnKeyPress(3944, -2147483640, false, 1, "iz1", new WidgetPointer(1028,185));
+	setScriptCallOnMousePressed(3217, -2147483647, new WidgetPointer(1028,189), new WidgetPointer(1028,190), new WidgetPointer(1028,191), 16, "iIIIi", new WidgetPointer(1028,190));
+	globalint_1099 = 0;
+	globalstring_330 = "";
+	globalint_1412 = 0;
+	script_3218(67371197, 67371198, 67371199, 16, (object)globalstring_330);
+	return;
+}

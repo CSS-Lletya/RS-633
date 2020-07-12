@@ -1,0 +1,11 @@
+void script_2321(int arg0) {
+	if (cs2method_10111(arg0) < subtract(cs2method_10956(20054017), 1)) {
+		if (cs2method_10111(arg0) == add(140, cs2method_10956(arg0))) {
+			cs2method_20219(2323, new WidgetPointer(306,9), "I", new WidgetPointer(306,22));
+		}
+		cs2method_10444(add(1, cs2method_10111(arg0)), cs2method_10826(arg0), 0, 0, arg0);
+	} else {
+		script_2322();
+	}
+	return;
+}

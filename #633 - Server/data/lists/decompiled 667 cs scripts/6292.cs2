@@ -1,0 +1,14 @@
+void script_6292(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	cs2method_10085(0, 0, 84934665);
+	ivar1 = multiply(arg0, 12);
+	setWidgetScrollMax(0, ivar1, 84934665);
+	if (ivar1 > cs2method_10090(84934665)) {
+		setWidgetIsHidden(false, new WidgetPointer(1296,10));
+		script_31(84934666, 84934665, 8383, 8380, 8381, 8382, 8375, 8374);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1296,10));
+	}
+	return;
+}

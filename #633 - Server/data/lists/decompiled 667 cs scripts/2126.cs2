@@ -1,0 +1,28 @@
+void script_2126(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7) {
+	globalint_681 = cs2method_10620(add(add(globalint_681, cs2method_10869(4)), 2), 2048);
+	globalint_684 = cs2method_10620(add(add(globalint_684, cs2method_10869(4)), 2), 2048);
+	globalint_687 = cs2method_10620(add(add(globalint_687, cs2method_10869(4)), 2), 2048);
+	globalint_690 = cs2method_10620(add(add(globalint_690, cs2method_10869(4)), 2), 2048);
+	if (globalint_680 < 20 && (globalint_680 < -20 || cs2method_10869(2) == 0)) {
+		globalint_680 = cs2method_10586(add(add(globalint_680, cs2method_10869(3)), 1), 25);
+	} else {
+		globalint_680 = cs2method_10004(subtract(globalint_680, add(cs2method_10869(3), 1)), -25);
+	}
+	if (globalint_683 < 20 && (globalint_683 < -20 || cs2method_10869(2) == 0)) {
+		globalint_683 = cs2method_10586(add(add(globalint_683, cs2method_10869(3)), 1), 25);
+	} else {
+		globalint_683 = cs2method_10004(subtract(globalint_683, add(cs2method_10869(3), 1)), -25);
+	}
+	if (globalint_686 < 20 && (globalint_686 < -20 || cs2method_10869(2) == 0)) {
+		globalint_686 = cs2method_10586(add(add(globalint_686, cs2method_10869(3)), 1), 25);
+	} else {
+		globalint_686 = cs2method_10004(subtract(globalint_686, add(cs2method_10869(3), 1)), -25);
+	}
+	if (globalint_689 < 20 && (globalint_689 < -20 || cs2method_10869(2) == 0)) {
+		globalint_689 = cs2method_10586(add(add(globalint_689, cs2method_10869(3)), 1), 25);
+	} else {
+		globalint_689 = cs2method_10004(subtract(globalint_689, add(cs2method_10869(3), 1)), -25);
+	}
+	script_2127(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+	return;
+}

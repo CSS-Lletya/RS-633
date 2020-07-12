@@ -1,0 +1,29 @@
+void script_537(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = add(arg1, 25);
+	ivar4 = subtract(cs2method_10878(), arg0);
+	if (cs2method_10878() >= arg1) {
+		if (cs2method_10878() < ivar3) {
+			ivar2 = divide(255, subtract(ivar3, arg1));
+			ivar2 = subtract(255, multiply(ivar2, subtract(cs2method_10878(), arg1)));
+			cs2method_10149(ivar2, 48824321);
+			return;
+		}
+		cs2method_20219(-1, "", new WidgetPointer(745,1));
+		cs2method_10149(0, 48824321);
+		return;
+	}
+	if (ivar4 <= 5) {
+		cs2method_10149(0, 48824321);
+	} else if (ivar4 <= 10) {
+		cs2method_10149(85, 48824321);
+	} else if (ivar4 <= 15) {
+		cs2method_10149(200, 48824321);
+	} else {
+		cs2method_10149(85, 48824321);
+	}
+	return;
+}

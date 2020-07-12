@@ -1,0 +1,48 @@
+void script_3279(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	if (arg0 == -1 || arg1 == -1) {
+		return;
+	}
+	ivar4 = 0;
+	ivar5 = 0;
+	switch (arg3) {
+		case 1:
+			ivar4 = divide(cs2method_10956(61734915), 4);
+			ivar5 = divide(cs2method_10090(61734915), 4);
+			break;
+		case 2:
+			ivar4 = divide(cs2method_10956(61734915), 4);
+			break;
+	}
+	createChildWidget(61734917, 5, globalint_1152);
+	globalint_1152 = add(globalint_1152, 1);
+	switch (arg2) {
+		case 1:
+			cs2method_10469(2825);
+			setWidgetPosition(add(add(multiply(arg0, 32), 6), ivar4), add(add(multiply(arg1, 32), 20), ivar5), 0, 2);
+			break;
+		case 2:
+			cs2method_10469(2826);
+			setWidgetPosition(add(add(multiply(arg0, 32), 20), ivar4), add(add(multiply(arg1, 32), 20), ivar5), 0, 2);
+			break;
+		case 3:
+			cs2method_10469(2827);
+			setWidgetPosition(add(add(multiply(arg0, 32), 13), ivar4), add(add(multiply(arg1, 32), 13), ivar5), 0, 2);
+			break;
+		case 4:
+			cs2method_10469(2828);
+			setWidgetPosition(add(add(multiply(arg0, 32), 6), ivar4), add(add(multiply(arg1, 32), 6), ivar5), 0, 2);
+			break;
+		case 5:
+			cs2method_10469(2829);
+			setWidgetPosition(add(add(multiply(arg0, 32), 20), ivar4), add(add(multiply(arg1, 32), 6), ivar5), 0, 2);
+			break;
+	}
+	setWidgetSize(11, 11, 0, 0);
+	cs2method_20930(3282, new WidgetPointer(-32768,3), -2147483643, new WidgetPointer(942,7), (string)arg4, "IiIs");
+	cs2method_20139(40, new WidgetPointer(942,7), "I");
+	setWidgetFilled(1);
+	cs2method_10692(0);
+	return;
+}

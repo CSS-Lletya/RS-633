@@ -1,0 +1,10 @@
+void script_2178(int arg0,object arg1) {
+	if (cs2method_10551(12451855, arg0) == 1) {
+		if (cs2method_10620(cs2method_10878(), 20) > 9) {
+			setWidgetText((object)"");
+		} else {
+			setWidgetText(arg1);
+		}
+	}
+	return;
+}

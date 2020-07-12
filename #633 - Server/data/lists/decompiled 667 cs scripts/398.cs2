@@ -1,0 +1,44 @@
+void script_398() {
+	cs2method_10831(20054045);
+	globalint_767 = 0;
+	globalint_761 = -1;
+	globalint_762 = -1;
+	globalint_763 = -1;
+	globalint_764 = -1;
+	globalint_765 = 0;
+	globalint_766 = 0;
+	cs2method_20219(-1, "", new WidgetPointer(306,19));
+	cs2method_20219(-1, "", new WidgetPointer(306,20));
+	cs2method_20219(-1, "", new WidgetPointer(306,21));
+	cs2method_20219(-1, "", new WidgetPointer(306,22));
+	cs2method_20219(-1, "", new WidgetPointer(306,10));
+	cs2method_20219(-1, "", new WidgetPointer(306,25));
+	setWidgetText(new WidgetPointer(306,3), (object)("Correct: " + toString(globalint_767) + "/" + toString(10)));
+	globalint_761 = getDataByKey('i', 'm', 208, 1);
+	if (globalint_761 != -1) {
+		cs2method_10461(globalint_761, 20054022);
+		cs2method_10158(0, 0, 512, 0, 0, 800, 20054022);
+	}
+	globalint_762 = getDataByKey('i', 'm', 208, 2);
+	if (globalint_762 != -1) {
+		cs2method_10461(globalint_762, 20054023);
+		cs2method_10158(0, 0, 512, 0, 0, 800, 20054023);
+	}
+	globalint_763 = getDataByKey('i', 'm', 208, 3);
+	if (globalint_763 != -1) {
+		cs2method_10461(globalint_763, 20054024);
+		cs2method_10158(0, 0, 512, 0, 0, 800, 20054024);
+	}
+	globalint_764 = getDataByKey('i', 'm', 208, 4);
+	if (globalint_764 != -1) {
+		cs2method_10461(globalint_764, 20054025);
+		cs2method_10158(0, 0, 512, 0, 0, 800, 20054025);
+	}
+	cs2method_10444(subtract(0, cs2method_10956(20054022)), cs2method_10826(20054022), 0, 0, 20054022);
+	cs2method_10444(subtract(0, cs2method_10956(20054023)), cs2method_10826(20054023), 0, 0, 20054023);
+	cs2method_10444(subtract(0, cs2method_10956(20054024)), cs2method_10826(20054024), 0, 0, 20054024);
+	cs2method_10444(subtract(0, cs2method_10956(20054025)), cs2method_10826(20054025), 0, 0, 20054025);
+	cs2method_10444(cs2method_10111(20054021), 200, 0, 0, 20054026);
+	cs2method_20219(399, new WidgetPointer(306,6), "I", new WidgetPointer(306,19));
+	return;
+}

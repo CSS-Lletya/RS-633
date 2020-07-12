@@ -1,0 +1,25 @@
+void script_811(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (arg0 > 1) {
+		return;
+	}
+	if (cs2method_10842() >= 2) {
+		ivar1 = cs2method_10416(48890056);
+	} else {
+		ivar1 = cs2method_10416(35913780);
+	}
+	if (ivar1 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(746,200));
+		setWidgetIsHidden(false, new WidgetPointer(548,52));
+		cs2method_10444(8, 80, 2, 0, 24969216);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(746,201));
+		setWidgetIsHidden(true, new WidgetPointer(548,53));
+		setWidgetIsHidden(true, new WidgetPointer(746,200));
+		setWidgetIsHidden(true, new WidgetPointer(548,52));
+		cs2method_10444(8, 7, 2, 0, 24969216);
+	}
+	script_776();
+	return;
+}

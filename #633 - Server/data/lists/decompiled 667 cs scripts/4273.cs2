@@ -1,0 +1,56 @@
+void script_4273() {
+	setWidgetIsHidden(true, new WidgetPointer(1083,161));
+	setWidgetIsHidden(true, new WidgetPointer(1083,160));
+	setWidgetIsHidden(true, new WidgetPointer(1083,162));
+	setWidgetIsHidden(false, new WidgetPointer(1083,164));
+	setWidgetIsHidden(true, new WidgetPointer(1083,157));
+	setWidgetIsHidden(true, new WidgetPointer(1083,158));
+	setWidgetIsHidden(false, new WidgetPointer(1083,159));
+	setWidgetIsHidden(true, new WidgetPointer(1083,243));
+	setWidgetIsHidden(true, new WidgetPointer(1083,253));
+	setWidgetIsHidden(false, new WidgetPointer(1083,394));
+	setWidgetIsHidden(true, new WidgetPointer(1083,165));
+	setWidgetText(new WidgetPointer(1083,415), (object)toString(multiply(2, 10)));
+	if (cs2method_10453(6) < 83) {
+		setWidgetText(new WidgetPointer(1083,416), (object)(toString(multiply(divide(2, 2), 10)) + " (halved)"));
+	} else {
+		setWidgetText(new WidgetPointer(1083,416), (object)toString(multiply(2, 10)));
+	}
+	if (cs2method_10453(6) < 80) {
+		setWidgetText(new WidgetPointer(1083,417), (object)(toString(multiply(divide(12, 2), 10)) + " (halved)"));
+	} else {
+		setWidgetText(new WidgetPointer(1083,417), (object)toString(multiply(12, 10)));
+	}
+	if (cs2method_10453(6) < 86) {
+		setWidgetText(new WidgetPointer(1083,418), (object)(toString(multiply(divide(2, 2), 10)) + " (halved)"));
+	} else {
+		setWidgetText(new WidgetPointer(1083,418), (object)toString(multiply(2, 10)));
+	}
+	if (cs2method_10453(6) < 91) {
+		setWidgetText(new WidgetPointer(1083,419), (object)(toString(multiply(divide(10, 2), 10)) + " (halved)"));
+	} else {
+		setWidgetText(new WidgetPointer(1083,419), (object)toString(multiply(10, 10)));
+	}
+	setWidgetText(new WidgetPointer(1083,420), (object)"Magic and Farming");
+	if (cs2method_10453(6) < 83) {
+		setWidgetText(new WidgetPointer(1083,421), (object)"Farming (no Magic)");
+	} else {
+		setWidgetText(new WidgetPointer(1083,421), (object)"Magic and Farming");
+	}
+	if (cs2method_10453(6) < 80) {
+		setWidgetText(new WidgetPointer(1083,422), (object)"Crafting (no Magic)");
+	} else {
+		setWidgetText(new WidgetPointer(1083,422), (object)"Magic and Crafting");
+	}
+	if (cs2method_10453(6) < 86) {
+		setWidgetText(new WidgetPointer(1083,423), (object)"Construction (no Magic)");
+	} else {
+		setWidgetText(new WidgetPointer(1083,423), (object)"Magic and Construction");
+	}
+	if (cs2method_10453(6) < 91) {
+		setWidgetText(new WidgetPointer(1083,424), (object)"Agility (no Magic)");
+	} else {
+		setWidgetText(new WidgetPointer(1083,424), (object)"Magic and Agility");
+	}
+	return;
+}

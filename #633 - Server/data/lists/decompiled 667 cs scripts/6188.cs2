@@ -1,0 +1,3 @@
+cs2func_script_6188_struct(2,0,0) script_6188(int arg0) {
+	return newstruct cs2func_script_6188_struct(getItemIdInContainerSlot(665, arg0), cs2method_10136(665, arg0));
+}

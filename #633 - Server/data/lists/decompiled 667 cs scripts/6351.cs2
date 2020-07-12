@@ -1,0 +1,72 @@
+void script_6351(int arg0,int arg1) {
+	flow_0:
+		if (arg1 != 10) {
+			return;
+		}
+		SWITCH (arg0) {
+			case 85196842:
+				 GOTO flow_3
+			case 85196871:
+				 GOTO flow_4
+			case 85196875:
+				 GOTO flow_5
+			case 85196879:
+				 GOTO flow_6
+			case 85196883:
+				 GOTO flow_7
+			case 85196887:
+				 GOTO flow_8
+			case 85196891:
+				 GOTO flow_9
+			case 85196895:
+				 GOTO flow_10
+			case 85196899:
+				 GOTO flow_11
+			case 85196903:
+				 GOTO flow_12
+			case 85196907:
+				 GOTO flow_13
+			case 85196911:
+				 GOTO flow_14
+		}
+		return;
+	flow_3:
+		globalint_1954 = 1;
+		GOTO	flow_15
+	flow_4:
+		globalint_1954 = 2;
+		GOTO	flow_15
+	flow_5:
+		globalint_1954 = 3;
+		GOTO	flow_15
+	flow_6:
+		globalint_1954 = 4;
+		GOTO	flow_15
+	flow_7:
+		globalint_1954 = 5;
+		GOTO	flow_15
+	flow_8:
+		globalint_1954 = 6;
+		GOTO	flow_15
+	flow_9:
+		globalint_1954 = 7;
+		GOTO	flow_15
+	flow_10:
+		globalint_1954 = 8;
+		GOTO	flow_15
+	flow_11:
+		globalint_1954 = 9;
+		GOTO	flow_15
+	flow_12:
+		globalint_1954 = 10;
+		GOTO	flow_15
+	flow_13:
+		globalint_1954 = 11;
+		GOTO	flow_15
+	flow_14:
+		globalint_1954 = 12;
+	flow_15:
+		cs2method_10998((object)"Please press the key you wish to bind to this slot...");
+		script_6328(0);
+		return;
+}

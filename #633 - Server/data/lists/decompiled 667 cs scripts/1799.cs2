@@ -1,0 +1,52 @@
+void script_1799(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = -1;
+	while (ivar2 <= 4) {
+		ivar4 = getDataByKey('i', 'J', 1604, ivar2);
+		createChildWidget(arg0, 5, multiply(ivar2, 4));
+		setWidgetPosition(4, ivar3, 0, 0);
+		setWidgetSize(17, 17, 0, 0);
+		if (isMember() == 0 && getGeneralRequirementAttribute(ivar4, 557) == 1) {
+			cs2method_10469(698);
+		} else if (ivar2 == 0) {
+			cs2method_10469(699);
+		} else {
+			cs2method_10469(697);
+		}
+		createChildWidget(arg0, 4, add(multiply(ivar2, 4), 1));
+		setWidgetPosition(25, ivar3, 0, 0);
+		setWidgetSize(25, 17, 1, 0);
+		setWidgetText((object)getGeneralRequirementAttribute(ivar4, 555));
+		setWidgetFont(495);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetRGB(new Color(200, 170, 100));
+		cs2method_10320(1);
+		createChildWidget(arg0, 4, add(multiply(ivar2, 4), 2));
+		setWidgetPosition(4, add(ivar3, 17), 0, 0);
+		setWidgetSize(8, add(multiply(getLineCount(subtract(cs2method_10956(arg0), 8), 494, (object)getGeneralRequirementAttribute(ivar4, 556)), 10), 3), 1, 0);
+		setWidgetText((object)getGeneralRequirementAttribute(ivar4, 556));
+		setWidgetFont(494);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetRGB(new Color(200, 170, 100));
+		cs2method_10320(1);
+		createChildWidget(arg0, 3, add(multiply(ivar2, 4), 3));
+		setWidgetPosition(4, ivar3, 0, 0);
+		setWidgetSize(8, add(17, cs2method_10630()), 1, 0);
+		cs2method_10305(255);
+		setWidgetContextMenuOption(1, (object)getGeneralRequirementAttribute(ivar4, 555));
+		cs2method_20115(1833, -2147483644, ivar2, "ii");
+		ivar3 = add(ivar3, cs2method_10630());
+		if (ivar2 < 4) {
+			ivar3 = add(ivar3, 3);
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	setWidgetScrollMax(0, ivar3, arg0);
+	cs2method_10085(0, 0, arg0);
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+	return;
+}

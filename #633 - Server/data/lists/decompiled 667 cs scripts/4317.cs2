@@ -1,0 +1,28 @@
+void script_4317(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 0;
+	if (cs2method_10309() == 1) {
+		if (arg1 < 0 || arg1 >= cs2method_10794()) {
+			globalint_1518 = -1;
+			globalstring_126 = "";
+			cs2method_10998((object)"That person isn't in your clan channel.");
+			return;
+		}
+		if (cs2method_10551(arg0, arg1) == 1) {
+			ivar2 = cs2method_10207();
+		}
+		globalint_1518 = arg1;
+		globalstring_126 = (string)cs2method_10319(arg1);
+		if (cs2method_10403(72744980) == 1) {
+			setWidgetSize(1, 19, 0, 0);
+			setWidgetPosition(0, ivar2, 2, 0);
+			cs2method_20745(4629, 1, "i");
+			setWidgetIsHidden(false, new WidgetPointer(1110,13));
+			cs2method_10444(0, ivar2, 2, 0, 72744973);
+		}
+		script_5395();
+	} else {
+		cs2method_10998((object)"You must be in your clan channel to do that.");
+	}
+	return;
+}

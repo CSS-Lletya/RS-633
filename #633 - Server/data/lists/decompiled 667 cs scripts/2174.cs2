@@ -1,0 +1,18 @@
+void script_2174() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = cs2method_10624(964);
+	ivar2 = 1;
+	while (ivar0 < ivar1) {
+		if (script_2189(bitconfig_7306, ivar0) == 1) {
+			ivar2 = 1;
+		} else {
+			ivar2 = 0;
+		}
+		setWidgetIsHidden((boolean)ivar2, getDataByKey('i', 'I', 964, ivar0));
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

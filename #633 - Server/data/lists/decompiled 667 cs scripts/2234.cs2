@@ -1,0 +1,11 @@
+void script_2234() {
+	if (globalint_1127 < 15 && script_2240() < globalint_1135) {
+		cs2method_10508(8729, 1, 0);
+		globalint_1130 = add(globalint_1130, 1);
+	} else {
+		standart_config_1685 = 1;
+		cs2method_10677(10046, 1, 0, 255);
+	}
+	script_2220();
+	return;
+}

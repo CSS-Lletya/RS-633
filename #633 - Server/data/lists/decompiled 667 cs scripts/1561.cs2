@@ -1,0 +1,25 @@
+void script_1561() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	ovar0 = cs2method_10367(0);
+	ivar0 = 1;
+	ivar1 = 0;
+	ovar1 = (object)"";
+	while (ivar1 == 0 && ivar0 < cs2method_10153()) {
+		ovar1 = cs2method_10367(ivar0);
+		if (getDataByKey('i', '1', 370, cs2method_10125(ivar0)) == 0) {
+			ivar1 = 1;
+		} else if (cs2method_10571(ivar0) <= globalint_1269) {
+			ivar1 = 1;
+		} else if (cs2method_10366(cs2method_10222(ovar1)) > 0) {
+			ovar0 = cs2method_10445(cs2method_10445(ovar1, (object)"<br>"), ovar0);
+		} else {
+			ovar0 = cs2method_10445((object)"<br>", ovar0);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	script_102(ovar0);
+	return;
+}

@@ -1,0 +1,35 @@
+void script_1509() {
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(729,1));
+	script_1088(47775745, 22);
+	clearExtraChildren(new WidgetPointer(729,11));
+	script_333(47775755, 4734771, 3156258, 0, 0);
+	script_2647(47775755);
+	clearExtraChildren(new WidgetPointer(729,14));
+	script_333(47775758, 4734771, 3156258, 0, 0);
+	script_1516(47775758, 380, 100);
+	script_2647(47775758);
+	clearExtraChildren(new WidgetPointer(729,16));
+	script_2647(47775760);
+	globalint_778 = bitconfig_6091;
+	script_1513();
+	cs2method_20889(1510, 1057, 1, "Y", new WidgetPointer(729,1));
+	cs2method_20914(1511, 1010, 1011, 1012, 1013, 1016, 1017, 6, "Y", new WidgetPointer(729,1));
+	cs2method_20000(1512, -2147483644, 0, "ii", new WidgetPointer(729,6));
+	cs2method_20000(1512, -2147483644, 1, "ii", new WidgetPointer(729,7));
+	cs2method_20000(1512, -2147483644, 2, "ii", new WidgetPointer(729,8));
+	cs2method_20000(1512, -2147483644, 3, "ii", new WidgetPointer(729,9));
+	ovar0 = (object)"Choose a top";
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(729,23), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(729,6));
+	cs2method_20295(40, new WidgetPointer(729,23), "I", new WidgetPointer(729,6));
+	ovar0 = (object)"Choose some sleeves";
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(729,23), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(729,7));
+	cs2method_20295(40, new WidgetPointer(729,23), "I", new WidgetPointer(729,7));
+	ovar0 = (object)"Decorate your wrists";
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(729,23), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(729,8));
+	cs2method_20295(40, new WidgetPointer(729,23), "I", new WidgetPointer(729,8));
+	ovar0 = (object)"Choose some leggings";
+	cs2method_20835(1160, new WidgetPointer(-32768,3), -1, new WidgetPointer(729,23), (string)ovar0, 25, 512, "IiIsii", new WidgetPointer(729,9));
+	cs2method_20295(40, new WidgetPointer(729,23), "I", new WidgetPointer(729,9));
+	return;
+}

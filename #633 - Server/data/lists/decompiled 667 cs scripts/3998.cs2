@@ -1,0 +1,11 @@
+void script_3998(int arg0,int arg1,int arg2,int arg3,int arg4,object arg5) {
+	int ivar5;
+	int ivar6;
+	ivar5 = 0;
+	ivar6 = cs2method_10424(arg3);
+	if (subtract(arg0, ivar6) < 60) {
+		ivar5 = 2;
+	}
+	script_4539(60096623, arg3, arg4, 180, 3793, 3793, 16777215, 13, 4, ivar5, arg1, arg2, arg5);
+	return;
+}

@@ -1,0 +1,24 @@
+void script_1301(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 0;
+	if (cs2method_10842() >= 2) {
+		if (cs2method_10860(arg0) == 8) {
+			return;
+		}
+		clearExtraChildren(new WidgetPointer(arg0));
+		script_186(arg0, arg1, 8605, 8606, 8607, 8602, 8603, 8604, 8597, 8596, 8599, 8598, 8601, 8600);
+	} else {
+		if (cs2method_10860(arg0) == 6) {
+			return;
+		}
+		clearExtraChildren(new WidgetPointer(arg0));
+		script_31(arg0, arg1, 792, 789, 790, 791, 773, 788);
+		while (ivar2 < cs2method_10860(arg0)) {
+			if (cs2method_10551(arg0, ivar2) == 1) {
+				cs2method_10361(0);
+			}
+			ivar2 = add(ivar2, 1);
+		}
+	}
+	return;
+}

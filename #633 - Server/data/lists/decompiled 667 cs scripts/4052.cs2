@@ -1,0 +1,22 @@
+void script_4052(int arg0,int arg1) {
+	if (arg1 == 1) {
+		if (cs2method_10826(arg0) < subtract(1, cs2method_10090(arg0))) {
+			cs2method_20219(-1, "", new WidgetPointer(arg0));
+			setWidgetIsHidden(true, new WidgetPointer(arg0));
+		} else {
+			cs2method_10444(0, subtract(cs2method_10826(arg0), 1), 2, 0, arg0);
+			if (cs2method_10964(arg0) < 245) {
+				cs2method_10149(add(cs2method_10964(arg0), 10), arg0);
+			}
+		}
+	} else if (cs2method_10826(arg0) > 30) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	} else {
+		cs2method_10444(0, add(cs2method_10826(arg0), 1), 2, 0, arg0);
+		if (cs2method_10964(arg0) < 245) {
+			cs2method_10149(add(cs2method_10964(arg0), 10), arg0);
+		}
+	}
+	return;
+}

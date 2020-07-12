@@ -1,0 +1,14 @@
+void script_3463(int arg0,int arg1) {
+	if (globalint_1007 != 22) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	if (cs2method_10687() == arg1) {
+		return;
+	}
+	cs2method_10508(4874, 1, 0);
+	cs2method_10583(cs2method_10273(cs2method_10687(), 0, 0, -3), 1500, 1, 75);
+	cs2method_10258(cs2method_10687(), 0, 1, 15);
+	cs2method_20219(3463, new WidgetPointer(-32768,3), cs2method_10687(), "Ic", new WidgetPointer(arg0));
+	return;
+}

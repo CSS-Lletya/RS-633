@@ -1,0 +1,10 @@
+void script_5018(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (arg4 >= 5) {
+		setWidgetRGB(cs2method_10489(arg2), arg0);
+		setWidgetRGB(cs2method_10489(arg3), arg1);
+	} else {
+		setWidgetRGB(cs2method_10489(42550), arg0);
+		setWidgetRGB(cs2method_10489(39382), arg1);
+	}
+	return;
+}

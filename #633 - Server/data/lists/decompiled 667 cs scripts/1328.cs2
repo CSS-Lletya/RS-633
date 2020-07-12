@@ -1,0 +1,107 @@
+void script_1328(int arg0) {
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	opc_struct10644(0,2,0) structdump_1;
+	if (cs2method_10416(59375672) == 0 || cs2method_10416(59375673) == 0 || cs2method_10416(59375674) == 0 || cs2method_10416(59375659) == 0 || cs2method_10416(59375676) == 0 || cs2method_10416(59375686) == 0 || cs2method_10416(59375687) == 0) {
+		return;
+	}
+	ivar1 = -1;
+	if (arg0 == 80) {
+		if (cs2method_10416(59375824) == 0) {
+			ivar1 = 0;
+		}
+		if (cs2method_10416(59375825) == 0) {
+			ivar1 = 1;
+		}
+		if (cs2method_10416(59375826) == 0) {
+			ivar1 = 2;
+		}
+		if (cs2method_10416(59375827) == 0) {
+			ivar1 = 3;
+		}
+		if (cs2method_10416(59375828) == 0) {
+			ivar1 = 5;
+		}
+		if (cs2method_10416(59375829) == 0) {
+			ivar1 = 4;
+		}
+		if (cs2method_10043() == 0) {
+			switch (ivar1) {
+				case 0:
+					script_3060(1);
+					return;
+				case 1:
+					script_3060(2);
+					return;
+				case 2:
+					script_3060(3);
+					return;
+				case 3:
+					script_3060(5);
+					return;
+				case 5:
+					script_3060(4);
+					return;
+				case 4:
+					script_3060(0);
+					return;
+			}
+			script_3060(0);
+			return;
+		}
+		switch (ivar1) {
+			case 0:
+				script_3060(4);
+				return;
+			case 1:
+				script_3060(0);
+				return;
+			case 2:
+				script_3060(1);
+				return;
+			case 3:
+				script_3060(2);
+				return;
+			case 5:
+				script_3060(3);
+				return;
+			case 4:
+				script_3060(5);
+				return;
+		}
+		script_3060(0);
+		return;
+	}
+	ivar2 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	if (arg0 == 84 && cs2method_10416(59375826) == 0) {
+		if (cs2method_10366((object)globalstring_276) > 0) {
+			ivar2 = cs2method_10196((object)globalstring_276);
+			if (ivar2 != -1 && cs2method_10062() == 0) {
+				stack_dump0 = ivar2;
+				structdump_1 = cs2method_10644(stack_dump0);
+				ovar1 = structdump_1.objectpart_1;
+				ovar0 = structdump_1.objectpart_0;
+				script_3015(0, (object)("Send message to " + (string)ovar0), (object)"", (object)globalstring_276, (object)"");
+				return;
+			}
+			if (globalint_1271 > subtract(cs2method_10878(), 100)) {
+				return;
+			}
+			cs2method_10998((object)"That player is not on your Friends list.");
+			globalint_1271 = cs2method_10878();
+			return;
+		}
+		if (globalint_1271 > subtract(cs2method_10878(), 100)) {
+			return;
+		}
+		cs2method_10998((object)"You haven't received any messages to which you can reply.");
+		globalint_1271 = cs2method_10878();
+		return;
+	}
+	return;
+}

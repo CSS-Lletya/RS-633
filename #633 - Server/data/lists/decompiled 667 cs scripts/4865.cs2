@@ -1,0 +1,7 @@
+void script_4865(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1 || arg1 == -1 && cs2method_10403(arg0) == 1) {
+		setWidgetSize(0, cs2method_10542(9, 10, 16384), 4, 2);
+		cs2method_10592(214, 336);
+	}
+	return;
+}

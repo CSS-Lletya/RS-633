@@ -1,0 +1,23 @@
+void script_6201(int arg0,int arg1) {
+	if (cs2method_10620(subtract(cs2method_10878(), arg0), 40) < 20 && cs2method_10386() == 1) {
+		flow_2:
+			IF (globalint_1920 == 1) 
+				GOTO	flow_3
+			GOTO	flow_4
+		flow_3:
+			IF (arg1 != 59375978) 
+				GOTO	flow_6
+		flow_4:
+			IF (globalint_1920 == 2 && arg1 != 59375985) 
+				GOTO	flow_6
+			GOTO	flow_7
+		flow_6:
+			setWidgetIsHidden(true, new WidgetPointer(arg1));
+			return;
+		flow_7:
+			setWidgetIsHidden(false, new WidgetPointer(arg1));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	}
+	return;
+}

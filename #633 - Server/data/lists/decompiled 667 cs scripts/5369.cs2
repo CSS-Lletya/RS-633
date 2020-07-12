@@ -1,0 +1,4 @@
+void script_5369(int arg0) {
+	setWidgetText(new WidgetPointer(arg0), (object)toString(add(cs2method_10869(9), 1)));
+	return;
+}

@@ -1,0 +1,139 @@
+void script_662(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	object ovar0;
+	flow_0:
+		ivar1 = (int)getDataByKey('i', 'I', 1080, arg0);
+		ivar2 = (int)getDataByKey('i', 'I', 1081, arg0);
+		ivar3 = getDataByKey('i', 'v', 1079, arg0);
+		clearExtraChildren(new WidgetPointer(ivar1));
+		ivar4 = cs2method_10956(ivar1);
+		ivar5 = cs2method_10090(ivar1);
+		ivar6 = subtract(divide(ivar4, 2), 40);
+		ivar7 = subtract(ivar5, 47);
+		ivar8 = getItemIdInContainerSlot(ivar3, 0);
+		ivar9 = getItemIdInContainerSlot(ivar3, 1);
+		ivar10 = (int)getDataByKey('i', 'I', 1082, arg0);
+		if (ivar10 != -1) {
+			if (cs2method_10669() == 1 || cs2method_10350(arg0) == 0) {
+				setWidgetIsHidden(true, new WidgetPointer(ivar10));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(ivar10));
+			}
+		}
+		script_98(ivar1, 0, 1138, subtract(ivar6, 2), subtract(ivar7, 2), 40, 36);
+		ivar11 = 1140;
+		IF (ivar10 == -1) 
+			GOTO	flow_5
+		IF (cs2method_10416(ivar10) == 1 && cs2method_10551(ivar1, 0) == 1) 
+			GOTO	flow_6
+		GOTO	flow_14
+	flow_5:
+	flow_6:
+		cs2method_20211(688, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		ivar11 = 1138;
+		cs2method_20139(688, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		if (ivar8 != -1) {
+			if (cs2method_10493(ivar8) != ivar8) {
+				if (cs2method_10136(ivar3, 0) > 1) {
+					setWidgetContextMenuOption(1, (object)"Collect-notes");
+					setWidgetContextMenuOption(2, (object)"Collect-items");
+				} else {
+					setWidgetContextMenuOption(1, (object)"Collect-items");
+					setWidgetContextMenuOption(2, (object)"Collect-notes");
+				}
+			} else {
+				setWidgetContextMenuOption(1, (object)"Collect");
+			}
+			cs2method_11002(getItemName(ivar8));
+		}
+	flow_14:
+		createChildWidget(ivar1, 5, 1);
+		setWidgetPosition(ivar6, ivar7, 0, 0);
+		setWidgetSize(36, 32, 0, 0);
+		cs2method_10167(3355443);
+		setItemOnWidget_10672(ivar8, cs2method_10136(ivar3, 0));
+		ivar6 = add(divide(ivar4, 2), 4);
+		script_98(ivar1, 2, 1138, subtract(ivar6, 2), subtract(ivar7, 2), 40, 36);
+		IF (ivar10 == -1) 
+			GOTO	flow_15
+		IF (cs2method_10416(ivar10) == 1 && cs2method_10551(ivar1, 2) == 1) 
+			GOTO	flow_16
+		GOTO	flow_24
+	flow_15:
+	flow_16:
+		ivar11 = 1140;
+		cs2method_20211(688, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		ivar11 = 1138;
+		cs2method_20139(688, new WidgetPointer(-32768,3), -2147483643, ivar11, "Iid");
+		if (ivar9 != -1) {
+			if (cs2method_10493(ivar9) != ivar9) {
+				if (cs2method_10136(ivar3, 1) > 1) {
+					setWidgetContextMenuOption(1, (object)"Collect-notes");
+					setWidgetContextMenuOption(2, (object)"Collect-items");
+				} else {
+					setWidgetContextMenuOption(1, (object)"Collect-items");
+					setWidgetContextMenuOption(2, (object)"Collect-notes");
+				}
+			} else {
+				setWidgetContextMenuOption(1, (object)"Collect");
+			}
+			cs2method_11002(getItemName(ivar9));
+		}
+	flow_24:
+		createChildWidget(ivar1, 5, 3);
+		setWidgetPosition(ivar6, ivar7, 0, 0);
+		setWidgetSize(36, 32, 0, 0);
+		cs2method_10167(3355443);
+		setItemOnWidget_10672(ivar9, cs2method_10136(ivar3, 1));
+		script_652(11, 11, subtract(ivar4, 65), 16, arg0, ivar1, 4, ivar2, 0);
+		createChildWidget(ivar1, 3, 9);
+		ivar6 = subtract(ivar4, 30);
+		setWidgetPosition(ivar6, 11, 0, 0);
+		setWidgetSize(18, 16, 0, 0);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10305(160);
+		setWidgetFilled(1);
+		createChildWidget(ivar1, 6, 10);
+		ivar12 = cs2method_10128(arg0);
+		if (cs2method_10350(arg0) == 0) {
+			setWidgetPosition(ivar6, 11, 0, 0);
+			setWidgetSize(18, 16, 0, 0);
+			setItemOnWidget_10672(ivar12, 0);
+			cs2method_20930(568, new WidgetPointer(ivar1), 10, new WidgetPointer(ivar2), (string)getItemName(ivar12), 25, 106, "IiIsii");
+			cs2method_20139(40, new WidgetPointer(ivar2), "I");
+		}
+		createChildWidget(ivar1, 3, 11);
+		ivar6 = subtract(ivar4, 50);
+		setWidgetPosition(ivar6, 11, 0, 0);
+		setWidgetSize(18, 16, 0, 0);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10305(160);
+		setWidgetFilled(1);
+		createChildWidget(ivar1, 5, 12);
+		ovar0 = (object)"null";
+		if (cs2method_10350(arg0) == 0) {
+			setWidgetPosition(ivar6, 12, 0, 0);
+			setWidgetSize(16, 14, 0, 0);
+			if (cs2method_10881(arg0) == 0) {
+				cs2method_10469(1157);
+				ovar0 = (object)"Buy";
+			} else {
+				cs2method_10469(1156);
+				ovar0 = (object)"Sell";
+			}
+			cs2method_20930(568, new WidgetPointer(ivar1), 12, new WidgetPointer(ivar2), (string)ovar0, 25, 106, "IiIsii");
+			cs2method_20139(40, new WidgetPointer(ivar2), "I");
+		}
+		return;
+}

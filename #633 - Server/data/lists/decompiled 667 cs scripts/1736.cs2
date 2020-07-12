@@ -1,0 +1,12 @@
+void script_1736(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (cs2method_10620(cs2method_10878(), 40) > 20) {
+			cs2method_10305(0);
+		} else {
+			cs2method_10305(255);
+		}
+	}
+	return;
+}

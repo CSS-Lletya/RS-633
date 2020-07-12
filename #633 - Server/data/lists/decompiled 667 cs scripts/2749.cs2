@@ -1,0 +1,9 @@
+void script_2749(int arg0) {
+	setWidgetText(new WidgetPointer(204,46), (object)getDataByKey('i', 's', 950, arg0));
+	cs2method_10533(0, 13369404);
+	setWidgetIsHidden(true, new WidgetPointer(204,98));
+	setWidgetIsHidden(true, new WidgetPointer(204,99));
+	setWidgetIsHidden(true, new WidgetPointer(204,89));
+	setWidgetIsHidden(true, new WidgetPointer(204,27));
+	return;
+}

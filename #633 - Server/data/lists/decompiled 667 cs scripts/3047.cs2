@@ -1,0 +1,10 @@
+void script_3047(int arg0) {
+	switch (arg0) {
+		case 0:
+		case 1:
+		case 2:
+			cs2method_10478(cs2method_10002(), arg0, cs2method_10488());
+	}
+	script_3045();
+	return;
+}

@@ -1,0 +1,29 @@
+void script_5042(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int stack_dump0;
+	ivar2 = subtract(cs2method_10987(), script_3365(72810508));
+	ivar3 = subtract(cs2method_10193(), script_3366(72810508));
+	ivar4 = cs2method_10956(72810508);
+	ivar5 = cs2method_10090(72810508);
+	if (ivar2 > ivar4 || ivar2 < 0 || ivar3 > ivar5 || ivar3 < 0) {
+		stack_dump0 = divide(ivar4, 2);
+		ivar3 = divide(ivar5, 2);
+		ivar2 = stack_dump0;
+	}
+	ivar2 = add(ivar2, cs2method_10774(72810508));
+	ivar3 = add(ivar3, cs2method_10424(72810508));
+	ivar6 = multiply(globalint_1396, add(add(112, 2), 2));
+	globalint_1396 = cs2method_10004(cs2method_10586(subtract(globalint_1396, arg1), 21), 3);
+	ivar7 = multiply(globalint_1396, add(add(112, 2), 2));
+	ivar8 = subtract(cs2method_10542(ivar7, ivar6, ivar2), ivar2);
+	ivar9 = subtract(cs2method_10542(ivar7, ivar6, ivar3), ivar3);
+	script_5044(arg0, ivar8, ivar9);
+	return;
+}

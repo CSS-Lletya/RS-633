@@ -1,0 +1,12 @@
+void script_4367() {
+	object ovar0;
+	ovar0 = cs2method_10991(cs2method_10654());
+	if (cs2method_10366(ovar0) <= 13) {
+		globalstring_346 = (string)ovar0;
+		globalint_1498 = cs2method_10366((object)globalstring_346);
+		globalint_1498 = script_1552(globalint_1498, 5631, 72089638, -1, (object)globalstring_346);
+		cs2method_10444(globalint_1498, cs2method_10826(72089639), 0, 0, 72089639);
+		setWidgetText(new WidgetPointer(1100,38), (object)globalstring_346);
+	}
+	return;
+}

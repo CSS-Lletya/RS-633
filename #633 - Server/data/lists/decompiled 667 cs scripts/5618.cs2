@@ -1,0 +1,4 @@
+void script_5618() {
+	cs2method_10893(globalint_1751, cs2method_10090(79233039), 0, 0, 79233039);
+	return;
+}

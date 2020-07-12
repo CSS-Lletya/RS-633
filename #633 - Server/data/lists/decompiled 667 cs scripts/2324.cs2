@@ -1,0 +1,11 @@
+void script_2324() {
+	int ivar0;
+	ivar0 = 20054025;
+	globalint_764 = getDataByKey('i', 'm', 208, cs2method_10869(cs2method_10624(208)));
+	if (globalint_764 != -1) {
+		cs2method_10461(globalint_764, ivar0);
+	}
+	cs2method_10444(subtract(0, cs2method_10956(ivar0)), 120, 0, 0, ivar0);
+	cs2method_20219(-1, "", new WidgetPointer(306,22));
+	return;
+}

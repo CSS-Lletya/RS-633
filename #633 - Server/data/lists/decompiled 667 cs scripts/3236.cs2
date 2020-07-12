@@ -1,0 +1,14 @@
+void script_3236(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg3) {
+		case 3:
+			ovar0 = (object)globalstring_32;
+			break;
+		case 4:
+			ovar0 = script_2949((object)globalstring_33);
+	}
+	globalint_1099 = script_1401(arg0, 3793, 0, ovar0);
+	script_3237(arg4, arg1, arg2, arg3, ovar0);
+	return;
+}

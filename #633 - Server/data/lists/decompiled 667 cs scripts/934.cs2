@@ -1,0 +1,28 @@
+string script_934(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = getItemAttribute(arg0, 742);
+	switch (getItemAttribute(arg0, 741)) {
+		case 1:
+			if (ivar1 == 1) {
+				ovar0 = (object)"Rescued 1 dignitary in Recipe for Disaster";
+			} else {
+				ovar0 = (object)("Rescued " + toString(ivar1) + " dignitaries in Recipe for Disaster");
+			}
+			return script_913(bitconfig_1852, getItemAttribute(arg0, 742), ovar0);
+		case 2:
+			return script_913(bitconfig_3763, 2, (object)"Barbarian spearmaking");
+		case 3:
+			return script_913(bitconfig_4310, 10, (object)"Complete: Chaos Tunnels");
+		case 4:
+			return script_913(bitconfig_1990, 280, (object)"Part of quest: In Aid of the Myreque");
+		case 5:
+			return script_913(bitconfig_1850, 4, (object)"Part of quest: Recipe for Disaster");
+		case 6:
+			return script_913(bitconfig_3550, 8, (object)"Part of quest: Another Slice of H.A.M.");
+		case 7:
+			return script_913(bitconfig_998, 7, (object)"You need to complete the first puzzle in the Elemental Workshop IV Quest.");
+	}
+	return "";
+}

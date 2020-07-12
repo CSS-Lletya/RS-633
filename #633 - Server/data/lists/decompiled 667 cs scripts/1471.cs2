@@ -1,0 +1,13 @@
+void script_1471() {
+	cs2method_10831(49938449);
+	cs2method_20000(-1, "", new WidgetPointer(762,17));
+	globalint_190 = 0;
+	if (globalint_188 == 0) {
+		bitconfig_4893 = 0;
+		script_1473();
+	} else {
+		bitconfig_4893 = 1;
+		script_1474();
+	}
+	return;
+}

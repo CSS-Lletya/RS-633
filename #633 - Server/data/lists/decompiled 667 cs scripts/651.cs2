@@ -1,0 +1,151 @@
+void script_651(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	ivar1 = (int)script_623(arg0);
+	clearExtraChildren(new WidgetPointer(ivar1));
+	ivar2 = cs2method_10956(ivar1);
+	ivar3 = cs2method_10090(ivar1);
+	ivar4 = cs2method_10881(arg0);
+	ivar5 = cs2method_10237(arg0);
+	ivar6 = cs2method_10247(arg0);
+	ivar7 = cs2method_10128(arg0);
+	ivar8 = cs2method_10289(arg0);
+	ovar0 = (object)"";
+	if (cs2method_10350(arg0) == 1) {
+		ovar0 = (object)"Empty";
+	} else if (cs2method_10881(arg0) == 0) {
+		ovar0 = (object)"Buy";
+	} else {
+		ovar0 = (object)"Sell";
+	}
+	createChildWidget(ivar1, 3, 0);
+	setWidgetSize(ivar2, ivar3, 0, 0);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetFilled(1);
+	setWidgetRGB(new Color(255, 255, 255));
+	cs2method_10305(255);
+	script_584(ivar1, ovar0);
+	ivar9 = cs2method_10860(ivar1);
+	cs2method_20333(629, arg0, "i", new WidgetPointer(ivar1));
+	cs2method_20295(631, arg0, "i", new WidgetPointer(ivar1));
+	if (cs2method_10350(arg0) == 1) {
+		cs2method_20000(-1, "", new WidgetPointer(ivar1));
+		cs2method_10375(1, ivar1, (object)"");
+		cs2method_10375(2, ivar1, (object)"");
+		if (arg0 >= 2) {
+			if (cs2method_10669() == 1) {
+				setWidgetIsHidden(true, script_624(arg0));
+			} else {
+				setWidgetIsHidden(false, script_624(arg0));
+			}
+		}
+	} else if (cs2method_10577(arg0) == 0) {
+		cs2method_10375(2, ivar1, (object)"Abort Offer");
+	} else {
+		cs2method_10375(2, ivar1, (object)"");
+	}
+	cs2method_10375(1, ivar1, (object)"View Offer");
+	ovar1 = cs2method_10595(ivar5, 1);
+	ovar2 = cs2method_10595(ivar8, 1);
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = (int)script_627(arg0);
+	setWidgetIsHidden(true, new WidgetPointer(ivar12));
+	ivar13 = (int)script_626(arg0);
+	ivar14 = (int)script_625(arg0);
+	ovar3 = (object)"";
+	ivar15 = 0;
+	ivar16 = 0;
+	if (cs2method_10350(arg0) == 1) {
+		if (arg0 < 2 || cs2method_10669() == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(ivar12));
+		}
+	} else {
+		ivar10 = 7;
+		ivar11 = subtract(ivar3, 30);
+		if (cs2method_10084(arg0) == 1) {
+			ivar9 = cs2method_10860(ivar1);
+			createChildWidget(ivar1, 4, ivar9);
+			setWidgetPosition(ivar10, ivar11, 0, 0);
+			setWidgetSize(subtract(ivar2, 14), 15, 0, 0);
+			setWidgetFont(494);
+			setWidgetRGB(new Color(219, 216, 132));
+			setWidgetText((object)"Submitting...");
+			setWidgetTextAlignment(1, 1, 0);
+		} else {
+			script_652(ivar10, ivar11, subtract(ivar2, 14), 15, arg0, ivar1, ivar9, ivar13, 1);
+		}
+		ivar9 = cs2method_10860(ivar1);
+		createChildWidget(ivar1, 5, ivar9);
+		ivar9 = add(ivar9, 1);
+		setWidgetPosition(6, 30, 0, 0);
+		setWidgetSize(40, 36, 0, 0);
+		cs2method_10469(1137);
+		createChildWidget(ivar1, 5, ivar9);
+		setWidgetPosition(8, 32, 0, 0);
+		setWidgetSize(36, 32, 0, 0);
+		setItemOnWidget_10672(ivar7, ivar5);
+		cs2method_10167(0);
+		ovar0 = cs2method_10595(ivar5, 1);
+		cs2method_20930(648, new WidgetPointer(ivar1), ivar9, new WidgetPointer(ivar13), (string)ovar0, 25, 106, "IiIsii");
+		cs2method_20139(40, new WidgetPointer(ivar13), "I");
+		ivar9 = add(ivar9, 1);
+		createChildWidget(ivar1, 4, ivar9);
+		setWidgetPosition(48, 30, 0, 0);
+		ovar0 = getItemName(ivar7);
+		ivar16 = subtract(ivar2, 53);
+		ivar15 = cs2method_10242(ivar16, 494, ovar0);
+		if (ivar15 > ivar16) {
+			ivar10 = cs2method_10366(ovar0);
+			while (ivar15 > ivar16 && ivar10 > 0) {
+				ivar10 = subtract(ivar10, 1);
+				ovar0 = (object)((string)cs2method_10547(0, ivar10, ovar0) + "...");
+				ivar15 = cs2method_10242(ivar16, 494, ovar0);
+			}
+		}
+		ivar9 = add(ivar9, 1);
+		ivar3 = multiply(getLineCount(ivar16, 494, ovar0), 11);
+		if (ivar3 < 22) {
+			ivar3 = 22;
+		}
+		setWidgetSize(ivar16, ivar3, 0, 0);
+		setWidgetRGB(new Color(204, 153, 0));
+		setWidgetFont(494);
+		setWidgetTextAlignment(0, 0, 0);
+		cs2method_10320(1);
+		setWidgetText(ovar0);
+		createChildWidget(ivar1, 4, ivar9);
+		ivar9 = add(ivar9, 1);
+		setWidgetPosition(48, add(32, ivar3), 0, 0);
+		setWidgetSize(subtract(ivar2, 53), 15, 0, 0);
+		setWidgetRGB(new Color(189, 187, 91));
+		setWidgetFont(494);
+		setWidgetTextAlignment(0, 0, 15);
+		cs2method_10320(1);
+		setWidgetText((object)((string)ovar2 + " gp"));
+		createChildWidget(ivar1, 5, ivar9);
+		setWidgetPosition(4, 2, 2, 0);
+		setWidgetSize(20, 20, 0, 0);
+		cs2method_10469(-1);
+		ivar9 = add(ivar9, 1);
+	}
+	return;
+}

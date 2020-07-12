@@ -1,0 +1,82 @@
+void script_390(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	object ovar0;
+	int stack_dump0;
+	ivar1 = cs2method_10624(3281);
+	ivar2 = -1;
+	ivar3 = subtract(ivar1, 1);
+	while (ivar3 >= 0) {
+		ivar2 = (int)getDataByKey('i', 'I', 3281, ivar3);
+		if (ivar2 != -1) {
+			setWidgetIsHidden(true, new WidgetPointer(ivar2));
+		}
+		ivar3 = subtract(ivar3, 1);
+	}
+	clearExtraChildren(new WidgetPointer(1028,102));
+	ivar4 = getDataByKey('i', 'J', 3278, subtract(globalint_197, 1));
+	clearExtraChildren(new WidgetPointer(1028,91));
+	ovar0 = (object)("Please choose your character." + "<br>" + "<br>" + "Your choice will not affect your abilities." + "<br>" + "You can modify features like your hair style and clothing once you have chosen your character.");
+	if (ivar4 == -1) {
+		ivar1 = subtract(cs2method_10956(67371110), 16);
+		stack_dump0 = cs2method_10242(ivar1, 495, ovar0);
+		ivar3 = add(multiply(getLineCount(ivar1, 495, ovar0), 20), 3);
+		ivar1 = stack_dump0;
+		cs2method_10893(add(ivar1, 16), add(ivar3, 50), 0, 0, 67371099);
+		createChildWidget(67371099, 4, cs2method_10860(67371099));
+		setWidgetSize(ivar1, ivar3, 0, 0);
+		setWidgetPosition(0, 22, 1, 0);
+		setWidgetFont(3793);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10320(0);
+		setWidgetTextAlignment(1, 1, 20);
+		setWidgetText(ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(1028,91));
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(1028,91));
+	ivar5 = 0;
+	ivar3 = 0;
+	ivar6 = script_384(0, ivar4, arg0);
+	ivar7 = subtract(globalint_86, 1);
+	ivar2 = (int)getDataByKey('i', 'I', 3281, 0);
+	while (ivar6 != -1 && ivar2 != -1) {
+		cs2method_10893(98, 17, 0, 1, ivar2);
+		if (ivar3 == ivar7) {
+			ivar5 = 1;
+		} else {
+			ivar5 = 0;
+		}
+		script_363(ivar2, ivar7, 3281, getGeneralRequirementAttribute(ivar6, 1181), 1, 85, 181, 1, ivar5, (object)"", (object)"");
+		cs2method_10375(1, ivar2, (object)"Select outfit");
+		cs2method_20000(352, -2147483644, add(ivar3, 1), "ii", new WidgetPointer(ivar2));
+		ivar3 = add(ivar3, 1);
+		ivar6 = script_384(ivar3, ivar4, arg0);
+		ivar2 = (int)getDataByKey('i', 'I', 3281, ivar3);
+	}
+	ivar8 = ivar3;
+	ivar9 = cs2method_10586(divide(subtract(390, 98), cs2method_10004(subtract(ivar8, 1), 1)), cs2method_10542(33, 40, 89));
+	ivar3 = 0;
+	while (ivar3 < ivar8) {
+		ivar2 = (int)getDataByKey('i', 'I', 3281, ivar3);
+		if (ivar3 == ivar7) {
+			cs2method_10444(multiply(ivar3, ivar9), 0, 0, 0, ivar2);
+		} else {
+			cs2method_10444(multiply(ivar3, ivar9), 0, 0, 2, ivar2);
+		}
+		if (ivar3 <= ivar7) {
+			cs2method_10928(ivar2);
+		} else {
+			cs2method_10867(ivar2);
+		}
+		ivar3 = add(ivar3, 1);
+	}
+	return;
+}

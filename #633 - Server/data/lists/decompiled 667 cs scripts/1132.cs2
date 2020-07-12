@@ -1,0 +1,41 @@
+void script_1132(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = cs2method_10004(1, subtract(arg1, arg0));
+	ivar4 = add(divide(255, ivar3), 1);
+	if (cs2method_10416(57933831) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(884,7));
+	}
+	if (cs2method_10416(57933833) == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(884,9));
+	} else if (cs2method_10878() < arg2 && cs2method_10878() >= arg1) {
+		if (cs2method_10878() >= add(arg1, 25)) {
+			setWidgetIsHidden(true, new WidgetPointer(884,7));
+			setWidgetIsHidden(true, new WidgetPointer(884,8));
+			setWidgetIsHidden(true, new WidgetPointer(884,9));
+		}
+	} else {
+		if (cs2method_10878() >= arg2) {
+			if (cs2method_10416(57933831) == 0) {
+				setWidgetIsHidden(true, new WidgetPointer(884,7));
+			}
+			if (cs2method_10416(57933832) == 0) {
+				setWidgetIsHidden(true, new WidgetPointer(884,8));
+			}
+			if (cs2method_10416(57933833) == 0) {
+				setWidgetIsHidden(true, new WidgetPointer(884,9));
+			}
+			if (cs2method_10964(57933824) < 255) {
+				cs2method_10149(cs2method_10586(255, add(cs2method_10964(57933824), 10)), 57933824);
+				cs2method_10149(cs2method_10586(255, add(cs2method_10964(57933825), 10)), 57933825);
+				cs2method_10149(cs2method_10586(255, add(cs2method_10964(57933826), 10)), 57933826);
+				cs2method_10149(cs2method_10586(255, add(cs2method_10964(57933829), 10)), 57933829);
+			} else {
+				clearExtraChildren(new WidgetPointer(884,3));
+				cs2method_20219(-1, "", new WidgetPointer(884,6));
+				setWidgetIsHidden(true, new WidgetPointer(884,4));
+			}
+		}
+	}
+	return;
+}

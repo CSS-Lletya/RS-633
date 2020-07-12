@@ -1,0 +1,10 @@
+object script_822(int arg0,int arg1,object arg2) {
+	int ivar2;
+	ivar2 = arg0;
+	if (arg1 == 1) {
+		arg2 = (object)script_823(ivar2, arg2);
+	} else {
+		arg2 = (object)script_824(ivar2, arg2);
+	}
+	return arg2;
+}

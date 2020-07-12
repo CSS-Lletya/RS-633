@@ -1,0 +1,7 @@
+void script_4005() {
+	if (cs2method_10403(48889900) == 1) {
+		cs2method_20745(-1, "");
+		cs2method_20745(1213, 0, "i");
+	}
+	return;
+}

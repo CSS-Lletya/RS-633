@@ -1,0 +1,7 @@
+void script_6045(int arg0,int arg1) {
+	if (arg1 == 1) {
+		cs2method_20525(6045, new WidgetPointer(arg0), 0, 358, 1, "I1Y", new WidgetPointer(arg0));
+	}
+	script_6046(arg0, 60, (object)globalstring_358);
+	return;
+}

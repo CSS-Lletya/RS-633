@@ -1,0 +1,9 @@
+void script_2493(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	cs2method_10380(arg0, -1, 56492082);
+	cs2method_10380(arg1, -1, 56492083);
+	cs2method_10380(arg2, -1, 56492084);
+	cs2method_10380(arg3, -1, 56492085);
+	cs2method_10380(arg4, -1, 56492086);
+	cs2method_10380(arg5, -1, 56492087);
+	return;
+}

@@ -1,0 +1,7 @@
+int script_4904(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = getDataByKey('i', 'g', 3997, arg0);
+	ivar4 = getDataByKey('i', 'g', ivar3, arg1);
+	return getDataByKey('i', 'd', ivar4, arg2);
+}

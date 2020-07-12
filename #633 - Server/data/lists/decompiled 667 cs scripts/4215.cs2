@@ -1,0 +1,7 @@
+void script_4215() {
+	if (cs2method_10403(70189056) == 1) {
+		cs2method_10912();
+		cs2method_10451(41);
+	}
+	return;
+}

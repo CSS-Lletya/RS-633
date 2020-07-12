@@ -1,0 +1,41 @@
+void script_2574() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = cs2method_10542(bitconfig_6457, 1000, 100);
+	if (ivar2 < 1) {
+		ivar2 = 1;
+	}
+	if (ivar2 > 100) {
+		ivar2 = 100;
+	}
+	ivar0 = getDataByKey('i', 'i', 197, ivar2);
+	ivar1 = getDataByKey('i', 'i', 198, ivar2);
+	if (bitconfig_5095 == 1) {
+		cs2method_10444(481, ivar0, 0, 0, 51183662);
+		cs2method_10893(16, ivar1, 0, 0, 51183662);
+	} else {
+		if (bitconfig_5095 == 2) {
+			cs2method_10444(481, ivar0, 0, 0, 51183653);
+			cs2method_10893(16, ivar1, 0, 0, 51183653);
+		}
+	}
+	if (ivar2 < 25) {
+		if (bitconfig_5095 == 1) {
+			setWidgetRGB(16750848, 51183662);
+		} else {
+			if (bitconfig_5095 == 2) {
+				setWidgetRGB(16750848, 51183653);
+			}
+		}
+	} else if (bitconfig_5095 == 1) {
+		setWidgetRGB(6710784, 51183662);
+	} else {
+		if (bitconfig_5095 == 2) {
+			setWidgetRGB(2639365, 51183653);
+		}
+	}
+	return;
+}

@@ -1,0 +1,87 @@
+void script_593(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	ivar1 = getDataByKey('i', 'v', 1079, standart_config_1112);
+	ivar2 = getItemIdInContainerSlot(ivar1, 0);
+	cs2method_10380(ivar2, cs2method_10136(ivar1, 0), 6881486);
+	cs2method_10831(6881486);
+	if (ivar2 != -1) {
+		if (cs2method_10493(ivar2) != ivar2) {
+			if (cs2method_10136(ivar1, 0) > 1) {
+				cs2method_10375(1, 6881486, (object)"Collect-notes");
+				cs2method_10375(2, 6881486, (object)"Collect-items");
+			} else {
+				cs2method_10375(1, 6881486, (object)"Collect-items");
+				cs2method_10375(2, 6881486, (object)"Collect-notes");
+			}
+		} else {
+			cs2method_10375(1, 6881486, (object)"Collect");
+		}
+		cs2method_10724(6881486, getItemName(ivar2));
+	} else {
+		cs2method_10724(6881486, (object)"");
+	}
+	ivar3 = getItemIdInContainerSlot(ivar1, 1);
+	cs2method_10380(ivar3, cs2method_10136(ivar1, 1), 6881488);
+	cs2method_10831(6881488);
+	if (ivar3 != -1) {
+		if (cs2method_10493(ivar3) != ivar3) {
+			if (cs2method_10136(ivar1, 1) > 1) {
+				cs2method_10375(1, 6881488, (object)"Collect-notes");
+				cs2method_10375(2, 6881488, (object)"Collect-items");
+			} else {
+				cs2method_10375(1, 6881488, (object)"Collect-items");
+				cs2method_10375(2, 6881488, (object)"Collect-notes");
+			}
+		} else {
+			cs2method_10375(1, 6881488, (object)"Collect");
+		}
+		cs2method_10724(6881488, getItemName(ivar3));
+	} else {
+		cs2method_10724(6881488, (object)"");
+	}
+	cs2method_20572(589, ivar1, 1, "Y", new WidgetPointer(105,197));
+	ivar4 = cs2method_10881(arg0);
+	ivar5 = cs2method_10237(arg0);
+	ivar6 = cs2method_10247(arg0);
+	ivar7 = cs2method_10338(arg0);
+	ovar0 = cs2method_10595(ivar6, 1);
+	ovar1 = cs2method_10595(ivar7, 1);
+	clearExtraChildren(new WidgetPointer(105,199));
+	if (cs2method_10403(6881479) == 1) {
+		if (cs2method_10084(arg0) == 1) {
+			createChildWidget(6881479, 4, 0);
+			setWidgetPosition(0, 0, 0, 0);
+			setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+			setWidgetFont(494);
+			setWidgetRGB(new Color(219, 216, 132));
+			setWidgetText((object)"Submitting offer...");
+			setWidgetTextAlignment(1, 1, 0);
+		} else {
+			script_652(0, 0, cs2method_10040(), cs2method_10630(), arg0, 6881479, 0, 6881490, 2);
+		}
+	}
+	if (cs2method_10577(arg0) == 1) {
+		if (ivar4 == 0) {
+			setWidgetText(new WidgetPointer(105,198), (object)("You bought a total of " + "<col=cc9900>" + (string)ovar0 + "</col>" + "<br>" + "for a total price of " + "<col=cc9900>" + (string)ovar1 + "</col>" + " gp."));
+		} else {
+			setWidgetText(new WidgetPointer(105,198), (object)("You sold a total of " + "<col=cc9900>" + (string)ovar0 + "</col>" + "<br>" + "for a total price of " + "<col=cc9900>" + (string)ovar1 + "</col>" + " gp."));
+		}
+		setWidgetIsHidden(true, new WidgetPointer(105,200));
+	} else {
+		if (ivar4 == 0) {
+			setWidgetText(new WidgetPointer(105,198), (object)("You have bought a total of " + "<col=cc9900>" + (string)ovar0 + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=cc9900>" + (string)ovar1 + "</col>" + " gp."));
+		} else {
+			setWidgetText(new WidgetPointer(105,198), (object)("You have sold a total of " + "<col=cc9900>" + (string)ovar0 + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=cc9900>" + (string)ovar1 + "</col>" + " gp."));
+		}
+		setWidgetIsHidden(false, new WidgetPointer(105,200));
+	}
+	return;
+}

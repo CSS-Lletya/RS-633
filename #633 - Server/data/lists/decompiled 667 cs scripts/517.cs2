@@ -1,0 +1,34 @@
+void script_517(int arg0,int arg1) {
+	switch (arg0) {
+		case 0:
+			cs2method_10467(9246, arg1);
+			break;
+		case 1:
+			cs2method_10467(9247, arg1);
+			break;
+		case 2:
+			cs2method_10467(9248, arg1);
+			break;
+		case 3:
+			cs2method_10467(9249, arg1);
+			break;
+		case 4:
+			cs2method_10467(9250, arg1);
+			break;
+		case 5:
+			cs2method_10467(9251, arg1);
+			break;
+		case 6:
+			cs2method_10467(9252, arg1);
+			break;
+		case 7:
+			cs2method_10467(9253, arg1);
+			break;
+		case 8:
+			cs2method_10467(9254, arg1);
+			break;
+		case 9:
+			cs2method_10467(9255, arg1);
+	}
+	return;
+}

@@ -1,0 +1,28 @@
+int script_5459(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	if (arg0 == 1) {
+		ivar1 = getDataByKey('i', 'i', 5222, bitconfig_9983);
+		ivar2 = getDataByKey('i', 'i', 5225, bitconfig_9984);
+		ivar3 = script_5460();
+		ivar3 = add(ivar3, 150);
+		ivar4 = add(add(ivar1, ivar2), ivar3);
+		ivar4 = add(bitconfig_9990, ivar4);
+	} else {
+		ivar1 = getDataByKey('i', 'i', 5223, bitconfig_9983);
+		if (bitconfig_9985 < 30) {
+			ivar2 = getDataByKey('i', 'i', 5226, bitconfig_9985);
+		} else {
+			ivar2 = getDataByKey('i', 'i', 5226, 15);
+		}
+		ivar4 = add(add(ivar1, ivar2), ivar3);
+		ivar4 = add(bitconfig_9990, ivar4);
+	}
+	return ivar4;
+}

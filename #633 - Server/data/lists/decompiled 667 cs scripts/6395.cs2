@@ -1,0 +1,39 @@
+cs2func_script_6395_struct(3,0,0) script_6395() {
+	if (cs2method_10416(85393464) == 1) {
+		return newstruct cs2func_script_6395_struct(85393464, 85393465, 85393466);
+	}
+	if (cs2method_10416(85393467) == 1) {
+		return newstruct cs2func_script_6395_struct(85393467, 85393468, 85393469);
+	}
+	if (cs2method_10416(85393470) == 1) {
+		return newstruct cs2func_script_6395_struct(85393470, 85393471, 85393472);
+	}
+	if (cs2method_10416(85393473) == 1) {
+		return newstruct cs2func_script_6395_struct(85393473, 85393474, 85393475);
+	}
+	if (cs2method_10416(85393476) == 1) {
+		return newstruct cs2func_script_6395_struct(85393476, 85393477, 85393478);
+	}
+	if (cs2method_10416(85393479) == 1) {
+		return newstruct cs2func_script_6395_struct(85393479, 85393480, 85393481);
+	}
+	if (cs2method_10416(85393482) == 1) {
+		return newstruct cs2func_script_6395_struct(85393482, 85393483, 85393484);
+	}
+	if (cs2method_10416(85393485) == 1) {
+		return newstruct cs2func_script_6395_struct(85393485, 85393486, 85393487);
+	}
+	if (cs2method_10416(85393488) == 1) {
+		return newstruct cs2func_script_6395_struct(85393488, 85393489, 85393490);
+	}
+	if (cs2method_10416(85393491) == 1) {
+		return newstruct cs2func_script_6395_struct(85393491, 85393492, 85393493);
+	}
+	if (cs2method_10416(85393494) == 1) {
+		return newstruct cs2func_script_6395_struct(85393494, 85393495, 85393496);
+	}
+	if (cs2method_10416(85393497) == 1) {
+		return newstruct cs2func_script_6395_struct(85393497, 85393498, 85393499);
+	}
+	return newstruct cs2func_script_6395_struct(-1, -1, -1);
+}

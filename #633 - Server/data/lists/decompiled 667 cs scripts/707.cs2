@@ -1,0 +1,10 @@
+void script_707() {
+	if (cs2method_10842() >= 2) {
+		cs2method_10444(220, 11, 2, 0, 44564499);
+	} else {
+		cs2method_10444(12, 11, 2, 0, 44564499);
+	}
+	globalint_215 = 255;
+	globalint_216 = 0;
+	return;
+}

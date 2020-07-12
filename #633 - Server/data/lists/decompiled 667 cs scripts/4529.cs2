@@ -1,0 +1,52 @@
+void script_4529(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	if (arg0 == -1 || arg2 == -1) {
+		return;
+	}
+	ivar3 = getGeneralRequirementAttribute(arg2, 1346);
+	ivar4 = getGeneralRequirementAttribute(arg2, 1388);
+	ivar5 = getGeneralRequirementAttribute(arg2, 1389);
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	ivar9 = -1;
+	if (ivar3 == 1) {
+		ivar6 = getGeneralRequirementAttribute(arg2, 1393);
+		ivar7 = getGeneralRequirementAttribute(arg2, 1394);
+		ivar8 = getGeneralRequirementAttribute(arg2, 1395);
+		ivar9 = getGeneralRequirementAttribute(arg2, 1396);
+		script_31(arg0, arg1, ivar6, ivar7, ivar8, ivar9, ivar4, ivar5);
+	} else {
+		if (ivar3 == 2 || ivar3 == 3) {
+			clearExtraChildren(new WidgetPointer(arg0));
+			createChildWidget(arg0, 5, cs2method_10860(arg0));
+			setWidgetPosition(0, 0, 1, 0);
+			setWidgetSize(16, 16, 0, 0);
+			cs2method_10469(ivar4);
+			cs2method_10305(255);
+			createChildWidget(arg0, 5, cs2method_10860(arg0));
+			setWidgetPosition(0, 0, 1, 2);
+			setWidgetSize(16, 16, 0, 0);
+			cs2method_10469(ivar5);
+			cs2method_10305(255);
+			if (ivar3 == 2) {
+				cs2method_20333(4159, new WidgetPointer(-32768,3), 0, 0, "Iii", new WidgetPointer(arg0));
+				cs2method_20295(4159, new WidgetPointer(-32768,3), 1, 0, "Iii", new WidgetPointer(arg0));
+			} else {
+				if (ivar3 == 3) {
+					setScriptCallOnMousePressed(4162, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+					cs2method_20301(4162, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+					cs2method_20645(4163, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+					cs2method_20921(4163, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+				}
+			}
+		}
+	}
+	return;
+}

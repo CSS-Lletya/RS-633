@@ -1,0 +1,26 @@
+void script_6269(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar2 = 0;
+	ivar3 = 255;
+	ivar4 = 4;
+	ivar5 = cs2method_10964(arg0);
+	if (arg1 == 255) {
+		ivar5 = add(ivar5, ivar4);
+		if (ivar5 >= ivar3) {
+			ivar5 = ivar3;
+			arg1 = 0;
+		}
+	} else {
+		ivar5 = subtract(ivar5, ivar4);
+		if (ivar5 <= ivar2) {
+			ivar5 = ivar2;
+			arg1 = 255;
+		}
+	}
+	cs2method_10149(ivar5, arg0);
+	cs2method_20219(6269, new WidgetPointer(-32768,3), arg1, "Ii", new WidgetPointer(arg0));
+	return;
+}

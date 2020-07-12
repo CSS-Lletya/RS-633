@@ -1,0 +1,5 @@
+void script_4096(int arg0) {
+	cs2method_10149(arg0, 78512128);
+	cs2method_10149(divide(arg0, 2), 78512129);
+	return;
+}

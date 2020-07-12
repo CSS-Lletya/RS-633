@@ -1,0 +1,95 @@
+void script_4343(int arg0) {
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	object ovar7;
+	object ovar8;
+	object ovar9;
+	object ovar10;
+	cs2func_script_4721_struct(0,10,0) structdump_0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ovar6 = (object)"";
+	ovar7 = (object)"";
+	ovar8 = (object)"";
+	ovar9 = (object)"";
+	ovar10 = (object)"";
+	structdump_0 = script_4721();
+	ovar9 = structdump_0.objectpart_9;
+	ovar8 = structdump_0.objectpart_8;
+	ovar7 = structdump_0.objectpart_7;
+	ovar6 = structdump_0.objectpart_6;
+	ovar5 = structdump_0.objectpart_5;
+	ovar4 = structdump_0.objectpart_4;
+	ovar3 = structdump_0.objectpart_3;
+	ovar2 = structdump_0.objectpart_2;
+	ovar1 = structdump_0.objectpart_1;
+	ovar0 = structdump_0.objectpart_0;
+	if (compareTo(ovar0, (object)"") != 0) {
+		ovar10 = ovar0;
+	}
+	if (compareTo(ovar1, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar1);
+	}
+	if (compareTo(ovar2, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar2);
+	}
+	if (compareTo(ovar3, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar3);
+	}
+	if (compareTo(ovar4, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar4);
+	}
+	if (compareTo(ovar5, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar5);
+	}
+	if (compareTo(ovar6, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar6);
+	}
+	if (compareTo(ovar7, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar7);
+	}
+	if (compareTo(ovar8, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar8);
+	}
+	if (compareTo(ovar9, (object)"") != 0) {
+		if (cs2method_10366(ovar10) > 0) {
+			ovar10 = cs2method_10445(ovar10, (object)", ");
+		}
+		ovar10 = cs2method_10445(ovar10, ovar9);
+	}
+	setWidgetText(new WidgetPointer(arg0), ovar10);
+	return;
+}

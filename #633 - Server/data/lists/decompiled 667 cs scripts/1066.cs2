@@ -1,0 +1,80 @@
+void script_1066(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar2 = cs2method_10956(arg0);
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	while (cs2method_10551(arg0, ivar4) == 1) {
+		ivar3 = add(ivar3, cs2method_10040());
+		ivar4 = add(ivar4, 1);
+	}
+	if (ivar3 <= ivar2) {
+		ivar4 = 0;
+		ivar5 = 0;
+		while (cs2method_10551(arg0, ivar4) == 1) {
+			cs2method_10692(0);
+			setWidgetPosition(ivar5, 0, 0, 0);
+			if (cs2method_10551(8978434, ivar4) == 1) {
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+			}
+			ivar5 = add(ivar5, cs2method_10040());
+			ivar4 = add(ivar4, 1);
+		}
+		return;
+	}
+	createChildWidget(arg0, 4, add(arg1, 1));
+	setWidgetRGB(new Color(0, 0, 0));
+	setWidgetFont(495);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetText((object)(" ... " + "<img=2>"));
+	cs2method_10320(0);
+	setWidgetSize(cs2method_10242(ivar2, 495, (object)(" ... " + "<img=2>")), cs2method_10090(arg0), 0, 0);
+	ivar3 = cs2method_10040();
+	if (cs2method_10551(arg0, arg1) == 1) {
+		ivar3 = add(ivar3, cs2method_10040());
+	}
+	ivar4 = 0;
+	while (ivar4 < arg1) {
+		if (cs2method_10551(arg0, ivar4) == 1) {
+			if (add(ivar3, cs2method_10040()) <= ivar2) {
+				cs2method_10692(0);
+				ivar3 = add(ivar3, cs2method_10040());
+			} else {
+				cs2method_10692(1);
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	ivar4 = 0;
+	ivar5 = 0;
+	while (ivar4 < arg1) {
+		if (cs2method_10551(arg0, ivar4) == 1) {
+			if (cs2method_10140() == 0) {
+				setWidgetPosition(ivar5, 0, 0, 0);
+				if (cs2method_10551(8978434, ivar4) == 1) {
+					setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+				}
+				ivar5 = add(ivar5, cs2method_10040());
+			} else {
+				if (cs2method_10551(8978434, ivar4) == 1) {
+					cs2method_10692(1);
+				}
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	if (cs2method_10551(arg0, add(arg1, 1)) == 1) {
+		setWidgetPosition(ivar5, 0, 0, 0);
+		ivar5 = add(ivar5, cs2method_10040());
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		setWidgetPosition(ivar5, 0, 0, 0);
+		if (cs2method_10551(8978434, ivar4) == 1) {
+			setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+		}
+	}
+	return;
+}

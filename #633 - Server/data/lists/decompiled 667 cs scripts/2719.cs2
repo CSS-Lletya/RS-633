@@ -1,0 +1,39 @@
+void script_2719(int arg0,int arg1,int arg2,object arg3,object arg4) {
+	clearExtraChildren(new WidgetPointer(arg0));
+	cs2method_10893(arg1, 27, 0, 0, arg0);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(50, 25, 1, 0);
+	setWidgetPosition(-1, 0, 1, 1);
+	cs2method_10470(1);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(25, 25, 0, 0);
+	setWidgetPosition(0, 0, 0, 1);
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	setWidgetSize(25, 25, 0, 0);
+	setWidgetPosition(3, 0, 2, 1);
+	cs2method_10567(1);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(1, 0, 1, 1);
+	setWidgetFont(3793);
+	setWidgetRGB(new Color(0, 0, 0));
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_10320(0);
+	setWidgetText(arg3);
+	createChildWidget(arg0, 4, cs2method_10860(arg0));
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, -1, 1, 1);
+	setWidgetFont(3793);
+	setWidgetRGB(new Color(235, 224, 188));
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_10320(0);
+	setWidgetText(arg3);
+	script_2722(arg0, 0, arg2);
+	cs2method_10375(1, arg0, arg3);
+	cs2method_20333(2721, new WidgetPointer(arg0), 1, arg2, "I11", new WidgetPointer(arg0));
+	if (cs2method_10366(arg4) > 0) {
+		cs2method_20835(378, (string)arg4, new WidgetPointer(-32768,3), -1, -2147483647, "sIii", new WidgetPointer(arg0));
+	}
+	cs2method_20295(2721, new WidgetPointer(arg0), 0, arg2, "I11", new WidgetPointer(arg0));
+	return;
+}

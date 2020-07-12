@@ -1,0 +1,26 @@
+cs2func_script_296_struct(2,0,0) script_296(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int stack_dump0;
+	opc_struct10443(2,0,0) structdump_1;
+	ivar7 = 0;
+	ivar8 = 0;
+	if (arg1 == 1) {
+		ivar7 = cs2method_10565(arg0);
+		ivar8 = cs2method_10130(arg0);
+	} else {
+		stack_dump0 = arg0;
+		structdump_1 = cs2method_10443(stack_dump0);
+		ivar8 = structdump_1.intpart_1;
+		ivar7 = structdump_1.intpart_0;
+	}
+	ivar9 = cs2method_10956(arg2);
+	ivar10 = cs2method_10090(arg2);
+	ivar7 = cs2method_10542(ivar9, subtract(arg5, arg6), subtract(ivar7, arg6));
+	ivar8 = cs2method_10542(ivar10, subtract(arg3, arg4), subtract(ivar8, arg4));
+	ivar7 = subtract(ivar7, divide(ivar9, 2));
+	ivar8 = subtract(divide(ivar10, 2), ivar8);
+	return newstruct cs2func_script_296_struct(ivar7, ivar8);
+}

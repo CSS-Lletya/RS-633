@@ -1,0 +1,10 @@
+int script_3954(int arg0) {
+	int ivar1;
+	ivar1 = script_5640(arg0);
+	if (ivar1 == 1) {
+		cs2method_10060(12);
+	} else {
+		cs2method_10060(13);
+	}
+	return ivar1;
+}

@@ -1,0 +1,59 @@
+void script_1633(object arg0) {
+	int ivar0;
+	int ivar1;
+	object ovar1;
+	arg0 = lower(cs2method_10222(arg0));
+	ivar0 = cs2method_10366(arg0);
+	ivar1 = 0;
+	arg0 = script_2332(arg0, (object)"_", (object)"\u00a0");
+	arg0 = script_2332(arg0, (object)"-", (object)"\u00a0");
+	arg0 = script_2332(arg0, (object)" ", (object)"\u00a0");
+	while (cs2method_10339(0, arg0, (object)" ") == 0 && ivar0 > 0) {
+		arg0 = cs2method_10547(1, ivar0, arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)" ") == subtract(ivar0, 1) && ivar0 > 0) {
+		arg0 = cs2method_10547(0, subtract(ivar0, 1), arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(0, arg0, (object)"\u00a0") == 0 && ivar0 > 0) {
+		arg0 = cs2method_10547(1, ivar0, arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)"\u00a0") == subtract(ivar0, 1) && ivar0 > 0) {
+		arg0 = cs2method_10547(0, subtract(ivar0, 1), arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	ovar1 = lower(cs2method_10222(cs2method_10664()));
+	ivar0 = cs2method_10366(ovar1);
+	ovar1 = script_2332(ovar1, (object)"_", (object)"\u00a0");
+	ovar1 = script_2332(ovar1, (object)"-", (object)"\u00a0");
+	ovar1 = script_2332(ovar1, (object)" ", (object)"\u00a0");
+	while (cs2method_10339(0, ovar1, (object)" ") == 0 && ivar0 > 0) {
+		ovar1 = cs2method_10547(1, ivar0, ovar1);
+		ivar0 = cs2method_10366(ovar1);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)" ") == subtract(ivar0, 1) && ivar0 > 0) {
+		ovar1 = cs2method_10547(0, subtract(ivar0, 1), ovar1);
+		ivar0 = cs2method_10366(ovar1);
+	}
+	while (cs2method_10339(0, ovar1, (object)"\u00a0") == 0 && ivar0 > 0) {
+		ovar1 = cs2method_10547(1, ivar0, ovar1);
+		ivar0 = cs2method_10366(ovar1);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), ovar1, (object)"\u00a0") == subtract(ivar0, 1) && ivar0 > 0) {
+		ovar1 = cs2method_10547(0, subtract(ivar0, 1), ovar1);
+		ivar0 = cs2method_10366(ovar1);
+	}
+	if (compareTo(arg0, (object)"") != 0) {
+		if (compareTo(arg0, ovar1) == 0) {
+			script_1890((object)"You cannot kick or ban yourself.");
+			return;
+		}
+		cs2method_10960(arg0);
+		arg0 = script_1814(arg0);
+		cs2method_10702(1);
+		cs2method_10393((object)"[Attempting to kick/ban user from this Friends Chat.]");
+	}
+	return;
+}

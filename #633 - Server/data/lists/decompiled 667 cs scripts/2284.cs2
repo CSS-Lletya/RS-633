@@ -1,0 +1,48 @@
+void script_2284(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	ivar2 = cs2method_10280();
+	if (ivar2 == -3) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(673,20));
+	script_3208(0);
+	if (ivar2 == 2) {
+		cs2method_10467(4059, 44105821);
+		setWidgetIsHidden(true, new WidgetPointer(673,98));
+		setWidgetIsHidden(true, new WidgetPointer(673,30));
+		if (arg1 == 1 && cs2method_10366((object)globalstring_326) > 0) {
+			script_3953(0);
+		}
+		if (cs2method_10366((object)globalstring_124) > 0) {
+			script_3228(7, 1, 0);
+			if (cs2method_10366((object)globalstring_125) > 0) {
+				script_3228(8, 1, 0);
+			}
+		}
+		if (arg0 == 1) {
+			script_2714(14, 1);
+		}
+		return;
+	}
+	ovar0 = (object)"accountappeal";
+	ovar1 = (object)"passwordchoice.ws";
+	switch (ivar2) {
+		case 3:
+			script_3213(44105821, (object)"Error contacting server.");
+			break;
+		case 20:
+			script_3213(44105821, (object)("Email already in use. Try a different email or click " + "<u=ebe0bc>" + "here" + "</u>" + " to recover this account."));
+			break;
+		case 21:
+			script_3213(44105821, (object)"Please enter a valid Email address.");
+			break;
+		default:
+			script_3213(44105821, (object)"Unexpected server response.");
+	}
+	if (arg1 == 1 && cs2method_10366((object)globalstring_326) > 0) {
+		script_3953(0);
+	}
+	return;
+}

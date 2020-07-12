@@ -1,0 +1,23 @@
+int script_4180(int arg0,int arg1,int arg2,object arg3) {
+	int ivar3;
+	int ivar4;
+	ivar3 = add(multiply(getLineCount(cs2method_10956(arg1), 494, arg3), 10), 2);
+	ivar4 = subtract(cs2method_10878(), arg2);
+	if (arg2 > 0 && ivar4 < 255) {
+		createChildWidget(arg1, 3, cs2method_10860(arg1));
+		setWidgetSize(0, ivar3, 1, 0);
+		setWidgetPosition(0, arg0, 1, 0);
+		setWidgetFilled(1);
+		setWidgetRGB(new Color(255, 0, 0));
+		cs2method_10305(cs2method_10004(ivar4, 0));
+		cs2method_20745(4181, new WidgetPointer(-32768,3), -2147483643, "Ii");
+	}
+	createChildWidget(arg1, 4, cs2method_10860(arg1));
+	setWidgetSize(0, ivar3, 1, 0);
+	setWidgetPosition(0, arg0, 1, 0);
+	setWidgetRGB(new Color(170, 170, 170));
+	setWidgetFont(494);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetText(arg3);
+	return add(add(arg0, ivar3), 2);
+}

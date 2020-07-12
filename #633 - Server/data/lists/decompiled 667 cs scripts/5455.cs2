@@ -1,0 +1,16 @@
+void script_5455(int arg0) {
+	if (arg0 == 1) {
+		if (globalint_1684 == 1) {
+			globalint_1684 = 4;
+		} else {
+			globalint_1684 = subtract(globalint_1684, 1);
+		}
+	} else if (globalint_1684 == 4) {
+		globalint_1684 = 1;
+	} else {
+		globalint_1684 = add(globalint_1684, 1);
+	}
+	script_5456();
+	cs2method_10677(8088, 1, 0, 255);
+	return;
+}

@@ -1,0 +1,15 @@
+void script_6453() {
+	setWidgetText(new WidgetPointer(1307,65), (object)"");
+	setWidgetText(new WidgetPointer(1307,8), (object)"");
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(1307,8));
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(1307,65));
+	cs2method_10450();
+	setScriptCallOnKeyPress(73, -2147483640, false, "iz", new WidgetPointer(137,56));
+	globalint_2106 = 1;
+	globalint_2110 = 0;
+	bitconfig_11826 = 0;
+	bitconfig_11825 = 0;
+	globalint_2111 = 0;
+	globalint_2112 = 0;
+	return;
+}

@@ -1,0 +1,38 @@
+void script_6211(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar4 = 10872;
+	ivar5 = 10876;
+	ivar6 = 10871;
+	ivar7 = 10875;
+	ivar8 = 16368741;
+	ivar9 = 15052881;
+	if (arg3 == 1) {
+		if (arg1 != -1) {
+			setWidgetRGB(ivar8, arg1);
+		}
+		if (arg0 != -1) {
+			if (arg2 == 1) {
+				cs2method_10467(ivar4, arg0);
+			} else {
+				cs2method_10467(ivar5, arg0);
+			}
+		}
+	} else {
+		if (arg1 != -1) {
+			setWidgetRGB(ivar9, arg1);
+		}
+		if (arg0 != -1) {
+			if (arg2 == 1) {
+				cs2method_10467(ivar6, arg0);
+			} else {
+				cs2method_10467(ivar7, arg0);
+			}
+		}
+	}
+	return;
+}

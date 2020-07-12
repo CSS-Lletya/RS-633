@@ -1,0 +1,35 @@
+void script_3979(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	bitconfig_8576 = arg0;
+	ivar2 = script_5795(arg0);
+	ovar0 = (object)(" -" + "<br>");
+	ovar0 = cs2method_10445((object)getGeneralRequirementAttribute(ivar2, 1266), ovar0);
+	ovar0 = cs2method_10445(ovar0, (object)getGeneralRequirementAttribute(ivar2, 1273));
+	if (script_3999(arg0) == 0) {
+		cs2method_20835(3981, new WidgetPointer(arg1), (string)ovar0, "Is", new WidgetPointer(arg1));
+	} else {
+		cs2method_20835(-1, "", new WidgetPointer(arg1));
+	}
+	switch (arg1) {
+		case 69206077:
+			bitconfig_8577 = 1;
+			break;
+		case 69206155:
+			bitconfig_8577 = 2;
+			break;
+		case 69206160:
+			bitconfig_8577 = 3;
+			break;
+		case 69206165:
+			bitconfig_8577 = 4;
+			break;
+		case 69206170:
+			bitconfig_8577 = 5;
+			break;
+		case 69206176:
+			bitconfig_8577 = 6;
+	}
+	script_3975();
+	return;
+}

@@ -1,0 +1,8 @@
+void script_5150(int arg0) {
+	object ovar0;
+	ovar0 = (object)"It would be advisable to retrieve items you have dropped and do not wish to lose.";
+	if (cs2method_10403(arg0) == 1) {
+		cs2method_20930(4538, new WidgetPointer(800,1), new WidgetPointer(-32768,3), -1, (string)ovar0, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646, "IIisifdiiiiii");
+	}
+	return;
+}

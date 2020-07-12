@@ -1,0 +1,14 @@
+void script_2377(int arg0,int arg1,int arg2) {
+	if (arg0 == 0) {
+		setWidgetRGB(16777215, arg1);
+		cs2method_10747(1, arg1);
+		setWidgetRGB(0, arg2);
+		cs2method_10747(0, arg2);
+	} else {
+		setWidgetRGB(16777215, arg2);
+		cs2method_10747(1, arg2);
+		setWidgetRGB(0, arg1);
+		cs2method_10747(0, arg1);
+	}
+	return;
+}

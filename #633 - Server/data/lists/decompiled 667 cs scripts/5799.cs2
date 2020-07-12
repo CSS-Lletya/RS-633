@@ -1,0 +1,80 @@
+int script_5799(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar1;
+	if (script_3999(arg0) == 0) {
+		arg1 = script_5795(arg0);
+	} else {
+		arg1 = script_5795(getGeneralRequirementAttribute(arg1, 1268));
+	}
+	if (arg1 == -1) {
+		return 0;
+	}
+	ovar1 = (object)"";
+	ivar4 = 0;
+	switch (arg2) {
+		case 0:
+			ovar1 = arg4;
+			break;
+		case 1:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1274);
+			if (getGeneralRequirementAttribute(arg1, 1282) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 2:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1275);
+			if (getGeneralRequirementAttribute(arg1, 1283) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 3:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1276);
+			if (getGeneralRequirementAttribute(arg1, 1284) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 4:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1277);
+			if (getGeneralRequirementAttribute(arg1, 1285) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 5:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1278);
+			if (getGeneralRequirementAttribute(arg1, 1286) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 6:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1279);
+			if (getGeneralRequirementAttribute(arg1, 1287) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 7:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1280);
+			if (getGeneralRequirementAttribute(arg1, 1288) != -1) {
+				ivar4 = 1;
+			}
+			break;
+		case 8:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1281);
+			if (getGeneralRequirementAttribute(arg1, 1289) != -1) {
+				ivar4 = 1;
+			}
+	}
+	if (compareTo(ovar1, (object)"") == 0) {
+		return 0;
+	}
+	ivar5 = subtract(cs2method_10956(arg3), 24);
+	ivar6 = 20;
+	if (ivar4 == 0) {
+		ivar5 = add(ivar5, 24);
+		ivar6 = 0;
+	}
+	ivar7 = cs2method_10004(add(ivar6, 5), multiply(15, getLineCount(ivar5, 3793, ovar1)));
+	return 0;
+}

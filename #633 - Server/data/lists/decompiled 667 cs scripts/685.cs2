@@ -1,0 +1,16 @@
+void script_685(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	arg3 = cs2method_10620(add(arg3, arg5), multiply(arg4, 4));
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg3 <= arg4) {
+			cs2method_10021(0, 0, cs2method_10221(), cs2method_10620(add(arg2, arg3), 2048), cs2method_10022(), cs2method_10142());
+		} else if (arg3 <= multiply(arg4, 2)) {
+			cs2method_10021(0, 0, cs2method_10221(), cs2method_10620(subtract(add(arg2, arg4), subtract(arg3, arg4)), 2048), cs2method_10022(), cs2method_10142());
+		} else if (arg3 <= multiply(arg4, 3)) {
+			cs2method_10021(0, 0, cs2method_10221(), script_686(subtract(arg2, subtract(arg3, multiply(arg4, 2))), 2048), cs2method_10022(), cs2method_10142());
+		} else {
+			cs2method_10021(0, 0, cs2method_10221(), script_686(add(subtract(arg2, arg4), subtract(arg3, multiply(arg4, 3))), 2048), cs2method_10022(), cs2method_10142());
+		}
+		cs2method_20745(685, new WidgetPointer(-32768,3), -2147483643, arg2, arg3, arg4, arg5, "Iiiiii");
+	}
+	return;
+}

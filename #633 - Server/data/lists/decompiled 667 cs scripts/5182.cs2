@@ -1,0 +1,16 @@
+void script_5182() {
+	if (cs2method_10916(73531474) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,81));
+		setWidgetIsHidden(false, new WidgetPointer(1122,355));
+	} else if (cs2method_10774(73531474) == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(1122,81));
+		setWidgetIsHidden(true, new WidgetPointer(1122,355));
+	} else if (cs2method_10774(73531474) == subtract(cs2method_10916(73531474), cs2method_10956(73531474))) {
+		setWidgetIsHidden(true, new WidgetPointer(1122,81));
+		setWidgetIsHidden(false, new WidgetPointer(1122,355));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1122,81));
+		setWidgetIsHidden(true, new WidgetPointer(1122,355));
+	}
+	return;
+}

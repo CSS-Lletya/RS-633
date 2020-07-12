@@ -1,0 +1,23 @@
+void script_3023() {
+	cs2method_10893(subtract(cs2method_10111(59572255), cs2method_10111(59572254)), 0, 0, 1, 59572269);
+	cs2method_10893(subtract(subtract(cs2method_10956(59572265), cs2method_10956(59572269)), 2), 0, 0, 1, 59572270);
+	setWidgetScrollMax(0, 0, 59572265);
+	cs2method_10085(0, 0, 59572265);
+	script_31(59572271, 59572265, 792, 789, 790, 791, 773, 788);
+	setWidgetScrollMax(0, 0, 59572302);
+	cs2method_10085(0, 0, 59572302);
+	script_31(59572303, 59572302, 792, 789, 790, 791, 773, 788);
+	setWidgetScrollMax(0, 0, 59572276);
+	cs2method_10085(0, 0, 59572276);
+	script_31(59572277, 59572276, 792, 789, 790, 791, 773, 788);
+	globalint_1122 = cs2method_10090(59572276);
+	script_3029(59572269, 59572268, 59572270, 59572266, 59572265, 59572271);
+	cs2method_20694(3028, new WidgetPointer(909,45), new WidgetPointer(909,44), new WidgetPointer(909,46), new WidgetPointer(909,42), new WidgetPointer(909,41), new WidgetPointer(909,47), "IIIIII", new WidgetPointer(909,41));
+	script_3041(59572311, 59572310, 59572308, 59572302, 59572303);
+	cs2method_20694(3040, new WidgetPointer(909,87), new WidgetPointer(909,86), new WidgetPointer(909,84), new WidgetPointer(909,78), new WidgetPointer(909,79), "IIIII", new WidgetPointer(909,78));
+	script_3024(59572280);
+	globalstring_276 = "";
+	globalint_1274 = -1;
+	script_3401();
+	return;
+}

@@ -1,0 +1,9 @@
+void script_305(int arg0) {
+	if (arg0 == 1) {
+		setWidgetRGB(16750623, 49479694);
+	} else {
+		setWidgetRGB(16711680, 49479694);
+	}
+	cs2method_20219(306, cs2method_10878(), new WidgetPointer(-32768,3), "iI", new WidgetPointer(755,14));
+	return;
+}

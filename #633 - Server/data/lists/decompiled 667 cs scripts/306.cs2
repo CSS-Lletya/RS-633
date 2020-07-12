@@ -1,0 +1,8 @@
+void script_306(int arg0,int arg1) {
+	if (subtract(cs2method_10878(), arg0) < 15) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg1));
+	setWidgetRGB(16777215, arg1);
+	return;
+}

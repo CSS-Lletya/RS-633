@@ -1,0 +1,21 @@
+void script_6241() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = cs2method_10956(84213765);
+	ivar1 = cs2method_10004(1, subtract(100, cs2method_10542(globalint_1923, 30000, 100)));
+	script_4542(ivar1, 84213765, -1);
+	ivar2 = cs2method_10956(84213765);
+	ivar3 = subtract(ivar0, ivar2);
+	if (ivar3 > 0) {
+		cs2method_10893(ivar3, cs2method_10090(84213785), 0, 0, 84213785);
+		cs2method_10149(0, 84213786);
+		cs2method_10149(0, 84213787);
+		cs2method_10149(0, 84213788);
+		cs2method_10444(cs2method_10956(84213765), cs2method_10826(84213785), 0, 0, 84213785);
+		setWidgetIsHidden(false, new WidgetPointer(1285,25));
+		cs2method_20219(6242, "", new WidgetPointer(1285,5));
+	}
+	return;
+}

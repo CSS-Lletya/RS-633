@@ -1,0 +1,23 @@
+void script_6254(int arg0) {
+	if (arg0 == 60489791) {
+		setWidgetIsHidden(true, new WidgetPointer(923,15));
+	} else if (arg0 == 60489789) {
+		setWidgetIsHidden(true, new WidgetPointer(923,17));
+	} else if (arg0 == 60489787) {
+		setWidgetIsHidden(true, new WidgetPointer(923,19));
+	} else if (arg0 == 60489785) {
+		setWidgetIsHidden(true, new WidgetPointer(923,21));
+	} else if (arg0 == 60489783) {
+		setWidgetIsHidden(true, new WidgetPointer(923,23));
+	} else if (arg0 == 60489781) {
+		setWidgetIsHidden(true, new WidgetPointer(923,25));
+	} else if (arg0 == 60489779) {
+		setWidgetIsHidden(true, new WidgetPointer(923,27));
+	} else {
+		if (arg0 == 60489777) {
+			setWidgetIsHidden(true, new WidgetPointer(923,29));
+		}
+	}
+	script_5219(60489846);
+	return;
+}

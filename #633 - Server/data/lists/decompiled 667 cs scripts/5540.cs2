@@ -1,0 +1,577 @@
+int script_5540(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = 0;
+	if (globalint_1725 == 1) {
+		if (isMember() == 0 && (globalint_1724 == 7 || globalint_1724 == 8 || globalint_1724 == 9 || globalint_1724 == 10 || globalint_1724 == 11 || globalint_1724 == 13)) {
+			setWidgetText(new WidgetPointer(1178,81), (object)"Members Item");
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5350, globalint_1724)));
+		}
+		switch (arg0) {
+			case 1:
+				ivar4 = bitconfig_10259;
+				break;
+			case 2:
+				ivar4 = bitconfig_10260;
+				break;
+			case 3:
+				ivar4 = bitconfig_10247;
+				break;
+			case 4:
+				ivar4 = bitconfig_10261;
+				break;
+			case 5:
+				ivar4 = bitconfig_10244;
+				break;
+			case 6:
+				ivar4 = bitconfig_10262;
+				break;
+			case 7:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10264;
+				}
+				break;
+			case 8:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10275;
+				}
+				break;
+			case 9:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10278;
+				}
+				break;
+			case 10:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10280;
+				}
+				break;
+			case 11:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10281;
+				}
+				break;
+			case 12:
+				ivar4 = bitconfig_10245;
+				break;
+			case 13:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10283;
+				}
+				break;
+			default:
+				ivar4 = -1;
+		}
+		if (ivar4 == 1) {
+			cs2method_10467(getDataByKey('i', 'd', 5348, arg0), arg2);
+			cs2method_10380(-1, -1, arg3);
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(getDataByKey('i', 'd', 5349, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		}
+	} else if (globalint_1725 == 2) {
+		if (isMember() == 0 && (globalint_1724 == 4 || globalint_1724 == 8)) {
+			setWidgetText(new WidgetPointer(1178,81), (object)"Members Item");
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5353, globalint_1724)));
+		}
+		switch (arg0) {
+			case 1:
+				ivar4 = bitconfig_10253;
+				break;
+			case 2:
+				ivar4 = bitconfig_10254;
+				break;
+			case 3:
+				ivar4 = bitconfig_10258;
+				break;
+			case 4:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10277;
+				}
+				break;
+			case 5:
+				ivar4 = bitconfig_10255;
+				break;
+			case 6:
+				ivar4 = bitconfig_10256;
+				break;
+			case 7:
+				ivar4 = bitconfig_10257;
+				break;
+			case 8:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10279;
+				}
+				break;
+			default:
+				ivar4 = -1;
+		}
+		if (ivar4 == 1) {
+			cs2method_10467(getDataByKey('i', 'd', 5351, arg0), arg2);
+			cs2method_10380(-1, -1, arg3);
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(getDataByKey('i', 'd', 5352, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		}
+	} else if (globalint_1725 == 3) {
+		if (isMember() == 0 && (globalint_1724 == 2 || globalint_1724 == 8 || globalint_1724 == 9 || globalint_1724 == 4 || globalint_1724 == 11 || globalint_1724 == 12 || globalint_1724 == 13)) {
+			setWidgetText(new WidgetPointer(1178,81), (object)"Members Item");
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5356, globalint_1724)));
+		}
+		switch (arg0) {
+			case 1:
+				ivar4 = bitconfig_10250;
+				break;
+			case 2:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10268;
+				}
+				break;
+			case 3:
+				ivar4 = bitconfig_10246;
+				break;
+			case 4:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10267;
+				}
+				break;
+			case 5:
+				ivar4 = bitconfig_10249;
+				break;
+			case 6:
+				ivar4 = bitconfig_10251;
+				break;
+			case 7:
+				ivar4 = bitconfig_10252;
+				break;
+			case 8:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10265;
+				}
+				break;
+			case 9:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10266;
+				}
+				break;
+			case 10:
+				ivar4 = bitconfig_10248;
+				break;
+			case 11:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10270;
+				}
+				break;
+			case 12:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10269;
+				}
+				break;
+			case 13:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10282;
+				}
+				break;
+			default:
+				ivar4 = -1;
+		}
+		if (ivar4 == 1) {
+			cs2method_10467(getDataByKey('i', 'd', 5354, arg0), arg2);
+			cs2method_10380(-1, -1, arg3);
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(getDataByKey('i', 'd', 5355, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		}
+	} else if (globalint_1725 == 4) {
+		if (isMember() == 0 && (globalint_1724 == 1 || globalint_1724 == 2 || globalint_1724 == 4 || globalint_1724 == 5)) {
+			setWidgetText(new WidgetPointer(1178,81), (object)"Members Item");
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5359, globalint_1724)));
+		}
+		switch (arg0) {
+			case 1:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10273;
+				}
+				break;
+			case 2:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10271;
+				}
+				break;
+			case 3:
+				ivar4 = bitconfig_10276;
+				break;
+			case 4:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10272;
+				}
+				break;
+			case 5:
+				if (isMember() == 0) {
+					ivar4 = 0;
+				} else {
+					ivar4 = bitconfig_10274;
+				}
+				break;
+			default:
+				ivar4 = -1;
+		}
+		if (ivar4 == 1) {
+			cs2method_10467(getDataByKey('i', 'd', 5357, arg0), arg2);
+			cs2method_10380(-1, -1, arg3);
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(getDataByKey('i', 'd', 5358, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		}
+	} else if (globalint_1725 == 11) {
+		if (globalint_1808 == 1) {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5732, bitconfig_4293)));
+		} else if (globalint_1808 == 2) {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5733, bitconfig_11047)));
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5731, globalint_1808)));
+		}
+		switch (arg0) {
+			case 1:
+				ivar4 = bitconfig_4293;
+				break;
+			case 2:
+				ivar4 = bitconfig_11047;
+				break;
+			case 3:
+				ivar4 = bitconfig_11051;
+				break;
+			case 4:
+				ivar4 = bitconfig_11048;
+				break;
+			case 5:
+				ivar4 = bitconfig_11053;
+				break;
+			case 6:
+				ivar4 = bitconfig_11050;
+				break;
+			case 7:
+				ivar4 = bitconfig_11052;
+				break;
+			case 8:
+				ivar4 = bitconfig_11049;
+				break;
+			default:
+				ivar4 = -1;
+		}
+		if (ivar4 >= 1) {
+			if (arg0 == 1) {
+				cs2method_10467(getDataByKey('i', 'd', 335, ivar4), arg2);
+				cs2method_10380(-1, -1, arg3);
+			} else if (arg0 == 2) {
+				cs2method_10467(getDataByKey('i', 'd', 5729, ivar4), arg2);
+				cs2method_10380(-1, -1, arg3);
+			} else {
+				cs2method_10467(getDataByKey('i', 'd', 334, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(getDataByKey('i', 'd', 5730, arg0), arg2);
+				cs2method_10380(-1, -1, arg3);
+			}
+		}
+	} else if (globalint_1725 == 12) {
+		if (globalint_1808 < 1) {
+			setWidgetText(new WidgetPointer(1178,81), (object)"Empty");
+		} else {
+			setWidgetText(new WidgetPointer(1178,81), getItemName(getDataByKey('i', 'o', 5734, globalint_1808)));
+		}
+		while (ivar4 == 0) {
+			switch (arg0) {
+				case 1:
+					ivar4 = globalint_1812;
+					break;
+				case 2:
+					ivar4 = globalint_1813;
+					break;
+				case 3:
+					ivar4 = globalint_1814;
+					break;
+				case 4:
+					ivar4 = globalint_1815;
+					break;
+				case 5:
+					ivar4 = globalint_1816;
+					break;
+				case 6:
+					ivar4 = globalint_1817;
+					break;
+				case 7:
+					ivar4 = globalint_1818;
+					break;
+				case 8:
+					ivar4 = globalint_1819;
+					break;
+				case 9:
+					ivar4 = globalint_1820;
+					break;
+				case 10:
+					ivar4 = globalint_1821;
+					break;
+				case 11:
+					ivar4 = globalint_1822;
+					break;
+				case 12:
+					ivar4 = globalint_1823;
+					break;
+				case 13:
+					ivar4 = globalint_1824;
+					break;
+				case 14:
+					ivar4 = globalint_1825;
+					break;
+				case 15:
+					ivar4 = globalint_1826;
+					break;
+				case 16:
+					ivar4 = globalint_1827;
+					break;
+				case 17:
+					ivar4 = globalint_1828;
+					break;
+				case 18:
+					ivar4 = globalint_1829;
+					break;
+				case 19:
+					ivar4 = globalint_1830;
+					break;
+				case 20:
+					ivar4 = globalint_1831;
+					break;
+				case 21:
+					ivar4 = globalint_1832;
+					break;
+				case 22:
+					ivar4 = globalint_1833;
+					break;
+				case 23:
+					ivar4 = globalint_1834;
+					break;
+				case 24:
+					ivar4 = globalint_1835;
+					break;
+				case 25:
+					ivar4 = globalint_1836;
+					break;
+				case 26:
+					ivar4 = globalint_1837;
+					break;
+				case 27:
+					ivar4 = globalint_1838;
+					break;
+				case 28:
+					ivar4 = globalint_1839;
+					break;
+				case 29:
+					ivar4 = globalint_1840;
+					break;
+				case 30:
+					ivar4 = globalint_1841;
+					break;
+				case 31:
+					ivar4 = globalint_1842;
+					break;
+				case 32:
+					ivar4 = globalint_1843;
+					break;
+				case 33:
+					ivar4 = globalint_1844;
+					break;
+				case 34:
+					ivar4 = globalint_1845;
+					break;
+				case 35:
+					ivar4 = globalint_1846;
+					break;
+				case 36:
+					ivar4 = globalint_1847;
+					break;
+				case 37:
+					ivar4 = globalint_1848;
+					break;
+				case 38:
+					ivar4 = globalint_1849;
+					break;
+				case 39:
+					ivar4 = globalint_1850;
+					break;
+				case 40:
+					ivar4 = globalint_1851;
+					break;
+				case 41:
+					ivar4 = globalint_1852;
+					break;
+				case 42:
+					ivar4 = globalint_1853;
+					break;
+				case 43:
+					ivar4 = globalint_1854;
+					break;
+				case 44:
+					ivar4 = globalint_1855;
+					break;
+				case 45:
+					ivar4 = globalint_1856;
+					break;
+				case 46:
+					ivar4 = globalint_1857;
+					break;
+				case 47:
+					ivar4 = globalint_1858;
+					break;
+				case 48:
+					ivar4 = globalint_1859;
+					break;
+				case 49:
+					ivar4 = globalint_1860;
+					break;
+				case 50:
+					ivar4 = globalint_1861;
+					break;
+				case 51:
+					ivar4 = globalint_1862;
+					break;
+				case 52:
+					ivar4 = globalint_1863;
+					break;
+				case 53:
+					ivar4 = globalint_1864;
+					break;
+				case 54:
+					ivar4 = globalint_1865;
+					break;
+				case 55:
+					ivar4 = globalint_1866;
+					break;
+				case 56:
+					ivar4 = globalint_1867;
+					break;
+				case 57:
+					ivar4 = globalint_1868;
+					break;
+				case 58:
+					ivar4 = globalint_1869;
+					break;
+				case 59:
+					ivar4 = globalint_1870;
+					break;
+				case 60:
+					ivar4 = globalint_1871;
+					break;
+				case 61:
+					ivar4 = globalint_1872;
+					break;
+				case 62:
+					ivar4 = globalint_1873;
+					break;
+				case 63:
+					ivar4 = globalint_1874;
+					break;
+				case 64:
+					ivar4 = globalint_1875;
+					break;
+				default:
+					ivar4 = -1;
+			}
+			if (ivar4 == 0) {
+				if (arg0 < globalint_1808) {
+					arg0 = subtract(arg0, 1);
+				} else {
+					if (arg0 >= globalint_1808) {
+						arg0 = add(arg0, 1);
+					}
+				}
+			}
+		}
+		if (ivar4 == 1) {
+			cs2method_10380(getDataByKey('i', 'o', 5734, arg0), -1, arg3);
+			cs2method_10467(-1, arg2);
+		} else {
+			if (ivar4 == 0) {
+				cs2method_10467(-1, arg2);
+			}
+		}
+	} else {
+		setWidgetText(new WidgetPointer(1178,81), (object)"");
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(-1, arg1);
+		cs2method_10467(-1, arg2);
+		return -1;
+	}
+	if (ivar4 >= 1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(8754, arg1);
+	} else if (ivar4 == 0) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(8756, arg1);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+		setWidgetIsHidden(true, new WidgetPointer(arg3));
+		cs2method_10467(-1, arg1);
+		cs2method_10467(-1, arg2);
+	}
+	if (ivar4 >= 0) {
+		return arg0;
+	}
+	return -1;
+}

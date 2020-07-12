@@ -1,0 +1,32 @@
+void script_2726(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	object ovar0;
+	ivar3 = 18;
+	ivar4 = 16;
+	ivar5 = 5;
+	ivar6 = 4;
+	ivar7 = cs2method_10586(ivar5, add(arg2, 1));
+	ivar8 = add(divide(arg2, ivar5), 1);
+	ivar9 = add(multiply(cs2method_10620(arg2, ivar5), add(ivar3, ivar6)), ivar6);
+	ivar10 = add(multiply(divide(arg2, ivar5), add(ivar4, ivar6)), ivar6);
+	createChildWidget(arg0, 5, arg2);
+	setWidgetSize(ivar3, ivar4, 0, 0);
+	setItemOnWidget_10672(getDataByKey('i', 'o', 5734, arg1), -1);
+	setWidgetPosition(ivar9, ivar10, 0, 0);
+	ovar0 = getItemName(getDataByKey('i', 'o', 5734, arg1));
+	cs2method_20930(4538, new WidgetPointer(945,33), new WidgetPointer(-32768,3), -1, (string)ovar0, 180, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(945,33), "I");
+	ivar11 = add(multiply(ivar7, add(ivar3, ivar6)), ivar6);
+	ivar12 = add(multiply(ivar8, add(ivar4, ivar6)), ivar6);
+	cs2method_10893(ivar11, ivar12, 0, 0, 61931540);
+	return;
+}

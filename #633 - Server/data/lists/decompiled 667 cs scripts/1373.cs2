@@ -1,0 +1,8 @@
+void script_1373() {
+	if (cs2method_10416(49479726) == 1) {
+		script_1374(1);
+	} else {
+		script_1374(0);
+	}
+	return;
+}

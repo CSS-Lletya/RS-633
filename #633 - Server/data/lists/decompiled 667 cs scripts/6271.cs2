@@ -1,0 +1,52 @@
+void script_6271(int arg0) {
+	globalint_1934 = arg0;
+	switch (arg0) {
+		case 1:
+			cs2method_10467(11232, 84606980);
+			break;
+		case 2:
+			cs2method_10467(11232, 84606981);
+			break;
+		case 3:
+			cs2method_10467(11232, 84606982);
+			break;
+		case 4:
+			cs2method_10467(11232, 84606983);
+			break;
+		case 5:
+			cs2method_10467(11232, 84606984);
+			break;
+		case 6:
+			cs2method_10467(11232, 84606985);
+			break;
+		case 7:
+			cs2method_10467(11232, 84606986);
+			break;
+		case 8:
+			cs2method_10467(11232, 84606987);
+			break;
+		case 9:
+			cs2method_10467(11232, 84606988);
+			break;
+		case 10:
+			cs2method_10467(11232, 84606989);
+			break;
+		case 11:
+			cs2method_10467(11232, 84606990);
+			break;
+		case 12:
+			cs2method_10467(11232, 84606991);
+			break;
+		case 13:
+			cs2method_10467(11232, 84606992);
+	}
+	if (cs2method_10842() == 1) {
+		if (globalint_1929 < 0) {
+			globalint_1929 = 0;
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1296,22));
+		setWidgetIsHidden(false, new WidgetPointer(1296,6));
+		cs2method_10444(120, 2, 2, 0, 84934679);
+	}
+	return;
+}

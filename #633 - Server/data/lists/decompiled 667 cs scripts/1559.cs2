@@ -1,0 +1,8 @@
+void script_1559(int arg0) {
+	if (cs2method_10653(49283081, -1) == 1) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(752,9));
+	script_1560(arg0);
+	return;
+}

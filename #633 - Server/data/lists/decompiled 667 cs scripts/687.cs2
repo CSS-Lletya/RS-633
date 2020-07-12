@@ -1,0 +1,88 @@
+void script_687(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(arg3));
+	ivar7 = 0;
+	while (ivar7 <= 27) {
+		if (cs2method_10551(arg1, multiply(ivar7, 6)) == 1) {
+			cs2method_10305(200);
+		}
+		ivar7 = add(ivar7, 1);
+	}
+	if (cs2method_10551(arg1, arg2) == 1) {
+		cs2method_10305(150);
+	}
+	setWidgetText(new WidgetPointer(arg5), (object)getDataByKey('i', 's', 1099, arg0));
+	ivar8 = getDataByKey('i', 'n', 1098, arg0);
+	ivar9 = 0;
+	ivar10 = 0;
+	ovar0 = (object)getDataByKey('i', 's', 1100, arg0);
+	if (ivar8 != -1) {
+		ivar7 = cs2method_30762(ivar8, 356);
+		ivar9 = divide(ivar7, 100);
+		ivar10 = cs2method_10542(cs2method_10620(ivar7, 100), 100, 60);
+		if (ivar10 < 10) {
+			ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "Initial duration: " + toString(ivar9) + ":0" + toString(ivar10));
+		} else {
+			ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "Initial duration: " + toString(ivar9) + ":" + toString(ivar10));
+		}
+	}
+	setWidgetText(new WidgetPointer(arg6), ovar0);
+	ivar11 = 0;
+	if (subtract(subtract(2147483647, getItemAmtInContainer(93, 995)), getItemAmtInContainer(623, 995)) > 0) {
+		ivar11 = add(getItemAmtInContainer(93, 995), getItemAmtInContainer(623, 995));
+	} else {
+		ivar11 = 2147483647;
+	}
+	ivar7 = getDataByKey('i', 'i', 1101, arg0);
+	if (ivar7 < 0) {
+		setWidgetText(new WidgetPointer(arg4), (object)("<col=ff0000>" + "Unavailable" + "</col>"));
+		return;
+	}
+	if (ivar7 == 0) {
+		ovar0 = (object)"(No charge)";
+	} else if (ivar7 == 1) {
+		if (ivar11 > 0) {
+			ovar0 = (object)"1 coin";
+		} else {
+			ovar0 = (object)("<col=ff0000>" + "1 coin" + "</col>");
+		}
+	} else if (ivar11 >= ivar7) {
+		ovar0 = (object)((string)cs2method_10595(ivar7, 1) + " coins");
+		if (cs2method_10242(cs2method_10956(arg4), 496, ovar0) > subtract(cs2method_10956(arg4), 5)) {
+			ovar0 = (object)((string)cs2method_10595(ivar7, 1) + "<br>" + "coins");
+		}
+	} else {
+		ovar0 = (object)("<col=ff0000>" + (string)cs2method_10595(ivar7, 1) + " coins" + "</col>");
+		if (cs2method_10242(cs2method_10956(arg4), 496, ovar0) > subtract(cs2method_10956(arg4), 5)) {
+			ovar0 = (object)("<col=ff0000>" + (string)cs2method_10595(ivar7, 1) + "</col>" + "<br>" + "<col=ff0000>" + "coins" + "</col>");
+		}
+	}
+	setWidgetText(new WidgetPointer(arg4), cs2method_10445((object)("Confirm:" + "<br>"), ovar0));
+	ivar7 = 0;
+	ivar12 = -1;
+	while (ivar7 <= 27) {
+		createChildWidget(arg3, 5, ivar7);
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetSize(cs2method_10956(arg3), cs2method_10090(arg3), 0, 0);
+		if (ivar7 == arg0) {
+			cs2method_10469(833);
+			cs2method_10692(0);
+			ivar12 = 834;
+			cs2method_20211(688, new WidgetPointer(-32768,3), -2147483643, ivar12, "Iid");
+			ivar12 = 833;
+			cs2method_20139(688, new WidgetPointer(-32768,3), -2147483643, ivar12, "Iid");
+			setWidgetContextMenuOption(1, (object)"Confirm:");
+			cs2method_11002((object)("<col=ff9040>" + getDataByKey('i', 's', 1099, arg0) + "</col>"));
+		} else {
+			cs2method_10692(1);
+		}
+		ivar7 = add(ivar7, 1);
+	}
+	return;
+}

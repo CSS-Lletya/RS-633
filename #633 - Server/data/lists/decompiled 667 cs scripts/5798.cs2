@@ -1,0 +1,117 @@
+int script_5798(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,object arg7) {
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	object ovar1;
+	object ovar2;
+	ivar7 = subtract(arg2, 1);
+	if (ivar7 == -1) {
+		ivar7 = cs2method_10860(arg4);
+	}
+	if (script_3999(arg0) == 0) {
+		arg1 = script_5795(arg0);
+	} else {
+		arg1 = script_5795(getGeneralRequirementAttribute(arg1, 1268));
+	}
+	if (arg1 == -1) {
+		return arg3;
+	}
+	ovar1 = (object)"";
+	ovar2 = (object)"Click to toggle a map hint for this step.";
+	ivar8 = 0;
+	switch (arg2) {
+		case 0:
+			ovar1 = arg7;
+			break;
+		case 1:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1274);
+			if (getGeneralRequirementAttribute(arg1, 1282) != -1 && getGeneralRequirementAttribute(arg1, 1282) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 2:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1275);
+			if (getGeneralRequirementAttribute(arg1, 1283) != -1 && getGeneralRequirementAttribute(arg1, 1283) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 3:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1276);
+			if (getGeneralRequirementAttribute(arg1, 1284) != -1 && getGeneralRequirementAttribute(arg1, 1284) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 4:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1277);
+			if (getGeneralRequirementAttribute(arg1, 1285) != -1 && getGeneralRequirementAttribute(arg1, 1285) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 5:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1278);
+			if (getGeneralRequirementAttribute(arg1, 1286) != -1 && getGeneralRequirementAttribute(arg1, 1286) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 6:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1279);
+			if (getGeneralRequirementAttribute(arg1, 1287) != -1 && getGeneralRequirementAttribute(arg1, 1287) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 7:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1280);
+			if (getGeneralRequirementAttribute(arg1, 1288) != -1 && getGeneralRequirementAttribute(arg1, 1288) != 103815360) {
+				ivar8 = 1;
+			}
+			break;
+		case 8:
+			ovar1 = (object)getGeneralRequirementAttribute(arg1, 1281);
+			if (getGeneralRequirementAttribute(arg1, 1289) != -1 && getGeneralRequirementAttribute(arg1, 1289) != 103815360) {
+				ivar8 = 1;
+			}
+	}
+	if (compareTo(ovar1, (object)"") == 0) {
+		return arg3;
+	}
+	ivar9 = subtract(cs2method_10956(arg4), 26);
+	ivar10 = 20;
+	if (ivar8 == 0) {
+		ivar9 = add(ivar9, 20);
+		ivar10 = 0;
+	}
+	ivar11 = cs2method_10004(add(ivar10, 5), multiply(15, getLineCount(ivar9, 3793, ovar1)));
+	createChildWidget(arg4, 4, ivar7);
+	setWidgetText(ovar1);
+	cs2method_10692(0);
+	setWidgetFont(3793);
+	setWidgetRGB(new Color(247, 237, 183));
+	if (ivar8 == 1) {
+		setWidgetContextMenuOption(1, (object)"Toggle-hint");
+		cs2method_10483(1, 172);
+	}
+	setWidgetTextAlignment(0, 1, 13);
+	setWidgetSize(ivar9, ivar11, 0, 0);
+	setWidgetPosition(0, arg3, 3, 0);
+	if (arg5 != -1) {
+		createChildWidget(arg5, 5, ivar7);
+		if (ivar8 == 1) {
+			cs2method_10692(0);
+			setWidgetContextMenuOption(1, (object)"Toggle-hint");
+			cs2method_10483(1, 172);
+			setWidgetSize(17, 18, 0, 0);
+			setWidgetPosition(0, add(arg3, divide(subtract(ivar11, cs2method_10630()), 2)), 3, 0);
+			if (bitconfig_8578 == arg2 && bitconfig_8594 == arg0) {
+				cs2method_10469(9615);
+				script_5779(1, ivar7, arg5);
+			} else {
+				cs2method_10469(9618);
+				script_5779(0, ivar7, arg5);
+			}
+		}
+	}
+	arg3 = add(arg3, ivar11);
+	return arg3;
+}

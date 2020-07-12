@@ -1,0 +1,21 @@
+void script_3283(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	if (arg3 == 0) {
+		arg3 = 12;
+	}
+	ivar4 = getLineCount(add(cs2method_10956(arg1), 16), arg2, cs2method_10100(arg1));
+	ivar4 = multiply(ivar4, arg3);
+	cs2method_10998((object)("txt " + toString(ivar4) + ", layer " + toString(cs2method_10090(arg1))));
+	if (cs2method_10090(arg1) >= ivar4) {
+		cs2method_10998((object)("No scroll txt " + toString(ivar4) + ", layer " + toString(cs2method_10090(arg1))));
+		cs2method_10893(add(cs2method_10956(arg1), 16), cs2method_10090(arg1), 0, 0, arg1);
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	} else {
+		ivar4 = getLineCount(cs2method_10956(arg1), arg2, cs2method_10100(arg1));
+		ivar4 = multiply(ivar4, arg3);
+		setWidgetScrollMax(0, add(ivar4, 10), arg1);
+		cs2method_10998((object)("Scroll txt " + toString(ivar4) + ", layer " + toString(cs2method_10090(arg1))));
+		script_31(arg0, arg1, 792, 789, 790, 791, 773, 788);
+	}
+	return;
+}

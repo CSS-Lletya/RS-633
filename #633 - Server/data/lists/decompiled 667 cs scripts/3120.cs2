@@ -1,0 +1,14 @@
+void script_3120(int arg0) {
+	if (cs2method_10551(arg0, 1) == 1) {
+		cs2method_10692(0);
+		setWidgetRGB(new Color(96, 96, 96));
+	}
+	if (cs2method_10551(arg0, 2) == 1) {
+		cs2method_10692(0);
+		setWidgetRGB(new Color(64, 64, 64));
+	}
+	if (cs2method_10551(arg0, 4) == 1) {
+		cs2method_10469(1542);
+	}
+	return;
+}

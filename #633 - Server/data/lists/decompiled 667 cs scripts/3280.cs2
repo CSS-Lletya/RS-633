@@ -1,0 +1,22 @@
+void script_3280(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = 0;
+	ivar4 = 0;
+	switch (arg2) {
+		case 1:
+			ivar3 = divide(cs2method_10956(61734915), 4);
+			ivar4 = divide(cs2method_10090(61734915), 4);
+			break;
+		case 2:
+			ivar3 = divide(cs2method_10956(61734915), 4);
+			break;
+	}
+	createChildWidget(61734916, 5, globalint_1151);
+	globalint_1151 = add(globalint_1151, 1);
+	setWidgetSize(32, 32, 0, 0);
+	cs2method_10469(2831);
+	setWidgetPosition(add(multiply(arg0, 32), ivar3), add(multiply(arg1, 32), ivar4), 0, 2);
+	cs2method_10692(0);
+	return;
+}

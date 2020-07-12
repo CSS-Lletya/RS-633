@@ -1,0 +1,44 @@
+void script_401(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ovar0 = (object)globalstring_320;
+	if (cs2method_10366((object)globalstring_319) > 0 && standart_config_170 == 1) {
+		ovar0 = (object)globalstring_319;
+	}
+	if (cs2method_10551(arg1, 0) == 1 && compareTo(ovar0, cs2method_10775()) == 0) {
+		return;
+	}
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	ivar3 = cs2method_10956(arg0);
+	ivar4 = 0;
+	cs2method_10085(0, 0, arg1);
+	cs2method_10444(ivar4, 0, 0, 1, arg1);
+	ivar5 = add(multiply(getLineCount(ivar3, 307, ovar0), 12), 3);
+	if (ivar5 > cs2method_10090(arg0)) {
+		ivar3 = subtract(ivar3, add(cs2method_10956(arg2), 5));
+		cs2method_10893(ivar3, 0, 0, 1, arg1);
+		ivar5 = add(multiply(getLineCount(ivar3, 307, ovar0), 12), 3);
+		setWidgetScrollMax(0, ivar5, arg1);
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+		script_31(arg2, arg1, 792, 789, 790, 791, 773, 788);
+	} else {
+		ivar5 = cs2method_10090(arg0);
+		cs2method_10893(ivar3, 0, 0, 1, arg1);
+		setWidgetScrollMax(0, 0, arg1);
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+	}
+	createChildWidget(arg1, 4, 0);
+	setWidgetSize(0, ivar5, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	setWidgetFont(307);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetRGB(new Color(0, 0, 0));
+	cs2method_10320(0);
+	setWidgetText(ovar0);
+	setWidgetFont(307, 13107204);
+	return;
+}

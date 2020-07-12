@@ -1,0 +1,16 @@
+void script_4673(int arg0) {
+	switch (arg0) {
+		case 6:
+		case 2:
+		case 3:
+			setWidgetIsHidden(true, new WidgetPointer(102,61));
+			setWidgetIsHidden(false, new WidgetPointer(102,60));
+			cs2method_20219(4674, "", new WidgetPointer(102,60));
+			break;
+		default:
+			setWidgetIsHidden(true, new WidgetPointer(102,60));
+			setWidgetIsHidden(false, new WidgetPointer(102,61));
+			cs2method_20219(4674, "", new WidgetPointer(102,61));
+	}
+	return;
+}

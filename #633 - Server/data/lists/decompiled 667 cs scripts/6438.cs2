@@ -1,0 +1,18 @@
+void script_6438(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 494;
+	ivar2 = cs2method_10090(arg0);
+	if (ivar2 == 75) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		return;
+	}
+	if (ivar2 < 72) {
+		ivar2 = add(ivar2, 3);
+		cs2method_10893(ivar1, ivar2, 0, 0, arg0);
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1307,29));
+		cs2method_10893(ivar1, 75, 0, 0, arg0);
+	}
+	return;
+}

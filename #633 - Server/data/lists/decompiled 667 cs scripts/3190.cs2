@@ -1,0 +1,30 @@
+void script_3190() {
+	cs2method_10070(59375703, 915);
+	setWidgetIsHidden(false, new WidgetPointer(906,70));
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, 5)) == 0) {
+		script_3161(0);
+	}
+	if (cs2method_10366((object)globalstring_279) > 0) {
+		setWidgetText(new WidgetPointer(915,49), (object)("Reporting: " + globalstring_279));
+	} else {
+		setWidgetText(new WidgetPointer(915,49), (object)"Report");
+	}
+	if (cs2method_10974() == 1 || cs2method_10433() > 0) {
+		if (globalint_6 == 0) {
+			cs2method_10467(4084, 59965486);
+		} else {
+			cs2method_10467(4086, 59965486);
+		}
+		if (cs2method_10071() == 5 || cs2method_10071() == 6) {
+			setWidgetText(new WidgetPointer(915,47), (object)"Suggest to mute this player for 48 hours");
+		} else {
+			setWidgetText(new WidgetPointer(915,47), (object)"Mute this player for 48 hours");
+		}
+		cs2method_10893(add(cs2method_10355(3793, cs2method_10100(59965487)), 18), cs2method_10090(59965485), 0, 0, 59965485);
+		setWidgetIsHidden(false, new WidgetPointer(915,45));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(915,45));
+	}
+	setScriptCallOnKeyPress(3201, -2147483640, "i", new WidgetPointer(915,18));
+	return;
+}

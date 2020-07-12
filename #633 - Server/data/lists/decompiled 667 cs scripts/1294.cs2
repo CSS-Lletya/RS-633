@@ -1,0 +1,59 @@
+void script_1294() {
+	if (cs2method_10184(standart_config_383, 1) == 1) {
+		cs2method_10461(4912, 9437318);
+	}
+	if (cs2method_10184(standart_config_383, 2) == 1) {
+		cs2method_10461(4912, 9437319);
+	}
+	if (cs2method_10184(standart_config_383, 3) == 1) {
+		cs2method_10461(4913, 9437320);
+	}
+	if (cs2method_10184(standart_config_383, 4) == 1) {
+		cs2method_10461(4912, 9437321);
+	}
+	if (cs2method_10184(standart_config_383, 5) == 1) {
+		cs2method_10461(4912, 9437322);
+	}
+	if (cs2method_10184(standart_config_383, 6) == 1) {
+		cs2method_10461(4913, 9437323);
+	}
+	if (cs2method_10184(standart_config_383, 7) == 1) {
+		cs2method_10461(4913, 9437324);
+	}
+	if (cs2method_10184(standart_config_383, 8) == 1) {
+		cs2method_10461(4912, 9437325);
+	}
+	if (standart_config_383 > 8191) {
+		setWidgetIsHidden(true, new WidgetPointer(144,186));
+		cs2method_10467(296, 9437330);
+	}
+	if (cs2method_10184(standart_config_383, 14) == 1) {
+		cs2method_10461(4910, 9437358);
+		cs2method_10535(1456, 9437358);
+	}
+	if (cs2method_10184(standart_config_383, 15) == 1) {
+		cs2method_10461(4910, 9437356);
+		cs2method_10535(1456, 9437356);
+	}
+	if (cs2method_10184(standart_config_383, 16) == 1) {
+		cs2method_10461(4910, 9437360);
+		cs2method_10535(1456, 9437360);
+	}
+	if (cs2method_10184(standart_config_383, 17) == 1) {
+		cs2method_10461(4910, 9437362);
+		cs2method_10535(1455, 9437362);
+	}
+	if (cs2method_10184(standart_config_383, 18) == 1) {
+		cs2method_10461(4910, 9437364);
+		cs2method_10535(1455, 9437364);
+	}
+	if (cs2method_10184(standart_config_383, 19) == 1) {
+		cs2method_10461(4910, 9437367);
+		cs2method_10535(1453, 9437367);
+	}
+	if (cs2method_10184(standart_config_383, 20) == 1) {
+		cs2method_10461(4910, 9437369);
+		cs2method_10535(1453, 9437369);
+	}
+	return;
+}

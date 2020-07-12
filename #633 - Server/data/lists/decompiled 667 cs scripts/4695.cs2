@@ -1,0 +1,17 @@
+void script_4695(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = cs2method_10878();
+	if (ivar2 >= add(arg0, 15) || arg0 == 0) {
+		cs2method_10149(arg1, 32768011);
+		arg0 = ivar2;
+		if (globalint_1548 == 0) {
+			arg1 = 255;
+		} else if (arg1 == 255) {
+			arg1 = 0;
+		} else {
+			arg1 = 255;
+		}
+	}
+	cs2method_20219(4695, arg0, arg1, "ii", new WidgetPointer(500,11));
+	return;
+}

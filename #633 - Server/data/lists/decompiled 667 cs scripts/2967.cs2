@@ -1,0 +1,50 @@
+void script_2967(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	script_3209();
+	script_3208(1);
+	ivar1 = script_3228(7, 0, 0);
+	ivar2 = script_3228(8, 0, 0);
+	ivar3 = 1;
+	if (compareTo((object)globalstring_124, (object)globalstring_125) != 0 && cs2method_10366((object)globalstring_124) > 0 && cs2method_10366((object)globalstring_125) > 0) {
+		script_3213(44105801, (object)"Please ensure both passwords match.");
+		ivar3 = 0;
+	}
+	ivar4 = 1;
+	if (cs2method_10366((object)globalstring_122) <= 0) {
+		script_3213(44105821, (object)"Please enter your Email address here.");
+		ivar4 = 0;
+	}
+	if (script_3936((object)globalstring_122) == 0) {
+		script_3213(44105821, (object)"Please enter a valid Email address.");
+		ivar4 = 0;
+	}
+	ivar5 = 1;
+	if (cs2method_10366((object)globalstring_326) <= 0) {
+		script_3213(44105840, (object)"Please enter your Email address again here.");
+		ivar5 = 0;
+	}
+	if (compareTo((object)globalstring_122, (object)globalstring_326) != 0) {
+		script_3213(44105840, (object)"Please ensure both Email addresses match.");
+		ivar5 = 0;
+	}
+	ivar6 = script_3954(0);
+	if (ivar4 == 1 && ivar5 == 1 && ivar1 == 1 && ivar2 == 1 && ivar3 == 1 && ivar6 == 1) {
+		if (globalint_1407 < 13) {
+			cs2method_10296();
+			script_4038();
+		} else if (cs2method_10491() == 1) {
+			script_4038();
+		} else {
+			cs2method_10977(globalint_1407, globalint_1411, (object)globalstring_122, (object)globalstring_124);
+			cs2method_20219(3220, "", new WidgetPointer(673,26));
+		}
+	} else {
+		script_3208(0);
+	}
+	return;
+}

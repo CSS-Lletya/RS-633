@@ -1,0 +1,29 @@
+void script_4853() {
+	script_4863();
+	switch (bitconfig_9552) {
+		case 0:
+			setWidgetIsHidden(true, new WidgetPointer(1259,5));
+			if (globalint_1794 == 0) {
+				setWidgetIsHidden(false, new WidgetPointer(1259,5));
+			}
+			break;
+		case 1:
+			script_4860();
+			script_4862();
+			break;
+		case 2:
+			script_4860();
+			break;
+		case 4:
+			script_4860();
+			script_4861();
+			break;
+		case 3:
+			script_5170();
+			script_4860();
+			script_4858();
+	}
+	script_4856();
+	script_4857();
+	return;
+}

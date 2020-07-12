@@ -1,0 +1,7 @@
+void script_826() {
+	int ivar0;
+	ivar0 = cs2method_10878();
+	cs2method_20219(827, ivar0, "i", new WidgetPointer(465,2));
+	cs2method_10508(4437, 1, 58);
+	return;
+}

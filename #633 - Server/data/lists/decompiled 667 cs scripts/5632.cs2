@@ -1,0 +1,35 @@
+void script_5632(int arg0,int arg1) {
+	int ivar2;
+	if (arg0 == -1 || arg1 == -1) {
+		return;
+	}
+	ivar2 = getGeneralRequirementAttribute(arg1, 1346);
+	if (ivar2 == 2) {
+		cs2method_20333(4159, new WidgetPointer(-32768,3), 0, 0, "Iii", new WidgetPointer(arg0));
+		cs2method_20295(4159, new WidgetPointer(-32768,3), 1, 0, "Iii", new WidgetPointer(arg0));
+	} else {
+		if (ivar2 == 3) {
+			setScriptCallOnMousePressed(4162, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+			cs2method_20645(4163, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+			cs2method_20295(4163, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+		}
+	}
+	if (ivar2 == 5) {
+		clearExtraChildren(new WidgetPointer(arg0));
+		createChildWidget(arg0, 3, cs2method_10860(arg0));
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetPosition(0, 0, 0, 0);
+		setWidgetRGB(new Color(0, 0, 0));
+		cs2method_10305(128);
+		setWidgetFilled(1);
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		cs2method_10129(1, arg0);
+	} else {
+		script_4204(arg0, arg1);
+	}
+	if (ivar2 == 4 || ivar2 == 5) {
+		script_4161(arg0, 0);
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	}
+	return;
+}

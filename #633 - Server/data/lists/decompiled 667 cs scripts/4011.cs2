@@ -1,0 +1,59 @@
+void script_4011() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	if (globalint_699 == -1) {
+		return;
+	}
+	ivar0 = script_2193(getGeneralRequirementAttribute(globalint_699, 847));
+	if (ivar0 == 2) {
+		setWidgetText(new WidgetPointer(1243,66), (object)"Quest complete!");
+	} else if (ivar0 == 1) {
+		setWidgetText(new WidgetPointer(1243,66), (object)"Started");
+	} else {
+		setWidgetText(new WidgetPointer(1243,66), (object)"Not started");
+	}
+	ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 845);
+	ivar1 = cs2method_10355(cs2method_10894(81461254), ovar0);
+	cs2method_10893(add(ivar1, 30), cs2method_10090(81461250), 0, 0, 81461250);
+	setWidgetText(new WidgetPointer(1243,6), ovar0);
+	cs2method_10467(getGeneralRequirementAttribute(globalint_699, 952), 81461315);
+	ivar1 = script_4249(81461265, 81461266, 81461267, -1, -1, ivar0, 0, (object)("<col=ebe076>" + "Start point:" + "</col>"), (object)getGeneralRequirementAttribute(globalint_699, 948));
+	ivar1 = script_4249(81461268, 81461269, 81461270, -1, -1, ivar0, ivar1, (object)("<col=ebe076>" + "Requirements:" + "</col>"), (object)globalstring_359);
+	ivar1 = script_4249(81461271, 81461272, 81461273, 81461274, 81461279, ivar0, ivar1, (object)("<col=ebe076>" + "Required items:" + "</col>"), (object)getGeneralRequirementAttribute(globalint_699, 949));
+	ivar1 = script_4249(81461280, 81461281, 81461282, -1, -1, ivar0, ivar1, (object)("<col=ebe076>" + "Combat:" + "</col>"), (object)getGeneralRequirementAttribute(globalint_699, 950));
+	switch (globalint_699) {
+		case 658:
+			if (standart_config_179 >= 21 && bitconfig_7997 == 0) {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 1212);
+			} else {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 951);
+			}
+			break;
+		case 659:
+			if (standart_config_67 >= 3 && bitconfig_7998 == 0) {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 1212);
+			} else {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 951);
+			}
+			break;
+		case 1137:
+			if (standart_config_144 == 100) {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 1212);
+			} else {
+				ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 951);
+			}
+			break;
+		default:
+			ovar0 = (object)getGeneralRequirementAttribute(globalint_699, 951);
+	}
+	ivar1 = script_4249(81461283, 81461284, 81461285, 81461286, 81461291, ivar0, ivar1, (object)("<col=ebe076>" + "Rewards:" + "</col>"), ovar0);
+	if (ivar1 > cs2method_10090(81461264)) {
+		setWidgetScrollMax(0, ivar1, 81461264);
+		script_31(81461292, 81461264, 5666, 5663, 5664, 5665, 5686, 5685);
+	} else {
+		setWidgetScrollMax(0, 0, 81461264);
+		clearExtraChildren(new WidgetPointer(1243,44));
+	}
+	return;
+}

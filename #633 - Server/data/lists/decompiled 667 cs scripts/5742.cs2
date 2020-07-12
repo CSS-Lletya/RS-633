@@ -1,0 +1,5 @@
+void script_5742(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	cs2method_20835(4538, new WidgetPointer(arg0), new WidgetPointer(arg1), -1, (string)arg4, arg2, -1, -1, -1, 12, 3, arg3, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(arg1));
+	cs2method_20295(40, new WidgetPointer(arg0), "I", new WidgetPointer(arg1));
+	return;
+}

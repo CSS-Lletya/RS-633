@@ -1,0 +1,158 @@
+cs2func_script_4217_struct(2,0,0) script_4217() {
+	int ivar0;
+	int ivar1;
+	int stack_dump0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar0 = add(ivar0, cs2method_10011(7));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(12));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(11));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(10));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(6));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(14));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(5));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(4));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(20));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(13));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(8));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(16));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(15));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(9));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(17));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(18));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(0));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(1));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(2));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(3));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(19));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(22));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(21));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(23));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	ivar0 = add(ivar0, cs2method_10011(24));
+	if (ivar0 > 1000000000) {
+		stack_dump0 = add(ivar1, 1);
+		ivar0 = subtract(ivar0, 1000000000);
+		ivar1 = stack_dump0;
+	}
+	return newstruct cs2func_script_4217_struct(ivar0, ivar1);
+}

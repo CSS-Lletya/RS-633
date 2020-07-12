@@ -1,0 +1,6 @@
+void script_3464(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10021(cs2method_10456(), cs2method_10635(), cs2method_10221(), cs2method_10620(add(cs2method_10057(), 2), 2028), cs2method_10022(), cs2method_10142());
+	}
+	return;
+}

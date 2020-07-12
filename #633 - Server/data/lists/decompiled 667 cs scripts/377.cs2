@@ -1,0 +1,22 @@
+void script_377(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10714();
+	}
+	if (cs2method_10551(arg0, add(arg1, 1)) == 1) {
+		cs2method_10714();
+	}
+	if (cs2method_10551(arg0, add(arg1, 2)) == 1) {
+		cs2method_10714();
+	}
+	if (cs2method_10551(arg0, add(arg1, 3)) == 1) {
+		cs2method_10714();
+	}
+	if (cs2method_10551(arg0, add(arg1, 4)) == 1) {
+		cs2method_10714();
+	}
+	if (cs2method_10551(arg0, add(arg1, 5)) == 1) {
+		cs2method_10714();
+	}
+	script_383();
+	return;
+}

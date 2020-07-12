@@ -1,0 +1,10 @@
+void script_1517(int arg0,int arg1) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (globalint_779 != -1) {
+			cs2method_10451(cs2method_10809(globalint_779));
+		} else {
+			cs2method_10451(cs2method_10809(1426));
+		}
+	}
+	return;
+}

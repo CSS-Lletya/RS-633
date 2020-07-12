@@ -1,0 +1,68 @@
+void script_4105(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	object ovar0;
+	if (globalint_729 > 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)((string)cs2method_10595(globalint_729, 1) + " coins"));
+	} else if (globalint_729 == 1) {
+		setWidgetText(new WidgetPointer(arg0), (object)"1 coin");
+	} else if (globalint_729 == 0) {
+		setWidgetText(new WidgetPointer(arg0), (object)"Nothing");
+	} else {
+		setWidgetText(new WidgetPointer(arg0), (object)"Lots!");
+	}
+	if (globalint_697 > 1) {
+		setWidgetText(new WidgetPointer(arg1), (object)((string)cs2method_10595(globalint_697, 1) + " coins"));
+	} else if (globalint_697 == 1) {
+		setWidgetText(new WidgetPointer(arg1), (object)"1 coin");
+	} else if (globalint_697 == 0) {
+		setWidgetText(new WidgetPointer(arg1), (object)("<col=ff0000>" + "Nothing" + "</col>"));
+	} else {
+		setWidgetText(new WidgetPointer(arg1), (object)"Lots!");
+	}
+	ovar0 = (object)("<col=ff0000>" + "Unknown" + "</col>");
+	ivar5 = 0;
+	if (globalint_729 < 0) {
+		if (globalint_697 < 0) {
+			setWidgetText(new WidgetPointer(arg2), ovar0);
+			setWidgetIsHidden(true, new WidgetPointer(arg3));
+		} else {
+			setWidgetText(new WidgetPointer(arg2), ovar0);
+			setWidgetIsHidden(false, new WidgetPointer(arg3));
+			cs2method_10467(1174, arg3);
+			cs2method_10444(script_4106(arg4, ovar0), 0, 0, 2, arg3);
+		}
+	} else if (globalint_697 < 0) {
+		ovar0 = (object)"Unknown";
+		setWidgetText(new WidgetPointer(arg2), ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(1172, arg3);
+		cs2method_10444(script_4106(arg4, ovar0), 0, 2, 2, arg3);
+	} else if (ivar5 > 0) {
+		if (ivar5 == 1) {
+			ovar0 = (object)("<col=ff0000>" + "1 coin" + "</col>");
+		} else {
+			ovar0 = (object)("<col=ff0000>" + (string)cs2method_10595(ivar5, 1) + " coins" + "</col>");
+		}
+		setWidgetText(new WidgetPointer(arg2), ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(1174, arg3);
+		cs2method_10444(script_4106(arg4, ovar0), 0, 0, 2, arg3);
+	} else if (ivar5 < 0) {
+		ivar5 = subtract(0, ivar5);
+		if (ivar5 == 1) {
+			ovar0 = (object)"1 coin";
+		} else {
+			ovar0 = (object)((string)cs2method_10595(ivar5, 1) + " coins");
+		}
+		setWidgetText(new WidgetPointer(arg2), ovar0);
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10467(1172, arg3);
+		cs2method_10444(script_4106(arg4, ovar0), 0, 2, 2, arg3);
+	} else {
+		ovar0 = (object)"No net transfer";
+		setWidgetText(new WidgetPointer(arg2), ovar0);
+		setWidgetIsHidden(true, new WidgetPointer(arg3));
+	}
+	ivar5 = subtract(globalint_729, globalint_697);
+	return;
+}

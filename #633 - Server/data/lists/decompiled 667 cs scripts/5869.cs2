@@ -1,0 +1,4 @@
+void script_5869() {
+	script_5871(bitconfig_8576, bitconfig_8578);
+	return;
+}

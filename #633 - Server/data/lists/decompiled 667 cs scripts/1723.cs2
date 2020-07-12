@@ -1,0 +1,10 @@
+void script_1723(int arg0,int arg1,int arg2,int arg3) {
+	if (cs2method_10878() < arg3) {
+		return;
+	}
+	if (cs2method_10551(arg0, arg1) == 1 || arg1 == -1 && cs2method_10403(arg0) == 1) {
+		cs2method_10469(arg2);
+		cs2method_20745(-1, "");
+	}
+	return;
+}

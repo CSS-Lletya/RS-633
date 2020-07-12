@@ -1,0 +1,44 @@
+int script_121(int arg0) {
+	if (cs2method_10842() >= 2) {
+		return script_1742(arg0);
+	}
+	switch (arg0) {
+		case 0:
+			return 35913850;
+		case 1:
+			return 35913851;
+		case 2:
+			return 35913852;
+		case 3:
+			return 35913853;
+		case 4:
+			return 35913854;
+		case 5:
+			return 35913855;
+		case 6:
+			return 35913856;
+		case 7:
+			return 35913857;
+		case 8:
+			return 35913821;
+		case 9:
+			return 35913822;
+		case 10:
+			return 35913823;
+		case 11:
+			return 35913824;
+		case 12:
+			return 35913825;
+		case 13:
+			return 35913826;
+		case 14:
+			return 35913827;
+		case 15:
+			return 35913828;
+		case 95:
+			return 48955401;
+		case 99:
+			return 35913889;
+	}
+	return -1;
+}

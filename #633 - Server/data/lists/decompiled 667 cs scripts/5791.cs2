@@ -1,0 +1,57 @@
+void script_5791() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	cs2func_script_5814_struct(3,0,0) structdump_1;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar0 = (object)"Keep doing this for as long as you want.";
+	ivar4 = 0;
+	ovar1 = (object)"";
+	setWidgetIsHidden(true, new WidgetPointer(1220,8));
+	setWidgetIsHidden(true, new WidgetPointer(1220,0));
+	setWidgetIsHidden(true, new WidgetPointer(1220,22));
+	if (script_3999(bitconfig_10700) == 0 && bitconfig_10700 == bitconfig_8576) {
+		setWidgetIsHidden(false, new WidgetPointer(1220,22));
+		setWidgetIsHidden(false, new WidgetPointer(1220,25));
+		setWidgetIsHidden(false, new WidgetPointer(1056,125));
+		script_4212(79953949, 4040, 15458492, 0, (object)"Recommended");
+		cs2method_10444(cs2method_10111(79953943), add(cs2method_10826(79953941), 2), 0, 0, 79953943);
+		script_5784(79953941);
+	} else if (bitconfig_9030 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1220,25));
+		setWidgetIsHidden(true, new WidgetPointer(1056,125));
+		script_4212(79953949, 4040, 15458492, 0, (object)"Next Task");
+		cs2method_10444(cs2method_10111(79953943), add(cs2method_10826(79953941), 2), 0, 0, 79953943);
+		stack_dump0 = bitconfig_8576;
+		structdump_1 = script_5814(stack_dump0);
+		ivar2 = structdump_1.intpart_2;
+		ivar1 = structdump_1.intpart_1;
+		ivar0 = structdump_1.intpart_0;
+		if (ivar0 != 0 && isMember() == 1) {
+			setWidgetIsHidden(false, new WidgetPointer(1220,8));
+			setWidgetIsHidden(false, new WidgetPointer(1220,0));
+			script_4542(cs2method_10542(ivar1, ivar2, 100), 79953954, 79953959);
+			script_4212(79953959, 494, 15458492, 0, (object)"");
+			setWidgetText(new WidgetPointer(1220,10), (object)getDataByKey('i', 's', 5482, ivar0));
+			setWidgetRGB(15052881, 79953930);
+			ovar1 = (object)(toString(ivar1) + " of " + toString(ivar2) + " Tasks done in this stage.");
+			cs2method_20835(4538, new WidgetPointer(1220,28), new WidgetPointer(-32768,3), -1, (string)ovar1, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1220,0));
+		}
+		script_4531(79953941);
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1220,25));
+		setWidgetIsHidden(false, new WidgetPointer(1056,125));
+		script_4212(79953949, 4040, 15458492, 0, (object)"Active Task");
+		cs2method_10444(cs2method_10111(79953943), add(cs2method_10826(79953941), 2), 0, 0, 79953943);
+		script_4531(79953941);
+	}
+	return;
+}

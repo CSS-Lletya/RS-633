@@ -1,0 +1,42 @@
+cs2func_script_6372_struct(3,0,0) script_6372() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 30;
+	ivar6 = subtract(cs2method_10391(1), globalint_2104);
+	ivar7 = cs2method_10586(100, cs2method_10004(-100, cs2method_10542(ivar6, ivar5, 100)));
+	switch (cs2method_30762(globalint_2103, 26)) {
+		case 1:
+			ivar0 = standart_config_2670;
+			ivar1 = cs2method_30762(globalint_2103, 29);
+			ivar2 = 3;
+			break;
+		case 2:
+			ivar0 = standart_config_2671;
+			ivar1 = cs2method_30762(globalint_2103, 4);
+			ivar2 = 1;
+			break;
+		case 3:
+			ivar0 = standart_config_2672;
+			ivar1 = cs2method_30762(globalint_2103, 3);
+			ivar2 = 2;
+	}
+	ivar3 = subtract(standart_config_2669, ivar1);
+	if (ivar6 > 0) {
+		ivar0 = add(add(ivar0, ivar3), cs2method_10542(subtract(1000, ivar0), 100, ivar7));
+	} else {
+		ivar0 = add(add(ivar0, ivar3), cs2method_10542(ivar0, 100, ivar7));
+	}
+	ivar4 = cs2method_10004(-1, subtract(1000, ivar0));
+	return newstruct cs2func_script_6372_struct(divide(subtract(1000, ivar4), 10), ivar1, ivar2);
+}

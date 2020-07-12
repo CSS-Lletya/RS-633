@@ -1,0 +1,14 @@
+void script_4924(int arg0) {
+	switch (arg0) {
+		case 75497500:
+			if (bitconfig_9950 == 1) {
+				cs2method_10467(5524, 75497474);
+			}
+			break;
+		case 75497548:
+			if (bitconfig_9950 == 0) {
+				cs2method_10467(5524, 75497549);
+			}
+	}
+	return;
+}

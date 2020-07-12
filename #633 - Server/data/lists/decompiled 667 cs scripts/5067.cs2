@@ -1,0 +1,87 @@
+void script_5067() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ivar0 = 0;
+	ivar1 = cs2method_10624(3943);
+	ivar2 = 0;
+	while (ivar0 < ivar1) {
+		if (bitconfig_9516 == ivar0) {
+			ivar2 = 1;
+		} else {
+			ivar2 = 0;
+		}
+		if (cs2method_10080(105, 3944, ivar0) == 1) {
+			script_5059(72810550, ivar0, ivar2);
+		}
+		if (cs2method_10080(105, 3945, ivar0) == 1) {
+			script_5059(72810553, ivar0, ivar2);
+		}
+		if (cs2method_10080(105, 3946, ivar0) == 1) {
+			script_5059(72810556, ivar0, ivar2);
+		}
+		if (cs2method_10080(105, 3947, ivar0) == 1) {
+			script_5059(72810559, ivar0, ivar2);
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	clearExtraChildren(new WidgetPointer(1111,27));
+	clearExtraChildren(new WidgetPointer(1111,28));
+	clearExtraChildren(new WidgetPointer(1111,29));
+	clearExtraChildren(new WidgetPointer(1111,30));
+	ivar3 = 0;
+	ivar4 = getDataByKey('i', 'J', 3943, bitconfig_9516);
+	ovar0 = (object)"";
+	ivar5 = -1;
+	if (ivar4 != -1) {
+		setWidgetText(new WidgetPointer(1111,26), (object)getGeneralRequirementAttribute(ivar4, 1463));
+		cs2method_10467(getGeneralRequirementAttribute(ivar4, 1465), 72810520);
+		ovar0 = (object)getGeneralRequirementAttribute(ivar4, 1464);
+		if (getGeneralRequirementAttribute(ivar4, 1466) == 1 && ivar4 != 1918) {
+			ovar0 = cs2method_10445(ovar0, (object)("<br>" + "<br>" + "Drag your mouse over the grid to fill an area with this element."));
+		}
+		ivar3 = add(ivar3, script_5068(ivar3, ovar0));
+		ivar5 = getGeneralRequirementAttribute(ivar4, 1470);
+		if (ivar5 != -1) {
+			ivar3 = add(ivar3, 5);
+			ivar3 = add(ivar3, script_5068(ivar3, (object)getDataByKey('i', 's', ivar5, -1)));
+			cs2method_10444(0, ivar3, 1, 0, 72810524);
+			ivar3 = add(ivar3, script_5069(ivar5, 72810524, 1, bitconfig_9517));
+		} else {
+			cs2method_10893(0, 0, 1, 0, 72810524);
+		}
+		ivar5 = getGeneralRequirementAttribute(ivar4, 1471);
+		if (ivar5 != -1) {
+			ivar3 = add(ivar3, 5);
+			ivar3 = add(ivar3, script_5068(ivar3, (object)getDataByKey('i', 's', ivar5, -1)));
+			cs2method_10444(0, ivar3, 1, 0, 72810525);
+			ivar3 = add(ivar3, script_5069(ivar5, 72810525, 2, bitconfig_9518));
+		} else {
+			cs2method_10893(0, 0, 1, 0, 72810525);
+		}
+		ivar5 = getGeneralRequirementAttribute(ivar4, 1472);
+		if (ivar5 != -1) {
+			ivar3 = add(ivar3, 5);
+			ivar3 = add(ivar3, script_5068(ivar3, (object)getDataByKey('i', 's', ivar5, -1)));
+			cs2method_10444(0, ivar3, 1, 0, 72810526);
+			ivar3 = add(ivar3, script_5069(ivar5, 72810526, 3, bitconfig_9519));
+		} else {
+			cs2method_10893(0, 0, 1, 0, 72810526);
+		}
+	} else {
+		setWidgetText(new WidgetPointer(1111,26), (object)"");
+		cs2method_10467(-1, 72810520);
+	}
+	if (ivar3 > cs2method_10090(72810523)) {
+		setWidgetScrollMax(0, ivar3, 72810523);
+	} else {
+		setWidgetScrollMax(0, 0, 72810523);
+	}
+	cs2method_10085(0, cs2method_10586(cs2method_10424(72810523), ivar3), 72810523);
+	script_31(72810527, 72810523, 6507, 6504, 6505, 6506, 6499, 6498);
+	return;
+}

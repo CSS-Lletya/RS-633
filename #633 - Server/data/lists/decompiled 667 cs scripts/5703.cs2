@@ -1,0 +1,8 @@
+void script_5703(int arg0) {
+	if (arg0 < 0) {
+		script_5705(1);
+	} else {
+		script_5705(0);
+	}
+	return;
+}

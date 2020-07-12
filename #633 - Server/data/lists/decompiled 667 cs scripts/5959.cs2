@@ -1,0 +1,20 @@
+void script_5959() {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (bitconfig_10885) {
+		case 1:
+			ovar0 = (object)"15% Bonus Citadel Skilling XP";
+			break;
+		case 2:
+			ovar0 = (object)"30% Bonus Citadel Skilling XP";
+			break;
+		case 3:
+			ovar0 = (object)"45% Bonus Citadel Skilling XP";
+	}
+	if (compareTo(ovar0, (object)"") != 0) {
+		script_4408(82378807);
+		cs2method_20835(4538, new WidgetPointer(1257,84), new WidgetPointer(1257,55), -1, (string)ovar0, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1257,55));
+		cs2method_20295(40, new WidgetPointer(1257,84), "I", new WidgetPointer(1257,55));
+	}
+	return;
+}

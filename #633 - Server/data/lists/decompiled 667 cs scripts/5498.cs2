@@ -1,0 +1,10 @@
+void script_5498(int arg0,int arg1) {
+	if (cs2method_10551(arg1, arg0) == 1 && cs2method_10354() < 255) {
+		if (add(cs2method_10354(), 5) > 255) {
+			cs2method_10305(255);
+		} else {
+			cs2method_10305(add(cs2method_10354(), 5));
+		}
+	}
+	return;
+}

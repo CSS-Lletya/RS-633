@@ -1,0 +1,26 @@
+void script_1211(int arg0,int arg1,int arg2,object arg3) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	globalint_1700 = arg2;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	if (cs2method_10403(48889900) == 1) {
+		cs2method_20745(-1, "");
+		cs2method_20745(1213, add(globalint_1694, multiply(cs2method_10366(arg3), 2)), "i");
+	}
+	if (cs2method_10403(48889900) == 1) {
+		ivar3 = cs2method_10586(200, add(20, cs2method_10242(180, 496, arg3)));
+		ivar4 = add(22, multiply(15, getLineCount(180, 496, arg3)));
+		if (compareTo(cs2method_10100(48889900), (object)"") != 0) {
+			setWidgetSize(ivar3, ivar4, 0, 0);
+		}
+		script_1212(ivar3, ivar4, arg3);
+		cs2method_10893(ivar3, ivar4, 0, 0, 48889900);
+		cs2method_10444(arg0, arg1, 1, 1, 48889900);
+	}
+	return;
+}

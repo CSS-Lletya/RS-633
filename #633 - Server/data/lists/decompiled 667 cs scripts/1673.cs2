@@ -1,0 +1,42 @@
+void script_1673() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int stack_dump0;
+	cs2func_script_1674_struct(2,0,0) structdump_1;
+	clearExtraChildren(new WidgetPointer(84,20));
+	clearExtraChildren(new WidgetPointer(84,22));
+	clearExtraChildren(new WidgetPointer(84,21));
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 264;
+	ivar3 = 0;
+	cs2method_10444(cs2method_10111(5505044), ivar0, 0, 0, 5505044);
+	stack_dump0 = bitconfig_6768;
+	structdump_1 = script_1674(stack_dump0);
+	ivar3 = structdump_1.intpart_1;
+	ivar1 = structdump_1.intpart_0;
+	setWidgetScrollMax(0, ivar1, 5505046);
+	cs2method_10085(0, ivar3, 5505046);
+	ivar1 = add(ivar1, 4);
+	if (ivar1 > ivar2) {
+		cs2method_10893(16, 4, 0, 1, 5505045);
+		cs2method_10893(20, 4, 1, 1, 5505046);
+		if (cs2method_10551(5505045, 0) == 0) {
+			script_31(5505045, 5505046, 792, 789, 790, 791, 773, 788);
+		}
+		script_72(5505045, 5505046, cs2method_10424(5505046));
+	} else {
+		cs2method_10893(0, 4, 0, 1, 5505045);
+		cs2method_10893(4, 4, 1, 1, 5505046);
+	}
+	if (ivar1 < 111) {
+		cs2method_10893(350, add(111, 68), 0, 0, 5505024);
+	} else if (ivar1 < ivar2) {
+		cs2method_10893(350, add(ivar1, 70), 0, 0, 5505024);
+	} else {
+		cs2method_10893(350, add(ivar2, 70), 0, 0, 5505024);
+	}
+	return;
+}

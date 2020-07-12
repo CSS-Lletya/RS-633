@@ -1,0 +1,6 @@
+void script_5751() {
+	if (cs2method_10403(81199112) == 1) {
+		globalint_1771 = cs2method_10984();
+	}
+	return;
+}

@@ -1,0 +1,8 @@
+int script_1551(int arg0,int arg1,int arg2,object arg3) {
+	arg3 = script_1602(arg3);
+	arg0 = cs2method_10586(cs2method_10366(arg3), arg0);
+	if (arg0 <= 0) {
+		return arg2;
+	}
+	return add(cs2method_10355(arg1, cs2method_10547(0, arg0, arg3)), arg2);
+}

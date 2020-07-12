@@ -1,0 +1,150 @@
+int script_766(int arg0) {
+	if (getItemAttribute(arg0, 538) != -1 && getItemAmtInContainer(93, getItemAttribute(arg0, 538)) < getItemAttribute(arg0, 539)) {
+		return 0;
+	}
+	if (getItemAttribute(arg0, 540) != -1 && getItemAmtInContainer(93, getItemAttribute(arg0, 540)) < getItemAttribute(arg0, 541)) {
+		return 0;
+	}
+	if (getItemAttribute(arg0, 542) != -1 && getItemAmtInContainer(93, getItemAttribute(arg0, 542)) < getItemAttribute(arg0, 543)) {
+		return 0;
+	}
+	if (getItemAttribute(arg0, 697) != -1) {
+		switch (getItemAttribute(arg0, 697)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 698)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 698)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 698)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 697)) < getItemAttribute(arg0, 698)) {
+					return 0;
+				}
+		}
+	}
+	if (getItemAttribute(arg0, 699) != -1) {
+		switch (getItemAttribute(arg0, 699)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 700)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 700)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 700)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 699)) < getItemAttribute(arg0, 700)) {
+					return 0;
+				}
+		}
+	}
+	if (getItemAttribute(arg0, 701) != -1) {
+		switch (getItemAttribute(arg0, 701)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 702)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 702)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 702)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 701)) < getItemAttribute(arg0, 702)) {
+					return 0;
+				}
+		}
+	}
+	if (getItemAttribute(arg0, 703) != -1) {
+		switch (getItemAttribute(arg0, 703)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 704)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 704)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 704)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 703)) < getItemAttribute(arg0, 704)) {
+					return 0;
+				}
+		}
+	}
+	if (getItemAttribute(arg0, 705) != -1) {
+		switch (getItemAttribute(arg0, 705)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 706)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 706)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 706)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 705)) < getItemAttribute(arg0, 706)) {
+					return 0;
+				}
+		}
+	}
+	if (getItemAttribute(arg0, 707) != -1) {
+		switch (getItemAttribute(arg0, 707)) {
+			case 6287:
+				if (add(getItemAmtInContainer(93, 6287), getItemAmtInContainer(93, 7801)) < getItemAttribute(arg0, 708)) {
+					return 0;
+				}
+				break;
+			case 6979:
+				if (add(add(getItemAmtInContainer(93, 6979), getItemAmtInContainer(93, 6981)), getItemAmtInContainer(93, 6983)) < getItemAttribute(arg0, 708)) {
+					return 0;
+				}
+				break;
+			case 2462:
+				if (add(add(add(add(add(add(getItemAmtInContainer(93, 2462), getItemAmtInContainer(93, 2460)), getItemAmtInContainer(93, 2464)), getItemAmtInContainer(93, 2466)), getItemAmtInContainer(93, 2468)), getItemAmtInContainer(93, 2470)), getItemAmtInContainer(93, 2472)) < getItemAttribute(arg0, 708)) {
+					return 0;
+				}
+				break;
+			default:
+				if (getItemAmtInContainer(93, getItemAttribute(arg0, 707)) < getItemAttribute(arg0, 708)) {
+					return 0;
+				}
+		}
+	}
+	return 1;
+}

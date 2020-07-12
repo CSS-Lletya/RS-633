@@ -1,0 +1,14 @@
+void script_2113(int arg0) {
+	cs2method_10158(0, 0, cs2method_10869(2048), cs2method_10869(2048), cs2method_10869(2048), cs2method_10656(arg0), arg0);
+	switch (cs2method_10869(3)) {
+		case 0:
+			cs2method_20219(66, add(cs2method_10869(3), 9), 0, add(cs2method_10869(3), 9), new WidgetPointer(arg0), "iiiI", new WidgetPointer(arg0));
+			break;
+		case 1:
+			cs2method_20219(66, add(cs2method_10869(3), 9), add(cs2method_10869(3), 9), 0, new WidgetPointer(arg0), "iiiI", new WidgetPointer(arg0));
+			break;
+		default:
+			cs2method_20219(66, 0, add(cs2method_10869(3), 9), add(cs2method_10869(3), 9), new WidgetPointer(arg0), "iiiI", new WidgetPointer(arg0));
+	}
+	return;
+}

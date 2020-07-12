@@ -1,0 +1,26 @@
+void script_5788(int arg0) {
+	int ivar1;
+	if (bitconfig_9030 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1220,25));
+		script_4212(79953949, 4040, 15458492, 0, (object)"Next Task");
+		cs2method_10444(cs2method_10111(79953943), add(cs2method_10826(79953941), 1), 0, 0, 79953943);
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1220,25));
+		script_4212(79953949, 4040, 15458492, 0, (object)"Active Task");
+		cs2method_10444(cs2method_10111(79953943), add(cs2method_10826(79953941), 1), 0, 0, 79953943);
+	}
+	if (bitconfig_10700 == 0 && arg0 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(1220,41));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1220,41));
+	}
+	ivar1 = script_5795(arg0);
+	if (ivar1 == -1) {
+		return;
+	}
+	script_5796(arg0, 0, 79953940, 79953939, 79953938, -1, -1, -1);
+	cs2method_10893(190, 277, 0, 0, 48889865);
+	script_5791();
+	script_5871(arg0, bitconfig_8578);
+	return;
+}

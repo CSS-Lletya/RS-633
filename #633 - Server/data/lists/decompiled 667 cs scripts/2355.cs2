@@ -1,0 +1,11 @@
+void script_2355(int arg0,int arg1) {
+	globalint_92 = arg0;
+	if (arg0 == 1) {
+		cs2method_20219(2356, arg1, "i", new WidgetPointer(916,26));
+		script_2192(0, arg1);
+	} else {
+		cs2method_20219(2356, 0, "i", new WidgetPointer(916,26));
+		script_2192(1, arg1);
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+void script_1462(int arg0) {
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 1614, arg0));
+	setWidgetIsHidden(true, getDataByKey('i', 'I', 1615, arg0));
+	return;
+}

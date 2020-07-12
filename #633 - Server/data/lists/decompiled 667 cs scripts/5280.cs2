@@ -1,0 +1,15 @@
+int script_5280() {
+	if (cs2method_10837(59375711) == 1) {
+		return 1;
+	}
+	if (cs2method_10837(59375685) == 1) {
+		return 1;
+	}
+	if (cs2method_10837(59375703) == 1) {
+		return 1;
+	}
+	if (cs2method_10837(59375695) == 1) {
+		return 1;
+	}
+	return 0;
+}

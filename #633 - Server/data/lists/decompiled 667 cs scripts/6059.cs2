@@ -1,0 +1,6 @@
+void script_6059() {
+	if (cs2method_10771((object)"1066") == 1 && cs2method_10286((object)"1066") == 1) {
+		cs2method_10224((object)"1066");
+	}
+	return;
+}

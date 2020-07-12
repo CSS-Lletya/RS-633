@@ -1,0 +1,11 @@
+void script_5899() {
+	if (globalint_1782 != globalint_1783) {
+		globalint_1782 = add(globalint_1782, 1);
+		script_5900();
+		if (globalint_1782 >= 13) {
+			globalint_1782 = 0;
+		}
+	}
+	script_5890(globalint_1782);
+	return;
+}

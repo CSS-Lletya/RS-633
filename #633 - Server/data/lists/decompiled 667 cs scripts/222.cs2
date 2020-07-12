@@ -1,0 +1,11 @@
+void script_222() {
+	if (cs2method_10028((object)globalstring_24) == 1) {
+		cs2method_10986(26, 0, (object)"Sorry, you cannot ignore players in your Friends List.");
+	} else {
+		cs2method_10425((object)globalstring_24);
+		cs2method_10986(26, 0, (object)("You are ignoring " + globalstring_24 + " until you log out."));
+	}
+	globalint_11 = 0;
+	script_675();
+	return;
+}

@@ -1,0 +1,10 @@
+void script_2828() {
+	if (standart_config_2523 < 1) {
+		return;
+	}
+	if (compareTo(cs2method_10547(0, 1, cs2method_10664()), (object)"#") == 0) {
+		return;
+	}
+	script_5861(standart_config_2523);
+	return;
+}

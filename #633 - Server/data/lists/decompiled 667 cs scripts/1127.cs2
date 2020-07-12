@@ -1,0 +1,26 @@
+int script_1127(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = cs2method_10004(1, getItemAttribute(arg0, 2677));
+	if (getItemAttribute(arg0, 642) > 0) {
+		ivar2 = cs2method_10542(script_2916(), 100, getItemAttribute(arg0, 642));
+	}
+	if (getItemAttribute(arg0, 963) > 0) {
+		ivar2 = add(ivar2, getItemAttribute(arg0, 963));
+	}
+	if (ivar2 > 0) {
+		return divide(ivar2, ivar3);
+	}
+	if (getItemAttribute(arg0, 2658) < 1) {
+		return 0;
+	}
+	ivar1 = getItemAttribute(arg0, 2658);
+	ivar2 = cs2method_10586(cs2method_10542(multiply(ivar1, 100), 100, 20), cs2method_10542(multiply(cs2method_10391(3), 100), 100, 20));
+	if (cs2method_10391(3) < ivar1) {
+		ivar2 = cs2method_10542(ivar2, 100, 80);
+	}
+	return divide(ivar2, ivar3);
+}

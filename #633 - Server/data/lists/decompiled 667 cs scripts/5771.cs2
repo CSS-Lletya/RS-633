@@ -1,0 +1,16 @@
+void script_5771() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	ivar0 = standart_config_2505;
+	ovar0 = (object)getGeneralRequirementAttribute(ivar0, 1266);
+	cs2method_10998(ovar0);
+	ovar1 = (object)getGeneralRequirementAttribute(ivar0, 1273);
+	cs2method_10998(ovar1);
+	ivar1 = getGeneralRequirementAttribute(ivar0, 1271);
+	setWidgetText(new WidgetPointer(1241,12), ovar0);
+	setWidgetText(new WidgetPointer(1241,4), ovar1);
+	cs2method_10467(ivar1, 81330182);
+	return;
+}

@@ -1,0 +1,17 @@
+void script_4445() {
+	object ovar0;
+	clearExtraChildren(new WidgetPointer(1110,5));
+	clearExtraChildren(new WidgetPointer(1110,8));
+	clearExtraChildren(new WidgetPointer(1110,6));
+	clearExtraChildren(new WidgetPointer(1110,7));
+	clearExtraChildren(new WidgetPointer(1110,4));
+	cs2method_10375(1, 72745051, (object)"Join chat");
+	cs2method_10467(6256, 72745052);
+	setWidgetIsHidden(true, new WidgetPointer(1110,39));
+	setWidgetIsHidden(false, new WidgetPointer(1110,64));
+	setWidgetText(new WidgetPointer(1110,65), (object)"");
+	ovar0 = (object)("Join another" + "<br>" + "clan's clanchat.");
+	cs2method_20835(4538, new WidgetPointer(1110,124), new WidgetPointer(-32768,3), -1, (string)ovar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1110,91));
+	cs2method_10375(1, 72745051, (object)"Join Clan Chat channel");
+	return;
+}

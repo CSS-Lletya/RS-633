@@ -1,0 +1,14 @@
+string script_5908(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (isMember() == 0) {
+		ovar0 = (object)" (Member's item)";
+	}
+	if (isMembersItem(arg0) == 0) {
+		return getItemName(arg0);
+	}
+	if (isMember() == 1) {
+		return (string)getItemName(arg0) + (string)ovar0;
+	}
+	return getDataByKey('o', 's', 5703, arg0) + (string)ovar0;
+}

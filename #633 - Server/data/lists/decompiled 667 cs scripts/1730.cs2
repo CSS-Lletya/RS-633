@@ -1,0 +1,20 @@
+void script_1730(int arg0,int arg1) {
+	flow_0:
+		IF (arg1 == -1) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (cs2method_10403(arg0) == 1) 
+			GOTO	flow_3
+	flow_2:
+		IF (cs2method_10551(arg0, arg1) == 1 && globalint_198 != 1) 
+			GOTO	flow_4
+		GOTO	flow_5
+	flow_3:
+	flow_4:
+		cs2method_10692(0);
+		globalint_198 = 1;
+		cs2method_20745(2196, new WidgetPointer(arg0), arg1, (string)cs2method_10775(), "Iis");
+	flow_5:
+		return;
+}

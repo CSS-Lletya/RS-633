@@ -1,0 +1,10 @@
+void script_4450() {
+	if (cs2method_10653(72744974, -1) == 1) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(1110,14));
+	if (cs2method_10309() == 1) {
+		script_4451();
+	}
+	return;
+}

@@ -1,0 +1,119 @@
+void script_2003() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int stack_dump0;
+	ivar0 = 0;
+	if (cs2method_10453(19) >= 40) {
+		ivar0 = bitconfig_4449;
+	} else {
+		ivar0 = divide(multiply(bitconfig_4449, getDataByKey('i', 'i', 1369, cs2method_10453(19))), 100);
+	}
+	if (bitconfig_4449 == 1) {
+		setWidgetText(new WidgetPointer(686,13), (object)("Trade one point" + "<br>" + "for " + (string)cs2method_10595(ivar0, 1) + " XP?"));
+	} else {
+		setWidgetText(new WidgetPointer(686,13), (object)("Trade " + (string)cs2method_10595(bitconfig_4449, 1) + " points" + "<br>" + "for " + (string)cs2method_10595(ivar0, 1) + " XP?"));
+	}
+	clearExtraChildren(new WidgetPointer(686,6));
+	ivar1 = cs2method_10624(1589);
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = -1;
+	ivar7 = 0;
+	ivar8 = 0;
+	while (ivar8 < ivar1) {
+		ivar6 = getDataByKey('i', 'O', 1589, ivar8);
+		ivar7 = getDataByKey('o', 'i', 1365, ivar6);
+		ivar2 = multiply(cs2method_10620(ivar8, 9), 50);
+		ivar3 = multiply(divide(ivar8, 9), 54);
+		stack_dump0 = cs2method_10004(ivar4, ivar2);
+		ivar5 = cs2method_10004(ivar5, ivar3);
+		ivar4 = stack_dump0;
+		createChildWidget(44957702, 5, cs2method_10860(44957702));
+		setWidgetSize(48, 52, 0, 0);
+		setWidgetPosition(ivar2, ivar3, 0, 0);
+		cs2method_10469(2205);
+		if (ivar6 == 11209) {
+			setWidgetContextMenuOption(1, (object)"Trade points for XP");
+			cs2method_20115(69, 0, new WidgetPointer(686,9), "1I");
+		} else {
+			cs2method_11002((object)("<col=ff981f>" + (string)getItemName(ivar6) + "</col>"));
+			setWidgetContextMenuOption(1, (object)"Value");
+			setWidgetContextMenuOption(2, (object)"Buy 1");
+			setWidgetContextMenuOption(3, (object)"Buy 5");
+			setWidgetContextMenuOption(4, (object)"Buy 10");
+			if (ivar6 != 12625) {
+				setWidgetContextMenuOption(5, (object)"Buy X");
+			}
+			setWidgetContextMenuOption(10, (object)"Examine");
+		}
+		cs2method_20211(2140, new WidgetPointer(-32768,3), add(cs2method_10261(), 1), 0, "Iii");
+		cs2method_20139(2140, new WidgetPointer(-32768,3), add(cs2method_10261(), 1), 255, "Iii");
+		createChildWidget(44957702, 5, cs2method_10860(44957702));
+		setWidgetSize(48, 52, 0, 0);
+		setWidgetPosition(ivar2, ivar3, 0, 0);
+		cs2method_10469(2206);
+		cs2method_10305(255);
+		createChildWidget(44957702, 5, cs2method_10860(44957702));
+		if (ivar6 == 11209) {
+			setWidgetSize(34, 34, 0, 0);
+			setWidgetPosition(add(ivar2, 7), add(ivar3, 2), 0, 0);
+			if (cs2method_10145() == 1) {
+				cs2method_10469(2714);
+			} else {
+				cs2method_10469(2730);
+			}
+		} else {
+			setWidgetSize(36, 32, 0, 0);
+			setWidgetPosition(add(ivar2, 6), add(ivar3, 4), 0, 0);
+			cs2method_10814(ivar6, 5);
+			cs2method_10253(1);
+		}
+		cs2method_10167(3153952);
+		createChildWidget(44957702, 5, cs2method_10860(44957702));
+		setWidgetSize(12, 12, 0, 0);
+		setWidgetPosition(add(ivar2, 2), add(ivar3, 38), 0, 0);
+		cs2method_10814(12625, 1);
+		createChildWidget(44957702, 4, cs2method_10860(44957702));
+		setWidgetSize(31, 12, 0, 0);
+		setWidgetPosition(add(ivar2, 13), add(ivar3, 39), 0, 0);
+		setWidgetFont(494);
+		setWidgetTextAlignment(2, 1, 0);
+		if (ivar7 == -1) {
+			setWidgetText((object)"N/A");
+		} else {
+			setWidgetText(script_940(ivar7));
+		}
+		if (ivar7 <= bitconfig_4449) {
+			setWidgetRGB(new Color(255, 255, 0));
+		} else {
+			setWidgetRGB(new Color(255, 0, 0));
+		}
+		cs2method_10320(1);
+		ivar8 = add(ivar8, 1);
+	}
+	stack_dump0 = add(ivar4, 48);
+	ivar5 = add(ivar5, 52);
+	ivar4 = stack_dump0;
+	ivar9 = cs2method_10090(44957702);
+	cs2method_10893(ivar4, ivar9, 0, 0, 44957702);
+	if (ivar5 > ivar9) {
+		cs2method_10444(divide(subtract(subtract(cs2method_10956(44957701), cs2method_10956(44957703)), ivar4), 2), 0, 0, 1, 44957702);
+		setWidgetIsHidden(false, new WidgetPointer(686,7));
+		setWidgetScrollMax(0, ivar5, 44957702);
+		script_31(44957703, 44957702, 792, 789, 790, 791, 773, 788);
+	} else {
+		cs2method_10444(0, 0, 1, 1, 44957702);
+		setWidgetIsHidden(true, new WidgetPointer(686,7));
+	}
+	return;
+}

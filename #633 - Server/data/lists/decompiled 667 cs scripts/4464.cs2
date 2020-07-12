@@ -1,0 +1,17 @@
+int script_4464() {
+	int ivar0;
+	ivar0 = -1;
+	if (cs2method_10528() == 1) {
+		if (cs2method_10309() == 1) {
+			ivar0 = cs2method_10412(cs2method_10222(cs2method_10664()));
+			if (ivar0 != -1 && cs2method_10370(ivar0) >= cs2method_10430()) {
+				return 1;
+			}
+		} else {
+			cs2method_10998((object)"You must be in a clan to do that.");
+		}
+	} else {
+		cs2method_10998((object)"You must be in a clan to do that.");
+	}
+	return 0;
+}

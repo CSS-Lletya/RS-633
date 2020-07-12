@@ -1,0 +1,78 @@
+void script_5476(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar2 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar3 = -1;
+	ovar2 = (object)"";
+	ivar4 = 0;
+	if (bitconfig_9987 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(1163,103));
+		setWidgetIsHidden(false, new WidgetPointer(1163,104));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1163,103));
+		setWidgetIsHidden(true, new WidgetPointer(1163,104));
+	}
+	if (bitconfig_10849 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(1163,179));
+		setWidgetIsHidden(false, new WidgetPointer(1163,180));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1163,179));
+		setWidgetIsHidden(true, new WidgetPointer(1163,180));
+	}
+	if (bitconfig_10850 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(1163,181));
+		setWidgetIsHidden(false, new WidgetPointer(1163,182));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1163,181));
+		setWidgetIsHidden(true, new WidgetPointer(1163,182));
+	}
+	setWidgetText(new WidgetPointer(1163,34), (object)toString(bitconfig_9990));
+	if (bitconfig_9990 > 0) {
+		setWidgetText(new WidgetPointer(1163,38), (object)toString(divide(bitconfig_9990, 3)));
+	} else {
+		setWidgetText(new WidgetPointer(1163,38), (object)"0");
+	}
+	globalint_2 = 0;
+	cs2method_10677(8099, 1, 0, 255);
+	if (arg1 == 0) {
+		setWidgetText(new WidgetPointer(1163,50), (object)toString(add(bitconfig_9984, 1)));
+		globalint_1678 = add(1, cs2method_10869(48));
+		globalint_1679 = 30;
+		globalint_1677 = arg0;
+		setWidgetIsHidden(true, new WidgetPointer(1163,89));
+		cs2method_20219(5477, "", new WidgetPointer(1163,45));
+	} else {
+		globalint_1677 = arg0;
+		setWidgetText(new WidgetPointer(1163,50), (object)toString(bitconfig_9984));
+		ivar2 = getDataByKey('i', 'J', 5213, globalint_1677);
+		ovar0 = (object)getGeneralRequirementAttribute(ivar2, 2095);
+		ovar1 = (object)getGeneralRequirementAttribute(ivar2, 2184);
+		ivar3 = getGeneralRequirementAttribute(ivar2, 2101);
+		if (getGeneralRequirementAttribute(ivar2, 2097) == 1) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat.");
+		} else if (getGeneralRequirementAttribute(ivar2, 2097) == 2) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat.");
+		} else if (getGeneralRequirementAttribute(ivar2, 2097) == 3) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars.");
+		} else if (getGeneralRequirementAttribute(ivar2, 2097) == 4) {
+			ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars.");
+		} else {
+			if (getGeneralRequirementAttribute(ivar2, 2097) == 5) {
+				ovar2 = (object)("<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums");
+			}
+		}
+		setWidgetText(new WidgetPointer(1163,88), ovar0);
+		setWidgetText(new WidgetPointer(1163,40), (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+		script_5475(76218408, 76218411, 76218410, (object)((string)ovar1 + "<br>" + "<br>" + (string)ovar2));
+		cs2method_10467(ivar3, 76218393);
+		ivar4 = script_5459(1);
+		setWidgetText(new WidgetPointer(1163,36), (object)toString(ivar4));
+	}
+	return;
+}

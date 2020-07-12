@@ -1,0 +1,19 @@
+void script_1576(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	ovar0 = (object)globalstring_209;
+	ivar2 = cs2method_10956(arg0);
+	if (cs2method_10242(2147483647, 497, ovar0) > ivar2) {
+		while (cs2method_10242(2147483647, 497, (object)((string)ovar0 + "...")) > ivar2) {
+			ovar0 = cs2method_10547(0, subtract(cs2method_10366(ovar0), 1), ovar0);
+		}
+		ovar0 = (object)((string)ovar0 + "...");
+		cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(arg1), globalstring_209, 25, 5000, "IIsii", new WidgetPointer(arg0));
+		cs2method_20295(40, new WidgetPointer(arg1), "I", new WidgetPointer(arg0));
+	} else {
+		cs2method_20835(-1, "", new WidgetPointer(arg0));
+		cs2method_20295(-1, "", new WidgetPointer(arg0));
+	}
+	setWidgetText(new WidgetPointer(arg0), ovar0);
+	return;
+}

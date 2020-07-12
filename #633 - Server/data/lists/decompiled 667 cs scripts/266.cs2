@@ -1,0 +1,33 @@
+void script_266() {
+	setWidgetIsHidden(true, new WidgetPointer(923,0));
+	setWidgetIsHidden(true, new WidgetPointer(923,68));
+	setWidgetIsHidden(true, new WidgetPointer(923,73));
+	if (globalint_1104 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(923,1));
+		setWidgetText(new WidgetPointer(923,66), (object)"");
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(923,1));
+		setWidgetText(new WidgetPointer(923,66), (object)"1");
+	}
+	if (globalint_1105 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(923,69));
+		setWidgetText(new WidgetPointer(923,71), (object)"");
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(923,69));
+		setWidgetText(new WidgetPointer(923,71), (object)"2");
+	}
+	if (globalint_1106 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(923,74));
+		setWidgetText(new WidgetPointer(923,76), (object)"");
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(923,74));
+		setWidgetText(new WidgetPointer(923,76), (object)"3");
+	}
+	if (globalint_1104 == 0 && globalint_1105 == 0 && globalint_1106 == 0) {
+		cs2method_20219(6258, "", new WidgetPointer(923,109));
+	} else {
+		cs2method_20219(-1, "", new WidgetPointer(923,109));
+		setWidgetIsHidden(false, new WidgetPointer(923,108));
+	}
+	return;
+}

@@ -1,0 +1,27 @@
+object script_4591(object arg0) {
+	int ivar0;
+	int ivar1;
+	arg0 = lower(cs2method_10222(arg0));
+	ivar0 = cs2method_10366(arg0);
+	ivar1 = 0;
+	arg0 = script_2332(arg0, (object)"_", (object)"\u00a0");
+	arg0 = script_2332(arg0, (object)"-", (object)"\u00a0");
+	arg0 = script_2332(arg0, (object)" ", (object)"\u00a0");
+	while (cs2method_10339(0, arg0, (object)" ") == 0 && ivar0 > 0) {
+		arg0 = cs2method_10547(1, ivar0, arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)" ") == subtract(ivar0, 1) && ivar0 > 0) {
+		arg0 = cs2method_10547(0, subtract(ivar0, 1), arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(0, arg0, (object)"\u00a0") == 0 && ivar0 > 0) {
+		arg0 = cs2method_10547(1, ivar0, arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)"\u00a0") == subtract(ivar0, 1) && ivar0 > 0) {
+		arg0 = cs2method_10547(0, subtract(ivar0, 1), arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	return arg0;
+}

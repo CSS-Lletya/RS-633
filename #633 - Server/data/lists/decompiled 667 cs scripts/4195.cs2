@@ -1,0 +1,47 @@
+void script_4195(int arg0) {
+	if (arg0 == 58392625 || arg0 == 58392626) {
+		if (cs2method_10403(58392637) == 1) {
+			cs2method_10692(0);
+		}
+		if (cs2method_10403(58392625) == 1) {
+			cs2method_10469(5414);
+		}
+		if (cs2method_10403(58392626) == 1) {
+			cs2method_10469(5414);
+		}
+	}
+	if (arg0 == 58392627 || arg0 == 58392629) {
+		if (cs2method_10403(58392638) == 1) {
+			cs2method_10692(0);
+		}
+		if (cs2method_10403(58392627) == 1) {
+			cs2method_10469(5414);
+		}
+		if (cs2method_10403(58392629) == 1) {
+			cs2method_10469(5414);
+		}
+	}
+	if (arg0 == 58392628) {
+		if (cs2method_10403(58392639) == 1) {
+			cs2method_10692(0);
+		}
+		if (cs2method_10403(58392628) == 1) {
+			cs2method_10469(5414);
+		}
+		if (cs2method_10403(58392629) == 1) {
+			cs2method_10469(5414);
+		}
+	}
+	if (arg0 == 58392630 || arg0 == 58392631) {
+		if (cs2method_10403(58392640) == 1) {
+			cs2method_10692(0);
+		}
+		if (cs2method_10403(58392630) == 1) {
+			cs2method_10469(5414);
+		}
+		if (cs2method_10403(58392631) == 1) {
+			cs2method_10469(5414);
+		}
+	}
+	return;
+}

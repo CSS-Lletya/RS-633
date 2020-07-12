@@ -1,0 +1,11 @@
+int script_4761(int arg0) {
+	if (globalint_1 < add(cs2method_10878(), arg0)) {
+		if (globalint_1 < cs2method_10878()) {
+			globalint_1 = cs2method_10878();
+		}
+		globalint_1 = add(globalint_1, 2);
+		return 0;
+	}
+	globalint_1 = add(add(cs2method_10878(), arg0), 10);
+	return 1;
+}

@@ -1,0 +1,9 @@
+void script_6212() {
+	if (globalint_1411 == 1) {
+		globalint_1411 = 0;
+	} else {
+		globalint_1411 = 1;
+	}
+	script_6211(59375988, 59375989, globalint_1411, 1);
+	return;
+}

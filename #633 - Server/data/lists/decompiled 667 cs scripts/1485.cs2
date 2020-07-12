@@ -1,0 +1,9 @@
+void script_1485() {
+	if (standart_config_115 == 0) {
+		standart_config_115 = 1;
+	} else {
+		standart_config_115 = 0;
+	}
+	script_1487();
+	return;
+}

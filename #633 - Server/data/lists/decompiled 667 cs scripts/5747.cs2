@@ -1,0 +1,90 @@
+cs2func_script_5747_struct(2,0,0) script_5747(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	object ovar0;
+	createChildWidget(81199112, 5, arg3);
+	if (arg2 == 1) {
+		cs2method_10469(7635);
+	} else {
+		cs2method_10469(7629);
+	}
+	setWidgetSize(12, 51, 0, 0);
+	setWidgetPosition(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), multiply(add(51, 3), divide(arg4, 1)), 0, 0);
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 5, arg3);
+	if (arg2 == 1) {
+		cs2method_10469(7636);
+	} else {
+		cs2method_10469(7630);
+	}
+	setWidgetSize(434, 51, 0, 0);
+	setWidgetPosition(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 12), multiply(add(51, 3), divide(arg4, 1)), 0, 0);
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 5, arg3);
+	if (arg2 == 1) {
+		cs2method_10469(7637);
+	} else {
+		cs2method_10469(7631);
+	}
+	setWidgetSize(12, 51, 0, 0);
+	setWidgetPosition(add(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 12), 434), multiply(add(51, 3), divide(arg4, 1)), 0, 0);
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 4, arg3);
+	setWidgetText((object)getGeneralRequirementAttribute(arg0, 1266));
+	setWidgetFont(4040);
+	setWidgetRGB(new Color(235, 224, 188));
+	setWidgetSize(330, 13, 0, 0);
+	setWidgetPosition(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 70), add(multiply(add(51, 3), divide(arg4, 1)), 1), 0, 0);
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 4, arg3);
+	setWidgetText((object)getGeneralRequirementAttribute(arg0, 1273));
+	setWidgetFont(5631);
+	setWidgetRGB(new Color(215, 214, 178));
+	setWidgetSize(330, 30, 0, 0);
+	setWidgetPosition(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 70), add(multiply(add(51, 3), divide(arg4, 1)), 16), 0, 0);
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 5, arg3);
+	if (getGeneralRequirementAttribute(arg0, 1270) != 4094) {
+		cs2method_10469(getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(arg0, 1270)), 952));
+	} else {
+		cs2method_10469(getGeneralRequirementAttribute(arg0, 1271));
+	}
+	setWidgetSize(40, 40, 0, 0);
+	setWidgetPosition(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 7), add(multiply(add(51, 3), divide(arg4, 1)), 5), 0, 0);
+	arg3 = add(arg3, 1);
+	ovar0 = (object)"";
+	ivar5 = 3;
+	createChildWidget(81199112, 5, arg3);
+	if (arg2 == 1) {
+		cs2method_10469(9603);
+	} else if (arg1 == 1) {
+		cs2method_10469(9601);
+	} else {
+		cs2method_10469(9602);
+	}
+	setWidgetSize(34, 34, 0, 0);
+	setWidgetPosition(subtract(subtract(add(add(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), 12), 434), 34), 4), add(multiply(add(51, 3), divide(arg4, 1)), divide(subtract(51, 34), 2)), 0, 0);
+	if (arg2 == 1) {
+		ovar0 = (object)"Task Complete";
+	} else if (arg1 == 1) {
+		ovar0 = (object)"Requirements met.";
+	} else {
+		ovar0 = (object)"Requirements not met.";
+	}
+	cs2method_20930(4538, new WidgetPointer(1239,10), new WidgetPointer(1239,8), arg3, (string)ovar0, 175, -1, -1, -1, 12, 3, ivar5, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(1239,10), "I");
+	arg3 = add(arg3, 1);
+	createChildWidget(81199112, 5, arg3);
+	setWidgetSize(456, 51, 0, 0);
+	setWidgetPosition(add(multiply(add(add(multiply(2, 12), 434), 5), cs2method_10620(arg4, 1)), 5), multiply(add(51, 3), divide(arg4, 1)), 0, 0);
+	setWidgetContextMenuOption(1, (object)"Select");
+	cs2method_11002(cs2method_10445((object)"<col=00ff00>", (object)getGeneralRequirementAttribute(arg0, 1266)));
+	cs2method_20211(5748, -2147483643, "i");
+	if (arg2 == 0) {
+		cs2method_20139(5749, -2147483643, "i");
+	} else {
+		cs2method_20139(5750, -2147483643, "i");
+	}
+	arg3 = add(arg3, 1);
+	arg4 = add(arg4, 1);
+	return newstruct cs2func_script_5747_struct(arg3, arg4);
+}

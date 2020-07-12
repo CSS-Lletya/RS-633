@@ -1,0 +1,9 @@
+void script_2215() {
+	if (cs2method_10826(61079566) < 180) {
+		cs2method_20219(2215, "", new WidgetPointer(932,1));
+		cs2method_10444(cs2method_10111(61079566), add(2, cs2method_10826(61079566)), 0, 0, 61079566);
+	} else {
+		globalint_1137 = 0;
+	}
+	return;
+}

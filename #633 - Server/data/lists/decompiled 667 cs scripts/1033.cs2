@@ -1,0 +1,30 @@
+void script_1033(object arg0) {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar1;
+	ovar1 = (object)"";
+	ivar0 = 0;
+	ivar0 = cs2method_10339(0, arg0, (object)"|");
+	if (ivar0 != -1) {
+		ovar1 = cs2method_10547(add(ivar0, 1), cs2method_10366(arg0), arg0);
+	} else {
+		ovar1 = arg0;
+	}
+	setWidgetText(new WidgetPointer(157,14), cs2method_10547(0, ivar0, arg0));
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar1 = multiply(getLineCount(400, 495, ovar1), 12);
+	ivar2 = cs2method_10090(10289177);
+	ivar2 = subtract(divide(cs2method_10090(10289177), 2), divide(ivar1, 2));
+	script_1034(0, 35, ivar2, 400, 100, 16777215, ovar1);
+	createChildWidget(10289177, 5, 1);
+	cs2method_10469(1074);
+	setWidgetPosition(35, subtract(ivar2, 25), 0, 0);
+	setWidgetSize(400, 32, 0, 0);
+	createChildWidget(10289177, 5, 2);
+	cs2method_10469(1074);
+	setWidgetPosition(35, add(ivar2, ivar1), 0, 0);
+	setWidgetSize(400, 32, 0, 0);
+	return;
+}

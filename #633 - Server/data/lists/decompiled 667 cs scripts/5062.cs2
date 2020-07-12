@@ -1,0 +1,26 @@
+void script_5062(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = multiply(arg1, 12);
+	if (arg2 == 1) {
+		if (cs2method_10551(arg0, add(ivar3, 2)) == 1) {
+			cs2method_10469(7552);
+		}
+		if (cs2method_10551(arg0, add(ivar3, 3)) == 1) {
+			cs2method_10469(7551);
+		}
+		if (cs2method_10551(arg0, add(ivar3, 4)) == 1) {
+			cs2method_10469(7553);
+		}
+	} else {
+		if (cs2method_10551(arg0, add(ivar3, 2)) == 1) {
+			cs2method_10469(7549);
+		}
+		if (cs2method_10551(arg0, add(ivar3, 3)) == 1) {
+			cs2method_10469(7548);
+		}
+		if (cs2method_10551(arg0, add(ivar3, 4)) == 1) {
+			cs2method_10469(7550);
+		}
+	}
+	return;
+}

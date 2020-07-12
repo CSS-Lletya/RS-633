@@ -1,0 +1,5 @@
+void script_2985(int arg0) {
+	cs2method_20808(-1, "", new WidgetPointer(arg0));
+	cs2method_10767(0, 1, 450, 450, 1, 1);
+	return;
+}

@@ -1,0 +1,5 @@
+void script_6240() {
+	globalint_1924 = 0;
+	globalint_1923 = 0;
+	return;
+}

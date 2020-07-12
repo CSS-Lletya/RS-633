@@ -1,0 +1,8 @@
+cs2func_script_5816_struct(2,0,0) script_5816(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = cs2method_10111(arg2);
+	ivar4 = cs2method_10826(arg2);
+	cs2method_10444(arg0, arg1, 0, 0, arg2);
+	return newstruct cs2func_script_5816_struct(ivar3, ivar4);
+}

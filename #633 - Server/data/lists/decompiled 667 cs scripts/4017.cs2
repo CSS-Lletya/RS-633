@@ -1,0 +1,11 @@
+void script_4017(int arg0,int arg1) {
+	if (arg0 <= 11) {
+		setWidgetScrollMax(404, 215, 81592644);
+		script_31(81592645, 81592644, 5666, 5663, 5664, 5665, 5686, 5685);
+	} else {
+		setWidgetScrollMax(404, multiply(arg0, 20), 81592644);
+		cs2method_10085(0, subtract(multiply(arg0, 20), 180), 81592644);
+		script_31(81592645, 81592644, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	return;
+}

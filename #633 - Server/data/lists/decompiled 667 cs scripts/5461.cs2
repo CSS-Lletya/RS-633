@@ -1,0 +1,138 @@
+void script_5461() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar0 = -1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = cs2method_10758();
+	ivar1 = 0;
+	ivar0 = getDataByKey('i', 'J', 5332, bitconfig_9988);
+	if (ivar0 == -1) {
+		ivar0 = getDataByKey('i', 'J', 5213, bitconfig_9983);
+	}
+	globalint_1676 = 0;
+	ovar0 = (object)getGeneralRequirementAttribute(ivar0, 2095);
+	if (bitconfig_9988 == 7) {
+		setWidgetIsHidden(false, new WidgetPointer(1159,42));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1159,42));
+	}
+	globalint_1670 = 0;
+	globalint_1671 = 0;
+	setWidgetText(new WidgetPointer(1159,41), ovar0);
+	setWidgetText(new WidgetPointer(1159,40), ovar2);
+	if (bitconfig_9984 > 0) {
+		ovar1 = (object)("Climber. Floor " + toString(bitconfig_9984));
+	} else if (bitconfig_9985 > 0) {
+		ovar1 = (object)("Endurance. Floor " + toString(bitconfig_9985));
+	} else if (bitconfig_9988 > 0) {
+		ovar1 = (object)("Special. Fight: " + (string)ovar0);
+	} else if (bitconfig_9983 != 0) {
+		ovar1 = (object)("Freestyle. Fight: " + (string)ovar0);
+	} else {
+		ovar1 = (object)"Unknown";
+	}
+	setWidgetText(new WidgetPointer(1159,32), ovar1);
+	cs2method_10893(cs2method_10956(75956247), 37, 0, 0, 75956247);
+	cs2method_10893(cs2method_10956(75956255), 1, 0, 0, 75956255);
+	cs2method_10893(subtract(cs2method_10956(75956257), 10), cs2method_10090(75956259), 0, 0, 75956259);
+	cs2method_10893(subtract(cs2method_10956(75956263), 10), cs2method_10090(75956241), 0, 0, 75956241);
+	cs2method_10677(8105, 1, 60, 255);
+	if (bitconfig_9991 == 1) {
+		script_5462(1, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9997 == 1) {
+		script_5462(2, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9998 == 1) {
+		script_5462(3, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9994 == 1) {
+		script_5462(4, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9999 == 1) {
+		script_5462(5, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10000 == 1) {
+		script_5462(6, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10001 == 1) {
+		script_5462(7, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9993 == 1) {
+		script_5462(8, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10004 == 1) {
+		script_5462(9, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10012 == 1) {
+		script_5462(10, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10005 == 1) {
+		script_5462(11, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10008 == 1) {
+		script_5462(12, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9992 == 1) {
+		script_5462(13, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10003 == 1) {
+		script_5462(14, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10007 == 1) {
+		script_5462(15, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9995 == 1) {
+		script_5462(16, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10009 == 1) {
+		script_5462(17, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10002 == 1) {
+		script_5462(18, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_9996 == 1) {
+		script_5462(19, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10010 == 1) {
+		script_5462(20, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10006 == 1) {
+		script_5462(21, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	if (bitconfig_10011 == 1) {
+		script_5462(22, ivar1);
+		ivar1 = add(ivar1, 1);
+	}
+	cs2method_20219(5467, "", new WidgetPointer(1159,30));
+	globalint_1674 = -45;
+	globalint_1675 = -75;
+	cs2method_10444(0, globalint_1674, 1, 0, 75956246);
+	cs2method_10444(3, globalint_1675, 2, 2, 75956247);
+	return;
+}

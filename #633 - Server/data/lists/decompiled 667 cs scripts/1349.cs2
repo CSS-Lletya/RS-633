@@ -1,0 +1,16 @@
+void script_1349(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (cs2method_10551(arg0, arg4) == 1) {
+		cs2method_10949(0);
+	}
+	setWidgetIsHidden(true, new WidgetPointer(arg1));
+	setWidgetIsHidden(true, new WidgetPointer(arg2));
+	if (arg3 != -1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg3));
+	}
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	if (arg3 != -1) {
+		clearExtraChildren(new WidgetPointer(arg3));
+	}
+	return;
+}

@@ -1,0 +1,65 @@
+void script_6135() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	if (globalint_1893 == 1) {
+		return;
+	}
+	globalint_1893 = 1;
+	ivar0 = -1;
+	ivar1 = -1;
+	ivar2 = 0;
+	ivar3 = 0;
+	if (cs2method_10416(83230827) == 0) {
+		ivar3 = add(ivar3, 1);
+	}
+	if (cs2method_10416(83230831) == 0) {
+		ivar3 = add(ivar3, 1);
+	}
+	if (cs2method_10416(83230835) == 0) {
+		ivar3 = add(ivar3, 1);
+	}
+	switch (ivar3) {
+		case 0:
+			ivar2 = globalint_1900;
+			break;
+		case 1:
+			ivar2 = globalint_1901;
+			break;
+		case 2:
+			ivar2 = globalint_1902;
+			break;
+		default:
+			return;
+	}
+	ivar0 = script_6139(ivar2);
+	setWidgetIsHidden(false, new WidgetPointer(ivar0));
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 256;
+	if (cs2method_10551(ivar0, 0) == 1) {
+		ivar4 = subtract(globalint_1889, cs2method_10111(ivar0));
+		ivar5 = subtract(globalint_1890, cs2method_10826(ivar0));
+		ivar4 = subtract(ivar4, divide(cs2method_10956(ivar0), 2));
+		ivar5 = subtract(ivar5, divide(cs2method_10090(ivar0), 2));
+		setWidgetPosition(ivar4, ivar5, 1, 1);
+		ivar6 = cs2method_10040();
+	}
+	cs2method_20219(6141, new WidgetPointer(-32768,3), ivar2, ivar4, ivar5, 0, 0, 0, 0, 0, 0, 0, "Iiiiiiiiiii", new WidgetPointer(ivar0));
+	ivar3 = add(ivar3, 1);
+	if (ivar3 > 0) {
+		cs2method_10467(10576, 83230762);
+	}
+	if (ivar3 > 1) {
+		cs2method_10467(10576, 83230763);
+	}
+	if (ivar3 > 2) {
+		cs2method_10467(10576, 83230764);
+	}
+	cs2method_10677(14660, 1, 0, 120);
+	return;
+}

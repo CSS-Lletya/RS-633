@@ -1,0 +1,26 @@
+void script_1628() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	globalint_1033 = 0;
+	ivar0 = subtract(cs2method_10565(cs2method_10687()), cs2method_10620(cs2method_10565(cs2method_10687()), 64));
+	ivar1 = subtract(cs2method_10130(cs2method_10687()), cs2method_10620(cs2method_10130(cs2method_10687()), 64));
+	ivar2 = cs2method_10273(0, ivar0, 0, ivar1);
+	cs2method_10155(0, 6);
+	cs2method_10105(0, 0, cs2method_10273(ivar2, 22, 0, 9), 450, cs2method_10273(ivar2, 22, 0, 9), 400, 0);
+	cs2method_10105(0, 1, cs2method_10273(ivar2, 13, 0, 17), 450, cs2method_10273(ivar2, 13, 0, 7), 400, 0);
+	cs2method_10105(0, 2, cs2method_10273(ivar2, 17, 0, 20), 550, cs2method_10273(ivar2, 17, 0, 20), 600, 0);
+	cs2method_10105(0, 3, cs2method_10273(ivar2, 17, 0, 20), 650, cs2method_10273(ivar2, 17, 0, 20), 700, 0);
+	cs2method_10105(0, 4, cs2method_10273(ivar2, 24, 0, 19), 450, cs2method_10273(ivar2, 24, 0, 19), 500, 0);
+	cs2method_10105(0, 5, cs2method_10273(ivar2, 26, 0, 12), 450, cs2method_10273(ivar2, 26, 0, 12), 500, 0);
+	cs2method_10155(1, 6);
+	cs2method_10105(1, 0, cs2method_10273(ivar2, 8, 0, 12), 300, cs2method_10273(ivar2, 8, 0, 12), 300, 0);
+	cs2method_10105(1, 1, cs2method_10273(ivar2, 8, 0, 20), 300, cs2method_10273(ivar2, 8, 0, 20), 300, 0);
+	cs2method_10105(1, 2, cs2method_10273(ivar2, 8, 0, 12), 300, cs2method_10273(ivar2, 8, 0, 12), 300, 0);
+	cs2method_10105(1, 3, cs2method_10273(ivar2, 8, 0, 28), 300, cs2method_10273(ivar2, 8, 0, 28), 300, 0);
+	cs2method_10105(1, 4, cs2method_10273(ivar2, 30, 0, 16), 300, cs2method_10273(ivar2, 30, 0, 16), 300, 0);
+	cs2method_10105(1, 5, cs2method_10273(ivar2, 30, 0, 16), 400, cs2method_10273(ivar2, 30, 0, 16), 400, 0);
+	cs2method_20808(1631, "", new WidgetPointer(75,0));
+	cs2method_10767(0, 0, 200, 200, 1, 0);
+	return;
+}

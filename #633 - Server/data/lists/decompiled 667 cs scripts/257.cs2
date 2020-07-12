@@ -1,0 +1,178 @@
+void script_257() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	object ovar0;
+	ovar0 = (object)"";
+	if (globalint_1111 == -1 || globalint_1113 == -1 || globalint_1112 == -1 || globalint_1114 == -1 || globalint_1115 == -1 || globalint_1116 == -1 || globalint_1117 == -1 || globalint_1927 == -1) {
+		return;
+	}
+	ivar0 = multiply(cs2method_10860(60227640), add(18, 4));
+	ivar1 = multiply(add(cs2method_10860(60227640), 1), add(18, 4));
+	setWidgetScrollMax(cs2method_10916(60227639), ivar1, 60227639);
+	cs2method_10893(cs2method_10956(60227605), ivar1, 0, 0, 60227605);
+	createChildWidget(60227605, 4, cs2method_10860(60227605));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	setWidgetText((object)script_1668(globalint_1111));
+	setWidgetTextAlignment(1, 1, 0);
+	ovar0 = (object)((string)cs2method_10775() + ": The type of fish");
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227640), ivar1, 0, 0, 60227640);
+	createChildWidget(60227640, 4, cs2method_10860(60227640));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	setWidgetText((object)script_276(globalint_1113));
+	setWidgetTextAlignment(1, 1, 0);
+	ovar0 = (object)((string)cs2method_10775() + ": The habitat in which you caught the fish");
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227641), ivar1, 0, 0, 60227641);
+	createChildWidget(60227641, 4, cs2method_10860(60227641));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	setWidgetText((object)toString(globalint_1112));
+	setWidgetTextAlignment(1, 1, 0);
+	ovar0 = (object)((string)cs2method_10775() + ": The weight of the fish");
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227642), ivar1, 0, 0, 60227642);
+	createChildWidget(60227642, 5, cs2method_10860(60227642));
+	setWidgetSize(20, 20, 0, 0);
+	setWidgetPosition(0, ivar0, 1, 2);
+	ivar2 = -1;
+	switch (globalint_1114) {
+		case 1:
+			ivar2 = 15658;
+			ovar0 = (object)"Worm";
+			break;
+		case 2:
+			ivar2 = 15659;
+			ovar0 = (object)"Maggot";
+			break;
+		case 3:
+			ivar2 = 15662;
+			ovar0 = (object)"Cricket";
+			break;
+		case 4:
+			ivar2 = 15663;
+			ovar0 = (object)"Locust";
+			break;
+		case 5:
+			ivar2 = 15661;
+			ovar0 = (object)"Crayfish";
+			break;
+		case 6:
+			ivar2 = 15660;
+			ovar0 = (object)"Shrimp";
+			break;
+		case 7:
+			ivar2 = 15664;
+			ovar0 = (object)"Green moth";
+			break;
+		case 8:
+			ivar2 = 15665;
+			ovar0 = (object)"Grey moth";
+	}
+	if (globalint_1927 < 2) {
+		cs2method_10814(ivar2, 0);
+		ovar0 = (object)((string)ovar0 + ": The bait you used to catch the fish");
+	} else {
+		ovar0 = (object)"You do not know which bait was used to catch this big fish";
+	}
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227643), ivar1, 0, 0, 60227643);
+	createChildWidget(60227643, 4, cs2method_10860(60227643));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	if (globalint_1927 < 2) {
+		setWidgetText((object)script_278(globalint_1115));
+		ovar0 = (object)((string)cs2method_10775() + ": The hook you used to catch the fish");
+	} else {
+		ovar0 = (object)"You do not know which hook was used to catch this big fish";
+	}
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227644), ivar1, 0, 0, 60227644);
+	createChildWidget(60227644, 4, cs2method_10860(60227644));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	if (globalint_1927 < 2) {
+		setWidgetText((object)toString(globalint_1116));
+		ovar0 = (object)((string)cs2method_10775() + ": The distance from the shore where you caught the fish");
+	} else {
+		ovar0 = (object)"You do not know which weights were used to catch this big fish";
+	}
+	setWidgetTextAlignment(1, 1, 0);
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	cs2method_10893(cs2method_10956(60227645), ivar1, 0, 0, 60227645);
+	createChildWidget(60227645, 4, cs2method_10860(60227645));
+	if (globalint_1927 >= 1) {
+		setWidgetRGB(new Color(241, 216, 176));
+	} else {
+		setWidgetRGB(new Color(164, 164, 103));
+	}
+	setWidgetSize(16384, 18, 2, 0);
+	setWidgetPosition(0, ivar0, 0, 2);
+	setWidgetFont(494);
+	if (globalint_1927 < 2) {
+		setWidgetText((object)(toString(globalint_1117) + "%"));
+	}
+	setWidgetTextAlignment(1, 1, 0);
+	if (globalint_1117 == 100) {
+		ovar0 = (object)((string)cs2method_10775() + ": You are catching the highest-quality fish of this type at this habitat.");
+	} else {
+		ovar0 = (object)((string)cs2method_10775() + ": The quality of the fish you caught. Selecting a more suitable habitat, bait, hook and/or weights increases the rating of catches.");
+	}
+	if (globalint_1927 == 2) {
+		ovar0 = (object)"You helped a contestant to catch this big fish";
+	}
+	cs2method_20930(4538, new WidgetPointer(919,20), new WidgetPointer(-32768,3), -1, (string)ovar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646, "IIisifdiiiiii");
+	cs2method_20139(40, new WidgetPointer(919,20), "I");
+	if (cs2method_10090(60227627) == 200) {
+		script_31(60227638, 60227639, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	globalint_1111 = -1;
+	globalint_1113 = -1;
+	globalint_1112 = -1;
+	globalint_1114 = -1;
+	globalint_1115 = -1;
+	globalint_1116 = -1;
+	globalint_1117 = -1;
+	globalint_1927 = -1;
+	return;
+}

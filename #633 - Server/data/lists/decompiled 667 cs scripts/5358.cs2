@@ -1,0 +1,46 @@
+void script_5358(int arg0,int arg1) {
+	switch (arg0) {
+		case 0:
+			arg0 = 1;
+			break;
+		case 1:
+			arg0 = 4;
+			break;
+		case 2:
+			arg0 = 7;
+			break;
+		case 3:
+			arg0 = 10;
+			break;
+		case 4:
+			arg0 = 13;
+			break;
+		default:
+			return;
+	}
+	if (cs2method_10551(arg1, 1) == 1) {
+		cs2method_10469(7766);
+		cs2method_20139(5357, 1, new WidgetPointer(arg1), "iI");
+	}
+	if (cs2method_10551(arg1, 4) == 1) {
+		cs2method_10469(7766);
+		cs2method_20139(5357, 4, new WidgetPointer(arg1), "iI");
+	}
+	if (cs2method_10551(arg1, 7) == 1) {
+		cs2method_10469(7766);
+		cs2method_20139(5357, 7, new WidgetPointer(arg1), "iI");
+	}
+	if (cs2method_10551(arg1, 10) == 1) {
+		cs2method_10469(7766);
+		cs2method_20139(5357, 10, new WidgetPointer(arg1), "iI");
+	}
+	if (cs2method_10551(arg1, 13) == 1) {
+		cs2method_10469(7766);
+		cs2method_20139(5357, 13, new WidgetPointer(arg1), "iI");
+	}
+	if (cs2method_10551(arg1, arg0) == 1) {
+		cs2method_10469(7767);
+		cs2method_20139(-1, "");
+	}
+	return;
+}

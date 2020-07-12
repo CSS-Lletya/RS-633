@@ -1,0 +1,62 @@
+int script_5887(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar2 = 8;
+	ivar3 = 20;
+	ivar4 = divide(arg1, 20);
+	ivar5 = cs2method_10620(arg1, 20);
+	ivar6 = 0;
+	if (ivar4 > 0) {
+		ivar6 = add(ivar6, 140);
+	}
+	if (ivar4 > 1) {
+		ivar6 = add(ivar6, 120);
+	}
+	if (ivar4 > 2) {
+		ivar6 = add(ivar6, 100);
+	}
+	if (ivar4 > 3) {
+		ivar6 = add(ivar6, 80);
+	}
+	if (ivar4 > 4) {
+		ivar6 = add(ivar6, 60);
+	}
+	if (ivar4 > 5) {
+		ivar6 = add(ivar6, 40);
+	}
+	if (ivar4 > 6) {
+		ivar6 = add(ivar6, 20);
+	}
+	ivar7 = 8;
+	switch (ivar4) {
+		case 0:
+			ivar7 = 8;
+			break;
+		case 1:
+			ivar7 = 7;
+			break;
+		case 2:
+			ivar7 = 6;
+			break;
+		case 3:
+			ivar7 = 5;
+			break;
+		case 4:
+			ivar7 = 4;
+			break;
+		case 5:
+			ivar7 = 3;
+			break;
+		case 6:
+			ivar7 = 2;
+			break;
+		case 7:
+			ivar7 = 1;
+	}
+	ivar6 = add(ivar6, multiply(ivar7, ivar5));
+	return script_5888(arg0, ivar6);
+}

@@ -1,0 +1,27 @@
+void script_6444(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (globalint_198 != 1) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+		if (arg0 == 85655559) {
+			script_1733(85655579);
+			setWidgetText(new WidgetPointer(arg0), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_377)))));
+		} else {
+			if (arg0 == 85655579) {
+				script_1733(85655559);
+				setWidgetText(new WidgetPointer(arg0), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_378)))));
+			}
+		}
+		return;
+	}
+	if (cs2method_10620(cs2method_10878(), 40) < 20) {
+		setWidgetText(new WidgetPointer(arg0), (object)"");
+	} else if (arg0 == 85655559) {
+		setWidgetText(new WidgetPointer(arg0), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_377)))));
+	} else {
+		if (arg0 == 85655579) {
+			setWidgetText(new WidgetPointer(arg0), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_378)))));
+		}
+	}
+	return;
+}

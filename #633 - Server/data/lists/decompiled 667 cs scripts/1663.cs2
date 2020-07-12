@@ -1,0 +1,28 @@
+void script_1663(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = 0;
+	if (cs2method_10551(arg0, arg1) == 1 && cs2method_10140() == 0) {
+		cs2method_10692(0);
+		if (add(cs2method_10207(), cs2method_10630()) < cs2method_10424(arg0)) {
+			cs2method_10021(0, 0, 512, 1024, 0, 1500);
+			setWidgetPosition(0, cs2method_10826(arg0), 1, 0);
+			return;
+		}
+		if (cs2method_10207() >= add(cs2method_10424(arg0), cs2method_10090(arg0))) {
+			cs2method_10021(0, 0, 512, 0, 0, 1500);
+			setWidgetPosition(0, subtract(add(cs2method_10826(arg0), cs2method_10090(arg0)), cs2method_10630()), 1, 0);
+			return;
+		}
+		ivar3 = add(subtract(cs2method_10207(), cs2method_10424(arg0)), cs2method_10826(arg0));
+		if (ivar3 > subtract(cs2method_10090(arg2), cs2method_10630())) {
+			cs2method_10021(0, 0, 512, 256, 0, 1500);
+			setWidgetPosition(0, subtract(ivar3, cs2method_10630()), 1, 0);
+		} else {
+			cs2method_10021(0, 0, 512, 768, 0, 1500);
+			setWidgetPosition(0, add(ivar3, cs2method_10630()), 1, 0);
+		}
+		return;
+	}
+	cs2method_10692(1);
+	return;
+}

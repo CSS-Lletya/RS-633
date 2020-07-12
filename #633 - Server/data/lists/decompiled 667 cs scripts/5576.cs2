@@ -1,0 +1,13 @@
+void script_5576() {
+	setWidgetText(new WidgetPointer(1181,60), cs2method_10595(bitconfig_10300, 1));
+	setWidgetText(new WidgetPointer(1181,166), (object)"Select an item to buy.");
+	setWidgetText(new WidgetPointer(1181,6), (object)"Select an item to buy.");
+	cs2method_10380(22959, 1, 77398241);
+	cs2method_10380(22958, 1, 77398020);
+	cs2method_10380(22960, 1, 77398019);
+	cs2method_10380(22961, 1, 77398018);
+	cs2method_10380(22962, 1, 77398017);
+	cs2method_10274(5558, 1, 77398016);
+	script_31(77398061, 77398046, 5666, 5663, 5664, 5665, 5686, 5685);
+	return;
+}

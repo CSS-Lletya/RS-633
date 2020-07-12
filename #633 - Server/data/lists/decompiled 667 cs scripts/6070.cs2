@@ -1,0 +1,203 @@
+int script_6070() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 64;
+	ivar1 = 0;
+	while (ivar0 != 0) {
+		switch (ivar0) {
+			case 1:
+				ivar1 = add(ivar1, globalint_1812);
+				break;
+			case 2:
+				ivar1 = add(ivar1, globalint_1813);
+				break;
+			case 3:
+				ivar1 = add(ivar1, globalint_1814);
+				break;
+			case 4:
+				ivar1 = add(ivar1, globalint_1815);
+				break;
+			case 5:
+				ivar1 = add(ivar1, globalint_1816);
+				break;
+			case 6:
+				ivar1 = add(ivar1, globalint_1817);
+				break;
+			case 7:
+				ivar1 = add(ivar1, globalint_1818);
+				break;
+			case 8:
+				ivar1 = add(ivar1, globalint_1819);
+				break;
+			case 9:
+				ivar1 = add(ivar1, globalint_1820);
+				break;
+			case 10:
+				ivar1 = add(ivar1, globalint_1821);
+				break;
+			case 11:
+				ivar1 = add(ivar1, globalint_1822);
+				break;
+			case 12:
+				ivar1 = add(ivar1, globalint_1823);
+				break;
+			case 13:
+				ivar1 = add(ivar1, globalint_1824);
+				break;
+			case 14:
+				ivar1 = add(ivar1, globalint_1825);
+				break;
+			case 15:
+				ivar1 = add(ivar1, globalint_1826);
+				break;
+			case 16:
+				ivar1 = add(ivar1, globalint_1827);
+				break;
+			case 17:
+				ivar1 = add(ivar1, globalint_1828);
+				break;
+			case 18:
+				ivar1 = add(ivar1, globalint_1829);
+				break;
+			case 19:
+				ivar1 = add(ivar1, globalint_1830);
+				break;
+			case 20:
+				ivar1 = add(ivar1, globalint_1831);
+				break;
+			case 21:
+				ivar1 = add(ivar1, globalint_1832);
+				break;
+			case 22:
+				ivar1 = add(ivar1, globalint_1833);
+				break;
+			case 23:
+				ivar1 = add(ivar1, globalint_1834);
+				break;
+			case 24:
+				ivar1 = add(ivar1, globalint_1835);
+				break;
+			case 25:
+				ivar1 = add(ivar1, globalint_1836);
+				break;
+			case 26:
+				ivar1 = add(ivar1, globalint_1837);
+				break;
+			case 27:
+				ivar1 = add(ivar1, globalint_1838);
+				break;
+			case 28:
+				ivar1 = add(ivar1, globalint_1839);
+				break;
+			case 29:
+				ivar1 = add(ivar1, globalint_1840);
+				break;
+			case 30:
+				ivar1 = add(ivar1, globalint_1841);
+				break;
+			case 31:
+				ivar1 = add(ivar1, globalint_1842);
+				break;
+			case 32:
+				ivar1 = add(ivar1, globalint_1843);
+				break;
+			case 33:
+				ivar1 = add(ivar1, globalint_1844);
+				break;
+			case 34:
+				ivar1 = add(ivar1, globalint_1845);
+				break;
+			case 35:
+				ivar1 = add(ivar1, globalint_1846);
+				break;
+			case 36:
+				ivar1 = add(ivar1, globalint_1847);
+				break;
+			case 37:
+				ivar1 = add(ivar1, globalint_1848);
+				break;
+			case 38:
+				ivar1 = add(ivar1, globalint_1849);
+				break;
+			case 39:
+				ivar1 = add(ivar1, globalint_1850);
+				break;
+			case 40:
+				ivar1 = add(ivar1, globalint_1851);
+				break;
+			case 41:
+				ivar1 = add(ivar1, globalint_1852);
+				break;
+			case 42:
+				ivar1 = add(ivar1, globalint_1853);
+				break;
+			case 43:
+				ivar1 = add(ivar1, globalint_1854);
+				break;
+			case 44:
+				ivar1 = add(ivar1, globalint_1855);
+				break;
+			case 45:
+				ivar1 = add(ivar1, globalint_1856);
+				break;
+			case 46:
+				ivar1 = add(ivar1, globalint_1857);
+				break;
+			case 47:
+				ivar1 = add(ivar1, globalint_1858);
+				break;
+			case 48:
+				ivar1 = add(ivar1, globalint_1859);
+				break;
+			case 49:
+				ivar1 = add(ivar1, globalint_1860);
+				break;
+			case 50:
+				ivar1 = add(ivar1, globalint_1861);
+				break;
+			case 51:
+				ivar1 = add(ivar1, globalint_1862);
+				break;
+			case 52:
+				ivar1 = add(ivar1, globalint_1863);
+				break;
+			case 53:
+				ivar1 = add(ivar1, globalint_1864);
+				break;
+			case 54:
+				ivar1 = add(ivar1, globalint_1865);
+				break;
+			case 55:
+				ivar1 = add(ivar1, globalint_1866);
+				break;
+			case 56:
+				ivar1 = add(ivar1, globalint_1867);
+				break;
+			case 57:
+				ivar1 = add(ivar1, globalint_1868);
+				break;
+			case 58:
+				ivar1 = add(ivar1, globalint_1869);
+				break;
+			case 59:
+				ivar1 = add(ivar1, globalint_1870);
+				break;
+			case 60:
+				ivar1 = add(ivar1, globalint_1871);
+				break;
+			case 61:
+				ivar1 = add(ivar1, globalint_1872);
+				break;
+			case 62:
+				ivar1 = add(ivar1, globalint_1873);
+				break;
+			case 63:
+				ivar1 = add(ivar1, globalint_1874);
+				break;
+			case 64:
+				ivar1 = add(ivar1, globalint_1875);
+		}
+		ivar0 = subtract(ivar0, 1);
+	}
+	return ivar1;
+}

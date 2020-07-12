@@ -1,0 +1,5 @@
+int script_5491() {
+	SWITCH (cs2method_10083()) {
+	}
+	return 8485;
+}

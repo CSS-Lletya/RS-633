@@ -1,0 +1,34 @@
+void script_111() {
+	if (globalint_1413 == 0) {
+		return;
+	}
+	if (globalint_11 == 1) {
+		script_675();
+	}
+	if (cs2method_10842() >= 2) {
+		setWidgetIsHidden(false, new WidgetPointer(746,22));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(752,3));
+	setWidgetIsHidden(true, new WidgetPointer(752,7));
+	setWidgetIsHidden(true, new WidgetPointer(752,8));
+	setWidgetText(new WidgetPointer(752,4), (object)"Enter the player name whose channel you wish to join:");
+	globalint_5 = 10;
+	script_1564((object)"");
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(752,3));
+	script_2026();
+	setScriptCallOnKeyPress(112, -2147483640, false, "iz", new WidgetPointer(752,5));
+	createChildWidget(49283075, 4, 0);
+	script_2752();
+	if (globalint_1027 == 1 && cs2method_10366((object)globalstring_202) > 0) {
+		setWidgetText((object)("Last name entered: " + globalstring_202));
+	} else {
+		globalstring_202 = (string)cs2method_10222(cs2method_10758());
+		globalint_1027 = 1;
+		setWidgetText((object)("Your name: " + globalstring_202));
+	}
+	setWidgetContextMenuOption(1, (object)"Use:");
+	cs2method_11002((object)("<col=ff9040>" + (string)cs2method_10222((object)globalstring_202) + "</col>"));
+	cs2method_20115(2753, globalint_5, -2147483644, new WidgetPointer(-32768,3), -2147483643, globalstring_202, "iiIis");
+	script_1188();
+	return;
+}

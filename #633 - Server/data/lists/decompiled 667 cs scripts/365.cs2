@@ -1,0 +1,28 @@
+void script_365(int arg0,int arg1,int arg2) {
+	if (arg2 == 1) {
+		if (cs2method_10551(arg0, arg1) == 1) {
+			if (cs2method_10630() > 90) {
+				cs2method_10469(10552);
+			} else {
+				cs2method_10469(10550);
+			}
+		}
+	} else if (arg2 == 2) {
+		if (cs2method_10551(arg0, arg1) == 1) {
+			if (cs2method_10630() > 90) {
+				cs2method_10469(10552);
+			} else {
+				cs2method_10469(10550);
+			}
+		}
+	} else {
+		if (cs2method_10551(arg0, arg1) == 1) {
+			if (cs2method_10630() > 90) {
+				cs2method_10469(10551);
+			} else {
+				cs2method_10469(10549);
+			}
+		}
+	}
+	return;
+}

@@ -1,0 +1,18 @@
+void script_2129(int arg0,int arg1,int arg2) {
+	switch (arg1) {
+		case 27525135:
+		case 27525134:
+		case 27525133:
+		case 27525132:
+		case 27525138:
+		case 27525139:
+		case 27525136:
+		case 27525137:
+			cs2method_10444(cs2method_10111(arg1), cs2method_10826(arg1), 0, 0, arg0);
+			cs2method_10508(5507, 1, 0);
+			break;
+		default:
+			cs2method_10444(cs2method_10111(arg2), cs2method_10826(arg2), 0, 0, arg0);
+	}
+	return;
+}

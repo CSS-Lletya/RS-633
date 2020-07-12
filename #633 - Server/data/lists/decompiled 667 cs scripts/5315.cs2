@@ -1,0 +1,76 @@
+void script_5315(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	ivar5 = 0;
+	ivar6 = 15;
+	ivar7 = cs2method_10624(5177);
+	ivar8 = cs2method_10624(5176);
+	ivar9 = 0;
+	ivar10 = -1;
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	clearExtraChildren(new WidgetPointer(arg3));
+	clearExtraChildren(new WidgetPointer(arg4));
+	while (ivar5 < 40) {
+		ivar9 = subtract(script_5319(ivar5), 1);
+		createChildWidget(arg1, 3, ivar5);
+		setWidgetSize(cs2method_10956(arg0), ivar6, 0, 0);
+		setWidgetPosition(0, multiply(ivar5, ivar6), 0, 0);
+		if (cs2method_10620(ivar5, 2) == 0) {
+			setWidgetRGB(new Color(34, 34, 34));
+		} else {
+			setWidgetRGB(new Color(17, 17, 17));
+		}
+		setWidgetFilled(1);
+		createChildWidget(arg3, 5, ivar5);
+		cs2method_10469(7712);
+		setWidgetContextMenuOption(1, (object)"Play");
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(138, add(1, multiply(ivar5, ivar6)), 0, 0);
+		ivar10 = 7713;
+		cs2method_20211(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		ivar10 = 7712;
+		cs2method_20139(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		if (ivar9 < 0) {
+			cs2method_10692(1);
+		}
+		createChildWidget(arg4, 5, ivar5);
+		cs2method_10469(7718);
+		setWidgetContextMenuOption(1, (object)"Remove");
+		setWidgetSize(12, 13, 0, 0);
+		setWidgetPosition(151, add(1, multiply(ivar5, ivar6)), 0, 0);
+		ivar10 = 7719;
+		cs2method_20211(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		ivar10 = 7718;
+		cs2method_20139(5336, new WidgetPointer(-32768,3), -2147483643, ivar10, "Iid");
+		if (ivar9 < 0) {
+			cs2method_10692(1);
+		}
+		createChildWidget(arg2, 4, ivar5);
+		setWidgetFont(494);
+		setWidgetPosition(2, multiply(ivar5, ivar6), 0, 0);
+		setWidgetSize(subtract(cs2method_10956(arg0), 24), 15, 0, 0);
+		setWidgetRGB(new Color(221, 221, 221));
+		setWidgetTextAlignment(0, 1, 0);
+		cs2method_10320(0);
+		if (ivar9 >= 0) {
+			setWidgetText((object)getDataByKey('i', 's', 5177, ivar9));
+		} else {
+			setWidgetText((object)"");
+		}
+		cs2method_10460(arg2, -1);
+		cs2method_10895(1);
+		cs2method_10979(3);
+		cs2method_10337(20);
+		cs2method_20191(5316, new WidgetPointer(-32768,3), -2147483643, -2147483641, "Iii");
+		ivar5 = add(ivar5, 1);
+	}
+	cs2method_10085(0, 0, arg0);
+	setWidgetScrollMax(0, add(2, multiply(ivar5, ivar6)), arg0);
+	script_31(20905993, arg0, 792, 789, 790, 791, 773, 788);
+	return;
+}

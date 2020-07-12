@@ -1,0 +1,20 @@
+void script_5543() {
+	int ivar0;
+	int ivar1;
+	ivar0 = script_5541();
+	ivar1 = 0;
+	if (isMember() == 0) {
+		ivar0 = cs2method_10586(20, ivar0);
+		ivar0 = cs2method_10004(0, ivar0);
+		ivar1 = divide(multiply(ivar0, 16384), 20);
+		cs2method_10893(ivar1, cs2method_10090(77201492), 2, 0, 77201492);
+		setWidgetText(new WidgetPointer(1178,89), (object)(toString(ivar0) + " / " + toString(20)));
+	} else {
+		ivar0 = cs2method_10586(39, ivar0);
+		ivar0 = cs2method_10004(0, ivar0);
+		ivar1 = divide(multiply(ivar0, 16384), 39);
+		cs2method_10893(ivar1, cs2method_10090(77201492), 2, 0, 77201492);
+		setWidgetText(new WidgetPointer(1178,89), (object)(toString(ivar0) + " / " + toString(39)));
+	}
+	return;
+}

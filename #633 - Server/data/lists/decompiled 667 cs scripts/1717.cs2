@@ -1,0 +1,22 @@
+void script_1717() {
+	if (globalint_181 == 1) {
+		clearExtraChildren(new WidgetPointer(271,7));
+		clearExtraChildren(new WidgetPointer(271,8));
+		setWidgetIsHidden(false, new WidgetPointer(271,9));
+		setWidgetIsHidden(true, new WidgetPointer(271,0));
+		script_1388(17760265);
+		script_1237(17760264);
+		clearExtraChildren(new WidgetPointer(271,6));
+		cs2method_10085(0, 0, 17760261);
+		cs2method_10893(16384, 16384, 2, 2, 17760261);
+	} else {
+		clearExtraChildren(new WidgetPointer(271,9));
+		setWidgetIsHidden(true, new WidgetPointer(271,9));
+		setWidgetIsHidden(false, new WidgetPointer(271,0));
+		script_1237(17760264);
+		script_1293(17760263);
+		cs2method_10893(16384, add(19, cs2method_10090(17760256)), 2, 1, 17760261);
+		script_1704();
+	}
+	return;
+}

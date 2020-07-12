@@ -1,0 +1,11 @@
+void script_2777(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = subtract(255, script_1210(200, 75, arg0, 0));
+	if (arg1 != -1) {
+		cs2method_10149(ivar3, arg1);
+	}
+	if (arg2 != -1) {
+		cs2method_10149(ivar3, arg2);
+	}
+	return;
+}

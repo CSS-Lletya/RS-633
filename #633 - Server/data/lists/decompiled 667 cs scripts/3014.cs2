@@ -1,0 +1,24 @@
+void script_3014() {
+	int ivar0;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"news";
+	ovar1 = (object)"mad-may-and-wild-weekends";
+	ivar0 = cs2method_10869(100);
+	setWidgetIsHidden(true, new WidgetPointer(908,15));
+	setWidgetIsHidden(false, new WidgetPointer(908,30));
+	cs2method_10467(12152, 59506719);
+	cs2method_10467(-1, 59506723);
+	setWidgetText(new WidgetPointer(908,33), (object)"");
+	cs2method_10893(345, 35, 0, 0, 59506721);
+	cs2method_10444(231, 5, 0, 0, 59506721);
+	setWidgetRGB(923907, 59506721);
+	setWidgetFont(473, 59506721);
+	setWidgetTextAlignment(1, 2, 0, 59506721);
+	setWidgetText(new WidgetPointer(908,32), (object)"");
+	cs2method_10444(231, 46, 0, 0, 59506720);
+	cs2method_10893(345, 70, 0, 0, 59506720);
+	setWidgetRGB(923907, 59506720);
+	setWidgetTextAlignment(1, 1, 0, 59506720);
+	return;
+}

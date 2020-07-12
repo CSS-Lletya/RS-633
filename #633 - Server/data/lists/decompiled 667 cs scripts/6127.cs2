@@ -1,0 +1,31 @@
+void script_6127(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar0;
+	ovar0 = (object)("- Place probes in the mind of your victim to invade their consciousness and steal their memories." + "<br>" + "- Place each in a perfect position to obtain a clear memory." + "<br>" + "- Use the flashing hint circle to find the ideal positions. A faster flash is better." + "<br>" + "- You may also make use of audio hints to help find the ideal positions." + "<br>" + "- You have three probes to place." + "<br>" + "- Click the screen to add a probe in place." + "<br>" + "- You will exit the mind of your victim when you have placed all three probes.");
+	ivar1 = 10;
+	ivar2 = 16;
+	ivar3 = subtract(cs2method_10956(83230796), multiply(ivar1, 2));
+	ivar4 = getLineCount(ivar3, 495, ovar0);
+	setWidgetTextAlignment(0, 0, ivar2, 83230797);
+	ivar5 = multiply(ivar2, ivar4);
+	cs2method_10444(ivar1, ivar1, 0, 0, 83230797);
+	cs2method_10893(ivar3, ivar5, 0, 0, 83230797);
+	setWidgetText(new WidgetPointer(1270,77), ovar0);
+	ivar6 = add(add(ivar5, ivar1), ivar1);
+	if (ivar6 < cs2method_10090(83230796)) {
+		ivar6 = cs2method_10090(83230796);
+	}
+	setWidgetScrollMax(cs2method_10956(83230796), ivar6, 83230796);
+	script_31(83230795, 83230796, 5666, 5663, 5664, 5665, 5686, 5685);
+	if (arg0 == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1270,71));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1270,71));
+	}
+	return;
+}

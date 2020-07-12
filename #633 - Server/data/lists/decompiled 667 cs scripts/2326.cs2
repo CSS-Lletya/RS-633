@@ -1,0 +1,32 @@
+void script_2326(int arg0) {
+	int ivar1;
+	ivar1 = cs2method_10878();
+	switch (arg0) {
+		case 32826:
+		case 32820:
+		case 32828:
+			globalint_767 = 0;
+			setWidgetIsHidden(false, new WidgetPointer(306,25));
+			setWidgetText(new WidgetPointer(306,26), (object)"Incorrect");
+			cs2method_10508(6424, 1, 0);
+			setWidgetRGB(16711680, 20054042);
+			cs2method_20219(2327, ivar1, "i", new WidgetPointer(306,25));
+			break;
+		default:
+			globalint_767 = add(globalint_767, 1);
+			if (globalint_767 == 10) {
+				setWidgetIsHidden(false, new WidgetPointer(306,27));
+				cs2method_10375(1, 20054045, (object)"Train");
+				setScriptCallOnMousePressed(-1, "", new WidgetPointer(306,23));
+			} else {
+				setWidgetIsHidden(false, new WidgetPointer(306,25));
+				setWidgetText(new WidgetPointer(306,26), (object)"Correct");
+				cs2method_10508(6423, 1, 0);
+				setWidgetRGB(65280, 20054042);
+				cs2method_20219(2327, ivar1, "i", new WidgetPointer(306,25));
+			}
+	}
+	setWidgetText(new WidgetPointer(306,3), (object)("Correct: " + toString(globalint_767) + "/" + toString(10)));
+	cs2method_10508(6423, 1, 0);
+	return;
+}

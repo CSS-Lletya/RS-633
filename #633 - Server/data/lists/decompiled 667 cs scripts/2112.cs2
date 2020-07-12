@@ -1,0 +1,32 @@
+void script_2112(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	cs2method_10158(0, 0, cs2method_10427(arg0), cs2method_10782(arg0), cs2method_10854(arg0), add(add(395, arg5), arg5), arg0);
+	cs2method_10158(0, 0, cs2method_10427(arg1), cs2method_10782(arg1), cs2method_10854(arg1), add(add(395, arg5), arg5), arg1);
+	cs2method_10158(0, 0, cs2method_10427(arg2), cs2method_10782(arg2), cs2method_10854(arg2), add(add(395, arg5), arg5), arg2);
+	cs2method_10158(0, 0, cs2method_10427(arg3), cs2method_10782(arg3), cs2method_10854(arg3), add(add(395, arg5), arg5), arg3);
+	switch (arg4) {
+		case 0:
+			cs2method_10444(0, 43, 1, 0, arg0);
+			cs2method_10444(0, 126, 1, 0, arg1);
+			cs2method_10444(0, 210, 1, 0, arg2);
+			cs2method_10444(0, -70, 1, 0, arg3);
+			break;
+		case 1:
+			cs2method_10444(0, 43, 1, 0, arg1);
+			cs2method_10444(0, 126, 1, 0, arg2);
+			cs2method_10444(0, 210, 1, 0, arg3);
+			cs2method_10444(0, -70, 1, 0, arg0);
+			break;
+		case 2:
+			cs2method_10444(0, 43, 1, 0, arg2);
+			cs2method_10444(0, 126, 1, 0, arg3);
+			cs2method_10444(0, 210, 1, 0, arg0);
+			cs2method_10444(0, -70, 1, 0, arg1);
+			break;
+		default:
+			cs2method_10444(0, 43, 1, 0, arg3);
+			cs2method_10444(0, 126, 1, 0, arg0);
+			cs2method_10444(0, 210, 1, 0, arg1);
+			cs2method_10444(0, -70, 1, 0, arg2);
+	}
+	return;
+}

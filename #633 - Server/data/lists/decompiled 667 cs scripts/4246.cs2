@@ -1,0 +1,21 @@
+void script_4246() {
+	script_4247();
+	switch (bitconfig_2247) {
+		case 0:
+			setWidgetIsHidden(false, new WidgetPointer(411,39));
+			script_4161(26935335, 0);
+			break;
+		case 1:
+			setWidgetIsHidden(false, new WidgetPointer(411,12));
+			script_4161(26935308, 0);
+			break;
+		case 2:
+			setWidgetIsHidden(false, new WidgetPointer(411,21));
+			script_4161(26935317, 0);
+			break;
+		case 3:
+			setWidgetIsHidden(false, new WidgetPointer(411,30));
+			script_4161(26935326, 0);
+	}
+	return;
+}

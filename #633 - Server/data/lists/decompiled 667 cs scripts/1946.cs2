@@ -1,0 +1,99 @@
+void script_1946() {
+	int ivar0;
+	object ovar0;
+	ivar0 = 0;
+	ovar0 = (object)"";
+	cs2method_20295(40, new WidgetPointer(810,5), "I", new WidgetPointer(810,10));
+	if (globalint_589 == 99999992) {
+		setWidgetText(new WidgetPointer(810,81), (object)"You abandon the game!");
+		setWidgetText(new WidgetPointer(810,17), (object)("You abandon the game." + "<br>" + "<br>" + "The mystics don't seem happy and scowl at you, muttering unpleasant sentiments under their breath." + "<br>" + "<br>" + "You notice that you received no score as a result."));
+		setWidgetText(new WidgetPointer(810,58), (object)"-100%");
+		setWidgetText(new WidgetPointer(810,32), (object)"");
+		setWidgetText(new WidgetPointer(810,33), (object)"");
+		ovar0 = (object)"The awards tab is not available when you leave a game early.";
+		cs2method_20835(38, new WidgetPointer(810,10), new WidgetPointer(810,5), (string)ovar0, 25, 189, "IIsii", new WidgetPointer(810,10));
+	} else {
+		if (globalint_588 == 1) {
+			setWidgetText(new WidgetPointer(810,32), (object)toString(globalint_597));
+			setWidgetText(new WidgetPointer(810,33), (object)toString(globalint_598));
+		} else {
+			setWidgetText(new WidgetPointer(810,32), (object)toString(globalint_598));
+			setWidgetText(new WidgetPointer(810,33), (object)toString(globalint_597));
+		}
+		if (globalint_588 == globalint_589) {
+			setWidgetText(new WidgetPointer(810,81), (object)"Your valiant team takes the victory!");
+			if (ivar0 == 1) {
+				setWidgetText(new WidgetPointer(810,17), (object)("With the heroic conquest of all resources and facilities, your team have ripped success from the feeble fingers of your unworthy foes." + "<br>" + "<br>" + "The mystics stand in awe of your power, and you hear them praising you in excited whispers." + "<br>" + "<br>" + "You notice that they have increased your score as a reward."));
+			} else {
+				setWidgetText(new WidgetPointer(810,17), (object)("The heroic, skilful and brave deeds of your team have ripped success from the feeble fingers of your unworthy foes." + "<br>" + "<br>" + "The mystics stand in awe of your power, and you hear them praising you in excited whispers." + "<br>" + "<br>" + "You notice that they have increased your score as a reward."));
+			}
+			setWidgetText(new WidgetPointer(810,58), (object)"+10%");
+		} else if (globalint_589 == 0) {
+			setWidgetText(new WidgetPointer(810,81), (object)"The game was a draw!");
+			setWidgetText(new WidgetPointer(810,17), (object)("As if ordained by fate, the teams were equally brave and skillful, resulting in a draw." + "<br>" + "<br>" + "The mystics nod knowingly, and you hear them discussing how the balance of the universe is reflected beautifully in the conflict's outcome." + "<br>" + "<br>"));
+			setWidgetText(new WidgetPointer(810,58), (object)"+0%");
+		} else {
+			setWidgetText(new WidgetPointer(810,81), (object)"The enemy team has defeated you!");
+			if (ivar0 == 1) {
+				setWidgetText(new WidgetPointer(810,17), (object)("Despite your best efforts, your team was beaten; the victory snatched away as the enemy took control of all resources and facilities." + "<br>" + "<br>" + "The mystics frown at you, and shake their heads sadly." + "<br>" + "<br>" + "You hear them arguing over whether they overestimated you, or if you were just unlucky."));
+			}
+			setWidgetText(new WidgetPointer(810,17), (object)("Despite your best efforts, your team was beaten; the victory snatched away by your fearsome foes." + "<br>" + "<br>" + "The mystics frown at you, and shake their heads sadly." + "<br>" + "<br>" + "You hear them arguing over whether they overestimated you, or if you were just unlucky."));
+			setWidgetText(new WidgetPointer(810,58), (object)"+0%");
+		}
+	}
+	setWidgetText(new WidgetPointer(810,59), (object)toString(globalint_590));
+	setWidgetText(new WidgetPointer(810,59), (object)toString(globalint_590));
+	setWidgetText(new WidgetPointer(810,60), (object)toString(globalint_591));
+	setWidgetText(new WidgetPointer(810,61), (object)toString(globalint_592));
+	setWidgetText(new WidgetPointer(810,62), (object)toString(globalint_593));
+	setWidgetText(new WidgetPointer(810,23), (object)toString(globalint_594));
+	setWidgetText(new WidgetPointer(810,25), (object)toString(globalint_595));
+	if (globalint_589 != 99999992) {
+		setWidgetText(new WidgetPointer(810,63), (object)toString(globalint_596));
+	} else {
+		setWidgetText(new WidgetPointer(810,63), (object)toString(0));
+	}
+	if (globalint_600 > 0 || globalint_603 > 0) {
+		setWidgetText(new WidgetPointer(810,136), (object)toString(globalint_599));
+		setWidgetText(new WidgetPointer(810,135), (object)toString(globalint_600));
+		setWidgetText(new WidgetPointer(810,139), (object)toString(globalint_601));
+		setWidgetText(new WidgetPointer(810,140), (object)toString(globalint_602));
+		setWidgetText(new WidgetPointer(810,138), (object)toString(globalint_603));
+		setWidgetText(new WidgetPointer(810,137), (object)toString(globalint_604));
+		setWidgetText(new WidgetPointer(810,141), (object)toString(globalint_605));
+		setWidgetText(new WidgetPointer(810,142), (object)toString(globalint_606));
+		script_1587(53084278, 53084303, 495, (object)globalstring_44);
+		script_1587(53084277, 53084303, 495, (object)globalstring_45);
+		script_1587(53084281, 53084303, 495, (object)globalstring_46);
+		script_1587(53084282, 53084303, 495, (object)globalstring_47);
+		script_1587(53084280, 53084303, 495, (object)globalstring_48);
+		script_1587(53084279, 53084303, 495, (object)globalstring_49);
+		script_1587(53084283, 53084303, 495, (object)globalstring_50);
+		script_1587(53084284, 53084303, 495, (object)globalstring_51);
+		if (globalint_607 > 0) {
+			setWidgetText(new WidgetPointer(810,127), (object)toString(globalint_607));
+		}
+		if (globalint_608 > 0) {
+			setWidgetText(new WidgetPointer(810,126), (object)toString(globalint_608));
+		}
+		if (globalint_609 > 0) {
+			setWidgetText(new WidgetPointer(810,130), (object)toString(globalint_609));
+		}
+		if (globalint_610 > 0) {
+			setWidgetText(new WidgetPointer(810,131), (object)toString(globalint_610));
+		}
+		if (globalint_611 > 0) {
+			setWidgetText(new WidgetPointer(810,129), (object)toString(globalint_611));
+		}
+		if (globalint_612 > 0) {
+			setWidgetText(new WidgetPointer(810,128), (object)toString(globalint_612));
+		}
+		if (globalint_613 > 0) {
+			setWidgetText(new WidgetPointer(810,132), (object)toString(globalint_613));
+		}
+		if (globalint_614 > 0) {
+			setWidgetText(new WidgetPointer(810,133), (object)toString(globalint_614));
+		}
+	}
+	return;
+}

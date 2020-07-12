@@ -1,0 +1,8 @@
+void script_1337() {
+	script_2654();
+	script_2959();
+	script_2303();
+	script_1741(49152004);
+	script_1332();
+	return;
+}

@@ -1,0 +1,27 @@
+void script_143(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	if (cs2method_10916(arg0) > 0) {
+		ivar6 = divide(subtract(cs2method_10916(arg0), multiply(36, arg1)), subtract(arg1, 1));
+	} else {
+		ivar6 = divide(subtract(cs2method_10956(arg0), multiply(36, arg1)), subtract(arg1, 1));
+	}
+	if (cs2method_10919(arg0) > 0) {
+		ivar7 = divide(subtract(cs2method_10919(arg0), multiply(32, arg2)), subtract(arg2, 1));
+	} else {
+		ivar7 = divide(subtract(cs2method_10090(arg0), multiply(32, arg2)), subtract(arg2, 1));
+	}
+	createChildWidget(arg0, 5, cs2method_10860(arg0));
+	cs2method_10469(937);
+	setWidgetSize(10, 32, 0, 0);
+	setWidgetPosition(add(multiply(add(36, ivar6), cs2method_10620(arg3, arg1)), 13), multiply(divide(arg3, arg1), add(32, ivar7)), 0, 0);
+	cs2method_10692(0);
+	cs2method_20745(144, new WidgetPointer(arg0), -2147483643, cs2method_10878(), add(cs2method_10878(), 750), "Iiii");
+	return;
+}

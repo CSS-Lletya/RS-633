@@ -1,0 +1,24 @@
+void script_4755(int arg0) {
+	int ivar1;
+	ivar1 = cs2method_10542(16384, 900, standart_config_2243);
+	ivar1 = cs2method_10586(cs2method_10004(ivar1, 0), 16384);
+	cs2method_10893(ivar1, 0, 2, 1, 42074178);
+	setWidgetText(new WidgetPointer(arg0), (object)toString(standart_config_2243));
+	if (standart_config_2243 >= 700) {
+		setWidgetRGB(16777215, 42074179);
+		setWidgetRGB(16777215, 42074181);
+		setWidgetRGB(16777215, 42074180);
+		cs2method_10535(2602, 42074150);
+	} else if (standart_config_2243 <= 300) {
+		setWidgetRGB(16720486, 42074179);
+		setWidgetRGB(16720486, 42074181);
+		setWidgetRGB(16720486, 42074180);
+		cs2method_10535(2601, 42074150);
+	} else {
+		setWidgetRGB(16777215, 42074179);
+		setWidgetRGB(16777215, 42074181);
+		setWidgetRGB(16777215, 42074180);
+		cs2method_10535(9804, 42074150);
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+void script_5743(int arg0,object arg1) {
+	if (arg0 == 81068081) {
+		setWidgetText(new WidgetPointer(1237,57), arg1);
+		script_4211(81068089, 3793, 14929103, 2564623);
+	} else {
+		if (arg0 == 81068090) {
+			setWidgetText(new WidgetPointer(1237,66), arg1);
+			script_4211(81068098, 3793, 14929103, 2564623);
+		}
+	}
+	return;
+}

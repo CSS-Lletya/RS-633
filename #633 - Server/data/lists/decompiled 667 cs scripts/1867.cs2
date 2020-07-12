@@ -1,0 +1,4 @@
+void script_1867() {
+	requestOpenURL(0, (object)"services", (object)"information_for_parents");
+	return;
+}

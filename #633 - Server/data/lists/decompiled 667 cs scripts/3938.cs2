@@ -1,0 +1,10 @@
+void script_3938() {
+	if (globalint_1411 == 1) {
+		globalint_1411 = 0;
+		cs2method_10467(4085, 44105768);
+	} else {
+		globalint_1411 = 1;
+		cs2method_10467(4087, 44105768);
+	}
+	return;
+}

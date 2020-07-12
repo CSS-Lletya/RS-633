@@ -1,0 +1,215 @@
+void script_5092() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	object ovar7;
+	object stack_dump0;
+	int stack_dump1;
+	clearExtraChildren(new WidgetPointer(1112,4));
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ovar6 = (object)"";
+	ovar7 = (object)"";
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	if (bitconfig_9540 != 3) {
+		if (bitconfig_9520 > 0) {
+			ovar0 = (object)("<br>" + "Members:" + "<br>" + "Score:");
+			ovar3 = ovar0;
+			ovar1 = (object)("<br>" + (string)cs2method_10595(AND(globalint_788, 1023), 1));
+			ovar4 = (object)("<br>" + (string)cs2method_10595(AND(divide(globalint_788, cs2method_10206(2, 10)), 1023), 1));
+			ovar1 = (object)((string)ovar1 + "<br>" + (string)cs2method_10595(AND(globalint_786, 65535), 1));
+			ivar8 = divide(globalint_786, cs2method_10206(2, 16));
+			if (ivar8 < 0) {
+				ivar8 = add(cs2method_10206(2, 16), ivar8);
+			}
+			ovar4 = (object)((string)ovar4 + "<br>" + (string)cs2method_10595(ivar8, 1));
+			ivar8 = getDataByKey('i', 'i', 3928, bitconfig_9521);
+			if (ivar8 < 2147483647) {
+				ovar1 = (object)((string)ovar1 + " / " + (string)cs2method_10595(ivar8, 1));
+				ovar4 = (object)((string)ovar4 + " / " + (string)cs2method_10595(ivar8, 1));
+			}
+			if (bitconfig_9520 < 2) {
+				ovar6 = (object)("<br>" + "<br>" + "<br>" + "Neutral players:");
+				ovar7 = (object)("<br>" + "<br>" + "<br>" + (string)cs2method_10595(divide(globalint_788, cs2method_10206(2, 20)), 1));
+			} else {
+				stack_dump0 = (object)("<br>" + "<br>" + "<br>");
+				ovar7 = (object)("<br>" + "<br>" + "<br>");
+				ovar6 = stack_dump0;
+			}
+			if (bitconfig_9540 == 1) {
+				stack_dump0 = (object)"Your team:";
+				ovar5 = (object)"Blue team:";
+				ovar2 = stack_dump0;
+			} else if (bitconfig_9540 == 2) {
+				stack_dump0 = (object)"Red team:";
+				ovar5 = (object)"Your team:";
+				ovar2 = stack_dump0;
+			} else {
+				stack_dump0 = (object)"Red team:";
+				ovar5 = (object)"Blue team:";
+				ovar2 = stack_dump0;
+				if (bitconfig_9520 < 2) {
+					ovar6 = (object)((string)ovar6 + "<br>" + "Your score:");
+					ovar7 = (object)((string)ovar7 + "<br>" + (string)cs2method_10595(bitconfig_9541, 1));
+					ivar8 = getDataByKey('i', 'i', 3928, bitconfig_9522);
+					if (ivar8 < 2147483647) {
+						ovar7 = (object)((string)ovar7 + " / " + (string)cs2method_10595(ivar8, 1));
+					}
+				}
+			}
+		} else {
+			stack_dump0 = (object)"Score:";
+			ovar7 = cs2method_10595(bitconfig_9541, 1);
+			ovar6 = stack_dump0;
+		}
+		ivar8 = getDataByKey('i', 'i', 3940, bitconfig_9532);
+		if (ivar8 != 0) {
+			ovar6 = (object)((string)ovar6 + "<br>" + "Reward for pking:");
+			if (ivar8 > 0) {
+				ovar7 = (object)((string)ovar7 + "<br>" + toString(ivar8));
+			} else {
+				ovar7 = (object)((string)ovar7 + "<br>" + "A key");
+			}
+		}
+		if (globalint_787 < 0) {
+			ovar6 = (object)((string)ovar6 + "<br>" + "Scoring begins in:");
+			if (globalint_787 <= -2147483648) {
+				ovar7 = (object)((string)ovar7 + "<br>" + "-");
+			} else {
+				ivar6 = subtract(0, globalint_787);
+			}
+		}
+		if (bitconfig_9523 > 0 && globalint_787 > 0) {
+			ovar6 = (object)((string)ovar6 + "<br>" + "Time remaining:");
+			ivar6 = globalint_787;
+		}
+		ivar5 = add(multiply(getLineCount(2147483647, 494, ovar6), 10), 2);
+		ivar0 = add(add(cs2method_10242(2147483647, 494, ovar0), 3), cs2method_10242(2147483647, 494, ovar1));
+		ivar0 = cs2method_10004(ivar0, cs2method_10242(2147483647, 494, ovar2));
+		ivar1 = add(add(cs2method_10242(2147483647, 494, ovar3), 3), cs2method_10242(2147483647, 494, ovar4));
+		ivar1 = cs2method_10004(ivar1, cs2method_10242(2147483647, 494, ovar5));
+		ivar3 = add(add(cs2method_10242(2147483647, 494, ovar6), 3), cs2method_10004(cs2method_10242(2147483647, 494, ovar7), 40));
+		ivar2 = add(add(ivar0, 5), ivar1);
+		ivar4 = cs2method_10004(ivar3, ivar2);
+		ivar2 = divide(subtract(ivar4, ivar2), 2);
+		stack_dump1 = add(ivar0, ivar2);
+		ivar1 = add(ivar1, ivar2);
+		ivar0 = stack_dump1;
+		cs2method_10893(add(ivar4, 8), add(ivar5, 8), 0, 0, 72876033);
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		setWidgetSize(ivar0, 0, 0, 1);
+		setWidgetSize(ivar0, 0, 0, 1);
+		setWidgetPosition(0, 0, 0, 1);
+		setWidgetPosition(0, 0, 0, 1);
+		setWidgetFont(494);
+		setWidgetFont(494);
+		cs2method_10320(1);
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetTextAlignment(2, 0, 0);
+		setWidgetRGB(new Color(255, 0, 0));
+		setWidgetRGB(new Color(255, 0, 0));
+		setWidgetText(ovar0);
+		setWidgetText(ovar1);
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		setWidgetSize(ivar0, 0, 0, 1);
+		setWidgetPosition(0, 0, 0, 1);
+		setWidgetFont(494);
+		cs2method_10320(1);
+		setWidgetTextAlignment(1, 0, 0);
+		setWidgetRGB(new Color(255, 0, 0));
+		setWidgetText(ovar2);
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		setWidgetSize(ivar1, 0, 0, 1);
+		setWidgetSize(ivar1, 0, 0, 1);
+		setWidgetPosition(0, 0, 2, 1);
+		setWidgetPosition(0, 0, 2, 1);
+		setWidgetFont(494);
+		setWidgetFont(494);
+		cs2method_10320(1);
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetTextAlignment(2, 0, 0);
+		setWidgetRGB(new Color(127, 127, 255));
+		setWidgetRGB(new Color(127, 127, 255));
+		setWidgetText(ovar3);
+		setWidgetText(ovar4);
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		setWidgetSize(ivar1, 0, 0, 1);
+		setWidgetPosition(0, 0, 2, 1);
+		setWidgetFont(494);
+		cs2method_10320(1);
+		setWidgetTextAlignment(1, 0, 0);
+		setWidgetRGB(new Color(127, 127, 255));
+		setWidgetText(ovar5);
+		if (cs2method_10366(ovar0) > 0) {
+			createChildWidget(72876036, 9, cs2method_10860(72876036));
+			createChildWidget(72876036, 9, cs2method_10860(72876036));
+			setWidgetSize(0, 27, 0, 0);
+			setWidgetSize(0, 27, 0, 0);
+			setWidgetPosition(add(ivar0, 2), 3, 0, 0);
+			setWidgetPosition(add(cs2method_10646(), 1), add(cs2method_10207(), 1), 0, 0);
+			setWidgetRGB(new Color(127, 127, 127));
+			setWidgetRGB(new Color(63, 63, 63));
+		}
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		createChildWidget(72876036, 4, cs2method_10860(72876036));
+		setWidgetSize(ivar3, 0, 0, 1);
+		setWidgetSize(ivar3, 0, 0, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetFont(494);
+		setWidgetFont(494);
+		cs2method_10320(1);
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetTextAlignment(2, 0, 0);
+		setWidgetRGB(new Color(207, 207, 207));
+		setWidgetRGB(new Color(207, 207, 207));
+		setWidgetText(ovar6);
+		setWidgetText(ovar7);
+		if (ivar6 > 0) {
+			createChildWidget(72876036, 4, cs2method_10860(72876036));
+			setWidgetSize(ivar3, 12, 0, 0);
+			setWidgetPosition(divide(cs2method_10004(subtract(ivar4, ivar3), 0), 2), 0, 2, 2);
+			setWidgetFont(494);
+			cs2method_10320(1);
+			setWidgetTextAlignment(2, 0, 0);
+			setWidgetRGB(new Color(207, 207, 207));
+			ivar7 = multiply(ivar6, 30);
+			if (ivar7 > globalint_995 || add(ivar7, 29) < globalint_995) {
+				globalint_995 = add(ivar7, 15);
+			}
+			setWidgetText((object)script_5094());
+			cs2method_20745(5093, new WidgetPointer(-32768,3), -2147483643, "Ii");
+		}
+	}
+	return;
+}

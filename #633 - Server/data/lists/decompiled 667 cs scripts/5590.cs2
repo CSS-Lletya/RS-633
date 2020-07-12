@@ -1,0 +1,4 @@
+void script_5590() {
+	setScriptCallOnKeyPress(5591, -2147483640, false, "iz", new WidgetPointer(1185,0));
+	return;
+}

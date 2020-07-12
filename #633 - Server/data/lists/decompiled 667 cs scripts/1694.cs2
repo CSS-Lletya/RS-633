@@ -1,0 +1,15 @@
+int script_1694(int arg0) {
+	if (arg0 < 32) {
+		return cs2method_10184(globalint_1040, arg0);
+	}
+	if (arg0 < 64) {
+		return cs2method_10184(globalint_1041, cs2method_10620(arg0, 32));
+	}
+	if (arg0 < 96) {
+		return cs2method_10184(globalint_1042, cs2method_10620(arg0, 32));
+	}
+	if (arg0 < 128) {
+		return cs2method_10184(globalint_1702, cs2method_10620(arg0, 32));
+	}
+	return 0;
+}

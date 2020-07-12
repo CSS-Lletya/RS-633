@@ -1,0 +1,30 @@
+void script_6102() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	setWidgetText(new WidgetPointer(1265,67), script_940(standart_config_2564));
+	if (standart_config_2561 != -1 && standart_config_2563 != -1) {
+		if (standart_config_2561 == 93) {
+			ivar0 = script_6076(standart_config_2562, standart_config_2564);
+		} else {
+			ivar0 = script_6075(standart_config_2562, standart_config_2564);
+		}
+		if (ivar0 == -1) {
+			setWidgetText(new WidgetPointer(1265,205), (object)"N/A");
+			cs2method_10467(2180, 82903058);
+		} else if (standart_config_2561 == standart_config_1496) {
+			setWidgetText(new WidgetPointer(1265,205), (object)"Free!");
+			cs2method_10467(-1, 82903058);
+		} else {
+			setWidgetText(new WidgetPointer(1265,205), script_940(ivar0));
+			cs2method_10467(getDataByKey('o', 'd', 200, standart_config_532), 82903058);
+		}
+		ivar1 = cs2method_10242(cs2method_10956(82903119), 3793, cs2method_10100(82903245));
+		if (standart_config_2561 != standart_config_1496) {
+			ivar1 = add(add(ivar1, 2), cs2method_10956(82903058));
+		}
+		cs2method_10893(ivar1, 15, 0, 0, 82903057);
+	}
+	return;
+}

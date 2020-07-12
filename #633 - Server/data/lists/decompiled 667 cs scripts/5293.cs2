@@ -1,0 +1,13 @@
+void script_5293(int arg0,int arg1,int arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	cs2method_10677(6185, 1, 0, 200);
+	if (arg2 == 1) {
+		bitconfig_9896 = arg1;
+	} else {
+		bitconfig_9887 = arg1;
+	}
+	script_5291();
+	return;
+}

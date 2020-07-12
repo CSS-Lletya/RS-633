@@ -1,0 +1,20 @@
+void script_5727(int arg0) {
+	switch (arg0) {
+		case 80936962:
+			cs2method_10467(7935, 80936963);
+			cs2method_10467(8007, 80936964);
+			break;
+		case 80936965:
+			cs2method_10467(7935, 80936966);
+			cs2method_10467(8006, 80936967);
+			break;
+		case 80936968:
+			cs2method_10467(7935, 80936969);
+			cs2method_10467(8008, 80936970);
+			break;
+		case 80936971:
+			cs2method_10467(7935, 80936972);
+			cs2method_10467(8005, 80936973);
+	}
+	return;
+}

@@ -1,0 +1,280 @@
+void script_3387(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	ivar5 = -1;
+	ivar6 = -1;
+	switch (arg4) {
+		case 1:
+			setWidgetText(new WidgetPointer(742,19), (object)"Custom Graphics Options");
+			cs2method_10070(48627718, 977);
+			ivar5 = 48627716;
+			ivar6 = 48627732;
+			setScriptCallOnMousePressed(3386, arg0, arg1, arg2, arg3, arg4, "iiiii", new WidgetPointer(742,18));
+			cs2method_10375(1, 48627730, (object)"Back");
+			break;
+		case 0:
+			cs2method_10070(57802780, 977);
+			ivar5 = 57802756;
+			ivar6 = 57802757;
+			setWidgetIsHidden(true, new WidgetPointer(882,29));
+			setWidgetIsHidden(false, new WidgetPointer(882,23));
+			setScriptCallOnMousePressed(3386, arg0, arg1, arg2, arg3, arg4, "iiiii", new WidgetPointer(882,23));
+			cs2method_20374(2917, 1, "1", new WidgetPointer(882,4));
+			cs2method_20374(2919, 1, arg4, "1i", new WidgetPointer(744,50));
+			break;
+		case 2:
+			cs2method_10070(59703299, 977);
+			ivar5 = 59703297;
+			ivar6 = 59703370;
+			setWidgetIsHidden(true, new WidgetPointer(911,6));
+			setWidgetIsHidden(false, new WidgetPointer(911,4));
+			setScriptCallOnMousePressed(3386, arg0, arg1, arg2, arg3, arg4, "iiiii", new WidgetPointer(911,4));
+			cs2method_20374(2919, 1, arg4, "1i", new WidgetPointer(906,0));
+			setWidgetIsHidden(false, new WidgetPointer(911,0));
+			setWidgetScrollMax(0, 510, 59703298);
+			cs2method_10085(0, 0, 59703298);
+			script_31(59703296, 59703298, 792, 789, 790, 791, 773, 788);
+			script_4041();
+	}
+	setWidgetIsHidden(true, new WidgetPointer(ivar6));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(ivar5));
+	ivar7 = 0;
+	ivar8 = 1;
+	ivar9 = -1;
+	ivar10 = -1;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	cs2method_10467(-1, 64028732);
+	cs2method_10467(-1, 64028728);
+	cs2method_10467(-1, 64028730);
+	cs2method_10467(-1, 64028726);
+	cs2method_20333(-1, "", new WidgetPointer(977,59));
+	cs2method_20333(-1, "", new WidgetPointer(977,55));
+	cs2method_20333(-1, "", new WidgetPointer(977,57));
+	cs2method_20333(-1, "", new WidgetPointer(977,53));
+	cs2method_20295(-1, "", new WidgetPointer(977,59));
+	cs2method_20295(-1, "", new WidgetPointer(977,55));
+	cs2method_20295(-1, "", new WidgetPointer(977,57));
+	cs2method_20295(-1, "", new WidgetPointer(977,53));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(977,59));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(977,55));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(977,57));
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(977,53));
+	if (cs2method_10307() == 0) {
+		switch (arg0) {
+			case 0:
+				script_1147(0, arg0, 64028721, 64028731, 64028732, arg4);
+				break;
+			case 2:
+				script_1147(2, arg0, 64028721, 64028731, 64028732, arg4);
+				break;
+			case 1:
+				script_1147(1, arg0, 64028721, 64028731, 64028732, arg4);
+				break;
+			case 3:
+				script_1147(3, arg0, 64028721, 64028731, 64028732, arg4);
+		}
+		cs2method_10444(175, cs2method_10826(64028721), 2, 0, 64028721);
+		cs2method_10893(350, cs2method_10090(64028719), 0, 0, 64028718);
+	} else {
+		if (cs2method_10197() == 1 || arg0 == 0) {
+			ivar9 = 64028721;
+			script_1147(0, arg0, 64028721, 64028731, 64028732, arg4);
+			ivar7 = add(ivar7, 1);
+		}
+		while (ivar8 < 4) {
+			if (cs2method_10263(ivar8) < 3) {
+				switch (ivar8) {
+					case 2:
+						ivar13 = 64028722;
+						script_1147(1, arg0, 64028722, 64028729, 64028730, arg4);
+						break;
+					case 1:
+						ivar13 = 64028723;
+						script_1147(2, arg0, 64028723, 64028727, 64028728, arg4);
+						break;
+					case 3:
+						ivar13 = 64028724;
+						script_1147(3, arg0, 64028724, 64028725, 64028726, arg4);
+				}
+				ivar7 = add(ivar7, 1);
+				if (ivar9 == -1) {
+					ivar9 = ivar13;
+				} else if (ivar10 == -1) {
+					ivar10 = ivar13;
+				} else if (ivar11 == -1) {
+					ivar11 = ivar13;
+				} else {
+					if (ivar12 == -1) {
+						ivar12 = ivar13;
+					}
+				}
+			}
+			ivar8 = add(ivar8, 1);
+		}
+		switch (ivar7) {
+			case 1:
+				cs2method_10444(175, cs2method_10826(ivar9), 2, 0, ivar9);
+				cs2method_10893(350, cs2method_10090(64028719), 0, 0, 64028718);
+				break;
+			case 2:
+				cs2method_10444(90, cs2method_10826(ivar9), 0, 0, ivar9);
+				cs2method_10444(90, cs2method_10826(ivar10), 2, 0, ivar10);
+				cs2method_10893(400, cs2method_10090(64028719), 0, 0, 64028718);
+				break;
+			case 3:
+				cs2method_10444(58, cs2method_10826(ivar9), 0, 0, ivar9);
+				cs2method_10444(173, cs2method_10826(ivar10), 2, 0, ivar10);
+				cs2method_10444(58, cs2method_10826(ivar11), 2, 0, ivar11);
+				cs2method_10893(400, cs2method_10090(64028719), 0, 0, 64028718);
+		}
+	}
+	ivar14 = 0;
+	ivar15 = -1;
+	ivar16 = 64028700;
+	ivar17 = 64028699;
+	clearExtraChildren(new WidgetPointer(ivar16));
+	clearExtraChildren(new WidgetPointer(ivar17));
+	script_2601(0, ivar14, ivar16, (object)"Brightness");
+	script_1185(64028704, 64028705);
+	cs2method_10185(64028704, -1, 64028705);
+	ivar18 = 1;
+	ivar19 = add(arg3, 21);
+	ivar20 = -1;
+	ivar21 = -1;
+	ivar22 = -1;
+	ivar23 = 0;
+	ivar24 = 0;
+	ivar25 = 0;
+	ivar26 = -1;
+	while (ivar24 < cs2method_10624(201)) {
+		ivar21 = getDataByKey('i', 'J', 201, ivar24);
+		ivar20 = script_2601(ivar18, ivar14, ivar16, (object)getGeneralRequirementAttribute(ivar21, 845));
+		createChildWidget(ivar16, 3, cs2method_10860(ivar16));
+		setWidgetSize(ivar19, 16, 0, 0);
+		if (ivar18 == 1) {
+			setWidgetPosition(4, ivar14, 2, 0);
+		} else {
+			setWidgetPosition(subtract(233, ivar19), ivar14, 0, 0);
+		}
+		setWidgetFilled(1);
+		setWidgetRGB(new Color(46, 43, 38));
+		createChildWidget(ivar16, 3, cs2method_10860(ivar16));
+		setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+		setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+		setWidgetFilled(0);
+		setWidgetRGB(new Color(95, 91, 82));
+		ivar15 = cs2method_10261();
+		createChildWidget(ivar16, 4, cs2method_10860(ivar16));
+		setWidgetFont(494);
+		setWidgetTextAlignment(1, 1, 0);
+		ivar23 = script_2581(ivar21);
+		if (ivar23 <= -1) {
+			setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+			setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+			setWidgetRGB(new Color(235, 224, 188));
+			setWidgetText((object)("<col=646464>" + "N/A"));
+		} else {
+			setWidgetSize(arg3, cs2method_10630(), 0, 0);
+			setWidgetPosition(add(cs2method_10646(), 2), cs2method_10207(), 0, 0);
+			ivar22 = getGeneralRequirementAttribute(ivar21, 683);
+			ivar25 = script_829(ivar21, ivar22);
+			if (ivar21 != 1009) {
+				if (ivar23 < ivar25) {
+					setWidgetRGB(new Color(235, 224, 188));
+				} else {
+					setWidgetRGB(new Color(0, 177, 225));
+				}
+			} else if (ivar23 > 0) {
+				setWidgetRGB(new Color(235, 224, 188));
+			} else {
+				setWidgetRGB(new Color(0, 177, 225));
+			}
+			if (cs2method_10184(getGeneralRequirementAttribute(ivar21, 682), arg0) != 1) {
+				setWidgetText((object)("<col=646464>" + "N/A"));
+				setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+				setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+			} else {
+				setWidgetText((object)getDataByKey('i', 's', ivar22, ivar23));
+				createChildWidget(ivar16, 5, cs2method_10860(ivar16));
+				setWidgetSize(16, 16, 0, 0);
+				setWidgetPosition(subtract(add(cs2method_10646(), cs2method_10040()), add(cs2method_10040(), 1)), add(ivar14, divide(subtract(16, cs2method_10630()), 2)), 0, 0);
+				cs2method_10469(2554);
+				cs2method_20211(2691, new WidgetPointer(-32768,3), cs2method_10261(), 1, ivar15, 8419437, 1, "Ii1ii1");
+				cs2method_20139(2691, new WidgetPointer(-32768,3), cs2method_10261(), 0, ivar15, 6249298, 1, "Ii1ii1");
+				cs2method_20723(2695, new WidgetPointer(-32768,3), -2147483643, cs2method_10261(), ivar15, ivar20, ivar21, arg2, arg3, arg0, arg1, arg4, "IiiiiJiiiii");
+			}
+		}
+		if (ivar18 == 1) {
+			ivar18 = 0;
+			ivar14 = add(ivar14, 20);
+			ivar26 = cs2method_10860(ivar17);
+			createChildWidget(ivar17, 3, ivar26);
+			setWidgetSize(2, 1, 1, 0);
+			setWidgetPosition(1, add(ivar14, 3), 0, 0);
+			setWidgetFilled(1);
+			setWidgetRGB(new Color(128, 120, 109));
+		} else {
+			ivar18 = 1;
+		}
+		ivar24 = add(ivar24, 1);
+	}
+	if (ivar18 == 1) {
+		ivar14 = add(ivar14, 20);
+	}
+	if (ivar26 != -1 && ivar18 == 0 && cs2method_10551(ivar17, ivar26) == 1) {
+		cs2method_10714();
+	}
+	cs2method_10893(cs2method_10956(64028698), add(ivar14, 5), 0, 0, 64028698);
+	cs2method_10893(cs2method_10956(64028696), add(cs2method_10826(64028698), cs2method_10090(64028698)), 0, 0, 64028696);
+	cs2method_10893(cs2method_10956(64028675), add(cs2method_10826(64028696), cs2method_10090(64028696)), 0, 0, 64028675);
+	switch (arg4) {
+		case 1:
+			cs2method_10893(cs2method_10956(48627716), 334, 0, 0, 48627716);
+			cs2method_10444(0, cs2method_10826(64028674), 0, 0, 64028674);
+			cs2method_10893(20, subtract(cs2method_10090(48627718), cs2method_10090(64028673)), 1, 0, 64028674);
+			cs2method_10893(cs2method_10956(64028672), cs2method_10090(48627718), 0, 0, 64028672);
+			setWidgetScrollMax(0, add(cs2method_10090(64028675), 5), 64028674);
+			script_31(64028742, 64028674, 792, 789, 790, 791, 773, 788);
+			break;
+		case 0:
+			cs2method_10444(0, 0, 1, 0, 64028672);
+			cs2method_10444(0, 0, 1, 0, 57802780);
+			cs2method_10893(cs2method_10956(64028674), cs2method_10090(64028675), 0, 0, 64028674);
+			cs2method_10893(cs2method_10956(64028672), add(cs2method_10826(64028674), cs2method_10090(64028674)), 0, 0, 64028672);
+			cs2method_10893(cs2method_10956(57802780), add(add(cs2method_10090(64028672), 15), cs2method_10090(57802775)), 0, 0, 57802780);
+			cs2method_10893(cs2method_10956(57802774), add(cs2method_10090(57802780), 5), 0, 0, 57802774);
+			cs2method_10893(cs2method_10956(57802760), add(40, cs2method_10090(57802774)), 0, 0, 57802760);
+			cs2method_10444(0, 10, 1, 1, 57802774);
+			break;
+		case 2:
+			cs2method_10444(0, 0, 1, 0, 64028672);
+			cs2method_10893(cs2method_10956(64028674), cs2method_10090(64028675), 0, 0, 64028674);
+			cs2method_10893(cs2method_10956(64028672), add(cs2method_10826(64028674), cs2method_10090(64028674)), 0, 0, 64028672);
+			cs2method_10893(cs2method_10956(59703299), add(add(cs2method_10090(64028672), 5), cs2method_10090(59703300)), 0, 0, 59703299);
+	}
+	script_3451(arg4, 1);
+	script_2918(1);
+	return;
+}

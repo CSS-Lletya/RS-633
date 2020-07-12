@@ -1,0 +1,18 @@
+int script_2142(int arg0,int arg1,int arg2,object arg3) {
+	int ivar3;
+	int ivar4;
+	ivar3 = getLineCount(390, 495, arg3);
+	ivar4 = 15;
+	createChildWidget(56623110, 4, arg0);
+	setWidgetSize(390, multiply(ivar3, ivar4), 0, 0);
+	setWidgetText(arg3);
+	setWidgetPosition(15, arg1, 0, 0);
+	setWidgetTextAlignment(0, 0, 0);
+	setWidgetRGB(new Color(70, 50, 10));
+	setWidgetFont(495);
+	cs2method_10320(0);
+	setWidgetContextMenuOption(1, (object)"Teleport");
+	cs2method_20211(1356, new WidgetPointer(-32768,3), -2147483643, 6574120, "Iii");
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 4600330, "Iii");
+	return add(multiply(ivar3, ivar4), 5);
+}

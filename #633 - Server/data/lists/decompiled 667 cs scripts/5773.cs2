@@ -1,0 +1,43 @@
+void script_5773(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = -1;
+	ivar3 = 1;
+	ivar4 = 0;
+	while (ivar3 <= 8) {
+		if (arg0 == ivar3) {
+			ivar4 = arg1;
+		} else {
+			ivar4 = 0;
+		}
+		switch (ivar3) {
+			case 1:
+				ivar2 = 69206090;
+				break;
+			case 2:
+				ivar2 = 69206092;
+				break;
+			case 3:
+				ivar2 = 69206094;
+				break;
+			case 4:
+				ivar2 = 69206096;
+				break;
+			case 5:
+				ivar2 = 69206098;
+				break;
+			case 6:
+				ivar2 = 69206100;
+				break;
+			case 7:
+				ivar2 = 69206180;
+				break;
+			case 8:
+				ivar2 = 69206182;
+		}
+		script_5774(ivar4, ivar2);
+		ivar3 = add(ivar3, 1);
+	}
+	return;
+}

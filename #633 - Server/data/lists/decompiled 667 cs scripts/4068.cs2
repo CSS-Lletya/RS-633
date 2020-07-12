@@ -1,0 +1,29 @@
+void script_4068(int arg0) {
+	switch (arg0) {
+		case 69337110:
+			if (cs2method_10825(69337107) != 4444) {
+				cs2method_10444(-160, 18, 1, 0, arg0);
+			}
+			break;
+		case 69337111:
+			if (cs2method_10825(69337105) != 4445) {
+				cs2method_10444(-80, 18, 1, 0, arg0);
+			}
+			break;
+		case 69337112:
+			if (cs2method_10825(69337103) != 4446) {
+				cs2method_10444(0, 18, 1, 0, arg0);
+			}
+			break;
+		case 69337114:
+			if (cs2method_10825(69337101) != 4447) {
+				cs2method_10444(80, 18, 1, 0, arg0);
+			}
+			break;
+		case 69337113:
+			if (cs2method_10825(69337099) != 4448) {
+				cs2method_10444(160, 18, 1, 0, arg0);
+			}
+	}
+	return;
+}

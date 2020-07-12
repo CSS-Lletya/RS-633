@@ -1,0 +1,14 @@
+void script_392(int arg0,int arg1) {
+	if (arg0 == -1) {
+		arg0 = 1112;
+	}
+	cs2method_10461(getGeneralRequirementAttribute(arg0, 1166), 67371142);
+	if (arg1 == 1) {
+		cs2method_10535(getGeneralRequirementAttribute(arg0, 1165), 67371141);
+		cs2method_10535(getGeneralRequirementAttribute(arg0, 1168), 67371142);
+	} else {
+		cs2method_10535(getGeneralRequirementAttribute(arg0, 1164), 67371141);
+		cs2method_10535(getGeneralRequirementAttribute(arg0, 1167), 67371142);
+	}
+	return;
+}

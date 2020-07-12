@@ -1,0 +1,8 @@
+void script_1236() {
+	globalint_1063 = -1;
+	cs2method_20889(1716, 1584, 1, "Y", new WidgetPointer(271,8));
+	script_1717();
+	clearExtraChildren(new WidgetPointer(271,6));
+	script_1704();
+	return;
+}

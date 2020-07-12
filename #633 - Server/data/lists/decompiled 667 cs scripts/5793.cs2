@@ -1,0 +1,9 @@
+void script_5793(int arg0) {
+	int ivar1;
+	script_5796(arg0, 1, 80019466, 80019465, 80019464, -1, -1, -1);
+	ivar1 = 303;
+	ivar1 = add(141, multiply(13, getLineCount(334, 3793, cs2method_10100(80019464))));
+	cs2method_10893(cs2method_10956(80019456), ivar1, 0, 0, 80019456);
+	cs2method_10893(363, ivar1, 0, 0, 48889866);
+	return;
+}

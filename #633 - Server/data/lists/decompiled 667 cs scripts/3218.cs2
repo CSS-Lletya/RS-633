@@ -1,0 +1,31 @@
+void script_3218(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar1;
+	cs2method_10444(script_1551(globalint_1099, 3793, add(cs2method_10111(arg0), 6), arg4), cs2method_10826(arg2), 0, 0, arg2);
+	ivar4 = subtract(cs2method_10956(arg0), 11);
+	ivar5 = cs2method_10366(arg4);
+	ovar1 = (object)"";
+	if (globalint_1099 > 0) {
+		ovar1 = cs2method_10547(0, cs2method_10586(globalint_1099, ivar5), arg4);
+	}
+	ivar6 = subtract(cs2method_10355(3793, ovar1), ivar4);
+	cs2method_10444(6, cs2method_10826(arg1), 0, 0, arg1);
+	cs2method_10893(cs2method_10004(cs2method_10355(3793, arg4), ivar4), cs2method_10090(arg1), 0, 0, arg1);
+	if (ivar6 > 0) {
+		cs2method_10444(subtract(cs2method_10111(arg1), ivar6), cs2method_10826(arg1), 0, 0, arg1);
+		cs2method_10444(subtract(cs2method_10111(arg2), ivar6), cs2method_10826(arg2), 0, 0, arg2);
+	}
+	if (cs2method_10386() == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg2));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+	}
+	if (arg3 == 16) {
+		cs2method_20219(3955, cs2method_10878(), new WidgetPointer(arg2), "iI", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(3219, cs2method_10878(), new WidgetPointer(arg2), arg3, "iIi", new WidgetPointer(arg0));
+	}
+	return;
+}

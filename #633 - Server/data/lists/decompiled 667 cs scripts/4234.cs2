@@ -1,0 +1,20 @@
+void script_4234(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	ivar5 = 0;
+	ivar6 = divide(65353, arg4);
+	ivar5 = cs2method_10004(0, subtract(arg4, subtract(cs2method_10878(), arg3)));
+	if (ivar5 >= divide(arg4, 2) && ivar5 <= arg4) {
+		cs2method_10641(cs2method_10586(multiply(ivar5, ivar6), 65353), arg2);
+		cs2method_10641(0, arg1);
+	} else if (ivar5 > 0 && ivar5 < divide(arg4, 2)) {
+		cs2method_10641(32768, arg2);
+		cs2method_10641(cs2method_10586(add(32768, multiply(ivar5, ivar6)), 65353), arg1);
+	} else {
+		cs2method_10641(32768, arg2);
+		cs2method_10641(32768, arg1);
+		cs2method_20000(4233, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), arg4, "IIIi", new WidgetPointer(arg0));
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	}
+	return;
+}

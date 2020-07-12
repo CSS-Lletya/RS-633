@@ -1,0 +1,28 @@
+void script_6213() {
+	if (standart_config_2611 == 1) {
+		switch (cs2method_10145()) {
+			case 0:
+				cs2method_10467(10944, 59375960);
+				break;
+			case 1:
+				cs2method_10467(10946, 59375960);
+				break;
+			case 2:
+				cs2method_10467(10945, 59375960);
+				break;
+			case 3:
+				cs2method_10467(10947, 59375960);
+		}
+		setWidgetIsHidden(true, new WidgetPointer(906,346));
+		cs2method_10444(cs2method_10111(59375968), 130, 0, 0, 59375968);
+		setWidgetIsHidden(false, new WidgetPointer(906,351));
+		setWidgetText(new WidgetPointer(906,351), (object)"");
+		setWidgetText(new WidgetPointer(906,353), (object)(" - Over 150 extra Quests" + "<br>" + " - 9 Exclusive Skills" + "<br>" + " - Over 40 Minigames" + "<br>" + " - Join the Members Loyalty Programme" + "<br>" + " - Extra Spins on the Squeal of Fortune" + "<br>" + " - Unlock over 400 extra bank spaces" + "<br>" + " - And much more!" + "<br>" + "<br>" + "You'll also get some extra rewards for validating," + "<br>" + "including a title, cape and bank space!"));
+		cs2method_10444(cs2method_10111(59375969), 181, 0, 0, 59375969);
+		setWidgetText(new WidgetPointer(906,352), (object)"Congratulations! You're eligible for a 14 day Free Members trial! Start your trial now by validating your email and you'll soon be enjoying the full benefits of membership, including:");
+		cs2method_10893(300, cs2method_10090(59375962), 0, 0, 59375962);
+		cs2method_20889(-1, "", new WidgetPointer(906,338));
+		setWidgetIsHidden(true, new WidgetPointer(906,377));
+	}
+	return;
+}

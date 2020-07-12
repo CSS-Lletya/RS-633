@@ -1,0 +1,35 @@
+void script_6121(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 0:
+			ovar0 = (object)"Kill them all!";
+			break;
+		case 1:
+			ovar0 = (object)"Kill the enemies until reinforcements stop coming!";
+			break;
+		case 2:
+			ovar0 = (object)"Everything is dead! Marmaros has stopped fighting too.";
+			break;
+		case 3:
+			ovar0 = (object)"Kill that boss!";
+			break;
+		case 4:
+			ovar0 = (object)"The boss has legged it with your sword - get him!";
+			break;
+		case 5:
+			ovar0 = (object)"Kill more enemies than Marmaros to be the best brother!";
+			break;
+		default:
+			ovar0 = (object)("Unexpected value " + toString(arg0) + ".");
+	}
+	if (compareTo(ovar0, cs2method_10100(40697890)) == 0) {
+		return;
+	}
+	ivar1 = cs2method_10355(494, ovar0);
+	cs2method_10893(ivar1, 32, 0, 0, 40697890);
+	cs2method_10893(add(ivar1, 64), 28, 0, 0, 40697867);
+	setWidgetText(new WidgetPointer(621,34), ovar0);
+	return;
+}

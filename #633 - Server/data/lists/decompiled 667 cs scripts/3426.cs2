@@ -1,0 +1,6 @@
+void script_3426(int arg0) {
+	object ovar0;
+	ovar0 = (object)getDataByKey('I', 's', 3063, arg0);
+	setWidgetText(new WidgetPointer(60,92), ovar0);
+	return;
+}

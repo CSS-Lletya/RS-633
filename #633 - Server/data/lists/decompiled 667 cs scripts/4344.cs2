@@ -1,0 +1,187 @@
+cs2func_script_4344_struct(5,0,0) script_4344(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9) {
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	object ovar0;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	int stack_dump4;
+	int stack_dump5;
+	int stack_dump6;
+	int stack_dump7;
+	int stack_dump8;
+	int stack_dump9;
+	int stack_dump10;
+	cs2func_script_5351_struct(5,0,0) structdump_11;
+	flow_0:
+		ivar10 = 74907724;
+		ivar11 = 0;
+		ivar12 = -1;
+		ovar0 = (object)"";
+		ivar13 = 0;
+		ivar14 = 5182;
+		ivar15 = cs2method_10624(ivar14);
+		globalarray_0 = new int[add(ivar15, 1)];
+		globalarray_1 = new int[cs2method_10624(ivar14)];
+		ivar16 = 0;
+		ivar17 = -1;
+		ivar18 = 0;
+		ivar19 = 0;
+		while (ivar18 < ivar15) {
+			globalarray_0[ivar18] = ivar18;
+			ivar18 = add(ivar18, 1);
+		}
+		ivar18 = 0;
+		ivar16 = 1;
+		ivar20 = 0;
+		ivar21 = 0;
+		SWITCH (globalint_1659) {
+			case 1:
+				 GOTO flow_7
+			case 2:
+				 GOTO flow_11
+			case 3:
+				 GOTO flow_17
+		}
+		globalarray_0[cs2method_10624(ivar14)] = -1;
+		script_5999(0, 0, cs2method_10624(ivar14), ivar14);
+		ivar18 = subtract(ivar15, 1);
+		while (ivar18 >= 0) {
+			globalarray_0[ivar18] = getDataByKey('i', 'J', ivar14, globalarray_0[add(ivar18, 1)]);
+			ivar18 = subtract(ivar18, 1);
+		}
+	flow_6:
+		GOTO	flow_25
+	flow_7:
+		globalarray_0[cs2method_10624(ivar14)] = -1;
+		script_5999(0, 0, cs2method_10624(ivar14), ivar14);
+		ivar18 = subtract(ivar15, 1);
+		while (ivar18 >= 0) {
+			globalarray_0[ivar18] = getDataByKey('i', 'J', ivar14, globalarray_0[subtract(ivar15, ivar18)]);
+			ivar18 = subtract(ivar18, 1);
+		}
+		GOTO	flow_25
+	flow_11:
+		globalarray_0[cs2method_10624(ivar14)] = -1;
+		script_5998(0, 0, cs2method_10624(ivar14), ivar14);
+		ivar18 = 0;
+		globalarray_0[0] = getDataByKey('i', 'J', ivar14, globalarray_0[0]);
+		while (ivar18 < ivar15) {
+			if (getDataByKey('i', 'J', ivar14, globalarray_0[add(ivar18, 1)]) != -1) {
+				globalarray_0[ivar18] = getDataByKey('i', 'J', ivar14, globalarray_0[add(ivar18, 1)]);
+			}
+			ivar18 = add(ivar18, 1);
+		}
+		GOTO	flow_25
+	flow_17:
+		globalarray_0[cs2method_10624(ivar14)] = -1;
+		script_5998(0, 0, cs2method_10624(ivar14), ivar14);
+		globalarray_0[0] = getDataByKey('i', 'J', ivar14, globalarray_0[0]);
+		while (ivar18 < ivar15) {
+			if (getDataByKey('i', 'J', ivar14, globalarray_0[add(ivar18, 1)]) != -1) {
+				globalarray_0[ivar18] = getDataByKey('i', 'J', ivar14, globalarray_0[add(ivar18, 1)]);
+			}
+			ivar18 = add(ivar18, 1);
+		}
+		ivar18 = subtract(cs2method_10624(ivar14), 1);
+		while (ivar18 > subtract(divide(cs2method_10624(ivar14), 2), 1)) {
+			ivar17 = globalarray_1[ivar18];
+			globalarray_0[ivar18] = globalarray_1[subtract(subtract(cs2method_10624(ivar14), 1), ivar18)];
+			globalarray_0[subtract(subtract(cs2method_10624(ivar14), 1), ivar18)] = ivar17;
+			ivar18 = subtract(ivar18, 1);
+		}
+	flow_25:
+		ivar18 = 0;
+		ivar22 = 1;
+		while (ivar22 <= 4) {
+			createChildWidget(ivar10, 4, arg5);
+			arg5 = add(arg5, 1);
+			if (ivar22 == 1) {
+				setWidgetPosition(11, arg4, 0, 0);
+			} else {
+				arg2 = add(add(arg2, arg3), arg4);
+				setWidgetPosition(11, arg2, 0, 0);
+			}
+			ivar11 = cs2method_10207();
+			setWidgetSize(subtract(cs2method_10956(ivar10), 20), 13, 0, 0);
+			switch (ivar22) {
+				case 1:
+					setWidgetText((object)"Tier 1");
+					break;
+				case 2:
+					setWidgetText((object)"Tier 2");
+					break;
+				case 3:
+					setWidgetText((object)"Tier 3");
+					break;
+				case 4:
+					setWidgetText((object)"Tier 4");
+			}
+			setWidgetFont(4040);
+			cs2method_10320(1);
+			setWidgetRGB(new Color(230, 190, 120));
+			setWidgetTextAlignment(0, 1, 13);
+			if (ivar22 == 1) {
+				createChildWidget(ivar10, 4, arg5);
+				arg5 = add(arg5, 1);
+				setWidgetPosition(7, ivar11, 2, 0);
+				setWidgetSize(subtract(cs2method_10956(ivar10), 20), 13, 0, 0);
+				setWidgetText((object)"Scroll Down For More Tiers");
+				setWidgetFont(4040);
+				cs2method_10320(1);
+				setWidgetRGB(new Color(230, 190, 120));
+				setWidgetTextAlignment(2, 1, 13);
+			}
+			createChildWidget(ivar10, 3, arg5);
+			arg5 = add(arg5, 1);
+			if (ivar22 == 1) {
+				setWidgetPosition(11, 23, 0, 0);
+			} else {
+				arg2 = add(arg2, 17);
+				setWidgetPosition(11, arg2, 0, 0);
+			}
+			setWidgetSize(subtract(cs2method_10956(ivar10), 20), 1, 0, 0);
+			setWidgetRGB(new Color(230, 190, 120));
+			arg2 = add(cs2method_10207(), cs2method_10630());
+			ivar18 = 0;
+			arg0 = 0;
+			arg1 = arg4;
+			while (ivar18 < cs2method_10624(ivar14)) {
+				ivar12 = globalarray_1[ivar18];
+				if (getGeneralRequirementAttribute(ivar12, 1993) == ivar22) {
+					stack_dump0 = ivar12;
+					stack_dump1 = arg0;
+					stack_dump2 = arg1;
+					stack_dump3 = arg2;
+					stack_dump4 = arg3;
+					stack_dump5 = arg4;
+					stack_dump6 = arg5;
+					stack_dump7 = arg6;
+					stack_dump8 = arg7;
+					stack_dump9 = arg8;
+					stack_dump10 = arg9;
+					structdump_11 = script_5351(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4, stack_dump5, stack_dump6, stack_dump7, stack_dump8, stack_dump9, stack_dump10);
+					arg5 = structdump_11.intpart_4;
+					arg3 = structdump_11.intpart_3;
+					arg2 = structdump_11.intpart_2;
+					arg1 = structdump_11.intpart_1;
+					arg0 = structdump_11.intpart_0;
+				}
+				ivar18 = add(ivar18, 1);
+			}
+			ivar22 = add(ivar22, 1);
+		}
+		return newstruct cs2func_script_4344_struct(arg0, arg1, arg2, arg3, arg5);
+}

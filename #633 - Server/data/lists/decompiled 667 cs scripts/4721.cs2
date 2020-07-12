@@ -1,0 +1,33 @@
+cs2func_script_4721_struct(0,10,0) script_4721() {
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	object ovar6;
+	object ovar7;
+	object ovar8;
+	object ovar9;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ovar5 = (object)"";
+	ovar6 = (object)"";
+	ovar7 = (object)"";
+	ovar8 = (object)"";
+	ovar9 = (object)"";
+	ovar0 = (object)script_4345(clanbitconfig_25, clanbitconfig_26);
+	ovar1 = (object)script_4345(clanbitconfig_27, clanbitconfig_28);
+	ovar2 = (object)script_4345(clanbitconfig_29, clanbitconfig_30);
+	ovar3 = (object)script_4345(clanbitconfig_31, clanbitconfig_32);
+	ovar4 = (object)script_4345(clanbitconfig_33, clanbitconfig_34);
+	ovar5 = (object)script_4345(clanbitconfig_35, clanbitconfig_36);
+	ovar6 = (object)script_4345(clanbitconfig_37, clanbitconfig_38);
+	ovar7 = (object)script_4345(clanbitconfig_39, clanbitconfig_40);
+	ovar8 = (object)script_4345(clanbitconfig_41, clanbitconfig_42);
+	ovar9 = (object)script_4345(clanbitconfig_43, clanbitconfig_44);
+	return newstruct cs2func_script_4721_struct(ovar0, ovar1, ovar2, ovar3, ovar4, ovar5, ovar6, ovar7, ovar8, ovar9);
+}

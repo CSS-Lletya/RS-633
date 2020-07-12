@@ -1,0 +1,9 @@
+void script_5710(int arg0,int arg1) {
+	setWidgetIsHidden(true, new WidgetPointer(1218,161));
+	globalint_1754 = arg1;
+	if (cs2method_10551(79823009, arg1) == 1) {
+		setWidgetText(new WidgetPointer(1218,172), cs2method_10775());
+	}
+	script_5691(arg0);
+	return;
+}

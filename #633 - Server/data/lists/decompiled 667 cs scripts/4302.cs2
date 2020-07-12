@@ -1,0 +1,6 @@
+void script_4302() {
+	if (cs2method_10528() == 1) {
+		script_4318();
+	}
+	return;
+}

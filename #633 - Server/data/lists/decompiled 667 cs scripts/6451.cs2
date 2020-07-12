@@ -1,0 +1,24 @@
+void script_6451() {
+	if (cs2method_10366((object)globalstring_377) > 0) {
+		setWidgetText(new WidgetPointer(1307,8), (object)globalstring_377);
+	}
+	if (cs2method_10366((object)globalstring_378) > 0) {
+		setWidgetText(new WidgetPointer(1307,65), (object)globalstring_378);
+	}
+	globalint_2112 = 1;
+	setWidgetRGB(8207892, 85655578);
+	setWidgetRGB(14647040, 85655586);
+	setScriptCallOnKeyPress(-1, "", new WidgetPointer(137,56));
+	setScriptCallOnKeyPress(6441, -2147483640, false, new WidgetPointer(-32768,3), 0, "izIi", new WidgetPointer(1307,8));
+	globalint_2108 = cs2method_10366((object)globalstring_377);
+	globalint_2108 = cs2method_10366((object)globalstring_378);
+	setScriptCallOnMousePressed(6445, -2147483647, -2147483646, new WidgetPointer(1307,8), new WidgetPointer(1307,35), "iiII", new WidgetPointer(1307,8));
+	setScriptCallOnMousePressed(6445, -2147483647, -2147483646, new WidgetPointer(1307,65), new WidgetPointer(1307,66), "iiII", new WidgetPointer(1307,65));
+	script_6447(85655560, 85655587, (object)globalstring_377);
+	script_6447(85655617, 85655618, (object)globalstring_378);
+	setWidgetIsHidden(true, new WidgetPointer(1307,35));
+	setWidgetIsHidden(true, new WidgetPointer(1307,66));
+	setWidgetText(new WidgetPointer(1307,7), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_377)))));
+	setWidgetText(new WidgetPointer(1307,27), (object)toString(subtract(500, cs2method_10366(cs2method_10222((object)globalstring_378)))));
+	return;
+}

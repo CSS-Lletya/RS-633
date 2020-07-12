@@ -1,0 +1,28 @@
+void script_313(int arg0) {
+	object ovar0;
+	cs2method_20000(353, 1, "1", new WidgetPointer(1028,139));
+	cs2method_20000(353, 0, "1", new WidgetPointer(1028,137));
+	cs2method_20000(350, -2147483644, 0, "i1", new WidgetPointer(1028,62));
+	cs2method_20000(350, -2147483644, 1, "i1", new WidgetPointer(1028,63));
+	script_385(-1);
+	ovar0 = cs2method_10120(1, 67371131);
+	script_368(67371131, add(cs2method_10355(495, ovar0), 30), ovar0, (object)"");
+	cs2method_20000(358, -2147483644, "i", new WidgetPointer(1028,123));
+	cs2method_20000(354, -2147483644, 0, "ii", new WidgetPointer(1028,116));
+	cs2method_20000(354, -2147483644, 1, "ii", new WidgetPointer(1028,117));
+	cs2method_20000(354, -2147483644, 2, "ii", new WidgetPointer(1028,121));
+	cs2method_20000(354, -2147483644, 3, "ii", new WidgetPointer(1028,118));
+	cs2method_20000(354, -2147483644, 6, "ii", new WidgetPointer(1028,119));
+	cs2method_20000(354, -2147483644, 7, "ii", new WidgetPointer(1028,120));
+	cs2method_10569(67371141);
+	cs2method_10158(-30, 135, 18, 4, 0, 325, 67371141);
+	cs2method_10158(-30, 135, 18, 4, 0, 325, 67371142);
+	globalint_196 = bitconfig_8093;
+	globalint_197 = bitconfig_8089;
+	globalint_86 = bitconfig_8090;
+	globalint_1020 = bitconfig_6501;
+	script_386(0);
+	cs2method_20889(315, 1158, 1363, 2, "Y", new WidgetPointer(arg0));
+	cs2method_20914(349, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 12, "Y", new WidgetPointer(arg0));
+	return;
+}

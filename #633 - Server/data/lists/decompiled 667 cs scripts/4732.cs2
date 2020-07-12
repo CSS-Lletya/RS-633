@@ -1,0 +1,8 @@
+void script_4732(int arg0,int arg1) {
+	if (cs2method_10184(standart_config_2396, arg1) == 0) {
+		cs2method_10467(6004, arg0);
+	} else {
+		cs2method_10467(6011, arg0);
+	}
+	return;
+}

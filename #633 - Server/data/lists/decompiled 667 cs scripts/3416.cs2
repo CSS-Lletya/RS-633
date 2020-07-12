@@ -1,0 +1,5 @@
+void script_3416(int arg0) {
+	cs2method_10467(3153, arg0);
+	setScriptCallOnMousePressed(1242, new WidgetPointer(-32768,3), "I", new WidgetPointer(arg0));
+	return;
+}

@@ -1,0 +1,91 @@
+int script_2153(int arg0) {
+	int ivar1;
+	ivar1 = getGeneralRequirementAttribute(arg0, 871);
+	if (getGeneralRequirementAttribute(arg0, 897) == 1 && add(cs2method_10453(0), cs2method_10453(2)) < 130) {
+		return 0;
+	}
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 872)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 873);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 874)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 875);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 876)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 877);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 878)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 879);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 880)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 881);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 882)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 883);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 884)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 885);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 886)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 887);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 888)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 889);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 890)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 891);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 892)) {
+		return 0;
+	}
+	ivar1 = getGeneralRequirementAttribute(arg0, 893);
+	if (ivar1 == -1) {
+		return 1;
+	}
+	if (cs2method_10453(ivar1) < getGeneralRequirementAttribute(arg0, 894)) {
+		return 0;
+	}
+	return 1;
+}

@@ -1,0 +1,12 @@
+void script_2031(int arg0) {
+	if (cs2method_10184(standart_config_331, 29) == 1) {
+		cs2method_10158(0, 0, 512, 1024, 0, 1000, arg0);
+	} else if (cs2method_10184(standart_config_331, 30) == 1) {
+		cs2method_10158(0, 0, 512, 1536, 0, 1000, arg0);
+	} else {
+		if (cs2method_10184(standart_config_331, 31) == 1) {
+			cs2method_10158(0, 0, 512, 0, 0, 1000, arg0);
+		}
+	}
+	return;
+}

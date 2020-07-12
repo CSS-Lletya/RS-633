@@ -1,0 +1,13 @@
+void script_2885(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	if (arg5 != 2 && arg5 != 3 && arg5 != 4) {
+		return;
+	}
+	script_41(12255249);
+	globalint_1 = 0;
+	arg4 = add(arg4, cs2method_10878());
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10305(arg2);
+		cs2method_20745(1621, new WidgetPointer(arg0), arg1, arg3, arg4, "Iiii");
+	}
+	return;
+}

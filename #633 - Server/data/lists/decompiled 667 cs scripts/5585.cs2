@@ -1,0 +1,7 @@
+void script_5585(int arg0,int arg1,int arg2,int arg3) {
+	if (arg0 == 83) {
+		cs2method_10149(0, arg3);
+		cs2method_10250(arg2);
+	}
+	return;
+}

@@ -1,0 +1,36 @@
+object script_1814(object arg0) {
+	int ivar0;
+	object ovar1;
+	ivar0 = cs2method_10366(arg0);
+	if (ivar0 <= 0) {
+		return arg0;
+	}
+	ovar1 = cs2method_10445((object)"\u00a0", arg0);
+	ovar1 = script_2332(ovar1, (object)"\u00a0a", (object)"\u00a0A");
+	ovar1 = script_2332(ovar1, (object)"\u00a0b", (object)"\u00a0B");
+	ovar1 = script_2332(ovar1, (object)"\u00a0c", (object)"\u00a0C");
+	ovar1 = script_2332(ovar1, (object)"\u00a0d", (object)"\u00a0D");
+	ovar1 = script_2332(ovar1, (object)"\u00a0e", (object)"\u00a0E");
+	ovar1 = script_2332(ovar1, (object)"\u00a0f", (object)"\u00a0F");
+	ovar1 = script_2332(ovar1, (object)"\u00a0g", (object)"\u00a0G");
+	ovar1 = script_2332(ovar1, (object)"\u00a0h", (object)"\u00a0H");
+	ovar1 = script_2332(ovar1, (object)"\u00a0i", (object)"\u00a0I");
+	ovar1 = script_2332(ovar1, (object)"\u00a0j", (object)"\u00a0J");
+	ovar1 = script_2332(ovar1, (object)"\u00a0k", (object)"\u00a0K");
+	ovar1 = script_2332(ovar1, (object)"\u00a0l", (object)"\u00a0L");
+	ovar1 = script_2332(ovar1, (object)"\u00a0m", (object)"\u00a0M");
+	ovar1 = script_2332(ovar1, (object)"\u00a0n", (object)"\u00a0N");
+	ovar1 = script_2332(ovar1, (object)"\u00a0o", (object)"\u00a0O");
+	ovar1 = script_2332(ovar1, (object)"\u00a0p", (object)"\u00a0P");
+	ovar1 = script_2332(ovar1, (object)"\u00a0q", (object)"\u00a0Q");
+	ovar1 = script_2332(ovar1, (object)"\u00a0r", (object)"\u00a0R");
+	ovar1 = script_2332(ovar1, (object)"\u00a0s", (object)"\u00a0S");
+	ovar1 = script_2332(ovar1, (object)"\u00a0t", (object)"\u00a0T");
+	ovar1 = script_2332(ovar1, (object)"\u00a0u", (object)"\u00a0U");
+	ovar1 = script_2332(ovar1, (object)"\u00a0v", (object)"\u00a0V");
+	ovar1 = script_2332(ovar1, (object)"\u00a0w", (object)"\u00a0W");
+	ovar1 = script_2332(ovar1, (object)"\u00a0x", (object)"\u00a0X");
+	ovar1 = script_2332(ovar1, (object)"\u00a0y", (object)"\u00a0Y");
+	ovar1 = script_2332(ovar1, (object)"\u00a0z", (object)"\u00a0Z");
+	return cs2method_10547(1, add(ivar0, 1), ovar1);
+}

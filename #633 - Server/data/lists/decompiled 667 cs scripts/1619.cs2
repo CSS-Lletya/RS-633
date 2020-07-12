@@ -1,0 +1,13 @@
+void script_1619(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	if (arg0 < 0 || arg0 >= 5 || arg1 < 0 || arg1 >= 5) {
+		cs2method_10998((object)"Nothing happens, as if something has gone wrong.");
+		return;
+	}
+	ivar3 = getDataByKey('i', 'g', 800, arg1);
+	ivar4 = (int)getDataByKey('i', 'I', ivar3, arg0);
+	cs2method_10461(getDataByKey('o', 'm', 797, arg2), ivar4);
+	cs2method_10158(0, 0, 520, 0, 0, 2180, ivar4);
+	return;
+}

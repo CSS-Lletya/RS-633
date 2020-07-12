@@ -1,0 +1,34 @@
+void script_1885(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	clearExtraChildren(new WidgetPointer(arg3));
+	cs2method_10893(arg1, 64, 0, 0, arg3);
+	cs2method_10444(arg0, 0, 0, 1, arg3);
+	script_333(arg3, 6116682, 3024411, 2, 4);
+	createChildWidget(arg3, 5, cs2method_10860(arg3));
+	setWidgetSize(14, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(3872);
+	cs2method_10470(1);
+	createChildWidget(arg3, 5, cs2method_10860(arg3));
+	setWidgetSize(8, 0, 0, 1);
+	setWidgetPosition(0, 0, 0, 1);
+	cs2method_10469(3871);
+	createChildWidget(arg3, 5, cs2method_10860(arg3));
+	setWidgetSize(8, 0, 0, 1);
+	setWidgetPosition(0, 0, 2, 1);
+	cs2method_10469(3873);
+	createChildWidget(arg3, 5, cs2method_10860(arg3));
+	setWidgetSize(36, 32, 0, 0);
+	setWidgetPosition(0, 4, 1, 0);
+	cs2method_10167(3153952);
+	cs2method_10253(1);
+	cs2method_10814(arg2, 1);
+	createChildWidget(arg3, 4, cs2method_10860(arg3));
+	setWidgetSize(multiply(4, 2), subtract(add(4, 32), 3), 1, 1);
+	setWidgetPosition(0, 0, 1, 2);
+	setWidgetFont(494);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetRGB(new Color(255, 152, 31));
+	cs2method_10320(1);
+	setWidgetText(arg4);
+	return;
+}

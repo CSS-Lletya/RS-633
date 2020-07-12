@@ -1,0 +1,37 @@
+void script_4833(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 82444709:
+			ivar1 = 82444714;
+			break;
+		case 82444641:
+			ivar1 = 82444646;
+			break;
+		case 82444567:
+			ivar1 = 82444572;
+			break;
+		case 82444697:
+			ivar1 = 82444702;
+			break;
+		case 82444627:
+			ivar1 = 82444632;
+			break;
+		case 82444551:
+			ivar1 = 82444556;
+			break;
+		case 82444685:
+			ivar1 = 82444690;
+			break;
+		case 82444613:
+			ivar1 = 82444618;
+			break;
+		case 82444535:
+			ivar1 = 82444540;
+	}
+	script_4834(ivar1);
+	script_4838();
+	script_4810();
+	script_4814();
+	return;
+}

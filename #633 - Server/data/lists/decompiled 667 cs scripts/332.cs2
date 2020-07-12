@@ -1,0 +1,9 @@
+void script_332(int arg0) {
+	int ivar1;
+	ivar1 = 2359;
+	if (globalint_783 == 1) {
+		ivar1 = 2360;
+	}
+	cs2method_10461(getDataByKey('i', 'm', ivar1, arg0), 47513683);
+	return;
+}

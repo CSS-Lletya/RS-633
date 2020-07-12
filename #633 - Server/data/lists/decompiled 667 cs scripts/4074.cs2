@@ -1,0 +1,13 @@
+int script_4074() {
+	switch (cs2method_10145()) {
+		case 0:
+			return 9911;
+		case 1:
+			return 9908;
+		case 2:
+			return 9910;
+		case 3:
+			return 9909;
+	}
+	return -1;
+}

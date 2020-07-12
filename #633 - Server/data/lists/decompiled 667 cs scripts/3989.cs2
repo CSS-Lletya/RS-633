@@ -1,0 +1,134 @@
+int script_3989(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	object ovar0;
+	object ovar1;
+	ivar3 = -1;
+	ivar4 = 0;
+	ivar5 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = -1;
+	ivar10 = -1;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = -1;
+	ivar14 = -1;
+	ivar15 = 0;
+	ivar16 = 20;
+	ivar17 = 0;
+	ivar18 = 23;
+	ivar19 = 0;
+	while (arg0 != 1120 && arg0 != 4094) {
+		ivar3 = getDataByKey('i', 'J', 3483, arg0);
+		if (ivar3 != -1) {
+			ivar4 = script_3227(arg0);
+			ivar5 = getGeneralRequirementAttribute(ivar3, 1293);
+			if ((ivar4 != 2 || arg1 == 0) && (ivar5 != 63 || arg2 == 0)) {
+				ovar0 = (object)getGeneralRequirementAttribute(ivar3, 1266);
+				ivar7 = getGeneralRequirementAttribute(ivar3, 1267);
+				ivar8 = getGeneralRequirementAttribute(ivar3, 1272);
+				if (getGeneralRequirementAttribute(ivar3, 1270) != 4094) {
+					ivar9 = getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(ivar3, 1270)), 952);
+				} else {
+					ivar9 = getGeneralRequirementAttribute(ivar3, 1271);
+				}
+				createChildWidget(60096579, 5, ivar11);
+				if (ivar4 == 2) {
+					ivar14 = 4043;
+					ivar13 = 4043;
+				} else {
+					ivar14 = 4041;
+					ivar13 = 4042;
+				}
+				cs2method_10469(ivar14);
+				cs2method_20211(4013, -2147483643, ivar13, "id");
+				cs2method_20139(4013, -2147483643, ivar14, "id");
+				setWidgetSize(add(70, 2), add(56, 1), 0, 0);
+				setWidgetPosition(subtract(ivar16, 1), subtract(ivar18, 1), 0, 0);
+				setWidgetContextMenuOption(1, (object)"Summary for");
+				if (bitconfig_9030 == 0) {
+					if (bitconfig_8576 == arg0) {
+						setWidgetContextMenuOption(2, (object)"Unpin");
+					} else {
+						if (script_3227(arg0) != 2) {
+							setWidgetContextMenuOption(2, (object)"Pin");
+						}
+					}
+				}
+				cs2method_11002(ovar0);
+				cs2method_20115(3990, arg0, -2147483643, -2147483644, "iii");
+				if (script_3999(arg0) == 0) {
+					ovar1 = (object)(" -" + "<br>");
+					ovar1 = cs2method_10445((object)getGeneralRequirementAttribute(ivar3, 1266), ovar1);
+					ovar1 = cs2method_10445(ovar1, (object)getGeneralRequirementAttribute(ivar3, 1273));
+					cs2method_20930(3998, cs2method_10207(), -2147483647, -2147483646, (string)ovar1, new WidgetPointer(-32768,3), -2147483643, "iiisIi");
+				}
+				if (script_3994(arg0) == 1 && arg0 != 4094) {
+					globalint_1422 = ivar11;
+				}
+				createChildWidget(60096579, 5, add(ivar11, 1));
+				setWidgetSize(50, 50, 0, 0);
+				cs2method_10469(ivar9);
+				setWidgetPosition(add(ivar16, 3), add(ivar18, 2), 0, 0);
+				cs2method_10305(ivar19);
+				createChildWidget(60096579, 5, add(ivar11, 2));
+				if (ivar5 != 0 && ivar5 != 63) {
+					ivar10 = 4272;
+					setWidgetSize(13, 13, 0, 0);
+					cs2method_10469(ivar10);
+					setWidgetPosition(subtract(add(ivar16, 70), 16), add(ivar18, 4), 0, 0);
+				}
+				createChildWidget(60096579, 5, add(ivar11, 3));
+				if (script_3994(arg0) == 1) {
+					ivar10 = 4296;
+					setWidgetSize(11, 11, 0, 0);
+					ivar17 = 16;
+				} else if (script_3996(arg0) == 0) {
+					ivar10 = 4346;
+					setWidgetSize(11, 11, 0, 0);
+					ivar17 = 15;
+				} else {
+					ivar10 = getDataByKey('i', 'd', 3492, ivar8);
+					setWidgetSize(9, 11, 0, 0);
+					ivar17 = 14;
+				}
+				cs2method_10469(ivar10);
+				setWidgetPosition(subtract(add(ivar16, 70), ivar17), add(ivar18, 39), 0, 0);
+				ivar12 = add(ivar12, 1);
+				ivar11 = multiply(ivar12, 4);
+				ivar16 = add(add(ivar16, 70), 20);
+				ivar15 = cs2method_10620(add(ivar15, 1), 5);
+				if (ivar15 == 0) {
+					ivar18 = add(add(ivar18, 56), 23);
+					ivar16 = 20;
+				}
+			}
+		}
+		arg0 = getGeneralRequirementAttribute(ivar3, 1269);
+	}
+	if (ivar15 != 0) {
+		ivar18 = add(ivar18, 56);
+	} else {
+		ivar18 = subtract(ivar18, 23);
+	}
+	return ivar18;
+}

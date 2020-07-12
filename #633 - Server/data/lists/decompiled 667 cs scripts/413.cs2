@@ -1,0 +1,7 @@
+void script_413() {
+	cs2method_10141(cs2method_10687());
+	globalint_1353 = cs2method_10687();
+	globalint_1359 = 0;
+	globalint_1360 = 0;
+	return;
+}

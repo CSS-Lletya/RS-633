@@ -1,0 +1,30 @@
+void script_4741() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = -1;
+	ivar2 = -1;
+	if (bitconfig_9904 < 99999 && bitconfig_9903 != 0) {
+		ivar2 = getDataByKey('i', 'v', 3879, bitconfig_9903);
+		if (cs2method_10551(74973184, bitconfig_9904) == 1) {
+			ivar0 = cs2method_10136(ivar2, bitconfig_9904);
+			if (ivar0 > 0) {
+				ivar1 = getItemIdInContainerSlot(ivar2, bitconfig_9904);
+				if (ivar1 != -1) {
+					setWidgetIsHidden(true, new WidgetPointer(1144,23));
+					setWidgetIsHidden(false, new WidgetPointer(1144,22));
+					setWidgetIsHidden(false, new WidgetPointer(1144,9));
+					setWidgetIsHidden(false, new WidgetPointer(1144,39));
+					if (ivar0 == 1) {
+						setWidgetText(new WidgetPointer(1144,49), (object)("Are you sure you want to delete " + "<col=ffff80>" + (string)getItemName(ivar1) + "</col>" + "?"));
+					} else {
+						setWidgetText(new WidgetPointer(1144,49), (object)("Are you sure you want to delete " + "<col=ffff80>" + (string)getItemName(ivar1) + "</col>" + " (" + "<col=ffffff>" + toString(ivar0) + "</col>" + " items)?"));
+					}
+					cs2method_10380(ivar1, ivar0, 74973234);
+				}
+			}
+		}
+	}
+	return;
+}

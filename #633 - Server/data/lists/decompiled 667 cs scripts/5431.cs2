@@ -1,0 +1,66 @@
+int script_5431(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 0;
+	ivar2 = 0;
+	if (cs2method_10551(76480513, arg0) == 1) {
+		ivar2 = cs2method_10207();
+		ivar1 = add(ivar2, 10);
+		if (ivar1 > 85 && ivar1 < 105) {
+			if (globalint_1664 == 1) {
+				globalint_1666 = 21;
+			} else if (globalint_1664 == 2) {
+				globalint_1666 = 22;
+			} else {
+				globalint_1666 = subtract(globalint_1664, 2);
+			}
+			setWidgetText(new WidgetPointer(1167,30), (object)getDataByKey('i', 's', 5214, globalint_1666));
+			cs2method_10677(8080, 1, 0, 80);
+			if (globalint_1667 == 1 && globalint_1663 == globalint_1666) {
+				cs2method_20219(-1, "", new WidgetPointer(1167,1));
+				setWidgetPosition(0, 90, 1, 0);
+				cs2method_10677(8103, 1, 0, 200);
+				if (arg0 == 0) {
+					if (cs2method_10551(76480513, 2) == 1) {
+						setWidgetPosition(0, 0, 1, 0);
+					}
+					if (cs2method_10551(76480513, 1) == 1) {
+						setWidgetPosition(0, 180, 1, 0);
+					}
+				} else if (arg0 == 1) {
+					if (cs2method_10551(76480513, 0) == 1) {
+						setWidgetPosition(0, 0, 1, 0);
+					}
+					if (cs2method_10551(76480513, 2) == 1) {
+						setWidgetPosition(0, 180, 1, 0);
+					}
+				} else {
+					if (arg0 == 2) {
+						if (cs2method_10551(76480513, 1) == 1) {
+							setWidgetPosition(0, 0, 1, 0);
+						}
+						if (cs2method_10551(76480513, 0) == 1) {
+							setWidgetPosition(0, 180, 1, 0);
+						}
+					}
+				}
+				setWidgetIsHidden(false, new WidgetPointer(1167,50));
+				setWidgetText(new WidgetPointer(1167,42), (object)toString(bitconfig_10013));
+				setWidgetIsHidden(true, new WidgetPointer(1167,52));
+				return 0;
+			}
+			if (globalint_1663 != 0 && globalint_1667 == 0) {
+				script_5432();
+			}
+		}
+		if (ivar1 > 0 && ivar1 < 270) {
+			setWidgetPosition(0, ivar1, 1, 0);
+		} else {
+			if (ivar1 >= 270) {
+				cs2method_10714();
+				script_5433(arg0, 0);
+			}
+		}
+	}
+	return 1;
+}

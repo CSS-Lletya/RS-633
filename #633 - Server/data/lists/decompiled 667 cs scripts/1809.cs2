@@ -1,0 +1,16 @@
+void script_1809(int arg0,int arg1,int arg2) {
+	object ovar0;
+	ovar0 = (object)"";
+	if (cs2method_10366((object)globalstring_38) > 0) {
+		ovar0 = script_1814((object)globalstring_38);
+		setWidgetText(new WidgetPointer(arg1), ovar0);
+		cs2method_10893(cs2method_10242(512, 496, ovar0), 15, 0, 0, arg1);
+	} else {
+		setWidgetText(new WidgetPointer(arg1), (object)"");
+		cs2method_10893(0, 15, 0, 0, arg1);
+	}
+	globalint_267 = -1;
+	globalstring_39 = "";
+	script_1811(arg0, arg1, arg2);
+	return;
+}

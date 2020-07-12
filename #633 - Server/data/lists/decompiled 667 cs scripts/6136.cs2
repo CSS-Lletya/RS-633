@@ -1,0 +1,8 @@
+void script_6136(object arg0) {
+	setWidgetFilled(1);
+	cs2method_10305(255);
+	cs2method_20115(6135, "");
+	setWidgetContextMenuOption(1, arg0);
+	cs2method_10843(1);
+	return;
+}

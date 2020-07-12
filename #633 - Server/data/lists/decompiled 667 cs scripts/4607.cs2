@@ -1,0 +1,4 @@
+void script_4607() {
+	cs2method_10661(standart_config_2174);
+	return;
+}

@@ -1,0 +1,14 @@
+void script_731() {
+	cs2method_10461(-1, 51183631);
+	cs2method_10461(-1, 51183632);
+	cs2method_10461(-1, 51183633);
+	cs2method_10461(-1, 51183634);
+	cs2method_10461(-1, 51183635);
+	cs2method_10461(-1, 51183636);
+	cs2method_10461(-1, 51183637);
+	cs2method_10461(-1, 51183638);
+	cs2method_10535(10139, 51183649);
+	cs2method_10535(10139, 51183658);
+	setWidgetIsHidden(true, new WidgetPointer(781,1));
+	return;
+}

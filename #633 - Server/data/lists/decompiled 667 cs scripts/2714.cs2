@@ -1,0 +1,76 @@
+void script_2714(int arg0,int arg1) {
+	int ivar2;
+	if (cs2method_10553() == -3) {
+		return;
+	}
+	if (cs2method_10218() == -3) {
+		return;
+	}
+	if (cs2method_10280() == -3) {
+		return;
+	}
+	ivar2 = globalint_174;
+	globalint_174 = arg0;
+	globalint_175 = cs2method_10878();
+	switch (arg0) {
+		case 6:
+			if (arg1 == 1) {
+				globalint_1099 = cs2method_10366((object)globalstring_122);
+				script_3218(44105827, 44105771, 44105828, 6, (object)globalstring_122);
+			}
+			break;
+		case 14:
+			if (arg1 == 1) {
+				globalint_1099 = cs2method_10366((object)globalstring_326);
+				script_3218(44105846, 44105847, 44105848, 14, (object)globalstring_326);
+			}
+			break;
+		case 7:
+			if (arg1 == 1) {
+				globalint_1099 = cs2method_10366((object)globalstring_124);
+				script_3218(44105817, 44105818, 44105819, 7, script_2949((object)globalstring_124));
+			}
+			break;
+		case 8:
+			if (arg1 == 1) {
+				globalint_1099 = cs2method_10366((object)globalstring_125);
+				script_3218(44105807, 44105808, 44105809, 8, script_2949((object)globalstring_125));
+			}
+			break;
+		case 15:
+			if (arg1 == 1) {
+				if (globalint_1407 < 1) {
+					globalint_1099 = 0;
+					script_3218(44105853, 44105770, 44105854, 15, (object)"");
+				} else {
+					globalint_1099 = cs2method_10366((object)toString(globalint_1407));
+					script_3218(44105853, 44105770, 44105854, 15, (object)toString(globalint_1407));
+				}
+			}
+	}
+	if (ivar2 == 6 && arg0 != 6) {
+		if (compareTo((object)globalstring_123, (object)globalstring_122) != 0) {
+			script_2283(0, 1);
+		}
+	} else if (ivar2 == 14 && arg0 != 14) {
+		if (compareTo((object)globalstring_327, (object)globalstring_326) != 0) {
+			script_3953(0);
+		}
+	} else if (ivar2 == 7 && arg0 != 7) {
+		if (compareTo((object)globalstring_328, (object)globalstring_124) != 0) {
+			script_3228(7, 0, 0);
+			if (cs2method_10366((object)globalstring_125) > 0) {
+				script_3228(8, 1, 0);
+			}
+		}
+	} else if (ivar2 == 8 && arg0 != 8) {
+		if (compareTo((object)globalstring_329, (object)globalstring_125) != 0) {
+			script_3228(8, 1, 0);
+		}
+	} else {
+		if (ivar2 == 15 && arg0 != 15 && globalint_1408 != globalint_1407) {
+			script_3954(0);
+		}
+	}
+	return;
+}

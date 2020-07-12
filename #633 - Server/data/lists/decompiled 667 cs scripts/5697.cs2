@@ -1,0 +1,29 @@
+void script_5697(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	object ovar0;
+	ivar1 = getDataByKey('i', 'g', 5420, globalint_1753);
+	ivar2 = getDataByKey('i', 'J', ivar1, arg0);
+	ivar3 = 0;
+	ivar4 = 0;
+	ovar0 = (object)getGeneralRequirementAttribute(ivar2, 2211);
+	if (cs2method_10551(79822878, arg0) == 1) {
+		if (cs2method_10416(79822928) == 1) {
+			ivar4 = subtract(add(cs2method_10630(), cs2method_10207()), 5);
+			ivar3 = multiply(cs2method_10004(getLineCount(500, 3793, ovar0), 1), 12);
+			setWidgetText(new WidgetPointer(1218,181), ovar0);
+			setWidgetRGB(14389248, 79823029);
+			cs2method_10893(cs2method_10956(79822928), add(ivar3, 30), 0, 0, 79822928);
+			if (add(cs2method_10207(), add(ivar3, 30)) > cs2method_10090(79822920)) {
+				ivar4 = subtract(cs2method_10207(), add(ivar3, 20));
+			}
+			cs2method_10444(cs2method_10111(79822928), ivar4, 0, 0, 79822928);
+			setWidgetIsHidden(false, new WidgetPointer(1218,80));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1218,80));
+		}
+	}
+	return;
+}

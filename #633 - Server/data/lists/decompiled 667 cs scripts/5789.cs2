@@ -1,0 +1,12 @@
+void script_5789() {
+	int ivar0;
+	ivar0 = script_5795(bitconfig_8576);
+	if (ivar0 == -1) {
+		return;
+	}
+	script_5796(bitconfig_8576, 0, 79953940, 79953939, 79953938, -1, -1, -1);
+	cs2method_10893(190, 277, 0, 0, 48889865);
+	script_5791();
+	script_5871(bitconfig_8576, bitconfig_8578);
+	return;
+}

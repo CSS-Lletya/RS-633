@@ -1,0 +1,35 @@
+void script_5406(int arg0,int arg1) {
+	setWidgetIsHidden(true, new WidgetPointer(1172,2));
+	setWidgetIsHidden(true, new WidgetPointer(1172,5));
+	setWidgetIsHidden(false, new WidgetPointer(1172,7));
+	if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(1172,8), (object)"Yeah! You won!");
+		switch (cs2method_10869(2)) {
+			case 0:
+				cs2method_10677(7897, 1, 0, 255);
+				break;
+			case 1:
+				cs2method_10677(7885, 1, 0, 255);
+		}
+		if (bitconfig_9984 > 0 || bitconfig_9985 > 0 || bitconfig_9988 != 0) {
+			setWidgetText(new WidgetPointer(1172,10), (object)("You now have a dominion factor of: " + (string)script_46(arg1, (object)",")));
+		} else {
+			setWidgetText(new WidgetPointer(1172,10), (object)"");
+		}
+	} else {
+		setWidgetText(new WidgetPointer(1172,8), (object)"Unlucky, you lost!");
+		switch (cs2method_10869(2)) {
+			case 0:
+				cs2method_10677(7904, 1, 0, 255);
+				break;
+			case 1:
+				cs2method_10677(7874, 1, 0, 255);
+		}
+		if (bitconfig_9984 > 0 || bitconfig_9985 > 0 || bitconfig_9988 != 0) {
+			setWidgetText(new WidgetPointer(1172,10), (object)("You leave with a dominion factor of: " + (string)script_46(arg1, (object)",")));
+		} else {
+			setWidgetText(new WidgetPointer(1172,10), (object)"");
+		}
+	}
+	return;
+}

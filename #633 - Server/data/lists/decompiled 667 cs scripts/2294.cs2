@@ -1,0 +1,30 @@
+int script_2294(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 5982;
+	if (bitconfig_6840 == 1) {
+		ivar1 = 5981;
+	}
+	ivar2 = getDataByKey('i', 'J', ivar1, arg0);
+	ivar3 = 1;
+	if (getGeneralRequirementAttribute(ivar2, 2668) == 1) {
+		if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar2, 2672)) {
+			ivar3 = 2;
+		}
+		if (cs2method_10453(5) >= getGeneralRequirementAttribute(ivar2, 2674)) {
+			ivar3 = 3;
+		}
+		switch (ivar3) {
+			case 1:
+				ivar2 = getGeneralRequirementAttribute(ivar2, 2671);
+				break;
+			case 2:
+				ivar2 = getGeneralRequirementAttribute(ivar2, 2673);
+				break;
+			case 3:
+				ivar2 = getGeneralRequirementAttribute(ivar2, 2675);
+		}
+	}
+	return getGeneralRequirementAttribute(ivar2, 2536);
+}

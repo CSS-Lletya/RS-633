@@ -1,0 +1,10 @@
+void script_6318(int arg0) {
+	if (cs2method_10620(cs2method_10878(), 10) == 0 && cs2method_10403(arg0) == 1) {
+		if (cs2method_10964(arg0) < 100) {
+			cs2method_10149(cs2method_10586(add(cs2method_10964(arg0), 5), 100), arg0);
+		} else {
+			cs2method_10149(cs2method_10004(subtract(cs2method_10964(arg0), 5), 0), arg0);
+		}
+	}
+	return;
+}

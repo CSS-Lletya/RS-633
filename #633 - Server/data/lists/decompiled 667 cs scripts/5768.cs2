@@ -1,0 +1,6 @@
+int script_5768() {
+	if (bitconfig_9030 == 0) {
+		return 1;
+	}
+	return 0;
+}

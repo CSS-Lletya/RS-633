@@ -1,0 +1,4 @@
+void script_6184(int arg0) {
+	cs2method_10998((object)"TODO.");
+	return;
+}

@@ -1,0 +1,6 @@
+void script_212(object arg0) {
+	if (compareTo(arg0, (object)"") != 0) {
+		cs2method_10332(1, arg0);
+	}
+	return;
+}

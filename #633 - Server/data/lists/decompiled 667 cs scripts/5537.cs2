@@ -1,0 +1,15 @@
+void script_5537() {
+	int ivar0;
+	ivar0 = 0;
+	if (globalint_1808 < 1) {
+		globalint_1808 = 1;
+	}
+	globalint_1808 = script_5540(globalint_1808, 77201425, 77201426, 77201427);
+	globalint_1807 = script_5540(subtract(globalint_1808, 1), 77201422, 77201423, 77201424);
+	globalint_1806 = script_5540(subtract(globalint_1807, 1), 77201419, 77201420, 77201421);
+	globalint_1805 = script_5540(subtract(globalint_1806, 1), 77201416, 77201417, 77201418);
+	globalint_1809 = script_5540(add(globalint_1808, 1), 77201428, 77201429, 77201430);
+	globalint_1810 = script_5540(add(globalint_1809, 1), 77201431, 77201432, 77201433);
+	globalint_1811 = script_5540(add(globalint_1810, 1), 77201434, 77201435, 77201436);
+	return;
+}

@@ -1,0 +1,70 @@
+void script_4342(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_4341_struct(0,2,0) structdump_3;
+	cs2func_script_4341_struct(0,2,0) structdump_4;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	if (cs2method_10620(cs2method_10878(), 3000) == 0) {
+		arg1 = add(arg1, 1);
+		if (arg1 >= 60) {
+			arg1 = 0;
+			arg0 = add(arg0, 1);
+			if (arg0 >= 24) {
+				arg0 = 0;
+			}
+		}
+		if (arg0 < 10) {
+			ovar0 = (object)("0" + toString(arg0));
+		} else {
+			ovar0 = (object)toString(arg0);
+		}
+		if (arg1 < 10) {
+			ovar1 = (object)("0" + toString(arg1));
+		} else {
+			ovar1 = (object)toString(arg1);
+		}
+		setWidgetText(new WidgetPointer(arg3), (object)((string)ovar0 + ":" + (string)ovar1));
+		cs2method_20219(4342, arg0, arg1, arg2, new WidgetPointer(arg3), new WidgetPointer(arg4), "iiiII", new WidgetPointer(arg3));
+		stack_dump0 = arg2;
+		stack_dump1 = arg0;
+		stack_dump2 = arg1;
+		structdump_3 = script_4341(stack_dump0, stack_dump1, stack_dump2);
+		ovar1 = structdump_3.objectpart_1;
+		ovar0 = structdump_3.objectpart_0;
+		setWidgetText(new WidgetPointer(arg4), (object)((string)ovar0 + ":" + (string)ovar1));
+	} else {
+		if (cs2method_10620(cs2method_10878(), 50) == 0) {
+			if (arg0 < 10) {
+				ovar0 = (object)("0" + toString(arg0));
+			} else {
+				ovar0 = (object)toString(arg0);
+			}
+			if (arg1 < 10) {
+				ovar1 = (object)("0" + toString(arg1));
+			} else {
+				ovar1 = (object)toString(arg1);
+			}
+			if (cs2method_10620(cs2method_10878(), 100) == 0) {
+				setWidgetText(new WidgetPointer(arg3), (object)((string)ovar0 + ":" + (string)ovar1));
+			} else {
+				setWidgetText(new WidgetPointer(arg3), (object)((string)ovar0 + " " + (string)ovar1));
+			}
+			stack_dump0 = arg2;
+			stack_dump1 = arg0;
+			stack_dump2 = arg1;
+			structdump_4 = script_4341(stack_dump0, stack_dump1, stack_dump2);
+			ovar1 = structdump_4.objectpart_1;
+			ovar0 = structdump_4.objectpart_0;
+			if (cs2method_10620(cs2method_10878(), 100) == 0) {
+				setWidgetText(new WidgetPointer(arg4), (object)((string)ovar0 + ":" + (string)ovar1));
+			} else {
+				setWidgetText(new WidgetPointer(arg4), (object)((string)ovar0 + " " + (string)ovar1));
+			}
+		}
+	}
+	return;
+}

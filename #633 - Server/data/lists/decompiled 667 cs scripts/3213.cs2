@@ -1,0 +1,127 @@
+void script_3213(int arg0,object arg1) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar1;
+	object ovar2;
+	flow_0:
+		ivar1 = 0;
+		ivar2 = 0;
+		ivar3 = 0;
+		ivar4 = 0;
+		ivar5 = 0;
+		ovar1 = (object)"accountappeal";
+		ovar2 = (object)"passwordchoice.ws";
+		SWITCH (arg0) {
+			case 44105821:
+				 GOTO flow_1
+			case 44105840:
+				 GOTO flow_9
+			case 44105811:
+				 GOTO flow_17
+			case 44105801:
+				 GOTO flow_25
+			case 44105776:
+				 GOTO flow_33
+		}
+		setWidgetIsHidden(true, new WidgetPointer(673,30));
+		return;
+	flow_1:
+		if (cs2method_10366(arg1) > 0) {
+			cs2method_10467(4061, 44105821);
+			setWidgetIsHidden(false, new WidgetPointer(673,98));
+			setWidgetText(new WidgetPointer(673,29), arg1);
+			setWidgetText(new WidgetPointer(673,136), arg1);
+		} else if (cs2method_10825(arg0) == 4061) {
+			setWidgetText(new WidgetPointer(673,29), cs2method_10100(44105864));
+		} else if (cs2method_10825(arg0) == 4059) {
+			setWidgetText(new WidgetPointer(673,29), (object)"This email address is available for use.");
+		} else {
+			setWidgetText(new WidgetPointer(673,29), (object)"Please enter your email address here.");
+		}
+		cs2method_10893(110, add(multiply(getLineCount(subtract(110, 20), 3793, cs2method_10100(44105757)), 12), 10), 0, 0, 44105758);
+		ivar2 = 99;
+		ivar4 = 450;
+		GOTO	flow_41
+	flow_9:
+		if (cs2method_10366(arg1) > 0) {
+			cs2method_10467(4061, 44105840);
+			setWidgetIsHidden(false, new WidgetPointer(673,117));
+			setWidgetText(new WidgetPointer(673,29), arg1);
+			setWidgetText(new WidgetPointer(673,137), arg1);
+		} else if (cs2method_10825(arg0) == 4061) {
+			setWidgetText(new WidgetPointer(673,29), cs2method_10100(44105865));
+		} else if (cs2method_10825(arg0) == 4059) {
+			setWidgetText(new WidgetPointer(673,29), (object)"Both email addresses match.");
+		} else {
+			setWidgetText(new WidgetPointer(673,29), (object)"Please enter your email address again here.");
+		}
+		cs2method_10893(110, add(multiply(getLineCount(subtract(110, 20), 3793, cs2method_10100(44105757)), 12), 10), 0, 0, 44105758);
+		ivar2 = 128;
+		ivar4 = 450;
+		GOTO	flow_41
+	flow_17:
+		if (cs2method_10366(arg1) > 0) {
+			cs2method_10467(4061, 44105811);
+			setWidgetIsHidden(false, new WidgetPointer(673,88));
+			setWidgetText(new WidgetPointer(673,29), arg1);
+			setWidgetText(new WidgetPointer(673,138), arg1);
+		} else if (cs2method_10825(arg0) == 4061) {
+			setWidgetText(new WidgetPointer(673,29), cs2method_10100(44105866));
+		} else if (cs2method_10825(arg0) == 4059) {
+			setWidgetText(new WidgetPointer(673,29), (object)"You have entered your password.");
+		} else {
+			setWidgetText(new WidgetPointer(673,29), (object)"Please enter your desired password here.");
+		}
+		cs2method_10893(110, add(multiply(getLineCount(subtract(110, 20), 3793, cs2method_10100(44105757)), 12), 10), 0, 0, 44105758);
+		ivar2 = 161;
+		ivar4 = 450;
+		GOTO	flow_41
+	flow_25:
+		if (cs2method_10366(arg1) > 0) {
+			cs2method_10467(4061, 44105801);
+			setWidgetIsHidden(false, new WidgetPointer(673,78));
+			setWidgetText(new WidgetPointer(673,29), arg1);
+			setWidgetText(new WidgetPointer(673,139), arg1);
+		} else if (cs2method_10825(arg0) == 4061) {
+			setWidgetText(new WidgetPointer(673,29), cs2method_10100(44105867));
+		} else if (cs2method_10825(arg0) == 4059) {
+			setWidgetText(new WidgetPointer(673,29), (object)"Both passwords match.");
+		} else {
+			setWidgetText(new WidgetPointer(673,29), (object)"Please enter your desired password again here.");
+		}
+		cs2method_10893(110, add(multiply(getLineCount(subtract(110, multiply(10, 2)), 3793, cs2method_10100(44105757)), 12), 10), 0, 0, 44105758);
+		ivar2 = 190;
+		ivar4 = 450;
+		GOTO	flow_41
+	flow_33:
+		if (cs2method_10366(arg1) > 0) {
+			cs2method_10467(4061, 44105776);
+			setWidgetIsHidden(false, new WidgetPointer(673,124));
+			setWidgetText(new WidgetPointer(673,29), arg1);
+			setWidgetText(new WidgetPointer(673,140), arg1);
+		} else if (cs2method_10825(arg0) == 4061) {
+			setWidgetText(new WidgetPointer(673,29), cs2method_10100(44105868));
+		} else if (cs2method_10825(arg0) == 4059) {
+			setWidgetText(new WidgetPointer(673,29), (object)"You have entered your age.");
+		} else {
+			setWidgetText(new WidgetPointer(673,29), (object)"Please enter your age, in years, here.");
+		}
+		ivar5 = subtract(cs2method_10956(44105765), 277);
+		cs2method_10893(cs2method_10586(add(cs2method_10242(multiply(divide(cs2method_10355(3793, cs2method_10100(44105757)), 4), 3), 3793, cs2method_10100(44105757)), multiply(10, 2)), ivar5), 30, 0, 0, 44105758);
+		ivar2 = 223;
+		ivar4 = 277;
+	flow_41:
+		ivar1 = divide(cs2method_10090(44105758), 2);
+		ivar3 = subtract(ivar2, ivar1);
+		cs2method_10444(ivar4, ivar3, 0, 0, 44105758);
+		setWidgetIsHidden(false, new WidgetPointer(673,30));
+		if (compareTo(cs2method_10100(44105757), (object)("Email already in use. Try a different email or click " + "<u=ebe0bc>" + "here" + "</u>" + " to recover this account.")) == 0) {
+			setScriptCallOnMousePressed(2931, (string)ovar1, (string)ovar2, 1, "ss1", new WidgetPointer(673,31));
+		} else {
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(673,31));
+		}
+		return;
+}

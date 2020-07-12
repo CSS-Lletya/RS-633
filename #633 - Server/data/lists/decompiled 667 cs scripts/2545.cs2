@@ -1,0 +1,12 @@
+void script_2545() {
+	if (globalint_916 == 1) {
+		cs2method_10467(1949, 2555922);
+	} else if (globalint_916 == 2) {
+		cs2method_10467(1946, 2555922);
+	} else {
+		if (globalint_916 == 3) {
+			cs2method_10467(1947, 2555922);
+		}
+	}
+	return;
+}

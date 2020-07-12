@@ -1,0 +1,19 @@
+void script_5367(int arg0,int arg1) {
+	if (cs2method_10551(62324760, arg0) == 1) {
+		switch (arg1) {
+			case 0:
+				cs2method_10692(1);
+				cs2method_20745(-1, "");
+				break;
+			case 1:
+				cs2method_10692(0);
+				cs2method_20745(5368, -2147483643, "i");
+				break;
+			case 2:
+				cs2method_10692(0);
+				cs2method_20745(-1, "");
+				cs2method_10305(0);
+		}
+	}
+	return;
+}

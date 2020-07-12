@@ -1,0 +1,5 @@
+void script_5608() {
+	globalint_1750 = 0;
+	script_5610();
+	return;
+}

@@ -1,0 +1,23 @@
+void script_5890(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = script_5933(arg0);
+	ivar2 = script_5939(arg0);
+	ivar3 = -1;
+	switch (ivar2) {
+		case 1:
+			ivar3 = 9877;
+			break;
+		case 2:
+			ivar3 = 9880;
+			break;
+		case 3:
+			ivar3 = 9883;
+			break;
+		default:
+			ivar3 = 9874;
+	}
+	cs2method_10467(ivar3, ivar1);
+	return;
+}

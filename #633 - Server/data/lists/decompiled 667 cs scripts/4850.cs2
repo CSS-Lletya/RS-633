@@ -1,0 +1,17 @@
+void script_4850(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	clearExtraChildren(new WidgetPointer(arg2));
+	clearExtraChildren(new WidgetPointer(arg3));
+	clearExtraChildren(new WidgetPointer(arg4));
+	setWidgetIsHidden(true, new WidgetPointer(arg5));
+	cs2method_10085(0, 0, arg0);
+	setWidgetScrollMax(0, 0, arg0);
+	script_31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685);
+	createChildWidget(arg2, 4, 0);
+	setWidgetSize(10, 10, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	setWidgetText((object)"Please select a hotspot to customise from the map on the right.");
+	setWidgetRGB(new Color(229, 225, 187));
+	setWidgetFont(495);
+	setWidgetTextAlignment(1, 1, 0);
+	return;
+}

@@ -1,0 +1,204 @@
+void script_6089(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	object ovar0;
+	int stack_dump0;
+	cs2func_script_6095_struct(2,0,0) structdump_1;
+	ivar4 = 82903060;
+	ivar5 = 82903065;
+	ivar6 = 82903066;
+	ivar7 = 82903064;
+	ivar8 = 82903063;
+	ivar9 = 82903067;
+	if (arg0 == standart_config_1496) {
+		ivar4 = 82903061;
+		ivar5 = 82903136;
+		ivar6 = 82903137;
+		ivar7 = -1;
+		ivar8 = 82903135;
+		ivar9 = 82903138;
+	}
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ivar14 = 0;
+	stack_dump0 = arg3;
+	structdump_1 = script_6095(stack_dump0);
+	ivar11 = structdump_1.intpart_1;
+	ivar10 = structdump_1.intpart_0;
+	ivar12 = divide(cs2method_10956(ivar4), ivar10);
+	ivar14 = multiply(divide(arg2, ivar12), ivar11);
+	ivar13 = multiply(cs2method_10620(arg2, ivar12), ivar10);
+	createChildWidget(ivar4, 5, arg1);
+	ivar15 = 0;
+	ivar16 = -1;
+	ivar17 = -1;
+	ivar18 = getItemIdInContainerSlot(arg0, arg1);
+	ovar0 = (object)script_2706(ivar18);
+	if (arg3 == 0) {
+		ivar15 = 48;
+		ivar16 = 10448;
+		ivar17 = 10451;
+	} else {
+		ivar15 = 151;
+		ivar16 = 10453;
+		ivar17 = 10456;
+	}
+	setWidgetSize(ivar15, 52, 0, 0);
+	if (arg0 == standart_config_2561 && arg1 == standart_config_2563) {
+		cs2method_10469(ivar17);
+		cs2method_20211(6100, arg3, 1, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+		cs2method_20139(6100, arg3, 1, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+	} else {
+		cs2method_10469(ivar16);
+		cs2method_20211(6100, arg3, 0, 1, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+		cs2method_20139(6100, arg3, 0, 0, new WidgetPointer(-32768,3), -2147483643, "iiiIi");
+	}
+	setWidgetPosition(add(ivar13, 2), add(ivar14, 2), 0, 0);
+	cs2method_11002((object)("<col=ff981f>" + (string)getItemName(ivar18) + "</col>"));
+	setWidgetContextMenuOption(1, (object)"Info");
+	if (arg0 == standart_config_1496) {
+		cs2method_20115(6105, standart_config_1496, arg1, "vi");
+		setWidgetContextMenuOption(2, (object)"Take 1");
+		setWidgetContextMenuOption(3, (object)"Take 5");
+		if (ivar18 == 36) {
+			setWidgetContextMenuOption(3, (object)"Take 4");
+		}
+		setWidgetContextMenuOption(4, (object)"Take 10");
+		setWidgetContextMenuOption(5, (object)"Take 50");
+		setWidgetContextMenuOption(6, (object)"Take 500");
+		setWidgetContextMenuOption(7, (object)"Take All");
+	} else if (arg0 == 93) {
+		cs2method_20115(6105, 93, arg1, "vi");
+		setWidgetContextMenuOption(2, (object)"Sell 1");
+		setWidgetContextMenuOption(3, (object)"Sell 5");
+		if (ivar18 == 36) {
+			setWidgetContextMenuOption(3, (object)"Sell 4");
+		}
+		setWidgetContextMenuOption(4, (object)"Sell 10");
+		setWidgetContextMenuOption(5, (object)"Sell 50");
+		setWidgetContextMenuOption(6, (object)"Sell 500");
+		setWidgetContextMenuOption(7, (object)"");
+	} else {
+		cs2method_20115(6105, standart_config_118, arg1, "vi");
+		setWidgetContextMenuOption(2, (object)"Buy 1");
+		setWidgetContextMenuOption(3, (object)"Buy 5");
+		if (ivar18 == 36) {
+			setWidgetContextMenuOption(3, (object)"Buy 4");
+		}
+		setWidgetContextMenuOption(4, (object)"Buy 10");
+		setWidgetContextMenuOption(5, (object)"Buy 50");
+		setWidgetContextMenuOption(6, (object)"Buy 500");
+		setWidgetContextMenuOption(7, (object)"Buy All");
+	}
+	if (arg3 == 0) {
+		if (compareTo(ovar0, (object)"") != 0) {
+			ovar0 = (object)((string)getItemName(ivar18) + "<br>" + "(Requirements not met)");
+		} else {
+			ovar0 = getItemName(ivar18);
+		}
+		if (standart_config_1496 == -1 || arg0 == standart_config_1496 || arg0 == 93) {
+			cs2method_20930(6090, cs2method_10207(), -2147483647, -2147483646, (string)ovar0, new WidgetPointer(-32768,3), arg1, "iiisIi");
+		} else {
+			cs2method_20930(6090, add(cs2method_10207(), 28), -2147483647, -2147483646, (string)ovar0, new WidgetPointer(-32768,3), arg1, "iiisIi");
+		}
+		createChildWidget(ivar5, 4, arg1);
+	} else {
+		createChildWidget(ivar5, 4, arg1);
+		setWidgetRGB(new Color(247, 237, 183));
+		setWidgetSize(subtract(151, 53), subtract(52, 18), 0, 0);
+		setWidgetPosition(add(ivar13, 47), add(ivar14, 3), 0, 0);
+		setWidgetFont(3793);
+		setWidgetTextAlignment(2, 1, 13);
+		setWidgetText(getItemName(ivar18));
+	}
+	createChildWidget(ivar6, 5, arg1);
+	setWidgetSize(36, 32, 0, 0);
+	if (arg3 == 0) {
+		setWidgetPosition(add(ivar13, 10), add(ivar14, divide(subtract(52, 38), 2)), 0, 0);
+	} else {
+		setWidgetPosition(add(ivar13, 10), add(ivar14, divide(subtract(52, 22), 2)), 0, 0);
+	}
+	ivar19 = 0;
+	if (getItemAttribute(ivar18, 258) == 1 || getItemAttribute(ivar18, 259) == 1) {
+		ivar19 = 1;
+	}
+	if (ivar19 == 1) {
+		cs2method_10814(ivar18, cs2method_10136(arg0, arg1));
+	} else {
+		cs2method_10988(ivar18, cs2method_10136(arg0, arg1));
+	}
+	cs2method_10167(3153952);
+	cs2method_10253(1);
+	createChildWidget(ivar8, 4, arg1);
+	setWidgetRGB(new Color(229, 176, 81));
+	setWidgetSize(31, 12, 0, 0);
+	setWidgetPosition(subtract(add(ivar13, ivar15), 33), add(ivar14, 40), 0, 0);
+	setWidgetFont(494);
+	setWidgetTextAlignment(2, 1, 0);
+	ivar20 = script_2720(ivar18);
+	if (ivar20 == -1) {
+		setWidgetText((object)"N/A");
+	} else if (arg0 == standart_config_1496) {
+		setWidgetText((object)"Free!");
+	} else if (arg0 == 93) {
+		if (cs2method_10184(globalint_1879, arg1) == 0) {
+			ivar20 = -1;
+			setWidgetText((object)"N/A");
+		} else {
+			ivar20 = script_6077(ivar18);
+			setWidgetText(script_940(ivar20));
+		}
+	} else {
+		setWidgetText(script_940(ivar20));
+	}
+	if (arg0 != standart_config_1496) {
+		if (ivar20 > 100000) {
+			setWidgetRGB(new Color(255, 255, 255));
+		} else {
+			if (ivar20 > 10000000) {
+				setWidgetRGB(new Color(0, 255, 136));
+			}
+		}
+	}
+	if (ivar7 != -1) {
+		setWidgetPosition(subtract(add(ivar13, ivar15), 45), add(ivar14, 40), 0, 0);
+		createChildWidget(ivar7, 5, arg1);
+		setWidgetSize(12, 12, 0, 0);
+		setWidgetPosition(subtract(add(ivar13, ivar15), 12), add(ivar14, 39), 0, 0);
+		if (arg0 == 93 && cs2method_10184(globalint_1879, arg1) == 0) {
+			cs2method_10469(2180);
+		} else {
+			cs2method_10469(getDataByKey('o', 'd', 200, standart_config_532));
+		}
+	}
+	createChildWidget(ivar9, 5, arg1);
+	setWidgetSize(12, 12, 0, 0);
+	setWidgetPosition(add(ivar13, 36), add(ivar14, 6), 0, 0);
+	cs2method_10469(2180);
+	script_812(ivar18);
+	ovar0 = (object)script_2706(ivar18);
+	if (standart_config_1496 == -1 || arg0 == standart_config_1496 || arg0 == 93) {
+		cs2method_20930(6090, cs2method_10207(), -2147483647, -2147483646, (string)ovar0, new WidgetPointer(-32768,3), arg1, "iiisIi");
+	} else {
+		cs2method_20930(6090, add(cs2method_10207(), 28), -2147483647, -2147483646, (string)ovar0, new WidgetPointer(-32768,3), arg1, "iiisIi");
+	}
+	cs2method_20139(40, new WidgetPointer(1265,89), "I");
+	return;
+}

@@ -1,0 +1,8 @@
+void script_4253() {
+	if (bitconfig_9030 == 1) {
+		setWidgetText(new WidgetPointer(917,198), (object)"Tutorial is ON");
+	} else {
+		setWidgetText(new WidgetPointer(917,198), (object)"Tutorial is OFF");
+	}
+	return;
+}

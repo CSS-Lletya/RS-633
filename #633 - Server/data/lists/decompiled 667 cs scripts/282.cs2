@@ -1,0 +1,18 @@
+void script_282() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = cs2method_10542(standart_config_1380, 1000, 100);
+	ivar0 = getDataByKey('i', 'i', 706, ivar2);
+	ivar1 = getDataByKey('i', 'i', 707, ivar2);
+	cs2method_10444(15, ivar0, 2, 0, 54788152);
+	cs2method_10893(14, ivar1, 0, 0, 54788152);
+	if (ivar2 < 25) {
+		setWidgetRGB(16750115, 54788152);
+	} else {
+		setWidgetRGB(295686, 54788152);
+	}
+	return;
+}

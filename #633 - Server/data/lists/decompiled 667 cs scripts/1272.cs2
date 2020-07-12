@@ -1,0 +1,9 @@
+void script_1272() {
+	object ovar0;
+	ovar0 = (object)"null";
+	ovar0 = (object)"House options";
+	cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,16));
+	globalint_2 = 0;
+	script_5641(17104912, 0);
+	return;
+}

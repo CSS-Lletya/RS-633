@@ -1,0 +1,86 @@
+string script_1111() {
+	switch (globalint_754) {
+		case 0:
+		case 9:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Make All";
+			}
+			return "Make " + toString(bitconfig_8095);
+		case 1:
+			if (bitconfig_8095 == 1) {
+				return "Make 1 set";
+			}
+			return "Make " + toString(bitconfig_8095) + " sets";
+		case 2:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Cook All";
+			}
+			return "Cook " + toString(bitconfig_8095);
+		case 3:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Roast All";
+			}
+			return "Roast " + toString(bitconfig_8095);
+		case 4:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Offer All";
+			}
+			return "Offer " + toString(bitconfig_8095);
+		case 5:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Sell All";
+			}
+			return "Sell " + toString(bitconfig_8095);
+		case 6:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Bake All";
+			}
+			return "Bake " + toString(bitconfig_8095);
+		case 7:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Cut All";
+			}
+			return "Cut " + toString(bitconfig_8095);
+		case 8:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Deposit All";
+			}
+			return "Deposit " + toString(bitconfig_8095);
+		case 10:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Teleport All";
+			}
+			return "Teleport " + toString(bitconfig_8095);
+		case 11:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Select All";
+			}
+			break;
+		case 12:
+			if (bitconfig_8095 == 1) {
+				return "Make 1 set";
+			}
+			return "Make " + toString(bitconfig_8095) + " sets";
+		case 13:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Take All";
+			}
+			return "Take " + toString(bitconfig_8095);
+		case 14:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Return All";
+			}
+			return "Return " + toString(bitconfig_8095);
+		case 15:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Heat All";
+			}
+			return "Heat " + toString(bitconfig_8095);
+		case 16:
+			if (script_1103() == 1 && bitconfig_8095 >= bitconfig_8094) {
+				return "Add All";
+			}
+			return "Add " + toString(bitconfig_8095);
+	}
+	return "Select";
+}

@@ -1,0 +1,21 @@
+void script_2864() {
+	int ivar0;
+	ivar0 = 0;
+	if (globalint_1074 == 0) {
+		cs2method_10258(script_2865(globalint_1070, globalint_1071), globalint_1073, 0, 25);
+		cs2method_10583(globalint_1070, globalint_1069, 0, 25);
+		ivar0 = script_2867(globalint_1070, script_2865(globalint_1070, globalint_1071));
+	} else if (globalint_1074 == 1) {
+		cs2method_10583(globalint_1070, globalint_1069, 20, 3);
+		cs2method_10258(globalint_1072, 50, 20, 3);
+		ivar0 = script_2867(globalint_1070, globalint_1072);
+	} else {
+		cs2method_10141(globalint_1070);
+	}
+	if (ivar0 == 0) {
+		globalint_1075 = 0;
+	} else {
+		globalint_1075 = multiply(subtract(ivar0, 1), 8191);
+	}
+	return;
+}

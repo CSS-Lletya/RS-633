@@ -1,0 +1,4 @@
+void script_510() {
+	globalint_51 = cs2method_10656(39649280);
+	return;
+}

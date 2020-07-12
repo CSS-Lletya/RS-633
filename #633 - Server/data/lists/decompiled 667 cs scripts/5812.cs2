@@ -1,0 +1,481 @@
+int script_5812(int arg0,int arg1) {
+	int ivar2;
+	flow_0:
+		ivar2 = 0;
+		SWITCH (arg0) {
+			case 23:
+				 GOTO flow_1
+			case 147:
+				 GOTO flow_1
+			case 167:
+				 GOTO flow_1
+			case 294:
+				 GOTO flow_1
+			case 249:
+				 GOTO flow_1
+			case 961:
+				 GOTO flow_1
+			case 49:
+				 GOTO flow_5
+			case 59:
+				 GOTO flow_9
+			case 107:
+				 GOTO flow_13
+			case 178:
+				 GOTO flow_19
+			case 180:
+				 GOTO flow_23
+			case 177:
+				 GOTO flow_27
+			case 316:
+				 GOTO flow_31
+			case 321:
+				 GOTO flow_35
+			case 322:
+				 GOTO flow_39
+			case 323:
+				 GOTO flow_43
+			case 175:
+				 GOTO flow_47
+			case 219:
+				 GOTO flow_51
+			case 331:
+				 GOTO flow_51
+			case 248:
+				 GOTO flow_55
+			case 276:
+				 GOTO flow_59
+			case 3011:
+				 GOTO flow_59
+			case 281:
+				 GOTO flow_63
+			case 285:
+				 GOTO flow_70
+			case 289:
+				 GOTO flow_74
+			case 300:
+				 GOTO flow_78
+			case 3000:
+				 GOTO flow_82
+			case 3001:
+				 GOTO flow_90
+			case 914:
+				 GOTO flow_90
+			case 912:
+				 GOTO flow_90
+			case 913:
+				 GOTO flow_90
+			case 3013:
+				 GOTO flow_90
+			case 3031:
+				 GOTO flow_90
+			case 3002:
+				 GOTO flow_94
+			case 12:
+				 GOTO flow_106
+			case 3003:
+				 GOTO flow_110
+			case 3007:
+				 GOTO flow_114
+			case 3008:
+				 GOTO flow_118
+			case 3010:
+				 GOTO flow_122
+			case 3012:
+				 GOTO flow_126
+			case 3015:
+				 GOTO flow_130
+			case 3034:
+				 GOTO flow_134
+			case 610:
+				 GOTO flow_138
+			case 448:
+				 GOTO flow_142
+			case 466:
+				 GOTO flow_146
+			case 457:
+				 GOTO flow_150
+			case 497:
+				 GOTO flow_154
+			case 506:
+				 GOTO flow_158
+			case 911:
+				 GOTO flow_162
+			case 916:
+				 GOTO flow_166
+			case 915:
+				 GOTO flow_166
+			case 513:
+				 GOTO flow_170
+			case 518:
+				 GOTO flow_174
+			case 530:
+				 GOTO flow_178
+			case 656:
+				 GOTO flow_182
+			case 818:
+				 GOTO flow_186
+			case 819:
+				 GOTO flow_190
+			case 820:
+				 GOTO flow_194
+			case 822:
+				 GOTO flow_198
+			case 933:
+				 GOTO flow_202
+			case 928:
+				 GOTO flow_202
+			case 623:
+				 GOTO flow_206
+			case 908:
+				 GOTO flow_210
+			case 447:
+				 GOTO flow_214
+			case 659:
+				 GOTO flow_218
+			case 449:
+				 GOTO flow_222
+			case 881:
+				 GOTO flow_226
+			case 858:
+				 GOTO flow_231
+			case 985:
+				 GOTO flow_235
+			case 976:
+				 GOTO flow_240
+			case 991:
+				 GOTO flow_244
+			case 980:
+				 GOTO flow_248
+			case 982:
+				 GOTO flow_253
+		}
+		ivar2 = 0;
+		GOTO	flow_256
+	flow_1:
+		if (arg1 == 1 && bitconfig_2328 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_5:
+		if (arg1 == 1 && bitconfig_4394 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_9:
+		if (arg1 == 2 && standart_config_492 >= 4) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_13:
+		IF (arg1 == 1) 
+			GOTO	flow_14
+		GOTO	flow_18
+	flow_14:
+		IF (standart_config_176 >= 2) 
+			GOTO	flow_15
+		GOTO	flow_16
+	flow_15:
+		IF (bitconfig_3746 == 0) 
+			GOTO	flow_17
+	flow_16:
+		IF (standart_config_176 >= 10) 
+			GOTO	flow_17
+		GOTO	flow_18
+	flow_17:
+		ivar2 = 1;
+	flow_18:
+		GOTO	flow_256
+	flow_19:
+		if (arg1 == 1 && bitconfig_3757 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_23:
+		if (arg1 == 1 && bitconfig_3764 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_27:
+		if (arg1 == 1 && bitconfig_3764 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_31:
+		if (arg1 == 1 && bitconfig_3757 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_35:
+		if (arg1 == 1 && bitconfig_3764 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_39:
+		if (arg1 == 1 && bitconfig_3763 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_43:
+		if (arg1 == 1 && bitconfig_3761 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_47:
+		if (arg1 == 1 && (standart_config_76 >= 6 || bitconfig_3378 == 1)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_51:
+		if (arg1 == 2 && script_1432() >= 150) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_55:
+		if (arg1 == 1 && bitconfig_3909 == 8) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_59:
+		if (arg1 == 1 && standart_config_101 >= 33) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_63:
+		if (arg1 == 1 && bitconfig_2309 == 1 && bitconfig_2310 == 1 && bitconfig_2311 == 1 && bitconfig_2312 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_70:
+		if (arg1 == 1 && bitconfig_3639 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_74:
+		if (arg1 == 1 && script_1432() >= 60) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_78:
+		if (arg1 == 1 && script_4035() >= 153) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_82:
+		if (arg1 == 2) {
+			if (cs2method_10243() >= standart_config_451) {
+				ivar2 = 1;
+			}
+		} else {
+			if (arg1 == 3 && (standart_config_101 >= bitconfig_456 || script_4218() <= 0)) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_256
+	flow_90:
+		if (arg1 == 1 && script_1432() >= 55) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_94:
+		if (arg1 == 1) {
+			if (bitconfig_5277 == 1) {
+				ivar2 = 1;
+			}
+		} else if (arg1 == 2) {
+			if (bitconfig_5276 < 10) {
+				ivar2 = 1;
+			}
+		} else {
+			if (arg1 == 3 && bitconfig_5275 < 50) {
+				ivar2 = 1;
+			}
+		}
+		GOTO	flow_256
+	flow_106:
+		if (arg1 == 1 && bitconfig_5277 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_110:
+		if (arg1 == 1 && bitconfig_1545 < 2) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_114:
+		if (arg1 == 1 && (bitconfig_5251 == 0 || bitconfig_5252 == 0 || bitconfig_5253 == 0)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_118:
+		if (arg1 == 2 && standart_config_1199 != cs2method_10516()) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_122:
+		if (arg1 == 2 && cs2method_10243() > bitconfig_6305) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_126:
+		if (arg1 == 1 && cs2method_10453(20) >= 50) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_130:
+		if (arg1 == 2 && (cs2method_10453(0) >= 65 || cs2method_10453(1) >= 65)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_134:
+		if (arg1 == 1 && (add(cs2method_10453(2), cs2method_10453(0)) >= 130 || cs2method_10453(0) >= 99 || cs2method_10453(2) >= 99)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_138:
+		if (arg1 == 2 && bitconfig_418 >= 3) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_142:
+		if (arg1 == 10 && standart_config_101 > 55) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_146:
+		if (arg1 == 3 && (standart_config_76 >= 6 || bitconfig_3378 == 1)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_150:
+		if (arg1 == 5 && script_1432() >= 130) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_154:
+		if (arg1 == 9 && standart_config_101 >= 101) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_158:
+		if (arg1 == 4 && standart_config_101 >= 21) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_162:
+		if (arg1 == 1 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_166:
+		if (arg1 == 1 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_170:
+		if (arg1 == 5 && (bitconfig_2086 > 0 || bitconfig_7973 == 1)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_174:
+		if (arg1 == 1 && standart_config_101 >= 13) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_178:
+		if (arg1 == 4 && standart_config_101 >= 44) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_182:
+		if (arg1 == 2 && bitconfig_498 == 1) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_186:
+		if (arg1 == 2 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_190:
+		if (arg1 == 2 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_194:
+		if (arg1 == 3 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_198:
+		if (arg1 == 3 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_202:
+		if (arg1 == 2 && bitconfig_9299 >= 3) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_206:
+		if (arg1 == 2 && bitconfig_7792 >= 20) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_210:
+		if (arg1 == 1 && script_1432() >= getGeneralRequirementAttribute(getDataByKey('i', 'J', 3483, arg0), 2233)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_214:
+		if (arg1 == 6 && bitconfig_888 > 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_218:
+		if (arg1 == 2 && bitconfig_1990 >= 280) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_222:
+		if (arg1 == 4 && bitconfig_0 != 0) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_226:
+		if (arg1 == 2 && standart_config_205 >= 7 && standart_config_206 >= 7) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_231:
+		if (arg1 == 2 && (standart_config_302 >= 60 || bitconfig_571 >= 5)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_235:
+		if (arg1 == 1 && add(getItemAmtInContainer(93, 13610), getItemAmtInContainer(95, 13610)) > 0 && bitconfig_4569 >= 490) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_240:
+		if (arg1 == 1 && bitconfig_4591 >= 200) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_244:
+		if (arg1 == 1 && script_6034() >= 500) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_248:
+		if (arg1 == 1 && cs2method_10453(1) >= 70 && (cs2method_10453(0) >= 70 || cs2method_10453(4) > 70)) {
+			ivar2 = 1;
+		}
+		GOTO	flow_256
+	flow_253:
+		if (arg1 == 3 && bitconfig_9757 >= 110) {
+			ivar2 = 1;
+		}
+	flow_256:
+		return ivar2;
+}

@@ -1,0 +1,7 @@
+void script_2412(int arg0,int arg1,int arg2) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		cs2method_10245();
+		script_2411(arg2);
+	}
+	return;
+}

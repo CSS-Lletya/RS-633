@@ -1,0 +1,148 @@
+void script_5527() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 10;
+	if (globalint_1703 != -1) {
+		ivar0 = cs2method_10242(2147483647, 494, getItemName(globalint_1703));
+	}
+	if (globalint_1704 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1704)), ivar0);
+	}
+	if (globalint_1705 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1705)), ivar0);
+	}
+	if (globalint_1706 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1706)), ivar0);
+	}
+	if (globalint_1707 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1707)), ivar0);
+	}
+	if (globalint_1708 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1708)), ivar0);
+	}
+	if (globalint_1709 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1709)), ivar0);
+	}
+	if (globalint_1710 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1710)), ivar0);
+	}
+	if (globalint_1711 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1711)), ivar0);
+	}
+	if (globalint_1712 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1712)), ivar0);
+	}
+	if (globalint_1713 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1713)), ivar0);
+	}
+	if (globalint_1714 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1714)), ivar0);
+	}
+	if (globalint_1715 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1715)), ivar0);
+	}
+	if (globalint_1716 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1716)), ivar0);
+	}
+	if (globalint_1717 != -1) {
+		ivar0 = cs2method_10004(cs2method_10242(2147483647, 494, getItemName(globalint_1717)), ivar0);
+	}
+	ivar0 = add(ivar0, 4);
+	ivar0 = cs2method_10004(add(ivar0, multiply(4, 2)), 56);
+	ivar1 = script_5528(ivar2, ivar0, ivar2, globalint_1703, 77266955);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1704, 77266956);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1705, 77266957);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1706, 77266958);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1707, 77266959);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1708, 77266960);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1709, 77266961);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1710, 77266962);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1711, 77266963);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1712, 77266964);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1713, 77266965);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1714, 77266966);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1715, 77266967);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1716, 77266968);
+	ivar1 = script_5528(ivar1, ivar0, ivar2, globalint_1717, 77266969);
+	if (cs2method_10416(77266955) == 0) {
+		cs2method_10938(77266955, (object)"Select");
+	}
+	if (cs2method_10416(77266956) == 0) {
+		cs2method_10938(77266956, (object)"Select");
+	}
+	if (cs2method_10416(77266957) == 0) {
+		cs2method_10938(77266957, (object)"Select");
+	}
+	if (cs2method_10416(77266958) == 0) {
+		cs2method_10938(77266958, (object)"Select");
+	}
+	if (cs2method_10416(77266959) == 0) {
+		cs2method_10938(77266959, (object)"Select");
+	}
+	if (cs2method_10416(77266960) == 0) {
+		cs2method_10938(77266960, (object)"Select");
+	}
+	if (cs2method_10416(77266961) == 0) {
+		cs2method_10938(77266961, (object)"Select");
+	}
+	if (cs2method_10416(77266962) == 0) {
+		cs2method_10938(77266962, (object)"Select");
+	}
+	if (cs2method_10416(77266963) == 0) {
+		cs2method_10938(77266963, (object)"Select");
+	}
+	if (cs2method_10416(77266964) == 0) {
+		cs2method_10938(77266964, (object)"Select");
+	}
+	if (cs2method_10416(77266965) == 0) {
+		cs2method_10938(77266965, (object)"Select");
+	}
+	if (cs2method_10416(77266966) == 0) {
+		cs2method_10938(77266966, (object)"Select");
+	}
+	if (cs2method_10416(77266967) == 0) {
+		cs2method_10938(77266967, (object)"Select");
+	}
+	if (cs2method_10416(77266968) == 0) {
+		cs2method_10938(77266968, (object)"Select");
+	}
+	if (cs2method_10416(77266969) == 0) {
+		cs2method_10938(77266969, (object)"Select");
+	}
+	ivar0 = subtract(cs2method_10956(77266948), 50);
+	ivar3 = 3877;
+	ivar4 = 3879;
+	ivar5 = 3878;
+	ivar6 = 3880;
+	if (ivar1 > ivar0) {
+		cs2method_10893(ivar0, 0, 0, 1, 77266954);
+		setWidgetScrollMax(ivar1, 0, 77266954);
+		cs2method_10085(globalint_93, 0, 77266954);
+		cs2method_20835(5532, new WidgetPointer(-32768,3), ivar5, -4, "Idi", new WidgetPointer(1179,8));
+		cs2method_20835(5532, new WidgetPointer(-32768,3), ivar6, 4, "Idi", new WidgetPointer(1179,9));
+		cs2method_20238(5532, new WidgetPointer(-32768,3), ivar5, -6, "Idi", new WidgetPointer(1179,8));
+		cs2method_20238(5532, new WidgetPointer(-32768,3), ivar6, 6, "Idi", new WidgetPointer(1179,9));
+		cs2method_20295(44, new WidgetPointer(-32768,3), ivar3, "Id", new WidgetPointer(1179,8));
+		cs2method_20295(44, new WidgetPointer(-32768,3), ivar4, "Id", new WidgetPointer(1179,9));
+		script_5533();
+	} else {
+		cs2method_10893(ivar1, 0, 0, 1, 77266954);
+		setWidgetScrollMax(0, 0, 77266954);
+		cs2method_10085(0, 0, 77266954);
+		cs2method_10773(77266952);
+		cs2method_10773(77266953);
+		cs2method_10149(150, 77266952);
+		cs2method_10149(150, 77266953);
+	}
+	cs2method_10467(ivar3, 77266952);
+	cs2method_10467(ivar4, 77266953);
+	cs2method_20914(5527, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711, 1712, 1713, 1714, 1715, 1716, 1717, 15, "Y", new WidgetPointer(1179,2));
+	return;
+}

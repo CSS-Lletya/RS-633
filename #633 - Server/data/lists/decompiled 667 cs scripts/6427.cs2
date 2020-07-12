@@ -1,0 +1,17 @@
+int script_6427(int arg0,int arg1) {
+	switch (arg1) {
+		case 5:
+			return getItemAttribute(arg0, 0);
+		case 6:
+			return getItemAttribute(arg0, 1);
+		case 7:
+			return getItemAttribute(arg0, 2);
+		case 8:
+		case 9:
+		case 10:
+			return getItemAttribute(arg0, 4);
+		case 11:
+			return getItemAttribute(arg0, 3);
+	}
+	return 0;
+}

@@ -1,0 +1,9 @@
+int script_5767() {
+	if (script_5768() == 1) {
+		return 0;
+	}
+	if (script_5769() == 1) {
+		return 0;
+	}
+	return 1;
+}

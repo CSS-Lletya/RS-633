@@ -1,0 +1,22 @@
+void script_6278(int arg0,int arg1,int arg2) {
+	if (arg0 == 0) {
+		setWidgetText(new WidgetPointer(arg1), (object)"- ACTIVE -");
+		setWidgetRGB(16711680, arg2);
+		cs2method_10149(200, arg2);
+	} else if (arg0 == 1) {
+		setWidgetText(new WidgetPointer(arg1), (object)"Activate");
+		setWidgetRGB(10309156, arg2);
+		cs2method_10149(200, arg2);
+	} else if (arg0 == 2) {
+		setWidgetText(new WidgetPointer(arg1), (object)"Buy");
+	} else if (arg0 == 3) {
+		setWidgetText(new WidgetPointer(arg1), (object)"Bought");
+		setWidgetRGB(10309156, arg2);
+		cs2method_10149(200, arg2);
+	} else {
+		if (arg0 == 4) {
+			setWidgetText(new WidgetPointer(arg1), (object)"Locked");
+		}
+	}
+	return;
+}

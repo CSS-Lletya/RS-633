@@ -1,0 +1,8 @@
+void script_910() {
+	if (globalint_116 == 1 || globalint_117 == 1) {
+		cs2method_10163(2, 46923807);
+	} else {
+		cs2method_10163(0, 46923807);
+	}
+	return;
+}

@@ -1,0 +1,16 @@
+void script_827(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (cs2method_10878() >= add(arg0, 32) && cs2method_10878() < add(arg0, 140)) {
+		setWidgetText(new WidgetPointer(465,2), (object)"Varrock Herald");
+		setWidgetText(new WidgetPointer(465,3), (object)"Covering all of Misthalin and beyond.");
+		setWidgetText(new WidgetPointer(465,4), (object)"1 gp");
+		setWidgetText(new WidgetPointer(465,5), (object)"Oo'glog Ogresses Open Health Spa!");
+	} else {
+		setWidgetText(new WidgetPointer(465,2), (object)" ");
+		setWidgetText(new WidgetPointer(465,3), (object)" ");
+		setWidgetText(new WidgetPointer(465,4), (object)" ");
+		setWidgetText(new WidgetPointer(465,5), (object)" ");
+	}
+	return;
+}

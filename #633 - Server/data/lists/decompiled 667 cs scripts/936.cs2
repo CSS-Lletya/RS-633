@@ -1,0 +1,13 @@
+string script_936(int arg0) {
+	int ivar1;
+	object ovar0;
+	ovar0 = (object)"";
+	ivar1 = getItemAttribute(arg0, 763);
+	switch (getItemAttribute(arg0, 762)) {
+		case 1:
+			return script_913(standart_config_322, 10, (object)"Part of quest: Tai Bwo Wannai Trio");
+		case 2:
+			return script_913(bitconfig_4310, 10, (object)"Complete: Chaos Tunnels");
+	}
+	return "";
+}

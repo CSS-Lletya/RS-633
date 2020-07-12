@@ -1,0 +1,60 @@
+void script_6147(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_6150_struct(4,0,0) structdump_3;
+	ivar5 = globalint_1904;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 0;
+	ivar11 = -1;
+	ivar12 = -1;
+	ivar13 = -1;
+	ivar14 = -1;
+	ivar6 = add(300, cs2method_10869(250));
+	ivar7 = add(2, cs2method_10869(6));
+	ivar8 = 0;
+	ivar9 = add(add(globalint_1906, 250), cs2method_10869(300));
+	cs2method_10155(0, ivar7);
+	cs2method_10155(1, ivar7);
+	while (ivar8 < ivar7) {
+		stack_dump0 = arg1;
+		stack_dump1 = arg4;
+		stack_dump2 = cs2method_10273(ivar5, 1, 0, 1);
+		structdump_3 = script_6150(stack_dump0, stack_dump1, stack_dump2);
+		ivar14 = structdump_3.intpart_3;
+		ivar13 = structdump_3.intpart_2;
+		ivar12 = structdump_3.intpart_1;
+		ivar11 = structdump_3.intpart_0;
+		ivar10 = add(arg2, cs2method_10542(ivar8, subtract(ivar7, 1), subtract(ivar9, arg2)));
+		cs2method_10105(0, ivar8, ivar11, ivar10, ivar12, ivar10, 0);
+		cs2method_10105(1, ivar8, ivar5, add(400, globalint_1906), ivar5, add(400, globalint_1906), 0);
+		arg1 = add(arg1, arg4);
+		ivar8 = add(ivar8, 1);
+	}
+	if (arg3 == -1) {
+		arg3 = ivar6;
+	}
+	cs2method_10767(0, 0, arg3, ivar6, 1, 0);
+	arg1 = subtract(arg1, arg4);
+	while (arg1 < 0) {
+		arg1 = add(arg1, 8);
+	}
+	while (arg1 > 7) {
+		arg1 = subtract(arg1, 8);
+	}
+	cs2method_20808(6148, new WidgetPointer(arg0), arg1, ivar9, arg4, ivar6, 0, "Iiiiii", new WidgetPointer(arg0));
+	return;
+}

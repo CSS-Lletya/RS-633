@@ -1,0 +1,27 @@
+void script_396() {
+	setWidgetText(new WidgetPointer(433,11), (object)toString(bitconfig_2469));
+	setWidgetText(new WidgetPointer(433,12), (object)toString(bitconfig_2470));
+	setWidgetText(new WidgetPointer(433,13), (object)toString(bitconfig_2471));
+	setWidgetText(new WidgetPointer(433,14), (object)toString(bitconfig_2472));
+	if (bitconfig_2469 == 0) {
+		setWidgetRGB(16711731, 28377099);
+	} else {
+		setWidgetRGB(49152, 28377099);
+	}
+	if (bitconfig_2470 == 0) {
+		setWidgetRGB(16711731, 28377100);
+	} else {
+		setWidgetRGB(49152, 28377100);
+	}
+	if (bitconfig_2471 == 0) {
+		setWidgetRGB(16711731, 28377101);
+	} else {
+		setWidgetRGB(49152, 28377101);
+	}
+	if (bitconfig_2472 == 0) {
+		setWidgetRGB(16711731, 28377102);
+	} else {
+		setWidgetRGB(49152, 28377102);
+	}
+	return;
+}

@@ -1,0 +1,10 @@
+void script_2352() {
+	if (cs2method_10145() == 2 || cs2method_10145() == 3) {
+		setWidgetFont(494, 28377104);
+		setWidgetFont(494, 28377105);
+		setWidgetFont(494, 28377106);
+		setWidgetFont(494, 28377107);
+		setWidgetFont(494, 28377108);
+	}
+	return;
+}

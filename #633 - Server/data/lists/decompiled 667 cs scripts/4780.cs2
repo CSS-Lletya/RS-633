@@ -1,0 +1,11 @@
+void script_4780(int arg0,int arg1,int arg2) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg2 == 1) {
+			cs2method_10469(7546);
+		} else {
+			cs2method_10469(7545);
+			script_41(73072826);
+		}
+	}
+	return;
+}

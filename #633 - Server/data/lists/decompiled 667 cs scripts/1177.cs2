@@ -1,0 +1,9 @@
+void script_1177() {
+	if (standart_config_1414 == 0) {
+		return;
+	}
+	globalint_548 = 540;
+	setWidgetText(new WidgetPointer(745,4), (object)"10");
+	cs2method_20219(1178, "", new WidgetPointer(745,4));
+	return;
+}

@@ -1,0 +1,28 @@
+void script_5653() {
+	globalint_1243 = cs2method_10011(0);
+	globalint_1244 = cs2method_10011(2);
+	globalint_1245 = cs2method_10011(1);
+	globalint_1246 = cs2method_10011(4);
+	globalint_1247 = cs2method_10011(5);
+	globalint_1248 = cs2method_10011(6);
+	globalint_1249 = cs2method_10011(20);
+	globalint_1250 = cs2method_10011(3);
+	globalint_1251 = cs2method_10011(12);
+	globalint_1252 = cs2method_10011(14);
+	globalint_1253 = cs2method_10011(13);
+	globalint_1254 = cs2method_10011(10);
+	globalint_1255 = cs2method_10011(7);
+	globalint_1256 = cs2method_10011(11);
+	globalint_1257 = cs2method_10011(8);
+	globalint_1258 = cs2method_10011(16);
+	globalint_1259 = cs2method_10011(15);
+	globalint_1260 = cs2method_10011(17);
+	globalint_1261 = cs2method_10011(9);
+	globalint_1262 = cs2method_10011(18);
+	globalint_1263 = cs2method_10011(19);
+	globalint_1264 = cs2method_10011(22);
+	globalint_1265 = cs2method_10011(21);
+	globalint_1266 = cs2method_10011(23);
+	globalint_1267 = cs2method_10011(24);
+	return;
+}

@@ -1,0 +1,16 @@
+void script_5354(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6) {
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (bitconfig_10914 >= 30) {
+			return;
+		}
+		cs2method_10469(arg2);
+		if (arg2 == arg3) {
+			cs2method_20211(5343, new WidgetPointer(arg0), arg1, arg3, "Iid");
+			cs2method_20139(5343, new WidgetPointer(arg0), arg1, arg4, "Iid");
+		} else {
+			cs2method_20211(5343, new WidgetPointer(arg0), arg1, arg5, "Iid");
+			cs2method_20139(5343, new WidgetPointer(arg0), arg1, arg6, "Iid");
+		}
+	}
+	return;
+}

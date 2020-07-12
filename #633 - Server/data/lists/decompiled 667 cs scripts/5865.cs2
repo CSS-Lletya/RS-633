@@ -1,0 +1,69 @@
+cs2func_script_5865_struct(10,0,0) script_5865(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10) {
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	ivar11 = cs2method_10620(arg0, 10);
+	ivar12 = subtract(cs2method_10620(arg0, 100), cs2method_10620(arg0, 10));
+	ivar13 = subtract(cs2method_10620(arg0, 1000), cs2method_10620(arg0, 100));
+	ivar14 = subtract(cs2method_10620(arg0, 10000), cs2method_10620(arg0, 1000));
+	ivar15 = subtract(cs2method_10620(arg0, 100000), cs2method_10620(arg0, 10000));
+	ivar16 = subtract(cs2method_10620(arg0, 1000000), cs2method_10620(arg0, 100000));
+	ivar17 = subtract(cs2method_10620(arg0, 10000000), cs2method_10620(arg0, 1000000));
+	ivar18 = subtract(cs2method_10620(arg0, 100000000), cs2method_10620(arg0, 10000000));
+	ivar19 = subtract(cs2method_10620(arg0, 1000000000), cs2method_10620(arg0, 100000000));
+	ivar20 = divide(subtract(arg0, cs2method_10620(arg0, 1000000000)), 1000000000);
+	arg1 = add(arg1, ivar11);
+	arg2 = add(arg2, ivar12);
+	arg3 = add(arg3, ivar13);
+	arg4 = add(arg4, ivar14);
+	arg5 = add(arg5, ivar15);
+	arg6 = add(arg6, ivar16);
+	arg7 = add(arg7, ivar17);
+	arg8 = add(arg8, ivar18);
+	arg9 = add(arg9, ivar19);
+	arg10 = add(arg10, ivar20);
+	if (arg1 >= 10) {
+		arg1 = subtract(arg1, 10);
+		arg2 = add(arg2, 10);
+	}
+	if (arg2 >= 100) {
+		arg2 = subtract(arg2, 100);
+		arg3 = add(arg3, 100);
+	}
+	if (arg3 >= 1000) {
+		arg3 = subtract(arg3, 1000);
+		arg4 = add(arg4, 1000);
+	}
+	if (arg4 >= 10000) {
+		arg4 = subtract(arg4, 10000);
+		arg5 = add(arg5, 10000);
+	}
+	if (arg5 >= 100000) {
+		arg5 = subtract(arg5, 100000);
+		arg6 = add(arg6, 100000);
+	}
+	if (arg6 >= 1000000) {
+		arg6 = subtract(arg6, 1000000);
+		arg7 = add(arg7, 1000000);
+	}
+	if (arg7 >= 10000000) {
+		arg7 = subtract(arg7, 10000000);
+		arg8 = add(arg8, 10000000);
+	}
+	if (arg8 >= 100000000) {
+		arg8 = subtract(arg8, 100000000);
+		arg9 = add(arg9, 100000000);
+	}
+	if (arg9 >= 1000000000) {
+		arg9 = subtract(arg9, 1000000000);
+		arg10 = add(arg10, 1);
+	}
+	return newstruct cs2func_script_5865_struct(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10);
+}

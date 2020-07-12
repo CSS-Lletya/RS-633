@@ -1,0 +1,17 @@
+void script_5689() {
+	switch (cs2method_10145()) {
+		case 1:
+			cs2method_10467(9212, 79823030);
+			break;
+		case 2:
+			cs2method_10467(9211, 79823030);
+			break;
+		case 3:
+			cs2method_10467(9213, 79823030);
+			break;
+		default:
+			cs2method_10467(9210, 79823030);
+	}
+	script_5690();
+	return;
+}

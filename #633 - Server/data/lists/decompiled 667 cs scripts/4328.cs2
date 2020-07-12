@@ -1,0 +1,8 @@
+void script_4328(int arg0) {
+	if (clanbitconfig_11 == 0) {
+		cs2method_10467(getDataByKey('i', 'd', 3721, clanbitconfig_7), arg0);
+	} else {
+		cs2method_10467(getDataByKey('i', 'd', 3721, 0), arg0);
+	}
+	return;
+}

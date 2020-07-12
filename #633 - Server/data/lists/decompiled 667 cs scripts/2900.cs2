@@ -1,0 +1,11 @@
+void script_2900(int arg0) {
+	if (cs2method_10878() > add(arg0, 200)) {
+		cs2method_20219(-1, "", new WidgetPointer(476,58));
+		setWidgetIsHidden(true, new WidgetPointer(476,58));
+	} else {
+		if (cs2method_10878() > add(arg0, 150)) {
+			cs2method_10149(cs2method_10586(add(cs2method_10964(31195194), 10), 255), 31195194);
+		}
+	}
+	return;
+}

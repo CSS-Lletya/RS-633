@@ -1,0 +1,662 @@
+int script_1024(int arg0) {
+	switch (arg0) {
+		case 0:
+			if (cs2method_10453(14) >= 10) {
+				return 1;
+			}
+			break;
+		case 1:
+			if (cs2method_10453(0) >= 15 && cs2method_10453(5) >= 25) {
+				return 1;
+			}
+			break;
+		case 2:
+			if (cs2method_10453(1) >= 30 && cs2method_10453(14) >= 40 && cs2method_10453(13) >= 50) {
+				return 1;
+			}
+			break;
+		case 3:
+			if (cs2method_10453(7) >= 30 && cs2method_10453(9) >= 5 && cs2method_10453(4) >= 30) {
+				return 1;
+			}
+			break;
+		case 4:
+			if (cs2method_10453(16) >= 42 && cs2method_10453(12) >= 45 && cs2method_10453(4) >= 40 && cs2method_10453(13) >= 50) {
+				return 1;
+			}
+			break;
+		case 5:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(17) >= 25) {
+				return 1;
+			}
+			break;
+		case 6:
+			if (cs2method_10453(16) >= 26 && cs2method_10453(22) >= 5 && cs2method_10453(12) >= 32 && cs2method_10453(6) >= 33 && cs2method_10453(14) >= 20 && cs2method_10453(2) >= 40 && cs2method_10453(17) >= 22) {
+				return 1;
+			}
+			break;
+		case 7:
+			if (cs2method_10453(11) >= 50 && cs2method_10453(6) >= 50 && cs2method_10453(18) >= 10 && cs2method_10453(17) >= 53) {
+				return 1;
+			}
+			break;
+		case 8:
+			if (cs2method_10453(9) >= 50 && cs2method_10453(20) >= 50 && cs2method_10453(13) >= 65) {
+				return 1;
+			}
+			break;
+		case 9:
+			if (cs2method_10453(16) >= 10 && cs2method_10453(15) >= 10 && cs2method_10453(17) >= 25) {
+				return 1;
+			}
+			break;
+		case 10:
+			if (cs2method_10453(15) >= 31) {
+				return 1;
+			}
+			break;
+		case 11:
+			if (cs2method_10453(21) >= 27) {
+				return 1;
+			}
+			break;
+		case 12:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(14) >= 20 && cs2method_10453(13) >= 20) {
+				return 1;
+			}
+			break;
+		case 13:
+			if (cs2method_10453(12) >= 50 && cs2method_10453(11) >= 45 && cs2method_10453(6) >= 39 && cs2method_10453(5) >= 43) {
+				return 1;
+			}
+			break;
+		case 14:
+			if (cs2method_10453(19) >= 49 && cs2method_10453(15) >= 57 && cs2method_10453(17) >= 40) {
+				return 1;
+			}
+			break;
+		case 15:
+			if (cs2method_10453(12) >= 40 && cs2method_10453(6) >= 59 && cs2method_10453(14) >= 40 && cs2method_10453(13) >= 40) {
+				return 1;
+			}
+			break;
+		case 16:
+			if (cs2method_10453(10) >= 10) {
+				return 1;
+			}
+			break;
+		case 17:
+			if (cs2method_10453(7) >= 22 && cs2method_10453(19) >= 17) {
+				return 1;
+			}
+			break;
+		case 18:
+			if (cs2method_10453(12) >= 40 && cs2method_10453(9) >= 25 && cs2method_10453(8) >= 40) {
+				return 1;
+			}
+			break;
+		case 19:
+			if (cs2method_10453(19) >= 25) {
+				return 1;
+			}
+			break;
+		case 20:
+			if (cs2method_10453(16) >= 25 && cs2method_10453(7) >= 20) {
+				return 1;
+			}
+			break;
+		case 21:
+			if (cs2method_10453(12) >= 12 && cs2method_10453(11) >= 16 && cs2method_10453(6) >= 33 && cs2method_10453(17) >= 14) {
+				return 1;
+			}
+			break;
+		case 22:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(17) >= 25) {
+				return 1;
+			}
+			break;
+		case 23:
+			if (cs2method_10453(16) >= 25) {
+				return 1;
+			}
+			break;
+		case 24:
+			if (cs2method_10453(12) >= 49 && cs2method_10453(17) >= 17) {
+				return 1;
+			}
+			break;
+		case 25:
+			if (cs2method_10453(16) >= 15 && cs2method_10453(12) >= 35) {
+				return 1;
+			}
+			break;
+		case 26:
+			if (cs2method_10453(7) >= 53 && cs2method_10453(10) >= 53 && cs2method_10453(15) >= 25 && cs2method_10453(14) >= 50) {
+				return 1;
+			}
+			break;
+		case 27:
+			if (cs2method_10453(16) >= 35) {
+				return 1;
+			}
+			break;
+		case 28:
+			if (cs2method_10453(12) >= 25 && cs2method_10453(6) >= 7 && cs2method_10453(14) >= 15) {
+				return 1;
+			}
+			break;
+		case 29:
+			if (cs2method_10453(15) >= 3) {
+				return 1;
+			}
+			break;
+		case 30:
+			if (cs2method_10453(16) >= 50 && cs2method_10453(12) >= 50 && cs2method_10453(15) >= 45 && cs2method_10453(6) >= 56 && cs2method_10453(14) >= 52 && cs2method_10453(5) >= 42 && cs2method_10453(13) >= 50 && cs2method_10453(2) >= 50 && cs2method_10453(17) >= 50 && cs2method_10453(8) >= 50) {
+				return 1;
+			}
+			break;
+		case 31:
+			if (cs2method_10453(12) >= 31 && cs2method_10453(8) >= 36) {
+				return 1;
+			}
+			break;
+		case 32:
+			if (cs2method_10453(16) >= 13 && cs2method_10453(14) >= 17 && cs2method_10453(17) >= 13) {
+				return 1;
+			}
+			break;
+		case 33:
+			if (cs2method_10453(12) >= 61 && cs2method_10453(1) >= 40 && cs2method_10453(11) >= 49 && cs2method_10453(15) >= 5 && cs2method_10453(6) >= 65 && cs2method_10453(14) >= 60 && cs2method_10453(8) >= 55) {
+				return 1;
+			}
+			break;
+		case 34:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(6) >= 7 && cs2method_10453(13) >= 40) {
+				return 1;
+			}
+			break;
+		case 35:
+			if (cs2method_10453(17) >= 30) {
+				return 1;
+			}
+			break;
+		case 36:
+			if (cs2method_10453(16) >= 20) {
+				return 1;
+			}
+			break;
+		case 37:
+			if (cs2method_10453(4) >= 60 && cs2method_10453(17) >= 50) {
+				return 1;
+			}
+			break;
+		case 38:
+			if (cs2method_10453(16) >= 25) {
+				return 1;
+			}
+			break;
+		case 39:
+			if (cs2method_10453(19) >= 29 && cs2method_10453(8) >= 10) {
+				return 1;
+			}
+			break;
+		case 40:
+			if (cs2method_10453(12) >= 18) {
+				return 1;
+			}
+			break;
+		case 41:
+			if (cs2method_10453(16) >= 36 && cs2method_10453(12) >= 25 && cs2method_10453(15) >= 18 && cs2method_10453(13) >= 30) {
+				return 1;
+			}
+			break;
+		case 42:
+			if (cs2method_10453(16) >= 56) {
+				return 1;
+			}
+			break;
+		case 43:
+			if (cs2method_10453(16) >= 40 && cs2method_10453(18) >= 40) {
+				return 1;
+			}
+			break;
+		case 44:
+			if (cs2method_10453(5) >= 31) {
+				return 1;
+			}
+			break;
+		case 45:
+			if (cs2method_10453(11) >= 30) {
+				return 1;
+			}
+			break;
+		case 46:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(15) >= 15) {
+				return 1;
+			}
+			break;
+		case 47:
+			if (cs2method_10453(12) >= 30) {
+				return 1;
+			}
+			break;
+		case 48:
+			if (cs2method_10453(16) >= 32 && cs2method_10453(12) >= 20) {
+				return 1;
+			}
+			break;
+		case 49:
+			if (cs2method_10453(6) >= 33 && cs2method_10453(14) >= 37 && cs2method_10453(4) >= 37 && cs2method_10453(17) >= 37) {
+				return 1;
+			}
+			break;
+		case 50:
+			if (cs2method_10453(7) >= 62 && cs2method_10453(12) >= 40 && cs2method_10453(11) >= 42 && cs2method_10453(10) >= 62 && cs2method_10453(6) >= 66 && cs2method_10453(13) >= 45) {
+				return 1;
+			}
+			break;
+		case 51:
+			if (cs2method_10453(16) >= 15 && cs2method_10453(7) >= 30 && cs2method_10453(10) >= 5) {
+				return 1;
+			}
+			break;
+		case 52:
+			if (cs2method_10453(12) >= 20 && cs2method_10453(11) >= 49 && cs2method_10453(14) >= 20) {
+				return 1;
+			}
+			break;
+		case 53:
+			if (cs2method_10453(4) >= 40 && cs2method_10453(17) >= 42) {
+				return 1;
+			}
+			break;
+		case 54:
+			if (cs2method_10453(9) >= 10 && cs2method_10453(13) >= 20) {
+				return 1;
+			}
+			break;
+		case 55:
+			if (cs2method_10453(17) >= 21) {
+				return 1;
+			}
+			break;
+		case 56:
+			if (cs2method_10453(16) >= 28) {
+				return 1;
+			}
+			break;
+		case 57:
+			if (cs2method_10453(16) >= 15) {
+				return 1;
+			}
+			break;
+		case 58:
+			if (cs2method_10453(4) >= 25) {
+				return 1;
+			}
+			break;
+		case 59:
+			if (cs2method_10453(16) >= 25 && cs2method_10453(15) >= 14 && cs2method_10453(6) >= 14 && cs2method_10453(14) >= 40 && cs2method_10453(17) >= 15) {
+				return 1;
+			}
+			break;
+		case 60:
+			if (cs2method_10453(0) >= 20) {
+				return 1;
+			}
+			break;
+		case 61:
+			if (cs2method_10453(22) >= 5 && cs2method_10453(6) >= 46) {
+				return 1;
+			}
+			break;
+		case 62:
+			if (cs2method_10453(16) >= 23 && cs2method_10453(17) >= 23) {
+				return 1;
+			}
+			break;
+		case 63:
+			if (cs2method_10453(12) >= 19 && cs2method_10453(4) >= 30 && cs2method_10453(18) >= 18 && cs2method_10453(8) >= 35) {
+				return 1;
+			}
+			break;
+		case 64:
+			if (cs2method_10453(6) >= 20 && cs2method_10453(13) >= 30) {
+				return 1;
+			}
+			break;
+		case 65:
+			if (cs2method_10453(12) >= 36 && cs2method_10453(19) >= 30 && cs2method_10453(11) >= 20) {
+				return 1;
+			}
+			break;
+		case 66:
+			if (cs2method_10453(22) >= 30 && cs2method_10453(12) >= 16 && cs2method_10453(5) >= 50) {
+				return 1;
+			}
+			break;
+		case 67:
+			if (cs2method_10453(12) >= 30 && cs2method_10453(20) >= 30 && cs2method_10453(18) >= 30 && cs2method_10453(17) >= 30) {
+				return 1;
+			}
+			break;
+		case 68:
+			if (cs2method_10453(16) >= 30 && cs2method_10453(22) >= 34 && cs2method_10453(12) >= 30 && cs2method_10453(21) >= 10) {
+				return 1;
+			}
+			break;
+		case 69:
+			if (cs2method_10453(16) >= 40 && cs2method_10453(22) >= 20 && cs2method_10453(12) >= 46 && cs2method_10453(8) >= 56) {
+				return 1;
+			}
+			break;
+		case 70:
+			if (cs2method_10453(22) >= 10) {
+				return 1;
+			}
+			break;
+		case 71:
+			if (cs2method_10453(20) >= 35) {
+				return 1;
+			}
+			break;
+		case 72:
+			if (cs2method_10453(11) >= 40 && cs2method_10453(8) >= 50) {
+				return 1;
+			}
+			break;
+		case 73:
+			if (cs2method_10453(16) >= 59 && cs2method_10453(19) >= 45 && cs2method_10453(15) >= 52 && cs2method_10453(17) >= 58 && cs2method_10453(8) >= 71) {
+				return 1;
+			}
+			break;
+		case 74:
+			if (cs2method_10453(6) >= 45 && cs2method_10453(1) >= 65) {
+				return 1;
+			}
+			break;
+		case 75:
+			if (cs2method_10453(16) >= 45 && cs2method_10453(4) >= 47 && cs2method_10453(18) >= 56 && cs2method_10453(17) >= 56 && cs2method_10453(2) >= 60) {
+				return 1;
+			}
+			break;
+		case 76:
+			if (cs2method_10453(16) >= 55 && cs2method_10453(19) >= 53 && cs2method_10453(18) >= 59 && cs2method_10453(8) >= 72) {
+				return 1;
+			}
+			break;
+		case 77:
+			if (cs2method_10453(5) >= 30 && cs2method_10453(16) >= 36 && cs2method_10453(17) >= 36 && cs2method_10453(10) >= 36 && cs2method_10453(15) >= 37) {
+				return 1;
+			}
+			break;
+		case 78:
+			if (cs2method_10453(7) >= 10) {
+				return 1;
+			}
+			break;
+		case 79:
+			if (cs2method_10453(7) >= 31) {
+				return 1;
+			}
+			break;
+		case 80:
+			if (cs2method_10453(7) >= 40) {
+				return 1;
+			}
+			break;
+		case 81:
+			if (cs2method_10453(7) >= 25) {
+				return 1;
+			}
+			break;
+		case 82:
+			if (cs2method_10453(7) >= 41 && cs2method_10453(11) >= 20) {
+				return 1;
+			}
+			break;
+		case 83:
+			if (cs2method_10453(7) >= 70 && cs2method_10453(16) >= 48) {
+				return 1;
+			}
+			break;
+		case 84:
+			if (cs2method_10453(21) >= 48 && cs2method_10453(11) >= 51 && cs2method_10453(8) >= 58) {
+				return 1;
+			}
+			break;
+		case 85:
+			if (cs2method_10453(14) >= 46) {
+				return 1;
+			}
+			break;
+		case 86:
+			if (cs2method_10453(22) >= 44 && cs2method_10453(9) >= 42) {
+				return 1;
+			}
+			break;
+		case 87:
+			if (cs2method_10453(16) >= 50 && cs2method_10453(11) >= 21 && cs2method_10453(17) >= 60 && cs2method_10453(2) >= 60) {
+				return 1;
+			}
+			break;
+		case 88:
+			if (cs2method_10453(12) >= 42 && cs2method_10453(19) >= 40 && cs2method_10453(10) >= 50 && cs2method_10453(5) >= 47 && cs2method_10453(18) >= 42) {
+				return 1;
+			}
+			break;
+		case 89:
+			if (cs2method_10453(22) >= 20 && cs2method_10453(16) >= 29 && cs2method_10453(12) >= 47 && cs2method_10453(6) >= 49 && cs2method_10453(14) >= 35 && cs2method_10453(18) >= 31 && cs2method_10453(11) >= 40) {
+				return 1;
+			}
+			break;
+		case 90:
+			if (cs2method_10453(0) >= 40 && cs2method_10453(14) >= 41 && cs2method_10453(12) >= 43 && cs2method_10453(2) >= 45 && cs2method_10453(22) >= 50) {
+				return 1;
+			}
+			break;
+		case 91:
+			if (cs2method_10453(22) >= 10 && cs2method_10453(19) >= 10 && cs2method_10453(21) >= 10 && cs2method_10453(17) >= 11) {
+				return 1;
+			}
+			break;
+		case 92:
+			if (cs2method_10453(18) >= 35 && cs2method_10453(12) >= 25 && script_1432() >= 85) {
+				return 1;
+			}
+			break;
+		case 93:
+			if (cs2method_10453(16) >= 60 && cs2method_10453(17) >= 63 && cs2method_10453(12) >= 66 && cs2method_10453(13) >= 69) {
+				return 1;
+			}
+			break;
+		case 94:
+			if (cs2method_10453(22) >= 40 && cs2method_10453(19) >= 26 && cs2method_10453(5) >= 35 && cs2method_10453(23) >= 19) {
+				return 1;
+			}
+			break;
+		case 95:
+			if (cs2method_10453(11) >= 43) {
+				return 1;
+			}
+			break;
+		case 96:
+			if (cs2method_10453(11) >= 47 && cs2method_10453(21) >= 35 && cs2method_10453(14) >= 45 && cs2method_10453(5) >= 55 && cs2method_10453(23) >= 23 && cs2method_10453(8) >= 37) {
+				return 1;
+			}
+			break;
+		case 97:
+			if (cs2method_10453(21) >= 51 && cs2method_10453(16) >= 51 && cs2method_10453(13) >= 54 && cs2method_10453(14) >= 59) {
+				return 1;
+			}
+			break;
+		case 98:
+			if (cs2method_10453(1) >= 65 && cs2method_10453(6) >= 75 && cs2method_10453(15) >= 65 && cs2method_10453(17) >= 60 && cs2method_10453(21) >= 55 && cs2method_10453(19) >= 65 && cs2method_10453(23) >= 23 && script_395() == 1) {
+				return 1;
+			}
+			break;
+		case 99:
+			if (cs2method_10453(11) >= 55 && cs2method_10453(9) >= 53 && cs2method_10453(12) >= 52) {
+				return 1;
+			}
+			break;
+		case 100:
+			if (cs2method_10453(17) >= 46 && cs2method_10453(16) >= 46 && cs2method_10453(2) >= 46) {
+				return 1;
+			}
+			break;
+		case 101:
+			if (cs2method_10453(21) >= 41 && cs2method_10453(16) >= 50 && cs2method_10453(6) >= 57 && cs2method_10453(15) >= 43) {
+				return 1;
+			}
+			break;
+		case 102:
+			if (cs2method_10453(8) >= 10 && cs2method_10453(6) >= 10 && cs2method_10453(14) >= 8 && cs2method_10453(11) >= 6) {
+				return 1;
+			}
+			break;
+		case 103:
+			if (cs2method_10453(22) >= 35 && cs2method_10453(7) >= 35 && cs2method_10453(12) >= 35 && cs2method_10453(5) >= 35 && cs2method_10453(6) >= 35) {
+				return 1;
+			}
+			break;
+		case 104:
+			if (cs2method_10453(17) >= 38 && cs2method_10453(22) >= 45 && cs2method_10453(21) >= 45) {
+				return 1;
+			}
+			break;
+		case 105:
+			if (cs2method_10453(23) >= 41 && cs2method_10453(14) >= 64 && cs2method_10453(18) >= 37 && cs2method_10453(16) >= 61 && cs2method_10453(2) >= 64 && cs2method_10453(4) >= 64 && cs2method_10453(17) >= 66) {
+				return 1;
+			}
+			break;
+		case 106:
+			if (cs2method_10453(21) >= 61 && cs2method_10453(11) >= 61 && cs2method_10453(2) >= 69) {
+				return 1;
+			}
+			break;
+		case 107:
+			if (cs2method_10453(16) >= 69 && cs2method_10453(9) >= 70 && cs2method_10453(4) >= 75 && cs2method_10453(8) >= 75) {
+				return 1;
+			}
+			break;
+		case 108:
+			if (cs2method_10453(5) >= 50) {
+				return 1;
+			}
+			break;
+		case 109:
+			if (cs2method_10453(0) >= 75 && cs2method_10453(2) >= 75 && cs2method_10453(18) >= 65) {
+				return 1;
+			}
+			break;
+		case 110:
+			if (cs2method_10453(6) >= 75 && cs2method_10453(5) >= 70 && cs2method_10453(14) >= 66 && cs2method_10453(21) >= 65 && cs2method_10453(22) >= 60) {
+				return 1;
+			}
+			break;
+		case 111:
+			if (cs2method_10453(6) >= 27 && cs2method_10453(20) >= 20 && cs2method_10453(22) >= 25) {
+				return 1;
+			}
+			break;
+		case 112:
+			if (cs2method_10453(17) >= 24) {
+				return 1;
+			}
+			break;
+		case 113:
+			if (cs2method_10453(17) >= 41) {
+				return 1;
+			}
+			break;
+		case 114:
+			if (cs2method_10453(17) >= 62 && cs2method_10453(15) >= 45 && cs2method_10453(16) >= 40) {
+				return 1;
+			}
+			break;
+		case 115:
+			if (cs2method_10453(19) >= 54 && cs2method_10453(17) >= 51 && cs2method_10453(6) >= 59 && cs2method_10453(23) >= 37 && cs2method_10453(12) >= 36) {
+				return 1;
+			}
+			break;
+		case 116:
+			if (cs2method_10453(1) >= 33 && cs2method_10453(13) >= 33) {
+				return 1;
+			}
+			break;
+		case 117:
+			if (cs2method_10453(2) >= 42 && cs2method_10453(0) >= 35) {
+				return 1;
+			}
+			break;
+		case 118:
+			if (cs2method_10453(6) >= 77 && cs2method_10453(22) >= 68 && cs2method_10453(13) >= 68 && cs2method_10453(12) >= 67) {
+				return 1;
+			}
+			break;
+		case 119:
+			if (cs2method_10453(22) >= 47 && cs2method_10453(15) >= 49 && cs2method_10453(21) >= 46 && cs2method_10453(14) >= 47 && cs2method_10453(23) >= 48 && cs2method_10453(17) >= 54 && cs2method_10453(8) >= 52) {
+				return 1;
+			}
+			break;
+		case 120:
+			if (cs2method_10453(0) >= 78 && cs2method_10453(22) >= 70 && cs2method_10453(12) >= 70 && cs2method_10453(11) >= 71 && cs2method_10453(6) >= 80 && cs2method_10453(13) >= 70 && cs2method_10453(2) >= 78 && cs2method_10453(23) >= 55 && cs2method_10453(1) >= 10) {
+				return 1;
+			}
+			break;
+		case 121:
+			if (cs2method_10453(2) >= 77 && cs2method_10453(13) >= 70 && cs2method_10453(14) >= 68) {
+				return 1;
+			}
+			break;
+		case 122:
+			if (cs2method_10453(16) >= 64 && cs2method_10453(17) >= 64 && cs2method_10453(22) >= 62 && cs2method_10453(20) >= 61) {
+				return 1;
+			}
+			break;
+		case 123:
+			if (cs2method_10453(1) >= 40 && cs2method_10453(12) >= 41 && cs2method_10453(20) >= 39 && cs2method_10453(13) >= 42 && cs2method_10453(17) >= 39) {
+				return 1;
+			}
+			break;
+		case 124:
+			if (cs2method_10453(22) >= 62 && cs2method_10453(24) >= 50 && cs2method_10453(18) >= 61 && cs2method_10453(23) >= 65 && cs2method_10453(13) >= 74 && cs2method_10453(1) >= 76 && cs2method_10453(17) >= 74) {
+				return 1;
+			}
+			break;
+		case 125:
+			if (cs2method_10453(10) >= 70 && cs2method_10453(21) >= 67 && cs2method_10453(17) >= 70) {
+				return 1;
+			}
+			break;
+		case 126:
+			if (cs2method_10453(1) >= 60 && cs2method_10453(3) >= 50 && cs2method_10453(15) >= 47 && cs2method_10453(23) >= 45 && cs2method_10453(24) >= 35) {
+				return 1;
+			}
+			break;
+		case 127:
+			if (cs2method_10453(16) >= 63 && cs2method_10453(8) >= 76 && cs2method_10453(19) >= 63 && cs2method_10453(9) >= 70 && cs2method_10453(12) >= 64 && cs2method_10453(18) >= 67 && cs2method_10453(6) == 70) {
+				return 1;
+			}
+			break;
+		case 128:
+			if (cs2method_10453(16) >= 77 && cs2method_10453(14) >= 76 && cs2method_10453(12) >= 76) {
+				return 1;
+			}
+			break;
+		case 129:
+			if (cs2method_10453(16) >= 64 && cs2method_10453(3) >= 76 && cs2method_10453(3) >= 90) {
+				return 1;
+			}
+			break;
+		case 130:
+			if (cs2method_10453(6) >= 75 && cs2method_10453(16) >= 60 && cs2method_10453(14) >= 41) {
+				return 1;
+			}
+			break;
+		default:
+			return 0;
+	}
+	return 0;
+}

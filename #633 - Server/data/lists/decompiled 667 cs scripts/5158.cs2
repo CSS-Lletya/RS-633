@@ -1,0 +1,27 @@
+void script_5158(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	setWidgetRGB(cs2method_10489(standart_config_2347), arg2);
+	ivar3 = cs2method_10090(arg1);
+	ivar4 = 1;
+	if (bitconfig_9642 > 0) {
+		ivar4 = cs2method_10004(cs2method_10586(subtract(ivar3, multiply(bitconfig_9642, 2)), ivar3), 0);
+	}
+	script_5168(ivar4);
+	ivar5 = cs2method_10090(arg0);
+	ivar6 = 0;
+	if (bitconfig_9643 > 0) {
+		ivar6 = cs2method_10004(cs2method_10586(subtract(ivar5, multiply(bitconfig_9643, divide(ivar5, 8))), ivar5), 0);
+		ivar6 = cs2method_10004(cs2method_10586(subtract(ivar6, divide(ivar5, 16)), ivar5), 0);
+	}
+	ivar7 = 0;
+	if (bitconfig_9644 > 0) {
+		ivar7 = cs2method_10004(cs2method_10586(multiply(bitconfig_9644, divide(ivar5, 128)), ivar5), 0);
+	}
+	setWidgetRGB(bitconfig_9642, arg0);
+	script_5167(ivar7, ivar6);
+	return;
+}

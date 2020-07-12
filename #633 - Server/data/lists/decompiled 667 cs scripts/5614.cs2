@@ -1,0 +1,20 @@
+cs2func_script_5614_struct(3,0,0) script_5614(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (cs2method_10878() > arg4) {
+		arg4 = add(cs2method_10878(), 50);
+		if (arg3 == 1) {
+			if (add(arg2, 5) <= 100) {
+				arg2 = add(arg2, 5);
+			} else {
+				arg2 = 100;
+				arg3 = 0;
+			}
+		} else if (subtract(arg2, 5) >= 0) {
+			arg2 = subtract(arg2, 5);
+		} else {
+			arg2 = 0;
+			arg3 = 1;
+		}
+		cs2method_10203(arg1, 5, 60, arg2, arg0);
+	}
+	return newstruct cs2func_script_5614_struct(arg2, arg3, arg4);
+}

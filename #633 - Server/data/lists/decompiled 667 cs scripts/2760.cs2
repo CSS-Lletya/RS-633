@@ -1,0 +1,12 @@
+void script_2760(int arg0) {
+	if (globalint_173 == 1 || bitconfig_542 == 1) {
+		cs2method_10831(arg0);
+		cs2method_20000(-1, "", new WidgetPointer(arg0));
+		cs2method_10129(0, arg0);
+	} else {
+		cs2method_10375(1, arg0, (object)"Face North");
+		cs2method_20000(2757, -2147483644, "i", new WidgetPointer(arg0));
+		cs2method_10129(1, arg0);
+	}
+	return;
+}

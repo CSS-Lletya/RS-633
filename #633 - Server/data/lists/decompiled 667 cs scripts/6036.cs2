@@ -1,0 +1,78 @@
+string script_6036(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	flow_0:
+		if (arg0 == -1) {
+			return "N/A";
+		}
+		ivar3 = 0;
+		ivar4 = 0;
+		SWITCH (arg2) {
+			case 24151:
+				 GOTO flow_3
+			case 20936:
+				 GOTO flow_3
+			case 23716:
+				 GOTO flow_3
+			case 23714:
+				 GOTO flow_3
+			case 23715:
+				 GOTO flow_3
+			case 13732:
+				 GOTO flow_3
+			case 23713:
+				 GOTO flow_3
+			case 20935:
+				 GOTO flow_3
+			case 14058:
+				 GOTO flow_4
+			case 2528:
+				 GOTO flow_4
+			case 18767:
+				 GOTO flow_4
+			case 11640:
+				 GOTO flow_5
+			case 13463:
+				 GOTO flow_6
+			case 18782:
+				 GOTO flow_10
+			case 20708:
+				 GOTO flow_14
+			case 20960:
+				 GOTO flow_14
+		}
+		ivar3 = divide(arg1, 10);
+		GOTO	flow_15
+	flow_3:
+		return getDataByKey('S', 's', 680, arg0) + " XP";
+	flow_4:
+		ivar3 = multiply(cs2method_10453(arg0), 10);
+		GOTO	flow_15
+	flow_5:
+		ivar3 = multiply(cs2method_10453(arg0), 15);
+		GOTO	flow_15
+	flow_6:
+		ivar4 = cs2method_10453(arg0);
+		if (ivar4 <= 18) {
+			ivar3 = subtract(getDataByKey('i', 'i', 716, add(ivar4, 1)), getDataByKey('i', 'i', 716, ivar4));
+		} else {
+			ivar3 = multiply(cs2method_10453(arg0), 25);
+		}
+		GOTO	flow_15
+	flow_10:
+		ivar4 = cs2method_10453(arg0);
+		if (ivar4 < 30) {
+			ivar3 = subtract(getDataByKey('i', 'i', 716, add(ivar4, 1)), getDataByKey('i', 'i', 716, ivar4));
+		} else {
+			ivar3 = add(subtract(multiply(ivar4, ivar4), multiply(2, ivar4)), 100);
+			ivar3 = multiply(ivar3, divide(multiply(ivar4, 10000), 20));
+			ivar3 = divide(ivar3, 10000);
+		}
+		GOTO	flow_15
+	flow_14:
+		ivar4 = cs2method_10453(arg0);
+		ivar3 = cs2method_10206(ivar4, 2);
+		ivar3 = add(subtract(ivar3, multiply(2, ivar4)), 100);
+	flow_15:
+		return getDataByKey('S', 's', 680, arg0) + ": " + (string)cs2method_10595(ivar3, 1) + " XP";
+}

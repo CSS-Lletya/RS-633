@@ -1,0 +1,25 @@
+void script_6099(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (arg1 == 1) {
+		if (arg0 == 1) {
+			cs2method_10467(10465, arg2);
+			cs2method_10467(10466, arg3);
+			cs2method_10467(10465, arg4);
+		} else {
+			cs2method_10467(10467, arg2);
+			cs2method_10467(10468, arg3);
+			cs2method_10467(10467, arg4);
+		}
+	} else {
+		if (arg0 == 1) {
+			cs2method_10467(10465, arg2);
+			cs2method_10467(10466, arg3);
+			cs2method_10467(10465, arg4);
+		} else {
+			cs2method_10467(10463, arg2);
+			cs2method_10467(10464, arg3);
+			cs2method_10467(10463, arg4);
+		}
+		script_41(82903129);
+	}
+	return;
+}

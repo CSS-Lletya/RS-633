@@ -1,0 +1,6 @@
+void script_6067(int arg0,int arg1,int arg2) {
+	cs2method_10149(255, 77529089);
+	cs2method_10149(255, 77529112);
+	setScriptCallOnKeyPress(6068, -2147483640, false, new WidgetPointer(arg0), new WidgetPointer(arg1), "izII", new WidgetPointer(arg2));
+	return;
+}

@@ -1,0 +1,15 @@
+void script_310(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int stack_dump0;
+	ivar2 = 0;
+	ivar3 = 0;
+	if (cs2method_10551(arg0, arg1) == 1) {
+		stack_dump0 = add(add(cs2method_10646(), cs2method_10630()), 1);
+		ivar3 = add(add(cs2method_10207(), cs2method_10630()), 1);
+		ivar2 = stack_dump0;
+		ivar3 = subtract(ivar3, cs2method_10424(arg0));
+		script_312(ivar2, ivar3, arg2);
+	}
+	return;
+}

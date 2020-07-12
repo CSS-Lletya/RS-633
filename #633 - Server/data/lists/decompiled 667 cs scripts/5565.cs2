@@ -1,0 +1,7 @@
+void script_5565() {
+	setWidgetRGB(16777215, 41353287);
+	setWidgetRGB(16777215, 41353286);
+	setWidgetRGB(16777215, 21954561);
+	setWidgetRGB(16777215, 21954560);
+	return;
+}

@@ -1,0 +1,33 @@
+void script_5259(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = 74252290;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 126;
+	ivar5 = 99;
+	if (arg0 == 0) {
+		cs2method_10893(cs2method_10956(ivar1), 0, 0, 0, ivar1);
+	}
+	if (arg0 < 61) {
+		ivar2 = cs2method_10542(arg0, 61, 100);
+		ivar3 = cs2method_10542(ivar4, 100, ivar2);
+		if (ivar3 == 0) {
+			cs2method_10893(cs2method_10956(ivar1), 1, 0, 0, ivar1);
+		} else {
+			cs2method_20219(5260, ivar3, "i", new WidgetPointer(ivar1));
+		}
+	} else {
+		arg0 = subtract(arg0, 60);
+		ivar2 = cs2method_10542(arg0, 140, 100);
+		ivar3 = add(ivar4, cs2method_10542(ivar5, 100, ivar2));
+		if (cs2method_10416(ivar1) == 1) {
+			cs2method_10998((object)"Hidden.");
+		}
+		cs2method_20219(5260, ivar3, "i", new WidgetPointer(ivar1));
+	}
+	return;
+}

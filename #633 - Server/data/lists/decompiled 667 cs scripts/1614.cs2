@@ -1,0 +1,11 @@
+void script_1614(int arg0,int arg1,int arg2) {
+	int ivar3;
+	ivar3 = -1;
+	ivar3 = cs2method_10192(arg2, arg0);
+	if (ivar3 != -1) {
+		cs2method_10483(arg1, ivar3);
+	} else {
+		cs2method_10483(arg1, 36);
+	}
+	return;
+}

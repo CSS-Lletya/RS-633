@@ -1,0 +1,29 @@
+void script_5803(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar5 = 9620;
+	ivar6 = 9621;
+	ivar7 = 9622;
+	if (arg3 == 1) {
+		if (arg4 == 1) {
+			ivar5 = 9647;
+			ivar6 = 9648;
+			ivar7 = 9649;
+		} else {
+			ivar5 = 9623;
+			ivar6 = 9624;
+			ivar7 = 9625;
+		}
+	} else {
+		if (arg4 == 1) {
+			ivar5 = 9644;
+			ivar6 = 9645;
+			ivar7 = 9646;
+		}
+	}
+	cs2method_10467(ivar5, arg0);
+	cs2method_10467(ivar6, arg1);
+	cs2method_10467(ivar7, arg2);
+	return;
+}

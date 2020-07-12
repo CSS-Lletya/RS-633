@@ -1,0 +1,7 @@
+void script_64() {
+	setWidgetText(new WidgetPointer(532,1), (object)(toString(bitconfig_3637) + "/" + toString(183)));
+	if (bitconfig_3637 == 183) {
+		setWidgetRGB(65280, 34865153);
+	}
+	return;
+}

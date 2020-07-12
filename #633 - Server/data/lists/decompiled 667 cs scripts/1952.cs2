@@ -1,0 +1,17 @@
+void script_1952() {
+	int ivar0;
+	int ivar1;
+	ivar0 = -1;
+	ivar1 = -1;
+	if (cs2method_10842() < 2) {
+		ivar0 = 35913732;
+		ivar1 = 35913927;
+	} else {
+		ivar0 = 48889873;
+		ivar1 = 48890041;
+	}
+	setWidgetText(new WidgetPointer(ivar1), (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(ivar0));
+	globalint_2 = 0;
+	return;
+}

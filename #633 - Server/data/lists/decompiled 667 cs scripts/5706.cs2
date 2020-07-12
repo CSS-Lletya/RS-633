@@ -1,0 +1,25 @@
+void script_5706(int arg0,int arg1) {
+	if (cs2method_10826(arg0) == arg1) {
+		globalint_1752 = 0;
+		cs2method_20219(-1, "", new WidgetPointer(1218,74));
+	} else if (cs2method_10826(arg0) > arg1) {
+		if (cs2method_10826(arg0) > add(arg1, 70)) {
+			cs2method_10444(cs2method_10111(arg0), subtract(cs2method_10826(arg0), 8), 0, 0, arg0);
+		} else if (cs2method_10826(arg0) > add(arg1, 30)) {
+			cs2method_10444(cs2method_10111(arg0), subtract(cs2method_10826(arg0), 3), 0, 0, arg0);
+		} else if (cs2method_10826(arg0) > add(arg1, 20)) {
+			cs2method_10444(cs2method_10111(arg0), subtract(cs2method_10826(arg0), 2), 0, 0, arg0);
+		} else {
+			cs2method_10444(cs2method_10111(arg0), subtract(cs2method_10826(arg0), 1), 0, 0, arg0);
+		}
+	} else if (cs2method_10826(arg0) < subtract(arg1, 70)) {
+		cs2method_10444(cs2method_10111(arg0), add(cs2method_10826(arg0), 8), 0, 0, arg0);
+	} else if (cs2method_10826(arg0) < subtract(arg1, 30)) {
+		cs2method_10444(cs2method_10111(arg0), add(cs2method_10826(arg0), 3), 0, 0, arg0);
+	} else if (cs2method_10826(arg0) < subtract(arg1, 20)) {
+		cs2method_10444(cs2method_10111(arg0), add(cs2method_10826(arg0), 2), 0, 0, arg0);
+	} else {
+		cs2method_10444(cs2method_10111(arg0), add(cs2method_10826(arg0), 1), 0, 0, arg0);
+	}
+	return;
+}

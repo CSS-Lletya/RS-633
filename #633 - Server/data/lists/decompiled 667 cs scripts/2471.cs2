@@ -1,0 +1,12 @@
+void script_2471() {
+	setWidgetIsHidden(true, getDataByKey('n', 'I', 1092, standart_config_1174));
+	if (cs2method_10842() >= 2) {
+		cs2method_10467(8644, 48955392);
+		cs2method_10467(8645, 48955393);
+	} else {
+		cs2method_10467(1244, 48955392);
+		cs2method_10467(1245, 48955393);
+	}
+	setWidgetIsHidden(true, new WidgetPointer(747,9));
+	return;
+}

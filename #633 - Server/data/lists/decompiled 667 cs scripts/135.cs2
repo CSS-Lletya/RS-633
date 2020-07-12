@@ -1,0 +1,17 @@
+void script_135(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	if (cs2method_10366((object)globalstring_24) > 0) {
+		cs2method_10824(arg0, globalint_6, (object)globalstring_24, (object)"");
+	}
+	if (compareTo((object)globalstring_24, cs2method_10758()) == 0) {
+		script_675();
+		return;
+	}
+	if (cs2method_10799((object)globalstring_24) == 0 && compareTo((object)globalstring_24, cs2method_10758()) != 0) {
+		script_221();
+	} else {
+		script_675();
+	}
+	return;
+}

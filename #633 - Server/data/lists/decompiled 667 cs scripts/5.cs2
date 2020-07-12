@@ -1,0 +1,23 @@
+void script_5() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 5982;
+	if (bitconfig_6840 == 1) {
+		ivar0 = 5981;
+	}
+	ivar1 = cs2method_10624(ivar0);
+	ivar2 = 0;
+	ivar3 = -1;
+	while (ivar2 < ivar1) {
+		if (cs2method_10551(17760263, ivar2) == 1) {
+			ivar3 = getDataByKey('i', 'J', ivar0, ivar2);
+			if (script_6414(ivar3) == 1 && script_2295(ivar2) == 1) {
+				cs2method_10469(155);
+			}
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	return;
+}

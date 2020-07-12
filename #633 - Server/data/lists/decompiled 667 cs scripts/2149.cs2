@@ -1,0 +1,18 @@
+int script_2149(int arg0) {
+	if (script_2155(arg0) == 0) {
+		return 0;
+	}
+	if (standart_config_101 < getGeneralRequirementAttribute(arg0, 895)) {
+		return 0;
+	}
+	if (globalint_698 < getGeneralRequirementAttribute(arg0, 896)) {
+		return 0;
+	}
+	if (script_2153(arg0) == 0) {
+		return 0;
+	}
+	if (getGeneralRequirementAttribute(arg0, 898) == 1 && script_2194(getGeneralRequirementAttribute(arg0, 847)) == 0) {
+		return 0;
+	}
+	return 1;
+}

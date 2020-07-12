@@ -1,0 +1,20 @@
+void script_5592() {
+	setWidgetRGB(13158600, 77856771);
+	setWidgetRGB(13158600, 77856792);
+	setWidgetRGB(13158600, 77856797);
+	setWidgetRGB(13158600, 77856802);
+	setWidgetRGB(13158600, 77856807);
+	setWidgetRGB(13158600, 77856780);
+	setWidgetRGB(13158600, 77856793);
+	setWidgetRGB(13158600, 77856798);
+	setWidgetRGB(13158600, 77856803);
+	setWidgetRGB(13158600, 77856808);
+	cs2method_10893(250, 30, 0, 0, 77856773);
+	cs2method_20219(5594, new WidgetPointer(1188,11), new WidgetPointer(1188,3), "II", new WidgetPointer(1188,11));
+	cs2method_20219(5594, new WidgetPointer(1188,13), new WidgetPointer(1188,24), "II", new WidgetPointer(1188,13));
+	cs2method_20219(5594, new WidgetPointer(1188,14), new WidgetPointer(1188,29), "II", new WidgetPointer(1188,14));
+	cs2method_20219(5594, new WidgetPointer(1188,15), new WidgetPointer(1188,34), "II", new WidgetPointer(1188,15));
+	cs2method_20219(5594, new WidgetPointer(1188,16), new WidgetPointer(1188,39), "II", new WidgetPointer(1188,16));
+	setScriptCallOnKeyPress(5593, -2147483640, false, "iz", new WidgetPointer(1188,4));
+	return;
+}

@@ -1,0 +1,28 @@
+void script_4552() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	setWidgetText(new WidgetPointer(550,18), (object)("Friends List" + "<br>" + "RuneScape " + toString(cs2method_10847())));
+	cs2method_20694(124, "", new WidgetPointer(550,6));
+	setWidgetScrollMax(0, 0, 36044810);
+	cs2method_10085(0, 0, 36044810);
+	script_31(36044811, 36044810, 5666, 5663, 5664, 5665, 5686, 5685);
+	ivar0 = 36044800;
+	clearExtraChildren(new WidgetPointer(ivar0));
+	ivar1 = 0;
+	ivar2 = 0;
+	while (ivar2 < 200) {
+		ivar1 = add(multiply(ivar2, 15), 5);
+		if (cs2method_10620(ivar2, 2) != 0) {
+			createChildWidget(ivar0, 3, cs2method_10860(ivar0));
+			setWidgetSize(16384, 15, 2, 0);
+			setWidgetPosition(0, ivar1, 0, 0);
+			setWidgetRGB(new Color(35, 34, 32));
+			setWidgetFilled(1);
+			cs2method_10305(128);
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	script_125(globalint_1036);
+	return;
+}

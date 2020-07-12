@@ -1,0 +1,21 @@
+void script_2836() {
+	flow_0:
+		globalint_1068 = add(globalint_1068, 1);
+		SWITCH (globalint_1068) {
+			case 2:
+				 GOTO flow_1
+			case 3:
+				 GOTO flow_2
+		}
+		cs2method_20808(2836, "", new WidgetPointer(384,0));
+		cs2method_10767(0, globalint_1068, 400, 400, 1, globalint_1068);
+		GOTO	flow_3
+	flow_1:
+		cs2method_20808(2836, "", new WidgetPointer(384,0));
+		cs2method_10767(0, globalint_1068, 400, 0, 1, globalint_1068);
+		GOTO	flow_3
+	flow_2:
+		cs2method_20808(-1, "", new WidgetPointer(384,0));
+	flow_3:
+		return;
+}

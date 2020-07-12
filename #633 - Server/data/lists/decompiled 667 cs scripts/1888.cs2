@@ -1,0 +1,19 @@
+void script_1888() {
+	if (globalint_1025 == 1) {
+		return;
+	}
+	if (script_2728() == 1 && bitconfig_6516 == 0 && standart_config_281 >= 1000) {
+		if (globalint_94 > cs2method_10878()) {
+			return;
+		}
+		globalint_94 = add(cs2method_10878(), 1500);
+		if (standart_config_1647 == 1) {
+			cs2method_10998((object)"Your health is low! Run away from your attacker and speak to Xenia.");
+		} else {
+			cs2method_10998((object)"Your health is low! Find a safe place away from your attacker");
+			cs2method_10998((object)"or eat some food to heal yourself.");
+		}
+	}
+	globalint_1025 = 1;
+	return;
+}

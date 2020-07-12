@@ -1,0 +1,10 @@
+void script_5610() {
+	if (globalint_1750 < 0) {
+		globalint_1750 = 0;
+	}
+	if (globalint_1750 > 100) {
+		globalint_1750 = 100;
+	}
+	script_5611(globalint_1750, 78315537);
+	return;
+}

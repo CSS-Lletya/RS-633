@@ -1,0 +1,154 @@
+void script_5792(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	object ovar0;
+	object ovar1;
+	ivar1 = script_5795(arg0);
+	ovar0 = (object)"";
+	if (ivar1 == -1) {
+		return;
+	}
+	script_5796(arg0, 0, 79888394, 79888384, 79888385, -1, -1, -1);
+	ivar2 = 1;
+	ivar3 = 0;
+	while (ivar2 < 8 && ivar3 == 0) {
+		switch (ivar2) {
+			case 1:
+				if (getGeneralRequirementAttribute(ivar1, 1283) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 2:
+				if (getGeneralRequirementAttribute(ivar1, 1284) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 3:
+				if (getGeneralRequirementAttribute(ivar1, 1285) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 4:
+				if (getGeneralRequirementAttribute(ivar1, 1286) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 5:
+				if (getGeneralRequirementAttribute(ivar1, 1287) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 6:
+				if (getGeneralRequirementAttribute(ivar1, 1288) == -1) {
+					ivar3 = 1;
+				}
+				break;
+			case 7:
+				if (getGeneralRequirementAttribute(ivar1, 1289) == -1) {
+					ivar3 = 1;
+				}
+		}
+		if (ivar3 == 0) {
+			ivar2 = add(ivar2, 1);
+		}
+	}
+	clearExtraChildren(new WidgetPointer(1219,6));
+	clearExtraChildren(new WidgetPointer(1219,5));
+	clearExtraChildren(new WidgetPointer(1219,14));
+	clearExtraChildren(new WidgetPointer(1219,12));
+	clearExtraChildren(new WidgetPointer(1219,13));
+	ivar4 = script_5797(arg0, -1, subtract(ivar2, 1), 1, 2, 97, 79888390, 79888389, 79888391, 79888388, 79888399);
+	switch (ivar2) {
+		case 1:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1274);
+			break;
+		case 2:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1275);
+			break;
+		case 3:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1276);
+			break;
+		case 4:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1277);
+			break;
+		case 5:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1278);
+			break;
+		case 6:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1279);
+			break;
+		case 7:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1280);
+			break;
+		case 8:
+			ovar0 = (object)getGeneralRequirementAttribute(ivar1, 1281);
+	}
+	ivar5 = script_5798(arg0, ivar1, 0, 0, 79888398, 79888396, 79888399, ovar0);
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 16777215;
+	ivar11 = 0;
+	ivar12 = 0;
+	ivar13 = 0;
+	ovar1 = (object)"";
+	if (cs2method_10551(79888398, 0) == 1) {
+		setWidgetContextMenuOption(1, (object)"Toggle-hint");
+		setWidgetRGB(new Color(247, 237, 183));
+		cs2method_10483(1, 172);
+		ivar6 = cs2method_10630();
+		ivar9 = cs2method_10040();
+		ovar1 = cs2method_10775();
+		ivar7 = cs2method_10646();
+		ivar8 = cs2method_10207();
+		while (ivar11 < 4) {
+			if (ivar11 < 2) {
+				ivar12 = subtract(ivar7, 1);
+			} else {
+				ivar12 = add(ivar7, 1);
+			}
+			if (cs2method_10620(ivar11, 2) == 0) {
+				ivar13 = subtract(ivar8, 1);
+			} else {
+				ivar13 = add(ivar8, 1);
+			}
+			createChildWidget(79888397, 4, ivar11);
+			setWidgetSize(ivar9, ivar6, 0, 0);
+			setWidgetText(ovar1);
+			setWidgetFont(3793);
+			setWidgetRGB(new Color(0, 0, 0));
+			setWidgetTextAlignment(0, 1, 13);
+			setWidgetPosition(ivar12, ivar13, 0, 0);
+			ivar11 = add(ivar11, 1);
+		}
+	}
+	createChildWidget(79888396, 5, 0);
+	cs2method_10692(0);
+	setWidgetContextMenuOption(1, (object)"Toggle-hint");
+	cs2method_10483(1, 172);
+	setWidgetSize(17, 18, 0, 0);
+	setWidgetPosition(0, divide(subtract(ivar6, cs2method_10630()), 2), 3, 0);
+	if (bitconfig_8578 == ivar2 && bitconfig_8594 == arg0) {
+		cs2method_10469(9615);
+		script_5779(1, ivar2, 79888396);
+	} else {
+		cs2method_10469(9618);
+		script_5779(0, ivar2, 79888396);
+	}
+	cs2method_10085(0, 0, 79888388);
+	cs2method_10893(cs2method_10956(79888387), 306, 0, 0, 79888387);
+	cs2method_10893(200, 310, 0, 0, 48889865);
+	return;
+}

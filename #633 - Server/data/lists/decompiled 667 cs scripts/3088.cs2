@@ -1,0 +1,12 @@
+void script_3088(int arg0,object arg1,object arg2) {
+	if (compareTo(arg1, (object)"dob") == 0 && compareTo(arg2, (object)"set_members_dob.ws") == 0) {
+		cs2method_10759(1, (object)"billing_core", (object)"purchasepopup.ws?externalName=rs", (object)"packagegroupredirect.ws?value=rs");
+		globalint_1795 = cs2method_10878();
+		cs2method_20219(6032, "", new WidgetPointer(906,236));
+	} else {
+		if (compareTo(arg1, (object)"") != 0 && compareTo(arg2, (object)"") != 0) {
+			requestOpenURL(arg0, arg1, arg2);
+		}
+	}
+	return;
+}

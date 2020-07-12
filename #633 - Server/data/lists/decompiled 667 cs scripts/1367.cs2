@@ -1,0 +1,72 @@
+void script_1367() {
+	setWidgetText(new WidgetPointer(58,0), (object)("Zamorak = " + toString(bitconfig_155)));
+	setWidgetText(new WidgetPointer(58,1), (object)(toString(bitconfig_145) + " = Saradomin"));
+	setWidgetText(new WidgetPointer(58,6), (object)(toString(standart_config_380) + " Min"));
+	if (bitconfig_136 == 0) {
+		setWidgetText(new WidgetPointer(58,9), (object)("Health: " + toString(bitconfig_136) + "%"));
+		setWidgetRGB(16711680, 3801097);
+	} else {
+		setWidgetText(new WidgetPointer(58,9), (object)("Health " + toString(bitconfig_136) + "%"));
+		setWidgetRGB(65280, 3801097);
+	}
+	if (bitconfig_143 == 0) {
+		setWidgetText(new WidgetPointer(58,2), (object)"Safe");
+		setWidgetRGB(65280, 3801090);
+	} else if (bitconfig_143 == 1) {
+		setWidgetText(new WidgetPointer(58,2), (object)"Taken");
+		setWidgetRGB(16711680, 3801090);
+	} else {
+		if (bitconfig_143 == 2) {
+			setWidgetText(new WidgetPointer(58,2), (object)"Dropped");
+			setWidgetRGB(16776960, 3801090);
+		}
+	}
+	if (bitconfig_153 == 0) {
+		setWidgetText(new WidgetPointer(58,3), (object)"Safe");
+		setWidgetRGB(65280, 3801091);
+	} else if (bitconfig_153 == 1) {
+		setWidgetText(new WidgetPointer(58,3), (object)"Taken");
+		setWidgetRGB(16711680, 3801091);
+	} else {
+		if (bitconfig_153 == 2) {
+			setWidgetText(new WidgetPointer(58,3), (object)"Dropped");
+			setWidgetRGB(16776960, 3801091);
+		}
+	}
+	if (bitconfig_137 == 1) {
+		setWidgetText(new WidgetPointer(58,10), (object)"Unlocked");
+		setWidgetRGB(16711680, 3801098);
+	} else {
+		setWidgetText(new WidgetPointer(58,10), (object)"Locked");
+		setWidgetRGB(65280, 3801098);
+	}
+	if (bitconfig_138 == 1) {
+		setWidgetText(new WidgetPointer(58,11), (object)"Cleared");
+		setWidgetRGB(16711680, 3801099);
+	} else {
+		setWidgetText(new WidgetPointer(58,11), (object)"Collapsed");
+		setWidgetRGB(65280, 3801099);
+	}
+	if (bitconfig_139 == 1) {
+		setWidgetText(new WidgetPointer(58,12), (object)"Cleared");
+		setWidgetRGB(16711680, 3801100);
+	} else {
+		setWidgetText(new WidgetPointer(58,12), (object)"Collapsed");
+		setWidgetRGB(65280, 3801100);
+	}
+	if (bitconfig_140 == 1) {
+		setWidgetText(new WidgetPointer(58,13), (object)"Destroyed");
+		setWidgetRGB(16711680, 3801101);
+	} else {
+		setWidgetText(new WidgetPointer(58,13), (object)"Operational");
+		setWidgetRGB(65280, 3801101);
+	}
+	cs2method_10380(18748, -1, 3801092);
+	cs2method_10380(18749, -1, 3801093);
+	cs2method_10380(18750, -1, 3801102);
+	cs2method_10380(18751, -1, 3801103);
+	cs2method_10380(18752, -1, 3801104);
+	cs2method_10380(18753, -1, 3801105);
+	cs2method_10380(18754, -1, 3801106);
+	return;
+}

@@ -1,0 +1,11 @@
+void script_2433() {
+	if (script_1431() == 0 || compareTo((object)globalstring_148, (object)"null") == 0) {
+		return;
+	}
+	if (cs2method_10842() < 2) {
+		setWidgetText(new WidgetPointer(548,1), (object)globalstring_148);
+	} else {
+		setWidgetText(new WidgetPointer(746,182), (object)globalstring_148);
+	}
+	return;
+}

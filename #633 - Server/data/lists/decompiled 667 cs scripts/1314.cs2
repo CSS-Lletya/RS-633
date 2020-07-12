@@ -1,0 +1,92 @@
+int script_1314(int arg0) {
+	if (cs2method_10842() >= 2) {
+		switch (arg0) {
+			case 0:
+				return cs2method_10416(48889966);
+			case 1:
+				return cs2method_10416(48889967);
+			case 2:
+				return cs2method_10416(48889968);
+			case 3:
+				return cs2method_10416(48889969);
+			case 4:
+				return cs2method_10416(48889970);
+			case 5:
+				return cs2method_10416(48889971);
+			case 6:
+				return cs2method_10416(48889972);
+			case 7:
+				return cs2method_10416(48889973);
+			case 8:
+				return cs2method_10416(48889974);
+			case 9:
+				return cs2method_10416(48889975);
+			case 10:
+				return cs2method_10416(48889976);
+			case 11:
+				return cs2method_10416(48889977);
+			case 12:
+				return cs2method_10416(48889978);
+			case 13:
+				return cs2method_10416(48889979);
+			case 14:
+				return cs2method_10416(48889980);
+			case 15:
+				return cs2method_10416(48889981);
+			case 95:
+				return cs2method_10416(48889983);
+			case 99:
+				return cs2method_10416(48889984);
+			case 98:
+				if (cs2method_10837(48889964) == 1) {
+					return cs2method_10416(48889964);
+				}
+				return 1;
+		}
+	} else {
+		switch (arg0) {
+			case 0:
+				return cs2method_10416(35913906);
+			case 1:
+				return cs2method_10416(35913907);
+			case 2:
+				return cs2method_10416(35913908);
+			case 3:
+				return cs2method_10416(35913909);
+			case 4:
+				return cs2method_10416(35913910);
+			case 5:
+				return cs2method_10416(35913911);
+			case 6:
+				return cs2method_10416(35913912);
+			case 7:
+				return cs2method_10416(35913913);
+			case 8:
+				return cs2method_10416(35913914);
+			case 9:
+				return cs2method_10416(35913915);
+			case 10:
+				return cs2method_10416(35913916);
+			case 11:
+				return cs2method_10416(35913917);
+			case 12:
+				return cs2method_10416(35913918);
+			case 13:
+				return cs2method_10416(35913919);
+			case 14:
+				return cs2method_10416(35913920);
+			case 15:
+				return cs2method_10416(35913921);
+			case 95:
+				return cs2method_10416(35913923);
+			case 99:
+				return cs2method_10416(35913924);
+			case 98:
+				if (cs2method_10837(35913902) == 1) {
+					return cs2method_10416(35913902);
+				}
+				return 1;
+		}
+	}
+	return -1;
+}

@@ -1,0 +1,44 @@
+void script_5894(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	int stack_dump0;
+	cs2func_script_6188_struct(2,0,0) structdump_1;
+	ivar1 = 82116702;
+	ivar2 = script_5935(arg0);
+	ivar3 = -1;
+	ivar4 = 0;
+	stack_dump0 = arg0;
+	structdump_1 = script_6188(stack_dump0);
+	ivar4 = structdump_1.intpart_1;
+	ivar3 = structdump_1.intpart_0;
+	ovar0 = (object)"";
+	ivar5 = 0;
+	ivar6 = script_5936(arg0);
+	ivar7 = getGeneralRequirementAttribute(ivar6, 2268);
+	switch (ivar7) {
+		case 8:
+		case 9:
+		case 10:
+		case 5:
+		case 6:
+		case 7:
+			ovar0 = (object)(script_5908(ivar3) + "<br>" + getDataByKey('o', 's', 5704, ivar3));
+			break;
+		default:
+			ovar0 = (object)(script_5908(ivar3) + "<br>" + getDataByKey('o', 's', 5704, ivar3));
+	}
+	setWidgetText(new WidgetPointer(1253,274), ovar0);
+	setWidgetIsHidden(false, new WidgetPointer(1253,50));
+	ivar8 = add(subtract(cs2method_10111(ivar2), divide(cs2method_10956(ivar1), 2)), divide(cs2method_10956(ivar2), 2));
+	ivar8 = cs2method_10586(ivar8, 596);
+	ivar8 = cs2method_10004(ivar8, 1);
+	cs2method_10444(ivar8, cs2method_10826(ivar1), 0, 0, ivar1);
+	return;
+}

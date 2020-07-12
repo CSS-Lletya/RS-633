@@ -1,0 +1,4 @@
+void script_4241() {
+	cs2method_10893(cs2method_10542(bitconfig_8959, 10, 16384), 16384, 2, 2, 70647815);
+	return;
+}

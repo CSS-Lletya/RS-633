@@ -1,0 +1,47 @@
+void script_3095(int arg0,int arg1,int arg2) {
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	switch (arg2) {
+		case 4:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=messages";
+			cs2method_20000(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			break;
+		case 11:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=security";
+			cs2method_20000(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			break;
+		case 18:
+			ovar0 = (object)"accountappeal";
+			ovar1 = (object)"lockchoice.ws";
+			cs2method_20000(3089, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			break;
+		case 31:
+			ovar0 = (object)"www";
+			ovar1 = (object)"account_settings.ws?mod=charname";
+			cs2method_20000(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			break;
+		case 19:
+		case 32:
+		case -2000:
+		case -3000:
+		case 40:
+		case 12:
+		case 30:
+			ovar0 = (object)"dob";
+			ovar1 = (object)"set_members_dob.ws";
+			cs2method_20000(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(arg0));
+			break;
+		case 21:
+			setScriptCallOnMousePressed(1872, "", new WidgetPointer(arg0));
+			setScriptCallOnMousePressed(-1, "", new WidgetPointer(arg1));
+			return;
+		default:
+			cs2method_20000(-1, "", new WidgetPointer(arg0));
+	}
+	cs2method_20000(3096, "", new WidgetPointer(arg1));
+	return;
+}

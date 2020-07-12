@@ -1,0 +1,28 @@
+void script_6266() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = 0;
+	ivar1 = -1;
+	ivar2 = -1;
+	ivar3 = 200;
+	while (true) {
+		flow_1:
+			IF (ivar1 != -1) 
+				GOTO	flow_2
+			IF (ivar0 == 0 && ivar0 < ivar3) 
+				GOTO	flow_3
+			break;
+		flow_2:
+		flow_3:
+			ivar1 = script_6268(ivar0);
+			if (ivar1 != -1) {
+				ivar2 = cs2method_10825(ivar1);
+				ivar2 = script_6267(ivar2);
+				cs2method_10467(ivar2, ivar1);
+			}
+			ivar0 = add(ivar0, 1);
+	}
+	return;
+}

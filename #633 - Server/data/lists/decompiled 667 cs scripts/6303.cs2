@@ -1,0 +1,34 @@
+void script_6303(int arg0,object arg1) {
+	switch (arg0) {
+		case 0:
+			globalstring_366 = (string)arg1;
+			break;
+		case 1:
+			globalstring_367 = (string)arg1;
+			break;
+		case 2:
+			globalstring_368 = (string)arg1;
+			break;
+		case 3:
+			globalstring_369 = (string)arg1;
+			break;
+		case 4:
+			globalstring_370 = (string)arg1;
+			break;
+		case 5:
+			globalstring_371 = (string)arg1;
+			break;
+		case 6:
+			globalstring_372 = (string)arg1;
+			break;
+		case 7:
+			globalstring_373 = (string)arg1;
+			break;
+		case 8:
+			globalstring_374 = (string)arg1;
+			break;
+		case 9:
+			globalstring_375 = (string)arg1;
+	}
+	return;
+}

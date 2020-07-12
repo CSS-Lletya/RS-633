@@ -1,0 +1,177 @@
+cs2func_script_5755_struct(1,1,0) script_5755(int arg0,int arg1) {
+	if (arg0 == 0) {
+		if (script_1432() < getGeneralRequirementAttribute(arg1, 2233)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 2233), (object)"combat");
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1294)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1294))) < getGeneralRequirementAttribute(arg1, 1295)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1295), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1294)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1296)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1296))) < getGeneralRequirementAttribute(arg1, 1297)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1297), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1296)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1298)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1298))) < getGeneralRequirementAttribute(arg1, 1299)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1299), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1298)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1300)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1300))) < getGeneralRequirementAttribute(arg1, 1301)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1301), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1300)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1302)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1302))) < getGeneralRequirementAttribute(arg1, 1303)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1303), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1302)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1304)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1304))) < getGeneralRequirementAttribute(arg1, 1305)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1305), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1304)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1306)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1306))) < getGeneralRequirementAttribute(arg1, 1307)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1307), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1306)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1308)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1308))) < getGeneralRequirementAttribute(arg1, 1309)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1309), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1308)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1310)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1310))) < getGeneralRequirementAttribute(arg1, 1311)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1311), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1310)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 1312)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 1312))) < getGeneralRequirementAttribute(arg1, 1313)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1313), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 1312)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 2227)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 2227))) < getGeneralRequirementAttribute(arg1, 2228)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 2228), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 2227)));
+				}
+		}
+		switch (getGeneralRequirementAttribute(arg1, 2229)) {
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+				if (cs2method_10453(getDataByKey('i', 'S', 681, getGeneralRequirementAttribute(arg1, 2229))) < getGeneralRequirementAttribute(arg1, 2230)) {
+					return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 2230), (object)getDataByKey('i', 's', 108, getGeneralRequirementAttribute(arg1, 2229)));
+				}
+		}
+	} else {
+		if (getGeneralRequirementAttribute(arg1, 1294) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1295)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1295), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1296) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1297)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1297), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1298) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1299)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1299), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1300) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1301)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1301), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1302) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1303)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1303), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1304) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1305)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1305), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1306) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1307)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1307), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1308) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1309)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1309), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1310) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1311)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1311), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 1312) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 1313)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 1313), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 2227) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 2228)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 2228), (object)getDataByKey('S', 's', 680, arg0));
+		}
+		if (getGeneralRequirementAttribute(arg1, 2229) == getDataByKey('S', 'i', 1482, arg0) && cs2method_10453(arg0) < getGeneralRequirementAttribute(arg1, 2230)) {
+			return newstruct cs2func_script_5755_struct(getGeneralRequirementAttribute(arg1, 2230), (object)getDataByKey('S', 's', 680, arg0));
+		}
+	}
+	return newstruct cs2func_script_5755_struct(0, (object)"error");
+}

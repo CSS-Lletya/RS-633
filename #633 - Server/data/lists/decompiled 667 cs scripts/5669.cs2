@@ -1,0 +1,5 @@
+void script_5669() {
+	setWidgetRGB(14182671, 79560765);
+	setWidgetText(new WidgetPointer(1214,61), (object)("<u=d8690f>" + (string)cs2method_10222(cs2method_10100(79560765))));
+	return;
+}

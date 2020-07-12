@@ -1,0 +1,26 @@
+void script_2135(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	ivar3 = cs2method_10111(arg0);
+	ivar4 = cs2method_10826(arg0);
+	if (arg1 >= 0 && arg1 <= divide(cs2method_10956(arg0), 2)) {
+		ivar3 = subtract(ivar3, add(cs2method_10869(2), 2));
+	} else {
+		if (arg1 <= cs2method_10956(arg0)) {
+			ivar3 = add(add(ivar3, cs2method_10869(2)), 2);
+		}
+	}
+	if (arg2 >= 0 && arg2 <= divide(cs2method_10090(arg0), 2)) {
+		ivar4 = subtract(ivar4, add(cs2method_10869(2), 2));
+	} else {
+		if (arg2 <= cs2method_10090(arg0)) {
+			ivar4 = add(add(ivar4, cs2method_10869(2)), 2);
+		}
+	}
+	ivar3 = cs2method_10004(ivar3, 0);
+	ivar4 = cs2method_10004(ivar4, 0);
+	ivar3 = cs2method_10586(ivar3, subtract(cs2method_10956(cs2method_10740(arg0)), cs2method_10956(arg0)));
+	ivar4 = cs2method_10586(ivar4, subtract(cs2method_10090(cs2method_10740(arg0)), cs2method_10090(arg0)));
+	cs2method_10444(ivar3, ivar4, 0, 0, arg0);
+	return;
+}

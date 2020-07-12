@@ -1,0 +1,12 @@
+void script_1330() {
+	if (cs2method_10416(77332491) == 1) {
+		cs2method_10467(3302, 77332510);
+		setWidgetIsHidden(false, new WidgetPointer(1180,11));
+		globalint_1733 = 0;
+	} else {
+		cs2method_10467(3303, 77332510);
+		setWidgetIsHidden(true, new WidgetPointer(1180,11));
+		globalint_1733 = 1;
+	}
+	return;
+}

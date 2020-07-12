@@ -1,0 +1,23 @@
+void script_2176(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 12451843:
+		case 12451846:
+			if (globalint_692 == 1) {
+				ovar0 = (object)("Click to hide the quests you cannot start." + "<br>" + "<br>" + "Some recommended stats and abilities (such as combat levels) are left for you to decide.");
+			} else {
+				ovar0 = (object)"Click to show all quests regardless of requirements.";
+			}
+			break;
+		case 12451850:
+		case 12451847:
+			if (globalint_692 == 1) {
+				ovar0 = (object)"Click to hide the quests you have completed.";
+			} else {
+				ovar0 = (object)"Click to show all quests regardless of completion status.";
+			}
+	}
+	script_569(12451862, -1, 12451863, 25, 450, ovar0);
+	return;
+}

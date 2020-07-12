@@ -1,0 +1,60 @@
+void script_5521() {
+	script_5523();
+	if (bitconfig_10243 == 1 || bitconfig_10243 == 2 || bitconfig_10243 == 8 || bitconfig_10243 == 9) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"There has been a failure in validating your email. An internal error has occurred. Please try again later.");
+	} else if (bitconfig_10243 == 3) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"The email validation process will continue once we have ensured that your addresses are secure. To speed up this process, please submit codes from both of your email addresses.");
+	} else if (bitconfig_10243 == 4) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"The email validation process will continue once we have ensured that your addresses are secure. To speed up this process, please submit codes from both of your email addresses.");
+	} else if (bitconfig_10243 == 5 || bitconfig_10243 == 10 || bitconfig_10243 == 11) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"There has been a failure in validating your email. The submitted code was invalid. Please check and try again.");
+	} else if (bitconfig_10243 == 6) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"There has been a failure in validating your email. The submitted code has expired. Please re-register your email address.");
+	} else if (bitconfig_10243 == 7) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"There has been a failure in validating your email. The code has already been submitted. Please request a new code, or submit an unused code.");
+	} else if (bitconfig_10243 == 12) {
+		script_3062(59375655);
+	} else if (bitconfig_10243 == 13 || bitconfig_10243 == 14 || bitconfig_10243 == 16 || bitconfig_10243 == 17) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)("There has been a failure in setting your email address. An internal error has occurred. Please try again later." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 15) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)("There has been a failure in setting your email address. Your email address cannot be found in our database." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 18) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)("It has not been possible to validate your email address.  Please try again later." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 19 || bitconfig_10243 == 21) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)(" There has been a failure in setting your email address. You have provided an invalid address. Please re-enter it below." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 20) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)("There has been a failure in setting your email address.  The email addresses you have submitted do not match. Please enter your correct email address below." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 22) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"Your email address has been successfully set. Please leave this page open; an email has been sent to the address you provided. If you can't find it, check your 'junk' folder. To verify your address, you need to click on the link in the email.");
+	} else if (bitconfig_10243 == 23) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"You have successfully re-sent your email. Please leave this page open; an email has been sent to the address you provided. If you can't find it, check your 'junk' folder. To verify your address, you need to click on the link in the email.");
+	} else if (bitconfig_10243 == 24 || bitconfig_10243 == 26 || bitconfig_10243 == 27 || bitconfig_10243 == 30) {
+		script_5503();
+		setWidgetText(new WidgetPointer(906,299), (object)("Your validation email failed to send. An internal error has occurred. Please try again later." + "<br>" + "Please note that the email address used as the log-in name for your account will not change."));
+	} else if (bitconfig_10243 == 25) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"Your validation email failed to send. You do not have an eligible email address for the receipt of a re-sent validation code.");
+	} else if (bitconfig_10243 == 28) {
+		script_5519();
+		setWidgetText(new WidgetPointer(906,299), (object)"It has not been possible to validate your email address.  Please try again later.");
+	} else {
+		if (bitconfig_10243 == 29) {
+			script_5519();
+			setWidgetText(new WidgetPointer(906,299), (object)"Your validation email failed to send.  You have sent too many requests in a short period of time. Please try again later.");
+		}
+	}
+	return;
+}

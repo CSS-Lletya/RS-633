@@ -1,0 +1,17 @@
+void script_6286() {
+	if (globalint_1929 < 0) {
+		globalint_1929 = 0;
+	}
+	if (globalint_1929 == 0) {
+		globalint_1929 = 1;
+		setWidgetIsHidden(true, new WidgetPointer(1296,22));
+		setWidgetIsHidden(false, new WidgetPointer(1296,6));
+		cs2method_10444(120, 2, 2, 0, 84934679);
+	} else {
+		globalint_1929 = 0;
+		setWidgetIsHidden(false, new WidgetPointer(1296,22));
+		setWidgetIsHidden(true, new WidgetPointer(1296,6));
+		cs2method_10444(120, 60, 2, 0, 84934679);
+	}
+	return;
+}

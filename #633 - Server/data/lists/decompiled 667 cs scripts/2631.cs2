@@ -1,0 +1,8 @@
+void script_2631(int arg0,int arg1,int arg2) {
+	if (cs2method_10620(cs2method_10878(), 20) < 10) {
+		cs2method_10467(arg2, arg0);
+	} else {
+		cs2method_10467(arg1, arg0);
+	}
+	return;
+}

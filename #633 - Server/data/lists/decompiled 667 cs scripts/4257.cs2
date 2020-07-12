@@ -1,0 +1,10 @@
+void script_4257(int arg0) {
+	if (cs2method_10403(arg0) == 1) {
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetSize(16, 15, 0, 0);
+		cs2method_10469(5450);
+		cs2method_20115(29, "");
+		setWidgetContextMenuOption(1, (object)"Close");
+	}
+	return;
+}

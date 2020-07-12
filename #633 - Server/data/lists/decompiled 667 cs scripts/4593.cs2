@@ -1,0 +1,7 @@
+int script_4593(int arg0,object arg1) {
+	int ivar1;
+	ivar1 = add(multiply(getLineCount(cs2method_10956(arg0), 495, arg1), 15), 5);
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	setWidgetText(new WidgetPointer(arg0), arg1);
+	return ivar1;
+}

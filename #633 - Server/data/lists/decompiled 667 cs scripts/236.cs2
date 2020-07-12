@@ -1,0 +1,4 @@
+void script_236() {
+	requestOpenURL(0, (object)"bugtracker_v4", (object)"index.html");
+	return;
+}

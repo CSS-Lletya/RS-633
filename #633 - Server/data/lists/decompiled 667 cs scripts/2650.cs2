@@ -1,0 +1,9 @@
+void script_2650() {
+	int ivar0;
+	ivar0 = 1093;
+	if (cs2method_10855() == 1) {
+		ivar0 = 3872;
+	}
+	cs2method_10893(cs2method_10355(495, (object)(getDataByKey('i', 's', ivar0, standart_config_1442) + (string)cs2method_10758() + "<img=3>" + ":")), cs2method_10090(8978485), 0, 0, 8978485);
+	return;
+}

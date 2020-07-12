@@ -1,0 +1,33 @@
+int script_6178(int arg0,int arg1) {
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10711);
+	setWidgetPosition(0, 0, 0, 0);
+	setWidgetSize(277, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10712);
+	setWidgetPosition(0, 0, 2, 0);
+	setWidgetSize(278, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10713);
+	setWidgetPosition(0, 125, 0, 0);
+	setWidgetSize(277, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10714);
+	setWidgetPosition(0, 125, 2, 0);
+	setWidgetSize(278, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10715);
+	setWidgetPosition(0, 250, 0, 0);
+	setWidgetSize(277, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	createChildWidget(arg1, 5, arg0);
+	cs2method_10469(10716);
+	setWidgetPosition(0, 250, 2, 0);
+	setWidgetSize(278, 125, 0, 0);
+	arg0 = add(arg0, 1);
+	return arg0;
+}

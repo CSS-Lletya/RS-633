@@ -1,0 +1,60 @@
+void script_4230(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	if (arg0 < 1) {
+		cs2method_10461(20542, 32440322);
+		cs2method_10461(20542, 32440335);
+		cs2method_10461(20542, 32440348);
+		cs2method_10461(20542, 32440361);
+	} else {
+		cs2method_10461(20544, 32440322);
+		cs2method_10461(20544, 32440335);
+		cs2method_10461(20544, 32440348);
+		cs2method_10461(20544, 32440361);
+	}
+	if (arg1 < 1) {
+		cs2method_10461(20542, 32440323);
+		cs2method_10461(20542, 32440336);
+		cs2method_10461(20542, 32440349);
+		cs2method_10461(20542, 32440362);
+	} else {
+		cs2method_10461(20545, 32440323);
+		cs2method_10461(20545, 32440336);
+		cs2method_10461(20545, 32440349);
+		cs2method_10461(20545, 32440362);
+	}
+	if (arg2 < 1) {
+		cs2method_10461(20542, 32440324);
+		cs2method_10461(20542, 32440337);
+		cs2method_10461(20542, 32440350);
+		cs2method_10461(20542, 32440363);
+	} else {
+		cs2method_10461(20543, 32440324);
+		cs2method_10461(20543, 32440337);
+		cs2method_10461(20543, 32440350);
+		cs2method_10461(20543, 32440363);
+	}
+	if (arg4 != 10) {
+		cs2method_10461(20542, 32440373);
+	} else {
+		if (arg3 < 1) {
+			cs2method_10461(20542, 32440373);
+		}
+	}
+	setWidgetText(new WidgetPointer(495,57), (object)toString(arg0));
+	setWidgetText(new WidgetPointer(495,60), (object)toString(arg0));
+	setWidgetText(new WidgetPointer(495,63), (object)toString(arg0));
+	setWidgetText(new WidgetPointer(495,66), (object)toString(arg0));
+	setWidgetText(new WidgetPointer(495,58), (object)toString(arg1));
+	setWidgetText(new WidgetPointer(495,61), (object)toString(arg1));
+	setWidgetText(new WidgetPointer(495,64), (object)toString(arg1));
+	setWidgetText(new WidgetPointer(495,67), (object)toString(arg1));
+	setWidgetText(new WidgetPointer(495,59), (object)toString(arg2));
+	setWidgetText(new WidgetPointer(495,62), (object)toString(arg2));
+	setWidgetText(new WidgetPointer(495,65), (object)toString(arg2));
+	setWidgetText(new WidgetPointer(495,68), (object)toString(arg2));
+	if (arg4 != 10) {
+		setWidgetText(new WidgetPointer(495,69), (object)"0");
+	} else {
+		setWidgetText(new WidgetPointer(495,69), (object)toString(arg3));
+	}
+	return;
+}

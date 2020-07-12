@@ -1,0 +1,10 @@
+void script_2168() {
+	if (isMember() == 0) {
+		cs2method_10998((object)"More advanced sorting options are available on a members' world.");
+	} else {
+		if (standart_config_281 < 1000) {
+			cs2method_10998((object)"More advanced sorting options are available after the Tutorial.");
+		}
+	}
+	return;
+}

@@ -1,0 +1,28 @@
+int script_2445(int arg0,int arg1,int arg2,object arg3) {
+	int ivar3;
+	int ivar4;
+	ivar3 = cs2method_10956(2228233);
+	arg3 = cs2method_10991(script_2446(arg3));
+	createChildWidget(2228233, 4, arg1);
+	setWidgetPosition(0, add(multiply(arg0, 15), 5), 0, 0);
+	ivar4 = getLineCount(ivar3, 494, arg3);
+	setWidgetSize(0, multiply(ivar4, 14), 1, 0);
+	setWidgetRGB(new Color(arg2));
+	setWidgetText(arg3);
+	setWidgetFont(494);
+	setWidgetTextAlignment(0, 1, 14);
+	cs2method_10320(1);
+	cs2method_20857(2450, new WidgetPointer(-32768,3), -2147483643, -2147483646, "Iii");
+	cs2method_20191(2451, new WidgetPointer(-32768,6), "I");
+	if (standart_config_1439 == arg1) {
+		setWidgetContextMenuOption(1, (object)"Unselect");
+	} else {
+		setWidgetContextMenuOption(1, (object)"Select");
+	}
+	setWidgetContextMenuOption(2, (object)"Edit");
+	setWidgetContextMenuOption(3, (object)"Colour");
+	setWidgetContextMenuOption(4, (object)"Delete");
+	cs2method_20115(2448, -2147483644, arg1, "ii");
+	cs2method_10979(14);
+	return add(arg0, ivar4);
+}

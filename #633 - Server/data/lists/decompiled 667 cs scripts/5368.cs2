@@ -1,0 +1,10 @@
+void script_5368(int arg0) {
+	int ivar1;
+	globalint_1658 = add(globalint_1658, 1);
+	ivar1 = divide(multiply(globalint_1658, 255), globalint_1656);
+	ivar1 = cs2method_10586(255, cs2method_10004(0, ivar1));
+	if (cs2method_10551(62324760, arg0) == 1) {
+		cs2method_10305(ivar1);
+	}
+	return;
+}

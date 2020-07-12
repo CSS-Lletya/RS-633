@@ -1,0 +1,54 @@
+int script_6034() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int stack_dump0;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 1;
+	ivar3 = 1;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	while (ivar2 < 7) {
+		switch (ivar2) {
+			case 1:
+				ivar1 = bitconfig_9713;
+				break;
+			case 2:
+				ivar1 = bitconfig_9714;
+				break;
+			case 3:
+				ivar1 = bitconfig_9718;
+				break;
+			case 4:
+				ivar1 = bitconfig_9719;
+				break;
+			case 5:
+				ivar1 = bitconfig_9720;
+				break;
+			case 6:
+				ivar1 = bitconfig_9721;
+		}
+		while (ivar3 != 100 && ivar6 == 0) {
+			ivar5 = getDataByKey('i', 'i', 5034, ivar3);
+			if (ivar1 >= ivar5) {
+				ivar4 = ivar3;
+			} else {
+				ivar6 = 1;
+			}
+			ivar3 = add(ivar3, 1);
+		}
+		ivar2 = add(ivar2, 1);
+		ivar0 = add(ivar0, ivar4);
+		stack_dump0 = 0;
+		ivar3 = 1;
+		ivar4 = stack_dump0;
+		ivar6 = 0;
+	}
+	return ivar0;
+}

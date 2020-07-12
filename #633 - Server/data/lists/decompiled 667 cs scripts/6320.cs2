@@ -1,0 +1,5 @@
+void script_6320() {
+	cs2method_10677(16413, 1, 0, 100);
+	script_6322(1, 0);
+	return;
+}

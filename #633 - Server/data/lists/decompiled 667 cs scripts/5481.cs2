@@ -1,0 +1,23 @@
+int script_5481() {
+	if (bitconfig_4540 == 2 || bitconfig_4540 == 3) {
+		return 1;
+	}
+	if (bitconfig_5493 != 0) {
+		return 1;
+	}
+	switch (getItemIdInContainerSlot(94, 1)) {
+		case 15446:
+		case 15447:
+		case 15445:
+		case 15448:
+		case 15449:
+			return 1;
+	}
+	if (bitconfig_10131 == 1) {
+		return 1;
+	}
+	if (globalint_186 == 1) {
+		return 1;
+	}
+	return 0;
+}

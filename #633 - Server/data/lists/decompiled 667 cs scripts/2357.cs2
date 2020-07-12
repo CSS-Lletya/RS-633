@@ -1,0 +1,18 @@
+void script_2357(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	cs2method_10928(arg0);
+	if (standart_config_1893 == -1) {
+		return;
+	}
+	ivar1 = (int)getDataByKey('I', 'I', 1592, standart_config_1893);
+	ivar2 = cs2method_10111(arg0);
+	ivar3 = cs2method_10826(arg0);
+	if (arg0 == 69009490) {
+		ivar2 = subtract(add(ivar2, divide(cs2method_10956(arg0), 2)), divide(cs2method_10956(ivar1), 2));
+		ivar3 = subtract(add(ivar3, divide(cs2method_10090(arg0), 2)), divide(cs2method_10090(ivar1), 2));
+	}
+	cs2method_10444(ivar2, ivar3, 0, 0, ivar1);
+	return;
+}

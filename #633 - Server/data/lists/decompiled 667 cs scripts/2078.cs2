@@ -1,0 +1,11 @@
+void script_2078() {
+	int ivar0;
+	ivar0 = 0;
+	ivar0 = subtract(20, globalint_636);
+	if (ivar0 == 1) {
+		setWidgetText(new WidgetPointer(836,27), (object)(toString(ivar0) + " min"));
+	} else {
+		setWidgetText(new WidgetPointer(836,27), (object)(toString(ivar0) + " mins"));
+	}
+	return;
+}

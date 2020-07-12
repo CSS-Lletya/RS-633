@@ -1,0 +1,11 @@
+void script_3408(int arg0,object arg1) {
+	object ovar1;
+	object ovar2;
+	ovar1 = (object)("<u=88ffff>" + (string)arg1 + "</u>");
+	ovar2 = (object)("<u=64c8fa>" + (string)arg1 + "</u>");
+	cs2method_10375(1, arg0, (object)"Open link");
+	cs2method_10811(1, 146, arg0);
+	cs2method_20333(2381, new WidgetPointer(arg0), 8978431, (string)ovar1, "Iis", new WidgetPointer(arg0));
+	cs2method_20295(2381, new WidgetPointer(arg0), 6605050, (string)ovar2, "Iis", new WidgetPointer(arg0));
+	return;
+}

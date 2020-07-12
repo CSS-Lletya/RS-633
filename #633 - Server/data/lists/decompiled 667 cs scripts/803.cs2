@@ -1,0 +1,146 @@
+void script_803() {
+	object ovar0;
+	ovar0 = (object)getDataByKey('i', 's', 1711, bitconfig_5145);
+	switch (bitconfig_5145) {
+		case 1:
+			setWidgetIsHidden(false, new WidgetPointer(575,17));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 130, "IIsii", new WidgetPointer(575,17));
+			break;
+		case 2:
+			setWidgetIsHidden(false, new WidgetPointer(575,18));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 160, "IIsii", new WidgetPointer(575,18));
+			break;
+		case 3:
+			setWidgetIsHidden(false, new WidgetPointer(575,19));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,19));
+			break;
+		case 4:
+			setWidgetIsHidden(false, new WidgetPointer(575,20));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,20));
+			break;
+		case 5:
+			setWidgetIsHidden(false, new WidgetPointer(575,21));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,21));
+			break;
+		case 6:
+			setWidgetIsHidden(false, new WidgetPointer(575,22));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,22));
+			break;
+		case 7:
+			setWidgetIsHidden(false, new WidgetPointer(575,23));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,23));
+			break;
+		case 8:
+			setWidgetIsHidden(false, new WidgetPointer(575,24));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,24));
+			break;
+		case 9:
+			setWidgetIsHidden(false, new WidgetPointer(575,25));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,25));
+			break;
+		case 10:
+			setWidgetIsHidden(false, new WidgetPointer(575,26));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,26));
+			break;
+		case 11:
+			setWidgetIsHidden(false, new WidgetPointer(575,27));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,27));
+			break;
+		case 12:
+			setWidgetIsHidden(false, new WidgetPointer(575,28));
+			cs2method_20835(38, new WidgetPointer(-32768,3), new WidgetPointer(575,2), (string)ovar0, 25, 200, "IIsii", new WidgetPointer(575,28));
+			break;
+		default:
+			return;
+	}
+	globalint_2 = 0;
+	switch (bitconfig_5145) {
+		case 1:
+			if (bitconfig_5168 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 2:
+			if (bitconfig_5169 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 3:
+			if (bitconfig_5170 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 4:
+			if (bitconfig_5171 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 5:
+			if (bitconfig_5172 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 6:
+			if (bitconfig_5173 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 7:
+			if (bitconfig_5174 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 8:
+			if (bitconfig_5175 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 9:
+			if (bitconfig_5176 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 10:
+			if (bitconfig_5177 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 11:
+			if (bitconfig_5178 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		case 12:
+			if (bitconfig_5179 == 1) {
+				script_804();
+			} else {
+				script_813(bitconfig_5145);
+			}
+			break;
+		default:
+			return;
+	}
+	return;
+}

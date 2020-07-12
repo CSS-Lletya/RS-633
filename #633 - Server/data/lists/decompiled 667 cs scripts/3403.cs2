@@ -1,0 +1,24 @@
+void script_3403(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = subtract(subtract(subtract(subtract(cs2method_10090(59572237), cs2method_10826(59572285)), 35), arg0), 7);
+	if (arg1 == 1) {
+		ivar2 = subtract(ivar2, cs2method_10620(ivar2, 15));
+	}
+	if (ivar2 < 113) {
+		ivar2 = 113;
+	}
+	cs2method_10893(20, ivar2, 1, 0, 59572273);
+	globalint_1274 = arg0;
+	cs2method_10444(0, subtract(subtract(cs2method_10826(59572273), cs2method_10826(59572285)), 7), 0, 0, 59572286);
+	ivar3 = subtract(ivar2, 8);
+	ivar3 = subtract(ivar3, cs2method_10620(ivar3, 15));
+	cs2method_10893(cs2method_10956(59572276), ivar3, 0, 0, 59572276);
+	globalint_1122 = subtract(globalint_1122, subtract(ivar3, ivar3));
+	script_3054(59572273);
+	cs2method_10893(cs2method_10956(59572240), add(ivar2, 86), 0, 1, 59572240);
+	cs2method_10893(cs2method_10956(59572272), add(ivar2, 86), 0, 1, 59572272);
+	script_3029(59572269, 59572268, 59572270, 59572266, 59572265, 59572271);
+	script_3041(59572311, 59572310, 59572308, 59572302, 59572303);
+	return;
+}

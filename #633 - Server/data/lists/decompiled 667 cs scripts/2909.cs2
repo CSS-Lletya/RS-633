@@ -1,0 +1,10 @@
+void script_2909(int arg0,int arg1) {
+	if (bitconfig_7191 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+	} else if (bitconfig_7191 < 5) {
+		setWidgetText(new WidgetPointer(arg1), (object)("<lt>" + "1 min"));
+	} else {
+		setWidgetText(new WidgetPointer(arg1), (object)(toString(divide(add(bitconfig_7191, 4), 5)) + " min"));
+	}
+	return;
+}

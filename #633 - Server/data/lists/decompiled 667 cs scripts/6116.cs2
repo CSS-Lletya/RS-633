@@ -1,0 +1,18 @@
+void script_6116(int arg0,int arg1,int arg2) {
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	switch (globalint_1884) {
+		case 0:
+			cs2method_10444(16383, cs2method_10826(arg0), 5, 0, arg0);
+			break;
+		case 1:
+			cs2method_10444(cs2method_10111(arg0), 16383, 0, 5, arg0);
+			break;
+		case 2:
+			cs2method_10444(16383, cs2method_10826(arg0), 3, 0, arg0);
+			break;
+		case 3:
+			cs2method_10444(cs2method_10111(arg0), 16383, 0, 3, arg0);
+	}
+	cs2method_20219(6117, new WidgetPointer(-32768,3), arg1, 0, arg2, 0, "Iiiii", new WidgetPointer(arg0));
+	return;
+}

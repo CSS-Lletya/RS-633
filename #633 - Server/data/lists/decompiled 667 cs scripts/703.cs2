@@ -1,0 +1,13 @@
+void script_703(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	ivar4 = 0;
+	ivar5 = 0;
+	if (cs2method_10551(arg0, arg1) == 1 && cs2method_10551(arg2, arg3) == 1) {
+		ivar4 = cs2method_10646();
+		ivar5 = cs2method_10207();
+		setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+		setWidgetPosition(ivar4, ivar5, 0, 0);
+	}
+	return;
+}

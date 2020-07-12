@@ -1,0 +1,17 @@
+void script_5376() {
+	int ivar0;
+	ivar0 = 0;
+	while (ivar0 < 8) {
+		if (cs2method_10551(62324760, add(multiply(ivar0, 6), 3)) == 1) {
+			cs2method_20745(-1, "");
+		}
+		if (cs2method_10551(62324760, add(multiply(ivar0, 6), 4)) == 1) {
+			cs2method_20745(-1, "");
+		}
+		if (cs2method_10551(62324760, add(multiply(ivar0, 6), 5)) == 1) {
+			cs2method_20745(-1, "");
+		}
+		ivar0 = add(ivar0, 1);
+	}
+	return;
+}

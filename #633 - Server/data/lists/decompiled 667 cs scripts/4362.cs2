@@ -1,0 +1,27 @@
+void script_4362(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8,int arg9,int arg10,int arg11,long arg12) {
+	int ivar12;
+	object ovar0;
+	if (arg9 == 0 || arg8 == 0 || arg6 == 0) {
+		cs2method_10467(5936, arg2);
+		return;
+	}
+	ivar12 = getDataByKey('i', 'g', 3689, arg6);
+	ovar0 = (object)((string)cs2method_10940(arg4) + " at " + getDataByKey('i', 's', 3695, arg5));
+	if (clanbitconfig_5 == 0) {
+		ovar0 = (object)((string)ovar0 + " Game Time");
+	} else {
+		ovar0 = (object)((string)ovar0 + " Clan Local Time");
+	}
+	ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "World " + toString(arg9) + " at " + "<br>" + getDataByKey('i', 's', 3696, arg8) + "<br>" + "<br>" + getDataByKey('i', 's', 3687, arg6));
+	if (ivar12 != -1 && arg7 > 0) {
+		ovar0 = (object)((string)ovar0 + "<br>" + getDataByKey('i', 's', ivar12, arg7));
+	}
+	ovar0 = (object)((string)ovar0 + "<br>" + "<br>" + "Open to " + getDataByKey('i', 's', 3716, arg10));
+	if (arg11 == 1) {
+		ovar0 = (object)((string)ovar0 + "<br>" + "Attendance is mandatory");
+	}
+	cs2method_20000(4363, arg0, (string)ovar0, arg12, new WidgetPointer(arg2), arg4, arg5, arg9, arg8, arg6, "is\u00a7Iiiiii", new WidgetPointer(arg1));
+	cs2method_10467(getDataByKey('i', 'd', 3688, arg6), arg3);
+	cs2method_10467(5932, arg2);
+	return;
+}

@@ -1,0 +1,16 @@
+void script_4703() {
+	setWidgetIsHidden(true, new WidgetPointer(744,103));
+	cs2method_10467(4129, 48758881);
+	globalint_1100 = -1;
+	script_2954();
+	cs2method_10732();
+	setWidgetText(new WidgetPointer(975,49), (object)"Play Game");
+	setWidgetText(new WidgetPointer(596,58), (object)"Play Game");
+	setWidgetText(new WidgetPointer(975,48), (object)"Play Game");
+	setWidgetText(new WidgetPointer(596,57), (object)"Play Game");
+	setScriptCallOnMousePressed(2944, "", new WidgetPointer(975,44));
+	setScriptCallOnMousePressed(2944, "", new WidgetPointer(596,44));
+	cs2method_20219(-1, "", new WidgetPointer(975,26));
+	cs2method_20219(-1, "", new WidgetPointer(596,6));
+	return;
+}

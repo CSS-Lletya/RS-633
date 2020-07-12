@@ -1,0 +1,12 @@
+void script_1043(int arg0,int arg1) {
+	if (cs2method_10551(arg1, arg0) == 1) {
+		globalint_128 = subtract(arg0, 1);
+		if (cs2method_10551(arg1, 0) == 1) {
+			setWidgetPosition(cs2method_10646(), cs2method_10207(), 0, 0);
+			setWidgetSize(cs2method_10040(), cs2method_10630(), 0, 0);
+			setWidgetRGB(new Color(87, 126, 69));
+			setWidgetFilled(1);
+		}
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+void script_5882() {
+	if (globalint_1784 == 1) {
+		return;
+	}
+	if (bitconfig_10861 > 0) {
+		return;
+	}
+	cs2method_10677(16422, 1, 0, 255);
+	globalint_1784 = 1;
+	script_5916();
+	return;
+}

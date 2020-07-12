@@ -1,0 +1,7 @@
+void script_2243(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7,int arg8) {
+	setWidgetText(new WidgetPointer(935,80), (object)toString(arg6));
+	setWidgetText(new WidgetPointer(935,85), (object)toString(arg7));
+	setWidgetText(new WidgetPointer(935,101), (object)(toString(divide(arg8, 100)) + "." + toString(cs2method_10620(arg8, 100))));
+	cs2method_20219(2244, 0, arg0, arg1, 0, arg2, arg3, 0, arg4, arg5, arg6, arg7, arg8, "iiiiiiiiiiii", new WidgetPointer(935,0));
+	return;
+}

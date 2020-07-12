@@ -1,0 +1,6 @@
+void script_4600(int arg0,object arg1) {
+	if (arg0 == 10) {
+		cs2method_10986(27, 0, arg1);
+	}
+	return;
+}

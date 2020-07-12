@@ -1,0 +1,132 @@
+int script_6268(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	switch (arg0) {
+		case 0:
+			ivar1 = 82116627;
+			break;
+		case 1:
+			ivar1 = 82116628;
+			break;
+		case 2:
+			ivar1 = 82116629;
+			break;
+		case 3:
+			ivar1 = 82116635;
+			break;
+		case 4:
+			ivar1 = 82116662;
+			break;
+		case 5:
+			ivar1 = 82116663;
+			break;
+		case 6:
+			ivar1 = 82116664;
+			break;
+		case 7:
+			ivar1 = 82116665;
+			break;
+		case 8:
+			ivar1 = 82116666;
+			break;
+		case 9:
+			ivar1 = 82116667;
+			break;
+		case 10:
+			ivar1 = 82116668;
+			break;
+		case 11:
+			ivar1 = 82116669;
+			break;
+		case 12:
+			ivar1 = 82116670;
+			break;
+		case 13:
+			ivar1 = 82116671;
+			break;
+		case 14:
+			ivar1 = 82116672;
+			break;
+		case 15:
+			ivar1 = 82116673;
+			break;
+		case 16:
+			ivar1 = 82116674;
+			break;
+		case 17:
+			ivar1 = 82116675;
+			break;
+		case 18:
+			ivar1 = 82116676;
+			break;
+		case 19:
+			ivar1 = 82116677;
+			break;
+		case 20:
+			ivar1 = 82116678;
+			break;
+		case 21:
+			ivar1 = 82116645;
+			break;
+		case 22:
+			ivar1 = 82116686;
+			break;
+		case 23:
+			ivar1 = 82116699;
+			break;
+		case 24:
+			ivar1 = 82116620;
+			break;
+		case 25:
+			ivar1 = 82116690;
+			break;
+		case 26:
+			ivar1 = 82116717;
+			break;
+		case 27:
+			ivar1 = 82116721;
+			break;
+		case 28:
+			ivar1 = 82116725;
+			break;
+		case 29:
+			ivar1 = 82116729;
+			break;
+		case 30:
+			ivar1 = 82116733;
+			break;
+		case 31:
+			ivar1 = 82116736;
+			break;
+		case 32:
+			ivar1 = 82116740;
+			break;
+		case 33:
+			ivar1 = 82116744;
+			break;
+		case 34:
+			ivar1 = 82116748;
+			break;
+		case 35:
+			ivar1 = 82116752;
+			break;
+		case 36:
+			ivar1 = 82116756;
+			break;
+		case 37:
+			ivar1 = 82116763;
+			break;
+		case 38:
+			ivar1 = 82116766;
+			break;
+		case 39:
+			ivar1 = 82116616;
+			break;
+		case 40:
+			ivar1 = 82116679;
+			break;
+		case 41:
+			ivar1 = 82116701;
+	}
+	return ivar1;
+}

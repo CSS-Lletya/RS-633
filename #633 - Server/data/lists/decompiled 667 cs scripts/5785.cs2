@@ -1,0 +1,30 @@
+void script_5785(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar1 = 98;
+	ivar2 = script_5795(arg0);
+	if (ivar2 == -1) {
+		return;
+	}
+	script_5796(arg0, 0, 80216070, 80216069, 80216065, -1, -1, -1);
+	ovar0 = (object)getGeneralRequirementAttribute(ivar2, 2225);
+	ivar3 = multiply(15, getLineCount(144, 3793, ovar0));
+	setWidgetText(new WidgetPointer(1224,0), ovar0);
+	cs2method_10893(cs2method_10956(80216066), cs2method_10586(ivar3, ivar1), 0, 0, 80216066);
+	if (ivar3 < ivar1) {
+		setWidgetIsHidden(true, new WidgetPointer(1224,4));
+		cs2method_10893(3, 0, 1, 1, 80216067);
+	} else {
+		ivar3 = add(ivar3, 5);
+		setWidgetScrollMax(0, cs2method_10004(ivar3, cs2method_10090(80216067)), 80216067);
+		cs2method_10085(0, 0, 80216067);
+		cs2method_10893(add(cs2method_10956(80216068), 4), 0, 1, 1, 80216067);
+		setWidgetIsHidden(false, new WidgetPointer(1224,4));
+		script_31(80216068, 80216067, 5666, 5663, 5664, 5665, 5686, 5685);
+	}
+	cs2method_10893(cs2method_10956(80216071), cs2method_10586(261, add(ivar3, 155)), 0, 0, 80216071);
+	cs2method_10893(190, 261, 0, 0, 48889865);
+	return;
+}

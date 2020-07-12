@@ -1,0 +1,147 @@
+void script_5275(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	cs2func_script_788_struct(2,0,0) structdump_3;
+	cs2func_script_788_struct(2,0,0) structdump_4;
+	ivar1 = 0;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = 1;
+	ovar0 = (object)"";
+	ivar5 = -1;
+	ivar6 = -1;
+	ivar7 = -1;
+	ivar8 = -1;
+	switch (bitconfig_9828) {
+		case 0:
+			return;
+		case 1:
+			ivar5 = 52948;
+			ivar6 = 808;
+			ivar7 = 5138;
+			ivar8 = 5139;
+			break;
+		case 2:
+			ivar5 = 52954;
+			ivar6 = 808;
+			ivar7 = 5134;
+			ivar8 = 5135;
+			break;
+		case 3:
+			ivar5 = 52984;
+			ivar6 = 808;
+			ivar7 = 5136;
+			ivar8 = 5137;
+	}
+	clearExtraChildren(new WidgetPointer(1138,31));
+	createChildWidget(74579999, 6, cs2method_10860(74579999));
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10272(ivar5);
+	cs2method_10021(0, 125, 0, 0, 0, 375);
+	cs2method_10451(ivar6);
+	script_2647(74579999);
+	clearExtraChildren(new WidgetPointer(1138,33));
+	while (ivar1 < cs2method_10594(94)) {
+		ivar4 = 1;
+		switch (ivar1) {
+			case 0:
+				ivar2 = 74580002;
+				break;
+			case 1:
+				ivar2 = 74580004;
+				break;
+			case 2:
+				ivar2 = 74580005;
+				break;
+			case 3:
+				ivar2 = 74580007;
+				break;
+			case 4:
+				ivar2 = 74580008;
+				break;
+			case 5:
+				ivar2 = 74580009;
+				break;
+			case 7:
+				ivar2 = 74580010;
+				break;
+			case 9:
+				ivar2 = 74580012;
+				break;
+			case 10:
+				ivar2 = 74580011;
+				break;
+			case 12:
+				ivar2 = 74580013;
+				break;
+			case 13:
+				ivar2 = 74580006;
+				ivar4 = 900;
+				break;
+			case 14:
+				ivar2 = 74580003;
+				break;
+			default:
+				ivar2 = -1;
+		}
+		createChildWidget(74580001, 5, ivar1);
+		if (ivar2 != -1) {
+			ivar3 = getDataByKey('i', 'o', ivar8, ivar1);
+			if (ivar3 != -1) {
+				setWidgetSize(36, 32, 0, 0);
+				stack_dump0 = ivar2;
+				stack_dump1 = 2;
+				stack_dump2 = 2;
+				structdump_3 = script_788(stack_dump0, stack_dump1, stack_dump2);
+				setWidgetPosition(structdump_3.intpart_0, structdump_3.intpart_1, 0, 0);
+				setItemOnWidget_10672(ivar3, ivar4);
+				cs2method_11002(cs2method_10445((object)"<col=ff9040>", getItemName(ivar3)));
+				setWidgetContextMenuOption(1, (object)"Information");
+				cs2method_10167(3153952);
+				cs2method_10253(1);
+				cs2method_20115(1620, new WidgetPointer(-32768,3), -2147483643, 100, 0, 8, "Iiiii");
+			} else {
+				setWidgetSize(32, 32, 0, 0);
+				stack_dump0 = ivar2;
+				stack_dump1 = 2;
+				stack_dump2 = 2;
+				structdump_4 = script_788(stack_dump0, stack_dump1, stack_dump2);
+				setWidgetPosition(structdump_4.intpart_0, structdump_4.intpart_1, 0, 0);
+				cs2method_10469(getDataByKey('i', 'd', 796, ivar1));
+			}
+		} else {
+			cs2method_10692(1);
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	setWidgetText(new WidgetPointer(1138,50), cs2method_10588(getDataByKey('i', 'i', ivar7, 0), (object)"Stab: "));
+	setWidgetText(new WidgetPointer(1138,51), cs2method_10588(getDataByKey('i', 'i', ivar7, 1), (object)"Slash: "));
+	setWidgetText(new WidgetPointer(1138,52), cs2method_10588(getDataByKey('i', 'i', ivar7, 2), (object)"Crush: "));
+	setWidgetText(new WidgetPointer(1138,53), cs2method_10588(getDataByKey('i', 'i', ivar7, 3), (object)"Magic: "));
+	setWidgetText(new WidgetPointer(1138,54), cs2method_10588(getDataByKey('i', 'i', ivar7, 4), (object)"Ranged: "));
+	setWidgetText(new WidgetPointer(1138,55), cs2method_10588(getDataByKey('i', 'i', ivar7, 5), (object)"Stab: "));
+	setWidgetText(new WidgetPointer(1138,56), cs2method_10588(getDataByKey('i', 'i', ivar7, 6), (object)"Slash: "));
+	setWidgetText(new WidgetPointer(1138,57), cs2method_10588(getDataByKey('i', 'i', ivar7, 7), (object)"Crush: "));
+	setWidgetText(new WidgetPointer(1138,59), cs2method_10588(getDataByKey('i', 'i', ivar7, 9), (object)"Ranged: "));
+	setWidgetText(new WidgetPointer(1138,60), cs2method_10588(getDataByKey('i', 'i', ivar7, 10), (object)"Summoning: "));
+	setWidgetText(new WidgetPointer(1138,58), cs2method_10588(getDataByKey('i', 'i', ivar7, 8), (object)"Magic: "));
+	setWidgetText(new WidgetPointer(1138,61), cs2method_10445(cs2method_10588(getDataByKey('i', 'i', ivar7, 11), (object)"Absorb Melee: "), (object)"%"));
+	setWidgetText(new WidgetPointer(1138,62), cs2method_10445(cs2method_10588(getDataByKey('i', 'i', ivar7, 12), (object)"Absorb Magic: "), (object)"%"));
+	setWidgetText(new WidgetPointer(1138,63), cs2method_10445(cs2method_10588(getDataByKey('i', 'i', ivar7, 13), (object)"Absorb Ranged: "), (object)"%"));
+	setWidgetText(new WidgetPointer(1138,64), cs2method_10588(getDataByKey('i', 'i', ivar7, 14), (object)"Strength: "));
+	setWidgetText(new WidgetPointer(1138,65), cs2method_10588(getDataByKey('i', 'i', ivar7, 15), (object)"Ranged Strength: "));
+	setWidgetText(new WidgetPointer(1138,66), cs2method_10588(getDataByKey('i', 'i', ivar7, 16), (object)"Prayer: "));
+	setWidgetText(new WidgetPointer(1138,67), cs2method_10445(cs2method_10588(getDataByKey('i', 'i', ivar7, 17), (object)"Magic Damage: "), (object)"%"));
+	return;
+}

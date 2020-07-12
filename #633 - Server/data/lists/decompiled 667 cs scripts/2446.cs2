@@ -1,0 +1,56 @@
+object script_2446(object arg0) {
+	object ovar1;
+	ovar1 = lower(arg0);
+	if (compareTo(ovar1, (object)"all your base are belong to us") == 0) {
+		return "orly?";
+	}
+	if (compareTo(ovar1, (object)"orly") == 0) {
+		return "yarly";
+	}
+	if (compareTo(ovar1, (object)"bangin'") == 0) {
+		return "donk";
+	}
+	if (compareTo(ovar1, (object)"murder") == 0 || compareTo(ovar1, (object)"redrum") == 0) {
+		return "All rest and no play makes Guthix a dull boy.";
+	}
+	if (compareTo(ovar1, (object)"humperdinck") == 0 || compareTo(ovar1, (object)"humperdink") == 0) {
+		return "Have fun storming the castle!";
+	}
+	if (compareTo(ovar1, (object)"i am your father") == 0) {
+		return "Nooooooooooooooooooooooooo!";
+	}
+	if (compareTo(ovar1, (object)"i'll be back") == 0) {
+		return "Come with me if you want to live.";
+	}
+	if (compareTo(ovar1, (object)"there is no spoon") == 0) {
+		return "Then you will see, it is not the spoon that bends, it is only yourself.";
+	}
+	if (compareTo(ovar1, (object)"milton waddams") == 0) {
+		return "The ratio of people to cake is too big.";
+	}
+	if (compareTo(ovar1, (object)"you fight like a dairy farmer") == 0) {
+		return "How appropriate. You fight like a cow.";
+	}
+	if (compareTo(ovar1, (object)"finish the fight") == 0) {
+		return "They must love the smell of hero.";
+	}
+	if (compareTo(ovar1, (object)"r.i.p. runescape") == 0) {
+		return "Wanna bet?";
+	}
+	if (compareTo(ovar1, (object)"penso, logo existo") == 0) {
+		return "Borboletas salpicadas de goiabada...";
+	}
+	if (compareTo(ovar1, (object)"le temps passe") == 0) {
+		return "L'\u0153uf dur.";
+	}
+	if (compareTo(ovar1, (object)"paul") == 0) {
+		return "Rargh, I'm a lava monster!";
+	}
+	if (compareTo(ovar1, (object)"andrew") == 0) {
+		return "Cabbage.";
+	}
+	if (compareTo(ovar1, (object)"sevga") == 0) {
+		return "Marmaros had a close encounter with a prayer-eating behemoth.";
+	}
+	return arg0;
+}

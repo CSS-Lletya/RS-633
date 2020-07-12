@@ -1,0 +1,42 @@
+int script_5932(int arg0) {
+	if (arg0 >= 0 && arg0 < 15) {
+		return 0;
+	}
+	if (arg0 >= 15 && arg0 < 50) {
+		return 1;
+	}
+	if (arg0 >= 50 && arg0 < 79) {
+		return 2;
+	}
+	if (arg0 >= 79 && arg0 < 114) {
+		return 3;
+	}
+	if (arg0 >= 114 && arg0 < 130) {
+		return 4;
+	}
+	if (arg0 >= 130 && arg0 < 166) {
+		return 5;
+	}
+	if (arg0 >= 166 && arg0 < 188) {
+		return 6;
+	}
+	if (arg0 >= 188 && arg0 < 222) {
+		return 7;
+	}
+	if (arg0 >= 222 && arg0 < 239) {
+		return 8;
+	}
+	if (arg0 >= 239 && arg0 < 272) {
+		return 9;
+	}
+	if (arg0 >= 272 && arg0 < 303) {
+		return 10;
+	}
+	if (arg0 >= 303 && arg0 < 322) {
+		return 11;
+	}
+	if (arg0 >= 322 && arg0 <= 359) {
+		return 12;
+	}
+	return -1;
+}

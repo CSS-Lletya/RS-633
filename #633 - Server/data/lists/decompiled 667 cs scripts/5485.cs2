@@ -1,0 +1,4 @@
+void script_5485(int arg0,int arg1,object arg2) {
+	script_5335(arg0, -1, arg1, 25, 190, 1, arg2);
+	return;
+}

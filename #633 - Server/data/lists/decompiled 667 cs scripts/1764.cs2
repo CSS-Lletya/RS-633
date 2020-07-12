@@ -1,0 +1,24 @@
+void script_1764(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = subtract(cs2method_10956(arg0), cs2method_10956(arg1));
+	arg2 = cs2method_10004(arg2, 0);
+	arg2 = cs2method_10586(arg2, ivar4);
+	switch (arg3) {
+		case 0:
+			cs2method_10734(cs2method_10542(arg2, ivar4, 255));
+			script_1159();
+			break;
+		case 1:
+			cs2method_10499(cs2method_10542(arg2, ivar4, 127));
+			script_1165();
+			break;
+		case 2:
+			cs2method_10510(cs2method_10542(arg2, ivar4, 127));
+			script_1162();
+			break;
+		case 3:
+			cs2method_10750(cs2method_10542(arg2, ivar4, 127));
+			script_5873();
+	}
+	return;
+}

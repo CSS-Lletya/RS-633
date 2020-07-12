@@ -1,0 +1,30 @@
+void script_1806(object arg0) {
+	int ivar0;
+	script_1548(12);
+	arg0 = lower(cs2method_10222(arg0));
+	ivar0 = cs2method_10366(arg0);
+	arg0 = script_2332(arg0, (object)"_", (object)"\u00a0");
+	arg0 = script_2332(arg0, (object)" ", (object)"\u00a0");
+	while (cs2method_10339(0, arg0, (object)" ") == 0 && ivar0 > 0) {
+		arg0 = cs2method_10547(1, ivar0, arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	while (cs2method_10339(subtract(ivar0, 1), arg0, (object)" ") == subtract(ivar0, 1) && ivar0 > 0) {
+		arg0 = cs2method_10547(0, subtract(ivar0, 1), arg0);
+		ivar0 = cs2method_10366(arg0);
+	}
+	if (compareTo((object)globalstring_38, arg0) == 0) {
+		cs2method_10998((object)"Caller not changed.");
+		return;
+	}
+	globalstring_38 = (string)arg0;
+	if (cs2method_10366((object)globalstring_38) > 0) {
+		cs2method_10998((object)("Caller set: " + (string)script_1814((object)globalstring_38)));
+	} else {
+		cs2method_10998((object)"Caller feature disabled.");
+	}
+	script_1809(17367062, 17367064, 17367065);
+	script_1809(51707918, 51707920, 51707921);
+	script_1809(72876037, 72876039, 72876040);
+	return;
+}

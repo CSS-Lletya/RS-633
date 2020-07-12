@@ -1,0 +1,12 @@
+void script_3370(int arg0,int arg1) {
+	if (cs2method_10551(79691779, arg0) == 1) {
+		if (cs2method_10878() > add(arg1, 50)) {
+			setWidgetPosition(cs2method_10646(), cs2method_10004(subtract(cs2method_10207(), 2), 0), 0, 0);
+			cs2method_10305(cs2method_10586(255, add(cs2method_10354(), 7)));
+		}
+		if (cs2method_10354() >= 255) {
+			cs2method_10714();
+		}
+	}
+	return;
+}

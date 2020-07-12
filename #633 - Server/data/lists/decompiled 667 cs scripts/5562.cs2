@@ -1,0 +1,19 @@
+void script_5562(int arg0) {
+	int ivar1;
+	ivar1 = subtract(subtract(cs2method_10878(), arg0), 50);
+	if (ivar1 > 0) {
+		ivar1 = 0;
+	}
+	cs2method_10444(ivar1, 0, 2, 0, 48890068);
+	cs2method_10444(ivar1, 0, 2, 0, 35913933);
+	if (cs2method_10878() < add(arg0, 150)) {
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(746,211));
+	setWidgetIsHidden(true, new WidgetPointer(548,204));
+	cs2method_10444(-50, 0, 2, 0, 48890068);
+	cs2method_10444(-50, 0, 2, 0, 35913933);
+	cs2method_20219(-1, "", new WidgetPointer(746,211));
+	cs2method_20219(-1, "", new WidgetPointer(548,204));
+	return;
+}

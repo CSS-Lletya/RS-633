@@ -1,0 +1,84 @@
+void script_4832(int arg0,int arg1) {
+	script_4834(arg0);
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (cs2method_10119() == 6009) {
+			switch (bitconfig_9558) {
+				flow_3:
+					case 1:
+					switch (arg0) {
+						case 82444572:
+						case 82444714:
+						case 82444646:
+							bitconfig_9567 = add(1, arg1);
+							break;
+						case 82444632:
+						case 82444556:
+						case 82444702:
+							bitconfig_9568 = add(1, arg1);
+							break;
+						case 82444618:
+						case 82444690:
+						case 82444540:
+							bitconfig_9569 = add(1, arg1);
+					}
+					break;
+					case 2:
+					switch (arg0) {
+						case 82444572:
+						case 82444714:
+						case 82444646:
+							bitconfig_9576 = add(1, arg1);
+							break;
+						case 82444632:
+						case 82444556:
+						case 82444702:
+							bitconfig_9577 = add(1, arg1);
+							break;
+						case 82444618:
+						case 82444690:
+						case 82444540:
+							bitconfig_9578 = add(1, arg1);
+					}
+					break;
+					case 3:
+					SWITCH (arg0) {
+						case 82444572:
+							 GOTO flow_14
+						case 82444714:
+							 GOTO flow_14
+						case 82444646:
+							 GOTO flow_14
+						case 82444632:
+							 GOTO flow_15
+						case 82444556:
+							 GOTO flow_15
+						case 82444702:
+							 GOTO flow_15
+						case 82444618:
+							 GOTO flow_16
+						case 82444690:
+							 GOTO flow_16
+						case 82444540:
+							 GOTO flow_16
+					}
+					break;
+				flow_14:
+					bitconfig_9585 = add(1, arg1);
+					break;
+				flow_15:
+					bitconfig_9586 = add(1, arg1);
+					break;
+				flow_16:
+					bitconfig_9587 = add(1, arg1);
+			}
+			cs2method_10469(6004);
+		} else {
+			script_4834(arg0);
+		}
+	}
+	script_4838();
+	script_4810();
+	script_4840();
+	script_4814();
+	return;
+}

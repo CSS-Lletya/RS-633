@@ -1,0 +1,38 @@
+void script_5998(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	object ovar1;
+	ivar4 = divide(add(arg1, arg2), 2);
+	ivar5 = globalarray_0[ivar4];
+	globalarray_0[ivar4] = globalarray_0[arg2];
+	globalarray_0[arg2] = ivar5;
+	ivar6 = arg1;
+	ivar7 = arg1;
+	ivar8 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	while (ivar7 < arg2) {
+		ovar0 = (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', arg3, globalarray_0[ivar7]), 1930);
+		ovar1 = (object)getGeneralRequirementAttribute(getDataByKey('i', 'J', arg3, ivar5), 1930);
+		if (compareTo(ovar0, ovar1) < AND(ivar7, 1)) {
+			ivar8 = globalarray_0[ivar7];
+			globalarray_0[ivar7] = globalarray_0[ivar6];
+			globalarray_0[ivar6] = ivar8;
+			ivar6 = add(ivar6, 1);
+		}
+		ivar7 = add(ivar7, 1);
+	}
+	globalarray_0[arg2] = globalarray_0[ivar6];
+	globalarray_0[ivar6] = ivar5;
+	if (arg1 < subtract(ivar6, 1)) {
+		script_5998(0, arg1, subtract(ivar6, 1), arg3);
+	}
+	if (add(ivar6, 1) < arg2) {
+		script_5998(0, add(ivar6, 1), arg2, arg3);
+	}
+	return;
+}

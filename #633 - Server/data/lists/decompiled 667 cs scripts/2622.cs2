@@ -1,0 +1,31 @@
+void script_2622() {
+	int ivar0;
+	int ivar1;
+	ivar0 = -1;
+	ivar1 = 1;
+	if (compareTo((object)globalstring_179, (object)"") == 0 || compareTo((object)globalstring_179, (object)"null") == 0) {
+		return;
+	}
+	setWidgetText(new WidgetPointer(850,44), cs2method_10100(55705643));
+	setWidgetText(new WidgetPointer(850,43), cs2method_10100(55705642));
+	setWidgetText(new WidgetPointer(850,42), cs2method_10100(55705641));
+	setWidgetText(new WidgetPointer(850,41), cs2method_10100(55705640));
+	setWidgetText(new WidgetPointer(850,40), cs2method_10100(55705639));
+	setWidgetText(new WidgetPointer(850,39), cs2method_10100(55705638));
+	setWidgetText(new WidgetPointer(850,38), cs2method_10100(55705637));
+	setWidgetText(new WidgetPointer(850,37), cs2method_10100(55705636));
+	setWidgetText(new WidgetPointer(850,36), cs2method_10100(55705635));
+	setWidgetText(new WidgetPointer(850,35), cs2method_10100(55705634));
+	setWidgetText(new WidgetPointer(850,34), cs2method_10100(55705633));
+	setWidgetText(new WidgetPointer(850,33), cs2method_10100(55705632));
+	setWidgetText(new WidgetPointer(850,32), cs2method_10100(55705631));
+	setWidgetText(new WidgetPointer(850,31), cs2method_10100(55705630));
+	setWidgetText(new WidgetPointer(850,30), cs2method_10100(55705629));
+	setWidgetText(new WidgetPointer(850,29), cs2method_10100(55705628));
+	setWidgetText(new WidgetPointer(850,28), cs2method_10100(55705627));
+	setWidgetText(new WidgetPointer(850,27), cs2method_10100(55705626));
+	setWidgetText(new WidgetPointer(850,26), cs2method_10100(55705625));
+	setWidgetText(new WidgetPointer(850,25), (object)globalstring_179);
+	script_157(55705645, 55705646, cs2method_10919(55705646), 1);
+	return;
+}

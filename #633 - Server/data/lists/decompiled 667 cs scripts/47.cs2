@@ -1,0 +1,12 @@
+string script_47(int arg0) {
+	if (arg0 > 99) {
+		return toString(arg0);
+	}
+	if (arg0 > 9) {
+		return "0" + toString(arg0);
+	}
+	if (arg0 >= 0) {
+		return "00" + toString(arg0);
+	}
+	return toString(arg0);
+}

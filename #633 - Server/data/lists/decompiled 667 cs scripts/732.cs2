@@ -1,0 +1,10 @@
+void script_732(int arg0) {
+	if (bitconfig_278 == 0) {
+		cs2method_10535(1377, arg0);
+	} else if (bitconfig_278 == 1) {
+		cs2method_10535(2114, arg0);
+	} else {
+		cs2method_10535(2116, arg0);
+	}
+	return;
+}

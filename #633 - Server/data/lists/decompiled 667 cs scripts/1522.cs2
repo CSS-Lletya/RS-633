@@ -1,0 +1,96 @@
+void script_1522(int arg0) {
+	if (bitconfig_4895 != 2) {
+		return;
+	}
+	if (standart_config_281 == 1000) {
+		setWidgetRGB(10092288, arg0);
+		return;
+	}
+	if (standart_config_281 == 0) {
+		setWidgetRGB(16719390, arg0);
+		return;
+	}
+	switch (arg0) {
+		case 49872906:
+			if (standart_config_281 >= 90) {
+				setWidgetRGB(10092288, arg0);
+			} else if (standart_config_281 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872907:
+			if (standart_config_281 >= 180) {
+				setWidgetRGB(10092288, arg0);
+			} else if (standart_config_281 < 100) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872908:
+			if (bitconfig_4926 >= 50) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4926 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872909:
+			if (bitconfig_4927 >= 20) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4927 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872910:
+			if (bitconfig_4928 >= 25) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4928 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872911:
+			if (bitconfig_4929 >= 25) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4929 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872915:
+			if (bitconfig_4935 >= 15) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4935 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872916:
+			if (bitconfig_4936 >= 20) {
+				setWidgetRGB(10092288, arg0);
+			} else if (bitconfig_4936 == 0) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+			break;
+		case 49872917:
+			if (standart_config_281 == 1000) {
+				setWidgetRGB(10092288, arg0);
+			} else if (standart_config_281 < 190) {
+				setWidgetRGB(16719390, arg0);
+			} else {
+				setWidgetRGB(16777062, arg0);
+			}
+	}
+	return;
+}

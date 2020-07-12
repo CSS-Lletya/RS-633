@@ -1,0 +1,33 @@
+void script_2669() {
+	if (bitconfig_6304 == 0) {
+		cs2method_10461(48047, 56754240);
+	}
+	if (bitconfig_6304 == 1) {
+		cs2method_10461(48028, 56754240);
+	}
+	if (bitconfig_6304 == 2) {
+		cs2method_10461(48038, 56754240);
+	}
+	if (bitconfig_6304 == 3) {
+		cs2method_10461(48027, 56754240);
+	}
+	if (bitconfig_6304 == 4) {
+		cs2method_10461(48030, 56754240);
+	}
+	if (bitconfig_6304 == 5) {
+		cs2method_10461(48052, 56754240);
+	}
+	if (bitconfig_6304 == 6) {
+		cs2method_10461(48051, 56754240);
+	}
+	if (bitconfig_6304 == 7) {
+		cs2method_10461(48050, 56754240);
+	}
+	if (bitconfig_6304 == 8) {
+		cs2method_10461(48015, 56754240);
+	}
+	if (bitconfig_6304 == 9) {
+		cs2method_10461(48029, 56754240);
+	}
+	return;
+}

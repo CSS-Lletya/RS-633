@@ -1,0 +1,7 @@
+int script_2152(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = getDataByKey('i', 'J', 169, arg0);
+	ivar3 = getDataByKey('i', 'J', getGeneralRequirementAttribute(ivar2, 61), arg1);
+	return script_2153(ivar3);
+}

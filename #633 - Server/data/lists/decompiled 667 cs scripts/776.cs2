@@ -1,0 +1,38 @@
+void script_776() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar0 = 0;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ovar0 = (object)"Hello";
+	ovar1 = (object)"00:00";
+	ovar2 = (object)"1.1x";
+	if (bitconfig_7232 == 1) {
+		ivar0 = divide(bitconfig_7233, 60);
+		ivar1 = cs2method_10620(bitconfig_7233, 60);
+		ivar2 = divide(script_338(16), 1000);
+		ivar3 = divide(cs2method_10620(script_338(16), 1000), 100);
+		if (ivar1 < 10) {
+			if (ivar0 < 10) {
+				ovar1 = (object)("0" + toString(ivar0) + ":0" + toString(ivar1));
+			} else {
+				ovar1 = (object)(toString(ivar0) + ":0" + toString(ivar1));
+			}
+		} else if (ivar0 < 10) {
+			ovar1 = (object)("0" + toString(ivar0) + ":" + toString(ivar1));
+		} else {
+			ovar1 = (object)(toString(ivar0) + ":" + toString(ivar1));
+		}
+		ovar2 = (object)(toString(ivar2) + "." + toString(ivar3) + "x");
+		ovar0 = (object)("Multiplier: " + "<col=ff0000>" + (string)ovar2 + "</col>" + "<br>" + "Elapsed: " + "<col=ff0000>" + (string)ovar1 + "</col>" + "<br>" + "Bonus: " + "<col=ff0000>" + toString(divide(standart_config_1878, 10)) + "xp" + "</col>");
+		cs2method_20835(5647, (string)ovar0, "s", new WidgetPointer(1215,1));
+		cs2method_20295(5648, "", new WidgetPointer(1215,1));
+	}
+	return;
+}

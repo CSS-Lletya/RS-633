@@ -1,0 +1,11 @@
+void script_2658() {
+	bitconfig_6302 = add(bitconfig_6302, 1);
+	if (bitconfig_6302 >= subtract(cs2method_10800(0), 1)) {
+		bitconfig_6302 = 0;
+		cs2method_20808(-1, "", new WidgetPointer(876,0));
+		return;
+	}
+	cs2method_10767(0, bitconfig_6302, 600, 400, 1, bitconfig_6302);
+	cs2method_20808(2658, "", new WidgetPointer(876,0));
+	return;
+}

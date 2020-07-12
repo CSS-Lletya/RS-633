@@ -1,0 +1,17 @@
+int script_6261(int arg0) {
+	switch (arg0) {
+		case 0:
+			return 0;
+		case 1:
+			return 150;
+		case 2:
+			return 250;
+		case 3:
+			return 400;
+		case 4:
+			return 650;
+		case 5:
+			return 1000;
+	}
+	return 0;
+}

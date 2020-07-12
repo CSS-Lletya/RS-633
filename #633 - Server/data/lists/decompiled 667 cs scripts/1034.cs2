@@ -1,0 +1,10 @@
+void script_1034(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,object arg6) {
+	createChildWidget(10289177, 4, arg0);
+	setWidgetPosition(arg1, arg2, 0, 0);
+	setWidgetSize(arg3, arg4, 0, 0);
+	setWidgetRGB(new Color(arg5));
+	cs2method_10320(1);
+	setWidgetFont(495);
+	setWidgetText(arg6);
+	return;
+}

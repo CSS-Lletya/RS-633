@@ -1,0 +1,50 @@
+void script_5561(int arg0,int arg1) {
+	int ivar2;
+	object ovar0;
+	object ovar1;
+	int stack_dump0;
+	cs2func_script_5564_struct(1,1,0) structdump_1;
+	ovar0 = (object)"null";
+	ivar2 = -1;
+	ovar1 = (object)"null";
+	stack_dump0 = arg0;
+	structdump_1 = script_5564(stack_dump0);
+	ivar2 = structdump_1.intpart_0;
+	ovar0 = structdump_1.objectpart_0;
+	if (arg1 == 0) {
+		ovar1 = (object)"-";
+		ivar2 = 16711680;
+	} else {
+		if (arg1 == 1) {
+			ovar1 = (object)"+";
+		}
+	}
+	if (cs2method_10416(48890059) == 0) {
+		setWidgetText(new WidgetPointer(746,212), cs2method_10445(ovar1, ovar0));
+		setWidgetRGB(ivar2, 48890068);
+		setWidgetIsHidden(false, new WidgetPointer(746,211));
+		cs2method_20219(5562, cs2method_10878(), "i", new WidgetPointer(746,211));
+	}
+	if (cs2method_10416(35913928) == 0) {
+		setWidgetText(new WidgetPointer(548,205), cs2method_10445(ovar1, ovar0));
+		setWidgetRGB(ivar2, 35913933);
+		setWidgetIsHidden(false, new WidgetPointer(548,204));
+		cs2method_20219(5562, cs2method_10878(), "i", new WidgetPointer(548,204));
+	}
+	if (arg1 == 0) {
+		setWidgetIsHidden(true, new WidgetPointer(746,209));
+		setWidgetIsHidden(false, new WidgetPointer(746,208));
+		cs2method_20219(5563, cs2method_10878(), new WidgetPointer(746,208), "iI", new WidgetPointer(746,206));
+		setWidgetIsHidden(false, new WidgetPointer(548,37));
+		cs2method_20219(5563, cs2method_10878(), new WidgetPointer(548,37), "iI", new WidgetPointer(548,170));
+	} else {
+		if (arg1 == 1) {
+			setWidgetIsHidden(true, new WidgetPointer(746,208));
+			setWidgetIsHidden(false, new WidgetPointer(746,209));
+			cs2method_20219(5563, cs2method_10878(), new WidgetPointer(746,209), "iI", new WidgetPointer(746,206));
+			setWidgetIsHidden(false, new WidgetPointer(548,36));
+			cs2method_20219(5563, cs2method_10878(), new WidgetPointer(548,36), "iI", new WidgetPointer(548,170));
+		}
+	}
+	return;
+}

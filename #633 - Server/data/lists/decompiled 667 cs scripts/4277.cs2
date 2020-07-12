@@ -1,0 +1,19 @@
+void script_4277() {
+	int ivar0;
+	object ovar0;
+	object ovar1;
+	ivar0 = divide(multiply(bitconfig_9186, 6), 10);
+	ovar0 = (object)toString(divide(ivar0, 60));
+	ovar1 = (object)toString(cs2method_10620(ivar0, 60));
+	if (cs2method_10366(ovar1) < 2) {
+		ovar1 = cs2method_10445((object)"0", ovar1);
+	}
+	if (bitconfig_9187 == 0) {
+		setWidgetText(new WidgetPointer(1088,12), (object)"Match Starts In:");
+		setWidgetText(new WidgetPointer(1088,13), (object)((string)ovar0 + ":" + (string)ovar1));
+	} else {
+		setWidgetText(new WidgetPointer(1088,12), (object)"Time Remaining:");
+		setWidgetText(new WidgetPointer(1088,13), (object)((string)ovar0 + ":" + (string)ovar1));
+	}
+	return;
+}

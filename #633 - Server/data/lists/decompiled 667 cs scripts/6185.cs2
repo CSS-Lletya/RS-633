@@ -1,0 +1,66 @@
+int script_6185(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	flow_0:
+		ivar2 = 0;
+		ivar3 = 4;
+		ivar4 = -1;
+		IF (getItemIdInContainerSlot(94, 3) == 24203) 
+			GOTO	flow_1
+		IF (getItemIdInContainerSlot(94, 3) == 24200 && ivar2 != 0) 
+			GOTO	flow_2
+		GOTO	flow_26
+	flow_1:
+	flow_2:
+		if (ivar2 == globalint_1913 && ivar3 == globalint_1912) {
+			switch (ivar3) {
+				case 0:
+					ivar4 = getDataByKey('i', 'J', 5769, ivar2);
+					break;
+				case 1:
+					ivar4 = getDataByKey('i', 'J', 5775, ivar2);
+					break;
+				case 2:
+					ivar4 = getDataByKey('i', 'J', 5772, ivar2);
+			}
+			if (ivar4 != -1) {
+				switch (arg0) {
+					case 556:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2359), globalint_1914);
+					case 555:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2361), globalint_1914);
+					case 557:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2360), globalint_1914);
+					case 554:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2362), globalint_1914);
+					case 559:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2364), globalint_1914);
+					case 558:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2363), globalint_1914);
+					case 562:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2365), globalint_1914);
+					case 9075:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2369), globalint_1914);
+					case 564:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2371), globalint_1914);
+					case 563:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2372), globalint_1914);
+					case 561:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2370), globalint_1914);
+					case 565:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2367), globalint_1914);
+					case 560:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2366), globalint_1914);
+					case 566:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2368), globalint_1914);
+					case 21773:
+						return multiply(getGeneralRequirementAttribute(ivar4, 2373), globalint_1914);
+					case 4170:
+						return 1;
+				}
+			}
+		}
+	flow_26:
+		return 0;
+}

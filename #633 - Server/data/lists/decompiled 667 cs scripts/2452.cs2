@@ -1,0 +1,96 @@
+object script_2452(int arg0) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 0:
+			ovar0 = (object)globalstring_149;
+			break;
+		case 1:
+			ovar0 = (object)globalstring_150;
+			break;
+		case 2:
+			ovar0 = (object)globalstring_151;
+			break;
+		case 3:
+			ovar0 = (object)globalstring_152;
+			break;
+		case 4:
+			ovar0 = (object)globalstring_153;
+			break;
+		case 5:
+			ovar0 = (object)globalstring_154;
+			break;
+		case 6:
+			ovar0 = (object)globalstring_155;
+			break;
+		case 7:
+			ovar0 = (object)globalstring_156;
+			break;
+		case 8:
+			ovar0 = (object)globalstring_157;
+			break;
+		case 9:
+			ovar0 = (object)globalstring_158;
+			break;
+		case 10:
+			ovar0 = (object)globalstring_159;
+			break;
+		case 11:
+			ovar0 = (object)globalstring_160;
+			break;
+		case 12:
+			ovar0 = (object)globalstring_161;
+			break;
+		case 13:
+			ovar0 = (object)globalstring_162;
+			break;
+		case 14:
+			ovar0 = (object)globalstring_163;
+			break;
+		case 15:
+			ovar0 = (object)globalstring_164;
+			break;
+		case 16:
+			ovar0 = (object)globalstring_165;
+			break;
+		case 17:
+			ovar0 = (object)globalstring_166;
+			break;
+		case 18:
+			ovar0 = (object)globalstring_167;
+			break;
+		case 19:
+			ovar0 = (object)globalstring_168;
+			break;
+		case 20:
+			ovar0 = (object)globalstring_169;
+			break;
+		case 21:
+			ovar0 = (object)globalstring_170;
+			break;
+		case 22:
+			ovar0 = (object)globalstring_171;
+			break;
+		case 23:
+			ovar0 = (object)globalstring_172;
+			break;
+		case 24:
+			ovar0 = (object)globalstring_173;
+			break;
+		case 25:
+			ovar0 = (object)globalstring_174;
+			break;
+		case 26:
+			ovar0 = (object)globalstring_175;
+			break;
+		case 27:
+			ovar0 = (object)globalstring_176;
+			break;
+		case 28:
+			ovar0 = (object)globalstring_177;
+			break;
+		case 29:
+			ovar0 = (object)globalstring_178;
+	}
+	return ovar0;
+}

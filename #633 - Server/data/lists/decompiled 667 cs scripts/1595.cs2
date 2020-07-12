@@ -1,0 +1,17 @@
+void script_1595(int arg0,object arg1,object arg2) {
+	if (cs2method_10982(arg0) == 0) {
+		if (cs2method_10028(arg2) == 1) {
+			setWidgetContextMenuOption(5, (object)("Message " + (string)arg1));
+			setWidgetContextMenuOption(7, (object)("Remove friend " + (string)arg1));
+		} else if (cs2method_10799(arg2) == 1) {
+			setWidgetContextMenuOption(8, (object)("Remove ignore " + (string)arg1));
+		} else {
+			setWidgetContextMenuOption(5, (object)("Add friend " + (string)arg1));
+			setWidgetContextMenuOption(6, (object)("Add ignore " + (string)arg1));
+		}
+	}
+	if (cs2method_10679() >= cs2method_10963() && cs2method_10679() > cs2method_10121(arg0)) {
+		setWidgetContextMenuOption(9, (object)("Kick/ban user " + (string)arg1));
+	}
+	return;
+}

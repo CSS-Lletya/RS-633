@@ -1,0 +1,18 @@
+void script_6455() {
+	int ivar0;
+	int ivar1;
+	ivar0 = -1;
+	ivar1 = divide(bitconfig_11825, 10);
+	ivar0 = getDataByKey('i', 'g', 5984, ivar1);
+	if (ivar0 != -1) {
+		if (bitconfig_11826 > 0) {
+			return;
+		}
+		setWidgetIsHidden(true, new WidgetPointer(1307,56));
+		script_4499(ivar0, 0, cs2method_10624(ivar0), 4, 85655602, 85655612, 85655614, 85655613, 85655649, (object)"Select a subcategory");
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1307,56));
+		script_4501(85655602, (object)"No subcategories");
+	}
+	return;
+}

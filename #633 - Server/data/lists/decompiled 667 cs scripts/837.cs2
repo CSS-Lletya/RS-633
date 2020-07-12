@@ -1,0 +1,75 @@
+int script_837(int arg0) {
+	switch (divide(arg0, 32)) {
+		case 0:
+			return cs2method_10184(standart_config_20, AND(arg0, 31));
+		case 1:
+			return cs2method_10184(standart_config_21, AND(arg0, 31));
+		case 2:
+			return cs2method_10184(standart_config_22, AND(arg0, 31));
+		case 3:
+			return cs2method_10184(standart_config_23, AND(arg0, 31));
+		case 4:
+			return cs2method_10184(standart_config_24, AND(arg0, 31));
+		case 5:
+			return cs2method_10184(standart_config_25, AND(arg0, 31));
+		case 6:
+			return cs2method_10184(standart_config_298, AND(arg0, 31));
+		case 7:
+			return cs2method_10184(standart_config_311, AND(arg0, 31));
+		case 8:
+			return cs2method_10184(standart_config_346, AND(arg0, 31));
+		case 9:
+			return cs2method_10184(standart_config_414, AND(arg0, 31));
+		case 10:
+			return cs2method_10184(standart_config_464, AND(arg0, 31));
+		case 11:
+			return cs2method_10184(standart_config_598, AND(arg0, 31));
+		case 12:
+			return cs2method_10184(standart_config_662, AND(arg0, 31));
+		case 13:
+			return cs2method_10184(standart_config_721, AND(arg0, 31));
+		case 14:
+			return cs2method_10184(standart_config_906, AND(arg0, 31));
+		case 15:
+			return cs2method_10184(standart_config_1009, AND(arg0, 31));
+		case 16:
+			return cs2method_10184(standart_config_1104, AND(arg0, 31));
+		case 17:
+			return cs2method_10184(standart_config_1136, AND(arg0, 31));
+		case 18:
+			return cs2method_10184(standart_config_1180, AND(arg0, 31));
+		case 19:
+			return cs2method_10184(standart_config_1202, AND(arg0, 31));
+		case 20:
+			return cs2method_10184(standart_config_1381, AND(arg0, 31));
+		case 21:
+			return cs2method_10184(standart_config_1394, AND(arg0, 31));
+		case 22:
+			return cs2method_10184(standart_config_1434, AND(arg0, 31));
+		case 23:
+			return cs2method_10184(standart_config_1596, AND(arg0, 31));
+		case 24:
+			return cs2method_10184(standart_config_1618, AND(arg0, 31));
+		case 25:
+			return cs2method_10184(standart_config_1619, AND(arg0, 31));
+		case 26:
+			return cs2method_10184(standart_config_1620, AND(arg0, 31));
+		case 27:
+			return 1;
+		case 28:
+			return cs2method_10184(standart_config_1864, AND(arg0, 31));
+		case 29:
+			return cs2method_10184(standart_config_1865, AND(arg0, 31));
+		case 30:
+			return cs2method_10184(standart_config_2019, AND(arg0, 31));
+		case 31:
+			return cs2method_10184(standart_config_2246, AND(arg0, 31));
+		case 32:
+			return cs2method_10184(standart_config_2430, AND(arg0, 31));
+		case 33:
+			return cs2method_10184(standart_config_2559, AND(arg0, 31));
+		case 34:
+			return cs2method_10184(standart_config_2632, AND(arg0, 31));
+	}
+	return -1;
+}

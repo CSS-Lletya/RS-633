@@ -1,0 +1,3 @@
+int script_4106(int arg0,object arg1) {
+	return divide(add(cs2method_10956(arg0), cs2method_10004(cs2method_10355(495, arg1), cs2method_10355(494, cs2method_10100(arg0)))), 2);
+}

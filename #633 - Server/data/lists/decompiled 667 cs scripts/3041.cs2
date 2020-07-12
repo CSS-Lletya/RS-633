@@ -1,0 +1,125 @@
+void script_3041(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	int stack_dump0;
+	opc_struct10024(0,2,0) structdump_1;
+	if (cs2method_10653(arg2, -1) == 1) {
+		cs2method_20219(3040, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), new WidgetPointer(arg3), new WidgetPointer(arg4), "IIIII", new WidgetPointer(arg3));
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(arg3));
+	clearExtraChildren(new WidgetPointer(arg0));
+	clearExtraChildren(new WidgetPointer(arg1));
+	clearExtraChildren(new WidgetPointer(arg2));
+	ivar5 = cs2method_10790();
+	ivar6 = 0;
+	ivar7 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar8 = 0;
+	ivar9 = 0;
+	ivar10 = 15;
+	ivar11 = 0;
+	ivar12 = 5;
+	ivar13 = 0;
+	ivar14 = 0;
+	ivar15 = 0;
+	ovar3 = (object)"";
+	if (ivar5 == -2) {
+		setWidgetText(new WidgetPointer(909,89), (object)"Name");
+		script_3038(arg2, (object)("Loading Ignore List." + "<br>" + "<br>" + "Please wait."));
+	} else if (ivar5 == -1) {
+		setWidgetText(new WidgetPointer(909,89), (object)"Name");
+		script_3038(arg2, (object)("Connecting to server." + "<br>" + "<br>" + "Please wait."));
+	} else if (ivar5 > 0) {
+		setWidgetText(new WidgetPointer(909,89), (object)("Name (" + toString(ivar5) + "/100)"));
+		while (ivar6 < ivar5) {
+			stack_dump0 = ivar6;
+			structdump_1 = cs2method_10024(stack_dump0);
+			ovar1 = structdump_1.objectpart_1;
+			ovar0 = structdump_1.objectpart_0;
+			script_2996(arg2, ivar6, cs2method_10956(arg2), ivar10, 0, ivar7, 0, 1, 0);
+			if (cs2method_10620(ivar6, 2) == 0) {
+				setWidgetRGB(new Color(32, 25, 17));
+			} else {
+				setWidgetRGB(new Color(41, 32, 22));
+			}
+			cs2method_20211(3031, new WidgetPointer(arg2), ivar6, "Ii");
+			cs2method_20139(3036, "");
+			if (cs2method_10366(ovar1) > 0) {
+				ivar15 = add(cs2method_10355(494, (object)("Last known as: " + (string)ovar1)), 8);
+				if (ivar15 > cs2method_10956(59572300)) {
+					ovar3 = (object)("Last known as:" + "<br>" + (string)ovar1);
+				} else {
+					ovar3 = (object)("Last known as: " + (string)ovar1);
+				}
+				cs2method_20930(2467, new WidgetPointer(-32768,3), -2147483643, (string)ovar3, -2147483647, -2147483646, new WidgetPointer(909,78), new WidgetPointer(909,80), new WidgetPointer(909,83), 494, "IisiiIIIf");
+			}
+			cs2method_11002(ovar0);
+			setWidgetContextMenuOption(1, (object)"Delete");
+			cs2method_20115(3042, -2147483644, (string)ovar0, "is");
+			script_2994(arg1, ivar6, 14, 14, 5, add(ivar7, 1), -1, 0, 0, 0, 0);
+			if (compareTo(ovar1, (object)"") != 0) {
+				cs2method_10469(2313);
+				ivar12 = 20;
+			} else {
+				cs2method_10469(-1);
+				ivar12 = 5;
+			}
+			ovar2 = ovar0;
+			script_2995(arg0, ivar6, 0, ivar10, ivar12, ivar7, 16777215, 494, 0, 1, 0, 1, ovar2);
+			setWidgetSize(ivar12, ivar10, 1, 0);
+			cs2method_10037(1);
+			ivar7 = add(ivar7, ivar10);
+			ivar6 = add(ivar6, 1);
+		}
+		ivar9 = add(divide(cs2method_10090(arg3), ivar10), 1);
+		if (ivar9 > ivar5) {
+			while (ivar6 < ivar9) {
+				script_2996(arg2, ivar6, cs2method_10956(arg2), ivar10, 0, ivar7, 0, 1, 0);
+				if (cs2method_10620(ivar6, 2) == 0) {
+					setWidgetRGB(new Color(32, 25, 17));
+				} else {
+					setWidgetRGB(new Color(41, 32, 22));
+				}
+				ivar7 = add(ivar7, ivar10);
+				ivar6 = add(ivar6, 1);
+			}
+			ivar11 = cs2method_10090(arg3);
+		} else {
+			ivar11 = ivar7;
+		}
+		if (ivar9 <= ivar5) {
+			ivar14 = cs2method_10424(59572302);
+			setWidgetScrollMax(0, ivar11, 59572302);
+			if (ivar14 > ivar11) {
+				ivar14 = ivar11;
+			}
+			script_72(59572303, 59572302, ivar14);
+		} else {
+			setWidgetScrollMax(0, 0, 59572302);
+			cs2method_10085(0, 0, 59572302);
+			script_72(59572303, 59572302, 0);
+		}
+	} else {
+		if (ivar5 == 0) {
+			setWidgetText(new WidgetPointer(909,89), (object)"Name");
+			script_3038(arg2, (object)"You are not ignoring any players.");
+		}
+	}
+	return;
+}

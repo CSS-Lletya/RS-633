@@ -1,0 +1,12 @@
+void script_1873() {
+	if (globalint_200 > 0) {
+		if (globalint_1745 == 1) {
+			cs2method_10647();
+			globalint_1745 = 0;
+		}
+		script_3064(1);
+		cs2method_20219(-1, "", new WidgetPointer(906,186));
+		script_3097();
+	}
+	return;
+}

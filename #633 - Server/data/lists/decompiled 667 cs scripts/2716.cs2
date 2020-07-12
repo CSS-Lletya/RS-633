@@ -1,0 +1,22 @@
+void script_2716(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar3 = cs2method_10216();
+	ivar4 = cs2method_10229();
+	ivar5 = cs2method_10487();
+	ivar6 = cs2method_10490();
+	ivar7 = cs2method_10671();
+	if (standart_config_2567 != 0) {
+		if (globalint_1882 == 1 && cs2method_10669() == 0) {
+			cs2method_20219(1999, new WidgetPointer(906,0), arg0, arg1, 0, ivar3, ivar4, ivar5, ivar6, ivar7, "I1iiiiiii", new WidgetPointer(906,0));
+		} else {
+			cs2method_20219(-1, "", new WidgetPointer(906,0));
+			script_1299(arg0, arg1);
+		}
+		globalint_1882 = 0;
+	}
+	return;
+}

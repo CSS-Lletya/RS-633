@@ -1,0 +1,23 @@
+void script_4745(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	object ovar0;
+	ivar2 = -1;
+	ivar3 = -1;
+	ovar0 = (object)"null";
+	if (bitconfig_9903 != 0) {
+		ivar2 = getDataByKey('i', 'v', 3879, bitconfig_9903);
+		if (arg1 < cs2method_10594(ivar2)) {
+			ivar3 = getItemIdInContainerSlot(ivar2, arg1);
+			if (ivar3 != -1) {
+				ovar0 = (object)script_4747(ivar3);
+				if (cs2method_10366(ovar0) > 0) {
+					setWidgetText(new WidgetPointer(1144,23), ovar0);
+					setWidgetIsHidden(false, new WidgetPointer(1144,23));
+					setWidgetIsHidden(true, new WidgetPointer(1144,22));
+				}
+			}
+		}
+	}
+	return;
+}

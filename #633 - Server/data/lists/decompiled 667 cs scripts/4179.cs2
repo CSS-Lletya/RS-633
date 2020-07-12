@@ -1,0 +1,121 @@
+void script_4179(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	ivar4 = script_4180(0, arg0, 0, (object)"Boosted stats will be reset.");
+	if (bitconfig_642 > 0) {
+		ivar4 = script_4180(ivar4, arg0, 0, (object)"Some worn items will be taken off.");
+	}
+	if (bitconfig_4166 == 1) {
+		ivar4 = script_4180(ivar4, arg0, 0, (object)"Existing prayers will be stopped.");
+	}
+	if (ivar4 > cs2method_10090(arg0)) {
+		setWidgetScrollMax(0, ivar4, arg0);
+		script_31(arg1, arg0, 792, 789, 790, 791, 773, 788);
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+		cs2method_10444(0, 0, 0, 1, arg0);
+	} else {
+		setWidgetScrollMax(0, 0, arg0);
+		clearExtraChildren(new WidgetPointer(arg1));
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		cs2method_10444(0, 0, 1, 1, arg0);
+	}
+	ivar5 = 0;
+	if (isMember() == 1 && (getItemAmtInContainer(93, 10148) > 0 || getItemAmtInContainer(94, 10148) > 0 || getItemAmtInContainer(93, 10147) > 0 || getItemAmtInContainer(94, 10147) > 0 || getItemAmtInContainer(93, 10146) > 0 || getItemAmtInContainer(94, 10146) > 0 || getItemAmtInContainer(93, 10149) > 0 || getItemAmtInContainer(94, 10149) > 0)) {
+		ivar5 = 1;
+	}
+	ivar4 = 0;
+	if (bitconfig_4159 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1453, (object)"You cannot forfeit the duel.");
+	}
+	if (bitconfig_4160 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1454, (object)"You cannot move.");
+	}
+	if (bitconfig_4275 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1464, (object)"You can summon familiars.");
+	}
+	ovar0 = (object)"You cannot use Ranged attacks.";
+	if (bitconfig_4161 == 1) {
+		if (ivar5 == 1) {
+			ovar0 = (object)("You cannot use Ranged attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + ".");
+		}
+		ivar4 = script_4180(ivar4, arg2, globalint_1455, ovar0);
+	}
+	ovar0 = (object)"You cannot use melee attacks.";
+	if (bitconfig_4162 == 1) {
+		if (ivar5 == 1) {
+			ovar0 = (object)("You cannot use melee attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + ".");
+		}
+		ivar4 = script_4180(ivar4, arg2, globalint_1456, ovar0);
+	}
+	ovar0 = (object)"You cannot use Magic attacks.";
+	if (bitconfig_4163 == 1) {
+		if (ivar5 == 1) {
+			ovar0 = (object)("You cannot use Magic attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + ".");
+		}
+		ivar4 = script_4180(ivar4, arg2, globalint_1457, ovar0);
+	}
+	if (bitconfig_4169 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1463, (object)"You cannot use abilities.");
+	}
+	if (bitconfig_4168 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1462, (object)"You can only attack with 'fun' weapons.");
+	}
+	if (bitconfig_4164 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1458, (object)"You cannot use drinks.");
+	}
+	if (bitconfig_4165 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1459, (object)"You cannot use food.");
+	}
+	if (bitconfig_4166 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1460, (object)"You cannot use Prayer.");
+	}
+	if (bitconfig_4167 == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1461, (object)"There will be obstacles in the arena.");
+	}
+	if (cs2method_10184(bitconfig_642, 0) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1465, (object)"You cannot wear items on your head.");
+	}
+	if (cs2method_10184(bitconfig_642, 1) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1466, (object)"You cannot wear items on your back, such as capes.");
+	}
+	if (cs2method_10184(bitconfig_642, 2) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1467, (object)"You cannot wear items on your front, such as amulets.");
+	}
+	if (cs2method_10184(bitconfig_642, 3) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_740, (object)"You cannot wield items in your right hand.");
+	}
+	if (cs2method_10184(bitconfig_642, 4) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_745, (object)"You cannot wear items on your torso.");
+	}
+	if (cs2method_10184(bitconfig_642, 5) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_780, (object)"You cannot wield items in your left hand or use 2-handed weapons.");
+	}
+	if (cs2method_10184(bitconfig_642, 7) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_781, (object)"You cannot wear items on your legs.");
+	}
+	if (cs2method_10184(bitconfig_642, 9) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_782, (object)"You cannot wear items on your hands.");
+	}
+	if (cs2method_10184(bitconfig_642, 10) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_789, (object)"You cannot wear items on your feet.");
+	}
+	if (cs2method_10184(bitconfig_642, 12) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1409, (object)"You cannot use your ring slot.");
+	}
+	if (cs2method_10184(bitconfig_642, 13) == 1) {
+		ivar4 = script_4180(ivar4, arg2, globalint_1410, (object)"You cannot use your quiver.");
+	}
+	if (ivar4 > cs2method_10090(arg2)) {
+		setWidgetScrollMax(0, ivar4, arg2);
+		script_31(arg3, arg2, 792, 789, 790, 791, 773, 788);
+		setWidgetIsHidden(false, new WidgetPointer(arg3));
+		cs2method_10444(0, 0, 0, 1, arg2);
+	} else {
+		setWidgetScrollMax(0, 0, arg2);
+		clearExtraChildren(new WidgetPointer(arg3));
+		setWidgetIsHidden(true, new WidgetPointer(arg3));
+		cs2method_10444(0, 0, 1, 1, arg2);
+	}
+	return;
+}

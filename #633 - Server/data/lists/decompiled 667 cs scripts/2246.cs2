@@ -1,0 +1,23 @@
+void script_2246(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	ivar4 = getItemIdInContainerSlot(arg2, arg3);
+	if (ivar4 == -1) {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+	}
+	setWidgetIsHidden(false, new WidgetPointer(arg0));
+	setWidgetIsHidden(true, new WidgetPointer(arg1));
+	cs2method_10380(ivar4, cs2method_10136(94, arg3), arg0);
+	cs2method_10831(arg0);
+	cs2method_20000(1620, new WidgetPointer(-32768,3), -1, 100, 0, 8, "Iiiii", new WidgetPointer(arg0));
+	if (getItemAttribute(ivar4, 1047) > 0) {
+		if (getItemAttribute(ivar4, 1050) > 0 || getItemAttribute(ivar4, 1051) > 0) {
+			cs2method_10375(3, arg0, (object)"Destroy");
+		} else {
+			cs2method_10375(3, arg0, (object)"Bind");
+		}
+	}
+	cs2method_10375(10, arg0, (object)"Examine");
+	cs2method_10724(arg0, (object)("<col=ff9040>" + (string)getItemName(ivar4)));
+	return;
+}

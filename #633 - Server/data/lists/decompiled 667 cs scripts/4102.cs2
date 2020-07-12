@@ -1,0 +1,57 @@
+void script_4102(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	if (bitconfig_9030 == 0) {
+		script_41(48889897);
+		return;
+	}
+	if (arg0 == 48890053 && bitconfig_4280 == 0) {
+		return;
+	}
+	ivar4 = 48889897;
+	arg1 = add(arg1, 200);
+	arg2 = add(arg2, cs2method_10826(arg0));
+	ivar5 = 200;
+	ivar6 = getLineCount(ivar5, 495, arg4);
+	ivar7 = cs2method_10242(ivar5, 495, arg4);
+	ivar8 = multiply(ivar6, 14);
+	switch (arg3) {
+		case 0:
+			arg1 = subtract(arg1, divide(ivar7, 2));
+			arg2 = subtract(arg2, 10);
+			break;
+		case 2:
+			arg1 = subtract(arg1, divide(ivar7, 2));
+			arg2 = add(arg2, add(ivar8, 110));
+			break;
+		case 1:
+			arg2 = subtract(arg2, divide(ivar8, 2));
+			arg1 = add(arg1, 10);
+			break;
+		case 3:
+			arg2 = subtract(arg2, divide(ivar8, 2));
+			arg1 = subtract(arg1, add(ivar7, 10));
+	}
+	createChildWidget(ivar4, 3, 0);
+	setWidgetSize(add(ivar7, 4), add(4, multiply(ivar6, 14)), 0, 0);
+	setWidgetPosition(arg1, arg2, 0, 0);
+	setWidgetFilled(1);
+	setWidgetRGB(new Color(14, 14, 14));
+	createChildWidget(ivar4, 3, 1);
+	setWidgetSize(add(ivar7, 4), add(4, multiply(ivar6, 14)), 0, 0);
+	setWidgetPosition(arg1, arg2, 0, 0);
+	setWidgetFilled(0);
+	setWidgetRGB(new Color(235, 236, 230));
+	createChildWidget(ivar4, 4, 2);
+	setWidgetPosition(add(arg1, 2), add(arg2, 2), 0, 0);
+	setWidgetSize(ivar5, 16, 0, 0);
+	setWidgetFont(495);
+	setWidgetTextAlignment(0, 0, 0);
+	cs2method_10320(0);
+	setWidgetText(arg4);
+	setWidgetRGB(new Color(245, 178, 65));
+	return;
+}

@@ -1,0 +1,41 @@
+object script_6299() {
+	int ivar0;
+	int ivar1;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"";
+	ivar0 = cs2method_10620(cs2method_10516(), 28);
+	ivar1 = cs2method_10869(3);
+	ovar1 = (object)"Did you know that most monsters can drop bonus spins?";
+	if (ivar0 >= 0 && ivar0 <= 6) {
+		ovar0 = (object)"Earn a bonus spin this week for redeeming penguin points.";
+	} else if (ivar0 >= 7 && ivar0 <= 13) {
+		ovar0 = (object)"Earn a bonus spin this week at the Circus.";
+	} else if (ivar0 >= 14 && ivar0 <= 20) {
+		ovar0 = (object)"Earn a bonus spin this week from an Evil Tree.";
+	} else {
+		if (ivar0 >= 21 && ivar0 <= 27) {
+			ovar0 = (object)"Earn a bonus spin this week from a Shooting Star.";
+		}
+	}
+	if (bitconfig_11033 == 0) {
+		ovar1 = ovar0;
+	} else if (ivar1 == 0) {
+		if (globalint_1800 >= 20) {
+			ovar1 = (object)"Once the wheel is slowing down, press the button again to skip to a stop.";
+		} else {
+			ovar1 = script_790();
+		}
+	} else if (ivar1 == 1) {
+		if (globalint_1800 >= 20) {
+			ovar1 = (object)"Once a prize is selected, press the button again to skip to the next screen.";
+		} else {
+			ovar1 = script_790();
+		}
+	} else if (globalint_1804 == bitconfig_9472) {
+		ovar1 = (object)"Complete Troll Invasion this month for great rewards and a bonus spin.";
+	} else {
+		ovar1 = script_790();
+	}
+	return ovar1;
+}

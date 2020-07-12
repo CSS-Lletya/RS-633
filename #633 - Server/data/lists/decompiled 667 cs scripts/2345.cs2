@@ -1,0 +1,26 @@
+void script_2345() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	globalint_769 = 0;
+	ivar0 = subtract(cs2method_10565(cs2method_10687()), cs2method_10620(cs2method_10565(cs2method_10687()), 64));
+	ivar1 = subtract(cs2method_10130(cs2method_10687()), cs2method_10620(cs2method_10130(cs2method_10687()), 64));
+	ivar2 = cs2method_10273(0, ivar0, 0, ivar1);
+	ivar3 = cs2method_10273(ivar2, cs2method_10565(507944), 0, cs2method_10130(507944));
+	cs2method_10155(0, 5);
+	cs2method_10105(0, 0, cs2method_10273(ivar3, 0, 0, -5), 800, cs2method_10273(ivar3, 0, 0, -5), 900, 0);
+	cs2method_10105(0, 1, cs2method_10273(ivar3, -5, 0, -1), 800, cs2method_10273(ivar3, -5, 0, 0), 900, 0);
+	cs2method_10105(0, 2, cs2method_10273(ivar3, -1, 0, 5), 800, cs2method_10273(ivar3, 0, 0, 5), 900, 0);
+	cs2method_10105(0, 3, cs2method_10273(ivar3, 5, 0, 1), 800, cs2method_10273(ivar3, 5, 0, 0), 900, 0);
+	cs2method_10105(0, 4, cs2method_10273(ivar3, 0, 0, -3), 800, cs2method_10273(ivar3, 0, 0, -3), 900, 0);
+	cs2method_10155(1, 5);
+	cs2method_10105(1, 0, ivar3, 400, ivar3, 400, 0);
+	cs2method_10105(1, 1, ivar3, 400, ivar3, 400, 0);
+	cs2method_10105(1, 2, ivar3, 400, ivar3, 400, 0);
+	cs2method_10105(1, 3, ivar3, 400, ivar3, 400, 0);
+	cs2method_10105(1, 4, ivar3, 500, ivar3, 500, 0);
+	cs2method_10767(0, 0, 200, 200, 1, 0);
+	cs2method_20808(2346, "", new WidgetPointer(582,0));
+	return;
+}

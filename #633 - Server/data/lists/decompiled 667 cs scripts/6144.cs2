@@ -1,0 +1,17 @@
+void script_6144(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 1;
+	ivar2 = 14;
+	ivar3 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(1270,35));
+	while (ivar1 <= ivar2) {
+		ivar3 = script_6139(ivar1);
+		if (cs2method_10551(ivar3, 0) == 1) {
+			cs2method_20219(6145, new WidgetPointer(-32768,3), cs2method_10646(), cs2method_10207(), subtract(0, cs2method_10869(50)), arg0, "Iiiii", new WidgetPointer(ivar3));
+		}
+		ivar1 = add(ivar1, 1);
+	}
+	return;
+}

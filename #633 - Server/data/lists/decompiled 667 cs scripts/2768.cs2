@@ -1,0 +1,10 @@
+void script_2768(int arg0,int arg1) {
+	if (cs2method_10551(arg1, 0) == 1) {
+		setWidgetFilled(1);
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		cs2method_10305(0);
+		cs2method_20745(2769, add(cs2method_10878(), arg0), new WidgetPointer(arg1), "iI");
+	}
+	return;
+}

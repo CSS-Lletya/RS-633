@@ -1,0 +1,15 @@
+void script_6056() {
+	int ivar0;
+	ivar0 = 35913753;
+	if (cs2method_10842() >= 2) {
+		ivar0 = 48889895;
+	}
+	clearExtraChildren(new WidgetPointer(ivar0));
+	createChildWidget(ivar0, 5, 0);
+	setWidgetSize(220, 200, 0, 0);
+	cs2method_10470(1);
+	cs2method_10469(script_6267(10219));
+	setWidgetPosition(-219, 0, 0, 1);
+	cs2method_20745(6057, new WidgetPointer(ivar0), 0, 0, 0, "Iiii");
+	return;
+}

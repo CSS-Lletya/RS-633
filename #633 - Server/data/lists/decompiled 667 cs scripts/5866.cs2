@@ -1,0 +1,22 @@
+void script_5866() {
+	int ivar0;
+	ivar0 = getDataByKey('i', 'J', 2252, standart_config_1385);
+	if (ivar0 == -1 || getGeneralRequirementAttribute(ivar0, 694) != 1) {
+		setWidgetIsHidden(true, new WidgetPointer(1245,332));
+		clearExtraChildren(new WidgetPointer(1245,332));
+		setWidgetIsHidden(true, new WidgetPointer(1245,333));
+		clearExtraChildren(new WidgetPointer(1245,333));
+		setWidgetIsHidden(true, new WidgetPointer(1245,334));
+		clearExtraChildren(new WidgetPointer(1245,334));
+		setWidgetIsHidden(true, new WidgetPointer(1245,335));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1245,332));
+		script_5867(81592652, 2750);
+		setWidgetIsHidden(false, new WidgetPointer(1245,333));
+		script_5867(81592653, 2751);
+		setWidgetIsHidden(false, new WidgetPointer(1245,334));
+		script_5867(81592654, 2752);
+		setWidgetIsHidden(false, new WidgetPointer(1245,335));
+	}
+	return;
+}

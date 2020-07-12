@@ -1,0 +1,17 @@
+void script_4784(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 2;
+	ivar3 = divide(cs2method_10956(arg0), 2);
+	ivar4 = cs2method_10826(arg0);
+	if (arg1 != -1 && cs2method_10551(arg0, arg1) == 1) {
+		ivar3 = divide(cs2method_10040(), 2);
+		ivar4 = cs2method_10207();
+	}
+	if (subtract(ivar4, cs2method_10424(arg0)) > 114) {
+		ivar2 = 0;
+	}
+	script_4539(73072826, arg0, arg1, 150, -1, -1, -1, 13, 4, ivar2, ivar3, ivar4, arg2);
+	return;
+}

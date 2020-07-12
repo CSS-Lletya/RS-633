@@ -1,0 +1,10 @@
+void script_2439() {
+	if (globalint_818 == 1) {
+		setWidgetText(new WidgetPointer(15,16), (object)"Net: Ripped!");
+		setWidgetRGB(14754595, 983056);
+	} else {
+		setWidgetText(new WidgetPointer(15,16), (object)"Net: OK");
+		setWidgetRGB(16750848, 983056);
+	}
+	return;
+}

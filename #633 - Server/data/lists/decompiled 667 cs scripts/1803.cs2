@@ -1,0 +1,5 @@
+void script_1803(int arg0,int arg1) {
+	cs2method_10085(0, 0, arg0);
+	script_1784();
+	return;
+}

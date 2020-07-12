@@ -1,0 +1,256 @@
+void script_125(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	int ivar17;
+	int ivar18;
+	int ivar19;
+	int ivar20;
+	int ivar21;
+	int ivar22;
+	int ivar23;
+	int ivar24;
+	int ivar25;
+	int ivar26;
+	int ivar27;
+	int ivar28;
+	int ivar29;
+	int ivar30;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	int stack_dump0;
+	opc_struct10644(0,2,0) structdump_1;
+	ivar1 = 36044806;
+	ivar2 = 36044852;
+	ivar3 = 36044805;
+	ivar4 = 36044801;
+	ivar5 = 36044810;
+	ivar6 = 36044811;
+	ivar7 = 36044817;
+	ivar8 = 36044845;
+	ivar9 = 36044813;
+	ivar10 = 36044812;
+	ivar11 = 36044800;
+	ivar12 = cs2method_10956(ivar9);
+	if (arg0 <= -1) {
+		arg0 = cs2method_10111(ivar9);
+	}
+	arg0 = cs2method_10004(cs2method_10586(arg0, subtract(cs2method_10956(ivar10), ivar12)), 0);
+	globalint_1036 = arg0;
+	cs2method_10444(arg0, 0, 0, 1, ivar9);
+	clearExtraChildren(new WidgetPointer(ivar1));
+	clearExtraChildren(new WidgetPointer(ivar2));
+	clearExtraChildren(new WidgetPointer(ivar3));
+	clearExtraChildren(new WidgetPointer(ivar4));
+	ivar13 = cs2method_10223();
+	if (ivar13 == -2) {
+		setWidgetText(new WidgetPointer(ivar8), (object)("Loading Friends List." + "<br>" + "Please wait."));
+		setWidgetIsHidden(false, new WidgetPointer(ivar8));
+		setWidgetIsHidden(true, new WidgetPointer(ivar9));
+		setWidgetIsHidden(true, new WidgetPointer(ivar7));
+		return;
+	}
+	if (ivar13 == -1) {
+		setWidgetText(new WidgetPointer(ivar8), (object)("Connecting to Friend Server." + "<br>" + "Please wait."));
+		setWidgetIsHidden(false, new WidgetPointer(ivar8));
+		setWidgetIsHidden(true, new WidgetPointer(ivar9));
+		setWidgetIsHidden(true, new WidgetPointer(ivar7));
+		return;
+	}
+	setWidgetIsHidden(false, new WidgetPointer(ivar9));
+	cs2method_10686(149, ivar9);
+	setWidgetText(new WidgetPointer(ivar8), (object)"");
+	setWidgetIsHidden(true, new WidgetPointer(ivar8));
+	setWidgetIsHidden(false, new WidgetPointer(ivar7));
+	setWidgetText(new WidgetPointer(ivar7), (object)(toString(ivar13) + " / " + toString(200)));
+	ivar14 = 0;
+	ivar15 = cs2method_10956(ivar1);
+	ivar16 = add(arg0, subtract(script_3365(ivar10), script_3365(ivar1)));
+	ivar17 = subtract(ivar15, add(ivar16, ivar12));
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ivar18 = 0;
+	ovar3 = (object)"";
+	ivar19 = 0;
+	ivar20 = 0;
+	ovar4 = (object)"";
+	ivar21 = 0;
+	ivar22 = 0;
+	ivar23 = 15;
+	ivar24 = 5;
+	ivar25 = 10787197;
+	ivar26 = 0;
+	ivar27 = 0;
+	ivar28 = 0;
+	ivar29 = 0;
+	ovar5 = (object)"";
+	while (ivar14 < ivar13) {
+		ivar21 = add(multiply(ivar14, ivar23), ivar24);
+		stack_dump0 = ivar14;
+		structdump_1 = cs2method_10644(stack_dump0);
+		ovar3 = structdump_1.objectpart_1;
+		ovar0 = structdump_1.objectpart_0;
+		if (compareTo(ovar3, (object)"") != 0) {
+			ivar19 = 1;
+		} else {
+			ivar19 = 0;
+		}
+		if (ivar19 == 1) {
+			ovar1 = (object)("     " + (string)ovar0);
+		} else {
+			ovar1 = ovar0;
+		}
+		ivar20 = cs2method_10617(ivar14);
+		if (cs2method_10718(ivar14) == 1) {
+			ivar25 = 8961267;
+			createChildWidget(ivar1, 5, cs2method_10860(ivar1));
+			setWidgetSize(9, 9, 0, 0);
+			setWidgetPosition(93, add(ivar21, 3), 0, 0);
+			cs2method_10469(6980);
+		} else {
+			ivar25 = 10787197;
+		}
+		createChildWidget(ivar1, 4, cs2method_10860(ivar1));
+		setWidgetSize(ivar16, ivar23, 0, 0);
+		setWidgetPosition(0, ivar21, 0, 0);
+		setWidgetRGB(new Color(ivar25));
+		setWidgetFont(3793);
+		cs2method_10320(1);
+		cs2method_11002((object)("<col=ffffff>" + (string)ovar0));
+		setWidgetTextAlignment(0, 0, 0);
+		if (ivar20 != 0) {
+			if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+				setWidgetContextMenuOption(1, (object)"Message");
+			}
+			setWidgetContextMenuOption(2, (object)"Quick Message");
+		} else {
+			if (cs2method_10815() == 0 && cs2method_10062() == 0) {
+				setWidgetContextMenuOption(3, (object)"Message");
+			}
+			setWidgetContextMenuOption(4, (object)"Quick Message");
+		}
+		setWidgetContextMenuOption(5, (object)"Delete");
+		cs2method_20115(126, -2147483644, "event_opbase", ivar14, "isi");
+		if (cs2method_10355(3793, ovar1) > ivar16) {
+			while (cs2method_10355(3793, (object)((string)ovar1 + "...")) > ivar16 && cs2method_10366(ovar1) > 0) {
+				ovar1 = cs2method_10547(0, subtract(cs2method_10366(ovar1), 1), ovar1);
+			}
+			setWidgetText((object)((string)ovar1 + "..."));
+			if (ivar19 == 1) {
+				if (getLineCount(subtract(ivar15, 8), 3793, (object)("Last known as: " + (string)ovar3)) > 1) {
+					ovar2 = (object)((string)ovar0 + "<br>" + "Last known as:" + "<br>" + (string)ovar3);
+				} else {
+					ovar2 = (object)((string)ovar0 + "<br>" + "Last known as: " + (string)ovar3);
+				}
+			} else {
+				ovar2 = ovar0;
+			}
+			cs2method_20930(1594, new WidgetPointer(550,51), new WidgetPointer(-32768,3), -2147483643, (string)ovar2, -2147483647, -2147483646, "IIisii");
+			cs2method_20139(40, new WidgetPointer(550,51), "I");
+		} else {
+			setWidgetText(ovar1);
+			if (ivar19 == 1) {
+				if (getLineCount(subtract(ivar15, 8), 3793, (object)("Last known as: " + (string)ovar3)) > 1) {
+					ovar2 = (object)("Last known as:" + "<br>" + (string)ovar3);
+				} else {
+					ovar2 = (object)("Last known as: " + (string)ovar3);
+				}
+				cs2method_20930(1594, new WidgetPointer(550,51), new WidgetPointer(-32768,3), -2147483643, (string)ovar2, -2147483647, -2147483646, "IIisii");
+				cs2method_20139(40, new WidgetPointer(550,51), "I");
+			}
+		}
+		createChildWidget(ivar2, 5, cs2method_10860(ivar2));
+		cs2method_10469(2313);
+		setWidgetSize(14, 14, 0, 0);
+		setWidgetPosition(0, ivar21, 0, 0);
+		if (ivar19 == 0) {
+			cs2method_10692(1);
+		}
+		cs2method_10893(ivar17, 0, 0, 1, ivar3);
+		cs2method_10893(ivar17, 0, 0, 1, ivar4);
+		if (ivar20 == 0) {
+			ovar4 = (object)"Offline";
+			ovar5 = (object)"Offline";
+			ivar29 = 0;
+		} else if (cs2method_10339(0, cs2method_10863(ivar14), (object)"RuneScape") != -1) {
+			ovar4 = (object)toString(ivar20);
+			ovar5 = cs2method_10863(ivar14);
+			ivar29 = add(add(2, 24), 2);
+		} else {
+			ovar4 = cs2method_10863(ivar14);
+			ovar5 = ovar4;
+			ivar29 = 0;
+		}
+		ivar26 = cs2method_10355(3793, ovar4);
+		if (ivar17 >= add(ivar26, ivar29)) {
+			if (ivar29 > 0) {
+				createChildWidget(ivar4, 5, cs2method_10860(ivar4));
+				if (cs2method_10801(ivar14) == 16) {
+					cs2method_10469(12131);
+				} else {
+					cs2method_10469(12130);
+				}
+				setWidgetSize(24, 12, 0, 0);
+				setWidgetPosition(2, add(ivar21, 1), 0, 0);
+				ivar27 = 0;
+			}
+		} else {
+			ivar27 = 1;
+			ivar29 = 0;
+		}
+		if (ivar17 >= ivar26) {
+		} else {
+			cs2method_20930(1594, new WidgetPointer(550,51), new WidgetPointer(-32768,3), -2147483643, (string)ovar5, -2147483647, -2147483646, "IIisii");
+			cs2method_20139(40, new WidgetPointer(550,51), "I");
+			ovar4 = (object)"...";
+		}
+		createChildWidget(ivar3, 4, cs2method_10860(ivar3));
+		setWidgetSize(ivar17, ivar23, 0, 0);
+		setWidgetPosition(add(ivar29, 2), ivar21, 0, 0);
+		setWidgetFont(3793);
+		cs2method_10320(1);
+		setWidgetTextAlignment(0, 0, 0);
+		setWidgetText(ovar4);
+		if (ivar20 == 0) {
+			setWidgetRGB(new Color(221, 92, 62));
+		} else if (ivar20 == cs2method_10847()) {
+			setWidgetRGB(new Color(60, 183, 30));
+		} else {
+			setWidgetRGB(new Color(255, 255, 100));
+		}
+		cs2method_20930(1594, new WidgetPointer(550,51), new WidgetPointer(-32768,3), -2147483643, (string)ovar5, -2147483647, -2147483646, "IIisii");
+		cs2method_20139(40, new WidgetPointer(550,51), "I");
+		ivar14 = add(ivar14, 1);
+	}
+	ivar21 = add(add(ivar21, 15), 5);
+	ivar30 = 0;
+	if (ivar21 > cs2method_10090(ivar5)) {
+		ivar30 = cs2method_10586(cs2method_10424(ivar5), ivar21);
+		setWidgetScrollMax(cs2method_10956(ivar5), ivar21, ivar5);
+		script_72(ivar6, ivar5, ivar30);
+	} else {
+		setWidgetScrollMax(0, 0, ivar5);
+		cs2method_10893(0, 0, 1, 1, ivar11);
+		cs2method_10085(0, 0, ivar5);
+		script_72(ivar6, ivar5, 0);
+	}
+	return;
+}

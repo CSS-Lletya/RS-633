@@ -1,0 +1,17 @@
+void script_6040(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	if (script_6035(arg0, globalint_1798, globalint_1799, 1) == 0) {
+		return;
+	}
+	globalint_1796 = arg1;
+	ivar4 = subtract(cs2method_10624(5727), 1);
+	while (ivar4 >= 0) {
+		arg2 = (int)getDataByKey('i', 'I', 5727, ivar4);
+		if (arg2 != -1) {
+			cs2method_10086(arg2);
+		}
+		ivar4 = subtract(ivar4, 1);
+	}
+	cs2method_10086(arg3);
+	return;
+}

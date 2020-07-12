@@ -1,0 +1,22 @@
+void script_6289() {
+	int ivar0;
+	ivar0 = 0;
+	if (cs2method_10620(cs2method_10878(), 4) == 0 && cs2method_10551(84934658, 0) == 1) {
+		if (globalint_1932 == 0) {
+			ivar0 = cs2method_10207();
+			ivar0 = add(ivar0, 1);
+			if (ivar0 > 30) {
+				globalint_1932 = 1;
+			} else {
+				setWidgetPosition(0, ivar0, 0, 0);
+			}
+		} else {
+			globalint_1932 = add(globalint_1932, 1);
+			if (globalint_1932 == 30) {
+				cs2method_10714();
+				cs2method_20219(-1, "", new WidgetPointer(1296,2));
+			}
+		}
+	}
+	return;
+}

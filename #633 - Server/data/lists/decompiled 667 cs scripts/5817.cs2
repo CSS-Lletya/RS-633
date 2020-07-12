@@ -1,0 +1,13 @@
+void script_5817() {
+	if (globalint_41 == -1) {
+		globalint_41 = 0;
+		script_1364();
+	} else {
+		globalint_41 = 0;
+		script_181(globalint_41);
+		script_178();
+		script_84();
+		script_89();
+	}
+	return;
+}

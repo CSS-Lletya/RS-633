@@ -1,0 +1,25 @@
+void script_5910(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar1 = 9959;
+	ivar2 = 9931;
+	ivar3 = script_5907(arg0, bitconfig_10865);
+	switch (ivar3) {
+		case 0:
+			ivar1 = 9957;
+			ivar2 = 9943;
+			break;
+		case 1:
+			ivar1 = 9958;
+			ivar2 = 9935;
+			break;
+		case 2:
+			ivar1 = 9959;
+			ivar2 = 9931;
+	}
+	cs2method_10467(script_6267(ivar1), 82116771);
+	cs2method_10467(script_5860(ivar3), 82116942);
+	cs2method_10467(script_5949(ivar3), 82116943);
+	return;
+}

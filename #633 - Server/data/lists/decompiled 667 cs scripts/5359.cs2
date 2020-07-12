@@ -1,0 +1,145 @@
+void script_5359(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	int ivar15;
+	int ivar16;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ivar8 = 4;
+	ivar9 = getGeneralRequirementAttribute(arg2, 1935);
+	ivar10 = 0;
+	ivar11 = 0;
+	ivar12 = 0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar4 = (object)"";
+	ivar13 = 0;
+	ivar14 = 0;
+	ivar15 = 0;
+	ivar16 = 0;
+	if (arg3 == 1 && getGeneralRequirementAttribute(arg2, 1937) != 2 && cs2method_10551(arg0, arg1) == 1) {
+		ivar4 = cs2method_10646();
+		ivar5 = cs2method_10207();
+		ivar6 = cs2method_10040();
+		ivar4 = add(ivar4, ivar6);
+		ivar5 = add(ivar5, ivar8);
+		ivar15 = cs2method_10424(74907653);
+		if (subtract(ivar5, ivar15) <= 0) {
+			ivar16 = 2;
+			ivar5 = ivar15;
+		}
+		cs2method_10444(ivar4, ivar5, 0, 0, 74907727);
+		setWidgetText(new WidgetPointer(1143,114), (object)getGeneralRequirementAttribute(arg2, 1931));
+		if (getGeneralRequirementAttribute(arg2, 1937) == 1) {
+			ivar10 = divide(getItemAttribute(ivar9, 1430), 100);
+			ovar0 = (object)("Duration: " + toString(ivar10) + " mins.");
+			ivar11 = divide(getItemAttribute(ivar9, 1429), 100);
+			ovar1 = (object)("Recharge: " + toString(ivar11) + " mins.");
+			if (ivar10 > 60) {
+				ivar12 = cs2method_10620(ivar10, 60);
+				ivar10 = divide(ivar10, 60);
+				if (ivar12 > 0) {
+					if (ivar10 > 1) {
+						ovar0 = (object)("Duration: " + toString(ivar10) + " hours, " + toString(ivar12) + " mins.");
+					} else {
+						ovar0 = (object)("Duration: 1 hour, " + toString(ivar12) + " mins.");
+					}
+				} else if (ivar10 > 1) {
+					ovar0 = (object)("Duration: " + toString(ivar10) + " hours.");
+				} else {
+					ovar0 = (object)"Duration: 1 hour.";
+				}
+			}
+			if (ivar11 > 60) {
+				ivar12 = cs2method_10620(ivar11, 60);
+				ivar11 = divide(ivar11, 60);
+				if (ivar12 > 0) {
+					if (ivar11 > 1) {
+						ovar1 = (object)("Recharge: " + toString(ivar11) + " hours, " + toString(ivar12) + " mins.");
+					} else {
+						ovar1 = (object)("Recharge: 1 hour, " + toString(ivar12) + " mins.");
+					}
+				} else if (ivar11 > 1) {
+					ovar1 = (object)("Recharge: " + toString(ivar11) + " hours.");
+				} else {
+					ovar1 = (object)"Recharge: 1 hour.";
+				}
+			}
+			ovar2 = (object)("<br>" + "<br>" + (string)ovar0 + "<br>" + (string)ovar1);
+			setWidgetText(new WidgetPointer(1143,114), cs2method_10445(cs2method_10100(74907762), ovar2));
+		} else {
+			if (getGeneralRequirementAttribute(arg2, 1937) == 4) {
+				while (ivar13 < cs2method_10624(5184) && ivar14 == 0) {
+					if (getDataByKey('i', 'J', 5184, ivar13) == arg2) {
+						ovar4 = (object)getDataByKey('i', 's', 5187, ivar13);
+						ovar3 = (object)getDataByKey('i', 's', 5186, ivar13);
+						ivar14 = 1;
+					}
+					ivar13 = add(ivar13, 1);
+				}
+				ovar3 = cs2method_10445((object)"Male Title: ", ovar3);
+				ovar4 = cs2method_10445((object)"Female Title: ", ovar4);
+				setWidgetText(new WidgetPointer(1143,114), (object)((string)ovar3 + "<br>" + (string)ovar4));
+			}
+		}
+		ivar7 = getLineCount(cs2method_10956(74907762), cs2method_10894(74907762), cs2method_10100(74907762));
+		ivar7 = add(multiply(ivar7, 13), multiply(ivar8, 2));
+		cs2method_10893(cs2method_10956(74907727), ivar7, 0, 0, 74907727);
+		setWidgetIsHidden(false, new WidgetPointer(1143,79));
+		if (add(subtract(ivar5, ivar15), ivar7) > cs2method_10090(74907653)) {
+			ivar5 = add(ivar15, subtract(cs2method_10090(74907653), ivar7));
+			cs2method_10444(ivar4, ivar5, 0, 0, 74907727);
+			ivar16 = 1;
+		}
+		if (add(cs2method_10956(74907727), cs2method_10111(74907727)) > cs2method_10956(74907653)) {
+			ivar4 = add(subtract(cs2method_10646(), cs2method_10956(74907727)), 2);
+			cs2method_10444(ivar4, ivar5, 0, 0, 74907727);
+			cs2method_10444(12, cs2method_10826(74907680), 2, 0, 74907680);
+			cs2method_10444(10, cs2method_10826(74907759), 2, 0, 74907759);
+			cs2method_10444(11, cs2method_10826(74907760), 2, 0, 74907760);
+			cs2method_10444(14, cs2method_10826(74907762), 2, 0, 74907762);
+			cs2method_10444(0, 10, 2, 0, 74907761);
+			cs2method_10967(1, 74907761);
+		} else {
+			cs2method_10444(12, cs2method_10826(74907680), 0, 0, 74907680);
+			cs2method_10444(10, cs2method_10826(74907759), 0, 0, 74907759);
+			cs2method_10444(11, cs2method_10826(74907760), 0, 0, 74907760);
+			cs2method_10444(14, cs2method_10826(74907762), 0, 0, 74907762);
+			cs2method_10444(0, 10, 0, 0, 74907761);
+			cs2method_10967(0, 74907761);
+		}
+		if (cs2method_10090(74907727) < add(cs2method_10090(74907761), 40)) {
+			cs2method_10444(cs2method_10111(74907761), 0, 0, 1, 74907761);
+		} else {
+			cs2method_10444(cs2method_10111(74907761), 10, 0, 0, 74907761);
+		}
+		if (ivar16 > 0) {
+			if (ivar16 == 1) {
+				cs2method_10444(cs2method_10111(74907761), 0, 0, 2, 74907761);
+			} else {
+				cs2method_10444(cs2method_10111(74907761), 0, 0, 0, 74907761);
+			}
+		}
+		return;
+	}
+	setWidgetIsHidden(true, new WidgetPointer(1143,79));
+	return;
+}

@@ -1,0 +1,53 @@
+void script_3160(int arg0,int arg1) {
+	int stack_dump0;
+	int stack_dump1;
+	int stack_dump2;
+	int stack_dump3;
+	object stack_dump4;
+	cs2func_script_802_struct(1,1,0) structdump_5;
+	if (cs2method_10062() == 1 || script_5280() == 1) {
+		return;
+	}
+	switch (arg0) {
+		case 84:
+			if (cs2method_10309() == 1) {
+				if (cs2method_10366((object)globalstring_278) > 0) {
+					cs2method_10702(2);
+					cs2method_10393((object)globalstring_278);
+				}
+			} else {
+				cs2method_10986(43, 0, (object)"You are not in a Clan.");
+			}
+			globalstring_278 = "";
+			setWidgetText(new WidgetPointer(912,24), cs2method_10991((object)globalstring_278));
+			globalint_1098 = cs2method_10366((object)globalstring_278);
+			script_1390(59768856, 59768857, (object)globalstring_278);
+			break;
+		case 102:
+		case 103:
+		case 98:
+		case 99:
+		case 96:
+		case 97:
+			globalint_1098 = script_1553(arg0, globalint_1098, (object)globalstring_278);
+			script_1390(59768856, 59768857, (object)globalstring_278);
+			break;
+		case 85:
+		case 101:
+		case -1:
+			if (cs2method_10522(arg1) == 1 || arg0 == 85 || arg0 == 101) {
+				stack_dump0 = globalint_1098;
+				stack_dump1 = 0;
+				stack_dump2 = arg0;
+				stack_dump3 = arg1;
+				stack_dump4 = (object)globalstring_278;
+				structdump_5 = script_802(stack_dump0, stack_dump1, stack_dump2, stack_dump3, stack_dump4);
+				stack_dump4 = structdump_5.objectpart_0;
+				globalint_1098 = structdump_5.intpart_0;
+				globalstring_278 = (string)stack_dump4;
+				setWidgetText(new WidgetPointer(912,24), cs2method_10991((object)globalstring_278));
+				script_1390(59768856, 59768857, (object)globalstring_278);
+			}
+	}
+	return;
+}

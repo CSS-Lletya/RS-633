@@ -1,0 +1,63 @@
+void script_480() {
+	setWidgetText(new WidgetPointer(1015,144), (object)script_483(bitconfig_7520));
+	if (bitconfig_7520 > 0) {
+		setWidgetRGB(15125144, 66519184);
+	} else {
+		setWidgetRGB(5787714, 66519184);
+	}
+	setWidgetText(new WidgetPointer(1015,146), (object)script_483(bitconfig_7521));
+	if (bitconfig_7521 > 0) {
+		setWidgetRGB(15125144, 66519186);
+	} else {
+		setWidgetRGB(5787714, 66519186);
+	}
+	setWidgetText(new WidgetPointer(1015,148), (object)script_483(bitconfig_7526));
+	if (bitconfig_7526 > 0) {
+		setWidgetRGB(15125144, 66519188);
+	} else {
+		setWidgetRGB(5787714, 66519188);
+	}
+	setWidgetText(new WidgetPointer(1015,150), (object)script_483(bitconfig_7527));
+	if (bitconfig_7527 > 0) {
+		setWidgetRGB(15125144, 66519190);
+	} else {
+		setWidgetRGB(5787714, 66519190);
+	}
+	setWidgetText(new WidgetPointer(1015,152), (object)script_483(bitconfig_7530));
+	if (bitconfig_7530 > 0) {
+		setWidgetRGB(15125144, 66519192);
+	} else {
+		setWidgetRGB(5787714, 66519192);
+	}
+	setWidgetText(new WidgetPointer(1015,154), (object)script_483(bitconfig_7531));
+	if (bitconfig_7531 > 0) {
+		setWidgetRGB(15125144, 66519194);
+	} else {
+		setWidgetRGB(5787714, 66519194);
+	}
+	setWidgetText(new WidgetPointer(1015,156), (object)script_483(bitconfig_7532));
+	if (bitconfig_7532 > 0) {
+		setWidgetRGB(15125144, 66519196);
+	} else {
+		setWidgetRGB(5787714, 66519196);
+	}
+	setWidgetText(new WidgetPointer(1015,158), (object)script_483(bitconfig_7533));
+	if (bitconfig_7533 > 0) {
+		setWidgetRGB(15125144, 66519198);
+	} else {
+		setWidgetRGB(5787714, 66519198);
+	}
+	setWidgetText(new WidgetPointer(1015,160), (object)script_483(bitconfig_7534));
+	if (bitconfig_7534 > 0) {
+		setWidgetRGB(15125144, 66519200);
+	} else {
+		setWidgetRGB(5787714, 66519200);
+	}
+	setWidgetText(new WidgetPointer(1015,162), (object)script_483(bitconfig_7535));
+	if (bitconfig_7535 > 0) {
+		setWidgetRGB(15125144, 66519202);
+	} else {
+		setWidgetRGB(5787714, 66519202);
+	}
+	return;
+}

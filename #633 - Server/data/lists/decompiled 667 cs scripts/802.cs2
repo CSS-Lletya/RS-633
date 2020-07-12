@@ -1,0 +1,173 @@
+cs2func_script_802_struct(1,1,0) script_802(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar1;
+	object ovar2;
+	ivar4 = cs2method_10366(arg4);
+	if (arg0 <= -1) {
+		arg0 = ivar4;
+	} else {
+		arg0 = cs2method_10586(arg0, ivar4);
+	}
+	ovar1 = (object)"";
+	if (arg0 > 0) {
+		ovar1 = cs2method_10547(0, arg0, arg4);
+	}
+	ovar2 = (object)"";
+	if (arg0 < ivar4) {
+		ovar2 = cs2method_10547(arg0, ivar4, arg4);
+	}
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	if (arg2 == 85) {
+		ivar5 = cs2method_10366(ovar1);
+		if (ivar5 > 1) {
+			if (globalint_2110 == 1 && cs2method_10466(62, subtract(cs2method_10366(ovar1), 1), ovar1) == subtract(cs2method_10366(ovar1), 1)) {
+				if (cs2method_10466(60, subtract(cs2method_10366(ovar1), 4), ovar1) == subtract(cs2method_10366(ovar1), 4)) {
+					ovar1 = cs2method_10547(0, cs2method_10466(60, subtract(cs2method_10366(ovar1), 4), ovar1), ovar1);
+					arg0 = subtract(arg0, 3);
+				}
+			} else {
+				ovar1 = cs2method_10547(0, subtract(ivar5, 1), ovar1);
+			}
+		} else {
+			ovar1 = (object)"";
+			ivar7 = 1;
+		}
+		arg4 = cs2method_10445(ovar1, ovar2);
+		arg0 = cs2method_10004(subtract(arg0, 1), 0);
+	} else if (arg2 == 101) {
+		ivar5 = cs2method_10366(ovar2);
+		if (ivar5 > 1) {
+			if (globalint_2110 == 1 && cs2method_10466(60, 0, ovar2) == 0 && cs2method_10466(62, 0, ovar2) == 3) {
+				ovar2 = cs2method_10547(4, ivar5, ovar2);
+			} else {
+				ovar2 = cs2method_10547(1, ivar5, ovar2);
+			}
+		} else {
+			ovar2 = (object)"";
+			ivar7 = 1;
+		}
+		arg4 = cs2method_10445(ovar1, ovar2);
+	} else {
+		if (cs2method_10522(arg3) == 1) {
+			switch (arg1) {
+				flow_30:
+					case 0:
+					if (globalint_1650 == 1) {
+						ivar6 = 255;
+					} else if (globalint_2110 == 1) {
+						ivar6 = 2000;
+					} else {
+						ivar6 = 80;
+					}
+					if (ivar4 < ivar6) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+					break;
+					case 1:
+					if (cs2method_10291(arg3) == 1 && ivar4 < 10) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+					break;
+					case 2:
+					if (ivar4 < 12) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+					break;
+					case 3:
+					if (ivar4 < 320) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+					break;
+					case 4:
+					IF (cs2method_10202(arg3) == 1) 
+						GOTO	flow_53
+					IF (cs2method_10466(arg3, 0, (object)" '&,.!-\u00e0\u00c0\u00e1\u00c1\u00e2\u00c2\u00e3\u00c3\u00e4\u00c4\u00e5\u00c5\u00e7\u00c7\u00e8\u00c8\u00e9\u00c9\u00ea\u00ca\u00eb\u00cb\u00ec\u00cc\u00ed\u00cd\u00ee\u00ce\u00ef\u00cf\u00f1\u00d1\u00f2\u00d2\u00f3\u00d3\u00f4\u00d4\u00f5\u00d5\u00f6\u00d6\u00f9\u00d9\u00fa\u00da\u00fb\u00db\u00fc\u00dc\u00fd\u00dd\u00ff") != -1 && ivar4 < 50) 
+						GOTO	flow_54
+					GOTO	flow_55
+				flow_53:
+				flow_54:
+					arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+					arg0 = add(arg0, 1);
+					GOTO	flow_56
+				flow_55:
+					ivar7 = 1;
+				flow_56:
+					break;
+					case 5:
+					if (ivar4 < 50) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+					break;
+					case 6:
+					switch (cs2method_10145()) {
+						flow_62:
+							case 1:
+							IF (cs2method_10291(arg3) == 1) 
+								GOTO	flow_64
+							IF (cs2method_10466(arg3, 0, (object)"KkMmTt") != -1 && ivar4 > 0 && ivar4 < 10) 
+								GOTO	flow_65
+							GOTO	flow_74
+						flow_64:
+						flow_65:
+							if (cs2method_10339(0, arg4, (object)"K") == -1 && cs2method_10339(0, arg4, (object)"k") == -1 && cs2method_10339(0, arg4, (object)"M") == -1 && cs2method_10339(0, arg4, (object)"m") == -1 && cs2method_10339(0, arg4, (object)"T") == -1 && cs2method_10339(0, arg4, (object)"t") == -1) {
+								arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+								arg0 = add(arg0, 1);
+							} else {
+								ivar7 = 1;
+							}
+							GOTO	flow_75
+						flow_74:
+							ivar7 = 1;
+						flow_75:
+							break;
+							default:
+							IF (cs2method_10291(arg3) == 1) 
+								GOTO	flow_78
+							IF (cs2method_10466(arg3, 0, (object)"KkMm") != -1 && ivar4 > 0 && ivar4 < 10) 
+								GOTO	flow_79
+							GOTO	flow_86
+						flow_78:
+						flow_79:
+							if (cs2method_10339(0, arg4, (object)"K") == -1 && cs2method_10339(0, arg4, (object)"k") == -1 && cs2method_10339(0, arg4, (object)"M") == -1 && cs2method_10339(0, arg4, (object)"m") == -1) {
+								arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+								arg0 = add(arg0, 1);
+							} else {
+								ivar7 = 1;
+							}
+							break;
+						flow_86:
+							ivar7 = 1;
+					}
+					break;
+					case 7:
+					if (ivar4 < 30) {
+						arg4 = cs2method_10445(cs2method_10693(arg3, ovar1), ovar2);
+						arg0 = add(arg0, 1);
+					} else {
+						ivar7 = 1;
+					}
+			}
+		}
+	}
+	return newstruct cs2func_script_802_struct(arg0, arg4);
+}

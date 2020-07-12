@@ -1,0 +1,8 @@
+void script_2119(int arg0,int arg1) {
+	if (cs2method_10919(arg0) > 0 && cs2method_10424(arg0) < 35) {
+		setWidgetIsHidden(false, new WidgetPointer(arg1));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+	}
+	return;
+}

@@ -1,0 +1,25 @@
+void script_3681(int arg0) {
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"Add to playlist";
+	ovar1 = (object)"Remove from playlist";
+	setWidgetContextMenuOption(1, (object)"Play");
+	setWidgetRGB(new Color(0, 255, 0));
+	cs2method_20139(1356, new WidgetPointer(-32768,3), -2147483643, 65280, "Iii");
+	cs2method_10692(0);
+	cs2method_20115(2885, new WidgetPointer(-32768,3), -2147483643, 150, 0, 20, -2147483644, "Iiiiii");
+	if (arg0 == bitconfig_7081 || arg0 == bitconfig_7082 || arg0 == bitconfig_7083 || arg0 == bitconfig_7084 || arg0 == bitconfig_7085 || arg0 == bitconfig_7086 || arg0 == bitconfig_7087 || arg0 == bitconfig_7088 || arg0 == bitconfig_7089 || arg0 == bitconfig_7090 || arg0 == bitconfig_7091 || arg0 == bitconfig_7092) {
+		cs2method_10469(2430);
+		setWidgetContextMenuOption(4, ovar1);
+		setWidgetContextMenuOption(4, ovar1);
+		cs2method_20930(1160, new WidgetPointer(187,1), -2147483643, new WidgetPointer(187,17), (string)ovar1, 25, 189, "IiIsii");
+		cs2method_20139(40, new WidgetPointer(187,17), "I");
+	} else {
+		setWidgetContextMenuOption(3, ovar0);
+		setWidgetContextMenuOption(3, ovar0);
+		cs2method_10469(2429);
+		cs2method_20930(1160, new WidgetPointer(187,1), -2147483643, new WidgetPointer(187,17), (string)ovar0, 25, 189, "IiIsii");
+		cs2method_20139(40, new WidgetPointer(187,17), "I");
+	}
+	return;
+}

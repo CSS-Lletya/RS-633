@@ -1,0 +1,18 @@
+void script_1565() {
+	setWidgetFont(307, 13762561);
+	setWidgetFont(307, 13828097);
+	setWidgetFont(307, 13828098);
+	setWidgetFont(307, 13893633);
+	setWidgetFont(307, 13893634);
+	setWidgetFont(307, 13893635);
+	setWidgetFont(307, 13959169);
+	setWidgetFont(307, 13959170);
+	setWidgetFont(307, 13959171);
+	setWidgetFont(307, 13959172);
+	setWidgetFont(307, 14024705);
+	setWidgetFont(307, 14024706);
+	setWidgetFont(307, 14024707);
+	setWidgetFont(307, 14024708);
+	setWidgetFont(307, 14024709);
+	return;
+}

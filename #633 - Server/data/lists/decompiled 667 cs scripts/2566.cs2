@@ -1,0 +1,20 @@
+void script_2566() {
+	setWidgetText(new WidgetPointer(843,7), (object)globalstring_182);
+	setWidgetText(new WidgetPointer(843,8), (object)globalstring_183);
+	if (globalint_945 == 0) {
+		cs2method_10461(47798, 55246866);
+	} else if (globalint_945 == 1) {
+		cs2method_10461(47794, 55246866);
+	} else if (globalint_945 == 2) {
+		cs2method_10461(47792, 55246866);
+	} else if (globalint_945 == 3) {
+		cs2method_10461(47786, 55246866);
+	} else if (globalint_945 == 4) {
+		cs2method_10461(47787, 55246866);
+	} else {
+		if (globalint_945 == 5) {
+			cs2method_10461(47796, 55246866);
+		}
+	}
+	return;
+}

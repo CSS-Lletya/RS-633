@@ -1,0 +1,63 @@
+void script_312(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	if (globalint_1 < add(cs2method_10878(), 25)) {
+		globalint_1 = cs2method_10004(globalint_1, cs2method_10878());
+		globalint_1 = add(globalint_1, 2);
+		return;
+	}
+	ivar2 = 49479737;
+	ivar3 = cs2method_10740(ivar2);
+	ivar4 = cs2method_10956(ivar3);
+	ivar5 = 0;
+	ivar6 = 0;
+	globalint_1 = add(cs2method_10878(), 10);
+	if (globalint_2 == 0) {
+		ivar5 = cs2method_10242(ivar4, 495, arg2);
+		ivar6 = add(multiply(getLineCount(ivar5, 495, arg2), 12), 9);
+		ivar5 = add(ivar5, 4);
+		cs2method_10893(ivar5, ivar6, 0, 0, ivar2);
+		createChildWidget(ivar2, 3, 0);
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetFilled(1);
+		setWidgetRGB(new Color(14, 14, 14));
+		createChildWidget(ivar2, 3, 1);
+		setWidgetSize(0, 0, 1, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetFilled(0);
+		setWidgetRGB(new Color(235, 236, 230));
+		createChildWidget(ivar2, 4, 2);
+		setWidgetSize(4, 6, 1, 1);
+		setWidgetPosition(0, 0, 1, 1);
+		setWidgetRGB(new Color(245, 178, 65));
+		setWidgetTextAlignment(0, 1, 0);
+		setWidgetFont(495);
+		setWidgetText(arg2);
+		globalint_2 = 1;
+	}
+	ivar5 = arg0;
+	ivar6 = arg1;
+	ivar7 = subtract(0, ivar5);
+	if (ivar7 > 0) {
+		ivar5 = add(ivar5, ivar7);
+	}
+	ivar7 = subtract(add(ivar5, cs2method_10956(ivar2)), ivar4);
+	if (ivar7 > 0) {
+		ivar5 = subtract(ivar5, ivar7);
+	}
+	ivar7 = subtract(add(ivar6, cs2method_10090(ivar2)), cs2method_10090(ivar3));
+	if (ivar7 > 0) {
+		ivar6 = subtract(ivar6, ivar7);
+	}
+	ivar7 = subtract(0, ivar6);
+	if (ivar7 > 0) {
+		ivar6 = add(ivar6, ivar7);
+	}
+	cs2method_10444(ivar5, ivar6, 0, 0, ivar2);
+	return;
+}

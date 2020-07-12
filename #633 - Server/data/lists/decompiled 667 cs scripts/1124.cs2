@@ -1,0 +1,26 @@
+string script_1124() {
+	switch (standart_config_2675) {
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+			if (standart_config_2682 > 0) {
+				return " (" + script_1128(standart_config_2682) + "%)";
+			}
+			break;
+		case 5:
+		case 6:
+		case 7:
+			if (standart_config_2683 > 0) {
+				return " (" + script_1128(standart_config_2683) + "%)";
+			}
+			break;
+		case 8:
+		case 9:
+		case 10:
+			if (standart_config_2684 > 0) {
+				return " (" + script_1128(standart_config_2684) + "%)";
+			}
+	}
+	return "";
+}

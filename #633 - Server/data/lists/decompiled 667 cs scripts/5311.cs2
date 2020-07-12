@@ -1,0 +1,51 @@
+void script_5311(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	ivar4 = 0;
+	ivar5 = cs2method_10624(5177);
+	ivar6 = cs2method_10624(5176);
+	globalarray_0 = new int[cs2method_10586(ivar5, ivar6)];
+	ivar7 = 0;
+	while (ivar4 < cs2method_10586(ivar5, ivar6)) {
+		if (cs2method_10551(arg1, ivar4) == 1 && cs2method_10366(cs2method_10775()) > 0) {
+			globalarray_0[ivar7] = ivar4;
+			ivar7 = add(ivar7, 1);
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	if (ivar7 > 1) {
+		if (globalint_1607 == 1) {
+			script_4425(0, arg1, 0, subtract(ivar7, 1));
+			globalint_1607 = -1;
+		} else {
+			script_4424(0, arg1, 0, subtract(ivar7, 1));
+			globalint_1607 = 1;
+		}
+	}
+	ivar8 = 15;
+	ivar4 = 0;
+	while (ivar4 < ivar7) {
+		if (cs2method_10551(arg1, globalarray_0[ivar4]) == 1) {
+			setWidgetPosition(2, multiply(ivar8, ivar4), 0, 0);
+			if (cs2method_10551(arg2, globalarray_0[ivar4]) == 1) {
+				setWidgetPosition(140, add(multiply(ivar8, ivar4), 1), 0, 0);
+			}
+			if (cs2method_10551(arg3, globalarray_0[ivar4]) == 1) {
+				setWidgetPosition(152, add(multiply(ivar8, ivar4), 1), 0, 0);
+			}
+			if (cs2method_10551(arg0, globalarray_0[ivar4]) == 1) {
+				setWidgetPosition(0, multiply(ivar8, ivar4), 0, 0);
+				if (cs2method_10620(ivar4, 2) == 0) {
+					setWidgetRGB(new Color(34, 34, 34));
+				} else {
+					setWidgetRGB(new Color(17, 17, 17));
+				}
+			}
+		}
+		ivar4 = add(ivar4, 1);
+	}
+	return;
+}

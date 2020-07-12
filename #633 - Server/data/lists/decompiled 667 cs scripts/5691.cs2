@@ -1,0 +1,141 @@
+void script_5691(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int stack_dump0;
+	ivar1 = getDataByKey('i', 'g', 5420, arg0);
+	ivar2 = -1;
+	ivar3 = 5;
+	ivar4 = -1;
+	setWidgetIsHidden(true, new WidgetPointer(1218,3));
+	if (cs2method_10403(79822878) == 1) {
+		switch (globalint_1755) {
+			case 1:
+				stack_dump0 = 2223;
+				/* 
+					java.lang.RuntimeException: Stack underflow
+						at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 2:
+				stack_dump0 = 2221;
+				/* 
+					java.lang.RuntimeException: Stack underflow
+						at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+			case 3:
+				stack_dump0 = 2222;
+				/* 
+					java.lang.RuntimeException: Stack underflow
+						at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+						at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+						at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+						at tests.Main.main(Main.java:72)
+					
+				 */
+		}
+		stack_dump0 = 2224;
+		/* 
+			java.lang.RuntimeException: Stack underflow
+				at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	clearExtraChildren(new WidgetPointer(1218,72));
+	while (ivar2 != -1) {
+		if (cs2method_10551(79822878, ivar2) == 1) {
+			ivar4 = getDataByKey('i', 'J', ivar1, ivar2);
+			if (globalint_1754 <= 0 || getGeneralRequirementAttribute(ivar4, 2220) == globalint_1754 || globalint_1754 == 1 && getGeneralRequirementAttribute(ivar4, 2218) == 1) {
+				setWidgetPosition(0, 0, 0, 0);
+				cs2method_20745(5692, ivar2, ivar3, ivar4, "iiJ");
+				cs2method_10692(0);
+				ivar3 = add(cs2method_10630(), ivar3);
+			} else {
+				cs2method_10692(1);
+			}
+			switch (globalint_1755) {
+				case 1:
+					stack_dump0 = 2223;
+					/* 
+						java.lang.RuntimeException: Stack underflow
+							at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+							at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+							at tests.Main.main(Main.java:72)
+						
+					 */
+				case 2:
+					stack_dump0 = 2221;
+					/* 
+						java.lang.RuntimeException: Stack underflow
+							at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+							at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+							at tests.Main.main(Main.java:72)
+						
+					 */
+				case 3:
+					stack_dump0 = 2222;
+					/* 
+						java.lang.RuntimeException: Stack underflow
+							at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+							at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+							at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+							at tests.Main.main(Main.java:72)
+						
+					 */
+			}
+			stack_dump0 = 2224;
+			/* 
+				java.lang.RuntimeException: Stack underflow
+					at mgi.tools.jagdecs2.CS2Stack.pop(CS2Stack.java:49)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.analyzeSpecialCall(FlowBlocksGenerator.java:448)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:259)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		ivar2 = -1;
+	}
+	setWidgetScrollMax(0, ivar3, 79822852);
+	cs2method_10085(0, 0, 79822852);
+	cs2method_10893(0, ivar3, 1, 0, 79822878);
+	cs2method_10893(0, ivar3, 1, 0, 79822920);
+	script_31(79822853, 79822852, 5666, 5663, 5664, 5665, 5686, 5685);
+	return;
+}

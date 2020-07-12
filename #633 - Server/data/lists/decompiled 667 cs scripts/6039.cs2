@@ -1,0 +1,36 @@
+void script_6039(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar3 = getDataByKey('S', 'i', 1482, arg0);
+	ivar4 = script_6035(arg0, globalint_1798, globalint_1799, 0);
+	ivar5 = 3495;
+	if (ivar4 == 1) {
+		ivar5 = 371;
+	}
+	clearExtraChildren(new WidgetPointer(arg1));
+	createChildWidget(arg1, 5, 0);
+	setWidgetSize(0, 0, 1, 1);
+	setWidgetPosition(0, 0, 1, 1);
+	ivar6 = 10203;
+	ivar7 = 10204;
+	if (ivar3 != globalint_1796) {
+		cs2method_10469(ivar6);
+		if (ivar4 == 1) {
+			cs2method_20211(688, new WidgetPointer(-32768,3), -2147483643, ivar7, "Iid");
+			cs2method_20139(688, new WidgetPointer(-32768,3), -2147483643, ivar6, "Iid");
+		}
+	} else {
+		cs2method_10469(10205);
+	}
+	createChildWidget(arg1, 5, 1);
+	setWidgetSize(25, 25, 0, 0);
+	setWidgetPosition(0, 0, 1, 1);
+	cs2method_10469(getDataByKey('i', 'd', ivar5, ivar3));
+	setWidgetContextMenuOption(1, (object)"Choose");
+	cs2method_11002((object)getDataByKey('S', 's', 680, arg0));
+	cs2method_20115(6040, arg0, ivar3, new WidgetPointer(arg1), new WidgetPointer(arg2), "SiII");
+	return;
+}

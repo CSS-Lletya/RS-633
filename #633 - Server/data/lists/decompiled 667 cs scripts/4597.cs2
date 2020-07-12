@@ -1,0 +1,49 @@
+void script_4597() {
+	int ivar0;
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)"What if I entered the Wilderness?";
+	ovar1 = (object)"Back";
+	ivar0 = 0;
+	if (bitconfig_9226 >= 2) {
+		setWidgetIsHidden(true, new WidgetPointer(17,28));
+		cs2method_10893(16, 0, 1, 1, 1114138);
+		cs2method_10893(16, 0, 0, 1, 1114139);
+	} else if (bitconfig_9226 == 1) {
+		setWidgetText(new WidgetPointer(17,30), ovar1);
+	} else {
+		setWidgetText(new WidgetPointer(17,30), ovar0);
+	}
+	ivar0 = cs2method_10004(getLineCount(cs2method_10956(1114142), 495, ovar0), getLineCount(cs2method_10956(1114142), 495, ovar1));
+	ivar0 = add(multiply(ivar0, 12), 10);
+	cs2method_10893(10, ivar0, 1, 0, 1114140);
+	setWidgetIsHidden(false, new WidgetPointer(17,28));
+	ivar0 = add(ivar0, 5);
+	cs2method_10893(16, ivar0, 1, 1, 1114138);
+	cs2method_10893(16, ivar0, 0, 1, 1114139);
+	script_680(1114141);
+	cs2method_20333(95, new WidgetPointer(17,29), "I", new WidgetPointer(17,28));
+	cs2method_20295(93, new WidgetPointer(17,29), "I", new WidgetPointer(17,28));
+	clearExtraChildren(new WidgetPointer(17,26));
+	ivar0 = add(multiply(getLineCount(cs2method_10956(1114138), 494, (object)globalstring_352), 10), 2);
+	createChildWidget(1114138, 4, 0);
+	setWidgetSize(0, ivar0, 1, 0);
+	setWidgetPosition(0, 0, 1, 0);
+	setWidgetFont(494);
+	setWidgetTextAlignment(1, 1, 0);
+	setWidgetRGB(new Color(255, 152, 31));
+	cs2method_10320(1);
+	setWidgetText((object)globalstring_352);
+	if (ivar0 > cs2method_10090(1114138)) {
+		setWidgetScrollMax(0, ivar0, 1114138);
+		script_31(1114139, 1114138, 792, 789, 790, 791, 773, 788);
+		setWidgetIsHidden(false, new WidgetPointer(17,27));
+		cs2method_10444(0, 0, 0, 0, 1114138);
+	} else {
+		setWidgetScrollMax(0, 0, 1114138);
+		setWidgetIsHidden(true, new WidgetPointer(17,27));
+		cs2method_10444(0, 0, 1, 0, 1114138);
+		cs2method_10085(0, 0, 1114138);
+	}
+	return;
+}

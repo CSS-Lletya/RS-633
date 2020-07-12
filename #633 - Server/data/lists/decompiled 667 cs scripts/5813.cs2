@@ -1,0 +1,23 @@
+cs2func_script_5813_struct(2,0,0) script_5813(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = getDataByKey('i', 'i', 3482, arg0);
+	ivar2 = getDataByKey('i', 'i', 5478, arg0);
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = -1;
+	while (ivar1 != ivar2) {
+		ivar5 = getDataByKey('i', 'J', 3483, ivar1);
+		if (getGeneralRequirementAttribute(ivar5, 1267) == arg0 && getGeneralRequirementAttribute(ivar5, 1322) == 0) {
+			ivar4 = add(ivar4, 1);
+			if (script_3227(ivar1) == 2) {
+				ivar3 = add(ivar3, 1);
+			}
+		}
+		ivar1 = getGeneralRequirementAttribute(ivar5, 1269);
+	}
+	return newstruct cs2func_script_5813_struct(ivar3, ivar4);
+}

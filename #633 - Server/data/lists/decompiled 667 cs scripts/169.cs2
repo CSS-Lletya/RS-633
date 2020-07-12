@@ -1,0 +1,8 @@
+void script_169(int arg0,int arg1) {
+	if (bitconfig_3905 == arg0) {
+		setWidgetRGB(14503986, arg1);
+	} else {
+		setWidgetRGB(6574110, arg1);
+	}
+	return;
+}

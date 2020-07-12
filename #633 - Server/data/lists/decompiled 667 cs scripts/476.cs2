@@ -1,0 +1,5 @@
+void script_476() {
+	cs2method_10893(cs2method_10956(66257282), add(multiply(getLineCount(subtract(cs2method_10956(66257282), 10), 494, cs2method_10100(66257283)), 10), 10), 0, 0, 66257282);
+	setWidgetIsHidden(true, new WidgetPointer(1011,386));
+	return;
+}

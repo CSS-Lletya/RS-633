@@ -1,0 +1,50 @@
+int script_6374(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	ivar1 = 0;
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = script_6427(getItemIdInContainerSlot(94, 5), standart_config_2675);
+	ivar6 = 100;
+	ivar7 = 30;
+	ivar8 = subtract(globalint_2105, cs2method_10391(0));
+	ivar9 = cs2method_10586(100, cs2method_10004(-100, cs2method_10542(ivar8, ivar7, 100)));
+	switch (standart_config_2676) {
+		case 5:
+		case 6:
+		case 7:
+			ivar4 = 1;
+			ivar6 = standart_config_2969;
+			break;
+		case 8:
+		case 9:
+		case 10:
+			ivar4 = 2;
+			ivar6 = standart_config_2970;
+	}
+	if (standart_config_2676 == cs2method_30762(globalint_2103, 2564)) {
+		ivar1 = cs2method_30762(globalint_2103, 2565);
+	} else if (ivar4 == arg0) {
+		ivar1 = cs2method_30762(globalint_2103, 2566);
+	} else if (ivar4 == cs2method_30762(globalint_2103, 26)) {
+		ivar1 = cs2method_30762(globalint_2103, 2567);
+	} else {
+		ivar1 = cs2method_30762(globalint_2103, 2568);
+	}
+	ivar2 = subtract(cs2method_30762(globalint_2103, 2580), ivar5);
+	if (ivar8 > 0) {
+		ivar1 = add(add(ivar1, ivar2), cs2method_10542(subtract(1000, ivar1), 100, ivar9));
+	} else {
+		ivar1 = add(add(ivar1, ivar2), cs2method_10542(ivar1, 100, ivar9));
+	}
+	ivar3 = cs2method_10004(-1, cs2method_10542(subtract(1000, ivar1), 100, ivar6));
+	return divide(ivar3, 10);
+}

@@ -1,0 +1,14 @@
+int script_4468() {
+	int ivar0;
+	int ivar1;
+	ivar0 = -1;
+	ivar1 = -1;
+	ivar1 = cs2method_10283(cs2method_10222(cs2method_10664()));
+	if (ivar1 >= 0) {
+		ivar0 = cs2method_10370(ivar1);
+		if (ivar0 >= cs2method_10753()) {
+			return 1;
+		}
+	}
+	return 0;
+}

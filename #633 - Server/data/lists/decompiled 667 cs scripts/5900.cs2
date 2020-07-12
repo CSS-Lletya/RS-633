@@ -1,0 +1,10 @@
+void script_5900() {
+	if (globalint_1928 == 0) {
+		cs2method_10492(script_5925(5914), 1, 0, add(cs2method_10869(20), 30), 150);
+	} else {
+		if (globalint_1928 == 1) {
+			cs2method_10492(script_5925(5916), 1, 0, add(cs2method_10869(10), 20), 255);
+		}
+	}
+	return;
+}

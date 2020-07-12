@@ -1,0 +1,22 @@
+void script_253() {
+	cs2method_20914(260, 1104, 1105, 1106, 1107, 1108, 1109, 1110, 7, "Y", new WidgetPointer(923,114));
+	cs2method_10274(15658, 0, 60489790);
+	cs2method_10274(15659, 0, 60489788);
+	cs2method_10274(15663, 0, 60489786);
+	cs2method_10274(15662, 0, 60489784);
+	cs2method_10274(15661, 0, 60489782);
+	cs2method_10274(15660, 0, 60489780);
+	cs2method_10274(15664, 0, 60489778);
+	cs2method_10274(15665, 0, 60489776);
+	cs2method_20914(256, 1111, 1113, 1112, 1114, 1115, 1116, 1117, 1927, 8, "Y", new WidgetPointer(919,48));
+	globalint_1111 = -1;
+	globalint_1112 = -1;
+	globalint_1113 = -1;
+	globalint_1114 = -1;
+	globalint_1115 = -1;
+	globalint_1116 = -1;
+	globalint_1117 = -1;
+	globalint_1927 = -1;
+	setWidgetScrollMax(cs2method_10956(60227639), cs2method_10090(60227639), 60227639);
+	return;
+}

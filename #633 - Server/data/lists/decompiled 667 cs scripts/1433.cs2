@@ -1,0 +1,13 @@
+void script_1433() {
+	if (cs2method_10842() >= 1) {
+		cs2method_20914(1434, 184, 1, "Y", new WidgetPointer(746,11));
+		cs2method_20914(1434, 184, 1, "Y", new WidgetPointer(548,5));
+	}
+	cs2method_20914(1547, 5, 1, "Y", new WidgetPointer(752,3));
+	cs2method_20374(721, "", new WidgetPointer(746,50));
+	if (globalint_1694 == -1) {
+		globalint_1694 = 100;
+	}
+	script_51();
+	return;
+}

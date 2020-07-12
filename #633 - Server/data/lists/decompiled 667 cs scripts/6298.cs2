@@ -1,0 +1,20 @@
+string script_6298() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	ivar0 = script_6304();
+	ivar1 = cs2method_10869(ivar0);
+	ivar2 = 0;
+	ivar3 = 0;
+	while (ivar3 <= ivar1) {
+		if (cs2method_10366((object)script_6302(ivar2)) > 0) {
+			if (ivar3 == ivar1) {
+				return script_6302(ivar2);
+			}
+			ivar3 = add(ivar3, 1);
+		}
+		ivar2 = add(ivar2, 1);
+	}
+	return "When the \u201cearn free spin\u201d button appears on your claim screen, spare a moment to watch a short video ad for a free spin!";
+}

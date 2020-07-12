@@ -1,0 +1,16 @@
+void script_6146(int arg0) {
+	int ivar1;
+	ivar1 = 1;
+	if (cs2method_10869(2) == 0) {
+		ivar1 = subtract(0, ivar1);
+	}
+	switch (globalint_1903) {
+		case 0:
+			cs2method_10924(globalint_1908, globalint_1907);
+			script_6147(arg0, cs2method_10869(8), add(400, globalint_1906), -1, ivar1);
+			break;
+		case 4:
+			cs2method_10532();
+	}
+	return;
+}

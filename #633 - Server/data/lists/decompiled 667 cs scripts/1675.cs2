@@ -1,0 +1,8 @@
+void script_1675(int arg0) {
+	if (arg0 == 0) {
+		cs2method_10461(getDataByKey('i', 'm', 839, bitconfig_6764), 5505043);
+	} else {
+		cs2method_10461(getDataByKey('i', 'm', 838, arg0), 5505043);
+	}
+	return;
+}

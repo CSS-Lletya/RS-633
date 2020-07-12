@@ -1,0 +1,7 @@
+void script_48() {
+	if (globalint_1034 == 1 && globalint_1027 == 1 && cs2method_10366((object)globalstring_202) > 0) {
+		cs2method_10215((object)globalstring_202);
+		globalint_1034 = 2;
+	}
+	return;
+}

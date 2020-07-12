@@ -1,0 +1,55 @@
+void script_5633() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar0 = cs2method_10553();
+	if (ivar0 == -3) {
+		return;
+	}
+	cs2method_20219(-1, "", new WidgetPointer(673,26));
+	ovar0 = (object)"";
+	ivar1 = 1;
+	ivar2 = 0;
+	ivar3 = 2608;
+	ivar4 = 0;
+	ivar5 = 0;
+	ovar1 = (object)"";
+	ivar6 = 1;
+	ovar2 = (object)"Back";
+	ivar7 = -1;
+	if (ivar0 == 2) {
+		script_3208(0);
+	} else {
+		flow_4:
+			script_2206();
+			SWITCH (ivar0) {
+				case 37:
+					 GOTO flow_5
+				case -5:
+					 GOTO flow_6
+			}
+			ivar7 = 25;
+			ovar0 = (object)"Unexpected server response.";
+			GOTO	flow_7
+		flow_5:
+			ivar7 = 6;
+			ivar1 = 0;
+			ivar3 = 2610;
+			ovar0 = (object)"RuneScape has been updated! Please reload this page.";
+			GOTO	flow_7
+		flow_6:
+			ivar7 = -5;
+			ovar0 = (object)"No response from server.";
+		flow_7:
+			script_2950(ivar7, ivar1, ivar2, ivar3, ivar4, ivar5, ivar6, ovar0, ovar1, ovar2);
+	}
+	return;
+}

@@ -1,0 +1,27 @@
+void script_6391(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	object ovar0;
+	ivar1 = 85393502;
+	ivar2 = 85393509;
+	setWidgetIsHidden(false, new WidgetPointer(ivar1));
+	ivar3 = 0;
+	ivar4 = 20;
+	ivar5 = 86;
+	ivar6 = cs2method_10542(100, ivar5, cs2method_10956(arg0));
+	ovar0 = (object)(toString(ivar6) + "%");
+	setWidgetText(new WidgetPointer(ivar2), ovar0);
+	ivar3 = cs2method_10355(cs2method_10894(ivar2), ovar0);
+	ivar3 = add(ivar3, 8);
+	cs2method_10893(ivar3, ivar4, 0, 0, ivar1);
+	ivar7 = cs2method_10111(arg0);
+	ivar8 = subtract(subtract(cs2method_10826(arg0), cs2method_10090(ivar1)), 3);
+	cs2method_10444(ivar7, ivar8, 0, 0, ivar1);
+	return;
+}

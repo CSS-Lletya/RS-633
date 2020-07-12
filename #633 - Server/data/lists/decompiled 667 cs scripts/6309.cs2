@@ -1,0 +1,41 @@
+void script_6309(int arg0,int arg1,int arg2,int arg3) {
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	if (arg3 == -1) {
+		return;
+	}
+	ivar4 = divide(add(arg1, arg2), 2);
+	ivar5 = globalarray_0[ivar4];
+	globalarray_0[ivar4] = globalarray_0[arg2];
+	globalarray_0[arg2] = ivar5;
+	ivar6 = arg1;
+	ivar7 = arg1;
+	ivar8 = 0;
+	ivar9 = -1;
+	ivar10 = -1;
+	while (ivar7 < arg2) {
+		ivar9 = getDataByKey('i', 'J', arg3, globalarray_0[ivar7]);
+		ivar10 = getDataByKey('i', 'J', arg3, ivar5);
+		if (ivar9 != -1 && ivar10 != -1 && getGeneralRequirementAttribute(ivar9, 2534) < getGeneralRequirementAttribute(ivar10, 2534)) {
+			ivar8 = globalarray_0[ivar7];
+			globalarray_0[ivar7] = globalarray_0[ivar6];
+			globalarray_0[ivar6] = ivar8;
+			ivar6 = add(ivar6, 1);
+		}
+		ivar7 = add(ivar7, 1);
+	}
+	globalarray_0[arg2] = globalarray_0[ivar6];
+	globalarray_0[ivar6] = ivar5;
+	if (arg1 < subtract(ivar6, 1)) {
+		script_6309(0, arg1, subtract(ivar6, 1), arg3);
+	}
+	if (add(ivar6, 1) < arg2) {
+		script_6309(0, add(ivar6, 1), arg2, arg3);
+	}
+	return;
+}

@@ -1,0 +1,58 @@
+void script_6281(int arg0) {
+	if (globalint_1930 > 0) {
+		return;
+	}
+	switch (arg0) {
+		case 1:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15746, 1, 0, 255);
+			globalint_1930 = 315;
+			break;
+		case 2:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15744, 1, 0, 255);
+			globalint_1930 = 72;
+			break;
+		case 3:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15739, 1, 0, 255);
+			globalint_1930 = 140;
+			break;
+		case 4:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15720, 1, 0, 255);
+			globalint_1930 = 192;
+			break;
+		case 5:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15730, 1, 0, 255);
+			globalint_1930 = 140;
+			break;
+		case 6:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15740, 1, 0, 255);
+			globalint_1930 = 212;
+			break;
+		case 7:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15738, 1, 0, 255);
+			globalint_1930 = 244;
+			break;
+		case 8:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15724, 1, 0, 255);
+			globalint_1930 = 190;
+			break;
+		case 9:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15745, 1, 0, 255);
+			globalint_1930 = 190;
+			break;
+		case 10:
+			cs2method_10998((object)"Playing sound...");
+			cs2method_10677(15742, 1, 0, 255);
+			globalint_1930 = 145;
+	}
+	cs2method_20219(6282, "", new WidgetPointer(1297,165));
+	return;
+}

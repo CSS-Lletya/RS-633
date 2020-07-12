@@ -1,0 +1,19 @@
+void script_2214() {
+	if (globalint_1137 == 1) {
+		if (cs2method_10111(globalint_1136) < 256) {
+			cs2method_10444(add(1, cs2method_10111(globalint_1136)), cs2method_10826(globalint_1136), 0, 0, globalint_1136);
+		}
+		if (cs2method_10111(globalint_1136) > 256) {
+			cs2method_10444(subtract(cs2method_10111(globalint_1136), 1), cs2method_10826(globalint_1136), 0, 0, globalint_1136);
+		}
+		if (cs2method_10826(61079566) > 70) {
+			cs2method_10444(cs2method_10111(globalint_1136), subtract(cs2method_10826(globalint_1136), 2), 0, 0, globalint_1136);
+			cs2method_10444(cs2method_10111(61079566), subtract(cs2method_10826(61079566), 2), 0, 0, 61079566);
+			cs2method_20219(2214, "", new WidgetPointer(932,1));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(globalint_1136));
+			cs2method_20219(2215, "", new WidgetPointer(932,1));
+		}
+	}
+	return;
+}

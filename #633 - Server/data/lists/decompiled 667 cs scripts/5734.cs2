@@ -1,0 +1,84 @@
+void script_5734() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	ivar0 = standart_config_2501;
+	ovar0 = (object)getGeneralRequirementAttribute(ivar0, 1266);
+	ovar1 = (object)getGeneralRequirementAttribute(ivar0, 1273);
+	ivar1 = getGeneralRequirementAttribute(ivar0, 1268);
+	if (script_3227(getGeneralRequirementAttribute(ivar0, 1268)) == 2 && script_5732(ivar0) == 0) {
+		ovar1 = cs2method_10445(ovar1, (object)("<br>" + "<col=00ff00>" + "You have already completed this."));
+		if (getGeneralRequirementAttribute(ivar0, 2231) != -1) {
+			script_5743(81068081, (object)"Teleport");
+			setWidgetIsHidden(true, new WidgetPointer(1237,55));
+		} else {
+			script_5743(81068081, (object)"Accept");
+			setWidgetIsHidden(false, new WidgetPointer(1237,55));
+		}
+	} else if (getGeneralRequirementAttribute(ivar0, 1268) == 943) {
+		script_5743(81068081, (object)"Accept");
+		setWidgetIsHidden(false, new WidgetPointer(1237,55));
+	} else if (script_3224(getGeneralRequirementAttribute(ivar0, 1268)) == 1) {
+		script_5743(81068081, (object)"Accept");
+		setWidgetIsHidden(true, new WidgetPointer(1237,55));
+	} else {
+		script_5743(81068081, (object)"Accept");
+		setWidgetIsHidden(false, new WidgetPointer(1237,55));
+	}
+	if (standart_config_2504 != -1 && bitconfig_10682 != 0) {
+		if (script_5764(standart_config_2504, script_5763(standart_config_2504), subtract(bitconfig_10682, 1)) == -1) {
+			setWidgetIsHidden(false, new WidgetPointer(1237,100));
+		} else {
+			setWidgetIsHidden(true, new WidgetPointer(1237,100));
+		}
+	}
+	setWidgetText(new WidgetPointer(1237,70), ovar0);
+	ivar2 = -1;
+	if (getGeneralRequirementAttribute(ivar0, 1270) != 4094) {
+		ivar2 = getGeneralRequirementAttribute(getDataByKey('i', 'J', 2252, getGeneralRequirementAttribute(ivar0, 1270)), 952);
+	} else {
+		ivar2 = getGeneralRequirementAttribute(ivar0, 1271);
+	}
+	cs2method_10467(ivar2, 81068075);
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar3 = script_5739(1, cs2method_10826(81068032), 81068032, 81068048, ovar1);
+	ivar3 = subtract(divide(cs2method_10090(81068048), 2), divide(cs2method_10090(81068032), 2));
+	cs2method_10444(0, ivar3, 0, 0, 81068032);
+	ivar3 = cs2method_10826(81068049);
+	cs2method_10444(cs2method_10111(81068050), add(ivar4, cs2method_10826(81068050)), 0, 0, 81068050);
+	cs2method_10467(9606, 81068052);
+	ivar4 = script_5735();
+	ovar2 = (object)"";
+	ivar5 = 1;
+	if (ivar4 > add(cs2method_10826(81068033), cs2method_10090(81068033))) {
+		setWidgetIsHidden(false, new WidgetPointer(1237,18));
+		ivar4 = add(ivar4, 10);
+		ivar3 = add(ivar3, ivar4);
+		ovar2 = (object)"Click the stats button on the bottom right of the screen to check all your current stats.";
+		cs2method_20835(4538, new WidgetPointer(1237,14), new WidgetPointer(1237,20), -1, (string)ovar2, 175, -1, -1, -1, 12, 3, ivar5, -2147483647, -2147483646, "IIisifdiiiiii", new WidgetPointer(1237,20));
+		cs2method_20295(40, new WidgetPointer(1237,14), "I", new WidgetPointer(1237,20));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1237,18));
+		ivar4 = 0;
+	}
+	cs2method_10444(cs2method_10111(81068065), add(cs2method_10826(81068050), ivar4), 0, 0, 81068065);
+	ivar3 = add(ivar3, script_5737());
+	ivar3 = cs2method_10004(add(ivar3, 10), cs2method_10090(81068044));
+	setWidgetScrollMax(0, ivar3, 81068044);
+	cs2method_10085(0, 0, 81068044);
+	script_31(81068045, 81068044, 4343, 4340, 4341, 4342, 4337, 4336);
+	if (ivar3 > cs2method_10090(81068044)) {
+		setWidgetIsHidden(false, new WidgetPointer(1237,13));
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(1237,13));
+	}
+	script_5738();
+	return;
+}

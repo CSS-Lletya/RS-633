@@ -1,0 +1,7 @@
+void script_3632(int arg0) {
+	if (cs2method_10403(arg0) == 1) {
+		cs2method_10545(1101, cs2method_10646());
+		cs2method_10545(1102, cs2method_10207());
+	}
+	return;
+}

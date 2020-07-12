@@ -1,0 +1,16 @@
+void script_492(int arg0) {
+	switch (arg0) {
+		case 66519136:
+			setWidgetRGB(15125144, 66519140);
+			break;
+		case 66519130:
+			setWidgetRGB(15125144, 66519132);
+			break;
+		case 66519124:
+			setWidgetRGB(15125144, 66519126);
+			break;
+		case 66519118:
+			setWidgetRGB(15125144, 66519120);
+	}
+	return;
+}

@@ -1,0 +1,41 @@
+void script_4472(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = -1;
+	ivar3 = -1;
+	ivar4 = -1;
+	switch (arg0) {
+		case 1:
+			globalint_1650 = 1;
+			globalstring_23 = (string)arg2;
+			globalint_2106 = 1;
+			script_6415();
+			script_6328(0);
+			script_1558(0);
+			return;
+		case 5:
+			cs2method_10998((object)("Attempting to add " + (string)arg2 + " to your Friends List."));
+			arg2 = cs2method_10222(arg2);
+			cs2method_10330(arg2);
+			break;
+		case 6:
+			cs2method_10998((object)("Attempting to add " + (string)arg2 + " to your Ignore List."));
+			arg2 = cs2method_10222(arg2);
+			cs2method_10267(arg2);
+			break;
+		case 7:
+			cs2method_10998((object)("Attempting to remove " + (string)arg2 + " from your Friends List."));
+			arg2 = cs2method_10222(arg2);
+			cs2method_10091(arg2);
+			break;
+		case 8:
+			cs2method_10998((object)("Attempting to remove " + (string)arg2 + " from your Ignore List."));
+			arg2 = cs2method_10222(arg2);
+			cs2method_10609(arg2);
+			break;
+		case 9:
+			script_4465(arg2);
+	}
+	return;
+}

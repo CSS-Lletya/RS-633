@@ -1,0 +1,17 @@
+void script_608() {
+	if (cs2method_10551(43384906, 0) == 1) {
+		cs2method_11002((object)("<col=00ff00>" + globalstring_204));
+		cs2method_10628((object)"Cast");
+		if (globalint_1436 == 1) {
+			setWidgetContextMenuOption(1, (object)"Cast");
+		}
+	}
+	if (cs2method_10551(48955410, 0) == 1) {
+		cs2method_11002((object)("<col=00ff00>" + globalstring_204));
+		cs2method_10628((object)"Cast");
+		if (globalint_1436 == 1) {
+			setWidgetContextMenuOption(1, (object)"Cast");
+		}
+	}
+	return;
+}

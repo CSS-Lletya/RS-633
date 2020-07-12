@@ -1,0 +1,7 @@
+void script_5230(int arg0,int arg1,int arg2) {
+	if (cs2method_10907() == 1) {
+		script_4340(arg0, clanconfig_0, arg1, arg2);
+		cs2method_20209(-1, "", new WidgetPointer(arg2));
+	}
+	return;
+}

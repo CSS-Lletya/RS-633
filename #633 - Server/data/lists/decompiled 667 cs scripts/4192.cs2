@@ -1,0 +1,24 @@
+void script_4192() {
+	if (cs2method_10403(70385744) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385745) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385746) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385747) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385748) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385749) == 1) {
+		cs2method_10949(1);
+	}
+	if (cs2method_10403(70385750) == 1) {
+		cs2method_10949(1);
+	}
+	return;
+}

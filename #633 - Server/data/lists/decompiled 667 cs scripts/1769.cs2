@@ -1,0 +1,7 @@
+void script_1769(int arg0) {
+	cs2method_10461(getGeneralRequirementAttribute(globalint_269, 581), arg0);
+	cs2method_10158(0, 160, getGeneralRequirementAttribute(globalint_269, 584), getGeneralRequirementAttribute(globalint_269, 585), getGeneralRequirementAttribute(globalint_269, 586), getGeneralRequirementAttribute(globalint_269, 583), arg0);
+	cs2method_10535(getGeneralRequirementAttribute(globalint_269, 582), arg0);
+	cs2method_10444(0, getGeneralRequirementAttribute(globalint_269, 587), 1, 0, arg0);
+	return;
+}

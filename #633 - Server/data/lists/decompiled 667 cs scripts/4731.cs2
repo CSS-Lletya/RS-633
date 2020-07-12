@@ -1,0 +1,34 @@
+void script_4731(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	opc_struct10730(3,0,0) structdump_0;
+	flow_0:
+		ivar2 = 0;
+		ivar3 = 0;
+		ivar4 = 0;
+		structdump_0 = cs2method_10730();
+		ivar4 = structdump_0.intpart_2;
+		ivar3 = structdump_0.intpart_1;
+		ivar2 = structdump_0.intpart_0;
+		ivar5 = add(cs2method_10832(), multiply(subtract(globalint_1653, arg0), 2));
+		ivar6 = subtract(cs2method_10947(), subtract(globalint_1654, arg1));
+		IF (ivar3 == 1 && globalint_173 != 1) 
+			GOTO	flow_2
+		GOTO	flow_6
+	flow_2:
+		IF (bitconfig_542 != 1) 
+			GOTO	flow_4
+		IF (bitconfig_542 == 1 && bitconfig_10196 == 1 && cs2method_10159() == 1) 
+			GOTO	flow_5
+		GOTO	flow_6
+	flow_4:
+	flow_5:
+		cs2method_10924(ivar6, ivar5);
+	flow_6:
+		globalint_1653 = arg0;
+		globalint_1654 = arg1;
+		return;
+}

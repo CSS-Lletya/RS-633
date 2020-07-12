@@ -1,0 +1,14 @@
+void script_5591(int arg0,int arg1) {
+	if (arg0 == 16) {
+		setWidgetRGB(14389248, 77660180);
+		setWidgetRGB(14389248, 77660181);
+		cs2method_10250(77660175);
+	} else {
+		if (arg0 == 17) {
+			setWidgetRGB(14389248, 77660185);
+			setWidgetRGB(14389248, 77660186);
+			cs2method_10250(77660176);
+		}
+	}
+	return;
+}

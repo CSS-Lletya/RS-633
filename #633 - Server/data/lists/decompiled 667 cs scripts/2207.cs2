@@ -1,0 +1,6 @@
+void script_2207() {
+	if (globalint_1137 == 0) {
+		cs2method_20219(2212, "", new WidgetPointer(932,1));
+	}
+	return;
+}

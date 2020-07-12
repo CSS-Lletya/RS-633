@@ -1,0 +1,14 @@
+void script_2636() {
+	if (bitconfig_6357 == 2) {
+		cs2method_10978(56295440, (object)"Attack wall");
+		cs2method_10978(56295441, (object)"Collect");
+	} else if (bitconfig_6357 == 4) {
+		cs2method_10978(56295440, (object)"Rescue");
+		cs2method_10978(56295441, (object)"Steal");
+	} else {
+		if (bitconfig_6357 == 3) {
+			cs2method_10978(56295440, (object)"Collect gold");
+		}
+	}
+	return;
+}

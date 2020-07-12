@@ -1,0 +1,8 @@
+void script_5874() {
+	cs2method_10499(0);
+	cs2method_10734(0);
+	cs2method_10510(0);
+	cs2method_10750(0);
+	cs2method_10422(0);
+	return;
+}

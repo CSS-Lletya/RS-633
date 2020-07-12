@@ -1,0 +1,15 @@
+void script_120(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	ivar1 = cs2method_10869(63);
+	ivar2 = cs2method_10869(127);
+	cs2method_10203(ivar1, 4, 60, ivar2, arg0);
+	ivar3 = add(cs2method_10742(25), 10);
+	ivar4 = add(cs2method_10742(25), 20);
+	ivar5 = add(cs2method_10878(), 100);
+	cs2method_20219(5612, new WidgetPointer(arg0), ivar1, ivar2, cs2method_10869(2), ivar5, ivar3, ivar4, "Iiiiiii", new WidgetPointer(arg0));
+	return;
+}

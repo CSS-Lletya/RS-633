@@ -1,0 +1,19 @@
+void script_4143() {
+	object ovar0;
+	ovar0 = (object)"null";
+	if (bitconfig_8780 == 1) {
+		cs2method_10467(4583, 17104907);
+		ovar0 = (object)("Toggle Profanity Filter" + "<br>" + "(filter is currently off)");
+		cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,11));
+		globalint_2 = 0;
+	} else {
+		if (bitconfig_8780 == 0) {
+			cs2method_10467(4584, 17104907);
+			ovar0 = (object)("Toggle Profanity Filter" + "<br>" + "(filter is currently on)");
+			cs2method_20835(5332, new WidgetPointer(-32768,3), new WidgetPointer(261,31), (string)ovar0, 25, 180, "IIsii", new WidgetPointer(261,11));
+			globalint_2 = 0;
+		}
+	}
+	script_5643(17104907, cs2method_10620(add(bitconfig_8780, 1), 2));
+	return;
+}

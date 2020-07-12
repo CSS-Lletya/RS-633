@@ -1,0 +1,12 @@
+cs2func_script_6095_struct(2,0,0) script_6095(int arg0) {
+	int ivar1;
+	int ivar2;
+	ivar1 = 0;
+	ivar2 = add(add(52, 2), 2);
+	if (arg0 == 0) {
+		ivar1 = add(add(48, 2), 2);
+	} else {
+		ivar1 = add(add(151, 2), 2);
+	}
+	return newstruct cs2func_script_6095_struct(ivar1, ivar2);
+}

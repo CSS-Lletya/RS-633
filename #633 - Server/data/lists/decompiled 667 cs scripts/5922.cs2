@@ -1,0 +1,15 @@
+void script_5922(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = 8;
+	ivar3 = -162;
+	ivar4 = cs2method_10004(subtract(arg1, ivar2), ivar3);
+	if (ivar4 == ivar3) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(5922, new WidgetPointer(-32768,3), ivar4, "Ii", new WidgetPointer(arg0));
+	}
+	cs2method_10444(ivar4, -16, 1, 1, arg0);
+	return;
+}

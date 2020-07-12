@@ -1,0 +1,6 @@
+void script_2932(int arg0,object arg1,object arg2) {
+	if (compareTo(arg1, (object)"") != 0 && compareTo(arg2, (object)"") != 0) {
+		cs2method_10332(arg0, (object)("loginapplet/loginapplet.ws?ssl=1&expired=0&mod=" + (string)arg1 + "&dest=" + (string)arg2));
+	}
+	return;
+}

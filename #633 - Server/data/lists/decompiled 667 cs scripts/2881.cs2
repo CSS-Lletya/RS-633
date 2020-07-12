@@ -1,0 +1,11 @@
+void script_2881() {
+	if (bitconfig_4393 == 1 || bitconfig_542 == 1) {
+		return;
+	}
+	if (globalint_1077 == 1) {
+		script_39(12255245, 12255249, 25, 189, (object)"Click here to access full song list");
+	} else {
+		script_39(12255245, 12255249, 25, 189, (object)"Click here to access playlist");
+	}
+	return;
+}

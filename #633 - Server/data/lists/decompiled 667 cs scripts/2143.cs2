@@ -1,0 +1,23 @@
+void script_2143(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	ivar2 = 1093;
+	if (cs2method_10855() == 1) {
+		ivar2 = 3872;
+	}
+	ivar3 = 0;
+	while (ivar3 <= cs2method_10624(ivar2)) {
+		if (cs2method_10551(arg0, ivar3) == 1) {
+			if (script_2476(ivar3) == 1) {
+				setWidgetRGB(new Color(17, 255, 0));
+			} else {
+				setWidgetRGB(new Color(255, 17, 0));
+			}
+		}
+		ivar3 = add(1, ivar3);
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		setWidgetRGB(new Color(255, 255, 255));
+	}
+	return;
+}

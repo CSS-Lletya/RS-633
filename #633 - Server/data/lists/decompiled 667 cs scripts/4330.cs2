@@ -1,0 +1,4 @@
+void script_4330(long arg0) {
+	requestOpenURL(0, (object)"clan-forum", (object)("threads.ws?threadid=" + (string)cs2method_10820(arg0)));
+	return;
+}

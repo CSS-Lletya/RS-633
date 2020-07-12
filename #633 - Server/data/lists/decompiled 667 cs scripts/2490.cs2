@@ -1,0 +1,98 @@
+void script_2490() {
+	if (globalint_826 < 0) {
+		globalint_826 = 0;
+	}
+	if (globalint_827 < 0) {
+		globalint_827 = 1;
+	}
+	setWidgetText(new WidgetPointer(844,47), (object)("Charges left: " + toString(globalint_826)));
+	cs2method_10274(436, 1, 55312413);
+	cs2method_10274(438, 1, 55312414);
+	cs2method_10274(440, 1, 55312415);
+	cs2method_10274(442, 1, 55312416);
+	cs2method_10274(434, 1, 55312417);
+	cs2method_10274(444, 1, 55312418);
+	cs2method_10274(447, 1, 55312419);
+	cs2method_10274(449, 1, 55312420);
+	cs2method_10274(451, 1, 55312421);
+	setWidgetText(new WidgetPointer(844,38), getItemName(436));
+	setWidgetText(new WidgetPointer(844,39), getItemName(438));
+	setWidgetText(new WidgetPointer(844,40), getItemName(440));
+	setWidgetText(new WidgetPointer(844,41), getItemName(442));
+	setWidgetText(new WidgetPointer(844,42), getItemName(434));
+	setWidgetText(new WidgetPointer(844,43), getItemName(444));
+	setWidgetText(new WidgetPointer(844,44), getItemName(447));
+	setWidgetText(new WidgetPointer(844,45), getItemName(449));
+	setWidgetText(new WidgetPointer(844,46), getItemName(451));
+	setWidgetRGB(14784543, 55312422);
+	setWidgetRGB(14784543, 55312423);
+	setWidgetRGB(14784543, 55312424);
+	setWidgetRGB(10053120, 55312425);
+	setWidgetRGB(10053120, 55312426);
+	setWidgetRGB(10053120, 55312427);
+	setWidgetRGB(10053120, 55312428);
+	setWidgetRGB(10053120, 55312429);
+	setWidgetRGB(10053120, 55312430);
+	if (globalint_827 >= 2) {
+		setWidgetRGB(14784543, 55312425);
+		setWidgetRGB(14784543, 55312426);
+	}
+	if (globalint_827 >= 3) {
+		setWidgetRGB(14784543, 55312427);
+		setWidgetRGB(14784543, 55312428);
+	}
+	if (globalint_827 >= 4) {
+		setWidgetRGB(14784543, 55312429);
+		setWidgetRGB(14784543, 55312430);
+	}
+	cs2method_10274(1521, 1, 55312397);
+	cs2method_10274(1519, 1, 55312398);
+	cs2method_10274(1517, 1, 55312399);
+	cs2method_10274(12581, 1, 55312400);
+	cs2method_10274(1515, 1, 55312401);
+	cs2method_10274(1513, 1, 55312402);
+	setWidgetText(new WidgetPointer(844,21), getItemName(1521));
+	setWidgetText(new WidgetPointer(844,22), getItemName(1519));
+	setWidgetText(new WidgetPointer(844,23), getItemName(1517));
+	setWidgetText(new WidgetPointer(844,24), (object)"Special logs");
+	setWidgetText(new WidgetPointer(844,25), getItemName(1515));
+	setWidgetText(new WidgetPointer(844,26), getItemName(1513));
+	setWidgetRGB(14784543, 55312405);
+	setWidgetRGB(14784543, 55312406);
+	setWidgetRGB(10053120, 55312407);
+	setWidgetRGB(10053120, 55312408);
+	setWidgetRGB(10053120, 55312409);
+	setWidgetRGB(10053120, 55312410);
+	if (globalint_827 >= 2) {
+		setWidgetRGB(14784543, 55312407);
+		setWidgetRGB(14784543, 55312408);
+	}
+	if (globalint_827 >= 3) {
+		setWidgetRGB(14784543, 55312409);
+	}
+	if (globalint_827 >= 4) {
+		setWidgetRGB(14784543, 55312410);
+	}
+	cs2method_10274(317, 1, 55312390);
+	cs2method_10274(377, 1, 55312392);
+	setWidgetText(new WidgetPointer(844,7), (object)"Fish 1");
+	setWidgetText(new WidgetPointer(844,9), (object)"Fish 2");
+	setWidgetRGB(14784543, 55312391);
+	if (globalint_827 >= 3) {
+		setWidgetRGB(14784543, 55312393);
+	} else {
+		setWidgetRGB(10053120, 55312393);
+	}
+	cs2method_10274(2152, 1, 55312386);
+	cs2method_10274(239, 1, 55312388);
+	setWidgetText(new WidgetPointer(844,3), (object)("Herblore" + "<br>" + "secondaries 1"));
+	setWidgetText(new WidgetPointer(844,5), (object)("Herblore" + "<br>" + "secondaries 2"));
+	setWidgetRGB(14784543, 55312387);
+	setWidgetRGB(14784543, 55312389);
+	if (globalint_827 >= 3) {
+		setWidgetRGB(14784543, 55312389);
+	} else {
+		setWidgetRGB(10053120, 55312389);
+	}
+	return;
+}

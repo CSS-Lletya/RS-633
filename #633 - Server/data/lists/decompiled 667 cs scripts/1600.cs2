@@ -1,0 +1,14 @@
+void script_1600() {
+	int ivar0;
+	int ivar1;
+	ivar0 = 0;
+	ivar1 = 0;
+	if (script_1891() == 1) {
+		setWidgetIsHidden(false, new WidgetPointer(1109,20));
+		ivar0 = cs2method_10826(72679442);
+		cs2method_10444(134, ivar0, 0, 0, 72679442);
+		return;
+	}
+	script_1632();
+	return;
+}

@@ -1,0 +1,10 @@
+void script_2023(int arg0,int arg1) {
+	if (arg0 != 1) {
+		return;
+	}
+	bitconfig_8095 = cs2method_10004(cs2method_10586(add(bitconfig_8095, arg1), bitconfig_8094), 0);
+	script_2047();
+	cs2method_20219(2024, add(cs2method_10878(), 15), "i", new WidgetPointer(905,28));
+	setWidgetIsHidden(false, new WidgetPointer(905,28));
+	return;
+}

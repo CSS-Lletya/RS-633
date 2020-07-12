@@ -1,0 +1,9 @@
+void script_3180() {
+	script_3181();
+	cs2method_10256(59375711);
+	setWidgetIsHidden(true, new WidgetPointer(906,60));
+	if (cs2method_10416((int)getDataByKey('i', 'I', 941, 5)) == 0) {
+		script_3161(1);
+	}
+	return;
+}

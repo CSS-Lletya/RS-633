@@ -1,0 +1,6 @@
+int script_395() {
+	if (add(cs2method_10453(0), cs2method_10453(2)) == 130) {
+		return 1;
+	}
+	return 0;
+}

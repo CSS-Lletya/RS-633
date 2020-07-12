@@ -1,0 +1,79 @@
+void script_917() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	clearExtraChildren(new WidgetPointer(449,8));
+	globalint_742 = 0;
+	ivar0 = getItemAmtInContainer(93, globalint_743);
+	ivar1 = -1;
+	if (subtract(subtract(2147483647, getItemAmtInContainer(93, 995)), getItemAmtInContainer(623, 995)) > 0) {
+		ivar1 = add(getItemAmtInContainer(93, 995), getItemAmtInContainer(623, 995));
+	} else {
+		ivar1 = 2147483647;
+	}
+	setWidgetRGB(globalint_1241, 29425666);
+	setWidgetRGB(globalint_1241, 29425678);
+	setWidgetRGB(globalint_1241, 29425686);
+	setWidgetRGB(globalint_1241, 29425688);
+	if (globalint_743 != -1) {
+		if (globalint_743 == 995) {
+			ivar0 = ivar1;
+		}
+		script_919();
+		setWidgetIsHidden(false, new WidgetPointer(449,15));
+		cs2method_10893(16384, 147, 2, 0, 29425670);
+	} else if (standart_config_1109 != -1 && script_5567(995, multiply(standart_config_1111, standart_config_1110)) == 0) {
+		setWidgetRGB(16711680, 29425689);
+	} else {
+		setWidgetRGB(globalint_1241, 29425689);
+	}
+	cs2method_10274(-1, -1, 29425687);
+	setWidgetIsHidden(true, new WidgetPointer(449,15));
+	cs2method_10893(16384, 187, 2, 0, 29425670);
+	if (globalint_743 == -1) {
+		switch (ivar1) {
+			case 0:
+				setWidgetText(new WidgetPointer(449,25), (object)"You have no coins.");
+				break;
+			case 1:
+				setWidgetText(new WidgetPointer(449,25), (object)"You have one coin.");
+				break;
+			case 2147483647:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have more than " + (string)script_940(ivar1) + " coins!"));
+				break;
+			default:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have " + (string)script_940(ivar1) + " coins."));
+		}
+	} else {
+		switch (ivar0) {
+			case 0:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have no " + getDataByKey('o', 's', 62, globalint_743) + "."));
+				break;
+			case 1:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have one " + getDataByKey('o', 's', 923, globalint_743) + "."));
+				break;
+			case 2147483647:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have more than " + (string)script_940(ivar0) + " " + getDataByKey('o', 's', 62, globalint_743) + "!"));
+				break;
+			default:
+				setWidgetText(new WidgetPointer(449,25), (object)("You have " + (string)script_940(ivar0) + " " + getDataByKey('o', 's', 62, globalint_743) + "."));
+		}
+	}
+	ivar2 = 181;
+	ivar3 = script_920(ivar2);
+	if (ivar3 > cs2method_10090(29425672)) {
+		ivar2 = 165;
+		clearExtraChildren(new WidgetPointer(449,8));
+		ivar3 = script_920(ivar2);
+	} else {
+		clearExtraChildren(new WidgetPointer(449,9));
+	}
+	setWidgetScrollMax(ivar2, ivar3, 29425672);
+	cs2method_10893(ivar2, 6, 0, 1, 29425672);
+	cs2method_10085(0, 0, 29425672);
+	if (ivar3 > cs2method_10090(29425672)) {
+		script_31(29425673, 29425672, 792, 789, 790, 791, 773, 788);
+	}
+	return;
+}

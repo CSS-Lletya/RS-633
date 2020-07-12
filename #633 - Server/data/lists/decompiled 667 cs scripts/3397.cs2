@@ -1,0 +1,23 @@
+void script_3397() {
+	int ivar0;
+	int ivar1;
+	setWidgetText(new WidgetPointer(979,18), (object)globalstring_279);
+	ivar0 = 2568;
+	ivar1 = 2569;
+	if (compareTo((object)globalstring_279, (object)"") != 0) {
+		setWidgetText(new WidgetPointer(979,40), (object)"Report : Select Player");
+		cs2method_10149(0, 64159754);
+		cs2method_10149(0, 64159755);
+		cs2method_10149(0, 64159756);
+		cs2method_10149(0, 64159757);
+		cs2method_20333(3071, new WidgetPointer(979,10), ivar0, new WidgetPointer(979,11), ivar1, new WidgetPointer(979,12), ivar0, "IdIdId", new WidgetPointer(979,9));
+	} else {
+		setWidgetText(new WidgetPointer(979,40), (object)"Report : Select Player");
+		cs2method_10149(100, 64159754);
+		cs2method_10149(100, 64159755);
+		cs2method_10149(100, 64159756);
+		cs2method_10149(100, 64159757);
+		cs2method_20333(-1, "", new WidgetPointer(979,9));
+	}
+	return;
+}

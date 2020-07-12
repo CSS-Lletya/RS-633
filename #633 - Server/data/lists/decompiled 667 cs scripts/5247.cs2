@@ -1,0 +1,18 @@
+void script_5247() {
+	setWidgetIsHidden(true, new WidgetPointer(1128,99));
+	cs2method_10467(6009, 73924612);
+	setWidgetIsHidden(true, new WidgetPointer(1128,129));
+	cs2method_10467(6009, 73924714);
+	setWidgetIsHidden(true, new WidgetPointer(1128,167));
+	cs2method_10467(6009, 73924752);
+	setWidgetIsHidden(true, new WidgetPointer(1128,204));
+	cs2method_10467(6009, 73924789);
+	setWidgetIsHidden(true, new WidgetPointer(1128,241));
+	cs2method_10467(6009, 73924826);
+	setWidgetIsHidden(true, new WidgetPointer(1128,278));
+	cs2method_10467(6009, 73924863);
+	setWidgetIsHidden(true, new WidgetPointer(1128,315));
+	cs2method_10467(6009, 73924900);
+	setWidgetText(new WidgetPointer(1128,13), (object)toString(bitconfig_5505));
+	return;
+}

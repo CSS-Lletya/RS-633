@@ -1,0 +1,39 @@
+void script_2347(int arg0) {
+	if (arg0 == 1) {
+		if (bitconfig_6048 >= 250) {
+			setWidgetRGB(65280, 47382534);
+		} else if (bitconfig_6048 == 0) {
+			setWidgetRGB(16711680, 47382534);
+		} else {
+			setWidgetRGB(16776960, 47382534);
+		}
+	}
+	if (arg0 == 2) {
+		if (bitconfig_6112 >= 60) {
+			setWidgetRGB(65280, 47382535);
+		} else if (bitconfig_6112 == 0) {
+			setWidgetRGB(16711680, 47382535);
+		} else {
+			setWidgetRGB(16776960, 47382535);
+		}
+	}
+	if (arg0 == 3) {
+		if (bitconfig_6289 >= 240) {
+			setWidgetRGB(65280, 47382536);
+		} else if (bitconfig_6289 == 0) {
+			setWidgetRGB(16711680, 47382536);
+		} else {
+			setWidgetRGB(16776960, 47382536);
+		}
+	}
+	if (arg0 == 4) {
+		if (bitconfig_6775 >= 100) {
+			setWidgetRGB(65280, 47382537);
+		} else if (bitconfig_6775 == 0) {
+			setWidgetRGB(16711680, 47382537);
+		} else {
+			setWidgetRGB(16776960, 47382537);
+		}
+	}
+	return;
+}

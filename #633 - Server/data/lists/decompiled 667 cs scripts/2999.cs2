@@ -1,0 +1,236 @@
+void script_2999() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object ovar4;
+	object ovar5;
+	int stack_dump0;
+	cs2func_script_3011_struct(7,0,0) structdump_1;
+	cs2func_script_3011_struct(7,0,0) structdump_2;
+	cs2func_script_3011_struct(7,0,0) structdump_3;
+	cs2func_script_3011_struct(7,0,0) structdump_4;
+	cs2func_script_3011_struct(7,0,0) structdump_5;
+	cs2func_script_3011_struct(7,0,0) structdump_6;
+	cs2func_script_3011_struct(7,0,0) structdump_7;
+	cs2func_script_3011_struct(7,0,0) structdump_8;
+	cs2func_script_3011_struct(7,0,0) structdump_9;
+	cs2func_script_3011_struct(7,0,0) structdump_10;
+	opc_struct10388(3,0,0) structdump_11;
+	cs2func_script_3011_struct(7,0,0) structdump_12;
+	cs2func_script_3011_struct(7,0,0) structdump_13;
+	cs2func_script_3011_struct(7,0,0) structdump_14;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ovar2 = (object)"";
+	ovar3 = (object)"";
+	ovar0 = (object)"www";
+	switch (cs2method_10352()) {
+		case 0:
+			cs2method_10467(2672, 59441186);
+			stack_dump0 = 0;
+			structdump_1 = script_3011(stack_dump0);
+			script_3010(structdump_1.intpart_0, structdump_1.intpart_1, structdump_1.intpart_2, structdump_1.intpart_3, structdump_1.intpart_4, structdump_1.intpart_5, structdump_1.intpart_6);
+			setWidgetText(new WidgetPointer(907,39), (object)"Unregistered");
+			ovar2 = (object)("You do not currently have an email address registered. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to register.");
+			ovar3 = (object)("You do not currently have an email address registered. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to register.");
+			setWidgetText(new WidgetPointer(907,40), ovar2);
+			cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,40));
+			cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,40));
+			ovar1 = (object)"account_settings.ws?mod=emailNew";
+			break;
+		case 1:
+			cs2method_10467(2672, 59441186);
+			stack_dump0 = 0;
+			structdump_2 = script_3011(stack_dump0);
+			script_3010(structdump_2.intpart_0, structdump_2.intpart_1, structdump_2.intpart_2, structdump_2.intpart_3, structdump_2.intpart_4, structdump_2.intpart_5, structdump_2.intpart_6);
+			setWidgetText(new WidgetPointer(907,39), (object)"Pending Parental Confirmation");
+			ovar2 = (object)("You have registered your email address. We are currently waiting for your parent to confirm their email address. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to submit a confirmation code.");
+			ovar3 = (object)("You have registered your email address. We are currently waiting for your parent to confirm their email address. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to submit a confirmation code.");
+			setWidgetText(new WidgetPointer(907,40), ovar2);
+			cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,40));
+			cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,40));
+			ovar1 = (object)"account_settings.ws?mod=emailNew";
+			break;
+		case 2:
+			cs2method_10467(2672, 59441186);
+			stack_dump0 = 0;
+			structdump_3 = script_3011(stack_dump0);
+			script_3010(structdump_3.intpart_0, structdump_3.intpart_1, structdump_3.intpart_2, structdump_3.intpart_3, structdump_3.intpart_4, structdump_3.intpart_5, structdump_3.intpart_6);
+			setWidgetText(new WidgetPointer(907,39), (object)"Pending Confirmation");
+			ovar2 = (object)("Your email address is currently pending confirmation. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to submit a confirmation code.");
+			ovar3 = (object)("Your email address is currently pending confirmation. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to submit a confirmation code.");
+			setWidgetText(new WidgetPointer(907,40), ovar2);
+			cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,40));
+			cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,40));
+			ovar1 = (object)"account_settings.ws?mod=emailNew";
+			break;
+		case 3:
+			cs2method_10467(2669, 59441186);
+			stack_dump0 = 0;
+			structdump_4 = script_3011(stack_dump0);
+			script_3008(structdump_4.intpart_0, structdump_4.intpart_1, structdump_4.intpart_2, structdump_4.intpart_3, structdump_4.intpart_4, structdump_4.intpart_5, structdump_4.intpart_6);
+			setWidgetText(new WidgetPointer(907,39), (object)"Registered");
+			ovar2 = (object)("Your email address is now registered. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to view or change your email preferences.");
+			ovar3 = (object)("Your email address is now registered. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to view or change your email preferences.");
+			setWidgetText(new WidgetPointer(907,40), ovar2);
+			cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,40));
+			cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,40));
+			ovar1 = (object)"account_settings.ws?mod=email";
+			break;
+		case 4:
+			cs2method_10467(2669, 59441186);
+			stack_dump0 = 0;
+			structdump_5 = script_3011(stack_dump0);
+			script_3008(structdump_5.intpart_0, structdump_5.intpart_1, structdump_5.intpart_2, structdump_5.intpart_3, structdump_5.intpart_4, structdump_5.intpart_5, structdump_5.intpart_6);
+			setWidgetText(new WidgetPointer(907,39), (object)"No longer registered");
+			ovar2 = (object)("Your account no longer has a registered email address. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to register again.");
+			ovar3 = (object)("Your account no longer has a registered email address. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to register again.");
+			setWidgetText(new WidgetPointer(907,40), ovar2);
+			cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,40));
+			cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,40));
+			ovar1 = (object)"account_settings.ws?mod=email";
+	}
+	setScriptCallOnMousePressed(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(907,40));
+	script_3376(59441192);
+	ivar0 = cs2method_10079();
+	ovar0 = (object)"www";
+	if (ivar0 == 0) {
+		cs2method_10467(2672, 59441174);
+		stack_dump0 = 1;
+		structdump_6 = script_3011(stack_dump0);
+		script_3010(structdump_6.intpart_0, structdump_6.intpart_1, structdump_6.intpart_2, structdump_6.intpart_3, structdump_6.intpart_4, structdump_6.intpart_5, structdump_6.intpart_6);
+		setWidgetText(new WidgetPointer(907,27), (object)"Not Set");
+		ovar2 = (object)("You do not have any recovery questions set. It will be more difficult to recover your password if it gets stolen or you forget it. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to set your recovery questions.");
+		ovar3 = (object)("You do not have any recovery questions set. It will be more difficult to recover your password if it gets stolen or you forget it. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to set your recovery questions.");
+		setWidgetText(new WidgetPointer(907,28), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,28));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,28));
+		ovar1 = (object)"account_settings.ws?mod=recoveries";
+	} else if (ivar0 < add(cs2method_10516(), 1)) {
+		cs2method_10467(2669, 59441174);
+		stack_dump0 = 1;
+		structdump_7 = script_3011(stack_dump0);
+		script_3008(structdump_7.intpart_0, structdump_7.intpart_1, structdump_7.intpart_2, structdump_7.intpart_3, structdump_7.intpart_4, structdump_7.intpart_5, structdump_7.intpart_6);
+		setWidgetText(new WidgetPointer(907,27), (object)"Set");
+		ovar2 = (object)("Recovery questions last set: " + (string)cs2method_10940(ivar0) + ". Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to change your recovery questions.");
+		ovar3 = (object)("Recovery questions last set: " + (string)cs2method_10940(ivar0) + ". Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to change your recovery questions.");
+		setWidgetText(new WidgetPointer(907,28), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,28));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,28));
+		ovar1 = (object)"account_settings.ws?mod=recoveries";
+	} else {
+		cs2method_10467(2672, 59441174);
+		stack_dump0 = 1;
+		structdump_8 = script_3011(stack_dump0);
+		script_3010(structdump_8.intpart_0, structdump_8.intpart_1, structdump_8.intpart_2, structdump_8.intpart_3, structdump_8.intpart_4, structdump_8.intpart_5, structdump_8.intpart_6);
+		setWidgetText(new WidgetPointer(907,27), (object)"Changed");
+		ovar2 = (object)("Your new recovery questions will become active on " + (string)cs2method_10940(ivar0) + ". If you didn't request this, cancel it and change your password immediately. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to cancel.");
+		ovar3 = (object)("Your new recovery questions will become active on " + (string)cs2method_10940(ivar0) + ". If you didn't request this, cancel it and change your password immediately. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to cancel.");
+		setWidgetText(new WidgetPointer(907,28), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,28));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,28));
+		ovar1 = (object)"account_settings.ws?mod=recoveries";
+	}
+	setScriptCallOnMousePressed(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(907,28));
+	script_3376(59441180);
+	ivar1 = cs2method_10906();
+	if (ivar1 == 0) {
+		cs2method_10467(2669, 59441162);
+		stack_dump0 = 2;
+		structdump_9 = script_3011(stack_dump0);
+		script_3008(structdump_9.intpart_0, structdump_9.intpart_1, structdump_9.intpart_2, structdump_9.intpart_3, structdump_9.intpart_4, structdump_9.intpart_5, structdump_9.intpart_6);
+		setWidgetText(new WidgetPointer(907,15), (object)(toString(ivar1) + " Unread"));
+		ovar2 = (object)("You have no unread messages. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+		ovar3 = (object)("You have no unread messages. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+		setWidgetText(new WidgetPointer(907,16), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,16));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,16));
+	} else {
+		cs2method_10467(2672, 59441162);
+		stack_dump0 = 2;
+		structdump_10 = script_3011(stack_dump0);
+		script_3010(structdump_10.intpart_0, structdump_10.intpart_1, structdump_10.intpart_2, structdump_10.intpart_3, structdump_10.intpart_4, structdump_10.intpart_5, structdump_10.intpart_6);
+		setWidgetText(new WidgetPointer(907,15), (object)(toString(ivar1) + " Unread"));
+		if (ivar1 == 1) {
+			ovar2 = (object)("You have 1 unread message. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+			ovar3 = (object)("You have 1 unread message. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+		} else {
+			ovar2 = (object)("You have " + toString(ivar1) + " unread messages. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+			ovar3 = (object)("You have " + toString(ivar1) + " unread messages. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre.");
+		}
+		setWidgetText(new WidgetPointer(907,16), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,16));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,16));
+	}
+	script_3376(59441168);
+	ivar2 = 0;
+	ivar3 = 0;
+	ivar4 = 0;
+	structdump_11 = cs2method_10388();
+	ivar2 = structdump_11.intpart_2;
+	ivar4 = structdump_11.intpart_1;
+	ivar3 = structdump_11.intpart_0;
+	ovar4 = cs2method_10075(ivar3);
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = 0;
+	ovar5 = (object)"";
+	if (ivar2 == 1) {
+		cs2method_10467(2669, 59441200);
+		stack_dump0 = 3;
+		structdump_12 = script_3011(stack_dump0);
+		script_3008(structdump_12.intpart_0, structdump_12.intpart_1, structdump_12.intpart_2, structdump_12.intpart_3, structdump_12.intpart_4, structdump_12.intpart_5, structdump_12.intpart_6);
+		setWidgetText(new WidgetPointer(907,53), (object)"Subscription Active");
+		ovar2 = (object)("You have an active subscription. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits.");
+		ovar3 = (object)("You have an active subscription. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits.");
+		setWidgetText(new WidgetPointer(907,54), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,54));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,54));
+		ovar0 = (object)"billing_core";
+		ovar1 = (object)"userdetails.ws";
+	} else if (cs2method_10669() == 1) {
+		ivar5 = divide(ivar4, 1440);
+		ivar6 = divide(cs2method_10620(ivar4, 1440), 60);
+		ivar7 = cs2method_10620(ivar4, 60);
+		if (add(add(ivar5, ivar6), ivar7) != 0) {
+			ovar5 = (object)(" (in " + script_4582(ivar5, ivar6, ivar7) + ")");
+		}
+		cs2method_10467(2669, 59441200);
+		stack_dump0 = 3;
+		structdump_13 = script_3011(stack_dump0);
+		script_3008(structdump_13.intpart_0, structdump_13.intpart_1, structdump_13.intpart_2, structdump_13.intpart_3, structdump_13.intpart_4, structdump_13.intpart_5, structdump_13.intpart_6);
+		setWidgetText(new WidgetPointer(907,53), (object)("Expires " + (string)ovar4));
+		ovar2 = (object)("Your membership will expire on " + (string)ovar4 + (string)ovar5 + ". Renew now to avoid losing member status. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to renew.");
+		ovar3 = (object)("Your membership will expire on " + (string)ovar4 + (string)ovar5 + ". Renew now to avoid losing member status. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to renew.");
+		setWidgetText(new WidgetPointer(907,54), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,54));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,54));
+		ovar0 = (object)"dob";
+		ovar1 = (object)"set_members_dob.ws";
+	} else {
+		cs2method_10467(2672, 59441200);
+		stack_dump0 = 3;
+		structdump_14 = script_3011(stack_dump0);
+		script_3010(structdump_14.intpart_0, structdump_14.intpart_1, structdump_14.intpart_2, structdump_14.intpart_3, structdump_14.intpart_4, structdump_14.intpart_5, structdump_14.intpart_6);
+		setWidgetText(new WidgetPointer(907,53), (object)"Not a Member");
+		ovar2 = (object)("You are not a member. Members get loads of extra benefits and features. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to become a member.");
+		ovar3 = (object)("You are not a member. Members get loads of extra benefits and features. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to become a member.");
+		setWidgetText(new WidgetPointer(907,54), ovar2);
+		cs2method_20333(68, new WidgetPointer(-32768,3), (string)ovar3, "Is", new WidgetPointer(907,54));
+		cs2method_20295(68, new WidgetPointer(-32768,3), (string)ovar2, "Is", new WidgetPointer(907,54));
+		ovar0 = (object)"dob";
+		ovar1 = (object)"set_members_dob.ws";
+	}
+	setScriptCallOnMousePressed(3088, (string)ovar0, (string)ovar1, 1, "ss1", new WidgetPointer(907,54));
+	script_3376(59441206);
+	return;
+}

@@ -1,0 +1,31 @@
+void script_1603(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	opc_struct10983(2,0,0) structdump_0;
+	if (cs2method_10476() == 0) {
+		return;
+	}
+	ivar2 = add(15, cs2method_10004(subtract(globalint_1030, cs2method_10878()), 0));
+	globalint_1030 = cs2method_10586(cs2method_10004(add(globalint_1030, 2), add(cs2method_10878(), 2)), add(cs2method_10878(), 25));
+	switch (globalint_172) {
+		case 37:
+			ivar2 = multiply(ivar2, 5);
+			break;
+		case 50:
+			ivar2 = multiply(ivar2, 4);
+			break;
+		case 75:
+			ivar2 = multiply(ivar2, 3);
+			break;
+		case 100:
+			ivar2 = multiply(ivar2, 2);
+	}
+	ivar3 = 0;
+	ivar4 = 0;
+	structdump_0 = cs2method_10983();
+	ivar4 = structdump_0.intpart_1;
+	ivar3 = structdump_0.intpart_0;
+	cs2method_10923(cs2method_10273(0, cs2method_10004(add(ivar3, multiply(arg0, ivar2)), 0), 0, cs2method_10004(add(ivar4, multiply(arg1, ivar2)), 0)));
+	return;
+}

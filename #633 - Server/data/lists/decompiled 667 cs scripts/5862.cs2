@@ -1,0 +1,35 @@
+void script_5862(int arg0) {
+	flow_0:
+		IF (arg0 == 5509) 
+			GOTO	flow_1
+		GOTO	flow_2
+	flow_1:
+		IF (bitconfig_603 > 0) 
+			GOTO	flow_8
+	flow_2:
+		IF (arg0 == 5510) 
+			GOTO	flow_3
+		GOTO	flow_4
+	flow_3:
+		IF (bitconfig_604 > 0) 
+			GOTO	flow_8
+	flow_4:
+		IF (arg0 == 5512) 
+			GOTO	flow_5
+		GOTO	flow_6
+	flow_5:
+		IF (bitconfig_605 > 0) 
+			GOTO	flow_8
+	flow_6:
+		IF (arg0 == 5514 && bitconfig_606 > 0) 
+			GOTO	flow_8
+		GOTO	flow_9
+	flow_8:
+		script_2410(cs2method_10192(arg0, 2), cs2method_10192(arg0, 1), cs2method_10192(arg0, 3), cs2method_10192(arg0, 4), cs2method_10192(arg0, 5), getItemOption(arg0, 2), getItemOption(arg0, 1), getItemOption(arg0, 3), getItemOption(arg0, 4), getItemOption(arg0, 5), getItemName(arg0));
+		GOTO	flow_10
+	flow_9:
+		script_2410(cs2method_10192(arg0, 1), cs2method_10192(arg0, 2), cs2method_10192(arg0, 3), cs2method_10192(arg0, 4), cs2method_10192(arg0, 5), getItemOption(arg0, 1), getItemOption(arg0, 2), getItemOption(arg0, 3), getItemOption(arg0, 4), getItemOption(arg0, 5), getItemName(arg0));
+	flow_10:
+		cs2method_20003(5863, new WidgetPointer(-32768,3), -2147483643, arg0, 486, 1, "IioY");
+		return;
+}

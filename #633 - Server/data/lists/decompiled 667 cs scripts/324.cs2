@@ -1,0 +1,95 @@
+void script_324(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	ivar3 = cs2method_10586(bitconfig_2375, 500);
+	cs2method_10893(0, cs2method_10542(subtract(500, ivar3), 500, 16384), 1, 2, arg0);
+	ivar4 = add(164, cs2method_10542(ivar3, 500, 91));
+	ivar5 = subtract(164, cs2method_10542(ivar3, 500, 164));
+	ivar6 = subtract(41, cs2method_10542(ivar3, 500, 41));
+	ivar7 = script_693(ivar4, ivar5, ivar6);
+	setWidgetRGB(ivar7, arg0);
+	setWidgetRGB(ivar7, arg1);
+	switch (cs2method_10542(add(ivar3, 5), 500, 25)) {
+		case 0:
+			cs2method_10461(16353, arg2);
+			break;
+		case 1:
+			cs2method_10461(16354, arg2);
+			break;
+		case 2:
+			cs2method_10461(16355, arg2);
+			break;
+		case 3:
+			cs2method_10461(16356, arg2);
+			break;
+		case 4:
+			cs2method_10461(16357, arg2);
+			break;
+		case 5:
+			cs2method_10461(16358, arg2);
+			break;
+		case 6:
+			cs2method_10461(16359, arg2);
+			break;
+		case 7:
+			cs2method_10461(16360, arg2);
+			break;
+		case 8:
+			cs2method_10461(16361, arg2);
+			break;
+		case 9:
+			cs2method_10461(16362, arg2);
+			break;
+		case 10:
+			cs2method_10461(16363, arg2);
+			break;
+		case 11:
+			cs2method_10461(16364, arg2);
+			break;
+		case 12:
+			cs2method_10461(16365, arg2);
+			break;
+		case 13:
+			cs2method_10461(16366, arg2);
+			break;
+		case 14:
+			cs2method_10461(16367, arg2);
+			break;
+		case 15:
+			cs2method_10461(16368, arg2);
+			break;
+		case 16:
+			cs2method_10461(16369, arg2);
+			break;
+		case 17:
+			cs2method_10461(16370, arg2);
+			break;
+		case 18:
+			cs2method_10461(16371, arg2);
+			break;
+		case 19:
+			cs2method_10461(16372, arg2);
+			break;
+		case 20:
+			cs2method_10461(16373, arg2);
+			break;
+		case 21:
+			cs2method_10461(16374, arg2);
+			break;
+		case 22:
+			cs2method_10461(16375, arg2);
+			break;
+		case 23:
+			cs2method_10461(16376, arg2);
+			break;
+		case 24:
+			cs2method_10461(16377, arg2);
+			break;
+		default:
+			cs2method_10461(16378, arg2);
+	}
+	return;
+}

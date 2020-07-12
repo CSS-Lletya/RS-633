@@ -1,0 +1,51 @@
+int script_4568(int arg0,int arg1,int arg2,object arg3,object arg4,object arg5) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	object ovar3;
+	ivar3 = cs2method_10956(38600727);
+	ivar4 = multiply(cs2method_10004(getLineCount(ivar3, 494, arg3), 1), 15);
+	createChildWidget(38600727, 4, arg0);
+	setWidgetPosition(0, multiply(arg0, 15), 0, 2);
+	setWidgetSize(0, ivar4, 1, 0);
+	setWidgetRGB(new Color(255, 255, 255));
+	setWidgetFont(494);
+	setWidgetText(arg3);
+	setWidgetTextAlignment(0, 0, 15);
+	ivar5 = 0;
+	ivar6 = 0;
+	ovar3 = cs2method_10222(arg4);
+	while (ivar6 < arg0) {
+		if (cs2method_10551(38600727, ivar6) == 1) {
+			ivar5 = add(ivar5, cs2method_10630());
+		}
+		ivar6 = add(ivar6, 1);
+	}
+	setWidgetPosition(0, ivar5, 0, 2);
+	if (arg1 == 1) {
+		cs2method_11002(cs2method_10222(arg4));
+		cs2method_20115(4569, -2147483644, (string)ovar3, (string)arg5, "iss");
+		switch (arg2) {
+			case 9:
+			case 20:
+				if (compareTo(cs2method_10222(cs2method_10664()), cs2method_10222(arg5)) != 0) {
+					if (cs2method_10028(cs2method_10222(arg5)) == 0 && cs2method_10799(cs2method_10222(arg5)) == 0) {
+						setWidgetContextMenuOption(1, (object)"Add friend");
+						setWidgetContextMenuOption(2, (object)"Add ignore");
+					} else {
+						if (cs2method_10028(cs2method_10222(arg5)) == 1 && cs2method_10062() == 0) {
+							setWidgetContextMenuOption(3, (object)"Message");
+						}
+					}
+					if (bitconfig_9982 == 1) {
+						setWidgetContextMenuOption(5, (object)"Report");
+					}
+					if (script_1891() == 1) {
+						setWidgetContextMenuOption(10, (object)"Kick/ban");
+					}
+				}
+		}
+	}
+	return add(arg0, 1);
+}

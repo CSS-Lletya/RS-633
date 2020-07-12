@@ -1,0 +1,12 @@
+int script_5068(int arg0,object arg1) {
+	int ivar1;
+	createChildWidget(72810523, 4, cs2method_10860(72810523));
+	setWidgetFont(494);
+	setWidgetTextAlignment(0, 1, 0);
+	setWidgetRGB(new Color(223, 207, 191));
+	ivar1 = add(multiply(getLineCount(cs2method_10956(72810523), 494, arg1), 10), 2);
+	setWidgetSize(0, ivar1, 1, 0);
+	setWidgetText(arg1);
+	setWidgetPosition(0, arg0, 1, 0);
+	return ivar1;
+}

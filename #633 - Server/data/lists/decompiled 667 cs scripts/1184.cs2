@@ -1,0 +1,5 @@
+void script_1184(int arg0) {
+	setWidgetRGB(script_806(), arg0);
+	setWidgetText(new WidgetPointer(arg0), (object)toString(cs2method_10823()));
+	return;
+}

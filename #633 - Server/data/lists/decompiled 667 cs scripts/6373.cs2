@@ -1,0 +1,65 @@
+int script_6373(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	ivar1 = getItemIdInContainerSlot(94, 3);
+	ivar2 = getItemIdInContainerSlot(94, 5);
+	ivar3 = 0;
+	ivar4 = 0;
+	ivar5 = 0;
+	ivar6 = 0;
+	ivar7 = script_6427(getItemIdInContainerSlot(94, 3), standart_config_2675);
+	ivar8 = standart_config_2675;
+	ivar9 = getDataByKey('i', 'J', 5967, bitconfig_276);
+	ivar10 = 100;
+	ivar11 = 30;
+	ivar12 = subtract(globalint_2105, cs2method_10391(0));
+	ivar13 = cs2method_10586(100, cs2method_10004(-100, cs2method_10542(ivar12, ivar11, 100)));
+	if (ivar9 != -1 && bitconfig_275 == 1) {
+		ivar6 = 3;
+		ivar7 = add(script_6427(ivar1, 11), script_6427(ivar2, 11));
+		ivar8 = getGeneralRequirementAttribute(ivar9, 2588);
+		ivar10 = standart_config_2971;
+	} else {
+		switch (standart_config_2675) {
+			case 5:
+			case 6:
+			case 7:
+				ivar6 = 1;
+				ivar10 = standart_config_2969;
+				break;
+			case 8:
+			case 9:
+			case 10:
+				ivar6 = 2;
+				ivar10 = standart_config_2970;
+		}
+	}
+	if (ivar8 == cs2method_30762(globalint_2103, 2564)) {
+		ivar3 = cs2method_30762(globalint_2103, 2565);
+	} else if (ivar6 == arg0) {
+		ivar3 = cs2method_30762(globalint_2103, 2566);
+	} else if (ivar6 == cs2method_30762(globalint_2103, 26)) {
+		ivar3 = cs2method_30762(globalint_2103, 2567);
+	} else {
+		ivar3 = cs2method_30762(globalint_2103, 2568);
+	}
+	ivar4 = subtract(cs2method_30762(globalint_2103, 2580), ivar7);
+	if (ivar12 > 0) {
+		ivar3 = add(add(ivar3, ivar4), cs2method_10542(subtract(1000, ivar3), 100, ivar13));
+	} else {
+		ivar3 = add(add(ivar3, ivar4), cs2method_10542(ivar3, 100, ivar13));
+	}
+	ivar5 = cs2method_10004(-1, cs2method_10542(subtract(1000, ivar3), 100, ivar10));
+	return divide(ivar5, 10);
+}

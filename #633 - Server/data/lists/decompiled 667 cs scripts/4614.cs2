@@ -1,0 +1,16 @@
+void script_4614(int arg0) {
+	switch (arg0) {
+		case 1310722:
+			setWidgetRGB(cs2method_10489(bitconfig_9254), arg0);
+			break;
+		case 1310728:
+			setWidgetRGB(cs2method_10489(bitconfig_9255), arg0);
+			break;
+		case 1310731:
+			setWidgetRGB(cs2method_10489(bitconfig_9256), arg0);
+			break;
+		case 1310725:
+			setWidgetRGB(cs2method_10489(bitconfig_9257), arg0);
+	}
+	return;
+}

@@ -1,0 +1,30 @@
+void script_3006(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5,int arg6,int arg7) {
+	cs2method_10893(0, 88, 1, 0, arg1);
+	if (cs2method_10825(arg5) == 2669) {
+		script_3007(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+	} else {
+		script_3009(arg1, arg2, arg3, arg4, arg5, arg6, arg7);
+	}
+	switch (arg0) {
+		case 0:
+			cs2method_10444(0, 88, 0, 0, 59441156);
+			cs2method_10444(0, add(88, 30), 0, 0, 59441157);
+			cs2method_10444(0, add(88, multiply(30, 2)), 0, 0, 59441195);
+			break;
+		case 1:
+			cs2method_10444(0, 30, 0, 0, 59441156);
+			cs2method_10444(0, add(88, 30), 0, 0, 59441157);
+			cs2method_10444(0, add(88, multiply(30, 2)), 0, 0, 59441195);
+			break;
+		case 2:
+			cs2method_10444(0, 30, 0, 0, 59441156);
+			cs2method_10444(0, multiply(30, 2), 0, 0, 59441157);
+			cs2method_10444(0, add(88, multiply(30, 2)), 0, 0, 59441195);
+			break;
+		case 3:
+			cs2method_10444(0, 30, 0, 0, 59441156);
+			cs2method_10444(0, multiply(30, 2), 0, 0, 59441157);
+			cs2method_10444(0, multiply(30, 3), 0, 0, 59441195);
+	}
+	return;
+}

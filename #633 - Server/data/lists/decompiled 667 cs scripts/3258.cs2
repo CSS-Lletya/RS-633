@@ -1,0 +1,6 @@
+void script_3258() {
+	if (globalint_1202 == 1) {
+		setWidgetText(new WidgetPointer(933,301), (object)globalstring_314);
+	}
+	return;
+}

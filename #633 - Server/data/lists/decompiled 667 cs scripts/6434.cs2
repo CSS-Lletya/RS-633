@@ -1,0 +1,16 @@
+void script_6434(int arg0) {
+	int ivar1;
+	ivar1 = globalint_2111;
+	if (ivar1 < 500) {
+		globalint_2111 = add(ivar1, 1);
+	} else {
+		globalint_2111 = 0;
+		cs2method_10998((object)("<img=4>" + " Thanks for helping us squish all those bugs!"));
+	}
+	cs2method_10461(34365, arg0);
+	cs2method_10158(0, 0, 512, 0, 0, 0, arg0);
+	cs2method_10306(1200, arg0);
+	setScriptCallOnMousePressed(-1, "", new WidgetPointer(arg0));
+	cs2method_20219(6435, new WidgetPointer(arg0), cs2method_10878(), "Ii", new WidgetPointer(arg0));
+	return;
+}

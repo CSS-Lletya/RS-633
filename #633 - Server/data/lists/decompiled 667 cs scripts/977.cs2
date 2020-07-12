@@ -1,0 +1,35 @@
+cs2func_script_977_struct(1,1,0) script_977(int arg0) {
+	switch (arg0) {
+		case 0:
+			return newstruct cs2func_script_977_struct(0, (object)"Bronze");
+		case 1:
+			return newstruct cs2func_script_977_struct(0, (object)"Iron");
+		case 2:
+			return newstruct cs2func_script_977_struct(0, (object)"Steel");
+		case 3:
+			return newstruct cs2func_script_977_struct(0, (object)"Black");
+		case 4:
+			return newstruct cs2func_script_977_struct(1, (object)"White");
+		case 5:
+			return newstruct cs2func_script_977_struct(0, (object)"Mithril");
+		case 6:
+			return newstruct cs2func_script_977_struct(0, (object)"Adamant");
+		case 7:
+			return newstruct cs2func_script_977_struct(0, (object)"Rune");
+		case 8:
+			return newstruct cs2func_script_977_struct(0, (object)"Dragon");
+		case 9:
+			return newstruct cs2func_script_977_struct(1, (object)"Barrows");
+		case 10:
+			return newstruct cs2func_script_977_struct(0, (object)"Magic");
+		case 11:
+			return newstruct cs2func_script_977_struct(0, (object)"Equipment");
+		case 12:
+			return newstruct cs2func_script_977_struct(1, (object)"Minigames");
+		case 13:
+			return newstruct cs2func_script_977_struct(0, (object)"Dungeoneering");
+		case 14:
+			return newstruct cs2func_script_977_struct(0, (object)"Milestones");
+	}
+	return newstruct cs2func_script_977_struct(-1, (object)"");
+}

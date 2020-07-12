@@ -1,0 +1,24 @@
+void script_5058(int arg0,int arg1) {
+	if (arg1 == 1) {
+		if (cs2method_10551(arg0, 0) == 1) {
+			cs2method_10469(7565);
+		}
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(7564);
+		}
+		if (cs2method_10551(arg0, 2) == 1) {
+			cs2method_10469(7566);
+		}
+	} else {
+		if (cs2method_10551(arg0, 0) == 1) {
+			cs2method_10469(7562);
+		}
+		if (cs2method_10551(arg0, 1) == 1) {
+			cs2method_10469(7561);
+		}
+		if (cs2method_10551(arg0, 2) == 1) {
+			cs2method_10469(7563);
+		}
+	}
+	return;
+}

@@ -1,0 +1,31 @@
+void script_487() {
+	flow_0:
+		cs2method_10467(3263, 66519135);
+		cs2method_10467(3263, 66519129);
+		cs2method_10467(3263, 66519123);
+		cs2method_10467(3263, 66519117);
+		SWITCH (bitconfig_7515) {
+			case 1:
+				 GOTO flow_1
+			case 2:
+				 GOTO flow_2
+			case 3:
+				 GOTO flow_3
+			case 4:
+				 GOTO flow_4
+		}
+		return;
+	flow_1:
+		cs2method_10467(3265, 66519135);
+		GOTO	flow_5
+	flow_2:
+		cs2method_10467(3265, 66519129);
+		GOTO	flow_5
+	flow_3:
+		cs2method_10467(3265, 66519123);
+		GOTO	flow_5
+	flow_4:
+		cs2method_10467(3265, 66519117);
+	flow_5:
+		return;
+}

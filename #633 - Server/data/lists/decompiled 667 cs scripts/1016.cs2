@@ -1,0 +1,202 @@
+cs2func_script_1016_struct(2,2,0) script_1016(int arg0,int arg1) {
+	switch (arg0) {
+		flow_1:
+			case 0:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(1, 1436, (object)("Rune essence" + "<br>" + " (after Rune Mysteries)"), (object)("You now have the Mining level required to mine " + "<col=000080>" + "rune essence" + "</col>" + " (after Rune Mysteries)."));
+				case 1:
+					return newstruct cs2func_script_1016_struct(1, 434, (object)"Clay", (object)("You can now mine " + "<col=000080>" + "clay" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(1, 436, (object)"Copper ore", (object)("You can now mine " + "<col=000080>" + "copper ore" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(1, 438, (object)"Tin ore", (object)("You can now mine " + "<col=000080>" + "tin ore" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(10, 3211, (object)"Members: Limestone", (object)("Members can now mine " + "<col=000080>" + "limestone" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(10, 668, (object)"Blurite ore", (object)("You can now mine " + "<col=000080>" + "blurite ore" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(15, 440, (object)"Iron ore", (object)("You can now mine " + "<col=000080>" + "iron ore" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_1016_struct(20, 2892, (object)("Members: Elemental ore" + "<br>" + " (after starting Elemental Workshop)"), (object)("Members now have the Mining level required to mine " + "<col=000080>" + "elemental ore" + "</col>" + " (after starting Elemental Workshop)."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(20, 442, (object)"Silver ore", (object)("You can now mine " + "<col=000080>" + "silver ore" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_1016_struct(30, 453, (object)"Coal", (object)("You can now mine " + "<col=000080>" + "coal" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_1016_struct(30, 7936, (object)("Members: Pure essence" + "<br>" + " (after Rune Mysteries)"), (object)("Members now have the Mining level required to mine " + "<col=000080>" + "pure essence" + "</col>" + " (after Rune Mysteries)."));
+				case 11:
+					return newstruct cs2func_script_1016_struct(35, 6977, (object)"Members: Sandstone", (object)("Members can now mine " + "<col=000080>" + "sandstone" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_1016_struct(40, 444, (object)"Gold", (object)("You can now mine " + "<col=000080>" + "gold" + "</col>" + "."));
+				case 13:
+					return newstruct cs2func_script_1016_struct(45, 6983, (object)"Members: Granite", (object)("Members can now mine " + "<col=000080>" + "granite."));
+				case 14:
+					return newstruct cs2func_script_1016_struct(46, 12630, (object)("Members: Rubium ore" + "<br>" + " (after Kennith's Concerns)"), (object)("Members can now mine " + "<col=000080>" + "rubium ore" + "</col>" + " (after Kennith's Concerns)."));
+				case 15:
+					return newstruct cs2func_script_1016_struct(55, 447, (object)"Mithril ore", (object)("You can now mine " + "<col=000080>" + "mithril ore" + "</col>" + "."));
+				case 16:
+					return newstruct cs2func_script_1016_struct(70, 449, (object)"Adamantite ore", (object)("You can now mine " + "<col=000080>" + "adamantite ore" + "</col>" + "."));
+				case 17:
+					return newstruct cs2func_script_1016_struct(77, 21778, (object)("Members: Bane ore" + "<br>" + " (after Ritual of the Mahjarrat)"), (object)("Members can now mine " + "<col=000080>" + "bane ore" + "</col>" + " (after Ritual of the Mahjarrat)."));
+				case 18:
+					return newstruct cs2func_script_1016_struct(85, 451, (object)"Runite ore", (object)("You can now mine " + "<col=000080>" + "runite ore" + "</col>" + "."));
+			}
+			break;
+			case 1:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(1, 21340, (object)"Members: Dwarven Army Axe", (object)("Members can now use a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_1016_struct(1, 1265, (object)"Bronze pickaxe", (object)("You can now use " + "<col=000080>" + "bronze pickaxes" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(1, 1267, (object)"Iron pickaxe", (object)("You can now use " + "<col=000080>" + "iron pickaxes" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(6, 1269, (object)"Steel pickaxe", (object)("You can now use " + "<col=000080>" + "steel pickaxes" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(21, 1273, (object)"Mithril pickaxe", (object)("You can now use " + "<col=000080>" + "mithril pickaxes" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(31, 1271, (object)"Adamant pickaxe", (object)("You can now use " + "<col=000080>" + "adamant pickaxes" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(35, 18339, (object)("Coal bag" + "<br>" + " (with 35 Dungeoneering)"), (object)("You can now use " + "<col=000080>" + "coal bags" + "</col>" + ". (You also need level 35 Dungeoneering.)"));
+				case 7:
+					return newstruct cs2func_script_1016_struct(40, 14107, (object)"Members: Sacred clay pickaxe", (object)("Members can now use " + "<col=000080>" + "sacred clay pickaxes" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(40, 14099, (object)"Members: Volatile pickaxe", (object)("Members can now use " + "<col=000080>" + "volatile pickaxes" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_1016_struct(41, 1275, (object)"Rune pickaxe", (object)("You can now use " + "<col=000080>" + "rune pickaxes" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_1016_struct(41, 13661, (object)("Members: Inferno Adze" + "<br>" + " (after All Fired Up, with 92 Firemaking)"), (object)("Members can now use the " + "<col=000080>" + "Inferno Adze" + "</col>" + " to mine with (after All Fired Up and with level 92 Firemaking)."));
+				case 11:
+					return newstruct cs2func_script_1016_struct(61, 15259, (object)"Members: Dragon pickaxe", (object)("Members can now use " + "<col=000080>" + "dragon pickaxes" + "</col>" + "."));
+			}
+			break;
+			case 2:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(40, 1603, (object)("Members: Gem rocks" + "<br>" + " (after Shilo Village)"), (object)("Members now have the Mining level required to mine " + "<col=000080>" + "gem rocks" + "</col>" + " (after Shilo Village)."));
+				case 1:
+					return newstruct cs2func_script_1016_struct(41, 13245, (object)("Members: Stone slab" + "<br>" + " (with rune pickaxe, after starting TokTz-Ket-Dill)"), (object)("Members now have the Mining level required to mine " + "<col=000080>" + "stone slabs" + "</col>" + " with rune pickaxes (after starting TokTz-Ket-Dill)."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(73, 15263, (object)"Members: Living rock remains", (object)("Members now have the Mining level required to mine " + "<col=000080>" + "living rock remains" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(77, 453, (object)"Members: Concentrated coal deposits", (object)("Members now have the Mining level required to mine " + "<col=000080>" + "concentrated coal deposits" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(80, 444, (object)"Members: Concentrated gold deposits", (object)("Members now have the Mining level required to mine " + "<col=000080>" + "concentrated gold deposits" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(91, 18778, (object)"Members: Starved ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Mining."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(93, 18779, (object)"Members: Nourished ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Mining."));
+				case 7:
+					return newstruct cs2func_script_1016_struct(95, 18780, (object)"Members: Sated ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Mining."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(97, 18781, (object)"Members: Gorged ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Mining."));
+			}
+			break;
+			case 3:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(10, 13727, (object)"Members: Size-1 stars", (object)("Members can now mine size-1 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_1016_struct(20, 13727, (object)"Members: Size-2 stars", (object)("Members can now mine size-2 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(30, 13727, (object)"Members: Size-3 stars", (object)("Members can now mine size-3 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(40, 13727, (object)"Members: Size-4 stars", (object)("Members can now mine size-4 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(50, 13727, (object)"Members: Size-5 stars", (object)("Members can now mine size-5 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(60, 13727, (object)"Members: Size-6 stars", (object)("Members can now mine size-6 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(70, 13727, (object)"Members: Size-7 stars", (object)("Members can now mine size-7 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_1016_struct(80, 13727, (object)"Members: Size-8 stars", (object)("Members can now mine size-8 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(90, 13727, (object)"Members: Size-9 stars", (object)("Members can now mine size-9 " + "<col=000080>" + "crashed stars" + "</col>" + "."));
+			}
+			break;
+			case 4:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(1, 14122, (object)"Members: Stealing Creation - class 1 pickaxe", (object)("Members can now use " + "<col=000080>" + "class 1 pickaxes" + "</col>" + " in Stealing Creation."));
+				case 1:
+					return newstruct cs2func_script_1016_struct(20, 14184, (object)"Members: Stealing Creation - mine class 2 sacred clay", (object)("Members can now mine " + "<col=000080>" + "class 2 sacred clay" + "</col>" + " in Stealing Creation."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(20, 14124, (object)"Members: Stealing Creation - class 2 pickaxe", (object)("Members can now use " + "<col=000080>" + "class 2 pickaxes" + "</col>" + " in Stealing Creation."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(40, 14186, (object)"Members: Stealing Creation - mine class 3 sacred clay", (object)("Members can now mine " + "<col=000080>" + "class 3 sacred clay" + "</col>" + " in Stealing Creation."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(40, 14126, (object)"Members: Stealing Creation - class 3 pickaxe", (object)("Members can now use " + "<col=000080>" + "class 3 pickaxes" + "</col>" + " in Stealing Creation."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(60, 14188, (object)"Members: Stealing Creation - mine class 4 sacred clay", (object)("Members can now mine " + "<col=000080>" + "class 4 sacred clay" + "</col>" + " in Stealing Creation."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(60, 14128, (object)"Members: Stealing Creation - class 4 pickaxe", (object)("Members can now use " + "<col=000080>" + "class 4 pickaxes" + "</col>" + " in Stealing Creation."));
+				case 7:
+					return newstruct cs2func_script_1016_struct(80, 14190, (object)"Members: Stealing Creation - mine class 5 sacred clay", (object)("Members can now mine " + "<col=000080>" + "class 5 sacred clay" + "</col>" + " in Stealing Creation."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(80, 14130, (object)"Members: Stealing Creation - class 5 pickaxe", (object)("Members can now use " + "<col=000080>" + "class 5 pickaxes" + "</col>" + " in Stealing Creation."));
+			}
+			break;
+			case 5:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_1016_struct(-1, 15707, (object)("Dungeoneering skill tasks" + "<br>" + "As your Mining level increases, you will be able to attempt higher-level mining tasks within Daemonheim. You will also be more likely to succeed when attempting mining tasks within Daemonheim."), (object)"");
+				case 1:
+					return newstruct cs2func_script_1016_struct(1, 17630, (object)"Novite ore (Tier 1)", (object)("You can now mine " + "<col=000080>" + "novite ore" + "</col>" + " within Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_1016_struct(1, 16295, (object)"Novite pickaxe (Tier 1)", (object)("You can now use " + "<col=000080>" + "novite pickaxes" + "</col>" + " within Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_1016_struct(10, 17632, (object)"Bathus ore (Tier 2)", (object)("You can now mine " + "<col=000080>" + "bathus ore" + "</col>" + " within Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_1016_struct(10, 16297, (object)"Bathus pickaxe (Tier 2)", (object)("You can now use " + "<col=000080>" + "bathus pickaxes" + "</col>" + " within Daemonheim."));
+				case 5:
+					return newstruct cs2func_script_1016_struct(20, 17634, (object)"Marmaros ore (Tier 3)", (object)("You can now mine " + "<col=000080>" + "marmaros ore" + "</col>" + " within Daemonheim."));
+				case 6:
+					return newstruct cs2func_script_1016_struct(20, 16299, (object)"Marmaros pickaxe (Tier 3)", (object)("You can now use " + "<col=000080>" + "marmaros pickaxes" + "</col>" + " within Daemonheim."));
+				case 7:
+					return newstruct cs2func_script_1016_struct(30, 17636, (object)"Kratonium ore (Tier 4)", (object)("You can now mine " + "<col=000080>" + "kratonite ore" + "</col>" + " within Daemonheim."));
+				case 8:
+					return newstruct cs2func_script_1016_struct(30, 16301, (object)"Kratonite pickaxe (Tier 4)", (object)("You can now use " + "<col=000080>" + "kratonite pickaxes" + "</col>" + " within Daemonheim."));
+				case 9:
+					return newstruct cs2func_script_1016_struct(40, 17638, (object)"Fractite ore (Tier 5)", (object)("You can now mine " + "<col=000080>" + "fractite ore" + "</col>" + " within Daemonheim."));
+				case 10:
+					return newstruct cs2func_script_1016_struct(40, 16303, (object)"Fractite pickaxe (Tier 5)", (object)("You can now use " + "<col=000080>" + "fractite pickaxes" + "</col>" + " within Daemonheim."));
+				case 11:
+					return newstruct cs2func_script_1016_struct(50, 17640, (object)"Members: Zephyrium ore (Tier 6)", (object)("Members can now mine " + "<col=000080>" + "zephyrium ore" + "</col>" + " within Daemonheim."));
+				case 12:
+					return newstruct cs2func_script_1016_struct(50, 16305, (object)"Members: Zephyrium pickaxe (Tier 6)", (object)("Members can now use " + "<col=000080>" + "zephyrium pickaxes" + "</col>" + " within Daemonheim."));
+				case 13:
+					return newstruct cs2func_script_1016_struct(60, 17642, (object)"Members: Argonite ore (Tier 7)", (object)("Members can now mine " + "<col=000080>" + "argonite ore" + "</col>" + " within Daemonheim."));
+				case 14:
+					return newstruct cs2func_script_1016_struct(60, 16307, (object)"Members: Argonite pickaxe (Tier 7)", (object)("Members can now use " + "<col=000080>" + "argonite pickaxes" + "</col>" + " within Daemonheim."));
+				case 15:
+					return newstruct cs2func_script_1016_struct(70, 17644, (object)"Members: Katagon ore (Tier 8)", (object)("Members can now mine " + "<col=000080>" + "katagon ore" + "</col>" + " within Daemonheim."));
+				case 16:
+					return newstruct cs2func_script_1016_struct(70, 16309, (object)"Members: Katagon pickaxe (Tier 8)", (object)("Members can now use " + "<col=000080>" + "katagon pickaxes" + "</col>" + " within Daemonheim."));
+				case 17:
+					return newstruct cs2func_script_1016_struct(80, 17646, (object)"Members: Gorgonite ore (Tier 9)", (object)("Members can now mine " + "<col=000080>" + "gorgonite ore" + "</col>" + " within Daemonheim."));
+				case 18:
+					return newstruct cs2func_script_1016_struct(80, 16311, (object)"Members: Gorgonite pickaxe (Tier 9)", (object)("Members can now use " + "<col=000080>" + "gorgonite pickaxes" + "</col>" + " within Daemonheim."));
+				case 19:
+					return newstruct cs2func_script_1016_struct(90, 17648, (object)"Members: Promethium ore (Tier 10)", (object)("Members can now mine " + "<col=000080>" + "promethium ore" + "</col>" + " within Daemonheim."));
+				case 20:
+					return newstruct cs2func_script_1016_struct(90, 16313, (object)"Members: Promethium pickaxe (Tier 10)", (object)("Members can now use " + "<col=000080>" + "promethium pickaxes" + "</col>" + " within Daemonheim."));
+				case 21:
+					return newstruct cs2func_script_1016_struct(99, 16315, (object)"Members: Primal pickaxe (Tier 11)", (object)("Members can now use primal pickaxes" + "</col>" + " within Daemonheim."));
+			}
+			break;
+			case 6:
+			SWITCH (arg1) {
+				case 0:
+					 GOTO flow_94
+				case 1:
+					 GOTO flow_95
+			}
+			break;
+		flow_94:
+			return newstruct cs2func_script_1016_struct(60, 447, (object)"Mining Guild", (object)("You can now enter the world-famous " + "<col=000080>" + "Mining Guild" + "</col>" + "."));
+		flow_95:
+			return newstruct cs2func_script_1016_struct(99, 9792, (object)"Skill mastery", (object)("<col=000080>" + "Congratulations! You are now a master miner. Members can visit the " + "<col=800000>" + "dwarf" + "<col=000080>" + " who guards the entrance to the " + "<col=800000>" + "Mining Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Mining" + "<col=000080>" + " skill!"));
+	}
+	return newstruct cs2func_script_1016_struct(0, -1, (object)"", (object)"");
+}

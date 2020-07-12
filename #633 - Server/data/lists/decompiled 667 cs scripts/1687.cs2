@@ -1,0 +1,8 @@
+void script_1687() {
+	if (globalint_1044 < subtract(cs2method_10800(0), 1)) {
+		globalint_1044 = add(globalint_1044, 1);
+		cs2method_10767(0, globalint_1044, 200, 200, 1, globalint_1044);
+		cs2method_20808(1679, "", new WidgetPointer(85,0));
+	}
+	return;
+}

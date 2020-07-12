@@ -1,0 +1,11 @@
+void script_3933(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	setWidgetRGB(arg1, arg0);
+	if (arg2 == 1) {
+		cs2method_10467(getDataByKey('i', 'd', 3480, arg3), arg4);
+	} else if (arg5 == arg3) {
+		cs2method_10467(getDataByKey('i', 'd', 736, arg3), arg4);
+	} else {
+		cs2method_10467(getDataByKey('i', 'd', 735, arg3), arg4);
+	}
+	return;
+}

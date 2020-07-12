@@ -1,0 +1,17 @@
+void script_2593(int arg0) {
+	if (arg0 == 0 || arg0 == 2) {
+		if (cs2method_10812() == 0) {
+			cs2method_10755(0);
+			cs2method_10281(0);
+			cs2method_10946(0);
+		} else {
+			if (cs2method_10613() == 0) {
+				cs2method_10755(0);
+			}
+		}
+	}
+	if (arg0 == 2 && cs2method_10719() == 0) {
+		cs2method_10131(0);
+	}
+	return;
+}

@@ -1,0 +1,21 @@
+int script_6420(int arg0,int arg1,object arg2) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar2 = multiply(arg1, 15);
+	ivar3 = cs2method_10956(48890069);
+	ivar4 = getDataByKey('d', 'f', 5980, arg0);
+	createChildWidget(48890071, 4, arg1);
+	setWidgetSize(0, 15, 1, 0);
+	setWidgetPosition(0, ivar2, 1, 0);
+	setWidgetFont(arg0);
+	setWidgetRGB(new Color(235, 224, 188));
+	setWidgetTextAlignment(1, 1, 15);
+	cs2method_10320(0);
+	setWidgetText(arg2);
+	if (ivar3 < cs2method_10355(ivar4, arg2)) {
+		ivar3 = add(cs2method_10355(ivar4, arg2), 16);
+	}
+	cs2method_10893(ivar3, add(add(ivar2, 15), 16), 0, 0, 48890069);
+	return add(arg1, 1);
+}

@@ -1,0 +1,44 @@
+int script_6035(int arg0,int arg1,int arg2,int arg3) {
+	if (isMember() == 0 && cs2method_10080(83, 5472, arg0) == 1) {
+		if (arg3 == 1) {
+			cs2method_10998((object)"You must be on a members' world to gain XP in that skill.");
+		}
+		return 0;
+	}
+	if (cs2method_10453(arg0) < arg1) {
+		if (arg3 == 1) {
+			cs2method_10998((object)("You must choose a skill in which you already have level " + toString(arg1) + "."));
+		}
+		return 0;
+	}
+	if (arg0 == 22 && bitconfig_2187 == 0) {
+		if (arg3 == 1) {
+			cs2method_10998((object)"You cannot earn Construction XP without owning a house.");
+		}
+		return 0;
+	}
+	switch (arg2) {
+		case 13439:
+			switch (arg0) {
+				case 0:
+				case 1:
+				case 2:
+				case 3:
+				case 4:
+				case 5:
+				case 6:
+				case 7:
+				case 8:
+				case 10:
+				case 11:
+				case 13:
+				case 14:
+					break;
+			}
+			if (arg3 == 1) {
+				cs2method_10998((object)"You may only use this lamp to increase a skill that you learned about while helping Sir Vant.");
+			}
+			return 0;
+	}
+	return 1;
+}

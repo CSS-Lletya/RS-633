@@ -1,0 +1,60 @@
+int script_5730(int arg0,int arg1) {
+	int ivar2;
+	ivar2 = getDataByKey('i', 'i', 5510, arg0);
+	if (script_5765(arg1) == 1) {
+		return 1;
+	}
+	if (script_5767() == 1) {
+		if (ivar2 >= 10) {
+			return 0;
+		}
+		if (ivar2 == 0) {
+			return 1;
+		}
+		switch (ivar2) {
+			case 1:
+				if (bitconfig_10515 != 1) {
+					return 0;
+				}
+				break;
+			case 2:
+				if (bitconfig_10516 != 1) {
+					return 0;
+				}
+				break;
+			case 3:
+				if (bitconfig_10517 != 1) {
+					return 0;
+				}
+				break;
+			case 4:
+				if (bitconfig_10518 != 1) {
+					return 0;
+				}
+				break;
+			case 5:
+				if (bitconfig_10519 != 1) {
+					return 0;
+				}
+				break;
+			case 6:
+				if (bitconfig_10520 != 1) {
+					return 0;
+				}
+				break;
+			case 7:
+				if (bitconfig_10521 != 1) {
+					return 0;
+				}
+				break;
+			case 8:
+				if (bitconfig_10522 != 1) {
+					return 0;
+				}
+				break;
+			case 9:
+				return 0;
+		}
+	}
+	return 1;
+}

@@ -1,0 +1,14 @@
+void script_2927(int arg0,int arg1,int arg2,int arg3,object arg4) {
+	if (arg0 != -1) {
+		if (arg3 == 1) {
+			setWidgetText(new WidgetPointer(arg1), (object)("<u=fafafa>" + (string)arg4 + "</u>"));
+			setWidgetRGB(16448250, arg1);
+			cs2method_10893(cs2method_10355(arg2, arg4), cs2method_10090(arg0), 0, 0, arg0);
+		} else {
+			setWidgetText(new WidgetPointer(arg1), (object)("<u=c8c8c8>" + (string)arg4 + "</u>"));
+			setWidgetRGB(13158600, arg1);
+			cs2method_10893(cs2method_10355(arg2, arg4), cs2method_10090(arg0), 0, 0, arg0);
+		}
+	}
+	return;
+}

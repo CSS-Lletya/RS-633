@@ -1,0 +1,41 @@
+void script_4019(int arg0) {
+	switch (arg0) {
+		case 0:
+			setWidgetIsHidden(false, new WidgetPointer(917,57));
+			setWidgetIsHidden(true, new WidgetPointer(917,58));
+			setWidgetIsHidden(true, new WidgetPointer(917,56));
+			setWidgetIsHidden(true, new WidgetPointer(917,62));
+			cs2method_10467(4320, 60096538);
+			cs2method_10467(4320, 60096540);
+			cs2method_10467(4321, 60096539);
+			break;
+		case 1:
+			setWidgetIsHidden(true, new WidgetPointer(917,57));
+			setWidgetIsHidden(false, new WidgetPointer(917,58));
+			setWidgetIsHidden(true, new WidgetPointer(917,56));
+			setWidgetIsHidden(true, new WidgetPointer(917,62));
+			cs2method_10467(4320, 60096534);
+			cs2method_10467(4320, 60096536);
+			cs2method_10467(4321, 60096535);
+			break;
+		case 2:
+			setWidgetIsHidden(true, new WidgetPointer(917,57));
+			setWidgetIsHidden(true, new WidgetPointer(917,58));
+			setWidgetIsHidden(false, new WidgetPointer(917,56));
+			setWidgetIsHidden(true, new WidgetPointer(917,62));
+			cs2method_10467(4320, 60096530);
+			cs2method_10467(4320, 60096532);
+			cs2method_10467(4321, 60096531);
+			break;
+		case 3:
+			setWidgetIsHidden(true, new WidgetPointer(917,57));
+			setWidgetIsHidden(true, new WidgetPointer(917,58));
+			setWidgetIsHidden(true, new WidgetPointer(917,56));
+			setWidgetIsHidden(false, new WidgetPointer(917,62));
+			cs2method_10467(4320, 60096526);
+			cs2method_10467(4320, 60096528);
+			cs2method_10467(4321, 60096527);
+	}
+	script_4026(0);
+	return;
+}

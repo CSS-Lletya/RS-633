@@ -1,0 +1,125 @@
+void script_387(int arg0) {
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	int ivar8;
+	int ivar9;
+	int ivar10;
+	int ivar11;
+	int ivar12;
+	int ivar13;
+	int ivar14;
+	object ovar0;
+	object ovar1;
+	object ovar2;
+	object ovar3;
+	object stack_dump0;
+	ovar0 = (object)"";
+	ovar1 = (object)"";
+	ivar1 = 0;
+	ivar2 = 0;
+	stack_dump0 = cs2method_10120(1, 67371070);
+	ovar1 = cs2method_10120(1, 67371071);
+	ovar0 = stack_dump0;
+	ivar3 = cs2method_10624(3280);
+	ivar4 = 0;
+	ivar5 = 73;
+	ivar6 = 3278;
+	ivar2 = add(ivar1, 20);
+	ivar1 = add(cs2method_10004(cs2method_10355(495, ovar0), cs2method_10355(495, ovar1)), 30);
+	ivar7 = 1;
+	ovar2 = (object)"";
+	if (bitconfig_8093 == 1) {
+		ivar7 = 0;
+	}
+	script_2719(67371070, ivar1, ivar7, ovar0, ovar2);
+	cs2method_20000(2718, new WidgetPointer(1028,62), (string)ovar0, ivar1, (string)ovar2, 1, "Isis1", new WidgetPointer(1028,62));
+	ivar2 = add(add(ivar2, ivar1), 10);
+	ivar8 = 0;
+	if (ivar7 == 0) {
+		ivar8 = 1;
+	}
+	script_2719(67371071, ivar1, ivar8, ovar1, ovar2);
+	cs2method_20000(2718, new WidgetPointer(1028,63), (string)ovar1, ivar1, (string)ovar2, 1, "Isis1", new WidgetPointer(1028,63));
+	ivar4 = cs2method_10586(ivar3, cs2method_10624(ivar6));
+	ivar1 = cs2method_10004(add(multiply(add(ivar4, 1), ivar5), subtract(89, ivar5)), cs2method_10542(4, 5, 765));
+	ivar1 = add(multiply(ivar4, ivar5), subtract(89, ivar5));
+	cs2method_10893(ivar1, 26, 0, 1, 67371067);
+	cs2method_10893(0, 180, 1, 0, 67371075);
+	cs2method_10444(0, 237, 1, 0, 67371099);
+	script_389();
+	ivar9 = subtract(globalint_197, 1);
+	if (ivar9 <= -1) {
+		setWidgetIsHidden(true, new WidgetPointer(1028,139));
+		setWidgetIsHidden(true, new WidgetPointer(1028,138));
+		setWidgetIsHidden(true, new WidgetPointer(1028,133));
+		setWidgetIsHidden(true, new WidgetPointer(1028,134));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(1028,139));
+		if (bitconfig_8246 == 1 && bitconfig_8247 == 0) {
+			setWidgetIsHidden(true, new WidgetPointer(1028,138));
+		} else {
+			setWidgetIsHidden(false, new WidgetPointer(1028,138));
+		}
+		setWidgetIsHidden(false, new WidgetPointer(1028,133));
+		setWidgetIsHidden(false, new WidgetPointer(1028,134));
+	}
+	ivar10 = -1;
+	ovar3 = (object)"";
+	ivar11 = -1;
+	ivar12 = 0;
+	ivar13 = 1;
+	ivar14 = getDataByKey('i', 'J', ivar6, ivar9);
+	script_385(ivar14);
+	ivar2 = subtract(cs2method_10090(67371075), add(89, 17));
+	while (ivar12 < ivar4) {
+		ivar10 = (int)getDataByKey('i', 'I', 3280, ivar12);
+		if (ivar10 != -1) {
+			if (ivar12 == ivar9) {
+				cs2method_10444(multiply(ivar5, ivar12), 0, 0, 0, ivar10);
+			} else {
+				cs2method_10444(multiply(ivar5, ivar12), ivar2, 0, 2, ivar10);
+			}
+			if (ivar12 <= ivar9 || ivar9 <= -1) {
+				cs2method_10928(ivar10);
+			} else {
+				cs2method_10867(ivar10);
+			}
+			cs2method_10893(89, 89, 0, 0, ivar10);
+			ivar14 = getDataByKey('i', 'J', ivar6, ivar12);
+			if (ivar14 != -1) {
+				if (arg0 == 1) {
+					ivar11 = getGeneralRequirementAttribute(ivar14, 1162);
+				} else {
+					ivar11 = getGeneralRequirementAttribute(ivar14, 1161);
+				}
+				if (ivar12 == ivar9) {
+					ivar13 = 1;
+				} else {
+					ivar13 = 0;
+				}
+				script_363(ivar10, ivar9, 3280, ivar11, 1, 89, 89, 2, ivar13, (object)"", (object)"");
+				cs2method_20000(351, -2147483644, add(ivar12, 1), "ii", new WidgetPointer(ivar10));
+			} else {
+				script_363(ivar10, -1, -1, -1, 0, 0, 0, 0, 0, (object)"", (object)"");
+			}
+		}
+		ivar12 = add(ivar12, 1);
+	}
+	while (ivar12 < ivar3) {
+		ivar10 = (int)getDataByKey('i', 'I', 3280, ivar12);
+		if (ivar10 != -1) {
+			setWidgetIsHidden(true, new WidgetPointer(ivar10));
+		}
+		ivar12 = add(ivar12, 1);
+	}
+	ivar10 = (int)getDataByKey('i', 'I', 3280, ivar9);
+	if (ivar10 != -1) {
+		cs2method_10928(ivar10);
+	}
+	return;
+}

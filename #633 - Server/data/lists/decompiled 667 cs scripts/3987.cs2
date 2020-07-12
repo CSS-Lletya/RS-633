@@ -1,0 +1,50 @@
+void script_3987(int arg0,int arg1,int arg2) {
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	script_41(60096623);
+	setWidgetIsHidden(true, new WidgetPointer(917,11));
+	if (arg0 == 63) {
+		arg0 = bitconfig_8575;
+	} else {
+		if (arg0 == 999) {
+			arg0 = bitconfig_8582;
+		}
+	}
+	if (arg1 == 999) {
+		arg1 = bitconfig_8579;
+	}
+	if (arg2 == 999) {
+		arg2 = bitconfig_8580;
+	}
+	cs2method_10467(getDataByKey('i', 'd', 3491, arg0), 60096636);
+	script_4501(60096650, (object)getDataByKey('i', 's', 3487, arg0));
+	if (cs2method_10403(60096634) == 1) {
+		cs2method_10483(1, 172);
+	}
+	globalint_1422 = -1;
+	ivar3 = getDataByKey('i', 'i', 3482, arg0);
+	clearExtraChildren(new WidgetPointer(917,67));
+	cs2method_10085(0, 0, 60096579);
+	ivar4 = 0;
+	setWidgetIsHidden(false, new WidgetPointer(917,8));
+	setWidgetIsHidden(true, new WidgetPointer(917,9));
+	if (bitconfig_9030 == 1) {
+		if (isMember() == 0) {
+			ivar4 = script_4243(3656);
+		} else {
+			ivar4 = script_4243(5480);
+		}
+		setWidgetIsHidden(true, new WidgetPointer(917,8));
+		setWidgetIsHidden(false, new WidgetPointer(917,9));
+	} else if (ivar3 == 4091) {
+		ivar4 = script_3988(arg0);
+	} else {
+		ivar4 = script_3989(ivar3, arg1, arg2);
+	}
+	ivar5 = add(ivar4, cs2method_10090(60096629));
+	ivar5 = cs2method_10004(ivar5, cs2method_10090(60096579));
+	setWidgetScrollMax(0, ivar5, 60096579);
+	script_31(60096580, 60096579, 4343, 4340, 4341, 4342, 4337, 4336);
+	return;
+}

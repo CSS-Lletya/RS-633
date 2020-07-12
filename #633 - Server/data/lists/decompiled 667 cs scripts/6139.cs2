@@ -1,0 +1,43 @@
+int script_6139(int arg0) {
+	switch (arg0) {
+		case 0:
+			return 83230757;
+		case 1:
+			return 83230824;
+		case 2:
+			return 83230825;
+		case 3:
+			return 83230826;
+		case 4:
+			return 83230827;
+		case 5:
+			return 83230828;
+		case 6:
+			return 83230829;
+		case 7:
+			return 83230830;
+		case 8:
+			return 83230831;
+		case 9:
+			return 83230832;
+		case 10:
+			return 83230833;
+		case 11:
+			return 83230834;
+		case 12:
+			return 83230835;
+		case 13:
+			return 83230836;
+		case 14:
+			return 83230837;
+		case 15:
+			return 83230838;
+		case 16:
+			return 83230839;
+		case 17:
+			return 83230840;
+		case 18:
+			return 83230841;
+	}
+	return -1;
+}

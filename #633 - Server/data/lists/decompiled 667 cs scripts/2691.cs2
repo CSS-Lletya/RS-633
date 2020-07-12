@@ -1,0 +1,23 @@
+void script_2691(int arg0,int arg1,int arg2,int arg3,int arg4,int arg5) {
+	if (arg5 == 1 && cs2method_10551(arg0, arg3) == 1) {
+		setWidgetRGB(new Color(arg4));
+	}
+	if (cs2method_10551(arg0, arg1) == 1) {
+		if (arg2 == 1) {
+			if (cs2method_10119() == 2554) {
+				cs2method_10469(2555);
+			} else {
+				if (cs2method_10119() == 2556) {
+					cs2method_10469(2557);
+				}
+			}
+		} else if (cs2method_10119() == 2555) {
+			cs2method_10469(2554);
+		} else {
+			if (cs2method_10119() == 2557) {
+				cs2method_10469(2556);
+			}
+		}
+	}
+	return;
+}

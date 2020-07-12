@@ -1,0 +1,26 @@
+void script_2576(int arg0,int arg1) {
+	object ovar0;
+	ovar0 = (object)"";
+	switch (arg0) {
+		case 51183658:
+		case 51183649:
+			ovar0 = (object)"How much time is left for this round.";
+			break;
+		case 51183659:
+		case 51183650:
+			ovar0 = (object)"How many orbs the green team have captured this round.";
+			break;
+		case 51183660:
+		case 51183651:
+			ovar0 = (object)"How many orbs the yellow team have captured this round.";
+			break;
+		case 51183662:
+		case 51183653:
+			ovar0 = (object)"How active you have been during this round.";
+			break;
+		default:
+			return;
+	}
+	script_39(arg0, arg1, 25, cs2method_10956(cs2method_10740(arg1)), ovar0);
+	return;
+}

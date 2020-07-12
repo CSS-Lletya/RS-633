@@ -1,0 +1,9 @@
+void script_738() {
+	object ovar0;
+	object ovar1;
+	ovar0 = (object)toString(divide(globalint_105, 10));
+	ovar1 = (object)toString(cs2method_10620(globalint_105, 10));
+	setWidgetText(new WidgetPointer(269,48), ovar0);
+	setWidgetText(new WidgetPointer(269,49), ovar1);
+	return;
+}

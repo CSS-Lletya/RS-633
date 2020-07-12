@@ -1,0 +1,36 @@
+void script_373(int arg0,int arg1,int arg2,int arg3,int arg4) {
+	int ivar5;
+	ivar5 = -1;
+	if (arg1 == -1) {
+		ivar5 = cs2method_10740(arg0);
+	} else {
+		ivar5 = arg0;
+	}
+	if (arg4 == 1) {
+		flow_4:
+			IF (arg1 == -1) 
+				GOTO	flow_5
+			GOTO	flow_6
+		flow_5:
+			IF (cs2method_10403(arg0) == 1) 
+				GOTO	flow_7
+		flow_6:
+			IF (cs2method_10551(arg0, arg1) == 1) 
+				GOTO	flow_7
+			GOTO	flow_8
+		flow_7:
+			createChildWidget(ivar5, 3, arg2);
+			setWidgetSize(subtract(cs2method_10040(), multiply(arg3, 2)), subtract(cs2method_10630(), multiply(arg3, 2)), 0, 0);
+			setWidgetPosition(add(cs2method_10646(), arg3), add(cs2method_10207(), arg3), 0, 0);
+			setWidgetRGB(new Color(255, 255, 255));
+			cs2method_10305(200);
+			setWidgetFilled(1);
+		flow_8:
+	} else {
+		if (cs2method_10551(ivar5, arg2) == 1) {
+			cs2method_10714();
+		}
+		script_383();
+	}
+	return;
+}

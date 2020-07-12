@@ -1,0 +1,8 @@
+void script_4237() {
+	if (globalint_1495 == 0 && bitconfig_8960 > 0) {
+		globalint_1495 = cs2method_10878();
+	} else {
+		return;
+	}
+	return;
+}

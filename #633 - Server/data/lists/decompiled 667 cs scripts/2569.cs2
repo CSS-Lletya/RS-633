@@ -1,0 +1,10 @@
+void script_2569() {
+	setWidgetIsHidden(true, new WidgetPointer(292,130));
+	if (cs2method_10145() == 0) {
+		setWidgetFont(496, 19136636);
+	} else {
+		setWidgetFont(494, 19136636);
+	}
+	script_2570();
+	return;
+}

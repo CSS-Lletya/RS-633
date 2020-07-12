@@ -1,0 +1,14 @@
+void script_6118(int arg0,int arg1) {
+	setWidgetRGB(arg1, 68812804);
+	setWidgetRGB(arg0, 68812807);
+	setWidgetRGB(arg0, 68812808);
+	setWidgetRGB(arg0, 68812809);
+	setWidgetRGB(arg0, 68812810);
+	setWidgetRGB(arg0, 68812811);
+	setWidgetRGB(arg0, 68812812);
+	setWidgetRGB(arg0, 68812813);
+	setWidgetRGB(arg0, 68812814);
+	setWidgetRGB(arg0, 68812815);
+	setWidgetRGB(arg0, 68812816);
+	return;
+}

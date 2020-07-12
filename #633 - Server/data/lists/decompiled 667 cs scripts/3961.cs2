@@ -1,0 +1,11 @@
+void script_3961(int arg0,int arg1) {
+	if (arg0 < 50) {
+		arg0 = add(arg0, 1);
+		cs2method_20219(3961, arg0, new WidgetPointer(arg1), "iI", new WidgetPointer(arg1));
+	} else {
+		cs2method_10893(63, 16, 0, 0, 48758865);
+		cs2method_20219(-1, "", new WidgetPointer(arg1));
+		script_3960(48758892);
+	}
+	return;
+}

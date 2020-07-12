@@ -1,0 +1,6 @@
+object script_4583(int arg0,object arg1,object arg2) {
+	if (arg0 == 1) {
+		return arg1;
+	}
+	return arg2;
+}

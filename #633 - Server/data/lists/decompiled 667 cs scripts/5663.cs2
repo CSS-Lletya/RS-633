@@ -1,0 +1,15 @@
+void script_5663(int arg0,int arg1,int arg2) {
+	if (arg2 < 150) {
+		arg2 = add(arg2, 1);
+		cs2method_20219(5663, new WidgetPointer(arg0), arg1, arg2, "Iii", new WidgetPointer(arg0));
+		return;
+	}
+	cs2method_10444(0, arg1, 1, 0, arg0);
+	arg1 = subtract(arg1, 1);
+	if (arg1 <= 0) {
+		cs2method_20219(-1, "", new WidgetPointer(arg0));
+	} else {
+		cs2method_20219(5663, new WidgetPointer(arg0), arg1, arg2, "Iii", new WidgetPointer(arg0));
+	}
+	return;
+}

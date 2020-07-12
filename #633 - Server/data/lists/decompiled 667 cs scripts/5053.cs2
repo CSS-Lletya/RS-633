@@ -1,0 +1,32 @@
+void script_5053(int arg0,int arg1) {
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	int ivar5;
+	int ivar6;
+	int ivar7;
+	cs2method_10085(add(cs2method_10774(72810508), arg0), add(cs2method_10424(72810508), arg1), 72810508);
+	ivar2 = cs2method_10916(72810508);
+	ivar3 = cs2method_10956(72810508);
+	ivar4 = subtract(ivar3, 32);
+	ivar5 = cs2method_10586(cs2method_10004(cs2method_10542(ivar3, ivar2, ivar4), 10), ivar4);
+	ivar6 = cs2method_10542(cs2method_10424(72810508), cs2method_10004(subtract(ivar2, ivar3), 1), subtract(ivar4, ivar5));
+	ivar7 = cs2method_10542(cs2method_10774(72810508), cs2method_10004(subtract(ivar2, ivar3), 1), subtract(ivar4, ivar5));
+	ivar6 = add(cs2method_10004(cs2method_10586(ivar6, subtract(ivar4, ivar5)), 0), 16);
+	ivar7 = add(cs2method_10004(cs2method_10586(ivar7, subtract(ivar4, ivar5)), 0), 16);
+	if (cs2method_10551(72810512, 3) == 1 && cs2method_10551(72810513, 3) == 1) {
+		setWidgetSize(0, ivar5, 1, 0);
+		setWidgetSize(ivar5, 0, 0, 1);
+		setWidgetPosition(0, ivar6, 1, 0);
+		setWidgetPosition(ivar7, 0, 0, 1);
+	}
+	if (cs2method_10551(72810512, 4) == 1 && cs2method_10551(72810513, 4) == 1) {
+		setWidgetPosition(0, ivar6, 1, 0);
+		setWidgetPosition(ivar7, 0, 0, 1);
+	}
+	if (cs2method_10551(72810512, 5) == 1 && cs2method_10551(72810513, 5) == 1) {
+		setWidgetPosition(0, subtract(add(ivar6, ivar5), cs2method_10630()), 1, 0);
+		setWidgetPosition(subtract(add(ivar7, ivar5), cs2method_10040()), 0, 0, 1);
+	}
+	return;
+}

@@ -1,0 +1,35 @@
+void script_4852() {
+	int ivar0;
+	object ovar0;
+	int stack_dump0;
+	ivar0 = -1;
+	ovar0 = (object)"This build slot is available, select your options and click the buy button.";
+	if (cs2method_10575() == 1) {
+		ivar0 = script_4825(1);
+		cs2method_10641(0, 82444518);
+		cs2method_10641(0, 82444509);
+		cs2method_10641(0, 82444500);
+		if (bitconfig_9562 > 0) {
+			stack_dump0 = bitconfig_9562;
+			/* 
+				mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+					at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+					at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+					at tests.Main.main(Main.java:72)
+				
+			 */
+		}
+		/* 
+			mgi.tools.jagdecs2.DecompilerException: TODO citadel configs method:107
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processFlowBlock(FlowBlocksGenerator.java:240)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.processGeneration(FlowBlocksGenerator.java:52)
+				at mgi.tools.jagdecs2.FlowBlocksGenerator.generate(FlowBlocksGenerator.java:35)
+				at mgi.tools.jagdecs2.CS2Decompiler.decompile(CS2Decompiler.java:40)
+				at tests.Main.main(Main.java:72)
+			
+		 */
+	}
+	return;
+}

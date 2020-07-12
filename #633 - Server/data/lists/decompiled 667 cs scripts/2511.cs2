@@ -1,0 +1,8 @@
+void script_2511() {
+	setWidgetText(new WidgetPointer(654,8), (object)getDataByKey('i', 's', 2385, 1));
+	setWidgetText(new WidgetPointer(654,57), (object)getDataByKey('i', 's', 2385, 2));
+	setWidgetText(new WidgetPointer(654,49), (object)getDataByKey('i', 's', 2385, 3));
+	setWidgetText(new WidgetPointer(654,41), (object)getDataByKey('i', 's', 2385, 4));
+	setWidgetText(new WidgetPointer(654,66), (object)getDataByKey('i', 's', 2385, 5));
+	return;
+}

@@ -1,0 +1,40 @@
+int script_6010(int arg0) {
+	int ivar1;
+	ivar1 = -1;
+	ivar1 = cs2method_10412(cs2method_10222(cs2method_10664()));
+	if (ivar1 < 0) {
+		return 0;
+	}
+	if (arg0 == -1) {
+		arg0 = cs2method_10548(ivar1);
+	}
+	switch (arg0) {
+		case 0:
+			return clanbitconfig_295;
+		case 1:
+			return clanbitconfig_296;
+		case 2:
+			return clanbitconfig_297;
+		case 3:
+			return clanbitconfig_298;
+		case 4:
+			return clanbitconfig_299;
+		case 5:
+			return clanbitconfig_300;
+		case 100:
+			return clanbitconfig_243;
+		case 101:
+			return clanbitconfig_244;
+		case 102:
+			return clanbitconfig_245;
+		case 103:
+			return clanbitconfig_246;
+		case 125:
+			return clanbitconfig_247;
+		case 126:
+			return 1;
+		case 127:
+			return 1;
+	}
+	return 0;
+}

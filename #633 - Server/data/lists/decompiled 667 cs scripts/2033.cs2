@@ -1,0 +1,78 @@
+void script_2033() {
+	int ivar0;
+	int ivar1;
+	int ivar2;
+	int ivar3;
+	int ivar4;
+	ivar0 = getItemAmtInContainer(93, 2169);
+	ivar1 = getItemAmtInContainer(93, 2162);
+	ivar2 = getItemAmtInContainer(93, 2128);
+	ivar3 = getItemAmtInContainer(93, 2152);
+	ivar4 = getItemAmtInContainer(93, 1973);
+	if (ivar3 >= 2 && ivar0 >= 1) {
+		setWidgetRGB(65280, 28639269);
+	} else {
+		setWidgetRGB(16711680, 28639269);
+	}
+	if (ivar2 >= 2 && ivar0 >= 1) {
+		setWidgetRGB(65280, 28639270);
+	} else {
+		setWidgetRGB(16711680, 28639270);
+	}
+	if (ivar2 >= 1 && ivar0 >= 1 && ivar1 >= 2) {
+		setWidgetRGB(65280, 28639271);
+	} else {
+		setWidgetRGB(16711680, 28639271);
+	}
+	if (ivar4 >= 2 && ivar0 >= 1) {
+		setWidgetRGB(65280, 28639272);
+	} else {
+		setWidgetRGB(16711680, 28639272);
+	}
+	if (getItemAmtInContainer(93, 2152) > 1) {
+		cs2method_10380(2152, 100, 28639236);
+	} else {
+		cs2method_10380(9499, 100, 28639236);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28639237);
+	} else {
+		cs2method_10380(9500, 90, 28639237);
+	}
+	if (getItemAmtInContainer(93, 2128) > 1) {
+		cs2method_10380(2128, 120, 28639244);
+	} else {
+		cs2method_10380(9494, 120, 28639244);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28639243);
+	} else {
+		cs2method_10380(9500, 90, 28639243);
+	}
+	if (getItemAmtInContainer(93, 1973) > 1) {
+		cs2method_10380(1973, 140, 28639259);
+	} else {
+		cs2method_10380(9507, 140, 28639259);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28639260);
+	} else {
+		cs2method_10380(9500, 90, 28639260);
+	}
+	if (getItemAmtInContainer(93, 2162) > 1) {
+		cs2method_10380(2162, 100, 28639251);
+	} else {
+		cs2method_10380(9501, 100, 28639251);
+	}
+	if (getItemAmtInContainer(93, 2128) > 0) {
+		cs2method_10380(2128, 120, 28639252);
+	} else {
+		cs2method_10380(9494, 120, 28639252);
+	}
+	if (getItemAmtInContainer(93, 2169) > 0) {
+		cs2method_10380(2169, 90, 28639250);
+	} else {
+		cs2method_10380(9500, 90, 28639250);
+	}
+	return;
+}

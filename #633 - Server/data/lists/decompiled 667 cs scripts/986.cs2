@@ -1,0 +1,247 @@
+cs2func_script_986_struct(2,2,0) script_986(int arg0,int arg1) {
+	switch (arg0) {
+		case 0:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(1, 1511, (object)"Normal logs", (object)("You can now light " + "<col=000080>" + "normal logs" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_986_struct(1, 596, (object)"Members: Torch", (object)("Members can now light " + "<col=000080>" + "torches" + "</col>" + "."));
+				case 2:
+					return newstruct cs2func_script_986_struct(1, 36, (object)"Members: Candle", (object)("Members can now light " + "<col=000080>" + "candles" + "</col>" + "."));
+				case 3:
+					return newstruct cs2func_script_986_struct(1, 2862, (object)"Members: Achey logs", (object)("Members can now light " + "<col=000080>" + "achey logs" + "</col>" + "."));
+				case 4:
+					return newstruct cs2func_script_986_struct(4, 4531, (object)"Members: Candle lantern", (object)("Members can now light " + "<col=000080>" + "candle lanterns" + "</col>" + "."));
+				case 5:
+					return newstruct cs2func_script_986_struct(5, 3438, (object)"Members: Pyre logs", (object)("Members can now light " + "<col=000080>" + "pyre logs" + "</col>" + "."));
+				case 6:
+					return newstruct cs2func_script_986_struct(12, 4524, (object)"Members: Oil lamp", (object)("Members can now light " + "<col=000080>" + "oil lamps" + "</col>" + "."));
+				case 7:
+					return newstruct cs2func_script_986_struct(15, 1521, (object)"Oak logs", (object)("You can now light " + "<col=000080>" + "oak logs" + "</col>" + "."));
+				case 8:
+					return newstruct cs2func_script_986_struct(20, 7225, (object)"Members: Iron spit", (object)("Members can now cook with " + "<col=000080>" + "iron spits" + "</col>" + "."));
+				case 9:
+					return newstruct cs2func_script_986_struct(20, 3440, (object)"Members: Oak pyre logs", (object)("Members can now light " + "<col=000080>" + "oak pyre logs" + "</col>" + "."));
+				case 10:
+					return newstruct cs2func_script_986_struct(26, 4539, (object)"Members: Oil lantern", (object)("Members can now light " + "<col=000080>" + "oil lanterns" + "</col>" + "."));
+				case 11:
+					return newstruct cs2func_script_986_struct(30, 1519, (object)"Willow logs", (object)("You can now light " + "<col=000080>" + "willow logs" + "</col>" + "."));
+				case 12:
+					return newstruct cs2func_script_986_struct(33, 7053, (object)"Members: Harpie bug lantern (not a light source)", (object)("Members can now light " + "<col=000080>" + "harpie bug lanterns" + "</col>" + ". These are not a light source."));
+				case 13:
+					return newstruct cs2func_script_986_struct(35, 6333, (object)"Members: Teak logs", (object)("Members can now light " + "<col=000080>" + "teak logs" + "</col>" + "."));
+				case 14:
+					return newstruct cs2func_script_986_struct(35, 3442, (object)"Members: Willow pyre logs", (object)("Members can now light " + "<col=000080>" + "willow pyre logs" + "</col>" + "."));
+				case 15:
+					return newstruct cs2func_script_986_struct(40, 6211, (object)"Members: Teak pyre logs", (object)("Members can now light " + "<col=000080>" + "teak pyre logs" + "</col>" + "."));
+				case 16:
+					return newstruct cs2func_script_986_struct(42, 10810, (object)"Members: Arctic pine logs", (object)("Members can now light " + "<col=000080>" + "arctic pine logs" + "</col>" + "."));
+				case 17:
+					return newstruct cs2func_script_986_struct(45, 1517, (object)"Maple logs", (object)("You can now light " + "<col=000080>" + "maple logs" + "</col>" + "."));
+				case 18:
+					return newstruct cs2func_script_986_struct(47, 10808, (object)"Members: Arctic pine pyre logs", (object)("Members can now light " + "<col=000080>" + "arctic pine pyre logs" + "</col>" + "."));
+				case 19:
+					return newstruct cs2func_script_986_struct(49, 4550, (object)"Members: Bullseye lantern", (object)("Members can now light " + "<col=000080>" + "bullseye lanterns" + "</col>" + "."));
+				case 20:
+					return newstruct cs2func_script_986_struct(49, 4702, (object)"Members: Sapphire lantern", (object)("Members can now light " + "<col=000080>" + "sapphire lanterns" + "</col>" + "."));
+				case 21:
+					return newstruct cs2func_script_986_struct(49, 9065, (object)"Members: Emerald lantern", (object)("Members can now light " + "<col=000080>" + "emerald lanterns" + "</col>" + "."));
+				case 22:
+					return newstruct cs2func_script_986_struct(50, 6332, (object)"Members: Mahogany logs", (object)("Members can now light " + "<col=000080>" + "mahogany logs" + "</col>" + "."));
+				case 23:
+					return newstruct cs2func_script_986_struct(50, 3444, (object)"Members: Maple pyre logs", (object)("Members can now light " + "<col=000080>" + "maple pyre logs" + "</col>" + "."));
+				case 24:
+					return newstruct cs2func_script_986_struct(52, 10973, (object)"Members: Replace Dorgeshuun light orb", (object)("Members can now replace " + "<col=000080>" + "Dorgeshuun light orbs" + "</col>" + "."));
+				case 25:
+					return newstruct cs2func_script_986_struct(55, 6213, (object)"Members: Mahogany pyre logs", (object)("Members can now light " + "<col=000080>" + "mahogany pyre logs" + "</col>" + "."));
+				case 26:
+					return newstruct cs2func_script_986_struct(58, 12581, (object)"Members: Eucalyptus logs", (object)("Members can now light " + "<col=000080>" + "eucalyptus logs" + "</col>" + "."));
+				case 27:
+					return newstruct cs2func_script_986_struct(60, 1515, (object)"Yew logs", (object)("You can now light " + "<col=000080>" + "yew logs" + "</col>" + "."));
+				case 28:
+					return newstruct cs2func_script_986_struct(63, 12583, (object)"Members: Eucalyptus pyre logs", (object)("Members can now light " + "<col=000080>" + "eucalyptus pyre logs" + "</col>" + "."));
+				case 29:
+					return newstruct cs2func_script_986_struct(65, 5013, (object)"Members: Cave goblin mining helmet", (object)("Members can now light " + "<col=000080>" + "cave goblin mining helmets" + "</col>" + "."));
+				case 30:
+					return newstruct cs2func_script_986_struct(65, 3446, (object)"Members: Yew pyre logs", (object)("Members can now light " + "<col=000080>" + "yew pyre logs" + "</col>" + "."));
+				case 31:
+					return newstruct cs2func_script_986_struct(75, 1513, (object)"Members: Magic logs", (object)("Members can now light " + "<col=000080>" + "magic logs" + "</col>" + "."));
+				case 32:
+					return newstruct cs2func_script_986_struct(76, 21600, (object)"Members: Blisterwood logs", (object)("Members can now light " + "<col=000080>" + "blisterwood logs" + "</col>" + "."));
+				case 33:
+					return newstruct cs2func_script_986_struct(80, 3448, (object)"Members: Magic pyre logs", (object)("Members can now light " + "<col=000080>" + "magic pyre logs" + "</col>" + "."));
+				case 34:
+					return newstruct cs2func_script_986_struct(83, 21350, (object)"Members: Curly root", (object)("Members can now light " + "<col=000080>" + "curly roots" + "</col>" + " in the jadinko lair."));
+			}
+			break;
+		case 1:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(-1, 7620, (object)"To start Firemaking in the manner of the barbarians, talk to Otto Godblessed when you have level 35 Firemaking or higher.", (object)"");
+				case 1:
+					return newstruct cs2func_script_986_struct(21, 1511, (object)"Members: Normal Logs", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "normal logs" + "</col>" + " without a tinderbox."));
+				case 2:
+					return newstruct cs2func_script_986_struct(21, 2862, (object)"Members: Achey tree", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "achey tree logs" + "</col>" + " without a tinderbox."));
+				case 3:
+					return newstruct cs2func_script_986_struct(35, 1521, (object)"Members: Oak", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "oak logs" + "</col>" + " without a tinderbox."));
+				case 4:
+					return newstruct cs2func_script_986_struct(50, 1519, (object)"Members: Willow", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "willow logs" + "</col>" + " without a tinderbox."));
+				case 5:
+					return newstruct cs2func_script_986_struct(55, 6333, (object)"Members: Teak", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "teak logs" + "</col>" + " without a tinderbox."));
+				case 6:
+					return newstruct cs2func_script_986_struct(62, 10810, (object)"Members: Arctic pine", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "arctic pine logs" + "</col>" + " without a tinderbox."));
+				case 7:
+					return newstruct cs2func_script_986_struct(65, 1517, (object)"Members: Maple", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "maple logs" + "</col>" + " without a tinderbox."));
+				case 8:
+					return newstruct cs2func_script_986_struct(70, 6332, (object)"Members: Mahogany", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "mahogany logs" + "</col>" + " without a tinderbox."));
+				case 9:
+					return newstruct cs2func_script_986_struct(78, 12581, (object)"Members: Eucalyptus", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "eucalyptus logs" + "</col>" + " without a tinderbox."));
+				case 10:
+					return newstruct cs2func_script_986_struct(80, 1515, (object)"Members: Yew", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "yew logs" + "</col>" + " without a tinderbox."));
+				case 11:
+					return newstruct cs2func_script_986_struct(95, 1513, (object)"Members: Magic", (object)("Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "magic logs" + "</col>" + " without a tinderbox."));
+			}
+			break;
+		case 2:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(-1, 7620, (object)"To start Firemaking in the manner of the barbarians, talk to Otto Godblessed when you have level 35 Firemaking or higher. Pyre ships can only be constructed and burnt where the ground is charred, around the lake next to Otto's hut.", (object)"");
+				case 1:
+					return newstruct cs2func_script_986_struct(11, 1511, (object)("Members: Wood" + "<br>" + " (with 11 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "logs" + "</col>" + ". (They also need level 11 Crafting.)"));
+				case 2:
+					return newstruct cs2func_script_986_struct(11, 2862, (object)("Members: Achey" + "<br>" + " (with 11 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "achey tree logs" + "</col>" + ". (They also need level 11 Crafting.)"));
+				case 3:
+					return newstruct cs2func_script_986_struct(25, 1521, (object)("Members: Oak" + "<br>" + " (with 25 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "oak logs" + "</col>" + ". (They also need level 25 Crafting.)"));
+				case 4:
+					return newstruct cs2func_script_986_struct(40, 1519, (object)("Members: Willow" + "<br>" + " (with 40 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "willow logs" + "</col>" + ". (They also need level 40 Crafting.)"));
+				case 5:
+					return newstruct cs2func_script_986_struct(45, 6333, (object)("Members: Teak" + "<br>" + " (with 45 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "teak logs" + "</col>" + ". (They also need level 45 Crafting.)"));
+				case 6:
+					return newstruct cs2func_script_986_struct(52, 10810, (object)("Members: Arctic pine" + "<br>" + " (with 52 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "arctic pine logs" + "</col>" + ". (They also need level 52 Crafting.)"));
+				case 7:
+					return newstruct cs2func_script_986_struct(55, 1517, (object)("Members: Maple" + "<br>" + " (with 55 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "maple logs" + "</col>" + ". (They also need level 55 Crafting.)"));
+				case 8:
+					return newstruct cs2func_script_986_struct(60, 6332, (object)("Members: Mahogany" + "<br>" + " (with 60 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "mahogany logs" + "</col>" + ". (They also need level 60 Crafting.)"));
+				case 9:
+					return newstruct cs2func_script_986_struct(68, 12581, (object)("Members: Eucalyptus" + "<br>" + " (with 68 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "eucalyptus logs" + "</col>" + ". (They also need level 68 Crafting.)"));
+				case 10:
+					return newstruct cs2func_script_986_struct(70, 1515, (object)("Members: Yew" + "<br>" + " (with 70 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "yew logs" + "</col>" + ". (They also need level 70 Crafting.)"));
+				case 11:
+					return newstruct cs2func_script_986_struct(85, 1513, (object)("Members: Magic" + "<br>" + " (with 85 Crafting)"), (object)("Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "magic logs" + "</col>" + ". (They also need level 85 Crafting.)"));
+			}
+			break;
+		case 3:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(1, 590, (object)"Tinderbox", (object)("You can now light fires with a " + "<col=000080>" + "tinderbox" + "</col>" + "."));
+				case 1:
+					return newstruct cs2func_script_986_struct(61, 15241, (object)("Members: Chaos dwarf hand cannon" + "<br>" + " (after Forgiveness of a Chaos Dwarf and with 75 Ranged)"), (object)("Members now have the Firemaking level required to fire the " + "<col=000080>" + "chaos dwarf hand cannon" + "</col>" + " (after Forgiveness of a Chaos Dwarf and with 75 Ranged)."));
+				case 2:
+					return newstruct cs2func_script_986_struct(62, 13659, (object)("Members: Ring of Fire" + "<br>" + " (after All Fired Up)"), (object)("Members can now wear the " + "<col=000080>" + "Ring of Fire" + "</col>" + " (after All Fired Up)."));
+				case 3:
+					return newstruct cs2func_script_986_struct(74, 23027, (object)("Members: Book of Char" + "<br>" + " (after The Firemaker's Curse)"), (object)("Members can now use the " + "<col=000080>" + "Book of Char" + "</col>" + " (after The Firemaker's Curse)."));
+				case 4:
+					return newstruct cs2func_script_986_struct(79, 13660, (object)("Members: Flame Gloves" + "<br>" + " (after All Fired Up)"), (object)("Members can now wear the " + "<col=000080>" + "Flame Gloves" + "</col>" + " (after All Fired Up)."));
+				case 5:
+					return newstruct cs2func_script_986_struct(92, 13661, (object)("Members: Inferno Adze" + "<br>" + " (after All Fired Up)"), (object)("Members can now use the " + "<col=000080>" + "Inferno Adze" + "</col>" + " (after All Fired Up)."));
+			}
+			break;
+		case 4:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(-1, 7620, (object)"To use the beacons, you must have completed All Fired Up.", (object)"");
+				case 1:
+					return newstruct cs2func_script_986_struct(43, 13662, (object)"Members: Beacon near the River Salve", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "River Salve" + "</col>" + " (after All Fired Up)."));
+				case 2:
+					return newstruct cs2func_script_986_struct(43, 13662, (object)"Members: Beacon near the Rag and Bone Man", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Rag and Bone Man" + "</col>" + " (after All Fired Up)."));
+				case 3:
+					return newstruct cs2func_script_986_struct(48, 13662, (object)"Members: Beacon near the Jolly Boar", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Jolly Boar" + "</col>" + " (after All Fired Up)."));
+				case 4:
+					return newstruct cs2func_script_986_struct(53, 13662, (object)"Members: Beacon north of Varrock Palace", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " north of " + "<col=000080>" + "Varrock Palace" + "</col>" + " (after All Fired Up)."));
+				case 5:
+					return newstruct cs2func_script_986_struct(59, 13662, (object)"Members: Beacon near the Grand Exchange", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Grand Exchange" + "</col>" + " (after All Fired Up)."));
+				case 6:
+					return newstruct cs2func_script_986_struct(62, 13662, (object)"Members: Beacon near Edgeville", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Edgeville" + "</col>" + " (after All Fired Up)."));
+				case 7:
+					return newstruct cs2func_script_986_struct(68, 13662, (object)("Members: Beacon near the Monastery" + "<br>" + " (after joining the Monastery)"), (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "the Monastery" + "</col>" + " (after All Fired Up and after joining the Monastery)."));
+				case 8:
+					return newstruct cs2func_script_986_struct(72, 13662, (object)("Members: Beacon near Goblin Village" + "<br>" + " (after Land of the Goblins)"), (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Goblin Village" + "</col>" + " (after All Fired Up and Land of the Goblins)."));
+				case 9:
+					return newstruct cs2func_script_986_struct(76, 13662, (object)("Members: Beacon near Burthorpe" + "<br>" + " (with 56 Smithing)"), (object)("Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Burthorpe" + "</col>" + ". (They also need level 56 Smithing and to have completed All Fired Up)."));
+				case 10:
+					return newstruct cs2func_script_986_struct(79, 13662, (object)("Members: Beacon east of Death Plateau" + "<br>" + " (with 42 Construction)"), (object)("Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " east of " + "<col=000080>" + "Death Plateau" + "</col>" + ". (They also need level 42 Construction and to have completed All Fired Up)."));
+				case 11:
+					return newstruct cs2func_script_986_struct(83, 13662, (object)("Members: Beacon near the Trollheim shortcut" + "<br>" + " (with 64 Agility)"), (object)("Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Trollheim shortcut" + "</col>" + ". (They also need level 64 Agility and to have completed All Fired Up)."));
+				case 12:
+					return newstruct cs2func_script_986_struct(87, 13662, (object)("Members: Beacon near the entrance to the God Wars Dungeon" + "<br>" + " (with 60 Crafting)"), (object)("Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the entrance to the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + ". (They also need level 60 Crafting and to have completed All Fired Up)."));
+				case 13:
+					return newstruct cs2func_script_986_struct(89, 13662, (object)("Members: Beacon near small temple in the Wilderness" + "<br>" + " (with 70 Smithing or 59 Construction)"), (object)("Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "small temple in the Wilderness" + "</col>" + ". (They will also need level 70 Smithing or level 59 Construction, and to have completed All Fired Up)."));
+				case 14:
+					return newstruct cs2func_script_986_struct(92, 13662, (object)"Members: Beacon on the Frozen Waste Plateau", (object)("Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " on the " + "<col=000080>" + "Frozen Waste Plateau" + "</col>" + " (after All Fired Up)."));
+			}
+			break;
+		case 5:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(91, 18778, (object)"Members: Starved ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Firemaking."));
+				case 1:
+					return newstruct cs2func_script_986_struct(93, 18779, (object)"Members: Nourished ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Firemaking."));
+				case 2:
+					return newstruct cs2func_script_986_struct(95, 18780, (object)"Members: Sated ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Firemaking."));
+				case 3:
+					return newstruct cs2func_script_986_struct(97, 18781, (object)"Members: Gorged ancient effigies", (object)("Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Firemaking."));
+			}
+			break;
+		case 6:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(1, 14667, (object)"Members: Burn basic evil tree", (object)("Members can now burn " + "<col=000080>" + "basic evil trees" + "</col>"));
+				case 1:
+					return newstruct cs2func_script_986_struct(15, 14667, (object)"Members: Burn evil oak tree", (object)("Members can now burn " + "<col=000080>" + "evil oak trees" + "</col>"));
+				case 2:
+					return newstruct cs2func_script_986_struct(30, 14667, (object)"Members: Burn evil willow tree", (object)("Members can now burn " + "<col=000080>" + "evil willow trees" + "</col>"));
+				case 3:
+					return newstruct cs2func_script_986_struct(45, 14667, (object)"Members: Burn evil maple tree", (object)("Members can now burn " + "<col=000080>" + "evil maple trees" + "</col>"));
+				case 4:
+					return newstruct cs2func_script_986_struct(55, 14619, (object)"Members: Phoenix Lair - funeral pyre", (object)("Members can now light the phoenix's " + "<col=000080>" + "funeral pyre" + "</col>" + " in the phoenix lair."));
+				case 5:
+					return newstruct cs2func_script_986_struct(60, 14667, (object)"Members: Burn evil yew tree", (object)("Members can now burn " + "<col=000080>" + "evil yew trees" + "</col>"));
+				case 6:
+					return newstruct cs2func_script_986_struct(75, 14667, (object)"Members: Burn evil magic tree", (object)("Members can now burn " + "<col=000080>" + "evil magic trees" + "</col>"));
+				case 7:
+					return newstruct cs2func_script_986_struct(85, 14667, (object)"Members: Burn elder evil tree", (object)("Members can now burn " + "<col=000080>" + "elder evil trees" + "</col>"));
+			}
+			break;
+		case 7:
+			switch (arg1) {
+				case 0:
+					return newstruct cs2func_script_986_struct(-1, 15707, (object)("Dungeoneering skill tasks" + "<br>" + "As your Firemaking level increases, you will be able to attempt higher-level firemaking tasks within Daemonheim. You will also be more likely to succeed when attempting firemaking tasks within Daemonheim."), (object)"");
+				case 1:
+					return newstruct cs2func_script_986_struct(1, 17682, (object)"Tangle gum branches (Tier 1)", (object)("You can now light " + "<col=000080>" + "tangle gum branches" + "</col>" + " within Daemonheim."));
+				case 2:
+					return newstruct cs2func_script_986_struct(10, 17684, (object)"Seeping elm branches (Tier 2)", (object)("You can now light " + "<col=000080>" + "seeping elm branches" + "</col>" + " within Daemonheim."));
+				case 3:
+					return newstruct cs2func_script_986_struct(20, 17686, (object)"Blood spindle branches (Tier 3)", (object)("You can now light " + "<col=000080>" + "blood spindle branches" + "</col>" + " within Daemonheim."));
+				case 4:
+					return newstruct cs2func_script_986_struct(30, 17688, (object)"Utuku branches (Tier 4)", (object)("You can now light " + "<col=000080>" + "utuku branches" + "</col>" + " within Daemonheim."));
+				case 5:
+					return newstruct cs2func_script_986_struct(40, 17690, (object)"Spinebeam branches (Tier 5)", (object)("You can now light " + "<col=000080>" + "spinebeam branches" + "</col>" + " within Daemonheim."));
+				case 6:
+					return newstruct cs2func_script_986_struct(50, 17692, (object)"Members: Bovistrangler branches (Tier 6)", (object)("Members can now light " + "<col=000080>" + "bovistrangler branches" + "</col>" + " within Daemonheim."));
+				case 7:
+					return newstruct cs2func_script_986_struct(60, 17694, (object)"Members: Thigat branches (Tier 7)", (object)("Members can now light " + "<col=000080>" + "thigat branches" + "</col>" + " within Daemonheim."));
+				case 8:
+					return newstruct cs2func_script_986_struct(70, 17696, (object)"Members: Corpsethorn branches (Tier 8)", (object)("Members can now light " + "<col=000080>" + "corpsethorn branches" + "</col>" + " within Daemonheim."));
+				case 9:
+					return newstruct cs2func_script_986_struct(80, 17698, (object)"Members: Entgallow branches (Tier 9)", (object)("Members can now light " + "<col=000080>" + "entgallow branches" + "</col>" + " within Daemonheim."));
+				case 10:
+					return newstruct cs2func_script_986_struct(90, 17700, (object)"Members: Grave creeper branches (Tier 10)", (object)("Members can now light " + "<col=000080>" + "grave creeper branches" + "</col>" + " within Daemonheim."));
+			}
+			break;
+		case 8:
+			if (arg1 == 0) {
+				return newstruct cs2func_script_986_struct(99, 9804, (object)"Skill mastery", (object)("<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Firemaking" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Ignatius" + "<col=000080>" + ", south of " + "<col=800000>" + "Seers' Village" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Firemaking" + "<col=000080>" + " skill!"));
+			}
+	}
+	return newstruct cs2func_script_986_struct(0, -1, (object)"", (object)"");
+}

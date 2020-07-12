@@ -1,0 +1,48 @@
+void script_2220() {
+	if (bitconfig_7324 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(931,121));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(931,121));
+	}
+	if (bitconfig_7325 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(931,122));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(931,122));
+	}
+	if (bitconfig_7326 == 1) {
+		setWidgetIsHidden(true, new WidgetPointer(931,123));
+	} else {
+		setWidgetIsHidden(false, new WidgetPointer(931,123));
+	}
+	setWidgetText(new WidgetPointer(931,154), (object)toString(globalint_1126));
+	setWidgetText(new WidgetPointer(931,148), (object)toString(globalint_1127));
+	setWidgetText(new WidgetPointer(931,142), (object)toString(globalint_1128));
+	setWidgetText(new WidgetPointer(931,112), (object)toString(globalint_1129));
+	setWidgetText(new WidgetPointer(931,136), (object)toString(globalint_1131));
+	setWidgetText(new WidgetPointer(931,130), (object)toString(globalint_1130));
+	setWidgetText(new WidgetPointer(931,155), (object)("Total Workers: " + toString(globalint_1135)));
+	setWidgetText(new WidgetPointer(931,115), (object)(toString(standart_config_1687) + "/15"));
+	setWidgetText(new WidgetPointer(931,117), (object)(toString(standart_config_1688) + "/15"));
+	setWidgetText(new WidgetPointer(931,116), (object)(toString(standart_config_1686) + "/15"));
+	setWidgetText(new WidgetPointer(931,120), (object)(toString(standart_config_1689) + "/7"));
+	setWidgetText(new WidgetPointer(931,118), (object)(toString(standart_config_1690) + "/7"));
+	setWidgetText(new WidgetPointer(931,119), (object)(toString(standart_config_1691) + "/7"));
+	script_2221();
+	setWidgetText(new WidgetPointer(931,20), (object)("Turn " + toString(standart_config_1674) + "/15"));
+	if (globalint_1132 == 0) {
+		cs2method_10467(941, 61014137);
+	} else {
+		cs2method_10467(942, 61014137);
+	}
+	if (globalint_1134 == 0) {
+		cs2method_10467(941, 61014138);
+	} else {
+		cs2method_10467(942, 61014138);
+	}
+	if (globalint_1133 == 0) {
+		cs2method_10467(941, 61014139);
+	} else {
+		cs2method_10467(942, 61014139);
+	}
+	return;
+}

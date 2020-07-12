@@ -1,0 +1,18 @@
+void script_1921() {
+	if (globalint_551 > 0) {
+		setWidgetText(new WidgetPointer(812,5), cs2method_10445(cs2method_10793(globalint_551, cs2method_10445((object)globalstring_40, (object)" (")), (object)")"));
+	} else {
+		setWidgetText(new WidgetPointer(812,5), (object)globalstring_40);
+	}
+	if (globalint_552 > 0) {
+		setWidgetText(new WidgetPointer(812,6), cs2method_10445(cs2method_10793(globalint_552, cs2method_10445((object)globalstring_41, (object)" (")), (object)")"));
+	} else {
+		setWidgetText(new WidgetPointer(812,6), (object)globalstring_41);
+	}
+	if (globalint_553 > 0) {
+		setWidgetText(new WidgetPointer(812,7), cs2method_10445(cs2method_10793(globalint_553, cs2method_10445((object)globalstring_42, (object)" (")), (object)")"));
+	} else {
+		setWidgetText(new WidgetPointer(812,7), (object)globalstring_42);
+	}
+	return;
+}

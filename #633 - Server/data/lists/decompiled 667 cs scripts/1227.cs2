@@ -1,0 +1,22 @@
+void script_1227(int arg0,int arg1,int arg2) {
+	int ivar3;
+	if (bitconfig_1549 < 1 || bitconfig_1549 > 63) {
+		setWidgetIsHidden(true, new WidgetPointer(arg1));
+		setWidgetIsHidden(true, new WidgetPointer(arg2));
+		return;
+	}
+	if (bitconfig_1549 == 63) {
+		setWidgetText(new WidgetPointer(arg2), (object)"TzTok-Jad");
+	} else {
+		setWidgetText(new WidgetPointer(arg2), (object)("Wave " + toString(bitconfig_1549)));
+	}
+	ivar3 = subtract(0, cs2method_10090(arg0));
+	cs2method_10444(0, ivar3, 1, 1, arg1);
+	cs2method_10444(0, ivar3, 1, 1, arg2);
+	setWidgetIsHidden(false, new WidgetPointer(arg1));
+	setWidgetIsHidden(false, new WidgetPointer(arg2));
+	cs2method_20219(1228, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), cs2method_10878(), "IIIi", new WidgetPointer(arg0));
+	cs2method_10375(1, arg1, (object)"Dismiss");
+	cs2method_20000(1229, -2147483644, new WidgetPointer(arg0), new WidgetPointer(arg1), new WidgetPointer(arg2), "iIII", new WidgetPointer(arg1));
+	return;
+}

@@ -1,0 +1,12 @@
+void script_4145(int arg0,int arg1) {
+	if (globalint_98 >= 1) {
+		setWidgetIsHidden(false, new WidgetPointer(arg0));
+		cs2method_10938(arg0, (object)"I don't know it.");
+		cs2method_10444(0, subtract(0, divide(cs2method_10090(arg1), 2)), 1, 1, arg1);
+	} else {
+		setWidgetIsHidden(true, new WidgetPointer(arg0));
+		cs2method_10831(arg0);
+		cs2method_10444(0, 0, 1, 1, arg1);
+	}
+	return;
+}

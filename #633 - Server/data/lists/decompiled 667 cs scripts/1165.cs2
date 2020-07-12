@@ -1,0 +1,8 @@
+void script_1165() {
+	int ivar0;
+	int ivar1;
+	ivar0 = subtract(cs2method_10956(28114986), cs2method_10956(28114987));
+	ivar1 = cs2method_10542(cs2method_10216(), 127, ivar0);
+	cs2method_10444(ivar1, 0, 0, 0, 28114987);
+	return;
+}

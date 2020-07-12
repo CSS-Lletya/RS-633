@@ -1,0 +1,29 @@
+int script_5939(int arg0) {
+	int ivar1;
+	ivar1 = 0;
+	if (arg0 == subtract(bitconfig_11155, 1)) {
+		ivar1 = 3;
+	} else {
+		switch (arg0) {
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 10:
+			case 12:
+				ivar1 = 0;
+				break;
+			case 2:
+			case 6:
+			case 9:
+			case 11:
+				ivar1 = 1;
+				break;
+			case 0:
+			case 4:
+			case 8:
+				ivar1 = 2;
+		}
+	}
+	return ivar1;
+}

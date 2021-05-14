@@ -1,0 +1,15 @@
+data/cache
+out/
+bin
+target/
+.settings
+.idea/
+*.iml
+.classpath
+.project
+data/displayNames.ser
+data/dtRanks.ser
+data/pkRanks.ser
+data/characters
+data/charactersBackup
+/data/libs/HikariCP-2.6.2.jar
